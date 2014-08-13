@@ -1,0 +1,121 @@
+		<img src="/assets/19720507.svgz">
+
+		<div class="content">
+			<h1>Instructions</h1>
+			<p><a href="http://www.winewithoutbottles.com/wp-content/uploads/2010/04/wwob-instructions.pdf">Download the instructions</a> [PDF, 119 KB] and contribute to Wine Without Bottles.</p>
+			<p>Instructions for producing freely distributable, endlessly repeatable and autonomously created works of art.</p>
+			<ol>
+				<li>Select a data set that can be expressed as key/value pairs. Examples of suitable types of data include: the set lists from Grateful Dead concerts where the song title is the key and the length of the song is the value, or weekly batting averages for the Cincinnati Reds where the players’ name is the key and their batting average is the value. In either case, the set list for a complete concert or the entire team roster will make up the universe of data you will be using for this exercise.
+					<div id="key-value" class="example">
+						<h3>Examples</h3>
+						<dl class="clearfix">
+							<dt><strong>Lazy River Road</strong> (song title)</dt>
+							<dd><strong>7:07</strong> (performance length)</dd>
+							<dt><strong>Joey Votto</strong> (player name)</dt>
+							<dd><strong>.309</strong> (batting average)</dd>
+							<dt class="definition"><strong>Key</strong></dt>
+							<dd class="definition"><strong>Value</strong></dd>
+						</dl>
+					</div>
+				</li>
+				<li>Use the attached key (figure 1) to assign the corresponding variable to each letter of each word for the key elements. Ignore punctuation and accent marks. Spaces convert to zero.
+					<div id="fig1" class="figure clearfix">
+						<h3>Figure 1</h3>
+						<h4>Character Variables</h4>
+						<dl>
+							<dt>space = </dt>
+							<dd>0</dd>
+							<dt>A = </dt>
+							<dd>10</dd>
+							<dt>B = </dt>
+							<dd>20</dd>
+							<dt>C = </dt>
+							<dd>30</dd>
+							<dt>D = </dt>
+							<dd>40</dd>
+							<dt>E = </dt>
+							<dd>50</dd>
+							<dt>F = </dt>
+							<dd>60</dd>
+							<dt>G = </dt>
+							<dd>70</dd>
+							<dt>H = </dt>
+							<dd>80</dd>
+						</dl>
+						<dl>
+							<dt>I = </dt>
+							<dd>90</dd>
+							<dt>J = </dt>
+							<dd>100</dd>
+							<dt>K = </dt>
+							<dd>110</dd>
+							<dt>L = </dt>
+							<dd>120</dd>
+							<dt>M = </dt>
+							<dd>130</dd>
+							<dt>N = </dt>
+							<dd>140</dd>
+							<dt>O = </dt>
+							<dd>150</dd>
+							<dt>P = </dt>
+							<dd>160</dd>
+							<dt>Q = </dt>
+							<dd>170</dd>
+						</dl>
+						<dl>
+							<dt>R = </dt>
+							<dd>180</dd>
+							<dt>S = </dt>
+							<dd>190</dd>
+							<dt>T = </dt>
+							<dd>200</dd>
+							<dt>U = </dt>
+							<dd>210</dd>
+							<dt>V = </dt>
+							<dd>220</dd>
+							<dt>W = </dt>
+							<dd>230</dd>
+							<dt>X = </dt>
+							<dd>240</dd>
+							<dt>Y = </dt>
+							<dd>250</dd>
+							<dt>Z = </dt>
+							<dd>255</dd>
+						</dl>
+					</div>
+				</li>
+				<li>Separate the assigned values into three equal groupings as best as possible. If the total character count is divisible by three you will be left with three equal groupings.If there is one character value left over, this remainder should be included with the middle group. A key element containing ten characters will have three characters in the first group, four in the second and three again in the third.If there are two characters left over, the remainders should be distributed to the first and third groupings. For a key element containing eleven characters, the groupings will be four, three and four (see figure 2).
+					<div id="fig2" class="figure">
+						<h3>Figure 2</h3>
+						<h4>How To Separate Elements</h4>
+						<ul>
+							<li>&#8220;Lazy River Road&#8221; becomes <strong>Lazy_ | River | _Road</strong> (15 <em>characters</em>)</li>
+							<li>&#8220;Joey Votto&#8221; becomes <strong>Joe | y_Vo | tto</strong> (10 <em>characters</em>)</li>
+							<li>&#8220;Paul Janish&#8221; becomes <strong>Paul | _Ja | nish</strong> (11 <em>characters</em>)</li>
+						</ul>
+					</div>
+				</li>
+				<li>Find the average character value for each of the three groupings. These averaged values will stand for the three respective RGB values for each key element. The value for the first group will correspond to the Red value, the second for Green and the third for Blue.
+					<div id="rgb-values" class="example">
+					<h3>Example</h3>
+					<dl class="clearfix">
+						<dt><strong>Lazy_</strong> = 120 + 10 + 255 + 250 + 0 / 5 = 127</dt>
+						<dd>R value</dd>
+						<dt><strong>River</strong> = 180 + 90 + 220 + 50 + 180 / 5 = 144</dt>
+						<dd>G value</dd>
+						<dt><strong>_Road</strong> = 0 + 180 + 150 + 10 + 40 / 5 = 76</dt>
+						<dd>B value</dd>
+					</dl>
+					<p>This makes the RGB values for &#8220;Lazy River Road&#8221; 127, 144 and 76. The resulting color looks like this: <span>Lazy River Road RGB values: 127, 144, 76</span>.</p>
+					</div>
+				</li>
+				<li>In a vector graphics editing program, such as Adobe Illustrator, create a rectangle with no stroke attributes for each key/value pair and fill the rectangle with the color for each pair determined in step four. These rectangles should be arranged horizontally with their vertical borders adjacent but not overlapping and with their horizontal top and bottom borders evenly aligned (see figure 3).
+				<div id="fig3" class="figure">
+				<h3>Figure 3</h3>
+				<p><img class="alignnone size-full wp-image-65 colorbox-45" title="fig3" src="http://www.winewithoutbottles.com/wp-content/uploads/2010/11/fig3.png" alt="Yes! No! No! Terrible!" width="460" height="60" />
+				</div>
+				<p>The width of each rectangle should correspond to some predetermined and consistent scale. For example, in the instance of the Grateful Dead set lists given above, 1 minute of performance time could equal 1 centimeter, or, for the weekly batting averages of the Cincinnati Reds, 1/100th of a percentile could equal 1/16th of an inch. The scale is entirely up to you. Keep in mind that you may reduce or enlarge the final output at your discretion. What you’re aiming to establish in this step is a constant scale by which to determine the width of the stripes in relation to one another.</p>
+				<p>The overall height of a particular finished data set is arbitrary.</li>
+				<li>Output and distribute by any means available, such as this website.</li>
+			</ol>
+		</div>
