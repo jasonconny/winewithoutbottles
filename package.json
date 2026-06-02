@@ -3,12 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "apollo-client-preset": "^1.0.8",
-    "apollo-link-ws": "^1.0.7",
-    "graphql": "^0.13.2",
-    "graphql-tag": "^2.8.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.11.1",
@@ -19,16 +13,9 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1"
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
-  },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "precommit": "lint-staged",
     "start-js": "react-scripts start",
     "start": "npm-run-all start-js watch-css",
     "build": "react-scripts build",
