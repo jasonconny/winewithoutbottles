@@ -1,0 +1,29 @@
+@use 'sass:map';
+
+// Mobile-first breakpoints (min-width based).
+// `xs` is the base — write default styles with no media query, then layer
+// larger screens up with `respond-to(...)`. See CLAUDE.md → Conventions.
+$breakpoints: (
+  'sm': 480px,
+  // large phones
+  'md': 768px,
+  // tablets
+  'lg': 1024px,
+  // laptops
+  'xl': 1280px, // large desktops
+);
+
+/// Apply styles at or above a named breakpoint (mobile-first / min-width).
+/// @example scss
+///   @include respond-to('md') { padding: 2rem; }
+@mixin respond-to($name) {
+  $min: map.get($breakpoints, $name);
+
+  @if $min == null {
+    @error "Unknown breakpoint `#{$name}`. Valid: #{map.keys($breakpoints)}.";
+  }
+
+  @media (min-width: $min) {
+    @content;
+  }
+}

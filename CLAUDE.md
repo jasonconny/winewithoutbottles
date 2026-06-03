@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Wine Without Bottles — a web-based art project by Jason Conny. Currently an early-stage scaffold: a single placeholder `App` component with no domain logic wired up yet.
+Wine Without Bottles — a web-based art project by Jason Conny that translates Grateful Dead setlists into abstract striped SVGs (each stripe = a song; color derived from the title, width from duration). The site is one "vessel" for the work. Current surfaces: a placeholder homepage hero (`src/App.tsx`) and a hidden `/builder` easter-egg route that ports the original manual SVG generator. The core algorithm ("the machine") lives framework-free in `src/wwob/`.
 
 ## Commands
 
@@ -35,6 +35,8 @@ Vite + React 19 + TypeScript SPA, migrated from Create React App.
 
 ## Conventions
 
+- **Mobile-first responsive design**: author base styles for the smallest viewport first, then layer complexity for larger screens with `min-width` media queries (not `max-width`/desktop-down). Favor fluid, relative units (`rem`, `%`, `vw`/`vh`, `clamp()`) over fixed `px` for anything that should adapt. Applies to all new and updated SCSS. Use the breakpoint system in `src/styles/_breakpoints.scss` (`@use` it, then `@include respond-to('md') { … }`).
+- **Accessibility**: no formal WCAG conformance level is targeted, but stay mindful — semantic HTML, labeled form controls, visible focus states, never convey meaning by color alone, and respect `prefers-reduced-motion`. Deliberate exception: the homepage `<h1>` is a brand **logotype** rendered as an intentional low-contrast watermark over the artwork (WCAG 1.4.3 exempts logotypes from contrast); its accessible name is preserved via real `<h1>` text + the document `<title>`. Do not "fix" the heading's contrast — automated scanners (axe/Lighthouse) will flag it, and that is expected.
 - Prettier with single quotes (`.prettierrc.json`) — run `npm run format` before committing.
 - ESLint uses flat config with `typescript-eslint`, `react-hooks` (`configs.flat.recommended`), and `react-refresh`. Note the v7 react-hooks gotcha: the flat config lives under `reactHooks.configs.flat.*`; the top-level `recommended`/`recommended-latest` keys are legacy eslintrc format and will not load in flat config.
-- `react-router-dom` v7 is installed but not yet imported anywhere; routing is not wired up.
+- Routing uses `react-router-dom` v7 (`createBrowserRouter` + `RouterProvider` in `src/index.tsx`); routes are defined in `src/router.tsx`. `/` → `App` (hero), `/builder` → the unlinked builder easter egg, `*` → redirect home. `public/_redirects` provides SPA fallback for static hosting.
