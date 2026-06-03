@@ -2,37 +2,41 @@
   "name": "winewithoutbottles",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "apollo-client-preset": "^1.0.8",
-    "apollo-link-ws": "^1.0.7",
-    "graphql": "^0.13.2",
-    "graphql-tag": "^2.8.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
-    "node-sass-chokidar": "^1.2.2",
-    "npm-run-all": "^4.1.2",
-    "prettier": "^1.11.1",
-    "react": "^16.2.0",
-    "react-apollo": "^2.1.1",
-    "react-dom": "^16.2.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
-  },
+  "type": "module",
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "precommit": "lint-staged",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all start-js watch-css",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "lint": "eslint .",
+    "typecheck": "tsc -b --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "start": "npm run dev",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^10.4.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.5.0",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.60.1",
+    "vite": "^7.0.0",
+    "vitest": "^4.1.8"
   }
 }
