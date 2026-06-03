@@ -1,14 +1,21 @@
 # Cloudflare Worker (Static Assets) deploy for the WWOB site.
-# Separate "staging" Worker from the live temp site (`wwob-tmp`): this deploys
-# to a *.workers.dev URL and leaves winewithoutbottles.com untouched until the
-# custom domain is moved here manually.
+# Serves the live site at winewithoutbottles.com (custom domains codified below).
+# Deploy with `npm run deploy` (builds first).
 name = "winewithoutbottles"
 compatibility_date = "2025-06-03"
 account_id = "9166eee081850be3de4809d196801105"
 
+# Live custom domains — Cloudflare manages the proxied DNS record + edge cert.
+# Idempotent with the domains already attached to this Worker via the dashboard
+# during the 2026-06-03 cutover; keeps the binding reproducible going forward.
+routes = [
+  { pattern = "winewithoutbottles.com", custom_domain = true },
+  { pattern = "www.winewithoutbottles.com", custom_domain = true },
+]
+
 [assets]
 directory = "./dist"
 # Serve index.html for unknown paths so client-side routes (/builder,
-# /placeholder) deep-link correctly. This is the Workers-Static-Assets
-# equivalent of a Pages `/* /index.html 200` redirect.
+# /placeholder) deep-link correctly. Workers-Static-Assets equivalent of a
+# Pages `/* /index.html 200` redirect.
 not_found_handling = "single-page-application"
