@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview",
+    "dev": "vite",
     "lint": "tsc -b --noEmit",
+    "start": "npm run dev",
+    "preview": "vite preview",
     "test": "vitest"
   },
   "dependencies": {
