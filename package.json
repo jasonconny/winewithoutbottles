@@ -12,6 +12,8 @@
     "format:check": "prettier --check .",
     "start": "npm run dev",
     "preview": "vite preview",
+    "deploy": "npm run build && wrangler deploy",
+    "cf:preview": "npm run build && wrangler dev",
     "test": "vitest",
     "prepare": "husky"
   },
@@ -49,6 +51,7 @@
     "typescript": "^5.7.0",
     "typescript-eslint": "^8.60.1",
     "vite": "^7.0.0",
-    "vitest": "^4.1.8"
+    "vitest": "^4.1.8",
+    "wrangler": "^4.97.0"
   }
 }
