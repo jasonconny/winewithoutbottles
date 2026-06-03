@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import App from '../src/App';
+import App from '@/App';
 
-it('renders the welcome heading', () => {
+it('renders the site heading', () => {
   render(<App />);
   expect(
-    screen.getByRole('heading', { name: /welcome to react/i }),
+    screen.getByRole('heading', { name: /wine without bottles/i }),
   ).toBeInTheDocument();
 });
