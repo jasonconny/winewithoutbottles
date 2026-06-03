@@ -26,7 +26,7 @@ Node version is pinned in `.nvmrc` (26.3.0).
 
 Vite + React 19 + TypeScript SPA, migrated from Create React App.
 
-- **Entry flow**: `index.html` (project root, not `public/`) loads `src/main.tsx`, which mounts `<App />` via React 19's `createRoot` into `#root`. Static assets live in `public/` and are served from `/`.
+- **Entry flow**: `index.html` (project root, not `public/`) loads `src/index.tsx`, which mounts `<App />` via React 19's `createRoot` into `#root`. Static assets live in `public/` and are served from `/`.
 - **Import alias**: `@/` resolves to `src/` (configured in both `vite.config.ts` `resolve.alias` and `tsconfig.app.json` `paths`). Prefer `@/...` over deep relative imports; tests use it too (`import App from '@/App'`).
 - **Env vars**: only `VITE_`-prefixed vars are exposed to the browser via `import.meta.env`; they are PUBLIC (baked into the bundle) — never secrets. See `.env.example`; local overrides go in gitignored `.env*` files.
 - **TypeScript** uses project references: `tsconfig.json` is a thin root that points to `tsconfig.app.json` (app code under `src/`, bundler resolution, strict) and `tsconfig.node.json` (the Vite config). Edit the appropriate child, not the root.
