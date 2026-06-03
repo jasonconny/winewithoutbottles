@@ -15,6 +15,13 @@ describe('routing', () => {
     ).toBeInTheDocument();
   });
 
+  it('renders the placeholder at the hidden /placeholder route', () => {
+    renderAt('/placeholder');
+    expect(
+      screen.getByRole('heading', { name: /wine without bottles/i }),
+    ).toBeInTheDocument();
+  });
+
   it('redirects unknown routes home', () => {
     renderAt('/nope');
     expect(

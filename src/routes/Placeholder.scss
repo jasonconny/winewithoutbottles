@@ -1,0 +1,40 @@
+@use '../styles/breakpoints' as bp;
+
+.Placeholder {
+  // Center the title both axes, at any viewport, mobile-first.
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  width: 100%;
+  // Keeps the title off the screen edges on small phones.
+  padding: 1.25rem;
+
+  // 8/27/72 striped piece: full-width, tiling down the page.
+  background: #000 url('/images/19720827.svg') repeat-y;
+  background-size: 100% auto;
+
+  @include bp.respond-to('md') {
+    padding: 2rem;
+  }
+
+  @include bp.respond-to('lg') {
+    padding: 3rem;
+  }
+
+  h1 {
+    margin: 0;
+    // Deliberately faint: the title is a logotype watermark over the artwork.
+    // The low contrast is an intentional brand treatment (WCAG 1.4.3 logotype
+    // exemption); the accessible name lives in the real <h1> text + <title>.
+    color: rgba(0, 0, 0, 0.125);
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+    // Fluid from phones (~2.25rem) up to the original desktop size (8rem).
+    // The `1rem +` term keeps the size responsive to browser text-zoom; wrapped
+    // in calc() so Sass doesn't try to evaluate the mixed rem/vw units.
+    // `text-wrap: balance` (global reset) keeps the wrap tidy.
+    font-size: clamp(2.25rem, calc(1rem + 7vw), 8rem);
+  }
+}
