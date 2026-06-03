@@ -1,6 +1,6 @@
-@use './styles/breakpoints' as bp;
+@use '../styles/breakpoints' as bp;
 
-.App {
+.Placeholder {
   // Center the title both axes, at any viewport, mobile-first.
   display: flex;
   align-items: center;

@@ -1,8 +1,13 @@
-import './App.scss';
+import './Placeholder.scss';
 
-function App() {
+/**
+ * Public holding page for winewithoutbottles.com. Currently the index route
+ * ('/'); also reachable at the hidden '/placeholder' route so it stays
+ * available once '/' is later repointed to the real app.
+ */
+export default function Placeholder() {
   return (
-    <div className="App">
+    <div className="Placeholder">
       <header>
         {/*
           Brand logotype. Intentionally a faint, low-contrast watermark over the
@@ -16,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

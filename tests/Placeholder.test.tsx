@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from '@/App';
+import Placeholder from '@/routes/Placeholder';
 
 it('renders the site heading', () => {
-  render(<App />);
+  render(<Placeholder />);
   expect(
     screen.getByRole('heading', { name: /wine without bottles/i }),
   ).toBeInTheDocument();
