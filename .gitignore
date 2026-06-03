@@ -8,6 +8,10 @@
 
 # production
 /build
+/dist
+
+# vite / typescript
+*.tsbuildinfo
 
 # misc
 .DS_Store
