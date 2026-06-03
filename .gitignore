@@ -31,5 +31,7 @@ yarn-error.log*
 .idea
 ABOUT.md
 
-# wrangler local state
+# wrangler local state + local secrets
 .wrangler/
+.dev.vars
+.dev.vars.*
