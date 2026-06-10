@@ -18,3 +18,10 @@ export function parseDuration(value: string): number {
 export function durationToWidth(durationSeconds: number): number {
   return Math.round((durationSeconds / 60) * 100);
 }
+
+/** Format a duration (in seconds) as `m:ss` for display. Inverse of `parseDuration`. */
+export function formatDuration(durationSeconds: number): string {
+  const minutes = Math.floor(durationSeconds / 60);
+  const seconds = durationSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, '0')}`;
+}

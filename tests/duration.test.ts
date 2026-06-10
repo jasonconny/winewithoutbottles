@@ -1,4 +1,9 @@
-import { durationToWidth, isValidDuration, parseDuration } from '@/wwob';
+import {
+  durationToWidth,
+  formatDuration,
+  isValidDuration,
+  parseDuration,
+} from '@/wwob';
 
 describe('isValidDuration', () => {
   it('accepts m:ss and mm:ss with seconds 00–59', () => {
@@ -25,5 +30,13 @@ describe('durationToWidth', () => {
     expect(durationToWidth(parseDuration('5:30'))).toBe(550);
     expect(durationToWidth(parseDuration('1:00'))).toBe(100);
     expect(durationToWidth(parseDuration('0:45'))).toBe(75);
+  });
+});
+
+describe('formatDuration', () => {
+  it('formats seconds as m:ss (inverse of parseDuration)', () => {
+    expect(formatDuration(204)).toBe('3:24');
+    expect(formatDuration(303)).toBe('5:03');
+    expect(formatDuration(1888)).toBe('31:28');
   });
 });

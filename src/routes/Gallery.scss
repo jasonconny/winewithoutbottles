@@ -1,0 +1,51 @@
+@use '../styles/breakpoints' as bp;
+
+.Gallery {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+
+  &-grid {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+
+    @include bp.respond-to('md') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &-item a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  // The piece is the hero: full-bleed within its card, intrinsic aspect ratio.
+  &-art {
+    width: 100%;
+    height: auto;
+    background: #000;
+    border: 1px solid #eee;
+  }
+
+  &-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+
+    strong {
+      font-size: 1rem;
+    }
+  }
+
+  &-collection {
+    color: #777;
+    font-style: italic;
+  }
+}

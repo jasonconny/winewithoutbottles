@@ -1,0 +1,33 @@
+{
+  "id": "1972-08-27",
+  "date": "1972-08-27",
+  "venue": "Old Renaissance Faire Grounds",
+  "city": "Veneta",
+  "state": "OR",
+  "country": "USA",
+  "tour": "Summer 1972",
+  "collection": "Sunshine Daydream",
+  "tags": ["1972", "Sunshine Daydream", "Dark Star"],
+  "songs": [
+    { "title": "Promised Land", "duration": "3:24" },
+    { "title": "Sugaree", "duration": "7:30" },
+    { "title": "Me and My Uncle", "duration": "3:16" },
+    { "title": "Deal", "duration": "4:55" },
+    { "title": "Black-Throated Wind", "duration": "7:01" },
+    { "title": "China Cat Sunflower", "duration": "7:58" },
+    { "title": "I Know You Rider", "duration": "7:03" },
+    { "title": "Mexicali Blues", "duration": "3:49" },
+    { "title": "Bertha", "duration": "5:59" },
+    { "title": "Playing in the Band", "duration": "19:57" },
+    { "title": "He's Gone", "duration": "9:32" },
+    { "title": "Jack Straw", "duration": "5:06" },
+    { "title": "Bird Song", "duration": "13:17" },
+    { "title": "Greatest Story Ever Told", "duration": "5:36" },
+    { "title": "Dark Star", "duration": "31:28" },
+    { "title": "El Paso", "duration": "5:04" },
+    { "title": "Sing Me Back Home", "duration": "10:51" },
+    { "title": "Sugar Magnolia", "duration": "8:45" },
+    { "title": "Casey Jones", "duration": "6:25" },
+    { "title": "One More Saturday Night", "duration": "5:03" }
+  ]
+}
