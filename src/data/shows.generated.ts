@@ -3,6 +3,286 @@ import type { ManifestEntry } from '@/wwob';
 
 export const shows: ManifestEntry[] = [
   {
+    "id": "1969-02-27",
+    "date": "1969-02-27",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "1969",
+    "collection": "Fillmore West 1969",
+    "tags": [
+      "1969",
+      "Dark Star",
+      "Live/Dead"
+    ],
+    "svg": "/shows/1969-02-27.svg",
+    "songCount": 10,
+    "songs": [
+      {
+        "title": "Good Morning Little Schoolgirl",
+        "durationSeconds": 707
+      },
+      {
+        "title": "Doin' That Rag",
+        "durationSeconds": 473
+      },
+      {
+        "title": "That's It for the Other One",
+        "durationSeconds": 1203
+      },
+      {
+        "title": "Dupree's Diamond Blues",
+        "durationSeconds": 237
+      },
+      {
+        "title": "Mountains of the Moon",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1304
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 502
+      },
+      {
+        "title": "The Eleven",
+        "durationSeconds": 783
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 1161
+      },
+      {
+        "title": "Cosmic Charlie",
+        "durationSeconds": 352
+      }
+    ]
+  },
+  {
+    "id": "1969-02-28",
+    "date": "1969-02-28",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "1969",
+    "collection": "Fillmore West 1969",
+    "tags": [
+      "1969",
+      "Dark Star",
+      "Live/Dead"
+    ],
+    "svg": "/shows/1969-02-28.svg",
+    "songCount": 16,
+    "songs": [
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 664
+      },
+      {
+        "title": "Good Morning Little Schoolgirl",
+        "durationSeconds": 660
+      },
+      {
+        "title": "Doin' That Rag",
+        "durationSeconds": 416
+      },
+      {
+        "title": "I'm a King Bee",
+        "durationSeconds": 429
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 1149
+      },
+      {
+        "title": "That's It for the Other One",
+        "durationSeconds": 1186
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1185
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 471
+      },
+      {
+        "title": "The Eleven",
+        "durationSeconds": 912
+      },
+      {
+        "title": "Death Don't Have No Mercy",
+        "durationSeconds": 638
+      },
+      {
+        "title": "Alligator",
+        "durationSeconds": 248
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 242
+      },
+      {
+        "title": "Jam",
+        "durationSeconds": 897
+      },
+      {
+        "title": "Caution (Do Not Stop On Tracks)",
+        "durationSeconds": 527
+      },
+      {
+        "title": "Feedback",
+        "durationSeconds": 340
+      },
+      {
+        "title": "And We Bid You Goodnight",
+        "durationSeconds": 68
+      }
+    ]
+  },
+  {
+    "id": "1969-03-01",
+    "date": "1969-03-01",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "1969",
+    "collection": "Fillmore West 1969",
+    "tags": [
+      "1969",
+      "Dark Star",
+      "Live/Dead"
+    ],
+    "svg": "/shows/1969-03-01.svg",
+    "songCount": 11,
+    "songs": [
+      {
+        "title": "That's It for the Other One",
+        "durationSeconds": 1282
+      },
+      {
+        "title": "New Potato Caboose",
+        "durationSeconds": 703
+      },
+      {
+        "title": "Doin' That Rag",
+        "durationSeconds": 358
+      },
+      {
+        "title": "Cosmic Charlie",
+        "durationSeconds": 351
+      },
+      {
+        "title": "Dupree's Diamond Blues",
+        "durationSeconds": 288
+      },
+      {
+        "title": "Mountains of the Moon",
+        "durationSeconds": 304
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1381
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 486
+      },
+      {
+        "title": "The Eleven",
+        "durationSeconds": 347
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 1439
+      },
+      {
+        "title": "Hey Jude",
+        "durationSeconds": 464
+      }
+    ]
+  },
+  {
+    "id": "1969-03-02",
+    "date": "1969-03-02",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "1969",
+    "collection": "Fillmore West 1969",
+    "tags": [
+      "1969",
+      "Dark Star",
+      "Live/Dead"
+    ],
+    "svg": "/shows/1969-03-02.svg",
+    "songCount": 14,
+    "songs": [
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1269
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 501
+      },
+      {
+        "title": "The Eleven",
+        "durationSeconds": 763
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 925
+      },
+      {
+        "title": "Doin' That Rag",
+        "durationSeconds": 458
+      },
+      {
+        "title": "That's It for the Other One",
+        "durationSeconds": 1364
+      },
+      {
+        "title": "Death Don't Have No Mercy",
+        "durationSeconds": 681
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 616
+      },
+      {
+        "title": "Alligator",
+        "durationSeconds": 255
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Jam",
+        "durationSeconds": 1531
+      },
+      {
+        "title": "Caution (Do Not Stop On Tracks)",
+        "durationSeconds": 553
+      },
+      {
+        "title": "Feedback",
+        "durationSeconds": 474
+      },
+      {
+        "title": "And We Bid You Goodnight",
+        "durationSeconds": 121
+      }
+    ]
+  },
+  {
     "id": "1972-08-27",
     "date": "1972-08-27",
     "venue": "Old Renaissance Faire Grounds",
@@ -98,6 +378,1131 @@ export const shows: ManifestEntry[] = [
       {
         "title": "One More Saturday Night",
         "durationSeconds": 303
+      }
+    ]
+  },
+  {
+    "id": "1974-10-17",
+    "date": "1974-10-17",
+    "venue": "Winterland Arena",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "Fall 1974",
+    "collection": "Winterland 1974",
+    "tags": [
+      "1974",
+      "Wall of Sound",
+      "Winterland"
+    ],
+    "svg": "/shows/1974-10-17.svg",
+    "songCount": 28,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 203
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 481
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 251
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 313
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 348
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 277
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 552
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 306
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 177
+      },
+      {
+        "title": "It Must Have Been The Roses",
+        "durationSeconds": 358
+      },
+      {
+        "title": "Weather Report Suite Prelude",
+        "durationSeconds": 76
+      },
+      {
+        "title": "Weather Report Suite Part 1",
+        "durationSeconds": 270
+      },
+      {
+        "title": "Let It Grow",
+        "durationSeconds": 655
+      },
+      {
+        "title": "Seastones",
+        "durationSeconds": 559
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 632
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 254
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 314
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 199
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 799
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1832
+      },
+      {
+        "title": "Spanish Jam",
+        "durationSeconds": 102
+      },
+      {
+        "title": "Mind Left Body Jam",
+        "durationSeconds": 190
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 149
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 545
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 517
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 415
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 227
+      }
+    ]
+  },
+  {
+    "id": "1974-10-18",
+    "date": "1974-10-18",
+    "venue": "Winterland Arena",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "Fall 1974",
+    "collection": "Winterland 1974",
+    "tags": [
+      "1974",
+      "Wall of Sound",
+      "Winterland"
+    ],
+    "svg": "/shows/1974-10-18.svg",
+    "songCount": 26,
+    "songs": [
+      {
+        "title": "Around And Around",
+        "durationSeconds": 292
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 429
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 192
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 419
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 186
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 280
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 360
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 241
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 425
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 323
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 510
+      },
+      {
+        "title": "Weather Report Suite Prelude",
+        "durationSeconds": 78
+      },
+      {
+        "title": "Weather Report Suite Part 1",
+        "durationSeconds": 271
+      },
+      {
+        "title": "Let It Grow",
+        "durationSeconds": 572
+      },
+      {
+        "title": "Seastones",
+        "durationSeconds": 1478
+      },
+      {
+        "title": "Jam",
+        "durationSeconds": 534
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1450
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 834
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 185
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 311
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 289
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 402
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 441
+      },
+      {
+        "title": "Goin' Down The Road Feeling Bad",
+        "durationSeconds": 446
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 267
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 311
+      }
+    ]
+  },
+  {
+    "id": "1974-10-19",
+    "date": "1974-10-19",
+    "venue": "Winterland Arena",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "Fall 1974",
+    "collection": "Winterland 1974",
+    "tags": [
+      "1974",
+      "Wall of Sound",
+      "Winterland"
+    ],
+    "svg": "/shows/1974-10-19.svg",
+    "songCount": 31,
+    "songs": [
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 468
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 167
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 273
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 190
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 371
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 251
+      },
+      {
+        "title": "Loose Lucy",
+        "durationSeconds": 290
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 439
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 709
+      },
+      {
+        "title": "To Lay Me Down",
+        "durationSeconds": 479
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 148
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 1094
+      },
+      {
+        "title": "China Doll",
+        "durationSeconds": 349
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 287
+      },
+      {
+        "title": "Seastones",
+        "durationSeconds": 835
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 548
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 302
+      },
+      {
+        "title": "The Race Is On",
+        "durationSeconds": 182
+      },
+      {
+        "title": "Tomorrow Is Forever",
+        "durationSeconds": 386
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 197
+      },
+      {
+        "title": "Dire Wolf",
+        "durationSeconds": 256
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 326
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 829
+      },
+      {
+        "title": "Caution Jam",
+        "durationSeconds": 270
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 83
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 554
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 588
+      },
+      {
+        "title": "Black Peter",
+        "durationSeconds": 610
+      },
+      {
+        "title": "Sunshine Daydream",
+        "durationSeconds": 194
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 293
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 324
+      }
+    ]
+  },
+  {
+    "id": "1974-10-20",
+    "date": "1974-10-20",
+    "venue": "Winterland Arena",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tour": "Fall 1974",
+    "collection": "Winterland 1974",
+    "tags": [
+      "1974",
+      "Wall of Sound",
+      "Winterland"
+    ],
+    "svg": "/shows/1974-10-20.svg",
+    "songCount": 28,
+    "songs": [
+      {
+        "title": "Cold Rain and Snow",
+        "durationSeconds": 329
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 146
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 283
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 196
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 433
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 483
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 253
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 379
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 534
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 352
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Seastones",
+        "durationSeconds": 2103
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 804
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 249
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 884
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 656
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 575
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 518
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 730
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 338
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 195
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 888
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 518
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 512
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 235
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 454
+      },
+      {
+        "title": "And We Bid You Goodnight",
+        "durationSeconds": 119
+      }
+    ]
+  },
+  {
+    "id": "1977-05-07",
+    "date": "1977-05-07",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977",
+      "Boston"
+    ],
+    "svg": "/shows/1977-05-07.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 431
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 269
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 332
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 293
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 467
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 299
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 748
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 407
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 476
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 450
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 626
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 419
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 444
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 489
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 672
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 199
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 633
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 861
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 456
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 332
+      }
+    ]
+  },
+  {
+    "id": "1977-05-08",
+    "date": "1977-05-08",
+    "venue": "Barton Hall, Cornell University",
+    "city": "Ithaca",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977",
+      "Cornell",
+      "Barton Hall"
+    ],
+    "svg": "/shows/1977-05-08.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 287
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 450
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 262
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 419
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 360
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 343
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 209
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 261
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 312
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 157
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 652
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 943
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 554
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 921
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 512
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 283
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 982
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 113
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 816
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 294
+      }
+    ]
+  },
+  {
+    "id": "1977-05-09",
+    "date": "1977-05-09",
+    "venue": "War Memorial Auditorium",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977",
+      "Buffalo"
+    ],
+    "svg": "/shows/1977-05-09.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 281
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 457
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 777
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 261
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 201
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 397
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 422
+      },
+      {
+        "title": "Sunrise",
+        "durationSeconds": 217
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 443
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 421
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 329
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 437
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 565
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 363
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 216
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 574
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 668
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 553
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 524
+      }
+    ]
+  },
+  {
+    "id": "1989-10-08",
+    "date": "1989-10-08",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Formerly the Warlocks",
+    "tags": [
+      "1989",
+      "Hampton",
+      "Formerly the Warlocks"
+    ],
+    "svg": "/shows/1989-10-08.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Foolish Heart",
+        "durationSeconds": 481
+      },
+      {
+        "title": "Walkin' Blues",
+        "durationSeconds": 461
+      },
+      {
+        "title": "Candyman",
+        "durationSeconds": 450
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 192
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 408
+      },
+      {
+        "title": "Stagger Lee",
+        "durationSeconds": 358
+      },
+      {
+        "title": "Queen Jane Approximately",
+        "durationSeconds": 414
+      },
+      {
+        "title": "Bird Song",
+        "durationSeconds": 804
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 297
+      },
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 285
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 294
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 507
+      },
+      {
+        "title": "Victim Or The Crime",
+        "durationSeconds": 511
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 548
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 644
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 525
+      },
+      {
+        "title": "I Need A Miracle",
+        "durationSeconds": 302
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 254
+      },
+      {
+        "title": "Gimme Some Lovin'",
+        "durationSeconds": 271
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 805
+      },
+      {
+        "title": "And We Bid You Goodnight",
+        "durationSeconds": 236
+      }
+    ]
+  },
+  {
+    "id": "1989-10-09",
+    "date": "1989-10-09",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Formerly the Warlocks",
+    "tags": [
+      "1989",
+      "Hampton",
+      "Formerly the Warlocks",
+      "Dark Star"
+    ],
+    "svg": "/shows/1989-10-09.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Feel Like A Stranger",
+        "durationSeconds": 496
+      },
+      {
+        "title": "Built To Last",
+        "durationSeconds": 303
+      },
+      {
+        "title": "Little Red Rooster",
+        "durationSeconds": 549
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 473
+      },
+      {
+        "title": "We Can Run",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 277
+      },
+      {
+        "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+        "durationSeconds": 611
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 669
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 495
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 684
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 718
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 141
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1163
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 595
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 447
+      },
+      {
+        "title": "Death Don't Have No Mercy",
+        "durationSeconds": 527
+      },
+      {
+        "title": "Dear Mr. Fantasy",
+        "durationSeconds": 314
+      },
+      {
+        "title": "Hey Jude",
+        "durationSeconds": 193
+      },
+      {
+        "title": "Throwing Stones",
+        "durationSeconds": 617
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 562
+      },
+      {
+        "title": "Attics Of My Life",
+        "durationSeconds": 393
+      }
+    ]
+  },
+  {
+    "id": "1995-07-09",
+    "date": "1995-07-09",
+    "venue": "Soldier Field",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "Summer 1995",
+    "collection": "Final Show",
+    "tags": [
+      "1995",
+      "Final Show",
+      "Soldier Field"
+    ],
+    "svg": "/shows/1995-07-09.svg",
+    "songCount": 18,
+    "songs": [
+      {
+        "title": "Touch Of Grey",
+        "durationSeconds": 455
+      },
+      {
+        "title": "Little Red Rooster",
+        "durationSeconds": 464
+      },
+      {
+        "title": "Lazy River Road",
+        "durationSeconds": 427
+      },
+      {
+        "title": "When I Paint My Masterpiece",
+        "durationSeconds": 349
+      },
+      {
+        "title": "Childhood's End",
+        "durationSeconds": 282
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 282
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 278
+      },
+      {
+        "title": "Shakedown Street",
+        "durationSeconds": 856
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 470
+      },
+      {
+        "title": "So Many Roads",
+        "durationSeconds": 706
+      },
+      {
+        "title": "Samba In The Rain",
+        "durationSeconds": 405
+      },
+      {
+        "title": "Corrina",
+        "durationSeconds": 886
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 952
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 677
+      },
+      {
+        "title": "Unbroken Chain",
+        "durationSeconds": 422
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 580
+      },
+      {
+        "title": "Black Muddy River",
+        "durationSeconds": 316
+      },
+      {
+        "title": "Box Of Rain",
+        "durationSeconds": 299
       }
     ]
   }

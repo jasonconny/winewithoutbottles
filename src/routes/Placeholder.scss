@@ -17,8 +17,11 @@
   // Keeps the title off the screen edges on small phones.
   padding: 1.25rem;
 
-  // 8/27/72 striped piece: full-width, tiling down the page.
-  background: #000 url('/images/19720827.svg') repeat-y;
+  // A random striped piece, chosen per page load (Placeholder.tsx sets
+  // --placeholder-art); full-width, tiling down the page.
+  background-color: #000;
+  background-image: var(--placeholder-art, url('/shows/1972-08-27.svg'));
+  background-repeat: repeat-y;
   background-size: 100% auto;
 
   @include bp.respond-to('md') {
