@@ -10,7 +10,7 @@
     "typecheck": "tsc -b --noEmit && tsc -p tsconfig.generator.json",
     "generate": "tsx generator/generate.ts",
     "format": "prettier --write .",
-    "format:check": "prettioer --check .",
+    "format:check": "prettier --check .",
     "start": "npm run dev",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
