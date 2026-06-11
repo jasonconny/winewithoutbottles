@@ -49,7 +49,7 @@
     // After 30s on the page, the watermark fades up to full opacity and stays.
     // Motion-sensitive users keep the resting watermark (no animation).
     @media (prefers-reduced-motion: no-preference) {
-      animation: watermark-reveal 4s ease 30s forwards;
+      animation: watermark-reveal 4s ease 10s forwards;
     }
   }
 }
