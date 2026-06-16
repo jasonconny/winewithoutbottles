@@ -1,0 +1,120 @@
+{
+  "id": "1972-05-25",
+  "date": "1972-05-25",
+  "venue": "Lyceum Theatre",
+  "city": "London",
+  "country": "ENG",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-05-25.svg",
+  "songCount": 26,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 215
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 193
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 260
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 177
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 350
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 736
+    },
+    {
+      "title": "You Win Again",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 713
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 111
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1785
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 630
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 722
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "durationSeconds": 517
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 310
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "1974-10-20",
+  "date": "1974-10-20",
+  "venue": "Winterland Arena",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "Fall 1974",
+  "collection": "Winterland 1974",
+  "tags": [
+    "1974",
+    "Wall of Sound",
+    "Winterland"
+  ],
+  "svg": "/shows/1974-10-20.svg",
+  "songCount": 28,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 146
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 196
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 483
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 379
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 534
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 2103
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 804
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 249
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 884
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 656
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 730
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 888
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 454
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 119
+    }
+  ]
+}

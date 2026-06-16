@@ -1,0 +1,123 @@
+{
+  "id": "1974-10-18",
+  "date": "1974-10-18",
+  "venue": "Winterland Arena",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "Fall 1974",
+  "collection": "Winterland 1974",
+  "tags": [
+    "1974",
+    "Wall of Sound",
+    "Winterland"
+  ],
+  "svg": "/shows/1974-10-18.svg",
+  "songCount": 26,
+  "songs": [
+    {
+      "title": "Around And Around",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 186
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 360
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 241
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 78
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 1478
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1450
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 834
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 185
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Goin' Down The Road Feeling Bad",
+      "durationSeconds": 446
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 267
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 311
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1977-05-08",
+  "date": "1977-05-08",
+  "venue": "Barton Hall, Cornell University",
+  "city": "Ithaca",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977",
+    "Cornell",
+    "Barton Hall"
+  ],
+  "svg": "/shows/1977-05-08.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 450
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 262
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 261
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 157
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 943
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 921
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 512
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 982
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 113
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 816
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 294
+    }
+  ]
+}

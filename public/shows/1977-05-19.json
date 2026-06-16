@@ -1,0 +1,93 @@
+{
+  "id": "1977-05-19",
+  "date": "1977-05-19",
+  "venue": "Fox Theatre",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-19.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 1022
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 516
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 837
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 716
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 723
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 363
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 433
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 597
+    }
+  ]
+}

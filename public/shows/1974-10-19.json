@@ -1,0 +1,147 @@
+{
+  "id": "1974-10-19",
+  "date": "1974-10-19",
+  "venue": "Winterland Arena",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "Fall 1974",
+  "collection": "Winterland 1974",
+  "tags": [
+    "1974",
+    "Wall of Sound",
+    "Winterland"
+  ],
+  "svg": "/shows/1974-10-19.svg",
+  "songCount": 32,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 167
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 190
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 371
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 709
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 148
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1094
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 835
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 302
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 182
+    },
+    {
+      "title": "Tomorrow Is Forever",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 197
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 256
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 326
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 732
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 97
+    },
+    {
+      "title": "Caution Jam",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 83
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 610
+    },
+    {
+      "title": "Sunshine Daydream",
+      "durationSeconds": 194
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 293
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 324
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1977-05-05",
+  "date": "1977-05-05",
+  "venue": "Veterans Memorial Coliseum",
+  "city": "New Haven",
+  "state": "CT",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-05.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 904
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 157
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 538
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 457
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 521
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 647
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 721
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 352
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 700
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 248
+    }
+  ]
+}

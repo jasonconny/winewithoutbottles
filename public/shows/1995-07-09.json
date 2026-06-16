@@ -1,0 +1,91 @@
+{
+  "id": "1995-07-09",
+  "date": "1995-07-09",
+  "venue": "Soldier Field",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tour": "Summer 1995",
+  "collection": "Final Show",
+  "tags": [
+    "1995",
+    "Final Show",
+    "Soldier Field"
+  ],
+  "svg": "/shows/1995-07-09.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Touch Of Grey",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Lazy River Road",
+      "durationSeconds": 427
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Childhood's End",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 856
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 470
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 706
+    },
+    {
+      "title": "Samba In The Rain",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 886
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 952
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Unbroken Chain",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 580
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Box Of Rain",
+      "durationSeconds": 299
+    }
+  ]
+}

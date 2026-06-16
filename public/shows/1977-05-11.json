@@ -1,0 +1,113 @@
+{
+  "id": "1977-05-11",
+  "date": "1977-05-11",
+  "venue": "St. Paul Civic Center Arena",
+  "city": "St. Paul",
+  "state": "MN",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-11.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 250
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 487
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 802
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 671
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 610
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 328
+    }
+  ]
+}

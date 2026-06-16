@@ -1,0 +1,93 @@
+{
+  "id": "1977-05-18",
+  "date": "1977-05-18",
+  "venue": "Fox Theatre",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-18.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Deal",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 480
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 344
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 379
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 551
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 762
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 418
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 746
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 942
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 376
+    }
+  ]
+}

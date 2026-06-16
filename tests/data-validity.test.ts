@@ -1,5 +1,5 @@
 import { readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
+import { basename, join } from 'node:path';
 import { isValidDuration } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
@@ -13,7 +13,8 @@ const DATA_DIR = 'data/shows';
 const ID_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 function dataFiles(): string[] {
-  return readdirSync(DATA_DIR)
+  // Recursive: shows live in data/shows/<year>/<id>.json subdirectories.
+  return (readdirSync(DATA_DIR, { recursive: true }) as string[])
     .filter((f) => f.endsWith('.json'))
     .sort();
 }
@@ -34,7 +35,7 @@ describe('show data is well-formed', () => {
 
     // id present, well-formed, and matches its filename.
     expect(show.id).toMatch(ID_RE);
-    expect(`${show.id}.json`).toBe(file);
+    expect(`${show.id}.json`).toBe(basename(file));
 
     // required metadata.
     expect(show.date).toMatch(ID_RE);

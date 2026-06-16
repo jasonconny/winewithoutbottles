@@ -1,0 +1,83 @@
+{
+  "id": "1969-02-28",
+  "date": "1969-02-28",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "1969",
+  "collection": "Fillmore West 1969",
+  "tags": [
+    "1969",
+    "Dark Star",
+    "Live/Dead"
+  ],
+  "svg": "/shows/1969-02-28.svg",
+  "songCount": 16,
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 664
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "durationSeconds": 660
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 416
+    },
+    {
+      "title": "I'm a King Bee",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 1149
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1186
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1185
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 471
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 912
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Alligator",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 897
+    },
+    {
+      "title": "Caution (Do Not Stop On Tracks)",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 340
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 68
+    }
+  ]
+}

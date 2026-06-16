@@ -1,0 +1,124 @@
+{
+  "id": "1972-04-11",
+  "date": "1972-04-11",
+  "venue": "City Hall",
+  "city": "Newcastle",
+  "country": "ENG",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-04-11.svg",
+  "songCount": 27,
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 167
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 391
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 654
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 927
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 1167
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 198
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1547
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 419
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 292
+    }
+  ]
+}

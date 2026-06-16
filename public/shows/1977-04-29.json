@@ -1,0 +1,109 @@
+{
+  "id": "1977-04-29",
+  "date": "1977-04-29",
+  "venue": "The Palladium",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-04-29.svg",
+  "songCount": 23,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 950
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 307
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 436
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 840
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 568
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 61
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 613
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 505
+    }
+  ]
+}

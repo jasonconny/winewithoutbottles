@@ -1,0 +1,113 @@
+{
+  "id": "1977-05-21",
+  "date": "1977-05-21",
+  "venue": "Lakeland Civic Center Arena",
+  "city": "Lakeland",
+  "state": "FL",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-21.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 193
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 540
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 670
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 705
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 575
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 921
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 256
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 736
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 708
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 735
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 47
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 285
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 319
+    }
+  ]
+}

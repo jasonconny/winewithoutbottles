@@ -1,0 +1,85 @@
+{
+  "id": "1977-05-04",
+  "date": "1977-05-04",
+  "venue": "The Palladium",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-04.svg",
+  "songCount": 17,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 629
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 397
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 406
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 284
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 1076
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 666
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 580
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1092
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 486
+    }
+  ]
+}

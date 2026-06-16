@@ -1,0 +1,144 @@
+{
+  "id": "1972-05-03",
+  "date": "1972-05-03",
+  "venue": "Olympia Theatre",
+  "city": "Paris",
+  "country": "FRA",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-05-03.svg",
+  "songCount": 32,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 183
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 337
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 211
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 505
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1013
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 380
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 574
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1110
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 199
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 773
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 331
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 167
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 574
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 165
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 319
+    }
+  ]
+}

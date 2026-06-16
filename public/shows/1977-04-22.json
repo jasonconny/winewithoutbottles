@@ -1,0 +1,89 @@
+{
+  "id": "1977-04-22",
+  "date": "1977-04-22",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-04-22.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 121
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 366
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1262
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 733
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 363
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 504
+    },
+    {
+      "title": "I Got My Mojo Workin'",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 366
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 703
+    }
+  ]
+}

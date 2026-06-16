@@ -1,0 +1,117 @@
+{
+  "id": "1977-05-17",
+  "date": "1977-05-17",
+  "venue": "University of Alabama, Memorial Coliseum",
+  "city": "Tuscaloosa",
+  "state": "AL",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-17.svg",
+  "songCount": 25,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 638
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 261
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 194
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 223
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 688
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 897
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 516
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 683
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 741
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 539
+    }
+  ]
+}

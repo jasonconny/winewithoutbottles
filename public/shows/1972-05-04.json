@@ -1,0 +1,132 @@
+{
+  "id": "1972-05-04",
+  "date": "1972-05-04",
+  "venue": "Olympia Theatre",
+  "city": "Paris",
+  "country": "FRA",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-05-04.svg",
+  "songCount": 29,
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 635
+    },
+    {
+      "title": "You Win Again",
+      "durationSeconds": 255
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 445
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 502
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 247
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1399
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1162
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 153
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1055
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 698
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 178
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 286
+    }
+  ]
+}

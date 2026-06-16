@@ -1,0 +1,136 @@
+{
+  "id": "1972-05-23",
+  "date": "1972-05-23",
+  "venue": "Lyceum Theatre",
+  "city": "London",
+  "country": "ENG",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-05-23.svg",
+  "songCount": 30,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 201
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 229
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 293
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 306
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 203
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 177
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 240
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 758
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 708
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1794
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 697
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Hey Bo Diddley",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 186
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 415
+    }
+  ]
+}

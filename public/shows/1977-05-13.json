@@ -1,0 +1,97 @@
+{
+  "id": "1977-05-13",
+  "date": "1977-05-13",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-13.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 307
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 515
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 764
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 277
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 945
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 639
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 366
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 252
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 325
+    }
+  ]
+}
