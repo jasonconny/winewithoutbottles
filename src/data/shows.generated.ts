@@ -283,6 +283,2666 @@ export const shows: ManifestEntry[] = [
     ]
   },
   {
+    "id": "1972-04-07",
+    "date": "1972-04-07",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-07.svg",
+    "songCount": 25,
+    "songs": [
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 428
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 182
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 219
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 334
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 315
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 281
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 356
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 297
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 239
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 422
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 608
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 653
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 159
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1176
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 284
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 501
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 659
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 381
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 476
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 259
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 369
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 223
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 277
+      }
+    ]
+  },
+  {
+    "id": "1972-04-08",
+    "date": "1972-04-08",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-08.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 465
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 201
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 237
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 296
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 363
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 273
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Yellow Dog Story",
+        "durationSeconds": 194
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 309
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 216
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 438
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 689
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 644
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 478
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 713
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 269
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1930
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 437
+      },
+      {
+        "title": "Caution (Do Not Stop on Tracks)",
+        "durationSeconds": 1111
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 347
+      }
+    ]
+  },
+  {
+    "id": "1972-04-11",
+    "date": "1972-04-11",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-11.svg",
+    "songCount": 27,
+    "songs": [
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 344
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 338
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 244
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 390
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 435
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 206
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 444
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 311
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 167
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 391
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 654
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 325
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 273
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 433
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 214
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 363
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 927
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 375
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 1167
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 198
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1547
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 419
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 292
+      }
+    ]
+  },
+  {
+    "id": "1972-04-14",
+    "date": "1972-04-14",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-14.svg",
+    "songCount": 29,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 208
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 287
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 242
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 368
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 172
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 395
+      },
+      {
+        "title": "Me and Bobby McGee",
+        "durationSeconds": 365
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 335
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 687
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 477
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 265
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 384
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 197
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 358
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 656
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 297
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 427
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1766
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 401
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 1108
+      },
+      {
+        "title": "Caution (Do Not Stop on Tracks)",
+        "durationSeconds": 405
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 181
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 385
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 339
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 416
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 206
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 285
+      }
+    ]
+  },
+  {
+    "id": "1972-04-16",
+    "date": "1972-04-16",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-16.svg",
+    "songCount": 29,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 208
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 287
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 242
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 368
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 172
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 395
+      },
+      {
+        "title": "Me and Bobby McGee",
+        "durationSeconds": 365
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 335
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 687
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 477
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 265
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 384
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 197
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 358
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 656
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 297
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 427
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1766
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 401
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 1108
+      },
+      {
+        "title": "Caution (Do Not Stop on Tracks)",
+        "durationSeconds": 405
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 181
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 385
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 339
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 416
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 206
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 285
+      }
+    ]
+  },
+  {
+    "id": "1972-04-17",
+    "date": "1972-04-17",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-17.svg",
+    "songCount": 23,
+    "songs": [
+      {
+        "title": "Cold Rain and Snow",
+        "durationSeconds": 389
+      },
+      {
+        "title": "Me and Bobby McGee",
+        "durationSeconds": 380
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 176
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 365
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 389
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 298
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 422
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 312
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 411
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 343
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 229
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 599
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 422
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 289
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 434
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 433
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 318
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 218
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 668
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1860
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 416
+      },
+      {
+        "title": "Caution (Do Not Stop on Tracks)",
+        "durationSeconds": 1419
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 259
+      }
+    ]
+  },
+  {
+    "id": "1972-04-21",
+    "date": "1972-04-21",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-21.svg",
+    "songCount": 10,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 366
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 599
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 246
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 474
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 291
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 657
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 184
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 574
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 76
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1308
+      }
+    ]
+  },
+  {
+    "id": "1972-04-24",
+    "date": "1972-04-24",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-24.svg",
+    "songCount": 26,
+    "songs": [
+      {
+        "title": "Truckin'",
+        "durationSeconds": 678
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 482
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 190
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 420
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 367
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 380
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 253
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 211
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 400
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 701
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 282
+      },
+      {
+        "title": "Me and Bobby McGee",
+        "durationSeconds": 381
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 1050
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 373
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1545
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 203
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 879
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 556
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 467
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 634
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 515
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 288
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 199
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 391
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 182
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 285
+      }
+    ]
+  },
+  {
+    "id": "1972-04-26",
+    "date": "1972-04-26",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-26.svg",
+    "songCount": 30,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 365
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 214
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 275
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 500
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 401
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 265
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 325
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 313
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 293
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 287
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 563
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 178
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 404
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 225
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 274
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 277
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 468
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 344
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 418
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 353
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 849
+      },
+      {
+        "title": "Dire Wolf",
+        "durationSeconds": 261
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 851
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 247
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 2188
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 402
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 434
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 1026
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 580
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 305
+      }
+    ]
+  },
+  {
+    "id": "1972-04-29",
+    "date": "1972-04-29",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-04-29.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 584
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 436
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 254
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 358
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 324
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 335
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 299
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 410
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 167
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 188
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 227
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 987
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 368
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 376
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 479
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 332
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1812
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 389
+      },
+      {
+        "title": "Caution (Do Not Stop on Tracks)",
+        "durationSeconds": 1275
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 307
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 400
+      }
+    ]
+  },
+  {
+    "id": "1972-05-03",
+    "date": "1972-05-03",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-03.svg",
+    "songCount": 32,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 409
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 200
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 226
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 433
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 363
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 183
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 337
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 335
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 211
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 505
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 291
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 662
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 453
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 1013
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 559
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 380
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 328
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 380
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 395
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 574
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1110
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 199
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 773
+      },
+      {
+        "title": "Me and Bobby McGee",
+        "durationSeconds": 331
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 167
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 574
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 323
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 382
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 286
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 425
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 165
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 319
+      }
+    ]
+  },
+  {
+    "id": "1972-05-04",
+    "date": "1972-05-04",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-04.svg",
+    "songCount": 29,
+    "songs": [
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 317
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 250
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 213
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 325
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 210
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 635
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 255
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 445
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 502
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 292
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 247
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 421
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 385
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 1399
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 381
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 298
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1162
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 153
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1055
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 462
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 698
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 242
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 399
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 436
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 436
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 178
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 286
+      }
+    ]
+  },
+  {
+    "id": "1972-05-07",
+    "date": "1972-05-07",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-07.svg",
+    "songCount": 27,
+    "songs": [
+      {
+        "title": "Truckin'",
+        "durationSeconds": 657
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 450
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 257
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 244
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 460
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 203
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 357
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 359
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 355
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 696
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 464
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 1202
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 408
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 387
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 419
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 300
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1190
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 144
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1834
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 688
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 563
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 783
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 536
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 261
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 303
+      }
+    ]
+  },
+  {
+    "id": "1972-05-10",
+    "date": "1972-05-10",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-10.svg",
+    "songCount": 32,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 351
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 198
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 220
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 284
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 316
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 349
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 406
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 317
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 298
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 454
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 173
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 830
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 236
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 293
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 451
+      },
+      {
+        "title": "Big Boss Man",
+        "durationSeconds": 261
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 321
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 353
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 531
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 145
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 2061
+      },
+      {
+        "title": "Me and Bobby McGee",
+        "durationSeconds": 335
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 124
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 534
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 219
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 420
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 408
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 601
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 423
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 287
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 532
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 252
+      }
+    ]
+  },
+  {
+    "id": "1972-05-11",
+    "date": "1972-05-11",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-11.svg",
+    "songCount": 29,
+    "songs": [
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 653
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 443
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 231
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 381
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 304
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 191
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 220
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 304
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 365
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 383
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 206
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 306
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 296
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 259
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 756
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 381
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 749
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 192
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 454
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 292
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 497
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 283
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 826
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 229
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1834
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 463
+      },
+      {
+        "title": "Caution (Do Not Stop on Tracks)",
+        "durationSeconds": 994
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 559
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 408
+      }
+    ]
+  },
+  {
+    "id": "1972-05-13",
+    "date": "1972-05-13",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-13.svg",
+    "songCount": 25,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 343
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 372
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 167
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 209
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 247
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 301
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 186
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 223
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 302
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 760
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 441
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 215
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 383
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 661
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 149
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1721
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 488
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 500
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 403
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 273
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 473
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 190
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 325
+      }
+    ]
+  },
+  {
+    "id": "1972-05-16",
+    "date": "1972-05-16",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-16.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 209
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 225
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 424
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 354
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 175
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 348
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 355
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 198
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 401
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 439
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 676
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 204
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 727
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 148
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1177
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 642
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 410
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 236
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 442
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 204
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 317
+      }
+    ]
+  },
+  {
+    "id": "1972-05-18",
+    "date": "1972-05-18",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-18.svg",
+    "songCount": 25,
+    "songs": [
+      {
+        "title": "Truckin'",
+        "durationSeconds": 635
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 440
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 242
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 291
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 466
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 196
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 418
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 330
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 415
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 284
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 499
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 295
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 659
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 758
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 416
+      },
+      {
+        "title": "Sitting on Top of the World",
+        "durationSeconds": 214
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 194
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 405
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 168
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1701
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 705
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 68
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 424
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 696
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 301
+      }
+    ]
+  },
+  {
+    "id": "1972-05-23",
+    "date": "1972-05-23",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-23.svg",
+    "songCount": 30,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 201
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 436
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 229
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 343
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 453
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 294
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 293
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 306
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 374
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 203
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 177
+      },
+      {
+        "title": "Big Railroad Blues",
+        "durationSeconds": 240
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 478
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 758
+      },
+      {
+        "title": "Sitting on Top of the World",
+        "durationSeconds": 200
+      },
+      {
+        "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
+        "durationSeconds": 313
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 211
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 708
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 411
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 442
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1794
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 697
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 533
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 420
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 405
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 533
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 294
+      },
+      {
+        "title": "Hey Bo Diddley",
+        "durationSeconds": 271
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 186
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 415
+      }
+    ]
+  },
+  {
+    "id": "1972-05-24",
+    "date": "1972-05-24",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-24.svg",
+    "songCount": 26,
+    "songs": [
+      {
+        "title": "Cold Rain and Snow",
+        "durationSeconds": 344
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 215
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 244
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 275
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 193
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 464
+      },
+      {
+        "title": "Dire Wolf",
+        "durationSeconds": 260
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 397
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 177
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 350
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 395
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 736
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 255
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 297
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 379
+      },
+      {
+        "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
+        "durationSeconds": 328
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 216
+      },
+      {
+        "title": "Black Peter",
+        "durationSeconds": 608
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 713
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 111
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1785
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 630
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 431
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 722
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 517
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 310
+      }
+    ]
+  },
+  {
+    "id": "1972-05-25",
+    "date": "1972-05-25",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-25.svg",
+    "songCount": 26,
+    "songs": [
+      {
+        "title": "Cold Rain and Snow",
+        "durationSeconds": 344
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 215
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 244
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 275
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 193
+      },
+      {
+        "title": "It Hurts Me Too",
+        "durationSeconds": 464
+      },
+      {
+        "title": "Dire Wolf",
+        "durationSeconds": 260
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 397
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 177
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 350
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 395
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 736
+      },
+      {
+        "title": "You Win Again",
+        "durationSeconds": 255
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 297
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 379
+      },
+      {
+        "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
+        "durationSeconds": 328
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 216
+      },
+      {
+        "title": "Black Peter",
+        "durationSeconds": 608
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 713
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 111
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 1785
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 630
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 431
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 722
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 517
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 310
+      }
+    ]
+  },
+  {
+    "id": "1972-05-26",
+    "date": "1972-05-26",
+    "venue": "TBD",
+    "city": "TBD",
+    "country": "",
+    "tour": "Europe 1972",
+    "collection": "Europe 72",
+    "tags": [
+      "1972"
+    ],
+    "svg": "/shows/1972-05-26.svg",
+    "songCount": 31,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 229
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 455
+      },
+      {
+        "title": "Mr. Charlie",
+        "durationSeconds": 235
+      },
+      {
+        "title": "Black-Throated Wind",
+        "durationSeconds": 386
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 407
+      },
+      {
+        "title": "Next Time You See Me",
+        "durationSeconds": 292
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 294
+      },
+      {
+        "title": "Dire Wolf",
+        "durationSeconds": 267
+      },
+      {
+        "title": "The Stranger (Two Souls in Communion)",
+        "durationSeconds": 470
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 1082
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 550
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 328
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 319
+      },
+      {
+        "title": "Chinatown Shuffle",
+        "durationSeconds": 176
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 376
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 346
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 402
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 496
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 180
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 1138
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 550
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 138
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 739
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 707
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 347
+      },
+      {
+        "title": "Sing Me Back Home",
+        "durationSeconds": 659
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 226
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 381
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 481
+      },
+      {
+        "title": "Casey Jones",
+        "durationSeconds": 402
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 309
+      }
+    ]
+  },
+  {
     "id": "1972-08-27",
     "date": "1972-08-27",
     "venue": "Old Renaissance Faire Grounds",

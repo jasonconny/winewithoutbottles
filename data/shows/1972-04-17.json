@@ -1,0 +1,104 @@
+{
+  "id": "1972-04-17",
+  "date": "1972-04-17",
+  "venue": "TBD",
+  "city": "TBD",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "country": "",
+  "tags": ["1972"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:29"
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "duration": "6:20"
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "duration": "2:56"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "6:05"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:29"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "4:58"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "7:02"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "5:12"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:51"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "5:43"
+    },
+    {
+      "title": "Mr. Charlie",
+      "duration": "3:49"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:59"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:02"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:49"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "7:14"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:13"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:18"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "3:38"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "11:08"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "31:00"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "6:56"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "23:39"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:19"
+    }
+  ]
+}
