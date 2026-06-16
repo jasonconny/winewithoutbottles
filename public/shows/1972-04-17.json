@@ -1,0 +1,108 @@
+{
+  "id": "1972-04-17",
+  "date": "1972-04-17",
+  "venue": "Tivoli Concert Hall",
+  "city": "Copenhagen",
+  "country": "DNK",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-04-17.svg",
+  "songCount": 23,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 176
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 365
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 298
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 229
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 599
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 422
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 289
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 433
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1860
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 1419
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 259
+    }
+  ]
+}

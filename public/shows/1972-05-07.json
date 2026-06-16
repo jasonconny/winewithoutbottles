@@ -1,0 +1,124 @@
+{
+  "id": "1972-05-07",
+  "date": "1972-05-07",
+  "venue": "Bickershaw Festival",
+  "city": "Wigan",
+  "country": "ENG",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-05-07.svg",
+  "songCount": 27,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 657
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 257
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 244
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 203
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 357
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 359
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 696
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1202
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1190
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 144
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1834
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 688
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 563
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 783
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 261
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 303
+    }
+  ]
+}

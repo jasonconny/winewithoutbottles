@@ -1,0 +1,101 @@
+{
+  "id": "1977-05-28",
+  "date": "1977-05-28",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-28.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 1123
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 637
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 188
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 247
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 697
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 86
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 932
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 620
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 384
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 290
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 336
+    }
+  ]
+}

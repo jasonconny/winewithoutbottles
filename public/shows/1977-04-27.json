@@ -1,0 +1,89 @@
+{
+  "id": "1977-04-27",
+  "date": "1977-04-27",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-04-27.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 521
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 726
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 557
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 488
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 516
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 626
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 758
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 245
+    }
+  ]
+}

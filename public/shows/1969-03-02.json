@@ -1,0 +1,75 @@
+{
+  "id": "1969-03-02",
+  "date": "1969-03-02",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "1969",
+  "collection": "Fillmore West 1969",
+  "tags": [
+    "1969",
+    "Dark Star",
+    "Live/Dead"
+  ],
+  "svg": "/shows/1969-03-02.svg",
+  "songCount": 14,
+  "songs": [
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1269
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 501
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 763
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 925
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 458
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1364
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 681
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Alligator",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 1531
+    },
+    {
+      "title": "Caution (Do Not Stop On Tracks)",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 474
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 121
+    }
+  ]
+}

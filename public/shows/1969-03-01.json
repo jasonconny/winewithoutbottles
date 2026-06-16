@@ -1,0 +1,63 @@
+{
+  "id": "1969-03-01",
+  "date": "1969-03-01",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "1969",
+  "collection": "Fillmore West 1969",
+  "tags": [
+    "1969",
+    "Dark Star",
+    "Live/Dead"
+  ],
+  "svg": "/shows/1969-03-01.svg",
+  "songCount": 11,
+  "songs": [
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1282
+    },
+    {
+      "title": "New Potato Caboose",
+      "durationSeconds": 703
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Mountains of the Moon",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1381
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 486
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 1439
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 464
+    }
+  ]
+}

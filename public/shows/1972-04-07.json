@@ -1,0 +1,116 @@
+{
+  "id": "1972-04-07",
+  "date": "1972-04-07",
+  "venue": "Wembley Empire Pool",
+  "city": "London",
+  "country": "ENG",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "tags": [
+    "1972"
+  ],
+  "svg": "/shows/1972-04-07.svg",
+  "songCount": 25,
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 182
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 219
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 334
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 653
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 159
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1176
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 284
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 659
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 223
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 277
+    }
+  ]
+}

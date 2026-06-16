@@ -1,0 +1,113 @@
+{
+  "id": "1977-05-03",
+  "date": "1977-05-03",
+  "venue": "The Palladium",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-03.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 177
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 626
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 203
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 472
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 792
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 653
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 232
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 478
+    }
+  ]
+}

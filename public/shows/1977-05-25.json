@@ -1,0 +1,105 @@
+{
+  "id": "1977-05-25",
+  "date": "1977-05-25",
+  "venue": "The Mosque",
+  "city": "Richmond",
+  "state": "VA",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-25.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 594
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 344
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 622
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 669
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 528
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 833
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 314
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 895
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 637
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 255
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 246
+    }
+  ]
+}

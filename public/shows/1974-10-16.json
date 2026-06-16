@@ -1,0 +1,115 @@
+{
+  "id": "1974-10-16",
+  "date": "1974-10-16",
+  "venue": "Winterland Arena",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "Fall 1974",
+  "collection": "Winterland 1974",
+  "tags": [
+    "1974",
+    "Wall of Sound",
+    "Winterland"
+  ],
+  "svg": "/shows/1974-10-16.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 212
+    },
+    {
+      "title": "It Must Have Been The Roses",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Me And Bobby McGee",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Playing In The Band",
+      "durationSeconds": 1904
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 1434
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 1399
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 116
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 1005
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1189
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Goin' Down The Road Feeling Bad",
+      "durationSeconds": 493
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 324
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 363
+    }
+  ]
+}

@@ -47,10 +47,22 @@ export interface Show extends ShowMeta {
   songs: Song[];
 }
 
-/** One generated show as the app reads it from the manifest. */
-export interface ManifestEntry extends ShowMeta {
+/**
+ * Light index entry the app reads from the in-bundle manifest
+ * (`src/data/shows.generated.ts`). No `songs` — kept small so the bundle stays
+ * roughly flat as the show count grows. Used by list/nav views (Gallery,
+ * Placeholder).
+ */
+export interface ShowSummary extends ShowMeta {
   /** Public path to the generated SVG, e.g. "/shows/1972-08-27.svg". */
   svg: string;
   songCount: number;
+}
+
+/**
+ * Full per-show detail, written to `public/shows/<id>.json` and fetched on
+ * demand by the Show reader (the only view that needs `songs`).
+ */
+export interface ShowDetail extends ShowSummary {
   songs: Song[];
 }

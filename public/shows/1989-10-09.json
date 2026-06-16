@@ -1,0 +1,104 @@
+{
+  "id": "1989-10-09",
+  "date": "1989-10-09",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tour": "Fall 1989",
+  "collection": "Formerly the Warlocks",
+  "tags": [
+    "1989",
+    "Hampton",
+    "Formerly the Warlocks",
+    "Dark Star"
+  ],
+  "svg": "/shows/1989-10-09.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Feel Like A Stranger",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Built To Last",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 473
+    },
+    {
+      "title": "We Can Run",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 669
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 684
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 718
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 141
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1163
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 595
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Attics Of My Life",
+      "durationSeconds": 393
+    }
+  ]
+}

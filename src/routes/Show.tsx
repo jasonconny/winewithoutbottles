@@ -1,12 +1,13 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { formatDuration } from '@/wwob';
-import { shows } from '@/data/shows.generated';
+import type { ShowDetail } from '@/wwob';
 import Footer from '@/components/Footer';
 import './Show.scss';
 
 export default function Show() {
-  const { id } = useParams();
-  const show = shows.find((s) => s.id === id);
+  // Full detail (incl. songs) is fetched per-show by the route loader; see
+  // `showLoader` in src/router.tsx. Missing id → null → "not found".
+  const show = useLoaderData() as ShowDetail | null;
 
   if (!show) {
     return (

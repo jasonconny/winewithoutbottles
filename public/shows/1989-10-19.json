@@ -1,0 +1,105 @@
+{
+  "id": "1989-10-19",
+  "date": "1989-10-19",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "tags": [
+    "1989"
+  ],
+  "svg": "/shows/1989-10-19.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Hell In A Bucket",
+      "durationSeconds": 378
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Victim Or The Crime",
+      "durationSeconds": 528
+    },
+    {
+      "title": "Built To Last",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 346
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 199
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 230
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 732
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 675
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 553
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Hey Jude Reprise",
+      "durationSeconds": 131
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 323
+    },
+    {
+      "title": "It's All Over Now Baby Blue",
+      "durationSeconds": 430
+    }
+  ]
+}

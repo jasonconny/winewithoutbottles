@@ -1,0 +1,85 @@
+{
+  "id": "1977-04-26",
+  "date": "1977-04-26",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-04-26.svg",
+  "songCount": 17,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 180
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 493
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 644
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 872
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 746
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 745
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 548
+    }
+  ]
+}

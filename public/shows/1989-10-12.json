@@ -1,0 +1,85 @@
+{
+  "id": "1989-10-12",
+  "date": "1989-10-12",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "tags": [
+    "1989"
+  ],
+  "svg": "/shows/1989-10-12.svg",
+  "songCount": 17,
+  "songs": [
+    {
+      "title": "Hell In A Bucket",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 848
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Hey Pocky Way",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 501
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 731
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 573
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 729
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 308
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1989-10-16",
+  "date": "1989-10-16",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "tags": [
+    "1989"
+  ],
+  "svg": "/shows/1989-10-16.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Feel Like A Stranger",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Never Trust A Woman",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Built To Last",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 715
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 723
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 566
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 350
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 288
+    },
+    {
+      "title": "I Need A Miracle",
+      "durationSeconds": 243
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Attics Of My Life",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 271
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 176
+    }
+  ]
+}

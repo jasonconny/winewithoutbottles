@@ -1,0 +1,89 @@
+{
+  "id": "1989-10-26",
+  "date": "1989-10-26",
+  "venue": "Miami Arena",
+  "city": "Miami",
+  "state": "FL",
+  "country": "USA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "tags": [
+    "1989"
+  ],
+  "svg": "/shows/1989-10-26.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 159
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Victim Or The Crime",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 191
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 752
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 598
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1600
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 416
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 288
+    },
+    {
+      "title": "All Along The Watchtower",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 733
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 149
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "1977-05-26",
+  "date": "1977-05-26",
+  "venue": "Baltimore Civic Center",
+  "city": "Baltimore",
+  "state": "MD",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-05-26.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 915
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 155
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 328
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 417
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 627
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 708
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 38
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 1004
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 461
+    }
+  ]
+}

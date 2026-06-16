@@ -1,0 +1,101 @@
+{
+  "id": "1977-04-30",
+  "date": "1977-04-30",
+  "venue": "The Palladium",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-04-30.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 331
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 154
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 174
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 682
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 521
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 878
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 497
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 93
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 571
+    }
+  ]
+}

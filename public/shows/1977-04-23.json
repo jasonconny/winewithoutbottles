@@ -1,0 +1,97 @@
+{
+  "id": "1977-04-23",
+  "date": "1977-04-23",
+  "venue": "Springfield Civic Center Arena",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977"
+  ],
+  "svg": "/shows/1977-04-23.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Sugaree",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 269
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 445
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 172
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 574
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 423
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 359
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 624
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 674
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 280
+    }
+  ]
+}

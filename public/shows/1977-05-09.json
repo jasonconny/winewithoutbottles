@@ -1,0 +1,102 @@
+{
+  "id": "1977-05-09",
+  "date": "1977-05-09",
+  "venue": "War Memorial Auditorium",
+  "city": "Buffalo",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "tags": [
+    "1977",
+    "Buffalo"
+  ],
+  "svg": "/shows/1977-05-09.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 777
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 261
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 201
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 217
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 565
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 574
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 524
+    }
+  ]
+}
