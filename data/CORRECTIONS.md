@@ -1,12 +1,18 @@
 # Art corrections
 
-The reconstructed pieces reproduce the original 2013 SVGs stripe-for-stripe
-(`tests/fidelity.test.ts` enforces this against `tests/fixtures/legacy/<id>.svg`).
+The reconstructed pieces were bootstrapped from the original 2013 SVGs
+stripe-for-stripe (a one-time process; those originals are no longer in the
+repo). They encoded mistakes of their own, so the authored data in
+`data/shows/<id>.json` is now the source of truth and is freely editable for
+corrections (`tests/data-validity.test.ts` keeps it well-formed; the
+`public/shows/<id>.svg` diff is the reviewable record). This file is the log of
+deliberate departures from the 2013 art. Each is confirmed by Jason.
 
-A few stripes are **deliberate exceptions**: the original art encoded a typo'd
-song title, so the stripe's color was "wrong." For these we use the **correct**
-title and update the legacy fixture's color to match, so the regenerated archive
-reflects the right title rather than preserving the typo. Each is confirmed by Jason.
+## Title typos in the original art
+
+The original art encoded a typo'd / non-canonical song title, so the stripe's
+color was "wrong." These use the **correct** title instead, so the regenerated
+archive reflects the right title rather than preserving the typo.
 
 | Show       | Stripe  | Was (2013)                          | Corrected to                      |
 | ---------- | ------- | ----------------------------------- | --------------------------------- |
@@ -19,3 +25,20 @@ reflects the right title rather than preserving the typo. Each is confirmed by J
 
 (2/27–2/28 etc. use the original hyphenated forms — `Black-Throated Wind`,
 `Brown-Eyed Women` — those reproduce the art exactly and are _not_ corrections.)
+
+## Setlist segmentation deviations
+
+Where the original art (following an official-release tracklist) merged a
+segment the band clearly plays as a distinct song.
+
+| Show       | Was (2013)                                                                        | Corrected to                                                                                                   |
+| ---------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| 1974-10-19 | `He's Gone` 13:49 (one stripe; Truckin' intro folded in per the Movie Soundtrack) | `He's Gone` 12:12 + `Truckin'` 1:37 (Weir starts the Truckin' riff at 12:12 before the jam veers into Caution) |
+
+## Timing corrections
+
+Where the original art's stripe widths reflected wrong durations.
+
+| Show       | Was (2013)                                                       | Corrected to                                                                                                                                                                                       |
+| ---------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1974-10-16 | back-half jam suite (stripes 12–23) had inaccurate stripe widths | rebuilt from taper-consensus timings — `Seastones` → `Jam` → `Space` → `Wharf Rat` → `Eyes` (archive.org taper order, not JerryBase's), with corrected durations; stripes 1–11 still match the art |
