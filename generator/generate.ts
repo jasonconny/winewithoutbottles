@@ -5,6 +5,15 @@
  *   - a typed manifest the app reads →  src/data/shows.generated.ts
  *
  * Run with `npm run generate`. Re-run whenever you add or edit a show.
+ *
+ * Pass one or more filters to regenerate only matching shows' SVGs:
+ *   npm run generate 1977-05-08            # one show by id
+ *   npm run generate 1977-05-08.json       # …or by filename
+ *   npm run generate data/shows/1977-05-08.json  # …or by path
+ *   npm run generate '1977-*' '1989-*'     # globs (quote them so the shell
+ *                                          # doesn't expand them first)
+ * The manifest is always rebuilt from every show, so it stays complete and
+ * correctly sorted regardless of which SVGs were (re)written.
  */
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
@@ -38,6 +47,28 @@ function parseShow(file: ShowFile, source: string): Show {
   return { ...file, songs };
 }
 
+/**
+ * Reduce a CLI filter to a bare show id pattern: drop any directory, drop the
+ * `.json` extension, leave globs (`*`) intact.
+ */
+function filterToPattern(filter: string): string {
+  const base = filter.replace(/^.*[/\\]/, '');
+  return base.endsWith('.json') ? base.slice(0, -'.json'.length) : base;
+}
+
+/** Build a matcher from CLI args. No args → matches everything. */
+function makeMatcher(filters: string[]): (id: string) => boolean {
+  if (filters.length === 0) return () => true;
+  const patterns = filters.map((filter) => {
+    const escaped = filterToPattern(filter).replace(
+      /[.+?^${}()|[\]\\]/g,
+      '\\$&',
+    );
+    return new RegExp(`^${escaped.replace(/\*/g, '.*')}$`);
+  });
+  return (id: string) => patterns.some((re) => re.test(id));
+}
+
 function toManifestEntry(show: Show, songCount: number): ManifestEntry {
   return {
     id: show.id,
@@ -56,6 +87,9 @@ function toManifestEntry(show: Show, songCount: number): ManifestEntry {
 }
 
 function main(): void {
+  const filters = process.argv.slice(2);
+  const matches = makeMatcher(filters);
+
   const files = readdirSync(dataDir)
     .filter((f) => f.endsWith('.json'))
     .sort();
@@ -63,21 +97,35 @@ function main(): void {
 
   mkdirSync(svgOutDir, { recursive: true });
   const manifest: ManifestEntry[] = [];
+  let written = 0;
 
   for (const file of files) {
     const raw = JSON.parse(
       readFileSync(join(dataDir, file), 'utf8'),
     ) as ShowFile;
     const show = parseShow(raw, file);
+    // Every show feeds the manifest; only matched shows get their SVG rewritten.
+    manifest.push(toManifestEntry(show, show.songs.length));
+    if (!matches(show.id)) continue;
     const stripes = buildStripes(show.songs);
     writeFileSync(
       join(svgOutDir, `${show.id}.svg`),
       svgMarkup(stripes, HEIGHT) + '\n',
     );
-    manifest.push(toManifestEntry(show, show.songs.length));
+    written++;
     console.log(
       `✓ ${show.id} — ${show.songs.length} songs, ${totalWidth(stripes)}px wide`,
     );
+  }
+
+  if (filters.length > 0 && written === 0) {
+    throw new Error(
+      `No shows matched: ${filters.join(', ')}. ` +
+        `Check data/shows/ for available ids.`,
+    );
+  }
+  if (filters.length > 0) {
+    console.log(`  (selective: ${written} of ${files.length} SVGs rewritten)`);
   }
 
   manifest.sort((a, b) => a.date.localeCompare(b.date));
