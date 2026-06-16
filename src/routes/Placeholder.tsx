@@ -1,13 +1,24 @@
+import type { CSSProperties } from 'react';
+import { shows } from '@/data/shows.generated';
 import './Placeholder.scss';
+
+// Pick a striped piece once per page load (at module eval — not during render,
+// which must stay pure). A full reload picks a fresh one.
+const randomArt = shows[Math.floor(Math.random() * shows.length)]?.svg;
 
 /**
  * Public holding page for winewithoutbottles.com. Currently the index route
  * ('/'); also reachable at the hidden '/placeholder' route so it stays
- * available once '/' is later repointed to the real app.
+ * available once '/' is later repointed to the real app. The only planned
+ * difference between this and the future homepage is added navigation.
  */
 export default function Placeholder() {
+  const style = randomArt
+    ? ({ '--placeholder-art': `url(${randomArt})` } as CSSProperties)
+    : undefined;
+
   return (
-    <div className="Placeholder">
+    <div className="Placeholder" style={style}>
       <header>
         {/*
           Brand logotype. Intentionally a faint, low-contrast watermark over the

@@ -1,0 +1,23 @@
+{
+  "id": "1969-02-27",
+  "date": "1969-02-27",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "1969",
+  "collection": "Fillmore West 1969",
+  "tags": ["1969", "Dark Star", "Live/Dead"],
+  "songs": [
+    { "title": "Good Morning Little Schoolgirl", "duration": "11:47" },
+    { "title": "Doin' That Rag", "duration": "7:53" },
+    { "title": "That's It for the Other One", "duration": "20:03" },
+    { "title": "Dupree's Diamond Blues", "duration": "3:57" },
+    { "title": "Mountains of the Moon", "duration": "5:57" },
+    { "title": "Dark Star", "duration": "21:44" },
+    { "title": "St. Stephen", "duration": "8:22" },
+    { "title": "The Eleven", "duration": "13:03" },
+    { "title": "Turn On Your Lovelight", "duration": "19:21" },
+    { "title": "Cosmic Charlie", "duration": "5:52" }
+  ]
+}

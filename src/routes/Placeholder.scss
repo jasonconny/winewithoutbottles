@@ -1,5 +1,12 @@
 @use '../styles/breakpoints' as bp;
 
+// Slow reveal: the ghosted logotype rises to full opacity after a long pause.
+@keyframes watermark-reveal {
+  to {
+    opacity: 0;
+  }
+}
+
 .Placeholder {
   // Center the title both axes, at any viewport, mobile-first.
   display: flex;
@@ -10,8 +17,11 @@
   // Keeps the title off the screen edges on small phones.
   padding: 1.25rem;
 
-  // 8/27/72 striped piece: full-width, tiling down the page.
-  background: #000 url('/images/19720827.svg') repeat-y;
+  // A random striped piece, chosen per page load (Placeholder.tsx sets
+  // --placeholder-art); full-width, tiling down the page.
+  background-color: #000;
+  background-image: var(--placeholder-art, url('/shows/1972-08-27.svg'));
+  background-repeat: repeat-y;
   background-size: 100% auto;
 
   @include bp.respond-to('md') {
@@ -27,8 +37,10 @@
     // Deliberately faint: the title is a logotype watermark over the artwork.
     // The low contrast is an intentional brand treatment (WCAG 1.4.3 logotype
     // exemption); the accessible name lives in the real <h1> text + <title>.
-    color: rgba(0, 0, 0, 0.125);
-    font-weight: 100;
+    // Opacity (not an rgba alpha) so it can animate up to full — see below.
+    color: #000;
+    opacity: 0.25;
+    font-weight: 200;
     line-height: 1;
     text-align: center;
     // Fluid from phones (~2.25rem) up to the original desktop size (8rem).
@@ -36,5 +48,11 @@
     // in calc() so Sass doesn't try to evaluate the mixed rem/vw units.
     // `text-wrap: balance` (global reset) keeps the wrap tidy.
     font-size: clamp(2.25rem, calc(1rem + 7vw), 8rem);
+
+    // After 30s on the page, the watermark fades up to full opacity and stays.
+    // Motion-sensitive users keep the resting watermark (no animation).
+    @media (prefers-reduced-motion: no-preference) {
+      animation: watermark-reveal 4s ease 10s forwards;
+    }
   }
 }

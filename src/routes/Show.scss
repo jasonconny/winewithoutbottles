@@ -1,0 +1,79 @@
+@use '../styles/breakpoints' as bp;
+
+.Show {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+
+  &-back {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: #555;
+    text-decoration: none;
+  }
+
+  // The piece is the hero: full width, horizontal scroll if very wide.
+  &-piece {
+    margin: 0 0 2rem;
+    overflow-x: auto;
+    background: #000;
+    border: 1px solid #eee;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-height: 80px;
+    }
+  }
+
+  &-info h1 {
+    font-size: 2rem;
+  }
+
+  &-location {
+    color: #555;
+  }
+
+  &-collection {
+    font-style: italic;
+    color: #777;
+  }
+
+  &-tags {
+    list-style: none;
+    margin: 0.75rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    li {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.2rem 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 999px;
+      color: #555;
+    }
+  }
+
+  &-setlist {
+    margin: 1.5rem 0 0;
+    padding-left: 1.5rem;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+  }
+
+  &-dur {
+    color: #777;
+    font-variant-numeric: tabular-nums;
+  }
+}

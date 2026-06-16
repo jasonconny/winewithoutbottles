@@ -1,6 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import '@fontsource-variable/roboto/index.css';
+import '@fontsource-variable/merriweather/index.css';
 import './index.scss';
 import { routes } from './router';
 

@@ -1,0 +1,27 @@
+{
+  "id": "1969-03-02",
+  "date": "1969-03-02",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tour": "1969",
+  "collection": "Fillmore West 1969",
+  "tags": ["1969", "Dark Star", "Live/Dead"],
+  "songs": [
+    { "title": "Dark Star", "duration": "21:09" },
+    { "title": "St. Stephen", "duration": "8:21" },
+    { "title": "The Eleven", "duration": "12:43" },
+    { "title": "Turn On Your Lovelight", "duration": "15:25" },
+    { "title": "Doin' That Rag", "duration": "7:38" },
+    { "title": "That's It for the Other One", "duration": "22:44" },
+    { "title": "Death Don't Have No Mercy", "duration": "11:21" },
+    { "title": "Morning Dew", "duration": "10:16" },
+    { "title": "Alligator", "duration": "4:15" },
+    { "title": "Drums", "duration": "6:52" },
+    { "title": "Jam", "duration": "25:31" },
+    { "title": "Caution (Do Not Stop On Tracks)", "duration": "9:13" },
+    { "title": "Feedback", "duration": "7:54" },
+    { "title": "And We Bid You Goodnight", "duration": "2:01" }
+  ]
+}

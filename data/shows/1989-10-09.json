@@ -1,0 +1,37 @@
+{
+  "id": "1989-10-09",
+  "date": "1989-10-09",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tour": "Fall 1989",
+  "collection": "Formerly the Warlocks",
+  "tags": ["1989", "Hampton", "Formerly the Warlocks", "Dark Star"],
+  "songs": [
+    { "title": "Feel Like A Stranger", "duration": "8:16" },
+    { "title": "Built To Last", "duration": "5:03" },
+    { "title": "Little Red Rooster", "duration": "9:09" },
+    { "title": "Ramble On Rose", "duration": "7:53" },
+    { "title": "We Can Run", "duration": "6:32" },
+    { "title": "Jack-A-Roe", "duration": "4:37" },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "10:11"
+    },
+    { "title": "Row Jimmy", "duration": "11:09" },
+    { "title": "The Music Never Stopped", "duration": "8:15" },
+    { "title": "Playing in the Band", "duration": "11:24" },
+    { "title": "Uncle John's Band", "duration": "11:58" },
+    { "title": "Playing in the Band", "duration": "2:21" },
+    { "title": "Dark Star", "duration": "19:23" },
+    { "title": "Drums", "duration": "9:55" },
+    { "title": "Space", "duration": "7:27" },
+    { "title": "Death Don't Have No Mercy", "duration": "8:47" },
+    { "title": "Dear Mr. Fantasy", "duration": "5:14" },
+    { "title": "Hey Jude", "duration": "3:13" },
+    { "title": "Throwing Stones", "duration": "10:17" },
+    { "title": "Good Lovin'", "duration": "9:22" },
+    { "title": "Attics Of My Life", "duration": "6:33" }
+  ]
+}
