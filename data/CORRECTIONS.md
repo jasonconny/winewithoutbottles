@@ -36,3 +36,11 @@ segment the band clearly plays as a distinct song.
 | Show       | Was (2013)                                                                        | Corrected to                                                                                                   |
 | ---------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 1974-10-19 | `He's Gone` 13:49 (one stripe; Truckin' intro folded in per the Movie Soundtrack) | `He's Gone` 12:12 + `Truckin'` 1:37 (Weir starts the Truckin' riff at 12:12 before the jam veers into Caution) |
+
+## Timing corrections
+
+Where the original art's stripe widths reflected wrong durations.
+
+| Show       | Was (2013)                                                       | Corrected to                                                                                                                                                                                       |
+| ---------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1974-10-16 | back-half jam suite (stripes 12–23) had inaccurate stripe widths | rebuilt from taper-consensus timings — `Seastones` → `Jam` → `Space` → `Wharf Rat` → `Eyes` (archive.org taper order, not JerryBase's), with corrected durations; stripes 1–11 still match the art |
