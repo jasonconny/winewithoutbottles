@@ -1,0 +1,93 @@
+{
+  "id": "1989-10-11",
+  "date": "1989-10-11",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Let The Good Times Roll",
+      "duration": "3:49"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:52"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:00"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:28"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:52"
+    },
+    {
+      "title": "Althea",
+      "duration": "7:44"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:51"
+    },
+    {
+      "title": "Just A Little Light",
+      "duration": "5:21"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:17"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "8:14"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "7:35"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:08"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "14:56"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:06"
+    },
+    {
+      "title": "Space",
+      "duration": "10:19"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "6:39"
+    },
+    {
+      "title": "All Along The Watchtower",
+      "duration": "6:31"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:26"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "7:22"
+    },
+    {
+      "title": "It's All Over Now Baby Blue",
+      "duration": "7:34"
+    }
+  ]
+}

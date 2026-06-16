@@ -285,9 +285,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-07",
     "date": "1972-04-07",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Wembley Empire Pool",
+    "city": "London",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -401,9 +401,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-08",
     "date": "1972-04-08",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Wembley Empire Pool",
+    "city": "London",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -505,9 +505,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-11",
     "date": "1972-04-11",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "City Hall",
+    "city": "Newcastle",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -629,9 +629,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-14",
     "date": "1972-04-14",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Tivoli Concert Hall",
+    "city": "Copenhagen",
+    "country": "DNK",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -761,9 +761,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-16",
     "date": "1972-04-16",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Stakladen Cafeteria, Aarhus University",
+    "city": "Aarhus",
+    "country": "DNK",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -893,9 +893,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-17",
     "date": "1972-04-17",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Tivoli Concert Hall",
+    "city": "Copenhagen",
+    "country": "DNK",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1001,9 +1001,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-21",
     "date": "1972-04-21",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Beat Club",
+    "city": "Bremen",
+    "country": "BRD",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1057,9 +1057,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-24",
     "date": "1972-04-24",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Rheinhalle",
+    "city": "Düsseldorf",
+    "country": "BRD",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1177,9 +1177,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-26",
     "date": "1972-04-26",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Jahrhundert Halle",
+    "city": "Frankfurt",
+    "country": "BRD",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1313,9 +1313,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-04-29",
     "date": "1972-04-29",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Musikhalle",
+    "city": "Hamburg",
+    "country": "BRD",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1417,9 +1417,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-03",
     "date": "1972-05-03",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Olympia Theatre",
+    "city": "Paris",
+    "country": "FRA",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1561,9 +1561,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-04",
     "date": "1972-05-04",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Olympia Theatre",
+    "city": "Paris",
+    "country": "FRA",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1693,9 +1693,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-07",
     "date": "1972-05-07",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Bickershaw Festival",
+    "city": "Wigan",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1817,9 +1817,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-10",
     "date": "1972-05-10",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Concertgebouw",
+    "city": "Amsterdam",
+    "country": "HOL",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -1961,9 +1961,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-11",
     "date": "1972-05-11",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Grote Zaal De Doelen",
+    "city": "Rotterdam",
+    "country": "HOL",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2093,9 +2093,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-13",
     "date": "1972-05-13",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Lille Fairgrounds",
+    "city": "Lille",
+    "country": "FRA",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2209,9 +2209,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-16",
     "date": "1972-05-16",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "La Grande Salle Du Grand Theatre",
+    "city": "Luxembourg",
+    "country": "LUX",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2313,9 +2313,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-18",
     "date": "1972-05-18",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Kongressaal",
+    "city": "Munich",
+    "country": "BRD",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2429,9 +2429,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-23",
     "date": "1972-05-23",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Lyceum Theatre",
+    "city": "London",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2565,9 +2565,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-24",
     "date": "1972-05-24",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Lyceum Theatre",
+    "city": "London",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2685,9 +2685,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-25",
     "date": "1972-05-25",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Lyceum Theatre",
+    "city": "London",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -2805,9 +2805,9 @@ export const shows: ManifestEntry[] = [
   {
     "id": "1972-05-26",
     "date": "1972-05-26",
-    "venue": "TBD",
-    "city": "TBD",
-    "country": "",
+    "venue": "Lyceum Theatre",
+    "city": "London",
+    "country": "ENG",
     "tour": "Europe 1972",
     "collection": "Europe 72",
     "tags": [
@@ -6506,6 +6506,1150 @@ export const shows: ManifestEntry[] = [
       {
         "title": "Attics Of My Life",
         "durationSeconds": 393
+      }
+    ]
+  },
+  {
+    "id": "1989-10-11",
+    "date": "1989-10-11",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-11.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "Let The Good Times Roll",
+        "durationSeconds": 229
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 240
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 448
+      },
+      {
+        "title": "When I Paint My Masterpiece",
+        "durationSeconds": 352
+      },
+      {
+        "title": "Althea",
+        "durationSeconds": 464
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 411
+      },
+      {
+        "title": "Just A Little Light",
+        "durationSeconds": 321
+      },
+      {
+        "title": "Don't Ease Me In",
+        "durationSeconds": 197
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 494
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 455
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 668
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 896
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 606
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 619
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 399
+      },
+      {
+        "title": "All Along The Watchtower",
+        "durationSeconds": 391
+      },
+      {
+        "title": "Black Peter",
+        "durationSeconds": 566
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 442
+      },
+      {
+        "title": "It's All Over Now Baby Blue",
+        "durationSeconds": 454
+      }
+    ]
+  },
+  {
+    "id": "1989-10-12",
+    "date": "1989-10-12",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-12.svg",
+    "songCount": 17,
+    "songs": [
+      {
+        "title": "Hell In A Bucket",
+        "durationSeconds": 375
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 554
+      },
+      {
+        "title": "Blow Away",
+        "durationSeconds": 480
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 480
+      },
+      {
+        "title": "Queen Jane Approximately",
+        "durationSeconds": 363
+      },
+      {
+        "title": "Bird Song",
+        "durationSeconds": 848
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 350
+      },
+      {
+        "title": "Hey Pocky Way",
+        "durationSeconds": 409
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 352
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 501
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 731
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 529
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 573
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 475
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 729
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 468
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 308
+      }
+    ]
+  },
+  {
+    "id": "1989-10-14",
+    "date": "1989-10-14",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-14.svg",
+    "songCount": 18,
+    "songs": [
+      {
+        "title": "Touch Of Grey",
+        "durationSeconds": 379
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 456
+      },
+      {
+        "title": "We Can Run",
+        "durationSeconds": 351
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 509
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 156
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 271
+      },
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 227
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 326
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 517
+      },
+      {
+        "title": "Foolish Heart",
+        "durationSeconds": 454
+      },
+      {
+        "title": "Man Smart Woman Smarter",
+        "durationSeconds": 623
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 770
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 646
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 499
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 496
+      },
+      {
+        "title": "China Doll",
+        "durationSeconds": 439
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 320
+      },
+      {
+        "title": "Black Muddy River",
+        "durationSeconds": 398
+      }
+    ]
+  },
+  {
+    "id": "1989-10-15",
+    "date": "1989-10-15",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-15.svg",
+    "songCount": 18,
+    "songs": [
+      {
+        "title": "Let The Good Times Roll",
+        "durationSeconds": 216
+      },
+      {
+        "title": "Iko Iko",
+        "durationSeconds": 429
+      },
+      {
+        "title": "Walkin' Blues",
+        "durationSeconds": 344
+      },
+      {
+        "title": "Far From Me",
+        "durationSeconds": 242
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 574
+      },
+      {
+        "title": "Victim Or The Crime",
+        "durationSeconds": 481
+      },
+      {
+        "title": "Standing On The Moon",
+        "durationSeconds": 442
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 393
+      },
+      {
+        "title": "Just A Little Light",
+        "durationSeconds": 262
+      },
+      {
+        "title": "Crazy Fingers",
+        "durationSeconds": 498
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 731
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 564
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 511
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 626
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 464
+      },
+      {
+        "title": "Throwing Stones",
+        "durationSeconds": 531
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 689
+      },
+      {
+        "title": "Box Of Rain",
+        "durationSeconds": 281
+      }
+    ]
+  },
+  {
+    "id": "1989-10-16",
+    "date": "1989-10-16",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-16.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "Picasso Moon",
+        "durationSeconds": 404
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Feel Like A Stranger",
+        "durationSeconds": 428
+      },
+      {
+        "title": "Never Trust A Woman",
+        "durationSeconds": 384
+      },
+      {
+        "title": "Built To Last",
+        "durationSeconds": 278
+      },
+      {
+        "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+        "durationSeconds": 526
+      },
+      {
+        "title": "Let It Grow",
+        "durationSeconds": 715
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 500
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 723
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 483
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 566
+      },
+      {
+        "title": "Jam",
+        "durationSeconds": 561
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 369
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 350
+      },
+      {
+        "title": "I Will Take You Home",
+        "durationSeconds": 288
+      },
+      {
+        "title": "I Need A Miracle",
+        "durationSeconds": 243
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 318
+      },
+      {
+        "title": "Attics Of My Life",
+        "durationSeconds": 292
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 271
+      },
+      {
+        "title": "And We Bid You Goodnight",
+        "durationSeconds": 176
+      }
+    ]
+  },
+  {
+    "id": "1989-10-18",
+    "date": "1989-10-18",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-18.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "Shakedown Street",
+        "durationSeconds": 786
+      },
+      {
+        "title": "Little Red Rooster",
+        "durationSeconds": 515
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Queen Jane Approximately",
+        "durationSeconds": 367
+      },
+      {
+        "title": "Bird Song",
+        "durationSeconds": 808
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 382
+      },
+      {
+        "title": "China Cat Sunflower",
+        "durationSeconds": 346
+      },
+      {
+        "title": "I Know You Rider",
+        "durationSeconds": 352
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 474
+      },
+      {
+        "title": "Man Smart Woman Smarter",
+        "durationSeconds": 447
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 806
+      },
+      {
+        "title": "Jam",
+        "durationSeconds": 254
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 448
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 445
+      },
+      {
+        "title": "Gimme Some Lovin'",
+        "durationSeconds": 268
+      },
+      {
+        "title": "All Along The Watchtower",
+        "durationSeconds": 375
+      },
+      {
+        "title": "Black Peter",
+        "durationSeconds": 588
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 223
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 363
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 318
+      }
+    ]
+  },
+  {
+    "id": "1989-10-19",
+    "date": "1989-10-19",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-19.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "Hell In A Bucket",
+        "durationSeconds": 378
+      },
+      {
+        "title": "West L.A. Fadeaway",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Victim Or The Crime",
+        "durationSeconds": 528
+      },
+      {
+        "title": "Built To Last",
+        "durationSeconds": 296
+      },
+      {
+        "title": "Blow Away",
+        "durationSeconds": 346
+      },
+      {
+        "title": "When I Paint My Masterpiece",
+        "durationSeconds": 301
+      },
+      {
+        "title": "Cumberland Blues",
+        "durationSeconds": 323
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 388
+      },
+      {
+        "title": "Don't Ease Me In",
+        "durationSeconds": 199
+      },
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 230
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 337
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 507
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 732
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 584
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 675
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 553
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 294
+      },
+      {
+        "title": "Dear Mr. Fantasy",
+        "durationSeconds": 448
+      },
+      {
+        "title": "Hey Jude Reprise",
+        "durationSeconds": 131
+      },
+      {
+        "title": "Death Don't Have No Mercy",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 323
+      },
+      {
+        "title": "It's All Over Now Baby Blue",
+        "durationSeconds": 430
+      }
+    ]
+  },
+  {
+    "id": "1989-10-20",
+    "date": "1989-10-20",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-20.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "Touch Of Grey",
+        "durationSeconds": 379
+      },
+      {
+        "title": "Greatest Story Ever Told",
+        "durationSeconds": 250
+      },
+      {
+        "title": "Candyman",
+        "durationSeconds": 404
+      },
+      {
+        "title": "Picasso Moon",
+        "durationSeconds": 446
+      },
+      {
+        "title": "Just A Little Light",
+        "durationSeconds": 284
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 520
+      },
+      {
+        "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+        "durationSeconds": 536
+      },
+      {
+        "title": "Stagger Lee",
+        "durationSeconds": 339
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 267
+      },
+      {
+        "title": "California Earthquake",
+        "durationSeconds": 350
+      },
+      {
+        "title": "Hey Pocky Way",
+        "durationSeconds": 408
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 603
+      },
+      {
+        "title": "Fire On The Mountain",
+        "durationSeconds": 824
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 427
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 873
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 635
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 660
+      },
+      {
+        "title": "I Will Take You Home",
+        "durationSeconds": 306
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 671
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 626
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 352
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 329
+      }
+    ]
+  },
+  {
+    "id": "1989-10-22",
+    "date": "1989-10-22",
+    "venue": "Charlotte Coliseum",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-22.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Foolish Heart",
+        "durationSeconds": 483
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 448
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 356
+      },
+      {
+        "title": "Queen Jane Approximately",
+        "durationSeconds": 360
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 407
+      },
+      {
+        "title": "Beat It On Down The Line",
+        "durationSeconds": 193
+      },
+      {
+        "title": "Bird Song",
+        "durationSeconds": 852
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 235
+      },
+      {
+        "title": "Blow Away",
+        "durationSeconds": 600
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 380
+      },
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 224
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 393
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 580
+      },
+      {
+        "title": "Jam",
+        "durationSeconds": 437
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 355
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 523
+      },
+      {
+        "title": "I Need A Miracle",
+        "durationSeconds": 244
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 516
+      },
+      {
+        "title": "Throwing Stones",
+        "durationSeconds": 551
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Black Muddy River",
+        "durationSeconds": 353
+      }
+    ]
+  },
+  {
+    "id": "1989-10-23",
+    "date": "1989-10-23",
+    "venue": "Charlotte Coliseum",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-23.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "California Earthquake",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Feel Like A Stranger",
+        "durationSeconds": 439
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 402
+      },
+      {
+        "title": "Walkin' Blues",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 381
+      },
+      {
+        "title": "When I Paint My Masterpiece",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 435
+      },
+      {
+        "title": "Let It Grow",
+        "durationSeconds": 729
+      },
+      {
+        "title": "Touch Of Grey",
+        "durationSeconds": 370
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 478
+      },
+      {
+        "title": "We Can Run",
+        "durationSeconds": 388
+      },
+      {
+        "title": "Crazy Fingers",
+        "durationSeconds": 467
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 835
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 468
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 642
+      },
+      {
+        "title": "I Will Take You Home",
+        "durationSeconds": 282
+      },
+      {
+        "title": "Goin' Down The Road Feeling Bad",
+        "durationSeconds": 433
+      },
+      {
+        "title": "Standing On The Moon",
+        "durationSeconds": 509
+      },
+      {
+        "title": "Turn On Your Lovelight",
+        "durationSeconds": 393
+      },
+      {
+        "title": "Attics Of My Life",
+        "durationSeconds": 318
+      }
+    ]
+  },
+  {
+    "id": "1989-10-25",
+    "date": "1989-10-25",
+    "venue": "Miami Arena",
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-25.svg",
+    "songCount": 19,
+    "songs": [
+      {
+        "title": "Hell In A Bucket",
+        "durationSeconds": 351
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 610
+      },
+      {
+        "title": "Just A Little Light",
+        "durationSeconds": 288
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 476
+      },
+      {
+        "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+        "durationSeconds": 518
+      },
+      {
+        "title": "Cold Rain And Snow",
+        "durationSeconds": 378
+      },
+      {
+        "title": "Picasso Moon",
+        "durationSeconds": 387
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 537
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 607
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 721
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 355
+      },
+      {
+        "title": "Standing On The Moon",
+        "durationSeconds": 485
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 742
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 497
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 594
+      },
+      {
+        "title": "Gimme Some Lovin'",
+        "durationSeconds": 299
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 611
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 500
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 313
+      }
+    ]
+  },
+  {
+    "id": "1989-10-26",
+    "date": "1989-10-26",
+    "venue": "Miami Arena",
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "tour": "Fall 1989",
+    "collection": "Fall 1989",
+    "tags": [
+      "1989"
+    ],
+    "svg": "/shows/1989-10-26.svg",
+    "songCount": 18,
+    "songs": [
+      {
+        "title": "Foolish Heart",
+        "durationSeconds": 484
+      },
+      {
+        "title": "Little Red Rooster",
+        "durationSeconds": 479
+      },
+      {
+        "title": "Stagger Lee",
+        "durationSeconds": 344
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 159
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 283
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 280
+      },
+      {
+        "title": "Victim Or The Crime",
+        "durationSeconds": 452
+      },
+      {
+        "title": "Don't Ease Me In",
+        "durationSeconds": 191
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 752
+      },
+      {
+        "title": "Blow Away",
+        "durationSeconds": 598
+      },
+      {
+        "title": "Dark Star",
+        "durationSeconds": 1600
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 615
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 416
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 288
+      },
+      {
+        "title": "All Along The Watchtower",
+        "durationSeconds": 330
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 492
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 733
+      },
+      {
+        "title": "And We Bid You Goodnight",
+        "durationSeconds": 149
       }
     ]
   },

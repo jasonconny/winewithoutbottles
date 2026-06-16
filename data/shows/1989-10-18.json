@@ -1,0 +1,93 @@
+{
+  "id": "1989-10-18",
+  "date": "1989-10-18",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "duration": "13:06"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:35"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:52"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:07"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "13:28"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:22"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:46"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:52"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:54"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "7:27"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "13:26"
+    },
+    {
+      "title": "Jam",
+      "duration": "4:14"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:28"
+    },
+    {
+      "title": "Space",
+      "duration": "7:25"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "4:28"
+    },
+    {
+      "title": "All Along The Watchtower",
+      "duration": "6:15"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:48"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:43"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:03"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:18"
+    }
+  ]
+}

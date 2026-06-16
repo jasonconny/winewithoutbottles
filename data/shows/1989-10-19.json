@@ -1,0 +1,101 @@
+{
+  "id": "1989-10-19",
+  "date": "1989-10-19",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Hell In A Bucket",
+      "duration": "6:18"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "6:55"
+    },
+    {
+      "title": "Victim Or The Crime",
+      "duration": "8:48"
+    },
+    {
+      "title": "Built To Last",
+      "duration": "4:56"
+    },
+    {
+      "title": "Blow Away",
+      "duration": "5:46"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:01"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:23"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:28"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:19"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "3:50"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "5:37"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "8:27"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "12:12"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "9:44"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:15"
+    },
+    {
+      "title": "Space",
+      "duration": "9:13"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:54"
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "duration": "7:28"
+    },
+    {
+      "title": "Hey Jude Reprise",
+      "duration": "2:11"
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "duration": "5:24"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "5:23"
+    },
+    {
+      "title": "It's All Over Now Baby Blue",
+      "duration": "7:10"
+    }
+  ]
+}

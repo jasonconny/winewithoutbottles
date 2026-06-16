@@ -1,0 +1,93 @@
+{
+  "id": "1989-10-16",
+  "date": "1989-10-16",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Picasso Moon",
+      "duration": "6:44"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "duration": "6:32"
+    },
+    {
+      "title": "Feel Like A Stranger",
+      "duration": "7:08"
+    },
+    {
+      "title": "Never Trust A Woman",
+      "duration": "6:24"
+    },
+    {
+      "title": "Built To Last",
+      "duration": "4:38"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "8:46"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:55"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:20"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "12:03"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:03"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:26"
+    },
+    {
+      "title": "Jam",
+      "duration": "9:21"
+    },
+    {
+      "title": "Drums",
+      "duration": "6:09"
+    },
+    {
+      "title": "Space",
+      "duration": "5:50"
+    },
+    {
+      "title": "I Will Take You Home",
+      "duration": "4:48"
+    },
+    {
+      "title": "I Need A Miracle",
+      "duration": "4:03"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "5:18"
+    },
+    {
+      "title": "Attics Of My Life",
+      "duration": "4:52"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "4:31"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "2:56"
+    }
+  ]
+}

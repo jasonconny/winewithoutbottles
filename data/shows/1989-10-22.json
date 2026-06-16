@@ -1,0 +1,97 @@
+{
+  "id": "1989-10-22",
+  "date": "1989-10-22",
+  "venue": "Charlotte Coliseum",
+  "city": "Charlotte",
+  "state": "NC",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Foolish Heart",
+      "duration": "8:03"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:28"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "duration": "5:56"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:00"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:47"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:13"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "14:12"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "3:55"
+    },
+    {
+      "title": "Blow Away",
+      "duration": "10:00"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:20"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "3:44"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "6:33"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "9:40"
+    },
+    {
+      "title": "Jam",
+      "duration": "7:17"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:55"
+    },
+    {
+      "title": "Space",
+      "duration": "8:43"
+    },
+    {
+      "title": "I Need A Miracle",
+      "duration": "4:04"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:36"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:11"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "7:51"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "5:53"
+    }
+  ]
+}

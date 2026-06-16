@@ -1,0 +1,101 @@
+{
+  "id": "1989-10-20",
+  "date": "1989-10-20",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Touch Of Grey",
+      "duration": "6:19"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:10"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:44"
+    },
+    {
+      "title": "Picasso Moon",
+      "duration": "7:26"
+    },
+    {
+      "title": "Just A Little Light",
+      "duration": "4:44"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:40"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "8:56"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "5:39"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:27"
+    },
+    {
+      "title": "California Earthquake",
+      "duration": "5:50"
+    },
+    {
+      "title": "Hey Pocky Way",
+      "duration": "6:48"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:03"
+    },
+    {
+      "title": "Fire On The Mountain",
+      "duration": "13:44"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:07"
+    },
+    {
+      "title": "The Other One",
+      "duration": "14:33"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:35"
+    },
+    {
+      "title": "Space",
+      "duration": "11:00"
+    },
+    {
+      "title": "I Will Take You Home",
+      "duration": "5:06"
+    },
+    {
+      "title": "The Other One",
+      "duration": "11:11"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:26"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "5:52"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:29"
+    }
+  ]
+}
