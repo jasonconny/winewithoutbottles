@@ -1029,6 +1029,1069 @@ export const shows: ManifestEntry[] = [
     ]
   },
   {
+    "id": "1977-04-22",
+    "date": "1977-04-22",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-22.svg",
+    "songCount": 18,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 121
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 615
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 465
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 366
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 262
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 467
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 458
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 465
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 1262
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 467
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 733
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 363
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 421
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 504
+      },
+      {
+        "title": "I Got My Mojo Workin'",
+        "durationSeconds": 204
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 366
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 375
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 703
+      }
+    ]
+  },
+  {
+    "id": "1977-04-23",
+    "date": "1977-04-23",
+    "venue": "Springfield Civic Center Arena",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-23.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "Sugaree",
+        "durationSeconds": 677
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 269
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 445
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 274
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 172
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 574
+      },
+      {
+        "title": "It's All Over Now",
+        "durationSeconds": 377
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 427
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 632
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 454
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 423
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 359
+      },
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 265
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 533
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 624
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 409
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 529
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 674
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 280
+      }
+    ]
+  },
+  {
+    "id": "1977-04-25",
+    "date": "1977-04-25",
+    "venue": "Capitol Theatre",
+    "city": "Passaic",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-25.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 307
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 165
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 527
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 211
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 210
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 373
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 471
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 314
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 379
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 515
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 658
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 424
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 579
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 569
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 246
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 634
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 605
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 331
+      }
+    ]
+  },
+  {
+    "id": "1977-04-26",
+    "date": "1977-04-26",
+    "venue": "Capitol Theatre",
+    "city": "Passaic",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-26.svg",
+    "songCount": 17,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 313
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 180
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 396
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 282
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 495
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 329
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 507
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 493
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 349
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 644
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 872
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 289
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 746
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 411
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 745
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 548
+      }
+    ]
+  },
+  {
+    "id": "1977-04-27",
+    "date": "1977-04-27",
+    "venue": "Capitol Theatre",
+    "city": "Passaic",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-27.svg",
+    "songCount": 18,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 246
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 521
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 490
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 726
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 279
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 557
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 293
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 488
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 495
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 516
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 447
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 311
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 415
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 626
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 758
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 245
+      }
+    ]
+  },
+  {
+    "id": "1977-04-29",
+    "date": "1977-04-29",
+    "venue": "The Palladium",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-29.svg",
+    "songCount": 23,
+    "songs": [
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 283
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 519
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 950
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 254
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 459
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 307
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 438
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 385
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 436
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 425
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 413
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 840
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 265
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 285
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 518
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 568
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 432
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 192
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 61
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 299
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 613
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 443
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 505
+      }
+    ]
+  },
+  {
+    "id": "1977-04-30",
+    "date": "1977-04-30",
+    "venue": "The Palladium",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-04-30.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 364
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 331
+      },
+      {
+        "title": "It's All Over Now",
+        "durationSeconds": 430
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 309
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 154
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 174
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 413
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 537
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 561
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 262
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 532
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 682
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 306
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 472
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 521
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 267
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 878
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 497
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 93
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 284
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 571
+      }
+    ]
+  },
+  {
+    "id": "1977-05-01",
+    "date": "1977-05-01",
+    "venue": "The Palladium",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-01.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Might As Well",
+        "durationSeconds": 343
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 268
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 423
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 277
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 437
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 214
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 248
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 457
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 482
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 496
+      },
+      {
+        "title": "Sunrise",
+        "durationSeconds": 232
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 354
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 702
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 296
+      },
+      {
+        "title": "Beer Barrel Polka",
+        "durationSeconds": 99
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 653
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 435
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 455
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 708
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 445
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 347
+      }
+    ]
+  },
+  {
+    "id": "1977-05-03",
+    "date": "1977-05-03",
+    "venue": "The Palladium",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-03.svg",
+    "songCount": 24,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 254
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 429
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 177
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 470
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 317
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 626
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 203
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 262
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 391
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 347
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 472
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 410
+      },
+      {
+        "title": "Might As Well",
+        "durationSeconds": 341
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 491
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 792
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 395
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 460
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 653
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 232
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 652
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 251
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 737
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 454
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 478
+      }
+    ]
+  },
+  {
+    "id": "1977-05-04",
+    "date": "1977-05-04",
+    "venue": "The Palladium",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-04.svg",
+    "songCount": 17,
+    "songs": [
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 629
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 397
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 406
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 284
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 403
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 279
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 378
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 496
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 1076
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 494
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 555
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 666
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 580
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 1092
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 652
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 486
+      }
+    ]
+  },
+  {
+    "id": "1977-05-05",
+    "date": "1977-05-05",
+    "venue": "Veterans Memorial Coliseum",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-05.svg",
+    "songCount": 19,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 259
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 904
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 157
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 281
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 538
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 524
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 345
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 211
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 305
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 457
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 393
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 403
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 521
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 647
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 721
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 352
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 700
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 517
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 248
+      }
+    ]
+  },
+  {
     "id": "1977-05-07",
     "date": "1977-05-07",
     "venue": "Boston Garden",
@@ -1324,6 +2387,1258 @@ export const shows: ManifestEntry[] = [
       {
         "title": "Uncle John's Band",
         "durationSeconds": 524
+      }
+    ]
+  },
+  {
+    "id": "1977-05-11",
+    "date": "1977-05-11",
+    "venue": "St. Paul Civic Center Arena",
+    "city": "St. Paul",
+    "state": "MN",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-11.svg",
+    "songCount": 24,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 250
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 407
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 351
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 416
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 517
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 429
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 314
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 487
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 258
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 338
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 204
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 290
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 802
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 400
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 304
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 512
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 584
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 671
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 357
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 531
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 394
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 610
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 486
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 328
+      }
+    ]
+  },
+  {
+    "id": "1977-05-12",
+    "date": "1977-05-12",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-12.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 401
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 157
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 532
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 272
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 320
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 423
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 303
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 593
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 823
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 294
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 510
+      },
+      {
+        "title": "Sunrise",
+        "durationSeconds": 214
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 615
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 542
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 257
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 838
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 628
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 397
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 246
+      }
+    ]
+  },
+  {
+    "id": "1977-05-13",
+    "date": "1977-05-13",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-13.svg",
+    "songCount": 20,
+    "songs": [
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 362
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 263
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 307
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 285
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 515
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 267
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 309
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 457
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 404
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 764
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 409
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 370
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 557
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 277
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 945
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 639
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 366
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 252
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 325
+      }
+    ]
+  },
+  {
+    "id": "1977-05-15",
+    "date": "1977-05-15",
+    "venue": "St. Louis Arena",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-15.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 384
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 329
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 615
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 299
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 534
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 207
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 259
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 347
+      },
+      {
+        "title": "Passenger",
+        "durationSeconds": 180
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 291
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 1038
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 660
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 744
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 206
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 374
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 440
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 306
+      },
+      {
+        "title": "Iko Iko",
+        "durationSeconds": 222
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 570
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 539
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 515
+      }
+    ]
+  },
+  {
+    "id": "1977-05-17",
+    "date": "1977-05-17",
+    "venue": "University of Alabama, Memorial Coliseum",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-17.svg",
+    "songCount": 25,
+    "songs": [
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 316
+      },
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 638
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 261
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 444
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 323
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 346
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 475
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 502
+      },
+      {
+        "title": "Passenger",
+        "durationSeconds": 194
+      },
+      {
+        "title": "High Time",
+        "durationSeconds": 491
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 390
+      },
+      {
+        "title": "Sunrise",
+        "durationSeconds": 223
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 688
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 897
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 390
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 383
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 319
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 516
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 683
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 741
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 315
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 628
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 417
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 539
+      }
+    ]
+  },
+  {
+    "id": "1977-05-18",
+    "date": "1977-05-18",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-18.svg",
+    "songCount": 19,
+    "songs": [
+      {
+        "title": "Deal",
+        "durationSeconds": 301
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 284
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 373
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 208
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 480
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 344
+      },
+      {
+        "title": "It Must Have Been the Roses",
+        "durationSeconds": 467
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 213
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 379
+      },
+      {
+        "title": "High Time",
+        "durationSeconds": 551
+      },
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 421
+      },
+      {
+        "title": "Ship Of Fools",
+        "durationSeconds": 482
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 612
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 762
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 418
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 746
+      },
+      {
+        "title": "Stella Blue",
+        "durationSeconds": 942
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 481
+      },
+      {
+        "title": "Brokedown Palace",
+        "durationSeconds": 376
+      }
+    ]
+  },
+  {
+    "id": "1977-05-19",
+    "date": "1977-05-19",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-19.svg",
+    "songCount": 19,
+    "songs": [
+      {
+        "title": "Promised Land",
+        "durationSeconds": 271
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 1022
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 279
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 496
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 516
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 652
+      },
+      {
+        "title": "Passenger",
+        "durationSeconds": 204
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 513
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 837
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 409
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 482
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 612
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 716
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 561
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 723
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 363
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 433
+      },
+      {
+        "title": "China Doll",
+        "durationSeconds": 534
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 597
+      }
+    ]
+  },
+  {
+    "id": "1977-05-21",
+    "date": "1977-05-21",
+    "venue": "Lakeland Civic Center Arena",
+    "city": "Lakeland",
+    "state": "FL",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-21.svg",
+    "songCount": 24,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 402
+      },
+      {
+        "title": "Me and My Uncle",
+        "durationSeconds": 193
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 425
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 295
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 369
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 339
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 540
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 310
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 670
+      },
+      {
+        "title": "Passenger",
+        "durationSeconds": 194
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 705
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 753
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 409
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 314
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 575
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 921
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 256
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 736
+      },
+      {
+        "title": "Comes a Time",
+        "durationSeconds": 708
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 276
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 735
+      },
+      {
+        "title": "St. Stephen",
+        "durationSeconds": 47
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 285
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 319
+      }
+    ]
+  },
+  {
+    "id": "1977-05-22",
+    "date": "1977-05-22",
+    "venue": "Sportatorium",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-22.svg",
+    "songCount": 24,
+    "songs": [
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 392
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 938
+      },
+      {
+        "title": "El Paso",
+        "durationSeconds": 249
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 399
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 306
+      },
+      {
+        "title": "Friend Of The Devil",
+        "durationSeconds": 477
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 202
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 324
+      },
+      {
+        "title": "Ramble On Rose",
+        "durationSeconds": 444
+      },
+      {
+        "title": "Dancing in the Street",
+        "durationSeconds": 930
+      },
+      {
+        "title": "Help On The Way",
+        "durationSeconds": 298
+      },
+      {
+        "title": "Slipknot!",
+        "durationSeconds": 404
+      },
+      {
+        "title": "Franklin's Tower",
+        "durationSeconds": 912
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 427
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 308
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 333
+      },
+      {
+        "title": "Sunrise",
+        "durationSeconds": 227
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 538
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 631
+      },
+      {
+        "title": "Space",
+        "durationSeconds": 195
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 554
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 355
+      },
+      {
+        "title": "Morning Dew",
+        "durationSeconds": 844
+      },
+      {
+        "title": "Sugar Magnolia",
+        "durationSeconds": 502
+      }
+    ]
+  },
+  {
+    "id": "1977-05-25",
+    "date": "1977-05-25",
+    "venue": "The Mosque",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-25.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "Mississippi Half-Step Uptown Toodleoo",
+        "durationSeconds": 594
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 344
+      },
+      {
+        "title": "They Love Each Other",
+        "durationSeconds": 412
+      },
+      {
+        "title": "Mexicali Blues",
+        "durationSeconds": 193
+      },
+      {
+        "title": "Peggy-O",
+        "durationSeconds": 436
+      },
+      {
+        "title": "Cassidy",
+        "durationSeconds": 287
+      },
+      {
+        "title": "Loser",
+        "durationSeconds": 482
+      },
+      {
+        "title": "Lazy Lightnin'",
+        "durationSeconds": 193
+      },
+      {
+        "title": "Supplication",
+        "durationSeconds": 267
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 333
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 263
+      },
+      {
+        "title": "Scarlet Begonias",
+        "durationSeconds": 622
+      },
+      {
+        "title": "Fire on the Mountain",
+        "durationSeconds": 669
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 528
+      },
+      {
+        "title": "He's Gone",
+        "durationSeconds": 833
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 314
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 895
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 637
+      },
+      {
+        "title": "The Other One",
+        "durationSeconds": 255
+      },
+      {
+        "title": "The Wheel",
+        "durationSeconds": 329
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 503
+      },
+      {
+        "title": "Johnny B. Goode",
+        "durationSeconds": 246
+      }
+    ]
+  },
+  {
+    "id": "1977-05-26",
+    "date": "1977-05-26",
+    "venue": "Baltimore Civic Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-26.svg",
+    "songCount": 22,
+    "songs": [
+      {
+        "title": "The Music Never Stopped",
+        "durationSeconds": 423
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 915
+      },
+      {
+        "title": "Mama Tried",
+        "durationSeconds": 155
+      },
+      {
+        "title": "Sunrise",
+        "durationSeconds": 216
+      },
+      {
+        "title": "Deal",
+        "durationSeconds": 307
+      },
+      {
+        "title": "Passenger",
+        "durationSeconds": 190
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 332
+      },
+      {
+        "title": "Looks Like Rain",
+        "durationSeconds": 512
+      },
+      {
+        "title": "Jack-A-Roe",
+        "durationSeconds": 328
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 326
+      },
+      {
+        "title": "Bertha",
+        "durationSeconds": 438
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 417
+      },
+      {
+        "title": "High Time",
+        "durationSeconds": 446
+      },
+      {
+        "title": "Big River",
+        "durationSeconds": 386
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 627
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 517
+      },
+      {
+        "title": "Eyes Of The World",
+        "durationSeconds": 708
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 38
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 1004
+      },
+      {
+        "title": "Goin' Down the Road Feeling Bad",
+        "durationSeconds": 507
+      },
+      {
+        "title": "Around And Around",
+        "durationSeconds": 439
+      },
+      {
+        "title": "Uncle John's Band",
+        "durationSeconds": 461
+      }
+    ]
+  },
+  {
+    "id": "1977-05-28",
+    "date": "1977-05-28",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tour": "Spring 1977",
+    "collection": "Spring 1977",
+    "tags": [
+      "1977"
+    ],
+    "svg": "/shows/1977-05-28.svg",
+    "songCount": 21,
+    "songs": [
+      {
+        "title": "Bertha",
+        "durationSeconds": 404
+      },
+      {
+        "title": "Good Lovin'",
+        "durationSeconds": 336
+      },
+      {
+        "title": "Sugaree",
+        "durationSeconds": 1123
+      },
+      {
+        "title": "Jack Straw",
+        "durationSeconds": 333
+      },
+      {
+        "title": "Row Jimmy",
+        "durationSeconds": 637
+      },
+      {
+        "title": "New Minglewood Blues",
+        "durationSeconds": 346
+      },
+      {
+        "title": "Candyman",
+        "durationSeconds": 388
+      },
+      {
+        "title": "Passenger",
+        "durationSeconds": 188
+      },
+      {
+        "title": "Brown-Eyed Women",
+        "durationSeconds": 335
+      },
+      {
+        "title": "Promised Land",
+        "durationSeconds": 247
+      },
+      {
+        "title": "Samson And Delilah",
+        "durationSeconds": 424
+      },
+      {
+        "title": "Tennessee Jed",
+        "durationSeconds": 535
+      },
+      {
+        "title": "Estimated Prophet",
+        "durationSeconds": 697
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 690
+      },
+      {
+        "title": "Terrapin Station",
+        "durationSeconds": 677
+      },
+      {
+        "title": "Drums",
+        "durationSeconds": 86
+      },
+      {
+        "title": "Not Fade Away",
+        "durationSeconds": 932
+      },
+      {
+        "title": "Wharf Rat",
+        "durationSeconds": 620
+      },
+      {
+        "title": "Playing in the Band",
+        "durationSeconds": 384
+      },
+      {
+        "title": "One More Saturday Night",
+        "durationSeconds": 290
+      },
+      {
+        "title": "U.S. Blues",
+        "durationSeconds": 336
       }
     ]
   },

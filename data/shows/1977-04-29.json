@@ -1,0 +1,105 @@
+{
+  "id": "1977-04-29",
+  "date": "1977-04-29",
+  "venue": "The Palladium",
+  "city": "New York",
+  "state": "NY",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "country": "USA",
+  "tags": ["1977"],
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "duration": "4:43"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "8:39"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "15:50"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "4:14"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:39"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:07"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:18"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:25"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:16"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "7:05"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:53"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "14:00"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:25"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:45"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "8:38"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "9:28"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "7:12"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:12"
+    },
+    {
+      "title": "Drums",
+      "duration": "1:01"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:59"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:13"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "7:23"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:25"
+    }
+  ]
+}

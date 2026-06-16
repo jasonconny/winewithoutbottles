@@ -1,0 +1,113 @@
+{
+  "id": "1977-05-17",
+  "date": "1977-05-17",
+  "venue": "University of Alabama, Memorial Coliseum",
+  "city": "Tuscaloosa",
+  "state": "AL",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "country": "USA",
+  "tags": ["1977"],
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "duration": "5:16"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "duration": "10:38"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:21"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:24"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:23"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "5:46"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:55"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:22"
+    },
+    {
+      "title": "Passenger",
+      "duration": "3:14"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:11"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:30"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "3:43"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:28"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "14:57"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:30"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:23"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "5:19"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:24"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "8:36"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:23"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "12:21"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:15"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:28"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "6:57"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:59"
+    }
+  ]
+}

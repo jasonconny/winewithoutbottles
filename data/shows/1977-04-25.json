@@ -1,0 +1,97 @@
+{
+  "id": "1977-04-25",
+  "date": "1977-04-25",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "country": "USA",
+  "tags": ["1977"],
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "duration": "5:05"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:07"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:45"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "6:55"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:51"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "8:47"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:31"
+    },
+    {
+      "title": "Supplication",
+      "duration": "3:30"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "6:13"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "7:51"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:14"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:19"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "8:35"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:58"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:04"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "9:39"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:29"
+    },
+    {
+      "title": "Drums",
+      "duration": "4:06"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:34"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:05"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:31"
+    }
+  ]
+}

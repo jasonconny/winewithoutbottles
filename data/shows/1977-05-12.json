@@ -1,0 +1,97 @@
+{
+  "id": "1977-05-12",
+  "date": "1977-05-12",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "country": "USA",
+  "tags": ["1977"],
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:41"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "2:37"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:52"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:32"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:57"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:20"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:03"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "5:03"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo",
+      "duration": "9:53"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "13:43"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:32"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:54"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "8:30"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "3:34"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "10:15"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:02"
+    },
+    {
+      "title": "Drums",
+      "duration": "4:17"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "13:58"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "10:28"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "6:37"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:06"
+    }
+  ]
+}
