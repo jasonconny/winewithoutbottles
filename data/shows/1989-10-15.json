@@ -1,0 +1,85 @@
+{
+  "id": "1989-10-15",
+  "date": "1989-10-15",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Let The Good Times Roll",
+      "duration": "3:36"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "7:09"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "5:44"
+    },
+    {
+      "title": "Far From Me",
+      "duration": "4:02"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:34"
+    },
+    {
+      "title": "Victim Or The Crime",
+      "duration": "8:01"
+    },
+    {
+      "title": "Standing On The Moon",
+      "duration": "7:22"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:33"
+    },
+    {
+      "title": "Just A Little Light",
+      "duration": "4:22"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:18"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "12:11"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "9:24"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:31"
+    },
+    {
+      "title": "Space",
+      "duration": "10:26"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:44"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:51"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "11:29"
+    },
+    {
+      "title": "Box Of Rain",
+      "duration": "4:41"
+    }
+  ]
+}

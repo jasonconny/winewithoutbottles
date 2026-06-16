@@ -1,0 +1,85 @@
+{
+  "id": "1989-10-14",
+  "date": "1989-10-14",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Touch Of Grey",
+      "duration": "6:19"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:36"
+    },
+    {
+      "title": "We Can Run",
+      "duration": "5:51"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:29"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:36"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:31"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "3:47"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "5:26"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "8:37"
+    },
+    {
+      "title": "Foolish Heart",
+      "duration": "7:34"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "10:23"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:50"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "10:46"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:19"
+    },
+    {
+      "title": "Space",
+      "duration": "8:16"
+    },
+    {
+      "title": "China Doll",
+      "duration": "7:19"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:20"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:38"
+    }
+  ]
+}

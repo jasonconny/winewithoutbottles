@@ -1,0 +1,89 @@
+{
+  "id": "1989-10-25",
+  "date": "1989-10-25",
+  "venue": "Miami Arena",
+  "city": "Miami",
+  "state": "FL",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "Hell In A Bucket",
+      "duration": "5:51"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "10:10"
+    },
+    {
+      "title": "Just A Little Light",
+      "duration": "4:48"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "7:56"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "8:38"
+    },
+    {
+      "title": "Cold Rain And Snow",
+      "duration": "6:18"
+    },
+    {
+      "title": "Picasso Moon",
+      "duration": "6:27"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:57"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:07"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "12:01"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "5:55"
+    },
+    {
+      "title": "Standing On The Moon",
+      "duration": "8:05"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "12:22"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:17"
+    },
+    {
+      "title": "Space",
+      "duration": "9:54"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "4:59"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:11"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:20"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:13"
+    }
+  ]
+}

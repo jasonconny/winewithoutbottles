@@ -1,0 +1,93 @@
+{
+  "id": "1989-10-23",
+  "date": "1989-10-23",
+  "venue": "Charlotte Coliseum",
+  "city": "Charlotte",
+  "state": "NC",
+  "tour": "Fall 1989",
+  "collection": "Fall 1989",
+  "country": "USA",
+  "tags": ["1989"],
+  "songs": [
+    {
+      "title": "California Earthquake",
+      "duration": "5:05"
+    },
+    {
+      "title": "Feel Like A Stranger",
+      "duration": "7:19"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:42"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "5:24"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:21"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:05"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:15"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:09"
+    },
+    {
+      "title": "Touch Of Grey",
+      "duration": "6:10"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:58"
+    },
+    {
+      "title": "We Can Run",
+      "duration": "6:28"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "7:47"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "13:55"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:48"
+    },
+    {
+      "title": "Space",
+      "duration": "10:42"
+    },
+    {
+      "title": "I Will Take You Home",
+      "duration": "4:42"
+    },
+    {
+      "title": "Goin' Down The Road Feeling Bad",
+      "duration": "7:13"
+    },
+    {
+      "title": "Standing On The Moon",
+      "duration": "8:29"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "6:33"
+    },
+    {
+      "title": "Attics Of My Life",
+      "duration": "5:18"
+    }
+  ]
+}
