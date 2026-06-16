@@ -1,0 +1,109 @@
+{
+  "id": "1977-05-11",
+  "date": "1977-05-11",
+  "venue": "St. Paul Civic Center Arena",
+  "city": "St. Paul",
+  "state": "MN",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "country": "USA",
+  "tags": ["1977"],
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "4:10"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "6:47"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:51"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:56"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:37"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:09"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:14"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "8:07"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:18"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:38"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:24"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:50"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "13:22"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:40"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:04"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "8:32"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "9:44"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "11:11"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "5:57"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:51"
+    },
+    {
+      "title": "Space",
+      "duration": "6:34"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:10"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:06"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:28"
+    }
+  ]
+}

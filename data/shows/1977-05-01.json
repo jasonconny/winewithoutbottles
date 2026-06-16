@@ -1,0 +1,97 @@
+{
+  "id": "1977-05-01",
+  "date": "1977-05-01",
+  "venue": "The Palladium",
+  "city": "New York",
+  "state": "NY",
+  "tour": "Spring 1977",
+  "collection": "Spring 1977",
+  "country": "USA",
+  "tags": ["1977"],
+  "songs": [
+    {
+      "title": "Might As Well",
+      "duration": "5:43"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:28"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:03"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:37"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:17"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:34"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:08"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:37"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "8:02"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:16"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "3:52"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "5:54"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:42"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:56"
+    },
+    {
+      "title": "Beer Barrel Polka",
+      "duration": "1:39"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:15"
+    },
+    {
+      "title": "The Other One",
+      "duration": "7:35"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "11:48"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "7:25"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:47"
+    }
+  ]
+}

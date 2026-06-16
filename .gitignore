@@ -35,3 +35,8 @@ ABOUT.md
 .wrangler/
 .dev.vars
 .dev.vars.*
+
+# Legacy SVG masters are bootstrap inputs for generator/verify.ts only —
+# transient working files dropped in per reconstruction batch. Jason keeps the
+# masters off-repo; don't commit them (or the .DS_Store macOS leaves behind).
+tests/fixtures/legacy/

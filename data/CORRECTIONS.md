@@ -1,9 +1,10 @@
 # Art corrections
 
-The reconstructed pieces were bootstrapped from the original 2013 SVGs
-stripe-for-stripe (a one-time process; those originals are no longer in the
-repo). They encoded mistakes of their own, so the authored data in
-`data/shows/<id>.json` is now the source of truth and is freely editable for
+The reconstructed pieces are bootstrapped from Jason's original 2013 SVGs
+stripe-for-stripe (`npx tsx generator/verify.ts <id>`; the masters are dropped
+into the gitignored `tests/fixtures/legacy/` per batch, not committed). The
+originals encode mistakes of their own, so the authored data in
+`data/shows/<id>.json` is the source of truth and is freely editable for
 corrections (`tests/data-validity.test.ts` keeps it well-formed; the
 `public/shows/<id>.svg` diff is the reviewable record). This file is the log of
 deliberate departures from the 2013 art. Each is confirmed by Jason.
@@ -14,14 +15,17 @@ The original art encoded a typo'd / non-canonical song title, so the stripe's
 color was "wrong." These use the **correct** title instead, so the regenerated
 archive reflects the right title rather than preserving the typo.
 
-| Show       | Stripe  | Was (2013)                          | Corrected to                      |
-| ---------- | ------- | ----------------------------------- | --------------------------------- |
-| 1969-03-02 | Caution | `(Do Not Step On Tracks)`           | `Caution (Do Not Stop On Tracks)` |
-| 1974-10-20 | "Roses" | a non-canonical form (`122-68-100`) | `It Must Have Been the Roses`     |
-| 1974-10-20 | closer  | a non-canonical form (`61-105-115`) | `And We Bid You Goodnight`        |
-| 1989-10-09 | #17     | a non-canonical form (`56-90-158`)  | `Dear Mr. Fantasy`                |
-| 1995-07-09 | #5      | a non-canonical form (`60-122-58`)  | `Childhood's End`                 |
-| 1974-10-19 | #18     | a non-canonical form (`102-36-106`) | `The Race Is On`                  |
+| Show       | Stripe  | Was (2013)                            | Corrected to                      |
+| ---------- | ------- | ------------------------------------- | --------------------------------- |
+| 1969-03-02 | Caution | `(Do Not Step On Tracks)`             | `Caution (Do Not Stop On Tracks)` |
+| 1974-10-20 | "Roses" | a non-canonical form (`122-68-100`)   | `It Must Have Been the Roses`     |
+| 1974-10-20 | closer  | a non-canonical form (`61-105-115`)   | `And We Bid You Goodnight`        |
+| 1989-10-09 | #17     | a non-canonical form (`56-90-158`)    | `Dear Mr. Fantasy`                |
+| 1995-07-09 | #5      | a non-canonical form (`60-122-58`)    | `Childhood's End`                 |
+| 1974-10-19 | #18     | a non-canonical form (`102-36-106`)   | `The Race Is On`                  |
+| 1977-04-22 | #15     | `Got My Mojo Working` (`133-109-123`) | `I Got My Mojo Workin'`           |
+| 1977-05-17 | #6      | mis-colored stripe (`47-100-67`)      | `Jack-A-Roe`                      |
+| 1977-05-21 | #23     | a non-canonical form (`106-105-104`)  | `One More Saturday Night`         |
 
 (2/27–2/28 etc. use the original hyphenated forms — `Black-Throated Wind`,
 `Brown-Eyed Women` — those reproduce the art exactly and are _not_ corrections.)
