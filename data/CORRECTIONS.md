@@ -1,10 +1,8 @@
 # Art corrections
 
 The reconstructed pieces were bootstrapped from the original 2013 SVGs
-stripe-for-stripe (verified once at reconstruction time via
-`npx tsx generator/verify.ts <id>` against `tests/fixtures/legacy/<id>.svg`).
-Those legacy fixtures are a **one-time bootstrap oracle, not a permanent
-checksum** — they encode the originals' own mistakes. The authored data in
+stripe-for-stripe (a one-time process; those originals are no longer in the
+repo). They encoded mistakes of their own, so the authored data in
 `data/shows/<id>.json` is now the source of truth and is freely editable for
 corrections (`tests/data-validity.test.ts` keeps it well-formed; the
 `public/shows/<id>.svg` diff is the reviewable record). This file is the log of

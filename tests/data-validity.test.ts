@@ -5,10 +5,9 @@ import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
 
 // Show data is hand-authored, so the guard here is *validity*, not fidelity to
-// the legacy art: the legacy SVGs are a one-time bootstrap oracle (see
-// generator/verify.ts), not a permanent checksum — they encode the very
-// mistakes we correct over time. These tests just keep the authored data
-// well-formed and the generated manifest in sync with it.
+// the original art. The authored data is the source of truth and is freely
+// editable for corrections; these tests just keep it well-formed and the
+// generated manifest in sync with it.
 
 const DATA_DIR = 'data/shows';
 const ID_RE = /^\d{4}-\d{2}-\d{2}$/;
