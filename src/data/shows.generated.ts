@@ -650,7 +650,7 @@ export const shows: ManifestEntry[] = [
       "Winterland"
     ],
     "svg": "/shows/1974-10-19.svg",
-    "songCount": 31,
+    "songCount": 32,
     "songs": [
       {
         "title": "Mississippi Half-Step Uptown Toodleoo",
@@ -742,7 +742,11 @@ export const shows: ManifestEntry[] = [
       },
       {
         "title": "He's Gone",
-        "durationSeconds": 829
+        "durationSeconds": 732
+      },
+      {
+        "title": "Truckin'",
+        "durationSeconds": 97
       },
       {
         "title": "Caution Jam",
