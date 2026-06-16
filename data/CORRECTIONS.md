@@ -15,17 +15,19 @@ The original art encoded a typo'd / non-canonical song title, so the stripe's
 color was "wrong." These use the **correct** title instead, so the regenerated
 archive reflects the right title rather than preserving the typo.
 
-| Show       | Stripe  | Was (2013)                            | Corrected to                      |
-| ---------- | ------- | ------------------------------------- | --------------------------------- |
-| 1969-03-02 | Caution | `(Do Not Step On Tracks)`             | `Caution (Do Not Stop On Tracks)` |
-| 1974-10-20 | "Roses" | a non-canonical form (`122-68-100`)   | `It Must Have Been the Roses`     |
-| 1974-10-20 | closer  | a non-canonical form (`61-105-115`)   | `And We Bid You Goodnight`        |
-| 1989-10-09 | #17     | a non-canonical form (`56-90-158`)    | `Dear Mr. Fantasy`                |
-| 1995-07-09 | #5      | a non-canonical form (`60-122-58`)    | `Childhood's End`                 |
-| 1974-10-19 | #18     | a non-canonical form (`102-36-106`)   | `The Race Is On`                  |
-| 1977-04-22 | #15     | `Got My Mojo Working` (`133-109-123`) | `I Got My Mojo Workin'`           |
-| 1977-05-17 | #6      | mis-colored stripe (`47-100-67`)      | `Jack-A-Roe`                      |
-| 1977-05-21 | #23     | a non-canonical form (`106-105-104`)  | `One More Saturday Night`         |
+| Show       | Stripe  | Was (2013)                                                                                   | Corrected to                      |
+| ---------- | ------- | -------------------------------------------------------------------------------------------- | --------------------------------- |
+| 1969-03-02 | Caution | `(Do Not Step On Tracks)`                                                                    | `Caution (Do Not Stop On Tracks)` |
+| 1974-10-20 | "Roses" | a non-canonical form (`122-68-100`)                                                          | `It Must Have Been the Roses`     |
+| 1974-10-20 | closer  | a non-canonical form (`61-105-115`)                                                          | `And We Bid You Goodnight`        |
+| 1989-10-09 | #17     | a non-canonical form (`56-90-158`)                                                           | `Dear Mr. Fantasy`                |
+| 1995-07-09 | #5      | a non-canonical form (`60-122-58`)                                                           | `Childhood's End`                 |
+| 1974-10-19 | #18     | a non-canonical form (`102-36-106`)                                                          | `The Race Is On`                  |
+| 1977-04-22 | #15     | `Got My Mojo Working` (`133-109-123`)                                                        | `I Got My Mojo Workin'`           |
+| 1977-05-17 | #6      | mis-colored stripe (`47-100-67`)                                                             | `Jack-A-Roe`                      |
+| 1977-05-21 | #23     | a non-canonical form (`106-105-104`)                                                         | `One More Saturday Night`         |
+| 1972 ×6    | Caution | art typo `…Step on Tracks` (`102-121-101`); affects 04-08, 04-14, 04-16, 04-17, 04-29, 05-11 | `Caution (Do Not Stop on Tracks)` |
+| 1972-05-10 | #27     | mis-colored stripe (`92-78-114`, copy/paste slip)                                            | `Ramble On Rose`                  |
 
 (2/27–2/28 etc. use the original hyphenated forms — `Black-Throated Wind`,
 `Brown-Eyed Women` — those reproduce the art exactly and are _not_ corrections.)

@@ -1,0 +1,116 @@
+{
+  "id": "1972-05-24",
+  "date": "1972-05-24",
+  "venue": "Lyceum Theatre",
+  "city": "London",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "country": "ENG",
+  "tags": ["1972"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:44"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:35"
+    },
+    {
+      "title": "Mr. Charlie",
+      "duration": "4:04"
+    },
+    {
+      "title": "Deal",
+      "duration": "4:35"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:13"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "7:44"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:20"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:37"
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "duration": "2:57"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:50"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:35"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "12:16"
+    },
+    {
+      "title": "You Win Again",
+      "duration": "4:15"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "4:57"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "6:19"
+    },
+    {
+      "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
+      "duration": "5:28"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:36"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "10:08"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "11:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "1:51"
+    },
+    {
+      "title": "The Other One",
+      "duration": "29:45"
+    },
+    {
+      "title": "Sing Me Back Home",
+      "duration": "10:30"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "7:11"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "12:02"
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "duration": "8:37"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:10"
+    }
+  ]
+}

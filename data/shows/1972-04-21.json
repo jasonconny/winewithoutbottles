@@ -1,0 +1,52 @@
+{
+  "id": "1972-04-21",
+  "date": "1972-04-21",
+  "venue": "Beat Club",
+  "city": "Bremen",
+  "tour": "Europe 1972",
+  "collection": "Europe 72",
+  "country": "BRD",
+  "tags": ["1972"],
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:06"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:59"
+    },
+    {
+      "title": "Mr. Charlie",
+      "duration": "4:06"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:54"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:51"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:57"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:04"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:34"
+    },
+    {
+      "title": "Drums",
+      "duration": "1:16"
+    },
+    {
+      "title": "The Other One",
+      "duration": "21:48"
+    }
+  ]
+}
