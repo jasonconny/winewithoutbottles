@@ -1,0 +1,92 @@
+{
+  "id": "1991-09-16",
+  "date": "1991-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1991"
+  ],
+  "svg": "/shows/1991-09-16.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 467
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 490
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 260
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 467
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 605
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 887
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 769
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 633
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 280
+    }
+  ]
+}

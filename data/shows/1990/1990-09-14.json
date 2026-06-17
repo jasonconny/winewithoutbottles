@@ -1,0 +1,88 @@
+{
+  "id": "1990-09-14",
+  "date": "1990-09-14",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "8:22"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "12:21"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "10:05"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:24"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:43"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "5:43"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:19"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:29"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "9:48"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "15:05"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "10:15"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "15:08"
+    },
+    {
+      "title": "Jam",
+      "duration": "5:03"
+    },
+    {
+      "title": "Drums",
+      "duration": "6:07"
+    },
+    {
+      "title": "Space",
+      "duration": "10:40"
+    },
+    {
+      "title": "The Other One",
+      "duration": "10:37"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:33"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "12:15"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:14"
+    }
+  ]
+}

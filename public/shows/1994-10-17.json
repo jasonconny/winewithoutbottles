@@ -1,0 +1,84 @@
+{
+  "id": "1994-10-17",
+  "date": "1994-10-17",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1994"
+  ],
+  "svg": "/shows/1994-10-17.svg",
+  "songCount": 17,
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 409
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Eternity",
+      "durationSeconds": 620
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1511
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 794
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1385
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 210
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 711
+    },
+    {
+      "title": "Rainy Day Women #12 and 35",
+      "durationSeconds": 441
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "1993-09-18",
+  "date": "1993-09-18",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1993"],
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "13:18"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "9:17"
+    },
+    {
+      "title": "Althea",
+      "duration": "7:06"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "6:42"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:46"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "7:49"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "7:12"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "9:52"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "8:30"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:18"
+    },
+    {
+      "title": "Corrina",
+      "duration": "10:33"
+    },
+    {
+      "title": "Drums",
+      "duration": "14:27"
+    },
+    {
+      "title": "Space",
+      "duration": "12:01"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:07"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "5:22"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:17"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "7:06"
+    },
+    {
+      "title": "Gloria",
+      "duration": "7:46"
+    }
+  ]
+}

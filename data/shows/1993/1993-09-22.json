@@ -1,0 +1,80 @@
+{
+  "id": "1993-09-22",
+  "date": "1993-09-22",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1993"],
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "duration": "3:53"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "6:43"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "10:05"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "9:06"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:59"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:24"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "14:14"
+    },
+    {
+      "title": "Easy Answers",
+      "duration": "6:20"
+    },
+    {
+      "title": "Lazy River Road",
+      "duration": "7:43"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "15:52"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "7:33"
+    },
+    {
+      "title": "Drums",
+      "duration": "6:12"
+    },
+    {
+      "title": "Space",
+      "duration": "17:33"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:46"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:05"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "4:49"
+    },
+    {
+      "title": "I Fought the Law",
+      "duration": "5:20"
+    }
+  ]
+}

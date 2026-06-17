@@ -1,0 +1,84 @@
+{
+  "id": "1994-10-19",
+  "date": "1994-10-19",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1994"
+  ],
+  "svg": "/shows/1994-10-19.svg",
+  "songCount": 17,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 664
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 368
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 440
+    },
+    {
+      "title": "If the Shoe Fits",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 917
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 556
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 1152
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 850
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 578
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 302
+    }
+  ]
+}

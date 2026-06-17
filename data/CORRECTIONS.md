@@ -43,6 +43,13 @@ archive reflects the right title rather than preserving the typo.
 | 1990-10 ×2 | Valley  | art's non-canonical `Valley Road` (`118-100-95`); 10-22 #8 + 10-30 #9                                                  | `The Valley Road` (`110-110-76`)                        |
 | 1979-09-04 | #6      | art's non-canonical `New Minglewood` (`110-105-124`)                                                                   | `New Minglewood Blues` (`111-128-90`)                   |
 | 1987-09-20 | #3      | mis-colored stripe (`110-138-92`)                                                                                      | `My Brother Esau` (`116-132-92`)                        |
+| 1990-09-14 | #9      | mis-colored stripe (`97-68-120`)                                                                                       | `Scarlet Begonias` (`106-65-116`)                       |
+| 1990-09-20 | #2      | mis-colored stripe (`105-80-30`)                                                                                       | `Althea` (`65-140-30`)                                  |
+| 1991-09-13 | #1      | mis-colored stripe (`148-58-128`, B off by 10)                                                                         | `Touch of Grey` (`148-58-138`)                          |
+| 1993-09-20 | #7      | art's abbreviated `Lazy River` (`128-130-150`)                                                                         | `Lazy River Road` (`127-144-76`)                        |
+| 1993-09-21 | #5      | mis-colored stripe (`145-62-185`)                                                                                      | `Broken Arrow` (`115-50-185`)                           |
+| 1993-09-22 | #16     | art's one-word `Turn On Your Lovelight` (`146-133-119`)                                                                | `Turn On Your Love Light` (`128-151-104`)               |
+| 1994-10-14 | #4      | mis-colored stripe (`127-125-76`, G off by 19)                                                                         | `Lazy River Road` (`127-144-76`)                        |
 
 (2/27–2/28 etc. use the original hyphenated forms — `Black-Throated Wind`,
 `Brown-Eyed Women` — those reproduce the art exactly and are _not_ corrections.
@@ -83,3 +90,4 @@ itself was a bad reconstruction.
 | Show       | Problem                                                                                                                                                            | Resolution                                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | 1990-04-03 | the 2013 art duplicated 4/02's exact song order (same stripe colors/sequence, only widths differ) — impossible for a back-to-back Omni run the band never repeated | legacy SVG discarded; setlist + durations entered by hand from the official source. No color checksum applies for this show. |
+| 1994-10-15 | the 2013 art mis-placed `I Want to Tell You` (`112-100-142`) at the set break (#9); it was actually the show closer                                                | reordered by hand (closer → #18) and durations re-timed from the official source                                             |

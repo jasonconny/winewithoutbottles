@@ -1,0 +1,92 @@
+{
+  "id": "1993-09-20",
+  "date": "1993-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1993"
+  ],
+  "svg": "/shows/1993-09-20.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 521
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 769
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Lazy River Road",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 518
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 457
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 716
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 780
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 608
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 843
+    },
+    {
+      "title": "Baba O'Riley",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Tomorrow Never Knows",
+      "durationSeconds": 321
+    }
+  ]
+}

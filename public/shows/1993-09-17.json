@@ -1,0 +1,92 @@
+{
+  "id": "1993-09-17",
+  "date": "1993-09-17",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1993"
+  ],
+  "svg": "/shows/1993-09-17.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 808
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Easy Answers",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Lazy River Road",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 796
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 728
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 939
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 878
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 350
+    },
+    {
+      "title": "That Would Be Something",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 569
+    },
+    {
+      "title": "I Fought the Law",
+      "durationSeconds": 203
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1991-09-13",
+  "date": "1991-09-13",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1991"
+  ],
+  "svg": "/shows/1991-09-13.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 461
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 862
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 646
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 810
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 748
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 914
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 594
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 514
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 722
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 559
+    }
+  ]
+}

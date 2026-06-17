@@ -1,0 +1,92 @@
+{
+  "id": "1993-09-16",
+  "date": "1993-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1993"
+  ],
+  "svg": "/shows/1993-09-16.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Rain",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 770
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Eternity",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 206
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 374
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 741
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 779
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 834
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Days Between",
+      "durationSeconds": 594
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 422
+    }
+  ]
+}

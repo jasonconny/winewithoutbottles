@@ -1,0 +1,88 @@
+{
+  "id": "1990-09-18",
+  "date": "1990-09-18",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-09-18.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 574
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 783
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 823
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1077
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 779
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 505
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 636
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 721
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 530
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 425
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 772
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 569
+    }
+  ]
+}

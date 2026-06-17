@@ -1,0 +1,88 @@
+{
+  "id": "1991-09-18",
+  "date": "1991-09-18",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1991"
+  ],
+  "svg": "/shows/1991-09-18.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 515
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 642
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 641
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 1159
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 587
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 567
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 281
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 713
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 326
+    }
+  ]
+}

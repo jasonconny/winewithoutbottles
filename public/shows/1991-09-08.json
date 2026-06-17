@@ -1,0 +1,92 @@
+{
+  "id": "1991-09-08",
+  "date": "1991-09-08",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1991"
+  ],
+  "svg": "/shows/1991-09-08.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 528
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Maggie's Farm",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 574
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 857
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 862
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 714
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 512
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 331
+    }
+  ]
+}

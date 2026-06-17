@@ -31,10 +31,18 @@ function legacyStripes(id: string): { rgb: Rgb; width: number }[] {
     'utf8',
   );
   return [...svg.matchAll(/<rect[^>]*>/g)].map((m) => {
-    const c = m[0].match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
     const w = m[0].match(/width="(\d+)"/);
-    if (!c || !w) throw new Error(`unparseable rect: ${m[0]}`);
-    return { rgb: { r: +c[1], g: +c[2], b: +c[3] }, width: +w[1] };
+    if (!w) throw new Error(`unparseable rect: ${m[0]}`);
+    // Legacy masters use either rgb(r, g, b) or hex (#RRGGBB) fills.
+    const rgb = m[0].match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
+    const hex = m[0].match(/fill="#([0-9a-fA-F]{6})"/);
+    let c: Rgb;
+    if (rgb) c = { r: +rgb[1], g: +rgb[2], b: +rgb[3] };
+    else if (hex) {
+      const n = parseInt(hex[1], 16);
+      c = { r: (n >> 16) & 255, g: (n >> 8) & 255, b: n & 255 };
+    } else throw new Error(`unparseable rect: ${m[0]}`);
+    return { rgb: c, width: +w[1] };
   });
 }
 

@@ -1,0 +1,80 @@
+{
+  "id": "1994-10-17",
+  "date": "1994-10-17",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1994"],
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "duration": "5:40"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:49"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "8:01"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:27"
+    },
+    {
+      "title": "Eternity",
+      "duration": "10:20"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "7:41"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:44"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "25:11"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "7:21"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "7:18"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "13:14"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:23"
+    },
+    {
+      "title": "Space",
+      "duration": "23:05"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "3:30"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "6:45"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "11:51"
+    },
+    {
+      "title": "Rainy Day Women #12 and 35",
+      "duration": "7:21"
+    }
+  ]
+}
