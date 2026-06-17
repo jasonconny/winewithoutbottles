@@ -1,0 +1,89 @@
+{
+  "id": "1990-03-19",
+  "date": "1990-03-19",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:43"
+    },
+    {
+      "title": "Bertha",
+      "duration": "7:09"
+    },
+    {
+      "title": "We Can Run",
+      "duration": "7:05"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "5:13"
+    },
+    {
+      "title": "Picasso Moon",
+      "duration": "7:41"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:59"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "7:24"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:40"
+    },
+    {
+      "title": "Box of Rain",
+      "duration": "5:27"
+    },
+    {
+      "title": "Foolish Heart",
+      "duration": "11:35"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:32"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "14:40"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:26"
+    },
+    {
+      "title": "Space",
+      "duration": "10:52"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:12"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "4:31"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:54"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:35"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:48"
+    }
+  ]
+}

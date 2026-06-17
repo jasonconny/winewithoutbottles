@@ -1,0 +1,101 @@
+{
+  "id": "1990-03-30",
+  "date": "1990-03-30",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-03-30.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 208
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 205
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 558
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 779
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 690
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 312
+    }
+  ]
+}

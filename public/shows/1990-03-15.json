@@ -1,0 +1,101 @@
+{
+  "id": "1990-03-15",
+  "date": "1990-03-15",
+  "venue": "Capitol Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-03-15.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 673
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 243
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 387
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 862
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 599
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 605
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 260
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 658
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Revolution",
+      "durationSeconds": 307
+    }
+  ]
+}

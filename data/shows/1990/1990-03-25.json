@@ -1,0 +1,93 @@
+{
+  "id": "1990-03-25",
+  "date": "1990-03-25",
+  "venue": "Knickerbocker Arena",
+  "city": "Albany",
+  "state": "NY",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:06"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:42"
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "duration": "7:22"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "duration": "7:36"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "4:36"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:27"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "13:08"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:36"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "13:26"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:51"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "7:47"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:43"
+    },
+    {
+      "title": "Spoonful",
+      "duration": "5:37"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:59"
+    },
+    {
+      "title": "Space",
+      "duration": "8:58"
+    },
+    {
+      "title": "I Will Take You Home",
+      "duration": "4:18"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:58"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:09"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:45"
+    },
+    {
+      "title": "Quinn the Eskimo (Mighty Quinn)",
+      "duration": "4:40"
+    }
+  ]
+}

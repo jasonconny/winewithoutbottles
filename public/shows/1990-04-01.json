@@ -1,0 +1,105 @@
+{
+  "id": "1990-04-01",
+  "date": "1990-04-01",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-04-01.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Just a Little Light",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 188
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 591
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 564
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 476
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 334
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 708
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 157
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 621
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 555
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 460
+    }
+  ]
+}

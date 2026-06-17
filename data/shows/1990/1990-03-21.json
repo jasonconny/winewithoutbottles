@@ -1,0 +1,93 @@
+{
+  "id": "1990-03-21",
+  "date": "1990-03-21",
+  "venue": "Copps Coliseum",
+  "city": "Hamilton",
+  "state": "ON",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "CAN",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "8:34"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:36"
+    },
+    {
+      "title": "Far From Me",
+      "duration": "5:05"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:29"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "7:27"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "8:07"
+    },
+    {
+      "title": "Standing on the Moon",
+      "duration": "8:00"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:53"
+    },
+    {
+      "title": "Hey Pocky Way",
+      "duration": "7:10"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "7:38"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:30"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:51"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "12:42"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:37"
+    },
+    {
+      "title": "Space",
+      "duration": "7:39"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "4:16"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:41"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:59"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "6:51"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "duration": "7:10"
+    }
+  ]
+}

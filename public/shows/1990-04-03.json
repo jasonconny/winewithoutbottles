@@ -1,0 +1,97 @@
+{
+  "id": "1990-04-03",
+  "date": "1990-04-03",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-04-03.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 735
+    },
+    {
+      "title": "Hell In A Bucket",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 684
+    },
+    {
+      "title": "We Can Run",
+      "durationSeconds": 416
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 844
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Playing In The Band",
+      "durationSeconds": 700
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 416
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 257
+    },
+    {
+      "title": "Goin' Down The Road Feeling Bad",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 522
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 447
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 194
+    }
+  ]
+}

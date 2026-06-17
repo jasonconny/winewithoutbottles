@@ -1,0 +1,81 @@
+{
+  "id": "1990-03-29",
+  "date": "1990-03-29",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "6:15"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:59"
+    },
+    {
+      "title": "We Can Run",
+      "duration": "6:04"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:08"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "6:02"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "13:05"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:46"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "16:33"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "14:47"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "18:19"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:23"
+    },
+    {
+      "title": "Space",
+      "duration": "7:53"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "2:46"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:23"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:25"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "7:41"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "duration": "8:24"
+    }
+  ]
+}

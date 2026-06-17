@@ -1,0 +1,101 @@
+{
+  "id": "1990-03-18",
+  "date": "1990-03-18",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-03-18.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 765
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 568
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 188
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Just a Little Light",
+      "durationSeconds": 355
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 482
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 507
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 683
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 347
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 692
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 331
+    }
+  ]
+}

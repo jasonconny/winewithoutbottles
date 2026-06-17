@@ -1,0 +1,93 @@
+{
+  "id": "1990-03-28",
+  "date": "1990-03-28",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-03-28.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 389
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 348
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 621
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 350
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Hey Pocky Way",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 562
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 635
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Revolution",
+      "durationSeconds": 295
+    }
+  ]
+}

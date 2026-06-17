@@ -1,0 +1,89 @@
+{
+  "id": "1990-03-28",
+  "date": "1990-03-28",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:29"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:27"
+    },
+    {
+      "title": "Easy to Love You",
+      "duration": "5:48"
+    },
+    {
+      "title": "High Time",
+      "duration": "6:14"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:32"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "6:11"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:06"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:19"
+    },
+    {
+      "title": "Foolish Heart",
+      "duration": "10:21"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:09"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:50"
+    },
+    {
+      "title": "The Weight",
+      "duration": "5:46"
+    },
+    {
+      "title": "Hey Pocky Way",
+      "duration": "7:04"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:17"
+    },
+    {
+      "title": "Space",
+      "duration": "9:22"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:52"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:35"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:52"
+    },
+    {
+      "title": "Revolution",
+      "duration": "4:55"
+    }
+  ]
+}
