@@ -1,0 +1,96 @@
+{
+  "id": "1987-09-16",
+  "date": "1987-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1987"],
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "duration": "6:27"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "9:01"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "9:24"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:39"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "4:18"
+    },
+    {
+      "title": "High Time",
+      "duration": "7:08"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:33"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:19"
+    },
+    {
+      "title": "Bertha",
+      "duration": "7:06"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:00"
+    },
+    {
+      "title": "Devil with the Blue Dress On",
+      "duration": "2:13"
+    },
+    {
+      "title": "Good Golly Miss Molly",
+      "duration": "0:40"
+    },
+    {
+      "title": "Devil with the Blue Dress On",
+      "duration": "1:13"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "14:18"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:58"
+    },
+    {
+      "title": "Space",
+      "duration": "10:34"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "6:41"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "11:05"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "10:00"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "10:43"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:34"
+    }
+  ]
+}

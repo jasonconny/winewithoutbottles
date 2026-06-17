@@ -1,0 +1,88 @@
+{
+  "id": "1987-09-19",
+  "date": "1987-09-19",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1987"],
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "7:46"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "9:06"
+    },
+    {
+      "title": "High Time",
+      "duration": "7:24"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:38"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:32"
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "duration": "4:40"
+    },
+    {
+      "title": "Box of Rain",
+      "duration": "5:02"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:24"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:12"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:56"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "15:33"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:15"
+    },
+    {
+      "title": "Space",
+      "duration": "3:59"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "3:32"
+    },
+    {
+      "title": "Maggie's Farm",
+      "duration": "6:54"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "8:44"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:49"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "5:55"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:24"
+    }
+  ]
+}

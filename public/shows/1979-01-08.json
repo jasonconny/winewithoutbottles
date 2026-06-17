@@ -1,0 +1,100 @@
+{
+  "id": "1979-01-08",
+  "date": "1979-01-08",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1979"
+  ],
+  "svg": "/shows/1979-01-08.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 596
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 176
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 602
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 703
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 805
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 479
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 387
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 331
+    }
+  ]
+}

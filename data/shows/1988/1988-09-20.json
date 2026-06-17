@@ -1,0 +1,84 @@
+{
+  "id": "1988-09-20",
+  "date": "1988-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1988"],
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "6:20"
+    },
+    {
+      "title": "Althea",
+      "duration": "7:06"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:47"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:41"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:48"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "4:22"
+    },
+    {
+      "title": "Louie, Louie",
+      "duration": "8:50"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:02"
+    },
+    {
+      "title": "Bertha",
+      "duration": "7:34"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:09"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "9:40"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:42"
+    },
+    {
+      "title": "Drums",
+      "duration": "3:14"
+    },
+    {
+      "title": "Space",
+      "duration": "16:58"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:04"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:30"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:36"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "5:40"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1979-09-05",
+  "date": "1979-09-05",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1979"],
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "8:24"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "10:26"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:37"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:25"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:21"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:00"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:50"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:25"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:56"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:56"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "13:07"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "11:26"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:41"
+    },
+    {
+      "title": "Space",
+      "duration": "12:50"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "11:10"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:33"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:28"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:42"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:27"
+    }
+  ]
+}

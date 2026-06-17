@@ -1,0 +1,100 @@
+{
+  "id": "1981-03-09",
+  "date": "1981-03-09",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1981"
+  ],
+  "svg": "/shows/1981-03-09.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 472
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 461
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Deep Elem Blues",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 675
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 421
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 573
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 830
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 705
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 450
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 590
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 410
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 332
+    }
+  ]
+}

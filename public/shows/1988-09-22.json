@@ -1,0 +1,96 @@
+{
+  "id": "1988-09-22",
+  "date": "1988-09-22",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-22.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 735
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 191
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 248
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 429
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 369
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 567
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 142
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 294
+    }
+  ]
+}

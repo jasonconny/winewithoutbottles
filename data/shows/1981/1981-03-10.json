@@ -1,0 +1,108 @@
+{
+  "id": "1981-03-10",
+  "date": "1981-03-10",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1981"],
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "11:29"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "10:50"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:56"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "6:13"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "6:43"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "4:03"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:21"
+    },
+    {
+      "title": "Supplication",
+      "duration": "6:33"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:14"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "9:09"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:12"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:20"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "15:10"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:02"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:37"
+    },
+    {
+      "title": "Jam",
+      "duration": "2:57"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:20"
+    },
+    {
+      "title": "Space",
+      "duration": "2:33"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:45"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:54"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:37"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:29"
+    },
+    {
+      "title": "(I Can't Get No) Satisfaction",
+      "duration": "6:09"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:01"
+    }
+  ]
+}

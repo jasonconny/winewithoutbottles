@@ -1,0 +1,96 @@
+{
+  "id": "1988-09-14",
+  "date": "1988-09-14",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-14.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 478
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 736
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 620
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 592
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 340
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 726
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 378
+    }
+  ]
+}

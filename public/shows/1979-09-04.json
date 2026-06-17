@@ -1,0 +1,92 @@
+{
+  "id": "1979-09-04",
+  "date": "1979-09-04",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1979"
+  ],
+  "svg": "/shows/1979-09-04.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 780
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 178
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 390
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 205
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 515
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 329
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 487
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 469
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 1235
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 860
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 685
+    }
+  ]
+}

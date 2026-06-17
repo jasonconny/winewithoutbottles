@@ -1,0 +1,104 @@
+{
+  "id": "1979-09-06",
+  "date": "1979-09-06",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1979"
+  ],
+  "svg": "/shows/1979-09-06.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 207
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 335
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 393
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 443
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 805
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1154
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 686
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 530
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 696
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 256
+    }
+  ]
+}

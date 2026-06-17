@@ -1,0 +1,92 @@
+{
+  "id": "1983-10-12",
+  "date": "1983-10-12",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1983"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:03"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "9:13"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:22"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "5:27"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "6:13"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:17"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "10:13"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:38"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "4:39"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "3:52"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "10:05"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "14:43"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "7:34"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "13:00"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:18"
+    },
+    {
+      "title": "Space",
+      "duration": "14:29"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:46"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:11"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "9:19"
+    },
+    {
+      "title": "Revolution",
+      "duration": "5:15"
+    }
+  ]
+}

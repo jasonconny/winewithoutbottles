@@ -1,0 +1,92 @@
+{
+  "id": "1988-09-23",
+  "date": "1988-09-23",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-23.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 592
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 260
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 671
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 334
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 233
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 671
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 336
+    }
+  ]
+}

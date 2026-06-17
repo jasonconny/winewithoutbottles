@@ -1,0 +1,96 @@
+{
+  "id": "1988-09-16",
+  "date": "1988-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-16.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Hey Pocky Way",
+      "durationSeconds": 345
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 189
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 314
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 562
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 708
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 385
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 697
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 710
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 591
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 142
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 536
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 428
+    }
+  ]
+}

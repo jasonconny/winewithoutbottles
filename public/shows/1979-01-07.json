@@ -1,0 +1,96 @@
+{
+  "id": "1979-01-07",
+  "date": "1979-01-07",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1979"
+  ],
+  "svg": "/shows/1979-01-07.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 368
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 507
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 307
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 600
+    },
+    {
+      "title": "From the Heart of Me",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 789
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 694
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 457
+    }
+  ]
+}

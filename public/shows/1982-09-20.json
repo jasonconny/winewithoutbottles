@@ -1,0 +1,104 @@
+{
+  "id": "1982-09-20",
+  "date": "1982-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1982"
+  ],
+  "svg": "/shows/1982-09-20.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 728
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 365
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 363
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Never Trust a Woman",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 635
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 718
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 567
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 702
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Spanish Jam",
+      "durationSeconds": 161
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 372
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 411
+    }
+  ]
+}

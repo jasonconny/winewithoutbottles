@@ -1,0 +1,84 @@
+{
+  "id": "1987-09-18",
+  "date": "1987-09-18",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1987"],
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:14"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "10:32"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:10"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:44"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "4:08"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "9:57"
+    },
+    {
+      "title": "Shakedown Street",
+      "duration": "11:56"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:58"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "13:06"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:25"
+    },
+    {
+      "title": "Space",
+      "duration": "7:19"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "5:58"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "4:45"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:53"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "4:11"
+    },
+    {
+      "title": "La Bamba",
+      "duration": "1:31"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "2:33"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "duration": "8:14"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "1982-09-21",
+  "date": "1982-09-21",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1982"
+  ],
+  "svg": "/shows/1982-09-21.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 180
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 387
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 528
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 430
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 491
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 809
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 654
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 591
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 307
+    }
+  ]
+}
