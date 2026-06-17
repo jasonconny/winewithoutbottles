@@ -63,6 +63,15 @@ exactly and are likewise _not_ corrections: `From the Heart of Me`, `Deep Elem B
 guest spots `Chinese Bones`, `Neighborhood Girls`, `Everytime You Go Away`,
 `What's Going On?`.)
 
+## Cross-archive title standardizations
+
+A single song rendered under two spellings across the 2013 art, standardized to
+the canonical form archive-wide so the song is one color everywhere.
+
+| Song                      | Standardized to                           | Notes                                                                                                                                                                                                                                                                                                                 |
+| ------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Turn On Your Love Light` | `Turn On Your Love Light` (`128-151-104`) | the art used the one-word `Turn On Your Lovelight` (`146-133-119`) on 20 shows; the two-word spelling is correct (Live/Dead + the Bobby "Blue" Bland 45). Swept: 1969-02-27/28, 1969-03-01/02, 1972-04-26, 1972-05-07, 1972-05-24/25, 1987-09-19, 1988-09-15/22, 1989-10-11/19/23, 1990-03-14/21/29, 1990-10-17/22/30 |
+
 ## Setlist segmentation deviations
 
 Where the original art (following an official-release tracklist) merged a
