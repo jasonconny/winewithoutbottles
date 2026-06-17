@@ -1,0 +1,129 @@
+{
+  "id": "1976-06-04",
+  "date": "1976-06-04",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-04.svg",
+  "songCount": 28,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 140
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 164
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 261
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 162
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Mission in the Rain",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 659
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 698
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 60
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 122
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 57
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 179
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 664
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 209
+    }
+  ]
+}

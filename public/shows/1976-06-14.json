@@ -1,0 +1,109 @@
+{
+  "id": "1976-06-14",
+  "date": "1976-06-14",
+  "venue": "Beacon Theatre",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-14.svg",
+  "songCount": 23,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 613
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 175
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1162
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 395
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 591
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 681
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 780
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 437
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 351
+    }
+  ]
+}

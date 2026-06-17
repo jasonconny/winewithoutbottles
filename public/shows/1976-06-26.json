@@ -1,0 +1,105 @@
+{
+  "id": "1976-06-26",
+  "date": "1976-06-26",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-26.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 567
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 163
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 748
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 174
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 473
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 906
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 586
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 162
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 657
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 415
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 271
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 307
+    }
+  ]
+}

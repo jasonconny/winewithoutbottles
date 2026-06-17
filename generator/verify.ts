@@ -45,7 +45,8 @@ if (!id) {
 }
 
 const legacy = legacyStripes(id);
-const dataPath = join(root, 'data/shows', `${id}.json`);
+// Show data lives in per-year subdirectories: data/shows/<year>/<id>.json.
+const dataPath = join(root, 'data/shows', id.slice(0, 4), `${id}.json`);
 
 if (!existsSync(dataPath)) {
   console.log(`${id}: ${legacy.length} stripes — no data yet, targets:\n`);

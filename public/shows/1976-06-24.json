@@ -1,0 +1,89 @@
+{
+  "id": "1976-06-24",
+  "date": "1976-06-24",
+  "venue": "Tower Theatre",
+  "city": "Upper Darby",
+  "state": "PA",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-24.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 255
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 166
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 622
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 590
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 666
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 777
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 525
+    }
+  ]
+}

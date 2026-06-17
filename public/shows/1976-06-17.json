@@ -1,0 +1,113 @@
+{
+  "id": "1976-06-17",
+  "date": "1976-06-17",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-17.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 402
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 514
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 612
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 665
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 669
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 706
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 181
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 158
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 151
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 679
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 442
+    }
+  ]
+}

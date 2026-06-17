@@ -1,0 +1,105 @@
+{
+  "id": "1976-06-29",
+  "date": "1976-06-29",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-29.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 164
+    },
+    {
+      "title": "Mission in the Rain",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 183
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 560
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 943
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 722
+    },
+    {
+      "title": "Playin' Reprise",
+      "durationSeconds": 507
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 643
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 56
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 283
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 343
+    }
+  ]
+}

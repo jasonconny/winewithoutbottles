@@ -1,0 +1,89 @@
+{
+  "id": "1976-06-28",
+  "date": "1976-06-28",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-28.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 249
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 702
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 151
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 275
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 567
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 742
+    },
+    {
+      "title": "Happiness Is Drumming",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 50
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 751
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 576
+    }
+  ]
+}

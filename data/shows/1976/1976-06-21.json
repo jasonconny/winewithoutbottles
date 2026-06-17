@@ -1,0 +1,101 @@
+{
+  "id": "1976-06-21",
+  "date": "1976-06-21",
+  "venue": "Tower Theatre",
+  "city": "Upper Darby",
+  "state": "PA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:01"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "12:15"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:21"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:42"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:13"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "11:09"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:36"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:59"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:48"
+    },
+    {
+      "title": "Supplication",
+      "duration": "5:18"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:03"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:57"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:34"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:12"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:06"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "9:13"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:09"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:31"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:17"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:28"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:18"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:08"
+    }
+  ]
+}

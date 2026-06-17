@@ -1,0 +1,105 @@
+{
+  "id": "1976-06-09",
+  "date": "1976-06-09",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:23"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:02"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "9:09"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:00"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "12:07"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:09"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "6:52"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:28"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:58"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:31"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "11:17"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "17:33"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:08"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:12"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:52"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:43"
+    },
+    {
+      "title": "High Time",
+      "duration": "9:20"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:18"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:00"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "12:29"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:52"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:53"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "9:43"
+    }
+  ]
+}

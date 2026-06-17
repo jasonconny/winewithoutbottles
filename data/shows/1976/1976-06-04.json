@@ -1,0 +1,125 @@
+{
+  "id": "1976-06-04",
+  "date": "1976-06-04",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "2:20"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "7:51"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:44"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "8:29"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:21"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:37"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:08"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:40"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:42"
+    },
+    {
+      "title": "Supplication",
+      "duration": "3:39"
+    },
+    {
+      "title": "Mission in the Rain",
+      "duration": "6:43"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "6:31"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:26"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "10:59"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:38"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:35"
+    },
+    {
+      "title": "Drums",
+      "duration": "1:00"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "2:02"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:21"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "5:51"
+    },
+    {
+      "title": "Cosmic Charlie",
+      "duration": "7:33"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "6:42"
+    },
+    {
+      "title": "Drums",
+      "duration": "0:57"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "2:59"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:44"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:04"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "6:06"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "3:29"
+    }
+  ]
+}

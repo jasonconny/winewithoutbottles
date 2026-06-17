@@ -1,0 +1,97 @@
+{
+  "id": "1976-06-22",
+  "date": "1976-06-22",
+  "venue": "Tower Theatre",
+  "city": "Upper Darby",
+  "state": "PA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "U.S. Blues",
+      "duration": "7:06"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:55"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "12:42"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "9:22"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:43"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "10:55"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:45"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "8:55"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:19"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "8:49"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:32"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "23:25"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:30"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:59"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "3:21"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:37"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "12:11"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "14:36"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:43"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:02"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:54"
+    }
+  ]
+}

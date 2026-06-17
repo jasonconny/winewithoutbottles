@@ -1,0 +1,105 @@
+{
+  "id": "1976-06-14",
+  "date": "1976-06-14",
+  "venue": "Beacon Theatre",
+  "city": "New York",
+  "state": "NY",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:48"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:45"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:13"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:08"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:25"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:20"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "6:00"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:55"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:52"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:35"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "19:22"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "6:09"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:35"
+    },
+    {
+      "title": "High Time",
+      "duration": "9:51"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:26"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "11:21"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "12:24"
+    },
+    {
+      "title": "Cosmic Charlie",
+      "duration": "8:46"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:55"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "13:00"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:02"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "7:17"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:51"
+    }
+  ]
+}

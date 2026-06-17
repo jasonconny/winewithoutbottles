@@ -481,6 +481,291 @@ export const shows: ShowSummary[] = [
     "songCount": 28
   },
   {
+    "id": "1976-06-03",
+    "date": "1976-06-03",
+    "venue": "Paramount Theatre",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-03.svg",
+    "songCount": 24
+  },
+  {
+    "id": "1976-06-04",
+    "date": "1976-06-04",
+    "venue": "Paramount Theatre",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-04.svg",
+    "songCount": 28
+  },
+  {
+    "id": "1976-06-09",
+    "date": "1976-06-09",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-09.svg",
+    "songCount": 23
+  },
+  {
+    "id": "1976-06-10",
+    "date": "1976-06-10",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-10.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1976-06-11",
+    "date": "1976-06-11",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-11.svg",
+    "songCount": 24
+  },
+  {
+    "id": "1976-06-12",
+    "date": "1976-06-12",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-12.svg",
+    "songCount": 25
+  },
+  {
+    "id": "1976-06-14",
+    "date": "1976-06-14",
+    "venue": "Beacon Theatre",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-14.svg",
+    "songCount": 23
+  },
+  {
+    "id": "1976-06-15",
+    "date": "1976-06-15",
+    "venue": "Beacon Theatre",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-15.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1976-06-17",
+    "date": "1976-06-17",
+    "venue": "Capitol Theatre",
+    "city": "Passaic",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-17.svg",
+    "songCount": 24
+  },
+  {
+    "id": "1976-06-18",
+    "date": "1976-06-18",
+    "venue": "Capitol Theatre",
+    "city": "Passaic",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-18.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1976-06-19",
+    "date": "1976-06-19",
+    "venue": "Capitol Theatre",
+    "city": "Passaic",
+    "state": "NJ",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-19.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1976-06-21",
+    "date": "1976-06-21",
+    "venue": "Tower Theatre",
+    "city": "Upper Darby",
+    "state": "PA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-21.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1976-06-22",
+    "date": "1976-06-22",
+    "venue": "Tower Theatre",
+    "city": "Upper Darby",
+    "state": "PA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-22.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1976-06-23",
+    "date": "1976-06-23",
+    "venue": "Tower Theatre",
+    "city": "Upper Darby",
+    "state": "PA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-23.svg",
+    "songCount": 25
+  },
+  {
+    "id": "1976-06-24",
+    "date": "1976-06-24",
+    "venue": "Tower Theatre",
+    "city": "Upper Darby",
+    "state": "PA",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-24.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1976-06-26",
+    "date": "1976-06-26",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-26.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1976-06-27",
+    "date": "1976-06-27",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-27.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1976-06-28",
+    "date": "1976-06-28",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-28.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1976-06-29",
+    "date": "1976-06-29",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tour": "June 1976",
+    "collection": "June 1976",
+    "tags": [
+      "1976"
+    ],
+    "svg": "/shows/1976-06-29.svg",
+    "songCount": 22
+  },
+  {
     "id": "1977-04-22",
     "date": "1977-04-22",
     "venue": "Spectrum",

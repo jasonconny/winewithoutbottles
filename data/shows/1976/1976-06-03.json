@@ -1,0 +1,109 @@
+{
+  "id": "1976-06-03",
+  "date": "1976-06-03",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Might As Well",
+      "duration": "5:07"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:23"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:19"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:33"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:05"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:53"
+    },
+    {
+      "title": "Supplication",
+      "duration": "3:54"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:58"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:16"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:14"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "12:28"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "5:40"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "11:31"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "12:57"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "6:47"
+    },
+    {
+      "title": "Drums",
+      "duration": "0:35"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "6:29"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "6:50"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:32"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "5:01"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "13:04"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:04"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:59"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:21"
+    }
+  ]
+}

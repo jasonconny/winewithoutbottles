@@ -1,0 +1,109 @@
+{
+  "id": "1976-06-17",
+  "date": "1976-06-17",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:17"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:42"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:37"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:55"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "10:08"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:34"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:12"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:28"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:05"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:59"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "5:35"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "8:01"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:09"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:46"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:17"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:41"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:01"
+    },
+    {
+      "title": "Supplication",
+      "duration": "5:14"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:53"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "6:11"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:38"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "2:31"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "11:19"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "7:22"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "1976-06-23",
+  "date": "1976-06-23",
+  "venue": "Tower Theatre",
+  "city": "Upper Darby",
+  "state": "PA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:44"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "8:24"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:40"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "8:32"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:53"
+    },
+    {
+      "title": "High Time",
+      "duration": "9:30"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:36"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:21"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:44"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:31"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "7:36"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:57"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:39"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:53"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "6:45"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:42"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "4:24"
+    },
+    {
+      "title": "Cosmic Charlie",
+      "duration": "7:35"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "10:57"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "8:55"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "0:47"
+    },
+    {
+      "title": "Drums",
+      "duration": "0:25"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "9:54"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:20"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:11"
+    }
+  ]
+}
