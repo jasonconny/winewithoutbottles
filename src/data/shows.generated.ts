@@ -1615,6 +1615,160 @@ export const shows: ShowSummary[] = [
     "songCount": 20
   },
   {
+    "id": "1990-10-13",
+    "date": "1990-10-13",
+    "venue": "Johanneshov Isstadion",
+    "city": "Stockholm",
+    "country": "SWE",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-13.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1990-10-17",
+    "date": "1990-10-17",
+    "venue": "Grugahalle",
+    "city": "Essen",
+    "country": "DEU",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-17.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-10-19",
+    "date": "1990-10-19",
+    "venue": "Internationales Congress Centrum",
+    "city": "Berlin",
+    "country": "DEU",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-19.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-10-20",
+    "date": "1990-10-20",
+    "venue": "Internationales Congress Centrum",
+    "city": "Berlin",
+    "country": "DEU",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-20.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-10-22",
+    "date": "1990-10-22",
+    "venue": "Festhalle",
+    "city": "Frankfurt",
+    "country": "DEU",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-22.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1990-10-24",
+    "date": "1990-10-24",
+    "venue": "Sporthalle",
+    "city": "Hamburg",
+    "country": "DEU",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-24.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-10-27",
+    "date": "1990-10-27",
+    "venue": "Zénith Paris",
+    "city": "Paris",
+    "country": "FRA",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-27.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-10-28",
+    "date": "1990-10-28",
+    "venue": "Zénith Paris",
+    "city": "Paris",
+    "country": "FRA",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-28.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-10-30",
+    "date": "1990-10-30",
+    "venue": "Wembley Arena",
+    "city": "London",
+    "country": "ENG",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-30.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-10-31",
+    "date": "1990-10-31",
+    "venue": "Wembley Arena",
+    "city": "London",
+    "country": "ENG",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-10-31.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1990-11-01",
+    "date": "1990-11-01",
+    "venue": "Wembley Arena",
+    "city": "London",
+    "country": "ENG",
+    "tour": "Europe 1990",
+    "collection": "Europe 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-11-01.svg",
+    "songCount": 20
+  },
+  {
     "id": "1995-07-09",
     "date": "1995-07-09",
     "venue": "Soldier Field",

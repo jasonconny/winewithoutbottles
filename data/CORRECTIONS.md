@@ -37,6 +37,10 @@ archive reflects the right title rather than preserving the typo.
 | 1990-03-14 | #13     | mis-colored jam stripe (`135-100-60`)                                                                                  | `Jam` (`100-10-130`)                                    |
 | 1990-03-25 | #20     | mis-colored stripe (`105-136-95`)                                                                                      | `Quinn the Eskimo (Mighty Quinn)`                       |
 | 1990-04-02 | #2      | mis-colored stripe (`131-128-128`, G off by 8)                                                                         | `Mississippi Half-Step Uptown Toodeloo` (`131-120-128`) |
+| 1990-10-17 | #9      | mis-colored stripe (`133-120-48`, G off by 14)                                                                         | `Tennessee Jed` (`133-106-48`)                          |
+| 1990-10-22 | #4      | mis-colored stripe (`90-45-102`, G off by 5)                                                                           | `Wang Dang Doodle` (`90-50-102`)                        |
+| 1990-10-22 | #13     | mis-colored jam stripe (`135-100-60`)                                                                                  | `Jam` (`100-10-130`)                                    |
+| 1990-10 ×2 | Valley  | art's non-canonical `Valley Road` (`118-100-95`); 10-22 #8 + 10-30 #9                                                  | `The Valley Road` (`110-110-76`)                        |
 
 (2/27–2/28 etc. use the original hyphenated forms — `Black-Throated Wind`,
 `Brown-Eyed Women` — those reproduce the art exactly and are _not_ corrections.

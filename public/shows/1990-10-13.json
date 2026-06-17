@@ -1,0 +1,92 @@
+{
+  "id": "1990-10-13",
+  "date": "1990-10-13",
+  "venue": "Johanneshov Isstadion",
+  "city": "Stockholm",
+  "country": "SWE",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-13.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 329
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 499
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 308
+    }
+  ]
+}

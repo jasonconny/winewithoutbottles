@@ -1,0 +1,100 @@
+{
+  "id": "1990-10-20",
+  "date": "1990-10-20",
+  "venue": "Internationales Congress Centrum",
+  "city": "Berlin",
+  "country": "DEU",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-20.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 272
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 679
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 787
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 669
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Not Fade Away Reprise",
+      "durationSeconds": 54
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 289
+    }
+  ]
+}

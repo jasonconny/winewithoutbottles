@@ -1,0 +1,88 @@
+{
+  "id": "1990-10-22",
+  "date": "1990-10-22",
+  "venue": "Festhalle",
+  "city": "Frankfurt",
+  "country": "DEU",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:51"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "3:53"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "5:01"
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "duration": "5:54"
+    },
+    {
+      "title": "Foolish Heart",
+      "duration": "7:45"
+    },
+    {
+      "title": "Desolation Row",
+      "duration": "10:56"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:04"
+    },
+    {
+      "title": "The Valley Road",
+      "duration": "4:34"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "9:13"
+    },
+    {
+      "title": "Standing on the Moon",
+      "duration": "8:51"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:13"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:38"
+    },
+    {
+      "title": "Jam",
+      "duration": "2:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:26"
+    },
+    {
+      "title": "Space",
+      "duration": "7:44"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "5:51"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:20"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "6:30"
+    },
+    {
+      "title": "The Weight",
+      "duration": "6:03"
+    }
+  ]
+}

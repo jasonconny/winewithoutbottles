@@ -1,0 +1,96 @@
+{
+  "id": "1990-10-28",
+  "date": "1990-10-28",
+  "venue": "Zénith Paris",
+  "city": "Paris",
+  "country": "FRA",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-28.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Maggie's Farm",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Stander on the Mountain",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 640
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 712
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 458
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 492
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "1990-10-27",
+  "date": "1990-10-27",
+  "venue": "Zénith Paris",
+  "city": "Paris",
+  "country": "FRA",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-27.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 706
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 459
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 712
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 291
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 417
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 644
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 703
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 147
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 613
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 613
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 317
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "1990-10-30",
+  "date": "1990-10-30",
+  "venue": "Wembley Arena",
+  "city": "London",
+  "country": "ENG",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-30.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 775
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 300
+    },
+    {
+      "title": "The Valley Road",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 847
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 630
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 604
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 244
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 432
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 316
+    }
+  ]
+}
