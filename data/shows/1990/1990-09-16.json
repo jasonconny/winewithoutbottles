@@ -1,0 +1,92 @@
+{
+  "id": "1990-09-16",
+  "date": "1990-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "7:03"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:41"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "10:21"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "8:31"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "7:46"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "10:34"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:26"
+    },
+    {
+      "title": "Deal",
+      "duration": "9:48"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "8:10"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "10:14"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:46"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "16:26"
+    },
+    {
+      "title": "Jam",
+      "duration": "7:50"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:59"
+    },
+    {
+      "title": "Space",
+      "duration": "10:48"
+    },
+    {
+      "title": "Standing on the Moon",
+      "duration": "9:28"
+    },
+    {
+      "title": "Jam",
+      "duration": "5:44"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:19"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "13:12"
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "duration": "7:35"
+    }
+  ]
+}

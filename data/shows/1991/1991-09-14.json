@@ -1,0 +1,88 @@
+{
+  "id": "1991-09-14",
+  "date": "1991-09-14",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1991"],
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "duration": "6:13"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "6:40"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:21"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "4:51"
+    },
+    {
+      "title": "Desolation Row",
+      "duration": "8:50"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:53"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:55"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "7:14"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:18"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:59"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:30"
+    },
+    {
+      "title": "Spoonful",
+      "duration": "4:28"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "9:23"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:42"
+    },
+    {
+      "title": "Space",
+      "duration": "15:26"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "5:59"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:15"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "7:35"
+    },
+    {
+      "title": "The Weight",
+      "duration": "5:28"
+    }
+  ]
+}

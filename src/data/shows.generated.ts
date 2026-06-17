@@ -1965,6 +1965,90 @@ export const shows: ShowSummary[] = [
     "songCount": 20
   },
   {
+    "id": "1990-09-14",
+    "date": "1990-09-14",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-09-14.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1990-09-15",
+    "date": "1990-09-15",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-09-15.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-09-16",
+    "date": "1990-09-16",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-09-16.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-09-18",
+    "date": "1990-09-18",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-09-18.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1990-09-19",
+    "date": "1990-09-19",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-09-19.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-09-20",
+    "date": "1990-09-20",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-09-20.svg",
+    "songCount": 20
+  },
+  {
     "id": "1990-10-13",
     "date": "1990-10-13",
     "venue": "Johanneshov Isstadion",
@@ -2117,6 +2201,300 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/1990-11-01.svg",
     "songCount": 20
+  },
+  {
+    "id": "1991-09-08",
+    "date": "1991-09-08",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-08.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1991-09-09",
+    "date": "1991-09-09",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-09.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1991-09-10",
+    "date": "1991-09-10",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-10.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1991-09-12",
+    "date": "1991-09-12",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-12.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1991-09-13",
+    "date": "1991-09-13",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-13.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1991-09-14",
+    "date": "1991-09-14",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-14.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1991-09-16",
+    "date": "1991-09-16",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-16.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1991-09-17",
+    "date": "1991-09-17",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-17.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1991-09-18",
+    "date": "1991-09-18",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1991"
+    ],
+    "svg": "/shows/1991-09-18.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1993-09-16",
+    "date": "1993-09-16",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-09-16.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1993-09-17",
+    "date": "1993-09-17",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-09-17.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1993-09-18",
+    "date": "1993-09-18",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-09-18.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1993-09-20",
+    "date": "1993-09-20",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-09-20.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1993-09-21",
+    "date": "1993-09-21",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-09-21.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1993-09-22",
+    "date": "1993-09-22",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-09-22.svg",
+    "songCount": 17
+  },
+  {
+    "id": "1994-10-13",
+    "date": "1994-10-13",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1994"
+    ],
+    "svg": "/shows/1994-10-13.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1994-10-14",
+    "date": "1994-10-14",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1994"
+    ],
+    "svg": "/shows/1994-10-14.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1994-10-15",
+    "date": "1994-10-15",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1994"
+    ],
+    "svg": "/shows/1994-10-15.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1994-10-17",
+    "date": "1994-10-17",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1994"
+    ],
+    "svg": "/shows/1994-10-17.svg",
+    "songCount": 17
+  },
+  {
+    "id": "1994-10-18",
+    "date": "1994-10-18",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1994"
+    ],
+    "svg": "/shows/1994-10-18.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1994-10-19",
+    "date": "1994-10-19",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1994"
+    ],
+    "svg": "/shows/1994-10-19.svg",
+    "songCount": 17
   },
   {
     "id": "1995-07-09",

@@ -1,0 +1,88 @@
+{
+  "id": "1993-09-21",
+  "date": "1993-09-21",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1993"
+  ],
+  "svg": "/shows/1993-09-21.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 430
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Broken Arrow",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 468
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 698
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 699
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 540
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 760
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 584
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 396
+    }
+  ]
+}

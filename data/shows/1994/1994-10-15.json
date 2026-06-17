@@ -1,0 +1,84 @@
+{
+  "id": "1994-10-15",
+  "date": "1994-10-15",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1994"],
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "duration": "16:11"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:56"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "8:57"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:30"
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "duration": "5:35"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:43"
+    },
+    {
+      "title": "Easy Answers",
+      "duration": "6:24"
+    },
+    {
+      "title": "Deal",
+      "duration": "9:05"
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "duration": "6:18"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "9:01"
+    },
+    {
+      "title": "Way to Go Home",
+      "duration": "6:27"
+    },
+    {
+      "title": "New Speedway Boogie",
+      "duration": "10:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:03"
+    },
+    {
+      "title": "Space",
+      "duration": "11:57"
+    },
+    {
+      "title": "The Last Time",
+      "duration": "6:41"
+    },
+    {
+      "title": "Standing on the Moon",
+      "duration": "10:03"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:07"
+    },
+    {
+      "title": "I Want To Tell You",
+      "duration": "5:04"
+    }
+  ]
+}

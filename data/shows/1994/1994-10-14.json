@@ -1,0 +1,88 @@
+{
+  "id": "1994-10-14",
+  "date": "1994-10-14",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1994"],
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "6:06"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "8:38"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:17"
+    },
+    {
+      "title": "Lazy River Road",
+      "duration": "7:15"
+    },
+    {
+      "title": "El Paso",
+      "duration": "6:33"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "9:13"
+    },
+    {
+      "title": "Box of Rain",
+      "duration": "5:17"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:18"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "21:22"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:20"
+    },
+    {
+      "title": "Samba in the Rain",
+      "duration": "7:04"
+    },
+    {
+      "title": "Corrina",
+      "duration": "8:36"
+    },
+    {
+      "title": "Jam",
+      "duration": "8:34"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:46"
+    },
+    {
+      "title": "Space",
+      "duration": "17:39"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:25"
+    },
+    {
+      "title": "Attics of My Life",
+      "duration": "5:24"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "6:28"
+    },
+    {
+      "title": "Liberty",
+      "duration": "6:14"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1990-09-20",
+  "date": "1990-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "8:49"
+    },
+    {
+      "title": "Althea",
+      "duration": "9:05"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "10:25"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:53"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:49"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "6:27"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:09"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:23"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:07"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "7:51"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "7:09"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:07"
+    },
+    {
+      "title": "Drums",
+      "duration": "14:31"
+    },
+    {
+      "title": "Space",
+      "duration": "10:24"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "13:21"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "3:53"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "14:44"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "10:03"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "7:41"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "7:13"
+    }
+  ]
+}

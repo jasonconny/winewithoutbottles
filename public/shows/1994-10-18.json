@@ -1,0 +1,92 @@
+{
+  "id": "1994-10-18",
+  "date": "1994-10-18",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1994"
+  ],
+  "svg": "/shows/1994-10-18.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 799
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 597
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Childhood's End",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 187
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 682
+    },
+    {
+      "title": "Samba in the Rain",
+      "durationSeconds": 444
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 591
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 217
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1052
+    },
+    {
+      "title": "Days Between",
+      "durationSeconds": 785
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 452
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 290
+    }
+  ]
+}

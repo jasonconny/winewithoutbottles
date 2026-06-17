@@ -1,0 +1,96 @@
+{
+  "id": "1990-09-15",
+  "date": "1990-09-15",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "duration": "6:05"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "7:36"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:43"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:54"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "6:18"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "8:31"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:32"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "14:03"
+    },
+    {
+      "title": "Box of Rain",
+      "duration": "4:54"
+    },
+    {
+      "title": "The Weight",
+      "duration": "6:29"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:08"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:48"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:22"
+    },
+    {
+      "title": "Drums",
+      "duration": "12:35"
+    },
+    {
+      "title": "Space",
+      "duration": "10:46"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "5:45"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "6:21"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:56"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:32"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "7:30"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:20"
+    }
+  ]
+}

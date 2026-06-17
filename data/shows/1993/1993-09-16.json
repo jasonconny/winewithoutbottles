@@ -1,0 +1,88 @@
+{
+  "id": "1993-09-16",
+  "date": "1993-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1993"],
+  "songs": [
+    {
+      "title": "Rain",
+      "duration": "4:52"
+    },
+    {
+      "title": "Shakedown Street",
+      "duration": "12:50"
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "duration": "6:27"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:48"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:10"
+    },
+    {
+      "title": "Althea",
+      "duration": "8:23"
+    },
+    {
+      "title": "Eternity",
+      "duration": "9:10"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:26"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "6:14"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:42"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "12:21"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "10:17"
+    },
+    {
+      "title": "Drums",
+      "duration": "12:59"
+    },
+    {
+      "title": "Space",
+      "duration": "13:54"
+    },
+    {
+      "title": "Way to Go Home",
+      "duration": "6:28"
+    },
+    {
+      "title": "Days Between",
+      "duration": "9:54"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:17"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:20"
+    },
+    {
+      "title": "Liberty",
+      "duration": "7:02"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1991-09-17",
+  "date": "1991-09-17",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1991"
+  ],
+  "svg": "/shows/1991-09-17.svg",
+  "songCount": 19,
+  "songs": [
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 508
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 845
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 812
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 715
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 671
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 320
+    }
+  ]
+}
