@@ -1,0 +1,85 @@
+{
+  "id": "1990-04-02",
+  "date": "1990-04-02",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "8:44"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "7:01"
+    },
+    {
+      "title": "The Weight",
+      "duration": "6:33"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:13"
+    },
+    {
+      "title": "Easy to Love You",
+      "duration": "5:36"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "6:46"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:21"
+    },
+    {
+      "title": "Foolish Heart",
+      "duration": "9:20"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:26"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "8:59"
+    },
+    {
+      "title": "The Last Time",
+      "duration": "5:43"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:41"
+    },
+    {
+      "title": "Space",
+      "duration": "9:04"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:24"
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "duration": "7:36"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:41"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:11"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:28"
+    }
+  ]
+}

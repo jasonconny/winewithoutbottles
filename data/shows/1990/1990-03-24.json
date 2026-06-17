@@ -1,0 +1,93 @@
+{
+  "id": "1990-03-24",
+  "date": "1990-03-24",
+  "venue": "Knickerbocker Arena",
+  "city": "Albany",
+  "state": "NY",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "duration": "4:01"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:04"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "3:49"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "8:07"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:52"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:32"
+    },
+    {
+      "title": "Desolation Row",
+      "duration": "9:55"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:54"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:50"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:11"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "10:05"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "13:22"
+    },
+    {
+      "title": "Mind Left Body Jam",
+      "duration": "7:52"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:41"
+    },
+    {
+      "title": "Space",
+      "duration": "10:42"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:44"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "7:41"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:38"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "9:41"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "3:00"
+    }
+  ]
+}

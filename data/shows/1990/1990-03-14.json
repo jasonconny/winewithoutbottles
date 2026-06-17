@@ -1,0 +1,93 @@
+{
+  "id": "1990-03-14",
+  "date": "1990-03-14",
+  "venue": "Capitol Centre",
+  "city": "Landover",
+  "state": "MD",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:56"
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "7:44"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "duration": "6:27"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:31"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:21"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "6:56"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "8:50"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:17"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:54"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:13"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:27"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:05"
+    },
+    {
+      "title": "Jam",
+      "duration": "7:12"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:37"
+    },
+    {
+      "title": "Space",
+      "duration": "6:34"
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "duration": "5:53"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "4:07"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "7:53"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "6:01"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:01"
+    }
+  ]
+}

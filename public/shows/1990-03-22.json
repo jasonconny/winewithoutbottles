@@ -1,0 +1,101 @@
+{
+  "id": "1990-03-22",
+  "date": "1990-03-22",
+  "venue": "Copps Coliseum",
+  "city": "Hamilton",
+  "state": "ON",
+  "country": "CAN",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-03-22.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 492
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 214
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 389
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Believe It or Not",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 695
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 492
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 526
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 430
+    }
+  ]
+}

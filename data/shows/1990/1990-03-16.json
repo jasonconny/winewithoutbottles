@@ -1,0 +1,93 @@
+{
+  "id": "1990-03-16",
+  "date": "1990-03-16",
+  "venue": "Capitol Centre",
+  "city": "Landover",
+  "state": "MD",
+  "tour": "Spring 1990",
+  "collection": "Spring 1990",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "duration": "4:11"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:27"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:44"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:33"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:15"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:22"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:03"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "14:22"
+    },
+    {
+      "title": "Blow Away",
+      "duration": "12:02"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:21"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:04"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:39"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:55"
+    },
+    {
+      "title": "Jam",
+      "duration": "5:23"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:37"
+    },
+    {
+      "title": "Space",
+      "duration": "10:42"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:55"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:48"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:15"
+    },
+    {
+      "title": "The Last Time",
+      "duration": "5:19"
+    }
+  ]
+}

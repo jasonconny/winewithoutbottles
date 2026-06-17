@@ -1375,6 +1375,246 @@ export const shows: ShowSummary[] = [
     "songCount": 18
   },
   {
+    "id": "1990-03-14",
+    "date": "1990-03-14",
+    "venue": "Capitol Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-14.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-03-15",
+    "date": "1990-03-15",
+    "venue": "Capitol Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-15.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-03-16",
+    "date": "1990-03-16",
+    "venue": "Capitol Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-16.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-03-18",
+    "date": "1990-03-18",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-18.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-03-19",
+    "date": "1990-03-19",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-19.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1990-03-21",
+    "date": "1990-03-21",
+    "venue": "Copps Coliseum",
+    "city": "Hamilton",
+    "state": "ON",
+    "country": "CAN",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-21.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-03-22",
+    "date": "1990-03-22",
+    "venue": "Copps Coliseum",
+    "city": "Hamilton",
+    "state": "ON",
+    "country": "CAN",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-22.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-03-24",
+    "date": "1990-03-24",
+    "venue": "Knickerbocker Arena",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-24.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-03-25",
+    "date": "1990-03-25",
+    "venue": "Knickerbocker Arena",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-25.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-03-26",
+    "date": "1990-03-26",
+    "venue": "Knickerbocker Arena",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-26.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1990-03-28",
+    "date": "1990-03-28",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-28.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1990-03-29",
+    "date": "1990-03-29",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-29.svg",
+    "songCount": 17
+  },
+  {
+    "id": "1990-03-30",
+    "date": "1990-03-30",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-03-30.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1990-04-01",
+    "date": "1990-04-01",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-04-01.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1990-04-02",
+    "date": "1990-04-02",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-04-02.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1990-04-03",
+    "date": "1990-04-03",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tour": "Spring 1990",
+    "collection": "Spring 1990",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-04-03.svg",
+    "songCount": 20
+  },
+  {
     "id": "1995-07-09",
     "date": "1995-07-09",
     "venue": "Soldier Field",
