@@ -1,0 +1,88 @@
+{
+  "id": "1993-06-06",
+  "date": "1993-06-06",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "collection": "Shows I Attended",
+  "tags": [
+    "1993"
+  ],
+  "svg": "/shows/1993-06-06.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 418
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Broken Arrow",
+      "durationSeconds": 348
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Lazy River Road",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 815
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 964
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 836
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 365
+    }
+  ]
+}

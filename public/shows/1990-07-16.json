@@ -1,0 +1,112 @@
+{
+  "id": "1990-07-16",
+  "date": "1990-07-16",
+  "venue": "Rich Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Shows I Attended",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-07-16.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 160
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 507
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 547
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 700
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 653
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 712
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Sunshine Daydream",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 372
+    }
+  ]
+}

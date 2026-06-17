@@ -1,0 +1,84 @@
+{
+  "id": "1993-06-06",
+  "date": "1993-06-06",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "collection": "Shows I Attended",
+  "country": "USA",
+  "tags": ["1993"],
+  "songs": [
+    {
+      "title": "Here Comes Sunshine",
+      "duration": "6:58"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "8:29"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:38"
+    },
+    {
+      "title": "Broken Arrow",
+      "duration": "5:48"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:29"
+    },
+    {
+      "title": "Lazy River Road",
+      "duration": "7:17"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "13:35"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:50"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:19"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:19"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "16:04"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:56"
+    },
+    {
+      "title": "Space",
+      "duration": "9:37"
+    },
+    {
+      "title": "Corrina",
+      "duration": "9:14"
+    },
+    {
+      "title": "Attics of My Life",
+      "duration": "4:56"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:20"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "7:37"
+    },
+    {
+      "title": "Liberty",
+      "duration": "6:05"
+    }
+  ]
+}
