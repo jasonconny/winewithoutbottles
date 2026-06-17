@@ -1,0 +1,96 @@
+{
+  "id": "1981-03-09",
+  "date": "1981-03-09",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1981"],
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "9:06"
+    },
+    {
+      "title": "Althea",
+      "duration": "7:52"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "7:59"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:41"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:30"
+    },
+    {
+      "title": "Deep Elem Blues",
+      "duration": "7:03"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:57"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:15"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:01"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "9:33"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:10"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:32"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "8:56"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "13:50"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "11:45"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:32"
+    },
+    {
+      "title": "Space",
+      "duration": "7:30"
+    },
+    {
+      "title": "The Other One",
+      "duration": "7:47"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:50"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:50"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:32"
+    }
+  ]
+}

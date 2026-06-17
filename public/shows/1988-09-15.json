@@ -1,0 +1,88 @@
+{
+  "id": "1988-09-15",
+  "date": "1988-09-15",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-15.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 683
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 645
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 157
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 335
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 226
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 536
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 341
+    }
+  ]
+}

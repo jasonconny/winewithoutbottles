@@ -1,0 +1,96 @@
+{
+  "id": "1987-09-15",
+  "date": "1987-09-15",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1987"
+  ],
+  "svg": "/shows/1987-09-15.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Hey Pocky Way",
+      "durationSeconds": 274
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 396
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 168
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 478
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 451
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 318
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 674
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 453
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 532
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 414
+    }
+  ]
+}

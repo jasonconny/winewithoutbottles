@@ -1,0 +1,100 @@
+{
+  "id": "1987-09-16",
+  "date": "1987-09-16",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1987"
+  ],
+  "svg": "/shows/1987-09-16.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 541
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 219
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 258
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 199
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 240
+    },
+    {
+      "title": "Devil with the Blue Dress On",
+      "durationSeconds": 133
+    },
+    {
+      "title": "Good Golly Miss Molly",
+      "durationSeconds": 40
+    },
+    {
+      "title": "Devil with the Blue Dress On",
+      "durationSeconds": 73
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 858
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 658
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 634
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 665
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 643
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 394
+    }
+  ]
+}

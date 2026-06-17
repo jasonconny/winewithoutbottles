@@ -1,0 +1,92 @@
+{
+  "id": "1987-09-20",
+  "date": "1987-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1987"],
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "6:24"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "7:00"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "4:07"
+    },
+    {
+      "title": "Far From Me",
+      "duration": "4:21"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:36"
+    },
+    {
+      "title": "Desolation Row",
+      "duration": "9:42"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "4:35"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:10"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "5:58"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "6:17"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "9:23"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "10:11"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:45"
+    },
+    {
+      "title": "Space",
+      "duration": "8:40"
+    },
+    {
+      "title": "The Other One",
+      "duration": "4:50"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:04"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:59"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:32"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "5:59"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "4:09"
+    }
+  ]
+}

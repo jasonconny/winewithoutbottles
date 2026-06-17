@@ -1,0 +1,88 @@
+{
+  "id": "1988-09-20",
+  "date": "1988-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-20.svg",
+  "songCount": 18,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 167
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 408
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Louie, Louie",
+      "durationSeconds": 530
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 580
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 702
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1018
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 636
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 340
+    }
+  ]
+}

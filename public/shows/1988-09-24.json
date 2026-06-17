@@ -1,0 +1,100 @@
+{
+  "id": "1988-09-24",
+  "date": "1988-09-24",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1988"
+  ],
+  "svg": "/shows/1988-09-24.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 578
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 527
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 705
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 399
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Chinese Bones",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Neighborhood Girls",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 589
+    },
+    {
+      "title": "Everytime You Go Away",
+      "durationSeconds": 415
+    },
+    {
+      "title": "What's Going On?",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 866
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 426
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 585
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 673
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 343
+    }
+  ]
+}

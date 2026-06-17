@@ -1,0 +1,96 @@
+{
+  "id": "1983-10-11",
+  "date": "1983-10-11",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": [
+    "1983"
+  ],
+  "svg": "/shows/1983-10-11.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 196
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 717
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 289
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 408
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 470
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 216
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 755
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 671
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 568
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 266
+    }
+  ]
+}

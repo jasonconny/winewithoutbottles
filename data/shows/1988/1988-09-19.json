@@ -1,0 +1,88 @@
+{
+  "id": "1988-09-19",
+  "date": "1988-09-19",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1988"],
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "duration": "7:25"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "11:26"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:52"
+    },
+    {
+      "title": "Far From Me",
+      "duration": "6:11"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:22"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:18"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:46"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "5:54"
+    },
+    {
+      "title": "Foolish Heart",
+      "duration": "11:24"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "7:29"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:11"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "3:34"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:12"
+    },
+    {
+      "title": "Space",
+      "duration": "4:48"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:22"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "8:07"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:49"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:18"
+    },
+    {
+      "title": "Quinn the Eskimo (Mighty Quinn)",
+      "duration": "4:40"
+    }
+  ]
+}

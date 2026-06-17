@@ -41,12 +41,20 @@ archive reflects the right title rather than preserving the typo.
 | 1990-10-22 | #4      | mis-colored stripe (`90-45-102`, G off by 5)                                                                           | `Wang Dang Doodle` (`90-50-102`)                        |
 | 1990-10-22 | #13     | mis-colored jam stripe (`135-100-60`)                                                                                  | `Jam` (`100-10-130`)                                    |
 | 1990-10 ×2 | Valley  | art's non-canonical `Valley Road` (`118-100-95`); 10-22 #8 + 10-30 #9                                                  | `The Valley Road` (`110-110-76`)                        |
+| 1979-09-04 | #6      | art's non-canonical `New Minglewood` (`110-105-124`)                                                                   | `New Minglewood Blues` (`111-128-90`)                   |
+| 1987-09-20 | #3      | mis-colored stripe (`110-138-92`)                                                                                      | `My Brother Esau` (`116-132-92`)                        |
 
 (2/27–2/28 etc. use the original hyphenated forms — `Black-Throated Wind`,
 `Brown-Eyed Women` — those reproduce the art exactly and are _not_ corrections.
 1976-06-28's `Happiness Is Drumming` (`99-100-136`) and 1976-06-29's
 `Playin' Reprise` (`126-93-134`) likewise reproduce the art exactly — the titles
-just weren't in the matcher's repertoire — so they are _not_ corrections.)
+just weren't in the matcher's repertoire — so they are _not_ corrections. The MSG
+'79–'88 batch added several faithful one-off / guest titles that reproduce the art
+exactly and are likewise _not_ corrections: `From the Heart of Me`, `Deep Elem Blues`,
+`(I Can't Get No) Satisfaction`, `Louie, Louie`, `Devil with the Blue Dress On`,
+`Good Golly Miss Molly`, `Never Trust a Woman`, and the 1988-09-24 Rainforest-benefit
+guest spots `Chinese Bones`, `Neighborhood Girls`, `Everytime You Go Away`,
+`What's Going On?`.)
 
 ## Setlist segmentation deviations
 

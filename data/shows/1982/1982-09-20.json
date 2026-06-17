@@ -1,0 +1,100 @@
+{
+  "id": "1982-09-20",
+  "date": "1982-09-20",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1982"],
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "duration": "12:08"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:25"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:05"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:10"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "6:03"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "8:00"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "duration": "7:04"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:35"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "5:54"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "5:25"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:58"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "9:27"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:47"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:42"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:05"
+    },
+    {
+      "title": "Space",
+      "duration": "6:38"
+    },
+    {
+      "title": "Spanish Jam",
+      "duration": "2:41"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "6:12"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:00"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:51"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:45"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:51"
+    }
+  ]
+}

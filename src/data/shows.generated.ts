@@ -1160,6 +1160,356 @@ export const shows: ShowSummary[] = [
     "songCount": 21
   },
   {
+    "id": "1979-01-07",
+    "date": "1979-01-07",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1979"
+    ],
+    "svg": "/shows/1979-01-07.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1979-01-08",
+    "date": "1979-01-08",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1979"
+    ],
+    "svg": "/shows/1979-01-08.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1979-09-04",
+    "date": "1979-09-04",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1979"
+    ],
+    "svg": "/shows/1979-09-04.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1979-09-05",
+    "date": "1979-09-05",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1979"
+    ],
+    "svg": "/shows/1979-09-05.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1979-09-06",
+    "date": "1979-09-06",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1979"
+    ],
+    "svg": "/shows/1979-09-06.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1981-03-09",
+    "date": "1981-03-09",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1981"
+    ],
+    "svg": "/shows/1981-03-09.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1981-03-10",
+    "date": "1981-03-10",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1981"
+    ],
+    "svg": "/shows/1981-03-10.svg",
+    "songCount": 24
+  },
+  {
+    "id": "1982-09-20",
+    "date": "1982-09-20",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1982"
+    ],
+    "svg": "/shows/1982-09-20.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1982-09-21",
+    "date": "1982-09-21",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1982"
+    ],
+    "svg": "/shows/1982-09-21.svg",
+    "songCount": 22
+  },
+  {
+    "id": "1983-10-11",
+    "date": "1983-10-11",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1983"
+    ],
+    "svg": "/shows/1983-10-11.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1983-10-12",
+    "date": "1983-10-12",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1983"
+    ],
+    "svg": "/shows/1983-10-12.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1987-09-15",
+    "date": "1987-09-15",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1987"
+    ],
+    "svg": "/shows/1987-09-15.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1987-09-16",
+    "date": "1987-09-16",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1987"
+    ],
+    "svg": "/shows/1987-09-16.svg",
+    "songCount": 21
+  },
+  {
+    "id": "1987-09-18",
+    "date": "1987-09-18",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1987"
+    ],
+    "svg": "/shows/1987-09-18.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1987-09-19",
+    "date": "1987-09-19",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1987"
+    ],
+    "svg": "/shows/1987-09-19.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1987-09-20",
+    "date": "1987-09-20",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1987"
+    ],
+    "svg": "/shows/1987-09-20.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1988-09-14",
+    "date": "1988-09-14",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-14.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1988-09-15",
+    "date": "1988-09-15",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-15.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1988-09-16",
+    "date": "1988-09-16",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-16.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1988-09-18",
+    "date": "1988-09-18",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-18.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1988-09-19",
+    "date": "1988-09-19",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-19.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1988-09-20",
+    "date": "1988-09-20",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-20.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1988-09-22",
+    "date": "1988-09-22",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-22.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1988-09-23",
+    "date": "1988-09-23",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-23.svg",
+    "songCount": 19
+  },
+  {
+    "id": "1988-09-24",
+    "date": "1988-09-24",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Madison Square Garden",
+    "tags": [
+      "1988"
+    ],
+    "svg": "/shows/1988-09-24.svg",
+    "songCount": 21
+  },
+  {
     "id": "1989-10-08",
     "date": "1989-10-08",
     "venue": "Hampton Coliseum",

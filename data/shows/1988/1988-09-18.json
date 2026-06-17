@@ -1,0 +1,84 @@
+{
+  "id": "1988-09-18",
+  "date": "1988-09-18",
+  "venue": "Madison Square Garden",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Madison Square Garden",
+  "tags": ["1988"],
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "7:53"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "8:56"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "duration": "8:07"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "6:19"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "9:15"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "6:08"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:33"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:20"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "6:32"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:31"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "7:19"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:32"
+    },
+    {
+      "title": "Space",
+      "duration": "5:54"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:14"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:46"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "10:12"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:09"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:10"
+    }
+  ]
+}
