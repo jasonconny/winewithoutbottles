@@ -1,0 +1,92 @@
+{
+  "id": "1990-11-01",
+  "date": "1990-11-01",
+  "venue": "Wembley Arena",
+  "city": "London",
+  "country": "ENG",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "7:34"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:47"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "7:48"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "8:24"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:37"
+    },
+    {
+      "title": "Maggie's Farm",
+      "duration": "7:49"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "7:00"
+    },
+    {
+      "title": "Stander on the Mountain",
+      "duration": "7:08"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "9:01"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "8:24"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:22"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "9:52"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:02"
+    },
+    {
+      "title": "Space",
+      "duration": "5:14"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "10:55"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "2:48"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:57"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:55"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "9:36"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "6:14"
+    }
+  ]
+}

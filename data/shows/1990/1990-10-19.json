@@ -1,0 +1,92 @@
+{
+  "id": "1990-10-19",
+  "date": "1990-10-19",
+  "venue": "Internationales Congress Centrum",
+  "city": "Berlin",
+  "country": "DEU",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "duration": "4:21"
+    },
+    {
+      "title": "Shakedown Street",
+      "duration": "12:07"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:09"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:20"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:38"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "5:39"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:57"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "9:12"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:02"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:33"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "11:25"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "9:01"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:24"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:12"
+    },
+    {
+      "title": "Space",
+      "duration": "6:28"
+    },
+    {
+      "title": "The Other One",
+      "duration": "7:29"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:28"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:52"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:18"
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "duration": "6:15"
+    }
+  ]
+}

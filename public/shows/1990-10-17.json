@@ -1,0 +1,100 @@
+{
+  "id": "1990-10-17",
+  "date": "1990-10-17",
+  "venue": "Grugahalle",
+  "city": "Essen",
+  "country": "DEU",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-17.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 521
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 182
+    },
+    {
+      "title": "Maggie's Farm",
+      "durationSeconds": 320
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 384
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 332
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 494
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 469
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 523
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 277
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 394
+    }
+  ]
+}

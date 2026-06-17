@@ -1,0 +1,100 @@
+{
+  "id": "1990-10-24",
+  "date": "1990-10-24",
+  "venue": "Sporthalle",
+  "city": "Hamburg",
+  "country": "DEU",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": [
+    "1990"
+  ],
+  "svg": "/shows/1990-10-24.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 507
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 198
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 350
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 467
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 492
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 298
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 504
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 398
+    }
+  ]
+}

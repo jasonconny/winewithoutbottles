@@ -1,0 +1,96 @@
+{
+  "id": "1990-10-17",
+  "date": "1990-10-17",
+  "venue": "Grugahalle",
+  "city": "Essen",
+  "country": "DEU",
+  "tour": "Europe 1990",
+  "collection": "Europe 1990",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:15"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "8:41"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "6:43"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:50"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:02"
+    },
+    {
+      "title": "Maggie's Farm",
+      "duration": "5:20"
+    },
+    {
+      "title": "High Time",
+      "duration": "6:48"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:37"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:25"
+    },
+    {
+      "title": "Picasso Moon",
+      "duration": "6:24"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:32"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:40"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:14"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "8:49"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:49"
+    },
+    {
+      "title": "Space",
+      "duration": "8:43"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:37"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:14"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:06"
+    },
+    {
+      "title": "Turn On Your Lovelight",
+      "duration": "6:06"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "duration": "6:34"
+    }
+  ]
+}
