@@ -1,0 +1,88 @@
+{
+  "id": "1993-06-13",
+  "date": "1993-06-13",
+  "venue": "Rich Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "collection": "Shows I Attended",
+  "country": "USA",
+  "tags": ["1993"],
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "duration": "8:36"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:20"
+    },
+    {
+      "title": "Loser",
+      "duration": "8:03"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "2:44"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "7:32"
+    },
+    {
+      "title": "Broken Arrow",
+      "duration": "5:40"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:50"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "7:45"
+    },
+    {
+      "title": "Deal",
+      "duration": "9:13"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "9:04"
+    },
+    {
+      "title": "Lazy River Road",
+      "duration": "7:31"
+    },
+    {
+      "title": "Way to Go Home",
+      "duration": "6:18"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:59"
+    },
+    {
+      "title": "Drums",
+      "duration": "12:41"
+    },
+    {
+      "title": "Space",
+      "duration": "7:51"
+    },
+    {
+      "title": "The Other One",
+      "duration": "8:59"
+    },
+    {
+      "title": "Days Between",
+      "duration": "9:37"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "5:05"
+    },
+    {
+      "title": "I Fought the Law",
+      "duration": "2:43"
+    }
+  ]
+}

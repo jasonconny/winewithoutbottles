@@ -1965,6 +1965,20 @@ export const shows: ShowSummary[] = [
     "songCount": 20
   },
   {
+    "id": "1990-07-16",
+    "date": "1990-07-16",
+    "venue": "Rich Stadium",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Shows I Attended",
+    "tags": [
+      "1990"
+    ],
+    "svg": "/shows/1990-07-16.svg",
+    "songCount": 24
+  },
+  {
     "id": "1990-09-14",
     "date": "1990-09-14",
     "venue": "Madison Square Garden",
@@ -2327,6 +2341,48 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/1991-09-18.svg",
     "songCount": 18
+  },
+  {
+    "id": "1992-06-06",
+    "date": "1992-06-06",
+    "venue": "Rich Stadium",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Shows I Attended",
+    "tags": [
+      "1992"
+    ],
+    "svg": "/shows/1992-06-06.svg",
+    "songCount": 20
+  },
+  {
+    "id": "1993-06-06",
+    "date": "1993-06-06",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "collection": "Shows I Attended",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-06-06.svg",
+    "songCount": 18
+  },
+  {
+    "id": "1993-06-13",
+    "date": "1993-06-13",
+    "venue": "Rich Stadium",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "collection": "Shows I Attended",
+    "tags": [
+      "1993"
+    ],
+    "svg": "/shows/1993-06-13.svg",
+    "songCount": 19
   },
   {
     "id": "1993-09-16",

@@ -1,0 +1,96 @@
+{
+  "id": "1992-06-06",
+  "date": "1992-06-06",
+  "venue": "Rich Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "country": "USA",
+  "collection": "Shows I Attended",
+  "tags": [
+    "1992"
+  ],
+  "svg": "/shows/1992-06-06.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 508
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 472
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 763
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 807
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 429
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 578
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 620
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 543
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 540
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Baba O'Riley",
+      "durationSeconds": 187
+    },
+    {
+      "title": "Tomorrow Never Knows",
+      "durationSeconds": 221
+    }
+  ]
+}

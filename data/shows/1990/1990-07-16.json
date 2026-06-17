@@ -1,0 +1,108 @@
+{
+  "id": "1990-07-16",
+  "date": "1990-07-16",
+  "venue": "Rich Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "collection": "Shows I Attended",
+  "country": "USA",
+  "tags": ["1990"],
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "8:19"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "8:53"
+    },
+    {
+      "title": "Blow Away",
+      "duration": "9:08"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:40"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "7:14"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "8:27"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "9:07"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:06"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:40"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:33"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "3:51"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "6:33"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "7:31"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "8:27"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "10:53"
+    },
+    {
+      "title": "Jam",
+      "duration": "6:38"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:13"
+    },
+    {
+      "title": "Space",
+      "duration": "11:52"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:40"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "5:42"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:52"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:56"
+    },
+    {
+      "title": "Sunshine Daydream",
+      "duration": "4:41"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:12"
+    }
+  ]
+}
