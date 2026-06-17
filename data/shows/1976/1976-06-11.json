@@ -1,0 +1,109 @@
+{
+  "id": "1976-06-11",
+  "date": "1976-06-11",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Might As Well",
+      "duration": "6:08"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:24"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:59"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:05"
+    },
+    {
+      "title": "Candyman",
+      "duration": "8:28"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:18"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:16"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:52"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:10"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:53"
+    },
+    {
+      "title": "Supplication",
+      "duration": "5:21"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:54"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:36"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "9:49"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:57"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:41"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:24"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:57"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "11:05"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "6:03"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "13:12"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "10:48"
+    },
+    {
+      "title": "Sunshine Daydream",
+      "duration": "3:28"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:14"
+    }
+  ]
+}

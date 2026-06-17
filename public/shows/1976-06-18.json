@@ -1,0 +1,97 @@
+{
+  "id": "1976-06-18",
+  "date": "1976-06-18",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-18.svg",
+  "songCount": 20,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 186
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 786
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Mission in the Rain",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 404
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 676
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 62
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 751
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 136
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 685
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 350
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1976-06-15",
+  "date": "1976-06-15",
+  "venue": "Beacon Theatre",
+  "city": "New York",
+  "state": "NY",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "4:25"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "9:43"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:47"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:48"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:52"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:17"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:05"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:43"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "13:13"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:25"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "11:10"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "12:14"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "13:53"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:24"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:09"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "12:33"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:44"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "6:04"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "4:48"
+    },
+    {
+      "title": "Sunshine Daydream",
+      "duration": "3:39"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:11"
+    }
+  ]
+}

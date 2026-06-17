@@ -1,0 +1,101 @@
+{
+  "id": "1976-06-26",
+  "date": "1976-06-26",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "3:59"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "9:27"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:12"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:48"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:43"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:53"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:41"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:28"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:54"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:39"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "7:53"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:55"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "15:06"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "9:46"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:37"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "2:42"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "5:46"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:28"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "10:57"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:55"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:31"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:07"
+    }
+  ]
+}

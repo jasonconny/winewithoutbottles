@@ -1,0 +1,117 @@
+{
+  "id": "1976-06-23",
+  "date": "1976-06-23",
+  "venue": "Tower Theatre",
+  "city": "Upper Darby",
+  "state": "PA",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-23.svg",
+  "songCount": 25,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 160
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 353
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 261
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 164
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 162
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 455
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 657
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 535
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 47
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 25
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 594
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 251
+    }
+  ]
+}

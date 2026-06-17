@@ -1,0 +1,105 @@
+{
+  "id": "1976-06-21",
+  "date": "1976-06-21",
+  "venue": "Tower Theatre",
+  "city": "Upper Darby",
+  "state": "PA",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-21.svg",
+  "songCount": 22,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 735
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 141
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 669
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 659
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 168
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 237
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 669
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 691
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 508
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 248
+    }
+  ]
+}

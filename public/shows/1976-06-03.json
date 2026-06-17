@@ -1,0 +1,113 @@
+{
+  "id": "1976-06-03",
+  "date": "1976-06-03",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-03.svg",
+  "songCount": 24,
+  "songs": [
+    {
+      "title": "Might As Well",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 619
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 453
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 234
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 418
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 748
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 691
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 777
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 35
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 389
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 784
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 664
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 299
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 261
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1976-06-19",
+  "date": "1976-06-19",
+  "venue": "Capitol Theatre",
+  "city": "Passaic",
+  "state": "NJ",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "duration": "5:50"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "6:30"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "9:36"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:27"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:27"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:54"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:34"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:01"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:05"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "18:44"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "6:24"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:07"
+    },
+    {
+      "title": "High Time",
+      "duration": "10:07"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:45"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "10:20"
+    },
+    {
+      "title": "Cosmic Charlie",
+      "duration": "9:11"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:28"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "7:15"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:57"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "8:03"
+    }
+  ]
+}

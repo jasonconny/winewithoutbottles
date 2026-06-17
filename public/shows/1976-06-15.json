@@ -1,0 +1,101 @@
+{
+  "id": "1976-06-15",
+  "date": "1976-06-15",
+  "venue": "Beacon Theatre",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-15.svg",
+  "songCount": 21,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 468
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 352
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 793
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 325
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 670
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 734
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 833
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 753
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Sunshine Daydream",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 251
+    }
+  ]
+}

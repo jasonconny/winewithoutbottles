@@ -1,0 +1,113 @@
+{
+  "id": "1976-06-12",
+  "date": "1976-06-12",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Samson And Delilah",
+      "duration": "5:30"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:43"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "4:48"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:36"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:12"
+    },
+    {
+      "title": "Mission in the Rain",
+      "duration": "6:48"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:38"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "7:51"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:13"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:27"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:54"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:32"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:59"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:08"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:27"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "7:04"
+    },
+    {
+      "title": "Drums",
+      "duration": "0:48"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "3:08"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "12:12"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "8:24"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "10:32"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "5:38"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "5:36"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:16"
+    },
+    {
+      "title": "Sunshine Daydream",
+      "duration": "3:03"
+    }
+  ]
+}

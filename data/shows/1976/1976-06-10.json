@@ -1,0 +1,101 @@
+{
+  "id": "1976-06-10",
+  "date": "1976-06-10",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "3:50"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "9:51"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:00"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "8:28"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:47"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:37"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:55"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:25"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:22"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:28"
+    },
+    {
+      "title": "Mission in the Rain",
+      "duration": "7:26"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "9:38"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:57"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:17"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:47"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "6:58"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:17"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:36"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:32"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "14:18"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:02"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:48"
+    }
+  ]
+}

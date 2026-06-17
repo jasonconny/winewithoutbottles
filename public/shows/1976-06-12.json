@@ -1,0 +1,117 @@
+{
+  "id": "1976-06-12",
+  "date": "1976-06-12",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-12.svg",
+  "songCount": 25,
+  "songs": [
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 583
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Mission in the Rain",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 267
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 212
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 48
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 188
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 732
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 336
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Sunshine Daydream",
+      "durationSeconds": 183
+    }
+  ]
+}

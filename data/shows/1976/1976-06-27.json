@@ -1,0 +1,93 @@
+{
+  "id": "1976-06-27",
+  "date": "1976-06-27",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:38"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:25"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:41"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:09"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:39"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "2:50"
+    },
+    {
+      "title": "Supplication",
+      "duration": "5:18"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:18"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:40"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:28"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "7:54"
+    },
+    {
+      "title": "Drums",
+      "duration": "3:52"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "5:43"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:27"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:04"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:39"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "9:40"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "14:16"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:17"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:54"
+    }
+  ]
+}

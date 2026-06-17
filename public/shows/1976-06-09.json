@@ -1,0 +1,109 @@
+{
+  "id": "1976-06-09",
+  "date": "1976-06-09",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "tags": [
+    "1976"
+  ],
+  "svg": "/shows/1976-06-09.svg",
+  "songCount": 23,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 549
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 727
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 369
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 211
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1053
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 172
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 283
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 378
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 749
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 583
+    }
+  ]
+}

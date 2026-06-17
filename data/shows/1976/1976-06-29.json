@@ -1,0 +1,101 @@
+{
+  "id": "1976-06-29",
+  "date": "1976-06-29",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "tour": "June 1976",
+  "collection": "June 1976",
+  "country": "USA",
+  "tags": ["1976"],
+  "songs": [
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:04"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:24"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "8:04"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:44"
+    },
+    {
+      "title": "Mission in the Rain",
+      "duration": "6:49"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:34"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:31"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:03"
+    },
+    {
+      "title": "Supplication",
+      "duration": "4:43"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:20"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "5:55"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:58"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:13"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:18"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "15:43"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "12:02"
+    },
+    {
+      "title": "Playin' Reprise",
+      "duration": "8:27"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "9:03"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "10:43"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "0:56"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:43"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:43"
+    }
+  ]
+}
