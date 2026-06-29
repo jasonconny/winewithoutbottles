@@ -26,6 +26,15 @@ export function totalWidth(stripes: Stripe[]): number {
 /**
  * Serialize stripes to a standalone, export-grade SVG string.
  * `height` is uniform across stripes — the piece's variable overall height.
+ *
+ * `preserveAspectRatio="none"` is essential: these pieces have extreme aspect
+ * ratios (often 150:1+), so whenever a consumer's box doesn't match that ratio
+ * — the placeholder's `background-size: 100% auto` tile, or the show page's
+ * `img` under its `min-height` — the SVG's default `xMidYMid meet` would
+ * letterbox it (scaled-to-fit and centred), leaving gaps at the edges instead
+ * of spanning the full width. `none` lets it stretch to fill; because the
+ * stripes are uniform vertical bars, the vertical stretch is invisible and the
+ * horizontal proportions are preserved exactly.
  */
 export function svgMarkup(stripes: Stripe[], height: number): string {
   const width = totalWidth(stripes);
@@ -35,5 +44,5 @@ export function svgMarkup(stripes: Stripe[], height: number): string {
         `<rect x="${s.x}" y="0" width="${s.width}" height="${height}" fill="rgb(${s.rgb.r},${s.rgb.g},${s.rgb.b})"/>`,
     )
     .join('');
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">${rects}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">${rects}</svg>`;
 }
