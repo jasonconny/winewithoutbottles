@@ -18,11 +18,18 @@
   padding: 1.25rem;
 
   // A random striped piece, chosen per page load (Placeholder.tsx sets
-  // --placeholder-art); full-width, tiling down the page.
+  // --placeholder-art). One copy stretched to fill the viewport — the SVG's
+  // `preserveAspectRatio="none"` lets the (uniform vertical) stripes stretch
+  // without distortion. We deliberately do NOT tile with `repeat-y`: each
+  // piece is an extremely wide, ~thin strip, so a tiled copy is only a couple
+  // CSS px tall and its fractional height doesn't land on the device-pixel
+  // grid — leaving visible horizontal seam lines between repeats on hi-DPR
+  // phones. A single stretched copy looks identical (full-height bars), has no
+  // seams, and is far cheaper to paint.
   background-color: #000;
   background-image: var(--placeholder-art, url('/shows/1972-08-27.svg'));
-  background-repeat: repeat-y;
-  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
   @include bp.respond-to('md') {
     padding: 2rem;
