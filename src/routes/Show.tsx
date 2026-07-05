@@ -1,19 +1,30 @@
+import { useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
-import { formatDuration } from '@/wwob';
 import type { ShowDetail } from '@/wwob';
-import Footer from '@/components/Footer';
 import './Show.scss';
 
+/**
+ * Show reader: the piece fills the viewport edge-to-edge (the SVG's
+ * `preserveAspectRatio="none"` stretches the stripes full-bleed) and the
+ * chrome stays out of its way — two faint chips in the upper left (brand link
+ * back to the gallery + an "i" button that fades in the info panel). Direction
+ * set by Jason's original prototype; the setlist is deliberately unsurfaced
+ * for now (the loader still fetches it for future use, e.g. stripe
+ * interaction).
+ */
 export default function Show() {
   // Full detail (incl. songs) is fetched per-show by the route loader; see
   // `showLoader` in src/router.tsx. Missing id → null → "not found".
   const show = useLoaderData() as ShowDetail | null;
+  const [infoOpen, setInfoOpen] = useState(false);
 
   if (!show) {
     return (
       <main className="Show">
-        <p>Show not found.</p>
-        <Link to="/shows">← Back to the gallery</Link>
+        <div className="Show-notFound">
+          <p>Show not found.</p>
+          <Link to="/shows">← Back to the gallery</Link>
+        </div>
       </main>
     );
   }
@@ -24,17 +35,39 @@ export default function Show() {
 
   return (
     <main className="Show">
-      <Link className="Show-back" to="/shows">
-        ← Gallery
-      </Link>
+      <h1 className="Show-srOnly">
+        {show.date} — {location}
+      </h1>
 
-      <figure className="Show-piece">
-        <img src={show.svg} alt={`${show.date} setlist rendered as stripes`} />
-      </figure>
+      <img
+        className="Show-art"
+        src={show.svg}
+        alt={`${show.date} setlist rendered as stripes`}
+      />
 
-      <div className="Show-info">
-        <h1>{show.date}</h1>
-        <p className="Show-location">{location}</p>
+      <nav className="Show-chips" aria-label="Show">
+        <Link className="Show-chip" to="/shows">
+          WWOB
+        </Link>
+        <button
+          type="button"
+          className="Show-chip"
+          aria-expanded={infoOpen}
+          aria-controls="show-info"
+          onClick={() => setInfoOpen((open) => !open)}
+        >
+          i
+        </button>
+      </nav>
+
+      <section
+        id="show-info"
+        className="Show-info"
+        data-open={infoOpen || undefined}
+        aria-label="Show information"
+      >
+        <h2>{show.date}</h2>
+        <h3 className="Show-location">{location}</h3>
         {show.collection && (
           <p className="Show-collection">{show.collection}</p>
         )}
@@ -45,20 +78,7 @@ export default function Show() {
             ))}
           </ul>
         )}
-
-        <ol className="Show-setlist">
-          {show.songs.map((song, i) => (
-            <li key={i}>
-              <span className="Show-song">{song.title}</span>
-              <span className="Show-dur">
-                {formatDuration(song.durationSeconds)}
-              </span>
-            </li>
-          ))}
-        </ol>
-      </div>
-
-      <Footer />
+      </section>
     </main>
   );
 }

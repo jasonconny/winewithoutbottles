@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
 
@@ -38,16 +38,27 @@ describe('reader app', () => {
     expect(screen.getByText('1972-08-27')).toBeInTheDocument();
   });
 
-  it('renders the piece + setlist at /shows/:id', async () => {
+  it('renders the full-bleed piece with an info toggle at /shows/:id', async () => {
     renderAt('/shows/1972-08-27');
-    // Heading appears once the loader's fetch resolves.
+    // Art appears once the loader's fetch resolves.
     expect(
-      await screen.findByRole('heading', { name: '1972-08-27' }),
+      await screen.findByRole('img', {
+        name: '1972-08-27 setlist rendered as stripes',
+      }),
     ).toBeInTheDocument();
-    // "Mexicali Blues" is unique to the setlist ("Dark Star" also appears as a tag).
-    expect(screen.getByText('Mexicali Blues')).toBeInTheDocument();
-    expect(screen.getByText('31:28')).toBeInTheDocument(); // Dark Star's duration
-    expect(screen.getByRole('img')).toBeInTheDocument();
+    // Brand chip is the way back to the gallery.
+    expect(screen.getByRole('link', { name: 'WWOB' })).toHaveAttribute(
+      'href',
+      '/shows',
+    );
+    // Info panel starts closed; toggling reveals the show metadata.
+    const infoToggle = screen.getByRole('button', { name: 'i' });
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
+    fireEvent.click(infoToggle);
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'true');
+    expect(
+      screen.getByText('Old Renaissance Faire Grounds, Veneta, OR'),
+    ).toBeInTheDocument();
   });
 
   it('links the Barlow essay on /about', () => {
