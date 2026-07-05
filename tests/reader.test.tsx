@@ -46,11 +46,20 @@ describe('reader app', () => {
         name: '1972-08-27 setlist rendered as stripes',
       }),
     ).toBeInTheDocument();
-    // Brand chip is the way back to the gallery.
-    expect(screen.getByRole('link', { name: 'WWOB' })).toHaveAttribute(
+    // Brand chip toggles the nav drawer; its links are inert while closed.
+    const navToggle = screen.getByRole('button', { name: 'WWOB' });
+    const drawer = screen.getByRole('navigation', { name: 'Main' });
+    expect(navToggle).toHaveAttribute('aria-expanded', 'false');
+    expect(drawer).toHaveAttribute('inert');
+    fireEvent.click(navToggle);
+    expect(navToggle).toHaveAttribute('aria-expanded', 'true');
+    expect(drawer).not.toHaveAttribute('inert');
+    expect(screen.getByRole('link', { name: 'Gallery' })).toHaveAttribute(
       'href',
       '/shows',
     );
+    fireEvent.click(navToggle); // close it again for the info-panel steps
+    expect(drawer).toHaveAttribute('inert');
     // Info panel starts closed; toggling reveals the show metadata.
     const infoToggle = screen.getByRole('button', { name: 'i' });
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
@@ -65,6 +74,13 @@ describe('reader app', () => {
     // …and the toggle itself still cleanly re-opens (no double-toggle).
     fireEvent.click(infoToggle);
     expect(infoToggle).toHaveAttribute('aria-expanded', 'true');
+    // With the sheet AND the drawer open, one art click closes both.
+    fireEvent.click(navToggle);
+    expect(navToggle).toHaveAttribute('aria-expanded', 'true');
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'true');
+    fireEvent.click(screen.getByRole('img'));
+    expect(navToggle).toHaveAttribute('aria-expanded', 'false');
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
     // Esc is the keyboard companion to light-dismiss.
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
@@ -87,7 +103,13 @@ describe('reader app', () => {
       fireEvent.pointerMove(art);
       expect(main).not.toHaveAttribute('data-chrome-asleep');
       // An open info sheet pins the chrome awake past the idle delay.
-      fireEvent.click(screen.getByRole('button', { name: 'i' }));
+      const infoToggle = screen.getByRole('button', { name: 'i' });
+      fireEvent.click(infoToggle);
+      act(() => vi.advanceTimersByTime(20000));
+      expect(main).not.toHaveAttribute('data-chrome-asleep');
+      fireEvent.click(infoToggle); // close the sheet
+      // …and so does an open nav drawer.
+      fireEvent.click(screen.getByRole('button', { name: 'WWOB' }));
       act(() => vi.advanceTimersByTime(20000));
       expect(main).not.toHaveAttribute('data-chrome-asleep');
     } finally {
