@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import './Show.scss';
@@ -18,6 +18,16 @@ export default function Show() {
   const show = useLoaderData() as ShowDetail | null;
   const [infoOpen, setInfoOpen] = useState(false);
 
+  // Esc closes the info sheet — the keyboard companion to light-dismiss.
+  useEffect(() => {
+    if (!infoOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setInfoOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [infoOpen]);
+
   if (!show) {
     return (
       <main className="Show">
@@ -34,7 +44,16 @@ export default function Show() {
     .join(', ');
 
   return (
-    <main className="Show">
+    // Light-dismiss: with the info sheet open, a click/tap anywhere else on
+    // the page closes it. The "i" toggle stops propagation so its own toggle
+    // isn't immediately undone; the WWOB link is left alone (it navigates
+    // away regardless).
+    <main
+      className="Show"
+      onClick={() => {
+        if (infoOpen) setInfoOpen(false);
+      }}
+    >
       <h1 className="Show-srOnly">
         {show.date} — {location}
       </h1>
@@ -54,7 +73,10 @@ export default function Show() {
           className="Show-chip"
           aria-expanded={infoOpen}
           aria-controls="show-info"
-          onClick={() => setInfoOpen((open) => !open)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setInfoOpen((open) => !open);
+          }}
         >
           i
         </button>

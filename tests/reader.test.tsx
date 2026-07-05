@@ -59,6 +59,15 @@ describe('reader app', () => {
     expect(
       screen.getByText('Old Renaissance Faire Grounds, Veneta, OR'),
     ).toBeInTheDocument();
+    // Light-dismiss: clicking anywhere else (e.g. the art) closes the panel…
+    fireEvent.click(screen.getByRole('img'));
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
+    // …and the toggle itself still cleanly re-opens (no double-toggle).
+    fireEvent.click(infoToggle);
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'true');
+    // Esc is the keyboard companion to light-dismiss.
+    fireEvent.keyDown(window, { key: 'Escape' });
+    expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
   });
 
   it('links the Barlow essay on /about', () => {
