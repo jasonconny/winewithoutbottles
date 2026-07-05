@@ -1,17 +1,14 @@
 @use '../styles/breakpoints' as bp;
 
-// Full-bleed show reader: the piece IS the page; chrome is faint translucent
-// overlays in the prototype's visual language (small Roboto chips upper left,
-// info sheet that fades in). Mobile-first throughout.
+// Show page content: the full-bleed piece and its info sheet. The chrome
+// (nav drawer, chip bar, sleep, pane compression) is AppChrome's — this file
+// only styles what the page itself contributes.
 .Show {
   position: relative;
   height: 100dvh;
   overflow: hidden;
-  // The ground the nav drawer gutter reveals. A cool neutral gray at ~#AAA
-  // value (mean 171) — chosen to sit inside the stripe palette's family but
-  // outside its reach (verified against the corpus: nearest real stripe is
-  // "Slipknot!" rgb(133,135,163), ~50 RGB units away). Mirrored by
-  // SHOW_GROUND in Show.tsx for the browser-chrome theme-color.
+  // Same ground as AppChrome, so the not-found page sits on it too. Mirrored
+  // by SHOW_GROUND in Show.tsx for the browser-chrome theme-color.
   background: #a6abb1;
 
   // Visually-hidden heading so the page keeps an accessible <h1> while the
@@ -26,161 +23,14 @@
     white-space: nowrap;
   }
 
-  // The piece, stretched edge-to-edge. The SVG's `preserveAspectRatio="none"`
-  // makes the (uniform vertical) stripes fill any box without distortion.
-  // Anchored right (no `left`) so the nav-drawer width shrink slides it away
-  // from the left edge, prototype-style.
+  // The piece, stretched edge-to-edge within the (possibly compressed)
+  // AppChrome pane. The SVG's `preserveAspectRatio="none"` makes the
+  // (uniform vertical) stripes fill any box without distortion.
   &-art {
     position: absolute;
-    top: 0;
-    right: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
-
-    @media (prefers-reduced-motion: no-preference) {
-      transition: width 1s ease;
-    }
-  }
-
-  // Drawer open: the art slides right, revealing the nav gutter. The
-  // prototype's 15% gutter is a desktop size — phones need a wider one for
-  // the links to breathe.
-  &[data-nav-open] .Show-art {
-    width: 55%;
-
-    @include bp.respond-to('md') {
-      width: 85%;
-    }
-  }
-
-  // The nav gutter behind the art (prototype #main-navigation): quiet
-  // uppercase Roboto links on the ground. Link alpha .65 (not the usual .55
-  // floor) because the ground darkened to ~#AAA — .55 lands ~3.7:1 there,
-  // under the 4.5:1 AA line for normal-size text; .65 clears it.
-  &-drawer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    // Bottom padding clears the WWOB chip sitting in the lower-left corner
-    // (same 3.25rem math as the info sheet: edge + chip height + gap).
-    padding: calc(2rem + env(safe-area-inset-top, 0px)) 0
-      calc(3.25rem + env(safe-area-inset-bottom, 0px))
-      calc(0.5rem + env(safe-area-inset-left, 0px));
-
-    @include bp.respond-to('md') {
-      width: 15%;
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      text-transform: uppercase;
-
-      li {
-        padding: 0.5em 1em 0;
-      }
-
-      a {
-        color: rgba(0, 0, 0, 0.65);
-        font-family: 'Roboto Variable', sans-serif;
-        font-size: 1rem;
-        text-decoration: none;
-
-        &:hover {
-          color: rgba(0, 0, 0, 0.85);
-        }
-
-        &:focus-visible {
-          outline: 2px solid #fff;
-          outline-offset: 2px;
-        }
-      }
-    }
-
-    // The CC footer lives at the bottom of the gutter (as in the prototype).
-    .Footer {
-      margin: 0 1em;
-      padding-top: 0.75rem;
-      border-top-color: rgba(0, 0, 0, 0.15);
-      font-size: 0.625rem;
-      color: rgba(0, 0, 0, 0.65);
-    }
-  }
-
-  // Bottom bar of affordances (thumb zone on phones), clear of the iPhone
-  // home indicator: WWOB in the lower-left corner (the future nav drawer
-  // trigger), the info toggle in the lower right.
-  &-chips {
-    position: absolute;
-    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
-    left: calc(0.75rem + env(safe-area-inset-left, 0px));
-    right: calc(0.75rem + env(safe-area-inset-right, 0px));
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    @media (prefers-reduced-motion: no-preference) {
-      // Waking is quick; falling asleep is slow (see below).
-      transition: opacity 0.2s ease;
-    }
-  }
-
-  // Chrome sleep (data attr set by Show.tsx after idle): the chips fade out
-  // and stop intercepting taps — an invisible control must not be tappable.
-  // The first tap falls through, wakes the chrome, and the next one operates
-  // the visible chip.
-  &[data-chrome-asleep] .Show-chips {
-    opacity: 0;
-    pointer-events: none;
-
-    @media (prefers-reduced-motion: no-preference) {
-      transition: opacity 1s ease;
-    }
-  }
-
-  // Quiet-but-findable, close to the prototype's translucency. The backdrop
-  // blur is what buys it back: it averages the stripes behind the chip into a
-  // soft wash, so the veil can stay near-transparent without the text landing
-  // on a busy or dark stripe edge. Hover/expanded darken toward solid, and the
-  // focus ring stays full-contrast — those are the a11y anchors over
-  // arbitrary artwork.
-  &-chip {
-    display: block;
-    border: 0;
-    padding: 0.5rem 0.625rem 0.5rem 1rem;
-    color: rgba(0, 0, 0, 0.55);
-    background-color: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(12px);
-    font-family: 'Roboto Variable', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.5em;
-    line-height: 1;
-    text-decoration: none;
-    cursor: pointer;
-
-    // No blur support (old browsers): fall back to a stronger veil.
-    @supports not (backdrop-filter: blur(1px)) {
-      background-color: rgba(255, 255, 255, 0.45);
-    }
-
-    &:hover,
-    &[aria-expanded='true'] {
-      color: rgba(0, 0, 0, 0.8);
-      background-color: rgba(255, 255, 255, 0.6);
-    }
-
-    &:focus-visible {
-      outline: 2px solid #fff;
-      outline-offset: 2px;
-    }
   }
 
   // Info sheet: hidden until toggled, rising from the bottom edge;
@@ -258,7 +108,7 @@
     flex-wrap: wrap;
     column-gap: 0.5em;
 
-    // Prototype's inline "/ tag / tag" treatment.
+    // Prototype's inline "/ tag" treatment.
     li::before {
       content: '/ ';
     }

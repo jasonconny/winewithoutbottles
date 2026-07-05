@@ -37,6 +37,16 @@ describe('reader app', () => {
     ).toBeInTheDocument();
     expect(screen.getByText('1972-08-27')).toBeInTheDocument();
     expect(document.title).toBe('Gallery — Wine Without Bottles');
+    // Global chrome: the nav drawer is here too, inert until toggled.
+    const navToggle = screen.getByRole('button', { name: 'WWOB' });
+    const drawer = screen.getByRole('navigation', { name: 'Main' });
+    expect(drawer).toHaveAttribute('inert');
+    fireEvent.click(navToggle);
+    expect(drawer).not.toHaveAttribute('inert');
+    expect(screen.getByRole('link', { name: 'About' })).toHaveAttribute(
+      'href',
+      '/about',
+    );
   });
 
   it('renders the full-bleed piece with an info toggle at /shows/:id', async () => {
@@ -92,7 +102,8 @@ describe('reader app', () => {
   it('puts the chrome to sleep after idle and wakes it on activity', async () => {
     renderAt('/shows/1972-08-27');
     const art = await screen.findByRole('img');
-    const main = screen.getByRole('main');
+    // The sleep state lives on the AppChrome root, the page's chrome wrapper.
+    const main = screen.getByRole('main').closest('.AppChrome')!;
     // Switch to fake timers only after the loader resolved, then re-arm the
     // sleep timer under the fake clock with a wake event.
     vi.useFakeTimers();
@@ -125,5 +136,7 @@ describe('reader app', () => {
     expect(
       screen.getByRole('link', { name: /economy of ideas/i }),
     ).toBeInTheDocument();
+    // Global chrome is present here too.
+    expect(screen.getByRole('button', { name: 'WWOB' })).toBeInTheDocument();
   });
 });
