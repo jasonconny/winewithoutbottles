@@ -3,6 +3,9 @@ import { Link, useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import './Show.scss';
 
+/** Idle time before the chrome fades out and leaves the artwork alone. */
+const CHROME_SLEEP_MS = 5000;
+
 /**
  * Show reader: the piece fills the viewport edge-to-edge (the SVG's
  * `preserveAspectRatio="none"` stretches the stripes full-bleed) and the
@@ -17,12 +20,36 @@ export default function Show() {
   // `showLoader` in src/router.tsx. Missing id → null → "not found".
   const show = useLoaderData() as ShowDetail | null;
   const [infoOpen, setInfoOpen] = useState(false);
+  const [chromeAwake, setChromeAwake] = useState(true);
+
+  // Chrome sleep: after CHROME_SLEEP_MS of inactivity the chips fade out;
+  // any pointer or keyboard activity wakes them and restarts the timer. An
+  // open info sheet pins the chrome awake (reading isn't idleness) — the
+  // effect tears down while it's open and re-arms on close.
+  useEffect(() => {
+    if (!show || infoOpen) return;
+    let timer = setTimeout(() => setChromeAwake(false), CHROME_SLEEP_MS);
+    const wake = () => {
+      setChromeAwake(true);
+      clearTimeout(timer);
+      timer = setTimeout(() => setChromeAwake(false), CHROME_SLEEP_MS);
+    };
+    window.addEventListener('pointermove', wake);
+    window.addEventListener('pointerdown', wake);
+    window.addEventListener('keydown', wake);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('pointermove', wake);
+      window.removeEventListener('pointerdown', wake);
+      window.removeEventListener('keydown', wake);
+    };
+  }, [show, infoOpen]);
 
   // Esc closes the info sheet — the keyboard companion to light-dismiss.
   useEffect(() => {
     if (!infoOpen) return;
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setInfoOpen(false);
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setInfoOpen(false);
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
@@ -50,6 +77,7 @@ export default function Show() {
     // away regardless).
     <main
       className="Show"
+      data-chrome-asleep={!chromeAwake || undefined}
       onClick={() => {
         if (infoOpen) setInfoOpen(false);
       }}
@@ -73,8 +101,8 @@ export default function Show() {
           className="Show-chip"
           aria-expanded={infoOpen}
           aria-controls="show-info"
-          onClick={(e) => {
-            e.stopPropagation();
+          onClick={(event) => {
+            event.stopPropagation();
             setInfoOpen((open) => !open);
           }}
         >

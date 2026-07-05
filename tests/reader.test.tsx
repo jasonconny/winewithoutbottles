@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { fireEvent, render, screen } from '@testing-library/react';
+import { act, fireEvent, render, screen } from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
 
@@ -68,6 +68,31 @@ describe('reader app', () => {
     // Esc is the keyboard companion to light-dismiss.
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
+  });
+
+  it('puts the chrome to sleep after idle and wakes it on activity', async () => {
+    renderAt('/shows/1972-08-27');
+    const art = await screen.findByRole('img');
+    const main = screen.getByRole('main');
+    // Switch to fake timers only after the loader resolved, then re-arm the
+    // sleep timer under the fake clock with a wake event.
+    vi.useFakeTimers();
+    try {
+      fireEvent.pointerMove(main);
+      expect(main).not.toHaveAttribute('data-chrome-asleep');
+      // 5s idle → asleep.
+      act(() => vi.advanceTimersByTime(5001));
+      expect(main).toHaveAttribute('data-chrome-asleep');
+      // Activity wakes it.
+      fireEvent.pointerMove(art);
+      expect(main).not.toHaveAttribute('data-chrome-asleep');
+      // An open info sheet pins the chrome awake past the idle delay.
+      fireEvent.click(screen.getByRole('button', { name: 'i' }));
+      act(() => vi.advanceTimersByTime(20000));
+      expect(main).not.toHaveAttribute('data-chrome-asleep');
+    } finally {
+      vi.useRealTimers();
+    }
   });
 
   it('links the Barlow essay on /about', () => {

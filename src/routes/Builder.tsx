@@ -65,8 +65,8 @@ export default function Builder() {
     URL.revokeObjectURL(url);
   };
 
-  const onInputKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') addNode();
+  const onInputKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Enter') addNode();
   };
 
   const hasSongs = songs.length > 0;
@@ -85,7 +85,7 @@ export default function Builder() {
             id="song-title"
             type="text"
             value={title}
-            onChange={(e) => setTitle(e.target.value)}
+            onChange={(event) => setTitle(event.target.value)}
             onKeyDown={onInputKeyDown}
           />
         </div>
@@ -97,7 +97,7 @@ export default function Builder() {
             inputMode="numeric"
             placeholder="7:42"
             value={duration}
-            onChange={(e) => setDuration(e.target.value)}
+            onChange={(event) => setDuration(event.target.value)}
             onKeyDown={onInputKeyDown}
           />
         </div>
@@ -150,8 +150,8 @@ export default function Builder() {
             type="number"
             min={1}
             value={height}
-            onChange={(e) =>
-              setHeight(Number(e.target.value) || DEFAULT_HEIGHT)
+            onChange={(event) =>
+              setHeight(Number(event.target.value) || DEFAULT_HEIGHT)
             }
           />
         </div>
