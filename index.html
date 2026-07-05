@@ -2,7 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      viewport-fit=cover lets the page extend into the device's unsafe areas
+      (notch, home indicator) so the artwork is genuinely full-bleed; the
+      chrome then keeps clear via env(safe-area-inset-*) paddings (Show.scss).
+      Without it, those env() values are always 0 on iOS.
+    -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <!-- Pre-hydration default; each route sets its own via usePageMeta. -->
     <meta name="theme-color" content="#000000" />
 
     <link rel="icon" href="/favicon.ico" />

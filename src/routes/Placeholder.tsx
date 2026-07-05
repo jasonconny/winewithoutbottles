@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react';
 import { shows } from '@/data/shows.generated';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import './Placeholder.scss';
 
 // Pick a striped piece once per page load (at module eval — not during render,
@@ -13,6 +14,8 @@ const randomArt = shows[Math.floor(Math.random() * shows.length)]?.svg;
  * difference between this and the future homepage is added navigation.
  */
 export default function Placeholder() {
+  usePageMeta('Wine Without Bottles', '#000000');
+
   const style = randomArt
     ? ({ '--placeholder-art': `url(${randomArt})` } as CSSProperties)
     : undefined;

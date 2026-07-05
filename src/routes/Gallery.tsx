@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import { shows } from '@/data/shows.generated';
 import Footer from '@/components/Footer';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import './Gallery.scss';
 
 export default function Gallery() {
+  usePageMeta('Gallery — Wine Without Bottles', '#ffffff');
+
   return (
     <main className="Gallery">
       <h1>Gallery</h1>

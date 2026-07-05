@@ -1,79 +1,287 @@
 @use '../styles/breakpoints' as bp;
 
+// Full-bleed show reader: the piece IS the page; chrome is faint translucent
+// overlays in the prototype's visual language (small Roboto chips upper left,
+// info sheet that fades in). Mobile-first throughout.
 .Show {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  position: relative;
+  height: 100dvh;
+  overflow: hidden;
+  // The ground the nav drawer gutter reveals. A cool neutral gray at ~#AAA
+  // value (mean 171) — chosen to sit inside the stripe palette's family but
+  // outside its reach (verified against the corpus: nearest real stripe is
+  // "Slipknot!" rgb(133,135,163), ~50 RGB units away). Mirrored by
+  // SHOW_GROUND in Show.tsx for the browser-chrome theme-color.
+  background: #a6abb1;
 
-  &-back {
-    display: inline-block;
-    margin-bottom: 1.5rem;
-    color: #555;
-    text-decoration: none;
+  // Visually-hidden heading so the page keeps an accessible <h1> while the
+  // info panel is closed. Local until a second consumer wants it.
+  &-srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
 
-  // The piece is the hero: full width, horizontal scroll if very wide.
-  &-piece {
-    margin: 0 0 2rem;
-    overflow-x: auto;
-    background: #000;
-    border: 1px solid #eee;
+  // The piece, stretched edge-to-edge. The SVG's `preserveAspectRatio="none"`
+  // makes the (uniform vertical) stripes fill any box without distortion.
+  // Anchored right (no `left`) so the nav-drawer width shrink slides it away
+  // from the left edge, prototype-style.
+  &-art {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-      min-height: 80px;
+    @media (prefers-reduced-motion: no-preference) {
+      transition: width 1s ease;
     }
   }
 
-  &-info h1 {
-    font-size: 2rem;
+  // Drawer open: the art slides right, revealing the nav gutter. The
+  // prototype's 15% gutter is a desktop size — phones need a wider one for
+  // the links to breathe.
+  &[data-nav-open] .Show-art {
+    width: 55%;
+
+    @include bp.respond-to('md') {
+      width: 85%;
+    }
   }
 
-  &-location {
-    color: #555;
+  // The nav gutter behind the art (prototype #main-navigation): quiet
+  // uppercase Roboto links on the ground. Link alpha .65 (not the usual .55
+  // floor) because the ground darkened to ~#AAA — .55 lands ~3.7:1 there,
+  // under the 4.5:1 AA line for normal-size text; .65 clears it.
+  &-drawer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // Bottom padding clears the WWOB chip sitting in the lower-left corner
+    // (same 3.25rem math as the info sheet: edge + chip height + gap).
+    padding: calc(2rem + env(safe-area-inset-top, 0px)) 0
+      calc(3.25rem + env(safe-area-inset-bottom, 0px))
+      calc(0.5rem + env(safe-area-inset-left, 0px));
+
+    @include bp.respond-to('md') {
+      width: 15%;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+
+      li {
+        padding: 0.5em 1em 0;
+      }
+
+      a {
+        color: rgba(0, 0, 0, 0.65);
+        font-family: 'Roboto Variable', sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+
+        &:hover {
+          color: rgba(0, 0, 0, 0.85);
+        }
+
+        &:focus-visible {
+          outline: 2px solid #fff;
+          outline-offset: 2px;
+        }
+      }
+    }
+
+    // The CC footer lives at the bottom of the gutter (as in the prototype).
+    .Footer {
+      margin: 0 1em;
+      padding-top: 0.75rem;
+      border-top-color: rgba(0, 0, 0, 0.15);
+      font-size: 0.625rem;
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+
+  // Bottom bar of affordances (thumb zone on phones), clear of the iPhone
+  // home indicator: WWOB in the lower-left corner (the future nav drawer
+  // trigger), the info toggle in the lower right.
+  &-chips {
+    position: absolute;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    left: calc(0.75rem + env(safe-area-inset-left, 0px));
+    right: calc(0.75rem + env(safe-area-inset-right, 0px));
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @media (prefers-reduced-motion: no-preference) {
+      // Waking is quick; falling asleep is slow (see below).
+      transition: opacity 0.2s ease;
+    }
+  }
+
+  // Chrome sleep (data attr set by Show.tsx after idle): the chips fade out
+  // and stop intercepting taps — an invisible control must not be tappable.
+  // The first tap falls through, wakes the chrome, and the next one operates
+  // the visible chip.
+  &[data-chrome-asleep] .Show-chips {
+    opacity: 0;
+    pointer-events: none;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: opacity 1s ease;
+    }
+  }
+
+  // Quiet-but-findable, close to the prototype's translucency. The backdrop
+  // blur is what buys it back: it averages the stripes behind the chip into a
+  // soft wash, so the veil can stay near-transparent without the text landing
+  // on a busy or dark stripe edge. Hover/expanded darken toward solid, and the
+  // focus ring stays full-contrast — those are the a11y anchors over
+  // arbitrary artwork.
+  &-chip {
+    display: block;
+    border: 0;
+    padding: 0.5rem 0.625rem 0.5rem 1rem;
+    color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(12px);
+    font-family: 'Roboto Variable', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+
+    // No blur support (old browsers): fall back to a stronger veil.
+    @supports not (backdrop-filter: blur(1px)) {
+      background-color: rgba(255, 255, 255, 0.45);
+    }
+
+    &:hover,
+    &[aria-expanded='true'] {
+      color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
+  }
+
+  // Info sheet: hidden until toggled, rising from the bottom edge;
+  // horizontally centered. Base = phone: full width with small margins,
+  // stacked above the chip bar with the same 0.75rem gap as the viewport
+  // padding (3.25rem = 0.75rem edge + 1.75rem chip height + 0.75rem gap).
+  // md+ = centered with a max width — it clears the corner chips
+  // horizontally, so its bottom edge sits flush with theirs instead.
+  &-info {
+    position: absolute;
+    bottom: calc(3.25rem + env(safe-area-inset-bottom, 0px));
+    left: calc(0.75rem + env(safe-area-inset-left, 0px));
+    right: calc(0.75rem + env(safe-area-inset-right, 0px));
+    z-index: 1;
+    max-height: calc(100dvh - 5rem);
+    overflow-y: auto;
+    padding: 0.75rem 1rem 1.25rem;
+    color: rgba(0, 0, 0, 0.6);
+    // Same frosted-glass trade as the chips: near-prototype translucency,
+    // legibility carried by the blur (with a stronger-veil fallback).
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(16px);
+    visibility: hidden;
+    opacity: 0;
+
+    @supports not (backdrop-filter: blur(1px)) {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      // Sheet-like: a short rise alongside the fade.
+      translate: 0 0.5rem;
+      transition:
+        opacity 0.6s ease,
+        translate 0.6s ease,
+        visibility 0.6s;
+    }
+
+    &[data-open] {
+      visibility: visible;
+      opacity: 1;
+      translate: 0 0;
+    }
+
+    @include bp.respond-to('md') {
+      bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+      left: 50%;
+      right: auto;
+      width: 66%;
+      max-width: 44rem;
+      transform: translateX(-50%);
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    h3 {
+      font-weight: 300;
+      letter-spacing: 0.125em;
+    }
   }
 
   &-collection {
+    margin-top: 0.5rem;
     font-style: italic;
-    color: #777;
   }
 
   &-tags {
     list-style: none;
-    margin: 0.75rem 0;
+    margin: 0.5rem 0 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    column-gap: 0.5em;
 
-    li {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      padding: 0.2rem 0.5rem;
-      border: 1px solid #ddd;
-      border-radius: 999px;
-      color: #555;
+    // Prototype's inline "/ tag / tag" treatment.
+    li::before {
+      content: '/ ';
     }
   }
 
-  &-setlist {
-    margin: 1.5rem 0 0;
-    padding-left: 1.5rem;
+  // Missing id → quiet message on the bare ground.
+  &-notFound {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: rgba(0, 0, 0, 0.7);
 
-    li {
-      display: flex;
-      justify-content: space-between;
-      gap: 1rem;
-      padding: 0.35rem 0;
-      border-bottom: 1px solid #f0f0f0;
+    a {
+      color: rgba(0, 0, 0, 0.7);
+
+      &:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+      }
     }
-  }
-
-  &-dur {
-    color: #777;
-    font-variant-numeric: tabular-nums;
   }
 }
