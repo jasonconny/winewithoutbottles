@@ -36,6 +36,7 @@ describe('reader app', () => {
       screen.getByRole('heading', { name: /gallery/i }),
     ).toBeInTheDocument();
     expect(screen.getByText('1972-08-27')).toBeInTheDocument();
+    expect(document.title).toBe('Gallery — Wine Without Bottles');
   });
 
   it('renders the full-bleed piece with an info toggle at /shows/:id', async () => {
@@ -46,6 +47,8 @@ describe('reader app', () => {
         name: '1972-08-27 setlist rendered as stripes',
       }),
     ).toBeInTheDocument();
+    // Route-managed document metadata.
+    expect(document.title).toBe('1972-08-27 — Wine Without Bottles');
     // Brand chip toggles the nav drawer; its links are inert while closed.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });

@@ -8,11 +8,13 @@ import {
   totalWidth,
 } from '@/wwob';
 import type { Song } from '@/wwob';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import './Builder.scss';
 
 const DEFAULT_HEIGHT = 100;
 
 export default function Builder() {
+  usePageMeta('Builder — Wine Without Bottles', '#ffffff');
   const [songs, setSongs] = useState<Song[]>([]);
   const [title, setTitle] = useState('');
   const [duration, setDuration] = useState('');

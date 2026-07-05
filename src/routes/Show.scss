@@ -7,8 +7,12 @@
   position: relative;
   height: 100dvh;
   overflow: hidden;
-  // The ground the nav drawer gutter reveals (prototype's page background).
-  background: #ccc;
+  // The ground the nav drawer gutter reveals. A cool neutral gray at ~#AAA
+  // value (mean 171) — chosen to sit inside the stripe palette's family but
+  // outside its reach (verified against the corpus: nearest real stripe is
+  // "Slipknot!" rgb(133,135,163), ~50 RGB units away). Mirrored by
+  // SHOW_GROUND in Show.tsx for the browser-chrome theme-color.
+  background: #a6abb1;
 
   // Visually-hidden heading so the page keeps an accessible <h1> while the
   // info panel is closed. Local until a second consumer wants it.
@@ -50,8 +54,9 @@
   }
 
   // The nav gutter behind the art (prototype #main-navigation): quiet
-  // uppercase Roboto links on the #ccc ground. Text alpha holds our .55
-  // legibility floor (the prototype's .25 is ~2:1 against #ccc).
+  // uppercase Roboto links on the ground. Link alpha .65 (not the usual .55
+  // floor) because the ground darkened to ~#AAA — .55 lands ~3.7:1 there,
+  // under the 4.5:1 AA line for normal-size text; .65 clears it.
   &-drawer {
     position: absolute;
     top: 0;
@@ -82,13 +87,13 @@
       }
 
       a {
-        color: rgba(0, 0, 0, 0.55);
+        color: rgba(0, 0, 0, 0.65);
         font-family: 'Roboto Variable', sans-serif;
-        font-size: 0.75rem;
+        font-size: 1rem;
         text-decoration: none;
 
         &:hover {
-          color: rgba(0, 0, 0, 0.8);
+          color: rgba(0, 0, 0, 0.85);
         }
 
         &:focus-visible {
@@ -104,7 +109,7 @@
       padding-top: 0.75rem;
       border-top-color: rgba(0, 0, 0, 0.15);
       font-size: 0.625rem;
-      color: rgba(0, 0, 0, 0.55);
+      color: rgba(0, 0, 0, 0.65);
     }
   }
 

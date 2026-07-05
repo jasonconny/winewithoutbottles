@@ -2,10 +2,14 @@ import { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import Footer from '@/components/Footer';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import './Show.scss';
 
 /** Idle time before the chrome fades out and leaves the artwork alone. */
 const CHROME_SLEEP_MS = 5000;
+
+/** The page ground (see .Show in Show.scss) — the theme color matches it. */
+const SHOW_GROUND = '#a6abb1';
 
 /**
  * Show reader: the piece fills the viewport edge-to-edge (the SVG's
@@ -23,6 +27,13 @@ export default function Show() {
   const [infoOpen, setInfoOpen] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
   const [chromeAwake, setChromeAwake] = useState(true);
+
+  usePageMeta(
+    show
+      ? `${show.date} — Wine Without Bottles`
+      : 'Show not found — Wine Without Bottles',
+    SHOW_GROUND,
+  );
 
   // Chrome sleep: after CHROME_SLEEP_MS of inactivity the chips fade out;
   // any pointer or keyboard activity wakes them and restarts the timer. An

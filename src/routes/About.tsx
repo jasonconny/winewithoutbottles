@@ -1,7 +1,10 @@
 import Footer from '@/components/Footer';
+import { usePageMeta } from '@/hooks/usePageMeta';
 import './About.scss';
 
 export default function About() {
+  usePageMeta('About — Wine Without Bottles', '#ffffff');
+
   return (
     <main className="About">
       <h1>About</h1>
