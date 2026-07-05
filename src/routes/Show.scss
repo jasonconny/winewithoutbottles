@@ -30,14 +30,18 @@
     height: 100%;
   }
 
-  // Upper-left affordances, clear of the iPhone notch/status bar.
+  // Bottom bar of affordances (thumb zone on phones), clear of the iPhone
+  // home indicator: WWOB in the lower-left corner (the future nav drawer
+  // trigger), the info toggle in the lower right.
   &-chips {
     position: absolute;
-    top: calc(0.75rem + env(safe-area-inset-top, 0px));
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
     left: calc(0.75rem + env(safe-area-inset-left, 0px));
+    right: calc(0.75rem + env(safe-area-inset-right, 0px));
     z-index: 2;
     display: flex;
-    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
   }
 
   // Quiet-but-findable, close to the prototype's translucency. The backdrop
@@ -78,16 +82,19 @@
     }
   }
 
-  // Info sheet: hidden until toggled, fading in over the art. Base = phone
-  // (full width with small margins, below the chips); md+ = centered like the
-  // prototype's top-center panel.
+  // Info sheet: hidden until toggled, rising from the bottom edge;
+  // horizontally centered. Base = phone: full width with small margins,
+  // stacked above the chip bar with the same 0.75rem gap as the viewport
+  // padding (3.25rem = 0.75rem edge + 1.75rem chip height + 0.75rem gap).
+  // md+ = centered with a max width — it clears the corner chips
+  // horizontally, so its bottom edge sits flush with theirs instead.
   &-info {
     position: absolute;
-    top: calc(3.25rem + env(safe-area-inset-top, 0px));
+    bottom: calc(3.25rem + env(safe-area-inset-bottom, 0px));
     left: calc(0.75rem + env(safe-area-inset-left, 0px));
     right: calc(0.75rem + env(safe-area-inset-right, 0px));
     z-index: 1;
-    max-height: calc(100dvh - 6rem);
+    max-height: calc(100dvh - 5rem);
     overflow-y: auto;
     padding: 0.75rem 1rem 1.25rem;
     color: rgba(0, 0, 0, 0.6);
@@ -103,17 +110,22 @@
     }
 
     @media (prefers-reduced-motion: no-preference) {
+      // Sheet-like: a short rise alongside the fade.
+      translate: 0 0.5rem;
       transition:
         opacity 0.6s ease,
+        translate 0.6s ease,
         visibility 0.6s;
     }
 
     &[data-open] {
       visibility: visible;
       opacity: 1;
+      translate: 0 0;
     }
 
     @include bp.respond-to('md') {
+      bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
       left: 50%;
       right: auto;
       width: 66%;
