@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
-import { PageChips } from '@/components/AppChrome';
-import { usePageChrome } from '@/hooks/usePageChrome';
+import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import './Show.scss';
 
@@ -13,15 +12,17 @@ const SHOW_GROUND = '#a6abb1';
  * Show reader: the piece fills the viewport edge-to-edge (the SVG's
  * `preserveAspectRatio="none"` stretches the stripes full-bleed) inside the
  * global AppChrome (nav drawer + chip bar). The page contributes the "i"
- * chip, which fades in the info sheet. Direction set by Jason's original
- * prototype; the setlist is deliberately unsurfaced for now (the loader
- * still fetches it for future use, e.g. stripe interaction).
+ * chip, which fades in the info sheet; both live in shared UI state so the
+ * chrome can light-dismiss/Esc-close them and pin sleep while the sheet is
+ * open. Direction set by Jason's original prototype; the setlist is
+ * deliberately unsurfaced for now (the loader still fetches it for future
+ * use, e.g. stripe interaction).
  */
 export default function Show() {
   // Full detail (incl. songs) is fetched per-show by the route loader; see
   // `showLoader` in src/router.tsx. Missing id → null → "not found".
   const show = useLoaderData() as ShowDetail | null;
-  const [infoOpen, setInfoOpen] = useState(false);
+  const { infoOpen, setInfoOpen, setSleepy } = useUiState();
 
   usePageMeta(
     show
@@ -29,19 +30,12 @@ export default function Show() {
       : 'Show not found — Wine Without Bottles',
     SHOW_GROUND,
   );
-  // Art page: the chrome sleeps after idle; an open info sheet pins it awake.
-  usePageChrome({ sleepy: !!show, pinAwake: infoOpen });
 
-  // Esc closes the info sheet — the keyboard companion to light-dismiss.
-  // (AppChrome has its own Esc handling for the drawer.)
+  // Art page: the chrome sleeps after idle (not on the not-found branch).
   useEffect(() => {
-    if (!infoOpen) return;
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setInfoOpen(false);
-    };
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, [infoOpen]);
+    setSleepy(!!show);
+    return () => setSleepy(false);
+  }, [show, setSleepy]);
 
   if (!show) {
     return (
@@ -59,30 +53,9 @@ export default function Show() {
     .join(', ');
 
   return (
-    // Light-dismiss: a click/tap on the art closes the info sheet. (The
-    // same click bubbles on to AppChrome, which closes the drawer — so one
-    // click on the art clears both.)
-    <main
-      className="Show"
-      onClick={() => {
-        if (infoOpen) setInfoOpen(false);
-      }}
-    >
-      <PageChips>
-        <button
-          type="button"
-          className="AppChrome-chip"
-          aria-expanded={infoOpen}
-          aria-controls="show-info"
-          onClick={(event) => {
-            event.stopPropagation();
-            setInfoOpen((open) => !open);
-          }}
-        >
-          i
-        </button>
-      </PageChips>
-
+    // No click handler here: light-dismiss lives on the AppChrome root — a
+    // click on the art bubbles up and closes the sheet and/or drawer.
+    <main className="Show">
       <h1 className="Show-srOnly">
         {show.date} — {location}
       </h1>
@@ -92,6 +65,19 @@ export default function Show() {
         src={show.svg}
         alt={`${show.date} setlist rendered as stripes`}
       />
+
+      <button
+        type="button"
+        className="AppChrome-chip Show-infoChip"
+        aria-expanded={infoOpen}
+        aria-controls="show-info"
+        onClick={(event) => {
+          event.stopPropagation();
+          setInfoOpen(!infoOpen);
+        }}
+      >
+        i
+      </button>
 
       <section
         id="show-info"

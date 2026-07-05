@@ -33,6 +33,18 @@
     height: 100%;
   }
 
+  // The page's info toggle, lower right — visual style comes from the shared
+  // .AppChrome-chip class (incl. the chrome-sleep fade); this only positions
+  // it. `fixed` matches the chrome bar's WWOB chip; that works from inside
+  // the pane only because the pane animates `width`, never `transform` (a
+  // transform would become the containing block and pin this to the pane).
+  &-infoChip {
+    position: fixed;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    right: calc(0.75rem + env(safe-area-inset-right, 0px));
+    z-index: 2;
+  }
+
   // Info sheet: hidden until toggled, rising from the bottom edge;
   // horizontally centered. Base = phone: full width with small margins,
   // stacked above the chip bar with the same 0.75rem gap as the viewport

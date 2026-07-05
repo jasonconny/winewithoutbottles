@@ -13,6 +13,8 @@ describe('routing', () => {
     expect(
       screen.getByRole('heading', { name: /wwob svg builder/i }),
     ).toBeInTheDocument();
+    // Builder sits inside the global chrome like every page.
+    expect(screen.getByRole('button', { name: 'WWOB' })).toBeInTheDocument();
   });
 
   it('renders the placeholder at the hidden /placeholder route', () => {

@@ -33,10 +33,10 @@ export const routes: RouteObject[] = [
       { path: '/shows', element: <Gallery /> },
       { path: '/shows/:id', element: <Show />, loader: showLoader },
       { path: '/about', element: <About /> },
+      // Unlinked easter egg — not in the drawer nav, discoverable only by
+      // visiting the URL directly, but it gets the chrome like every page.
+      { path: '/builder', element: <Builder /> },
     ],
   },
-  // Unlinked easter egg — discoverable only by visiting the URL directly.
-  // Standalone: no AppChrome, just the global styles.
-  { path: '/builder', element: <Builder /> },
   { path: '*', element: <Navigate to="/" replace /> },
 ];

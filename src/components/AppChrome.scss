@@ -114,17 +114,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
-    @media (prefers-reduced-motion: no-preference) {
-      // Waking is quick; falling asleep is slow (see below).
-      transition: opacity 0.2s ease;
-    }
-  }
-
-  // Portal target for page-specific chips: `contents` so the chips inside
-  // participate directly in the bar's flex layout.
-  &-pageChips {
-    display: contents;
   }
 
   // Quiet-but-findable, close to the prototype's translucency. The backdrop
@@ -133,6 +122,8 @@
   // on a busy or dark stripe edge. Hover/expanded darken toward solid, and
   // the focus ring stays full-contrast — those are the a11y anchors over
   // arbitrary artwork.
+  // Used by chips anywhere in the tree — the WWOB toggle in the chrome bar
+  // and page-owned chips like Show's info toggle.
   &-chip {
     display: block;
     border: 0;
@@ -147,6 +138,11 @@
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
+
+    @media (prefers-reduced-motion: no-preference) {
+      // Waking is quick; falling asleep is slow (see below).
+      transition: opacity 0.2s ease;
+    }
 
     // No blur support (old browsers): fall back to a stronger veil.
     @supports not (backdrop-filter: blur(1px)) {
@@ -165,11 +161,11 @@
     }
   }
 
-  // Chrome sleep (data attr set after idle when `sleepy`): the chips fade
-  // out and stop intercepting taps — an invisible control must not be
-  // tappable. The first tap falls through, wakes the chrome, and the next
-  // one operates the visible chip.
-  &[data-chrome-asleep] &-chips {
+  // Chrome sleep (data attr set after idle when `sleepy`): every chip in the
+  // tree — the chrome's and the page's — fades out and stops intercepting
+  // taps: an invisible control must not be tappable. The first tap falls
+  // through, wakes the chrome, and the next one operates the visible chip.
+  &[data-chrome-asleep] .AppChrome-chip {
     opacity: 0;
     pointer-events: none;
 
