@@ -102,18 +102,16 @@
     }
   }
 
-  // Bottom bar of affordances (thumb zone on phones), fixed clear of the
-  // iPhone home indicator: WWOB in the lower-left corner (drawer trigger),
-  // page-specific chips (e.g. Show's info toggle) at the lower right.
+  // The chrome's own chip corner (thumb zone on phones), fixed clear of the
+  // iPhone home indicator: just the WWOB drawer trigger, lower left. Sized
+  // to its content — NOT a full-width bar, which would sit invisibly over
+  // page-owned chips (e.g. Show's info toggle, lower right) and eat their
+  // taps. Page chips position themselves.
   &-chips {
     position: fixed;
     bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
     left: calc(0.75rem + env(safe-area-inset-left, 0px));
-    right: calc(0.75rem + env(safe-area-inset-right, 0px));
     z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
   }
 
   // Quiet-but-findable, close to the prototype's translucency. The backdrop
