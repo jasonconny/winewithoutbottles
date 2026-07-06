@@ -104,6 +104,12 @@ describe('reader app', () => {
     const art = await screen.findByRole('img');
     // The sleep state lives on the AppChrome root, the page's chrome wrapper.
     const main = screen.getByRole('main').closest('.AppChrome')!;
+    // Show registers `sleepy` via an effect after mount (setSleepy → context
+    // update → chrome re-render → wake listeners attach). Flush that cascade
+    // before switching clocks, or — depending on machine timing — the
+    // pointermove below fires before the listeners exist and nothing gets
+    // scheduled on the fake clock.
+    await act(async () => {});
     // Switch to fake timers only after the loader resolved, then re-arm the
     // sleep timer under the fake clock with a wake event.
     vi.useFakeTimers();
