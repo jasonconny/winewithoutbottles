@@ -12,7 +12,7 @@ export default function Gallery() {
       <ul className="Gallery-grid">
         {shows.map((show) => (
           <li key={show.id} className="Gallery-item">
-            <Link to={`/shows/${show.id}`}>
+            <Link to={`/${show.id}`}>
               <img
                 className="Gallery-art"
                 src={show.svg}

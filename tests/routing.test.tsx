@@ -24,10 +24,12 @@ describe('routing', () => {
     ).toBeInTheDocument();
   });
 
-  it('redirects unknown routes home', () => {
+  it('redirects unknown routes home', async () => {
+    // A single stray segment matches the root-level /:id show route, whose
+    // loader redirects non-id-shaped params home (async, hence findBy).
     renderAt('/nope');
     expect(
-      screen.getByRole('heading', { name: /wine without bottles/i }),
+      await screen.findByRole('heading', { name: /wine without bottles/i }),
     ).toBeInTheDocument();
   });
 });

@@ -33,14 +33,15 @@ npm run dev
 
 ## Show data
 
-Shows are hand-authored as JSON in [`data/shows/`](data/shows/) (`YYYY-MM-DD.json`,
-by year) — the source of truth. A generator turns that into committed artifacts:
-`public/shows/<id>.svg`, `public/shows/<id>.json`, and the bundled index
-`src/data/shows.generated.ts`. After editing data, regenerate and commit:
+Shows are hand-authored as JSON in [`data/shows/`](data/shows/) (`YYYYMMDD.json`,
+by year; the compact-date id is also the show's URL) — the source of truth. A
+generator turns that into committed artifacts: `public/shows/<id>.svg`,
+`public/shows/<id>.json`, and the bundled index `src/data/shows.generated.ts`.
+After editing data, regenerate and commit:
 
 ```bash
-npm run generate 1977-05-08      # one show
-npm run generate '1977-*'        # a quoted glob
+npm run generate 19770508        # one show
+npm run generate '1977*'         # a quoted glob
 npm run generate                 # everything
 ```
 
