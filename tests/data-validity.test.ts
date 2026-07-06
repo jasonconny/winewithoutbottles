@@ -10,7 +10,10 @@ import { shows } from '@/data/shows.generated';
 // generated manifest in sync with it.
 
 const DATA_DIR = 'data/shows';
-const ID_RE = /^\d{4}-\d{2}-\d{2}$/;
+/** Show ids are compact dates (also the show's URL): 19720827. */
+const ID_RE = /^\d{8}$/;
+/** The `date` field stays ISO for display and sorting: 1972-08-27. */
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 function dataFiles(): string[] {
   // Recursive: shows live in data/shows/<year>/<id>.json subdirectories.
@@ -37,8 +40,9 @@ describe('show data is well-formed', () => {
     expect(show.id).toMatch(ID_RE);
     expect(`${show.id}.json`).toBe(basename(file));
 
-    // required metadata.
-    expect(show.date).toMatch(ID_RE);
+    // required metadata; the id is the date, compacted.
+    expect(show.date).toMatch(DATE_RE);
+    expect(show.id).toBe(show.date.replaceAll('-', ''));
     expect(show.venue?.trim()).toBeTruthy();
 
     // non-empty setlist with valid songs.

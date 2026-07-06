@@ -42,7 +42,7 @@ export default function Show() {
       <main className="Show">
         <div className="Show-notFound">
           <p>Show not found.</p>
-          <Link to="/shows">← Back to the gallery</Link>
+          <Link to="/gallery">← Back to the gallery</Link>
         </div>
       </main>
     );

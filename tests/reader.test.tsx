@@ -30,8 +30,8 @@ function renderAt(path: string) {
 }
 
 describe('reader app', () => {
-  it('lists shows in the gallery at /shows', () => {
-    renderAt('/shows');
+  it('lists shows in the gallery at /gallery', () => {
+    renderAt('/gallery');
     expect(
       screen.getByRole('heading', { name: /gallery/i }),
     ).toBeInTheDocument();
@@ -49,8 +49,8 @@ describe('reader app', () => {
     );
   });
 
-  it('renders the full-bleed piece with an info toggle at /shows/:id', async () => {
-    renderAt('/shows/1972-08-27');
+  it('renders the full-bleed piece with an info toggle at /:id', async () => {
+    renderAt('/19720827');
     // Art appears once the loader's fetch resolves.
     expect(
       await screen.findByRole('img', {
@@ -69,7 +69,7 @@ describe('reader app', () => {
     expect(drawer).not.toHaveAttribute('inert');
     expect(screen.getByRole('link', { name: 'Gallery' })).toHaveAttribute(
       'href',
-      '/shows',
+      '/gallery',
     );
     fireEvent.click(navToggle); // close it again for the info-panel steps
     expect(drawer).toHaveAttribute('inert');
@@ -100,7 +100,7 @@ describe('reader app', () => {
   });
 
   it('puts the chrome to sleep after idle and wakes it on activity', async () => {
-    renderAt('/shows/1972-08-27');
+    renderAt('/19720827');
     const art = await screen.findByRole('img');
     // The sleep state lives on the AppChrome root, the page's chrome wrapper.
     const main = screen.getByRole('main').closest('.AppChrome')!;
@@ -135,6 +135,14 @@ describe('reader app', () => {
     } finally {
       vi.useRealTimers();
     }
+  });
+
+  it('shows "not found" for an id-shaped URL with no show', async () => {
+    renderAt('/19990101');
+    expect(await screen.findByText('Show not found.')).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /back to the gallery/i }),
+    ).toHaveAttribute('href', '/gallery');
   });
 
   it('links the Barlow essay on /about', () => {

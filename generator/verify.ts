@@ -48,7 +48,7 @@ function legacyStripes(id: string): { rgb: Rgb; width: number }[] {
 
 const id = process.argv[2];
 if (!id) {
-  console.error('usage: tsx generator/verify.ts <id>   (e.g. 1977-05-08)');
+  console.error('usage: tsx generator/verify.ts <id>   (e.g. 19770508)');
   process.exit(1);
 }
 

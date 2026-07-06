@@ -11,10 +11,10 @@
  *
  * Pass one or more filters to regenerate only matching shows' per-show artifacts
  * (SVG + detail JSON):
- *   npm run generate 1977-05-08            # one show by id
- *   npm run generate 1977-05-08.json       # …or by filename
- *   npm run generate data/shows/1977/1977-05-08.json  # …or by path
- *   npm run generate '1977-*' '1989-*'     # globs (quote them so the shell
+ *   npm run generate 19770508              # one show by id
+ *   npm run generate 19770508.json         # …or by filename
+ *   npm run generate data/shows/1977/19770508.json  # …or by path
+ *   npm run generate '1977*' '1989*'       # globs (quote them so the shell
  *                                          # doesn't expand them first)
  * The index is always rebuilt from every show, so it stays complete and
  * correctly sorted regardless of which per-show artifacts were (re)written.

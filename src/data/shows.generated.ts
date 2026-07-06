@@ -3,7 +3,7 @@ import type { ShowSummary } from '@/wwob';
 
 export const shows: ShowSummary[] = [
   {
-    "id": "1969-02-27",
+    "id": "19690227",
     "date": "1969-02-27",
     "venue": "Fillmore West",
     "city": "San Francisco",
@@ -16,11 +16,11 @@ export const shows: ShowSummary[] = [
       "Dark Star",
       "Live/Dead"
     ],
-    "svg": "/shows/1969-02-27.svg",
+    "svg": "/shows/19690227.svg",
     "songCount": 10
   },
   {
-    "id": "1969-02-28",
+    "id": "19690228",
     "date": "1969-02-28",
     "venue": "Fillmore West",
     "city": "San Francisco",
@@ -33,11 +33,11 @@ export const shows: ShowSummary[] = [
       "Dark Star",
       "Live/Dead"
     ],
-    "svg": "/shows/1969-02-28.svg",
+    "svg": "/shows/19690228.svg",
     "songCount": 16
   },
   {
-    "id": "1969-03-01",
+    "id": "19690301",
     "date": "1969-03-01",
     "venue": "Fillmore West",
     "city": "San Francisco",
@@ -50,11 +50,11 @@ export const shows: ShowSummary[] = [
       "Dark Star",
       "Live/Dead"
     ],
-    "svg": "/shows/1969-03-01.svg",
+    "svg": "/shows/19690301.svg",
     "songCount": 11
   },
   {
-    "id": "1969-03-02",
+    "id": "19690302",
     "date": "1969-03-02",
     "venue": "Fillmore West",
     "city": "San Francisco",
@@ -67,11 +67,11 @@ export const shows: ShowSummary[] = [
       "Dark Star",
       "Live/Dead"
     ],
-    "svg": "/shows/1969-03-02.svg",
+    "svg": "/shows/19690302.svg",
     "songCount": 14
   },
   {
-    "id": "1972-04-07",
+    "id": "19720407",
     "date": "1972-04-07",
     "venue": "Wembley Empire Pool",
     "city": "London",
@@ -81,11 +81,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-07.svg",
+    "svg": "/shows/19720407.svg",
     "songCount": 25
   },
   {
-    "id": "1972-04-08",
+    "id": "19720408",
     "date": "1972-04-08",
     "venue": "Wembley Empire Pool",
     "city": "London",
@@ -95,11 +95,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-08.svg",
+    "svg": "/shows/19720408.svg",
     "songCount": 22
   },
   {
-    "id": "1972-04-11",
+    "id": "19720411",
     "date": "1972-04-11",
     "venue": "City Hall",
     "city": "Newcastle",
@@ -109,11 +109,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-11.svg",
+    "svg": "/shows/19720411.svg",
     "songCount": 27
   },
   {
-    "id": "1972-04-14",
+    "id": "19720414",
     "date": "1972-04-14",
     "venue": "Tivoli Concert Hall",
     "city": "Copenhagen",
@@ -123,11 +123,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-14.svg",
+    "svg": "/shows/19720414.svg",
     "songCount": 29
   },
   {
-    "id": "1972-04-16",
+    "id": "19720416",
     "date": "1972-04-16",
     "venue": "Stakladen Cafeteria, Aarhus University",
     "city": "Aarhus",
@@ -137,11 +137,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-16.svg",
+    "svg": "/shows/19720416.svg",
     "songCount": 29
   },
   {
-    "id": "1972-04-17",
+    "id": "19720417",
     "date": "1972-04-17",
     "venue": "Tivoli Concert Hall",
     "city": "Copenhagen",
@@ -151,11 +151,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-17.svg",
+    "svg": "/shows/19720417.svg",
     "songCount": 23
   },
   {
-    "id": "1972-04-21",
+    "id": "19720421",
     "date": "1972-04-21",
     "venue": "Beat Club",
     "city": "Bremen",
@@ -165,11 +165,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-21.svg",
+    "svg": "/shows/19720421.svg",
     "songCount": 10
   },
   {
-    "id": "1972-04-24",
+    "id": "19720424",
     "date": "1972-04-24",
     "venue": "Rheinhalle",
     "city": "Düsseldorf",
@@ -179,11 +179,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-24.svg",
+    "svg": "/shows/19720424.svg",
     "songCount": 26
   },
   {
-    "id": "1972-04-26",
+    "id": "19720426",
     "date": "1972-04-26",
     "venue": "Jahrhundert Halle",
     "city": "Frankfurt",
@@ -193,11 +193,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-26.svg",
+    "svg": "/shows/19720426.svg",
     "songCount": 30
   },
   {
-    "id": "1972-04-29",
+    "id": "19720429",
     "date": "1972-04-29",
     "venue": "Musikhalle",
     "city": "Hamburg",
@@ -207,11 +207,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-04-29.svg",
+    "svg": "/shows/19720429.svg",
     "songCount": 22
   },
   {
-    "id": "1972-05-03",
+    "id": "19720503",
     "date": "1972-05-03",
     "venue": "Olympia Theatre",
     "city": "Paris",
@@ -221,11 +221,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-03.svg",
+    "svg": "/shows/19720503.svg",
     "songCount": 32
   },
   {
-    "id": "1972-05-04",
+    "id": "19720504",
     "date": "1972-05-04",
     "venue": "Olympia Theatre",
     "city": "Paris",
@@ -235,11 +235,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-04.svg",
+    "svg": "/shows/19720504.svg",
     "songCount": 29
   },
   {
-    "id": "1972-05-07",
+    "id": "19720507",
     "date": "1972-05-07",
     "venue": "Bickershaw Festival",
     "city": "Wigan",
@@ -249,11 +249,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-07.svg",
+    "svg": "/shows/19720507.svg",
     "songCount": 27
   },
   {
-    "id": "1972-05-10",
+    "id": "19720510",
     "date": "1972-05-10",
     "venue": "Concertgebouw",
     "city": "Amsterdam",
@@ -263,11 +263,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-10.svg",
+    "svg": "/shows/19720510.svg",
     "songCount": 32
   },
   {
-    "id": "1972-05-11",
+    "id": "19720511",
     "date": "1972-05-11",
     "venue": "Grote Zaal De Doelen",
     "city": "Rotterdam",
@@ -277,11 +277,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-11.svg",
+    "svg": "/shows/19720511.svg",
     "songCount": 29
   },
   {
-    "id": "1972-05-13",
+    "id": "19720513",
     "date": "1972-05-13",
     "venue": "Lille Fairgrounds",
     "city": "Lille",
@@ -291,11 +291,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-13.svg",
+    "svg": "/shows/19720513.svg",
     "songCount": 25
   },
   {
-    "id": "1972-05-16",
+    "id": "19720516",
     "date": "1972-05-16",
     "venue": "La Grande Salle Du Grand Theatre",
     "city": "Luxembourg",
@@ -305,11 +305,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-16.svg",
+    "svg": "/shows/19720516.svg",
     "songCount": 22
   },
   {
-    "id": "1972-05-18",
+    "id": "19720518",
     "date": "1972-05-18",
     "venue": "Kongressaal",
     "city": "Munich",
@@ -319,11 +319,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-18.svg",
+    "svg": "/shows/19720518.svg",
     "songCount": 25
   },
   {
-    "id": "1972-05-23",
+    "id": "19720523",
     "date": "1972-05-23",
     "venue": "Lyceum Theatre",
     "city": "London",
@@ -333,11 +333,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-23.svg",
+    "svg": "/shows/19720523.svg",
     "songCount": 30
   },
   {
-    "id": "1972-05-24",
+    "id": "19720524",
     "date": "1972-05-24",
     "venue": "Lyceum Theatre",
     "city": "London",
@@ -347,11 +347,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-24.svg",
+    "svg": "/shows/19720524.svg",
     "songCount": 26
   },
   {
-    "id": "1972-05-25",
+    "id": "19720525",
     "date": "1972-05-25",
     "venue": "Lyceum Theatre",
     "city": "London",
@@ -361,11 +361,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-25.svg",
+    "svg": "/shows/19720525.svg",
     "songCount": 26
   },
   {
-    "id": "1972-05-26",
+    "id": "19720526",
     "date": "1972-05-26",
     "venue": "Lyceum Theatre",
     "city": "London",
@@ -375,11 +375,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1972"
     ],
-    "svg": "/shows/1972-05-26.svg",
+    "svg": "/shows/19720526.svg",
     "songCount": 31
   },
   {
-    "id": "1972-08-27",
+    "id": "19720827",
     "date": "1972-08-27",
     "venue": "Old Renaissance Faire Grounds",
     "city": "Veneta",
@@ -392,11 +392,11 @@ export const shows: ShowSummary[] = [
       "Sunshine Daydream",
       "Dark Star"
     ],
-    "svg": "/shows/1972-08-27.svg",
+    "svg": "/shows/19720827.svg",
     "songCount": 20
   },
   {
-    "id": "1974-10-16",
+    "id": "19741016",
     "date": "1974-10-16",
     "venue": "Winterland Arena",
     "city": "San Francisco",
@@ -409,11 +409,11 @@ export const shows: ShowSummary[] = [
       "Wall of Sound",
       "Winterland"
     ],
-    "svg": "/shows/1974-10-16.svg",
+    "svg": "/shows/19741016.svg",
     "songCount": 24
   },
   {
-    "id": "1974-10-17",
+    "id": "19741017",
     "date": "1974-10-17",
     "venue": "Winterland Arena",
     "city": "San Francisco",
@@ -426,11 +426,11 @@ export const shows: ShowSummary[] = [
       "Wall of Sound",
       "Winterland"
     ],
-    "svg": "/shows/1974-10-17.svg",
+    "svg": "/shows/19741017.svg",
     "songCount": 28
   },
   {
-    "id": "1974-10-18",
+    "id": "19741018",
     "date": "1974-10-18",
     "venue": "Winterland Arena",
     "city": "San Francisco",
@@ -443,11 +443,11 @@ export const shows: ShowSummary[] = [
       "Wall of Sound",
       "Winterland"
     ],
-    "svg": "/shows/1974-10-18.svg",
+    "svg": "/shows/19741018.svg",
     "songCount": 26
   },
   {
-    "id": "1974-10-19",
+    "id": "19741019",
     "date": "1974-10-19",
     "venue": "Winterland Arena",
     "city": "San Francisco",
@@ -460,11 +460,11 @@ export const shows: ShowSummary[] = [
       "Wall of Sound",
       "Winterland"
     ],
-    "svg": "/shows/1974-10-19.svg",
+    "svg": "/shows/19741019.svg",
     "songCount": 32
   },
   {
-    "id": "1974-10-20",
+    "id": "19741020",
     "date": "1974-10-20",
     "venue": "Winterland Arena",
     "city": "San Francisco",
@@ -477,11 +477,11 @@ export const shows: ShowSummary[] = [
       "Wall of Sound",
       "Winterland"
     ],
-    "svg": "/shows/1974-10-20.svg",
+    "svg": "/shows/19741020.svg",
     "songCount": 28
   },
   {
-    "id": "1976-06-03",
+    "id": "19760603",
     "date": "1976-06-03",
     "venue": "Paramount Theatre",
     "city": "Portland",
@@ -492,11 +492,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-03.svg",
+    "svg": "/shows/19760603.svg",
     "songCount": 24
   },
   {
-    "id": "1976-06-04",
+    "id": "19760604",
     "date": "1976-06-04",
     "venue": "Paramount Theatre",
     "city": "Portland",
@@ -507,11 +507,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-04.svg",
+    "svg": "/shows/19760604.svg",
     "songCount": 28
   },
   {
-    "id": "1976-06-09",
+    "id": "19760609",
     "date": "1976-06-09",
     "venue": "Boston Music Hall",
     "city": "Boston",
@@ -522,11 +522,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-09.svg",
+    "svg": "/shows/19760609.svg",
     "songCount": 23
   },
   {
-    "id": "1976-06-10",
+    "id": "19760610",
     "date": "1976-06-10",
     "venue": "Boston Music Hall",
     "city": "Boston",
@@ -537,11 +537,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-10.svg",
+    "svg": "/shows/19760610.svg",
     "songCount": 22
   },
   {
-    "id": "1976-06-11",
+    "id": "19760611",
     "date": "1976-06-11",
     "venue": "Boston Music Hall",
     "city": "Boston",
@@ -552,11 +552,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-11.svg",
+    "svg": "/shows/19760611.svg",
     "songCount": 24
   },
   {
-    "id": "1976-06-12",
+    "id": "19760612",
     "date": "1976-06-12",
     "venue": "Boston Music Hall",
     "city": "Boston",
@@ -567,11 +567,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-12.svg",
+    "svg": "/shows/19760612.svg",
     "songCount": 25
   },
   {
-    "id": "1976-06-14",
+    "id": "19760614",
     "date": "1976-06-14",
     "venue": "Beacon Theatre",
     "city": "New York",
@@ -582,11 +582,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-14.svg",
+    "svg": "/shows/19760614.svg",
     "songCount": 23
   },
   {
-    "id": "1976-06-15",
+    "id": "19760615",
     "date": "1976-06-15",
     "venue": "Beacon Theatre",
     "city": "New York",
@@ -597,11 +597,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-15.svg",
+    "svg": "/shows/19760615.svg",
     "songCount": 21
   },
   {
-    "id": "1976-06-17",
+    "id": "19760617",
     "date": "1976-06-17",
     "venue": "Capitol Theatre",
     "city": "Passaic",
@@ -612,11 +612,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-17.svg",
+    "svg": "/shows/19760617.svg",
     "songCount": 24
   },
   {
-    "id": "1976-06-18",
+    "id": "19760618",
     "date": "1976-06-18",
     "venue": "Capitol Theatre",
     "city": "Passaic",
@@ -627,11 +627,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-18.svg",
+    "svg": "/shows/19760618.svg",
     "songCount": 20
   },
   {
-    "id": "1976-06-19",
+    "id": "19760619",
     "date": "1976-06-19",
     "venue": "Capitol Theatre",
     "city": "Passaic",
@@ -642,11 +642,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-19.svg",
+    "svg": "/shows/19760619.svg",
     "songCount": 20
   },
   {
-    "id": "1976-06-21",
+    "id": "19760621",
     "date": "1976-06-21",
     "venue": "Tower Theatre",
     "city": "Upper Darby",
@@ -657,11 +657,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-21.svg",
+    "svg": "/shows/19760621.svg",
     "songCount": 22
   },
   {
-    "id": "1976-06-22",
+    "id": "19760622",
     "date": "1976-06-22",
     "venue": "Tower Theatre",
     "city": "Upper Darby",
@@ -672,11 +672,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-22.svg",
+    "svg": "/shows/19760622.svg",
     "songCount": 21
   },
   {
-    "id": "1976-06-23",
+    "id": "19760623",
     "date": "1976-06-23",
     "venue": "Tower Theatre",
     "city": "Upper Darby",
@@ -687,11 +687,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-23.svg",
+    "svg": "/shows/19760623.svg",
     "songCount": 25
   },
   {
-    "id": "1976-06-24",
+    "id": "19760624",
     "date": "1976-06-24",
     "venue": "Tower Theatre",
     "city": "Upper Darby",
@@ -702,11 +702,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-24.svg",
+    "svg": "/shows/19760624.svg",
     "songCount": 18
   },
   {
-    "id": "1976-06-26",
+    "id": "19760626",
     "date": "1976-06-26",
     "venue": "Auditorium Theatre",
     "city": "Chicago",
@@ -717,11 +717,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-26.svg",
+    "svg": "/shows/19760626.svg",
     "songCount": 22
   },
   {
-    "id": "1976-06-27",
+    "id": "19760627",
     "date": "1976-06-27",
     "venue": "Auditorium Theatre",
     "city": "Chicago",
@@ -732,11 +732,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-27.svg",
+    "svg": "/shows/19760627.svg",
     "songCount": 20
   },
   {
-    "id": "1976-06-28",
+    "id": "19760628",
     "date": "1976-06-28",
     "venue": "Auditorium Theatre",
     "city": "Chicago",
@@ -747,11 +747,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-28.svg",
+    "svg": "/shows/19760628.svg",
     "songCount": 18
   },
   {
-    "id": "1976-06-29",
+    "id": "19760629",
     "date": "1976-06-29",
     "venue": "Auditorium Theatre",
     "city": "Chicago",
@@ -762,11 +762,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1976"
     ],
-    "svg": "/shows/1976-06-29.svg",
+    "svg": "/shows/19760629.svg",
     "songCount": 22
   },
   {
-    "id": "1977-04-22",
+    "id": "19770422",
     "date": "1977-04-22",
     "venue": "Spectrum",
     "city": "Philadelphia",
@@ -777,11 +777,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-22.svg",
+    "svg": "/shows/19770422.svg",
     "songCount": 18
   },
   {
-    "id": "1977-04-23",
+    "id": "19770423",
     "date": "1977-04-23",
     "venue": "Springfield Civic Center Arena",
     "city": "Springfield",
@@ -792,11 +792,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-23.svg",
+    "svg": "/shows/19770423.svg",
     "songCount": 20
   },
   {
-    "id": "1977-04-25",
+    "id": "19770425",
     "date": "1977-04-25",
     "venue": "Capitol Theatre",
     "city": "Passaic",
@@ -807,11 +807,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-25.svg",
+    "svg": "/shows/19770425.svg",
     "songCount": 21
   },
   {
-    "id": "1977-04-26",
+    "id": "19770426",
     "date": "1977-04-26",
     "venue": "Capitol Theatre",
     "city": "Passaic",
@@ -822,11 +822,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-26.svg",
+    "svg": "/shows/19770426.svg",
     "songCount": 17
   },
   {
-    "id": "1977-04-27",
+    "id": "19770427",
     "date": "1977-04-27",
     "venue": "Capitol Theatre",
     "city": "Passaic",
@@ -837,11 +837,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-27.svg",
+    "svg": "/shows/19770427.svg",
     "songCount": 18
   },
   {
-    "id": "1977-04-29",
+    "id": "19770429",
     "date": "1977-04-29",
     "venue": "The Palladium",
     "city": "New York",
@@ -852,11 +852,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-29.svg",
+    "svg": "/shows/19770429.svg",
     "songCount": 23
   },
   {
-    "id": "1977-04-30",
+    "id": "19770430",
     "date": "1977-04-30",
     "venue": "The Palladium",
     "city": "New York",
@@ -867,11 +867,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-04-30.svg",
+    "svg": "/shows/19770430.svg",
     "songCount": 21
   },
   {
-    "id": "1977-05-01",
+    "id": "19770501",
     "date": "1977-05-01",
     "venue": "The Palladium",
     "city": "New York",
@@ -882,11 +882,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-01.svg",
+    "svg": "/shows/19770501.svg",
     "songCount": 21
   },
   {
-    "id": "1977-05-03",
+    "id": "19770503",
     "date": "1977-05-03",
     "venue": "The Palladium",
     "city": "New York",
@@ -897,11 +897,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-03.svg",
+    "svg": "/shows/19770503.svg",
     "songCount": 24
   },
   {
-    "id": "1977-05-04",
+    "id": "19770504",
     "date": "1977-05-04",
     "venue": "The Palladium",
     "city": "New York",
@@ -912,11 +912,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-04.svg",
+    "svg": "/shows/19770504.svg",
     "songCount": 17
   },
   {
-    "id": "1977-05-05",
+    "id": "19770505",
     "date": "1977-05-05",
     "venue": "Veterans Memorial Coliseum",
     "city": "New Haven",
@@ -927,11 +927,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-05.svg",
+    "svg": "/shows/19770505.svg",
     "songCount": 19
   },
   {
-    "id": "1977-05-07",
+    "id": "19770507",
     "date": "1977-05-07",
     "venue": "Boston Garden",
     "city": "Boston",
@@ -943,11 +943,11 @@ export const shows: ShowSummary[] = [
       "1977",
       "Boston"
     ],
-    "svg": "/shows/1977-05-07.svg",
+    "svg": "/shows/19770507.svg",
     "songCount": 20
   },
   {
-    "id": "1977-05-08",
+    "id": "19770508",
     "date": "1977-05-08",
     "venue": "Barton Hall, Cornell University",
     "city": "Ithaca",
@@ -960,11 +960,11 @@ export const shows: ShowSummary[] = [
       "Cornell",
       "Barton Hall"
     ],
-    "svg": "/shows/1977-05-08.svg",
+    "svg": "/shows/19770508.svg",
     "songCount": 20
   },
   {
-    "id": "1977-05-09",
+    "id": "19770509",
     "date": "1977-05-09",
     "venue": "War Memorial Auditorium",
     "city": "Buffalo",
@@ -976,11 +976,11 @@ export const shows: ShowSummary[] = [
       "1977",
       "Buffalo"
     ],
-    "svg": "/shows/1977-05-09.svg",
+    "svg": "/shows/19770509.svg",
     "songCount": 21
   },
   {
-    "id": "1977-05-11",
+    "id": "19770511",
     "date": "1977-05-11",
     "venue": "St. Paul Civic Center Arena",
     "city": "St. Paul",
@@ -991,11 +991,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-11.svg",
+    "svg": "/shows/19770511.svg",
     "songCount": 24
   },
   {
-    "id": "1977-05-12",
+    "id": "19770512",
     "date": "1977-05-12",
     "venue": "Auditorium Theatre",
     "city": "Chicago",
@@ -1006,11 +1006,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-12.svg",
+    "svg": "/shows/19770512.svg",
     "songCount": 21
   },
   {
-    "id": "1977-05-13",
+    "id": "19770513",
     "date": "1977-05-13",
     "venue": "Auditorium Theatre",
     "city": "Chicago",
@@ -1021,11 +1021,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-13.svg",
+    "svg": "/shows/19770513.svg",
     "songCount": 20
   },
   {
-    "id": "1977-05-15",
+    "id": "19770515",
     "date": "1977-05-15",
     "venue": "St. Louis Arena",
     "city": "St. Louis",
@@ -1036,11 +1036,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-15.svg",
+    "svg": "/shows/19770515.svg",
     "songCount": 21
   },
   {
-    "id": "1977-05-17",
+    "id": "19770517",
     "date": "1977-05-17",
     "venue": "University of Alabama, Memorial Coliseum",
     "city": "Tuscaloosa",
@@ -1051,11 +1051,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-17.svg",
+    "svg": "/shows/19770517.svg",
     "songCount": 25
   },
   {
-    "id": "1977-05-18",
+    "id": "19770518",
     "date": "1977-05-18",
     "venue": "Fox Theatre",
     "city": "Atlanta",
@@ -1066,11 +1066,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-18.svg",
+    "svg": "/shows/19770518.svg",
     "songCount": 19
   },
   {
-    "id": "1977-05-19",
+    "id": "19770519",
     "date": "1977-05-19",
     "venue": "Fox Theatre",
     "city": "Atlanta",
@@ -1081,11 +1081,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-19.svg",
+    "svg": "/shows/19770519.svg",
     "songCount": 19
   },
   {
-    "id": "1977-05-21",
+    "id": "19770521",
     "date": "1977-05-21",
     "venue": "Lakeland Civic Center Arena",
     "city": "Lakeland",
@@ -1096,11 +1096,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-21.svg",
+    "svg": "/shows/19770521.svg",
     "songCount": 24
   },
   {
-    "id": "1977-05-22",
+    "id": "19770522",
     "date": "1977-05-22",
     "venue": "Sportatorium",
     "city": "Pembroke Pines",
@@ -1111,11 +1111,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-22.svg",
+    "svg": "/shows/19770522.svg",
     "songCount": 24
   },
   {
-    "id": "1977-05-25",
+    "id": "19770525",
     "date": "1977-05-25",
     "venue": "The Mosque",
     "city": "Richmond",
@@ -1126,11 +1126,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-25.svg",
+    "svg": "/shows/19770525.svg",
     "songCount": 22
   },
   {
-    "id": "1977-05-26",
+    "id": "19770526",
     "date": "1977-05-26",
     "venue": "Baltimore Civic Center",
     "city": "Baltimore",
@@ -1141,11 +1141,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-26.svg",
+    "svg": "/shows/19770526.svg",
     "songCount": 22
   },
   {
-    "id": "1977-05-28",
+    "id": "19770528",
     "date": "1977-05-28",
     "venue": "Hartford Civic Center",
     "city": "Hartford",
@@ -1156,11 +1156,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1977"
     ],
-    "svg": "/shows/1977-05-28.svg",
+    "svg": "/shows/19770528.svg",
     "songCount": 21
   },
   {
-    "id": "1979-01-07",
+    "id": "19790107",
     "date": "1979-01-07",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1170,11 +1170,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1979"
     ],
-    "svg": "/shows/1979-01-07.svg",
+    "svg": "/shows/19790107.svg",
     "songCount": 20
   },
   {
-    "id": "1979-01-08",
+    "id": "19790108",
     "date": "1979-01-08",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1184,11 +1184,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1979"
     ],
-    "svg": "/shows/1979-01-08.svg",
+    "svg": "/shows/19790108.svg",
     "songCount": 21
   },
   {
-    "id": "1979-09-04",
+    "id": "19790904",
     "date": "1979-09-04",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1198,11 +1198,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1979"
     ],
-    "svg": "/shows/1979-09-04.svg",
+    "svg": "/shows/19790904.svg",
     "songCount": 19
   },
   {
-    "id": "1979-09-05",
+    "id": "19790905",
     "date": "1979-09-05",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1212,11 +1212,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1979"
     ],
-    "svg": "/shows/1979-09-05.svg",
+    "svg": "/shows/19790905.svg",
     "songCount": 19
   },
   {
-    "id": "1979-09-06",
+    "id": "19790906",
     "date": "1979-09-06",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1226,11 +1226,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1979"
     ],
-    "svg": "/shows/1979-09-06.svg",
+    "svg": "/shows/19790906.svg",
     "songCount": 22
   },
   {
-    "id": "1981-03-09",
+    "id": "19810309",
     "date": "1981-03-09",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1240,11 +1240,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1981"
     ],
-    "svg": "/shows/1981-03-09.svg",
+    "svg": "/shows/19810309.svg",
     "songCount": 21
   },
   {
-    "id": "1981-03-10",
+    "id": "19810310",
     "date": "1981-03-10",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1254,11 +1254,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1981"
     ],
-    "svg": "/shows/1981-03-10.svg",
+    "svg": "/shows/19810310.svg",
     "songCount": 24
   },
   {
-    "id": "1982-09-20",
+    "id": "19820920",
     "date": "1982-09-20",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1268,11 +1268,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1982"
     ],
-    "svg": "/shows/1982-09-20.svg",
+    "svg": "/shows/19820920.svg",
     "songCount": 22
   },
   {
-    "id": "1982-09-21",
+    "id": "19820921",
     "date": "1982-09-21",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1282,11 +1282,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1982"
     ],
-    "svg": "/shows/1982-09-21.svg",
+    "svg": "/shows/19820921.svg",
     "songCount": 22
   },
   {
-    "id": "1983-10-11",
+    "id": "19831011",
     "date": "1983-10-11",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1296,11 +1296,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1983"
     ],
-    "svg": "/shows/1983-10-11.svg",
+    "svg": "/shows/19831011.svg",
     "songCount": 20
   },
   {
-    "id": "1983-10-12",
+    "id": "19831012",
     "date": "1983-10-12",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1310,11 +1310,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1983"
     ],
-    "svg": "/shows/1983-10-12.svg",
+    "svg": "/shows/19831012.svg",
     "songCount": 20
   },
   {
-    "id": "1987-09-15",
+    "id": "19870915",
     "date": "1987-09-15",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1324,11 +1324,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1987"
     ],
-    "svg": "/shows/1987-09-15.svg",
+    "svg": "/shows/19870915.svg",
     "songCount": 20
   },
   {
-    "id": "1987-09-16",
+    "id": "19870916",
     "date": "1987-09-16",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1338,11 +1338,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1987"
     ],
-    "svg": "/shows/1987-09-16.svg",
+    "svg": "/shows/19870916.svg",
     "songCount": 21
   },
   {
-    "id": "1987-09-18",
+    "id": "19870918",
     "date": "1987-09-18",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1352,11 +1352,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1987"
     ],
-    "svg": "/shows/1987-09-18.svg",
+    "svg": "/shows/19870918.svg",
     "songCount": 18
   },
   {
-    "id": "1987-09-19",
+    "id": "19870919",
     "date": "1987-09-19",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1366,11 +1366,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1987"
     ],
-    "svg": "/shows/1987-09-19.svg",
+    "svg": "/shows/19870919.svg",
     "songCount": 19
   },
   {
-    "id": "1987-09-20",
+    "id": "19870920",
     "date": "1987-09-20",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1380,11 +1380,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1987"
     ],
-    "svg": "/shows/1987-09-20.svg",
+    "svg": "/shows/19870920.svg",
     "songCount": 20
   },
   {
-    "id": "1988-09-14",
+    "id": "19880914",
     "date": "1988-09-14",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1394,11 +1394,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-14.svg",
+    "svg": "/shows/19880914.svg",
     "songCount": 20
   },
   {
-    "id": "1988-09-15",
+    "id": "19880915",
     "date": "1988-09-15",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1408,11 +1408,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-15.svg",
+    "svg": "/shows/19880915.svg",
     "songCount": 18
   },
   {
-    "id": "1988-09-16",
+    "id": "19880916",
     "date": "1988-09-16",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1422,11 +1422,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-16.svg",
+    "svg": "/shows/19880916.svg",
     "songCount": 20
   },
   {
-    "id": "1988-09-18",
+    "id": "19880918",
     "date": "1988-09-18",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1436,11 +1436,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-18.svg",
+    "svg": "/shows/19880918.svg",
     "songCount": 18
   },
   {
-    "id": "1988-09-19",
+    "id": "19880919",
     "date": "1988-09-19",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1450,11 +1450,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-19.svg",
+    "svg": "/shows/19880919.svg",
     "songCount": 19
   },
   {
-    "id": "1988-09-20",
+    "id": "19880920",
     "date": "1988-09-20",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1464,11 +1464,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-20.svg",
+    "svg": "/shows/19880920.svg",
     "songCount": 18
   },
   {
-    "id": "1988-09-22",
+    "id": "19880922",
     "date": "1988-09-22",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1478,11 +1478,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-22.svg",
+    "svg": "/shows/19880922.svg",
     "songCount": 20
   },
   {
-    "id": "1988-09-23",
+    "id": "19880923",
     "date": "1988-09-23",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1492,11 +1492,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-23.svg",
+    "svg": "/shows/19880923.svg",
     "songCount": 19
   },
   {
-    "id": "1988-09-24",
+    "id": "19880924",
     "date": "1988-09-24",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1506,11 +1506,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1988"
     ],
-    "svg": "/shows/1988-09-24.svg",
+    "svg": "/shows/19880924.svg",
     "songCount": 21
   },
   {
-    "id": "1989-10-08",
+    "id": "19891008",
     "date": "1989-10-08",
     "venue": "Hampton Coliseum",
     "city": "Hampton",
@@ -1523,11 +1523,11 @@ export const shows: ShowSummary[] = [
       "Hampton",
       "Formerly the Warlocks"
     ],
-    "svg": "/shows/1989-10-08.svg",
+    "svg": "/shows/19891008.svg",
     "songCount": 21
   },
   {
-    "id": "1989-10-09",
+    "id": "19891009",
     "date": "1989-10-09",
     "venue": "Hampton Coliseum",
     "city": "Hampton",
@@ -1541,11 +1541,11 @@ export const shows: ShowSummary[] = [
       "Formerly the Warlocks",
       "Dark Star"
     ],
-    "svg": "/shows/1989-10-09.svg",
+    "svg": "/shows/19891009.svg",
     "songCount": 21
   },
   {
-    "id": "1989-10-11",
+    "id": "19891011",
     "date": "1989-10-11",
     "venue": "Brendan Byrne Arena",
     "city": "East Rutherford",
@@ -1556,11 +1556,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-11.svg",
+    "svg": "/shows/19891011.svg",
     "songCount": 20
   },
   {
-    "id": "1989-10-12",
+    "id": "19891012",
     "date": "1989-10-12",
     "venue": "Brendan Byrne Arena",
     "city": "East Rutherford",
@@ -1571,11 +1571,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-12.svg",
+    "svg": "/shows/19891012.svg",
     "songCount": 17
   },
   {
-    "id": "1989-10-14",
+    "id": "19891014",
     "date": "1989-10-14",
     "venue": "Brendan Byrne Arena",
     "city": "East Rutherford",
@@ -1586,11 +1586,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-14.svg",
+    "svg": "/shows/19891014.svg",
     "songCount": 18
   },
   {
-    "id": "1989-10-15",
+    "id": "19891015",
     "date": "1989-10-15",
     "venue": "Brendan Byrne Arena",
     "city": "East Rutherford",
@@ -1601,11 +1601,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-15.svg",
+    "svg": "/shows/19891015.svg",
     "songCount": 18
   },
   {
-    "id": "1989-10-16",
+    "id": "19891016",
     "date": "1989-10-16",
     "venue": "Brendan Byrne Arena",
     "city": "East Rutherford",
@@ -1616,11 +1616,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-16.svg",
+    "svg": "/shows/19891016.svg",
     "songCount": 20
   },
   {
-    "id": "1989-10-18",
+    "id": "19891018",
     "date": "1989-10-18",
     "venue": "Spectrum",
     "city": "Philadelphia",
@@ -1631,11 +1631,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-18.svg",
+    "svg": "/shows/19891018.svg",
     "songCount": 20
   },
   {
-    "id": "1989-10-19",
+    "id": "19891019",
     "date": "1989-10-19",
     "venue": "Spectrum",
     "city": "Philadelphia",
@@ -1646,11 +1646,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-19.svg",
+    "svg": "/shows/19891019.svg",
     "songCount": 22
   },
   {
-    "id": "1989-10-20",
+    "id": "19891020",
     "date": "1989-10-20",
     "venue": "Spectrum",
     "city": "Philadelphia",
@@ -1661,11 +1661,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-20.svg",
+    "svg": "/shows/19891020.svg",
     "songCount": 22
   },
   {
-    "id": "1989-10-22",
+    "id": "19891022",
     "date": "1989-10-22",
     "venue": "Charlotte Coliseum",
     "city": "Charlotte",
@@ -1676,11 +1676,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-22.svg",
+    "svg": "/shows/19891022.svg",
     "songCount": 21
   },
   {
-    "id": "1989-10-23",
+    "id": "19891023",
     "date": "1989-10-23",
     "venue": "Charlotte Coliseum",
     "city": "Charlotte",
@@ -1691,11 +1691,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-23.svg",
+    "svg": "/shows/19891023.svg",
     "songCount": 20
   },
   {
-    "id": "1989-10-25",
+    "id": "19891025",
     "date": "1989-10-25",
     "venue": "Miami Arena",
     "city": "Miami",
@@ -1706,11 +1706,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-25.svg",
+    "svg": "/shows/19891025.svg",
     "songCount": 19
   },
   {
-    "id": "1989-10-26",
+    "id": "19891026",
     "date": "1989-10-26",
     "venue": "Miami Arena",
     "city": "Miami",
@@ -1721,11 +1721,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1989"
     ],
-    "svg": "/shows/1989-10-26.svg",
+    "svg": "/shows/19891026.svg",
     "songCount": 18
   },
   {
-    "id": "1990-03-14",
+    "id": "19900314",
     "date": "1990-03-14",
     "venue": "Capitol Centre",
     "city": "Landover",
@@ -1736,11 +1736,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-14.svg",
+    "svg": "/shows/19900314.svg",
     "songCount": 20
   },
   {
-    "id": "1990-03-15",
+    "id": "19900315",
     "date": "1990-03-15",
     "venue": "Capitol Centre",
     "city": "Landover",
@@ -1751,11 +1751,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-15.svg",
+    "svg": "/shows/19900315.svg",
     "songCount": 21
   },
   {
-    "id": "1990-03-16",
+    "id": "19900316",
     "date": "1990-03-16",
     "venue": "Capitol Centre",
     "city": "Landover",
@@ -1766,11 +1766,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-16.svg",
+    "svg": "/shows/19900316.svg",
     "songCount": 20
   },
   {
-    "id": "1990-03-18",
+    "id": "19900318",
     "date": "1990-03-18",
     "venue": "Hartford Civic Center",
     "city": "Hartford",
@@ -1781,11 +1781,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-18.svg",
+    "svg": "/shows/19900318.svg",
     "songCount": 21
   },
   {
-    "id": "1990-03-19",
+    "id": "19900319",
     "date": "1990-03-19",
     "venue": "Hartford Civic Center",
     "city": "Hartford",
@@ -1796,11 +1796,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-19.svg",
+    "svg": "/shows/19900319.svg",
     "songCount": 19
   },
   {
-    "id": "1990-03-21",
+    "id": "19900321",
     "date": "1990-03-21",
     "venue": "Copps Coliseum",
     "city": "Hamilton",
@@ -1811,11 +1811,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-21.svg",
+    "svg": "/shows/19900321.svg",
     "songCount": 20
   },
   {
-    "id": "1990-03-22",
+    "id": "19900322",
     "date": "1990-03-22",
     "venue": "Copps Coliseum",
     "city": "Hamilton",
@@ -1826,11 +1826,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-22.svg",
+    "svg": "/shows/19900322.svg",
     "songCount": 21
   },
   {
-    "id": "1990-03-24",
+    "id": "19900324",
     "date": "1990-03-24",
     "venue": "Knickerbocker Arena",
     "city": "Albany",
@@ -1841,11 +1841,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-24.svg",
+    "svg": "/shows/19900324.svg",
     "songCount": 20
   },
   {
-    "id": "1990-03-25",
+    "id": "19900325",
     "date": "1990-03-25",
     "venue": "Knickerbocker Arena",
     "city": "Albany",
@@ -1856,11 +1856,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-25.svg",
+    "svg": "/shows/19900325.svg",
     "songCount": 20
   },
   {
-    "id": "1990-03-26",
+    "id": "19900326",
     "date": "1990-03-26",
     "venue": "Knickerbocker Arena",
     "city": "Albany",
@@ -1871,11 +1871,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-26.svg",
+    "svg": "/shows/19900326.svg",
     "songCount": 20
   },
   {
-    "id": "1990-03-28",
+    "id": "19900328",
     "date": "1990-03-28",
     "venue": "Nassau Coliseum",
     "city": "Uniondale",
@@ -1886,11 +1886,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-28.svg",
+    "svg": "/shows/19900328.svg",
     "songCount": 19
   },
   {
-    "id": "1990-03-29",
+    "id": "19900329",
     "date": "1990-03-29",
     "venue": "Nassau Coliseum",
     "city": "Uniondale",
@@ -1901,11 +1901,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-29.svg",
+    "svg": "/shows/19900329.svg",
     "songCount": 17
   },
   {
-    "id": "1990-03-30",
+    "id": "19900330",
     "date": "1990-03-30",
     "venue": "Nassau Coliseum",
     "city": "Uniondale",
@@ -1916,11 +1916,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-03-30.svg",
+    "svg": "/shows/19900330.svg",
     "songCount": 21
   },
   {
-    "id": "1990-04-01",
+    "id": "19900401",
     "date": "1990-04-01",
     "venue": "The Omni",
     "city": "Atlanta",
@@ -1931,11 +1931,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-04-01.svg",
+    "svg": "/shows/19900401.svg",
     "songCount": 22
   },
   {
-    "id": "1990-04-02",
+    "id": "19900402",
     "date": "1990-04-02",
     "venue": "The Omni",
     "city": "Atlanta",
@@ -1946,11 +1946,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-04-02.svg",
+    "svg": "/shows/19900402.svg",
     "songCount": 18
   },
   {
-    "id": "1990-04-03",
+    "id": "19900403",
     "date": "1990-04-03",
     "venue": "The Omni",
     "city": "Atlanta",
@@ -1961,11 +1961,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-04-03.svg",
+    "svg": "/shows/19900403.svg",
     "songCount": 20
   },
   {
-    "id": "1990-07-16",
+    "id": "19900716",
     "date": "1990-07-16",
     "venue": "Rich Stadium",
     "city": "Buffalo",
@@ -1975,11 +1975,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-07-16.svg",
+    "svg": "/shows/19900716.svg",
     "songCount": 24
   },
   {
-    "id": "1990-09-14",
+    "id": "19900914",
     "date": "1990-09-14",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -1989,11 +1989,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-09-14.svg",
+    "svg": "/shows/19900914.svg",
     "songCount": 19
   },
   {
-    "id": "1990-09-15",
+    "id": "19900915",
     "date": "1990-09-15",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2003,11 +2003,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-09-15.svg",
+    "svg": "/shows/19900915.svg",
     "songCount": 21
   },
   {
-    "id": "1990-09-16",
+    "id": "19900916",
     "date": "1990-09-16",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2017,11 +2017,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-09-16.svg",
+    "svg": "/shows/19900916.svg",
     "songCount": 20
   },
   {
-    "id": "1990-09-18",
+    "id": "19900918",
     "date": "1990-09-18",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2031,11 +2031,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-09-18.svg",
+    "svg": "/shows/19900918.svg",
     "songCount": 18
   },
   {
-    "id": "1990-09-19",
+    "id": "19900919",
     "date": "1990-09-19",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2045,11 +2045,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-09-19.svg",
+    "svg": "/shows/19900919.svg",
     "songCount": 21
   },
   {
-    "id": "1990-09-20",
+    "id": "19900920",
     "date": "1990-09-20",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2059,11 +2059,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-09-20.svg",
+    "svg": "/shows/19900920.svg",
     "songCount": 20
   },
   {
-    "id": "1990-10-13",
+    "id": "19901013",
     "date": "1990-10-13",
     "venue": "Johanneshov Isstadion",
     "city": "Stockholm",
@@ -2073,11 +2073,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-13.svg",
+    "svg": "/shows/19901013.svg",
     "songCount": 19
   },
   {
-    "id": "1990-10-17",
+    "id": "19901017",
     "date": "1990-10-17",
     "venue": "Grugahalle",
     "city": "Essen",
@@ -2087,11 +2087,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-17.svg",
+    "svg": "/shows/19901017.svg",
     "songCount": 21
   },
   {
-    "id": "1990-10-19",
+    "id": "19901019",
     "date": "1990-10-19",
     "venue": "Internationales Congress Centrum",
     "city": "Berlin",
@@ -2101,11 +2101,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-19.svg",
+    "svg": "/shows/19901019.svg",
     "songCount": 20
   },
   {
-    "id": "1990-10-20",
+    "id": "19901020",
     "date": "1990-10-20",
     "venue": "Internationales Congress Centrum",
     "city": "Berlin",
@@ -2115,11 +2115,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-20.svg",
+    "svg": "/shows/19901020.svg",
     "songCount": 21
   },
   {
-    "id": "1990-10-22",
+    "id": "19901022",
     "date": "1990-10-22",
     "venue": "Festhalle",
     "city": "Frankfurt",
@@ -2129,11 +2129,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-22.svg",
+    "svg": "/shows/19901022.svg",
     "songCount": 19
   },
   {
-    "id": "1990-10-24",
+    "id": "19901024",
     "date": "1990-10-24",
     "venue": "Sporthalle",
     "city": "Hamburg",
@@ -2143,11 +2143,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-24.svg",
+    "svg": "/shows/19901024.svg",
     "songCount": 21
   },
   {
-    "id": "1990-10-27",
+    "id": "19901027",
     "date": "1990-10-27",
     "venue": "Zénith Paris",
     "city": "Paris",
@@ -2157,11 +2157,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-27.svg",
+    "svg": "/shows/19901027.svg",
     "songCount": 21
   },
   {
-    "id": "1990-10-28",
+    "id": "19901028",
     "date": "1990-10-28",
     "venue": "Zénith Paris",
     "city": "Paris",
@@ -2171,11 +2171,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-28.svg",
+    "svg": "/shows/19901028.svg",
     "songCount": 20
   },
   {
-    "id": "1990-10-30",
+    "id": "19901030",
     "date": "1990-10-30",
     "venue": "Wembley Arena",
     "city": "London",
@@ -2185,11 +2185,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-30.svg",
+    "svg": "/shows/19901030.svg",
     "songCount": 20
   },
   {
-    "id": "1990-10-31",
+    "id": "19901031",
     "date": "1990-10-31",
     "venue": "Wembley Arena",
     "city": "London",
@@ -2199,11 +2199,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-10-31.svg",
+    "svg": "/shows/19901031.svg",
     "songCount": 22
   },
   {
-    "id": "1990-11-01",
+    "id": "19901101",
     "date": "1990-11-01",
     "venue": "Wembley Arena",
     "city": "London",
@@ -2213,11 +2213,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1990"
     ],
-    "svg": "/shows/1990-11-01.svg",
+    "svg": "/shows/19901101.svg",
     "songCount": 20
   },
   {
-    "id": "1991-09-08",
+    "id": "19910908",
     "date": "1991-09-08",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2227,11 +2227,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-08.svg",
+    "svg": "/shows/19910908.svg",
     "songCount": 19
   },
   {
-    "id": "1991-09-09",
+    "id": "19910909",
     "date": "1991-09-09",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2241,11 +2241,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-09.svg",
+    "svg": "/shows/19910909.svg",
     "songCount": 18
   },
   {
-    "id": "1991-09-10",
+    "id": "19910910",
     "date": "1991-09-10",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2255,11 +2255,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-10.svg",
+    "svg": "/shows/19910910.svg",
     "songCount": 19
   },
   {
-    "id": "1991-09-12",
+    "id": "19910912",
     "date": "1991-09-12",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2269,11 +2269,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-12.svg",
+    "svg": "/shows/19910912.svg",
     "songCount": 20
   },
   {
-    "id": "1991-09-13",
+    "id": "19910913",
     "date": "1991-09-13",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2283,11 +2283,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-13.svg",
+    "svg": "/shows/19910913.svg",
     "songCount": 18
   },
   {
-    "id": "1991-09-14",
+    "id": "19910914",
     "date": "1991-09-14",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2297,11 +2297,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-14.svg",
+    "svg": "/shows/19910914.svg",
     "songCount": 19
   },
   {
-    "id": "1991-09-16",
+    "id": "19910916",
     "date": "1991-09-16",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2311,11 +2311,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-16.svg",
+    "svg": "/shows/19910916.svg",
     "songCount": 19
   },
   {
-    "id": "1991-09-17",
+    "id": "19910917",
     "date": "1991-09-17",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2325,11 +2325,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-17.svg",
+    "svg": "/shows/19910917.svg",
     "songCount": 19
   },
   {
-    "id": "1991-09-18",
+    "id": "19910918",
     "date": "1991-09-18",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2339,11 +2339,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1991"
     ],
-    "svg": "/shows/1991-09-18.svg",
+    "svg": "/shows/19910918.svg",
     "songCount": 18
   },
   {
-    "id": "1992-06-06",
+    "id": "19920606",
     "date": "1992-06-06",
     "venue": "Rich Stadium",
     "city": "Buffalo",
@@ -2353,11 +2353,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1992"
     ],
-    "svg": "/shows/1992-06-06.svg",
+    "svg": "/shows/19920606.svg",
     "songCount": 20
   },
   {
-    "id": "1993-06-06",
+    "id": "19930606",
     "date": "1993-06-06",
     "venue": "Giants Stadium",
     "city": "East Rutherford",
@@ -2367,11 +2367,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-06-06.svg",
+    "svg": "/shows/19930606.svg",
     "songCount": 18
   },
   {
-    "id": "1993-06-13",
+    "id": "19930613",
     "date": "1993-06-13",
     "venue": "Rich Stadium",
     "city": "Buffalo",
@@ -2381,11 +2381,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-06-13.svg",
+    "svg": "/shows/19930613.svg",
     "songCount": 19
   },
   {
-    "id": "1993-09-16",
+    "id": "19930916",
     "date": "1993-09-16",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2395,11 +2395,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-09-16.svg",
+    "svg": "/shows/19930916.svg",
     "songCount": 19
   },
   {
-    "id": "1993-09-17",
+    "id": "19930917",
     "date": "1993-09-17",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2409,11 +2409,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-09-17.svg",
+    "svg": "/shows/19930917.svg",
     "songCount": 19
   },
   {
-    "id": "1993-09-18",
+    "id": "19930918",
     "date": "1993-09-18",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2423,11 +2423,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-09-18.svg",
+    "svg": "/shows/19930918.svg",
     "songCount": 18
   },
   {
-    "id": "1993-09-20",
+    "id": "19930920",
     "date": "1993-09-20",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2437,11 +2437,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-09-20.svg",
+    "svg": "/shows/19930920.svg",
     "songCount": 19
   },
   {
-    "id": "1993-09-21",
+    "id": "19930921",
     "date": "1993-09-21",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2451,11 +2451,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-09-21.svg",
+    "svg": "/shows/19930921.svg",
     "songCount": 18
   },
   {
-    "id": "1993-09-22",
+    "id": "19930922",
     "date": "1993-09-22",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2465,11 +2465,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1993"
     ],
-    "svg": "/shows/1993-09-22.svg",
+    "svg": "/shows/19930922.svg",
     "songCount": 17
   },
   {
-    "id": "1994-10-13",
+    "id": "19941013",
     "date": "1994-10-13",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2479,11 +2479,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1994"
     ],
-    "svg": "/shows/1994-10-13.svg",
+    "svg": "/shows/19941013.svg",
     "songCount": 19
   },
   {
-    "id": "1994-10-14",
+    "id": "19941014",
     "date": "1994-10-14",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2493,11 +2493,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1994"
     ],
-    "svg": "/shows/1994-10-14.svg",
+    "svg": "/shows/19941014.svg",
     "songCount": 19
   },
   {
-    "id": "1994-10-15",
+    "id": "19941015",
     "date": "1994-10-15",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2507,11 +2507,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1994"
     ],
-    "svg": "/shows/1994-10-15.svg",
+    "svg": "/shows/19941015.svg",
     "songCount": 18
   },
   {
-    "id": "1994-10-17",
+    "id": "19941017",
     "date": "1994-10-17",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2521,11 +2521,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1994"
     ],
-    "svg": "/shows/1994-10-17.svg",
+    "svg": "/shows/19941017.svg",
     "songCount": 17
   },
   {
-    "id": "1994-10-18",
+    "id": "19941018",
     "date": "1994-10-18",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2535,11 +2535,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1994"
     ],
-    "svg": "/shows/1994-10-18.svg",
+    "svg": "/shows/19941018.svg",
     "songCount": 19
   },
   {
-    "id": "1994-10-19",
+    "id": "19941019",
     "date": "1994-10-19",
     "venue": "Madison Square Garden",
     "city": "New York",
@@ -2549,11 +2549,11 @@ export const shows: ShowSummary[] = [
     "tags": [
       "1994"
     ],
-    "svg": "/shows/1994-10-19.svg",
+    "svg": "/shows/19941019.svg",
     "songCount": 17
   },
   {
-    "id": "1995-07-09",
+    "id": "19950709",
     "date": "1995-07-09",
     "venue": "Soldier Field",
     "city": "Chicago",
@@ -2566,7 +2566,7 @@ export const shows: ShowSummary[] = [
       "Final Show",
       "Soldier Field"
     ],
-    "svg": "/shows/1995-07-09.svg",
+    "svg": "/shows/19950709.svg",
     "songCount": 18
   }
 ];
