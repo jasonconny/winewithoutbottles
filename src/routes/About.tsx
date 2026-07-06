@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import './About.scss';
 
@@ -34,8 +33,6 @@ export default function About() {
           (Wired, 1994) — Barlow was also a Grateful Dead lyricist.
         </li>
       </ul>
-
-      <Footer />
     </main>
   );
 }

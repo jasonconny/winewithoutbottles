@@ -1,0 +1,176 @@
+@use '../styles/breakpoints' as bp;
+
+// Global page template: nav drawer + chip bar around a compressing page pane.
+// The chrome is fixed to the viewport (the drawer never exceeds it; only page
+// content scrolls); the pane compresses rightward when the drawer opens.
+.AppChrome {
+  position: relative;
+  min-height: 100dvh;
+  // The ground the nav drawer gutter reveals. A cool neutral gray at ~#AAA
+  // value (mean 171) — chosen to sit inside the stripe palette's family but
+  // outside its reach (verified against the corpus: nearest real stripe is
+  // "Slipknot!" rgb(133,135,163), ~50 RGB units away). Mirrored by
+  // SHOW_GROUND in Show.tsx for the browser-chrome theme-color.
+  background: #a6abb1;
+
+  // The page pane: full width by default, anchored right so the drawer
+  // compress slides it away from the left edge, prototype-style. White so
+  // document pages (Gallery/About) read as today; art pages paint over it.
+  // MUST be positioned: the drawer is `fixed` (positioned), and positioned
+  // elements paint over static in-flow content regardless of DOM order —
+  // without this the drawer shows through the pane on document pages.
+  &-page {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    min-height: 100dvh;
+    background: #fff;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: width 1s ease;
+    }
+  }
+
+  // Drawer open: the pane compresses, revealing the nav gutter. The
+  // prototype's 15% gutter is a desktop size — phones need a wider one.
+  &[data-nav-open] &-page {
+    width: 55%;
+
+    @include bp.respond-to('md') {
+      width: 85%;
+    }
+  }
+
+  // The nav gutter behind the pane (prototype #main-navigation): quiet
+  // uppercase Roboto links on the ground. Link alpha .65 (not the usual .55
+  // floor) because the ground darkened to ~#AAA — .55 lands ~3.7:1 there,
+  // under the 4.5:1 AA line for normal-size text; .65 clears it.
+  // Fixed: viewport-bound, never taller than the screen.
+  &-drawer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // Bottom padding clears the WWOB chip sitting in the lower-left corner
+    // (same 3.25rem math as the Show info sheet: edge + chip height + gap).
+    padding: calc(2rem + env(safe-area-inset-top, 0px)) 0
+      calc(3.25rem + env(safe-area-inset-bottom, 0px))
+      calc(0.5rem + env(safe-area-inset-left, 0px));
+
+    @include bp.respond-to('md') {
+      width: 15%;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+
+      li {
+        padding: 0.5em 1em 0;
+      }
+
+      a {
+        color: rgba(0, 0, 0, 0.65);
+        font-family: 'Roboto Variable', sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+
+        &:hover {
+          color: rgba(0, 0, 0, 0.85);
+        }
+
+        &:focus-visible {
+          outline: 2px solid #fff;
+          outline-offset: 2px;
+        }
+      }
+    }
+
+    // The CC footer lives at the bottom of the gutter (as in the prototype).
+    .Footer {
+      margin: 0 1em;
+      padding-top: 0.75rem;
+      border-top-color: rgba(0, 0, 0, 0.15);
+      font-size: 0.625rem;
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+
+  // Bottom bar of affordances (thumb zone on phones), fixed clear of the
+  // iPhone home indicator: WWOB in the lower-left corner (drawer trigger),
+  // page-specific chips (e.g. Show's info toggle) at the lower right.
+  &-chips {
+    position: fixed;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    left: calc(0.75rem + env(safe-area-inset-left, 0px));
+    right: calc(0.75rem + env(safe-area-inset-right, 0px));
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  // Quiet-but-findable, close to the prototype's translucency. The backdrop
+  // blur is what buys it back: it averages the page behind the chip into a
+  // soft wash, so the veil can stay near-transparent without the text landing
+  // on a busy or dark stripe edge. Hover/expanded darken toward solid, and
+  // the focus ring stays full-contrast — those are the a11y anchors over
+  // arbitrary artwork.
+  // Used by chips anywhere in the tree — the WWOB toggle in the chrome bar
+  // and page-owned chips like Show's info toggle.
+  &-chip {
+    display: block;
+    border: 0;
+    padding: 0.5rem 0.625rem 0.5rem 1rem;
+    color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(12px);
+    font-family: 'Roboto Variable', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+
+    @media (prefers-reduced-motion: no-preference) {
+      // Waking is quick; falling asleep is slow (see below).
+      transition: opacity 0.2s ease;
+    }
+
+    // No blur support (old browsers): fall back to a stronger veil.
+    @supports not (backdrop-filter: blur(1px)) {
+      background-color: rgba(255, 255, 255, 0.45);
+    }
+
+    &:hover,
+    &[aria-expanded='true'] {
+      color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
+  }
+
+  // Chrome sleep (data attr set after idle when `sleepy`): every chip in the
+  // tree — the chrome's and the page's — fades out and stops intercepting
+  // taps: an invisible control must not be tappable. The first tap falls
+  // through, wakes the chrome, and the next one operates the visible chip.
+  &[data-chrome-asleep] .AppChrome-chip {
+    opacity: 0;
+    pointer-events: none;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: opacity 1s ease;
+    }
+  }
+}

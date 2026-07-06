@@ -1,6 +1,7 @@
 import { Navigate } from 'react-router-dom';
 import type { LoaderFunctionArgs, RouteObject } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
+import AppChrome from './components/AppChrome';
 import Placeholder from './routes/Placeholder';
 import Builder from './routes/Builder';
 import Gallery from './routes/Gallery';
@@ -23,11 +24,19 @@ export const routes: RouteObject[] = [
   // placeholder stays reachable at '/placeholder'.
   { path: '/', element: <Placeholder /> },
   { path: '/placeholder', element: <Placeholder /> },
-  // Reader app (hidden for now — home flip is a later step).
-  { path: '/shows', element: <Gallery /> },
-  { path: '/shows/:id', element: <Show />, loader: showLoader },
-  { path: '/about', element: <About /> },
-  // Unlinked easter egg — discoverable only by visiting the URL directly.
-  { path: '/builder', element: <Builder /> },
+  // Reader app (hidden for now — home flip is a later step). AppChrome is a
+  // layout route: the nav drawer + chip bar wrap each child page, and chrome
+  // state (drawer open, sleep timer) survives navigation between them.
+  {
+    element: <AppChrome />,
+    children: [
+      { path: '/shows', element: <Gallery /> },
+      { path: '/shows/:id', element: <Show />, loader: showLoader },
+      { path: '/about', element: <About /> },
+      // Unlinked easter egg — not in the drawer nav, discoverable only by
+      // visiting the URL directly, but it gets the chrome like every page.
+      { path: '/builder', element: <Builder /> },
+    ],
+  },
   { path: '*', element: <Navigate to="/" replace /> },
 ];
