@@ -8,6 +8,7 @@ import {
 } from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
+import { shows } from '@/data/shows.generated';
 
 // The Show route fetches per-show detail from /shows/<id>.json at runtime. Serve
 // those generated files from disk so the data router's loader resolves in jsdom.
@@ -53,6 +54,13 @@ describe('reader app', () => {
     await waitFor(() =>
       expect(document.title).toBe('Wine Without Bottles: Gallery'),
     );
+    // The longest show on the page spans the full pane; the rest scale down.
+    const longest = shows.reduce((best, show) =>
+      show.durationSeconds > best.durationSeconds ? show : best,
+    );
+    expect(
+      screen.getByRole('link', { name: new RegExp(longest.date) }),
+    ).toHaveStyle({ width: '100%' });
     // Global chrome: the nav drawer is here too, inert until toggled.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -63,6 +71,18 @@ describe('reader app', () => {
       'href',
       '/about',
     );
+    // Sub-gallery links, grouped by registry section, live in the drawer too.
+    expect(screen.getByRole('link', { name: '1977' })).toHaveAttribute(
+      'href',
+      '/1977',
+    );
+    expect(screen.getByRole('link', { name: 'Spring 1977' })).toHaveAttribute(
+      'href',
+      '/spring-1977',
+    );
+    expect(
+      screen.getByRole('link', { name: 'Madison Square Garden' }),
+    ).toHaveAttribute('href', '/madison-square-garden');
   });
 
   it('renders the full-bleed piece with an info toggle at /:id', async () => {
