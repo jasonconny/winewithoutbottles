@@ -1,3 +1,4 @@
+@use '../styles/a11y';
 @use '../styles/breakpoints' as bp;
 
 // Show page content: the full-bleed piece and its info sheet. The chrome
@@ -12,15 +13,9 @@
   background: #a6abb1;
 
   // Visually-hidden heading so the page keeps an accessible <h1> while the
-  // info panel is closed. Local until a second consumer wants it.
+  // info panel is closed.
   &-srOnly {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
+    @include a11y.sr-only;
   }
 
   // The piece, stretched edge-to-edge within the (possibly compressed)
@@ -123,27 +118,6 @@
     // Prototype's inline "/ tag" treatment.
     li::before {
       content: '/ ';
-    }
-  }
-
-  // Missing id → quiet message on the bare ground.
-  &-notFound {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    color: rgba(0, 0, 0, 0.7);
-
-    a {
-      color: rgba(0, 0, 0, 0.7);
-
-      &:focus-visible {
-        outline: 2px solid #fff;
-        outline-offset: 2px;
-      }
     }
   }
 }

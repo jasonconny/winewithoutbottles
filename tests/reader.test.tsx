@@ -1,7 +1,14 @@
 import { readFileSync } from 'node:fs';
-import { act, fireEvent, render, screen } from '@testing-library/react';
+import {
+  act,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+} from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
+import { shows } from '@/data/shows.generated';
 
 // The Show route fetches per-show detail from /shows/<id>.json at runtime. Serve
 // those generated files from disk so the data router's loader resolves in jsdom.
@@ -30,13 +37,30 @@ function renderAt(path: string) {
 }
 
 describe('reader app', () => {
-  it('lists shows in the gallery at /gallery', () => {
-    renderAt('/gallery');
+  it('lists shows in the gallery at /all', async () => {
+    renderAt('/all');
+    // The heading is sr-only (the page is visually pure artwork) but stays in
+    // the accessibility tree; each show row's name comes from its img alt.
+    // findBy: the route has a loader, so the first render is async.
     expect(
-      screen.getByRole('heading', { name: /gallery/i }),
+      await screen.findByRole('heading', { name: /gallery/i }),
     ).toBeInTheDocument();
-    expect(screen.getByText('1972-08-27')).toBeInTheDocument();
-    expect(document.title).toBe('Gallery — Wine Without Bottles');
+    expect(screen.getByRole('link', { name: /1972-08-27/ })).toHaveAttribute(
+      'href',
+      '/19720827',
+    );
+    // waitFor: the title is set in a passive effect, which can flush after
+    // the DOM mutation that resolved the findBy above.
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: Gallery'),
+    );
+    // The longest show on the page spans the full pane; the rest scale down.
+    const longest = shows.reduce((best, show) =>
+      show.durationSeconds > best.durationSeconds ? show : best,
+    );
+    expect(
+      screen.getByRole('link', { name: new RegExp(longest.date) }),
+    ).toHaveStyle({ width: '100%' });
     // Global chrome: the nav drawer is here too, inert until toggled.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -47,6 +71,18 @@ describe('reader app', () => {
       'href',
       '/about',
     );
+    // Sub-gallery links, grouped by registry section, live in the drawer too.
+    expect(screen.getByRole('link', { name: '1977' })).toHaveAttribute(
+      'href',
+      '/1977',
+    );
+    expect(screen.getByRole('link', { name: 'Spring 1977' })).toHaveAttribute(
+      'href',
+      '/spring-1977',
+    );
+    expect(
+      screen.getByRole('link', { name: 'Madison Square Garden' }),
+    ).toHaveAttribute('href', '/madison-square-garden');
   });
 
   it('renders the full-bleed piece with an info toggle at /:id', async () => {
@@ -57,8 +93,11 @@ describe('reader app', () => {
         name: '1972-08-27 setlist rendered as stripes',
       }),
     ).toBeInTheDocument();
-    // Route-managed document metadata.
-    expect(document.title).toBe('1972-08-27 — Wine Without Bottles');
+    // Route-managed document metadata (waitFor: set in a passive effect that
+    // can flush after the DOM mutation that resolved the findBy above).
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: 19720827'),
+    );
     // Brand chip toggles the nav drawer; its links are inert while closed.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -69,7 +108,7 @@ describe('reader app', () => {
     expect(drawer).not.toHaveAttribute('inert');
     expect(screen.getByRole('link', { name: 'Gallery' })).toHaveAttribute(
       'href',
-      '/gallery',
+      '/all',
     );
     fireEvent.click(navToggle); // close it again for the info-panel steps
     expect(drawer).toHaveAttribute('inert');
@@ -137,12 +176,16 @@ describe('reader app', () => {
     }
   });
 
-  it('shows "not found" for an id-shaped URL with no show', async () => {
+  it('renders the global 404 for an id-shaped URL with no show', async () => {
+    // The loader throws a 404 Response; the route's errorElement is NotFound.
     renderAt('/19990101');
-    expect(await screen.findByText('Show not found.')).toBeInTheDocument();
+    expect(await screen.findByText('Page not found.')).toBeInTheDocument();
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: Not Found'),
+    );
     expect(
       screen.getByRole('link', { name: /back to the gallery/i }),
-    ).toHaveAttribute('href', '/gallery');
+    ).toHaveAttribute('href', '/all');
   });
 
   it('links the Barlow essay on /about', () => {

@@ -57,6 +57,8 @@ export interface ShowSummary extends ShowMeta {
   /** Public path to the generated SVG, e.g. "/shows/1972-08-27.svg". */
   svg: string;
   songCount: number;
+  /** Total show length in whole seconds (sum of song durations). */
+  durationSeconds: number;
 }
 
 /**

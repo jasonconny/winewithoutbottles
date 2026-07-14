@@ -14,7 +14,7 @@ import './Builder.scss';
 const DEFAULT_HEIGHT = 100;
 
 export default function Builder() {
-  usePageMeta('Builder — Wine Without Bottles', '#ffffff');
+  usePageMeta('Wine Without Bottles: Builder', '#ffffff');
   const [songs, setSongs] = useState<Song[]>([]);
   const [title, setTitle] = useState('');
   const [duration, setDuration] = useState('');

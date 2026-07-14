@@ -1,0 +1,15 @@
+// Quiet message centered on the bare ground (same treatment the show page's
+// old inline "not found" branch used, on white instead of the show ground).
+.NotFound {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+
+  a {
+    color: inherit;
+  }
+}

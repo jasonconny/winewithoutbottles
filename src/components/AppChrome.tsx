@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import Footer from '@/components/Footer';
+import { gallerySections } from '@/galleries';
 import UiStateProvider from '@/components/UiStateProvider';
 import { useUiState } from '@/hooks/useUiState';
 import './AppChrome.scss';
@@ -103,12 +104,33 @@ function ChromeShell() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/all">Gallery</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
         </ul>
+        {/* Sub-gallery links, straight from the registry (src/galleries.ts).
+            The section carries the group's accessible name; the visible label
+            is aria-hidden so screen readers don't hear it twice. */}
+        {gallerySections.map(({ label, galleries }) => (
+          <section
+            key={label}
+            className="AppChrome-drawerSection"
+            aria-label={label}
+          >
+            <span className="AppChrome-drawerLabel" aria-hidden="true">
+              {label}
+            </span>
+            <ul>
+              {galleries.map((gallery) => (
+                <li key={gallery.slug}>
+                  <Link to={`/${gallery.slug}`}>{gallery.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
         <Footer />
       </nav>
 

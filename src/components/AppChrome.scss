@@ -54,7 +54,8 @@
     width: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    // The gallery sections make the nav taller than most viewports.
+    overflow-y: auto;
     // Bottom padding clears the WWOB chip sitting in the lower-left corner
     // (same 3.25rem math as the Show info sheet: edge + chip height + gap).
     padding: calc(2rem + env(safe-area-inset-top, 0px)) 0
@@ -93,13 +94,40 @@
     }
 
     // The CC footer lives at the bottom of the gutter (as in the prototype).
+    // margin-top auto (not justify-content) pins it: when the nav is short it
+    // sits at the bottom, when the nav overflows it scrolls after the content.
     .Footer {
-      margin: 0 1em;
+      margin: auto 1em 0;
       padding-top: 0.75rem;
       border-top-color: rgba(0, 0, 0, 0.15);
       font-size: 0.625rem;
       color: rgba(0, 0, 0, 0.65);
     }
+  }
+
+  // A group of sub-gallery links (Years/Tours/Venues) under the main nav.
+  // Sub-links read one step smaller than the top-level pages.
+  &-drawerSection {
+    margin-top: 1.5rem;
+
+    // ul a matches the base drawer rule's specificity; source order wins.
+    ul a {
+      font-size: 0.8125rem;
+    }
+  }
+
+  // Visible group label; decorative to screen readers (the section itself
+  // carries the accessible name), quieter than the links but on the .55
+  // alpha floor for the overlay chrome.
+  &-drawerLabel {
+    display: block;
+    padding: 0 1em 0.25em;
+    color: rgba(0, 0, 0, 0.55);
+    font-family: 'Roboto Variable', sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
   }
 
   // The chrome's own chip corner (thumb zone on phones), fixed clear of the

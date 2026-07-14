@@ -80,7 +80,7 @@ function makeMatcher(filters: string[]): (id: string) => boolean {
 }
 
 /** Light index entry — no `songs`, so the bundle stays small as shows grow. */
-function toSummary(show: Show, songCount: number): ShowSummary {
+function toSummary(show: Show): ShowSummary {
   return {
     id: show.id,
     date: show.date,
@@ -92,7 +92,11 @@ function toSummary(show: Show, songCount: number): ShowSummary {
     collection: show.collection,
     tags: show.tags,
     svg: `/shows/${show.id}.svg`,
-    songCount,
+    songCount: show.songs.length,
+    durationSeconds: show.songs.reduce(
+      (total, song) => total + song.durationSeconds,
+      0,
+    ),
   };
 }
 
@@ -120,7 +124,7 @@ function main(): void {
       readFileSync(join(dataDir, file), 'utf8'),
     ) as ShowFile;
     const show = parseShow(raw, file);
-    const summary = toSummary(show, show.songs.length);
+    const summary = toSummary(show);
     // Every show feeds the index; only matched shows get their per-show
     // artifacts (SVG + detail JSON) rewritten.
     index.push(summary);
