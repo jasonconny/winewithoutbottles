@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Link, useLoaderData } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
@@ -20,33 +20,18 @@ const SHOW_GROUND = '#a6abb1';
  */
 export default function Show() {
   // Full detail (incl. songs) is fetched per-show by the route loader; see
-  // `showLoader` in src/router.tsx. Missing id → null → "not found".
-  const show = useLoaderData() as ShowDetail | null;
+  // `showLoader` in src/router.tsx. A missing show 404s there, so the data is
+  // guaranteed here (the route's errorElement renders NotFound instead).
+  const show = useLoaderData() as ShowDetail;
   const { infoOpen, setInfoOpen, setSleepy } = useUiState();
 
-  usePageMeta(
-    show
-      ? `${show.date} — Wine Without Bottles`
-      : 'Show not found — Wine Without Bottles',
-    SHOW_GROUND,
-  );
+  usePageMeta(`Wine Without Bottles: ${show.id}`, SHOW_GROUND);
 
-  // Art page: the chrome sleeps after idle (not on the not-found branch).
+  // Art page: the chrome sleeps after idle.
   useEffect(() => {
-    setSleepy(!!show);
+    setSleepy(true);
     return () => setSleepy(false);
-  }, [show, setSleepy]);
-
-  if (!show) {
-    return (
-      <main className="Show">
-        <div className="Show-notFound">
-          <p>Show not found.</p>
-          <Link to="/gallery">← Back to the gallery</Link>
-        </div>
-      </main>
-    );
-  }
+  }, [setSleepy]);
 
   const location = [show.venue, show.city, show.state]
     .filter(Boolean)

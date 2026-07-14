@@ -4,7 +4,7 @@ import { usePageMeta } from '@/hooks/usePageMeta';
 import './Gallery.scss';
 
 export default function Gallery() {
-  usePageMeta('Gallery — Wine Without Bottles', '#ffffff');
+  usePageMeta('Wine Without Bottles: Gallery', '#ffffff');
 
   return (
     <main className="Gallery">

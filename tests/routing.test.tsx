@@ -24,12 +24,18 @@ describe('routing', () => {
     ).toBeInTheDocument();
   });
 
-  it('redirects unknown routes home', async () => {
+  it('renders the 404 page for a stray single segment', async () => {
     // A single stray segment matches the root-level /:id show route, whose
-    // loader redirects non-id-shaped params home (async, hence findBy).
+    // loader throws a 404 for non-id-shaped params (async, hence findBy).
     renderAt('/nope');
-    expect(
-      await screen.findByRole('heading', { name: /wine without bottles/i }),
-    ).toBeInTheDocument();
+    expect(await screen.findByText('Page not found.')).toBeInTheDocument();
+    expect(document.title).toBe('Wine Without Bottles: Not Found');
+    // The 404 page is chromed, so the drawer offers a way out.
+    expect(screen.getByRole('button', { name: 'WWOB' })).toBeInTheDocument();
+  });
+
+  it('renders the 404 page for multi-segment paths', async () => {
+    renderAt('/no/such/page');
+    expect(await screen.findByText('Page not found.')).toBeInTheDocument();
   });
 });

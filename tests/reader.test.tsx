@@ -36,7 +36,7 @@ describe('reader app', () => {
       screen.getByRole('heading', { name: /gallery/i }),
     ).toBeInTheDocument();
     expect(screen.getByText('1972-08-27')).toBeInTheDocument();
-    expect(document.title).toBe('Gallery — Wine Without Bottles');
+    expect(document.title).toBe('Wine Without Bottles: Gallery');
     // Global chrome: the nav drawer is here too, inert until toggled.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -58,7 +58,7 @@ describe('reader app', () => {
       }),
     ).toBeInTheDocument();
     // Route-managed document metadata.
-    expect(document.title).toBe('1972-08-27 — Wine Without Bottles');
+    expect(document.title).toBe('Wine Without Bottles: 19720827');
     // Brand chip toggles the nav drawer; its links are inert while closed.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -137,9 +137,11 @@ describe('reader app', () => {
     }
   });
 
-  it('shows "not found" for an id-shaped URL with no show', async () => {
+  it('renders the global 404 for an id-shaped URL with no show', async () => {
+    // The loader throws a 404 Response; the route's errorElement is NotFound.
     renderAt('/19990101');
-    expect(await screen.findByText('Show not found.')).toBeInTheDocument();
+    expect(await screen.findByText('Page not found.')).toBeInTheDocument();
+    expect(document.title).toBe('Wine Without Bottles: Not Found');
     expect(
       screen.getByRole('link', { name: /back to the gallery/i }),
     ).toHaveAttribute('href', '/gallery');

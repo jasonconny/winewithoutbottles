@@ -125,25 +125,4 @@
       content: '/ ';
     }
   }
-
-  // Missing id → quiet message on the bare ground.
-  &-notFound {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    color: rgba(0, 0, 0, 0.7);
-
-    a {
-      color: rgba(0, 0, 0, 0.7);
-
-      &:focus-visible {
-        outline: 2px solid #fff;
-        outline-offset: 2px;
-      }
-    }
-  }
 }

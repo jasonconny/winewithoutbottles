@@ -2,7 +2,7 @@ import { usePageMeta } from '@/hooks/usePageMeta';
 import './About.scss';
 
 export default function About() {
-  usePageMeta('About — Wine Without Bottles', '#ffffff');
+  usePageMeta('Wine Without Bottles: About', '#ffffff');
 
   return (
     <main className="About">
