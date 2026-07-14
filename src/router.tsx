@@ -1,5 +1,6 @@
 import type { LoaderFunctionArgs, RouteObject } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
+import { allShowsGallery, gallerySections } from '@/galleries';
 import AppChrome from './components/AppChrome';
 import Placeholder from './routes/Placeholder';
 import Builder from './routes/Builder';
@@ -25,6 +26,26 @@ async function showLoader({ params }: LoaderFunctionArgs): Promise<ShowDetail> {
   return (await res.json()) as ShowDetail;
 }
 
+// Gallery pages: /all plus one static route per registry slug (/1977,
+// /spring-1977, /madison-square-garden, …). The registry is build-time static
+// data, so generating routes from it at module scope is safe, and its slug
+// guards (uniqueness, reserved words, never show-id-shaped) keep this root
+// namespace collision-free — see src/galleries.ts. Each loader hands the
+// route's GalleryDef straight to the Gallery component; it cannot fail, so no
+// errorElement is needed.
+const galleryRoutes: RouteObject[] = [
+  { path: '/all', element: <Gallery />, loader: () => allShowsGallery },
+  ...gallerySections.flatMap(({ galleries }) =>
+    galleries.map(
+      (gallery): RouteObject => ({
+        path: `/${gallery.slug}`,
+        element: <Gallery />,
+        loader: () => gallery,
+      }),
+    ),
+  ),
+];
+
 export const routes: RouteObject[] = [
   // Public holding page. When the real app is ready, repoint '/' to it; the
   // placeholder stays reachable at '/placeholder'.
@@ -36,9 +57,9 @@ export const routes: RouteObject[] = [
   {
     element: <AppChrome />,
     children: [
-      { path: '/gallery', element: <Gallery /> },
+      ...galleryRoutes,
       // Shows live at the root by compact-date id, e.g. /19720827. Static
-      // routes (/gallery, /about, …) outrank the dynamic segment.
+      // routes (/all, gallery slugs, /about, …) outrank the dynamic segment.
       {
         path: '/:id',
         element: <Show />,

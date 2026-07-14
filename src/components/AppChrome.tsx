@@ -103,7 +103,7 @@ function ChromeShell() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/all">Gallery</Link>
           </li>
           <li>
             <Link to="/about">About</Link>

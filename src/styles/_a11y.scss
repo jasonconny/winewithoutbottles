@@ -1,0 +1,11 @@
+// Visually hidden but kept in the accessibility tree ("screen-reader only").
+// For headings/labels on pages whose visible design is pure artwork.
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

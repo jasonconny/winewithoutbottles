@@ -1,3 +1,4 @@
+@use '../styles/a11y';
 @use '../styles/breakpoints' as bp;
 
 // Show page content: the full-bleed piece and its info sheet. The chrome
@@ -12,15 +13,9 @@
   background: #a6abb1;
 
   // Visually-hidden heading so the page keeps an accessible <h1> while the
-  // info panel is closed. Local until a second consumer wants it.
+  // info panel is closed.
   &-srOnly {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
+    @include a11y.sr-only;
   }
 
   // The piece, stretched edge-to-edge within the (possibly compressed)

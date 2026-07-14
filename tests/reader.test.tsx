@@ -1,5 +1,11 @@
 import { readFileSync } from 'node:fs';
-import { act, fireEvent, render, screen } from '@testing-library/react';
+import {
+  act,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+} from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
 
@@ -30,13 +36,23 @@ function renderAt(path: string) {
 }
 
 describe('reader app', () => {
-  it('lists shows in the gallery at /gallery', () => {
-    renderAt('/gallery');
+  it('lists shows in the gallery at /all', async () => {
+    renderAt('/all');
+    // The heading is sr-only (the page is visually pure artwork) but stays in
+    // the accessibility tree; each show row's name comes from its img alt.
+    // findBy: the route has a loader, so the first render is async.
     expect(
-      screen.getByRole('heading', { name: /gallery/i }),
+      await screen.findByRole('heading', { name: /gallery/i }),
     ).toBeInTheDocument();
-    expect(screen.getByText('1972-08-27')).toBeInTheDocument();
-    expect(document.title).toBe('Wine Without Bottles: Gallery');
+    expect(screen.getByRole('link', { name: /1972-08-27/ })).toHaveAttribute(
+      'href',
+      '/19720827',
+    );
+    // waitFor: the title is set in a passive effect, which can flush after
+    // the DOM mutation that resolved the findBy above.
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: Gallery'),
+    );
     // Global chrome: the nav drawer is here too, inert until toggled.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -57,8 +73,11 @@ describe('reader app', () => {
         name: '1972-08-27 setlist rendered as stripes',
       }),
     ).toBeInTheDocument();
-    // Route-managed document metadata.
-    expect(document.title).toBe('Wine Without Bottles: 19720827');
+    // Route-managed document metadata (waitFor: set in a passive effect that
+    // can flush after the DOM mutation that resolved the findBy above).
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: 19720827'),
+    );
     // Brand chip toggles the nav drawer; its links are inert while closed.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
     const drawer = screen.getByRole('navigation', { name: 'Main' });
@@ -69,7 +88,7 @@ describe('reader app', () => {
     expect(drawer).not.toHaveAttribute('inert');
     expect(screen.getByRole('link', { name: 'Gallery' })).toHaveAttribute(
       'href',
-      '/gallery',
+      '/all',
     );
     fireEvent.click(navToggle); // close it again for the info-panel steps
     expect(drawer).toHaveAttribute('inert');
@@ -141,10 +160,12 @@ describe('reader app', () => {
     // The loader throws a 404 Response; the route's errorElement is NotFound.
     renderAt('/19990101');
     expect(await screen.findByText('Page not found.')).toBeInTheDocument();
-    expect(document.title).toBe('Wine Without Bottles: Not Found');
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: Not Found'),
+    );
     expect(
       screen.getByRole('link', { name: /back to the gallery/i }),
-    ).toHaveAttribute('href', '/gallery');
+    ).toHaveAttribute('href', '/all');
   });
 
   it('links the Barlow essay on /about', () => {
