@@ -146,8 +146,8 @@ export const shows: ShowSummary[] = [
       "1972"
     ],
     "svg": "/shows/19720416.svg",
-    "songCount": 29,
-    "durationSeconds": 12421
+    "songCount": 26,
+    "durationSeconds": 10197
   },
   {
     "id": "19720417",
@@ -386,8 +386,8 @@ export const shows: ShowSummary[] = [
       "1972"
     ],
     "svg": "/shows/19720525.svg",
-    "songCount": 26,
-    "durationSeconds": 11352
+    "songCount": 27,
+    "durationSeconds": 12367
   },
   {
     "id": "19720526",

@@ -10,124 +10,112 @@
     "1972"
   ],
   "svg": "/shows/19720416.svg",
-  "songCount": 29,
-  "durationSeconds": 12421,
+  "songCount": 26,
+  "durationSeconds": 10197,
   "songs": [
     {
-      "title": "Bertha",
-      "durationSeconds": 392
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 353
     },
     {
-      "title": "Me and My Uncle",
-      "durationSeconds": 208
-    },
-    {
-      "title": "Mr. Charlie",
-      "durationSeconds": 287
-    },
-    {
-      "title": "You Win Again",
-      "durationSeconds": 242
-    },
-    {
-      "title": "Black-Throated Wind",
-      "durationSeconds": 368
+      "title": "Sugaree",
+      "durationSeconds": 424
     },
     {
       "title": "Chinatown Shuffle",
-      "durationSeconds": 172
+      "durationSeconds": 191
     },
     {
-      "title": "Loser",
-      "durationSeconds": 395
-    },
-    {
-      "title": "Me and Bobby McGee",
-      "durationSeconds": 365
-    },
-    {
-      "title": "Cumberland Blues",
-      "durationSeconds": 335
-    },
-    {
-      "title": "Playing in the Band",
-      "durationSeconds": 687
+      "title": "Black-Throated Wind",
+      "durationSeconds": 400
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 477
+      "durationSeconds": 459
     },
     {
-      "title": "El Paso",
-      "durationSeconds": 265
-    },
-    {
-      "title": "Big Boss Man",
-      "durationSeconds": 384
+      "title": "Mr. Charlie",
+      "durationSeconds": 252
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 197
+      "durationSeconds": 192
     },
     {
-      "title": "Casey Jones",
-      "durationSeconds": 358
+      "title": "China Cat Sunflower",
+      "durationSeconds": 397
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 693
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1208
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 388
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 294
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 656
+      "durationSeconds": 697
     },
     {
-      "title": "It Hurts Me Too",
-      "durationSeconds": 417
+      "title": "Jam",
+      "durationSeconds": 992
     },
     {
-      "title": "Brown-Eyed Women",
-      "durationSeconds": 297
+      "title": "The Other One",
+      "durationSeconds": 212
     },
     {
-      "title": "Looks Like Rain",
-      "durationSeconds": 427
-    },
-    {
-      "title": "Dark Star",
-      "durationSeconds": 1766
-    },
-    {
-      "title": "Sugar Magnolia",
-      "durationSeconds": 401
-    },
-    {
-      "title": "Good Lovin'",
-      "durationSeconds": 1108
-    },
-    {
-      "title": "Caution (Do Not Stop on Tracks)",
-      "durationSeconds": 405
-    },
-    {
-      "title": "Good Lovin'",
+      "title": "Me and My Uncle",
       "durationSeconds": 181
     },
     {
-      "title": "Ramble On Rose",
-      "durationSeconds": 385
+      "title": "The Other One",
+      "durationSeconds": 158
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 339
+      "durationSeconds": 356
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 416
+      "durationSeconds": 392
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 206
-    },
-    {
-      "title": "One More Saturday Night",
-      "durationSeconds": 285
+      "durationSeconds": 186
     }
   ]
 }
