@@ -72,23 +72,35 @@
       padding: 0;
       text-transform: uppercase;
 
+      // Row spacing only; the horizontal and vertical padding lives on the
+      // link/button so the current-page highlight fills the whole row rather
+      // than hugging the text.
       li {
-        padding: 0.5em 1em 0;
+        padding: 0.125em 0 0;
       }
 
       a {
+        display: block;
+        padding: 0.375em 1em;
         color: rgba(0, 0, 0, 0.65);
         font-family: 'Roboto Variable', sans-serif;
         font-size: 1rem;
+        font-weight: 500;
         text-decoration: none;
 
         &:hover {
           color: rgba(0, 0, 0, 0.85);
         }
 
+        // Current page. NavLink sets `active`; the tint is a quiet wash on the
+        // gray ground, so it never fights the artwork alongside it.
+        &.active {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+
         &:focus-visible {
           outline: 2px solid #fff;
-          outline-offset: 2px;
+          outline-offset: -2px;
         }
       }
     }
@@ -105,29 +117,98 @@
     }
   }
 
-  // A group of sub-gallery links (Years/Tours/Venues) under the main nav.
-  // Sub-links read one step smaller than the top-level pages.
+  // A collapsible group of sub-gallery links (Years/Tours/Venues). It's an
+  // <li> in the main nav list, so it inherits the shared li padding and reads
+  // as a peer of Home/All Shows/About. Sub-links stay one step smaller so the
+  // hierarchy reads.
   &-drawerSection {
-    margin-top: 1.5rem;
-
     // ul a matches the base drawer rule's specificity; source order wins.
+    // Mixed case (not the nav's uppercase): these are proper names —
+    // "Europe 1972", "Madison Square Garden" — and read better as written.
+    // Same size as the top-level items; the lighter weight and the case carry
+    // the hierarchy instead.
+    // padding-left carries the indent that the nested li's padding used to,
+    // now that the row padding lives on the link (so the highlight is
+    // full-width while the text stays stepped in).
     ul a {
-      font-size: 0.8125rem;
+      padding-left: 2em;
+      font-weight: 400;
+      text-transform: none;
     }
   }
 
-  // Visible group label; decorative to screen readers (the section itself
-  // carries the accessible name), quieter than the links but on the .55
-  // alpha floor for the overlay chrome.
-  &-drawerLabel {
-    display: block;
-    padding: 0 1em 0.25em;
-    color: rgba(0, 0, 0, 0.55);
+  // The group's expand/collapse control: a button wearing the drawer link's
+  // face exactly (same colour, family, size, hover), with the chevron pushed
+  // to the row's right edge. The li's 1em right padding insets it from the
+  // gutter edge.
+  &-drawerToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 0;
+    // Matches the link rows above, so the group headers sit on the same grid.
+    padding: 0.375em 1em;
+    background: none;
+    color: rgba(0, 0, 0, 0.65);
     font-family: 'Roboto Variable', sans-serif;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
+    font-size: 1rem;
+    // Both explicit rather than inherited from the ul: `font: inherit` on form
+    // controls takes the weight from the li (400), and the UA stylesheet sets
+    // `text-transform: none` on them.
+    font-weight: 500;
     text-transform: uppercase;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    // Inset, like the link rows: an outset ring on a full-width row would
+    // spill past the drawer's edges.
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: -2px;
+    }
+  }
+
+  // Height animation without a hard-coded max: a single-row grid interpolated
+  // 0fr → 1fr, with the list clipped while it collapses. Browsers that can't
+  // interpolate fr simply snap open — acceptable degradation.
+  &-drawerPanel {
+    display: grid;
+    grid-template-rows: 0fr;
+
+    > ul {
+      overflow: hidden;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: grid-template-rows 0.35s ease;
+    }
+  }
+
+  &-drawerSection[data-open] &-drawerPanel {
+    grid-template-rows: 1fr;
+  }
+
+  // Points down at rest, flips to point up when the group is open.
+  &-drawerChevron {
+    width: 0.75em;
+    height: 0.75em;
+    flex: none;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: rotate 0.35s ease;
+    }
+  }
+
+  &-drawerSection[data-open] &-drawerChevron {
+    rotate: 180deg;
   }
 
   // The chrome's own chip corner (thumb zone on phones), fixed clear of the

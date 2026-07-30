@@ -15,7 +15,7 @@ export type GalleryKind = 'all' | 'year' | 'tour' | 'venue';
 export interface GalleryDef {
   /** Root-level URL segment ('' for the all-shows gallery at /all). */
   slug: string;
-  /** Display + page-title text: 'Gallery' | '1977' | 'Spring 1977' | …. */
+  /** Display + page-title text: 'All Shows' | '1977' | 'Spring 1977' | …. */
   title: string;
   kind: GalleryKind;
   /** Chronological ascending (the index is date-sorted; filtering keeps it). */
@@ -200,7 +200,7 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
   ].filter((section) => section.galleries.length > 0);
 
   return {
-    all: { slug: '', title: 'Gallery', kind: 'all', shows: source },
+    all: { slug: '', title: 'All Shows', kind: 'all', shows: source },
     sections,
     bySlug,
   };

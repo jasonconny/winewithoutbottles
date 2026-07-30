@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import Footer from '@/components/Footer';
 import { gallerySections } from '@/galleries';
 import UiStateProvider from '@/components/UiStateProvider';
@@ -33,6 +33,18 @@ function ChromeShell() {
     closeOverlays,
   } = useUiState();
   const { pathname } = useLocation();
+
+  // Which gallery groups (Years/Tours/Venues) are expanded. Local state, not
+  // useUiState: nothing outside the drawer reads it, and ChromeShell doesn't
+  // unmount across route changes, so it persists like the rest of the chrome.
+  // A list, not a single label — open sections are deliberately not exclusive.
+  const [openSections, setOpenSections] = useState<string[]>([]);
+  const toggleSection = (label: string) =>
+    setOpenSections((open) =>
+      open.includes(label)
+        ? open.filter((item) => item !== label)
+        : [...open, label],
+    );
 
   // The info sheet is page-owned UI: it shouldn't survive navigating to a
   // different page. (The drawer intentionally does — chrome state persists
@@ -99,38 +111,79 @@ function ChromeShell() {
         aria-label="Main"
         inert={!navOpen || undefined}
       >
+        {/* One list: the top-level pages and the collapsible sub-gallery
+            groups are peers, so About reads as the last nav item rather than
+            trailing an unrelated second list. Groups come straight from the
+            registry (src/galleries.ts) and start collapsed. */}
         <ul>
+          {/* NavLink marks the current page with an `active` class. Home needs
+              `end`: without it `/` prefix-matches every route and would always
+              read as current. */}
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" end>
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/all">Gallery</Link>
+            <NavLink to="/all">All Shows</NavLink>
           </li>
+          {gallerySections.map(({ label, galleries }) => {
+            const open = openSections.includes(label);
+            const panelId = `nav-section-${label.toLowerCase()}`;
+            return (
+              <li
+                key={label}
+                className="AppChrome-drawerSection"
+                data-open={open || undefined}
+              >
+                {/* The button's own text is the group's accessible name, so
+                    there's no labelled region here — that would double-announce. */}
+                <button
+                  type="button"
+                  className="AppChrome-drawerToggle"
+                  aria-expanded={open}
+                  aria-controls={panelId}
+                  onClick={(event) => {
+                    // Without this the drawer's light-dismiss closes the whole
+                    // drawer the moment a group is expanded.
+                    event.stopPropagation();
+                    toggleSection(label);
+                  }}
+                >
+                  {label}
+                  <svg
+                    className="AppChrome-drawerChevron"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                {/* `inert` while collapsed keeps the links out of the tab order
+                    and the a11y tree, but leaves them in the DOM so the height
+                    transition can run (display:none would kill it). */}
+                <div
+                  className="AppChrome-drawerPanel"
+                  id={panelId}
+                  inert={!open || undefined}
+                >
+                  <ul>
+                    {galleries.map((gallery) => (
+                      <li key={gallery.slug}>
+                        <NavLink to={`/${gallery.slug}`}>
+                          {gallery.title}
+                        </NavLink>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </li>
+            );
+          })}
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/about">About</NavLink>
           </li>
         </ul>
-        {/* Sub-gallery links, straight from the registry (src/galleries.ts).
-            The section carries the group's accessible name; the visible label
-            is aria-hidden so screen readers don't hear it twice. */}
-        {gallerySections.map(({ label, galleries }) => (
-          <section
-            key={label}
-            className="AppChrome-drawerSection"
-            aria-label={label}
-          >
-            <span className="AppChrome-drawerLabel" aria-hidden="true">
-              {label}
-            </span>
-            <ul>
-              {galleries.map((gallery) => (
-                <li key={gallery.slug}>
-                  <Link to={`/${gallery.slug}`}>{gallery.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
         <Footer />
       </nav>
 

@@ -75,7 +75,7 @@ describe('gallery registry (real corpus)', () => {
   });
 
   it('has the whole index, date-ascending, in the all-shows gallery', () => {
-    expect(allShowsGallery.title).toBe('Gallery');
+    expect(allShowsGallery.title).toBe('All Shows');
     expect(allShowsGallery.kind).toBe('all');
     expect(allShowsGallery.shows).toHaveLength(shows.length);
     const dates = allShowsGallery.shows.map((show) => show.date);
