@@ -17,11 +17,11 @@ describe('routing', () => {
     expect(screen.getByRole('button', { name: 'WWOB' })).toBeInTheDocument();
   });
 
-  it('renders the placeholder at the hidden /placeholder route', () => {
+  it('404s at the retired /placeholder route', async () => {
+    // The holding page is gone: '/' is the real homepage now. A single stray
+    // segment falls to '/:id', whose loader rejects anything not id-shaped.
     renderAt('/placeholder');
-    expect(
-      screen.getByRole('heading', { name: /wine without bottles/i }),
-    ).toBeInTheDocument();
+    expect(await screen.findByText('Page not found.')).toBeInTheDocument();
   });
 
   it('serves gallery pages at root-level slugs', async () => {

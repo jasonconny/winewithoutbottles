@@ -235,9 +235,10 @@ describe('reader app', () => {
     await waitFor(() =>
       expect(document.title).toBe('Wine Without Bottles: Not Found'),
     );
-    expect(
-      screen.getByRole('link', { name: /back to the gallery/i }),
-    ).toHaveAttribute('href', '/all');
+    expect(screen.getByRole('link', { name: /back home/i })).toHaveAttribute(
+      'href',
+      '/',
+    );
   });
 
   it('links the Barlow essay on /about', () => {

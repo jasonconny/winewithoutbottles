@@ -2,7 +2,7 @@ import type { LoaderFunctionArgs, RouteObject } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import { allShowsGallery, gallerySections } from '@/galleries';
 import AppChrome from './components/AppChrome';
-import Placeholder from './routes/Placeholder';
+import Home from './routes/Home';
 import Builder from './routes/Builder';
 import Gallery from './routes/Gallery';
 import Show from './routes/Show';
@@ -47,16 +47,18 @@ const galleryRoutes: RouteObject[] = [
 ];
 
 export const routes: RouteObject[] = [
-  // Public holding page. When the real app is ready, repoint '/' to it; the
-  // placeholder stays reachable at '/placeholder'.
-  { path: '/', element: <Placeholder /> },
-  { path: '/placeholder', element: <Placeholder /> },
-  // Reader app (hidden for now — home flip is a later step). AppChrome is a
-  // layout route: the nav drawer + chip bar wrap each child page, and chrome
-  // state (drawer open, sleep timer) survives navigation between them.
+  // AppChrome is a layout route: the nav drawer + chip bar wrap each child
+  // page, and chrome state (drawer open, sleep timer) survives navigation
+  // between them. Every route lives inside it, homepage included.
   {
     element: <AppChrome />,
     children: [
+      // The homepage: a random striped piece under the logotype, with the
+      // chrome's nav as its way into the rest of the project. As the pathless
+      // layout's index route this resolves to '/', which is what the drawer's
+      // `NavLink to="/" end` expects. A bare slash isn't a path segment, so it
+      // never competes with '/:id' below.
+      { index: true, element: <Home /> },
       ...galleryRoutes,
       // Shows live at the root by compact-date id, e.g. /19720827. Static
       // routes (/all, gallery slugs, /about, …) outrank the dynamic segment.
