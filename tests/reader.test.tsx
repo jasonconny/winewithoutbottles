@@ -43,7 +43,7 @@ describe('reader app', () => {
     // the accessibility tree; each show row's name comes from its img alt.
     // findBy: the route has a loader, so the first render is async.
     expect(
-      await screen.findByRole('heading', { name: /gallery/i }),
+      await screen.findByRole('heading', { name: /all shows/i }),
     ).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /1972-08-27/ })).toHaveAttribute(
       'href',
@@ -52,7 +52,7 @@ describe('reader app', () => {
     // waitFor: the title is set in a passive effect, which can flush after
     // the DOM mutation that resolved the findBy above.
     await waitFor(() =>
-      expect(document.title).toBe('Wine Without Bottles: Gallery'),
+      expect(document.title).toBe('Wine Without Bottles: All Shows'),
     );
     // The longest show on the page spans the full pane; the rest scale down.
     const longest = shows.reduce((best, show) =>
@@ -71,15 +71,27 @@ describe('reader app', () => {
       'href',
       '/about',
     );
-    // Sub-gallery links, grouped by registry section, live in the drawer too.
+    // The current page is marked; Home is not (NavLink's `end` stops `/` from
+    // prefix-matching every route).
+    expect(screen.getByRole('link', { name: 'All Shows' })).toHaveClass(
+      'active',
+    );
+    expect(screen.getByRole('link', { name: 'Home' })).not.toHaveClass(
+      'active',
+    );
+    // Sub-gallery links live in the drawer too, behind collapsed groups —
+    // expand each one to reach them.
+    fireEvent.click(screen.getByRole('button', { name: 'Years' }));
     expect(screen.getByRole('link', { name: '1977' })).toHaveAttribute(
       'href',
       '/1977',
     );
+    fireEvent.click(screen.getByRole('button', { name: 'Tours' }));
     expect(screen.getByRole('link', { name: 'Spring 1977' })).toHaveAttribute(
       'href',
       '/spring-1977',
     );
+    fireEvent.click(screen.getByRole('button', { name: 'Venues' }));
     expect(
       screen.getByRole('link', { name: 'Madison Square Garden' }),
     ).toHaveAttribute('href', '/madison-square-garden');
@@ -106,7 +118,7 @@ describe('reader app', () => {
     fireEvent.click(navToggle);
     expect(navToggle).toHaveAttribute('aria-expanded', 'true');
     expect(drawer).not.toHaveAttribute('inert');
-    expect(screen.getByRole('link', { name: 'Gallery' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'All Shows' })).toHaveAttribute(
       'href',
       '/all',
     );
@@ -174,6 +186,46 @@ describe('reader app', () => {
     } finally {
       vi.useRealTimers();
     }
+  });
+
+  it('expands and collapses drawer gallery groups independently', async () => {
+    renderAt('/all');
+    await screen.findByRole('heading', { name: /all shows/i });
+    fireEvent.click(screen.getByRole('button', { name: 'WWOB' }));
+
+    const years = screen.getByRole('button', { name: 'Years' });
+    const tours = screen.getByRole('button', { name: 'Tours' });
+    // Panels are the group's links; inert while collapsed keeps them out of
+    // the tab order and the a11y tree.
+    const yearsPanel = document.getElementById('nav-section-years');
+    const toursPanel = document.getElementById('nav-section-tours');
+
+    // Everything starts collapsed.
+    expect(years).toHaveAttribute('aria-expanded', 'false');
+    expect(tours).toHaveAttribute('aria-expanded', 'false');
+    expect(yearsPanel).toHaveAttribute('inert');
+    expect(toursPanel).toHaveAttribute('inert');
+
+    fireEvent.click(years);
+    expect(years).toHaveAttribute('aria-expanded', 'true');
+    expect(yearsPanel).not.toHaveAttribute('inert');
+
+    // Open groups are not exclusive: opening Tours leaves Years open.
+    fireEvent.click(tours);
+    expect(years).toHaveAttribute('aria-expanded', 'true');
+    expect(tours).toHaveAttribute('aria-expanded', 'true');
+
+    // Clicking again closes only that group.
+    fireEvent.click(years);
+    expect(years).toHaveAttribute('aria-expanded', 'false');
+    expect(yearsPanel).toHaveAttribute('inert');
+    expect(tours).toHaveAttribute('aria-expanded', 'true');
+    expect(toursPanel).not.toHaveAttribute('inert');
+
+    // Toggling a group must not trip the drawer's light-dismiss.
+    expect(
+      screen.getByRole('navigation', { name: 'Main' }),
+    ).not.toHaveAttribute('inert');
   });
 
   it('renders the global 404 for an id-shaped URL with no show', async () => {
