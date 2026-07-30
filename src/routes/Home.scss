@@ -1,13 +1,15 @@
 @use '../styles/breakpoints' as bp;
 
-// Slow reveal: the ghosted logotype rises to full opacity after a long pause.
-@keyframes watermark-reveal {
+// Slow retreat: after a long pause the ghosted logotype fades away entirely,
+// leaving the piece alone. It only comes back on a reload (which also rerolls
+// the art). Pairs with the chrome's own sleep, which fades the chips.
+@keyframes watermark-retreat {
   to {
     opacity: 0;
   }
 }
 
-.Placeholder {
+.Home {
   // Center the title both axes, at any viewport, mobile-first.
   display: flex;
   align-items: center;
@@ -17,8 +19,8 @@
   // Keeps the title off the screen edges on small phones.
   padding: 1.25rem;
 
-  // A random striped piece, chosen per page load (Placeholder.tsx sets
-  // --placeholder-art). One copy stretched to fill the viewport — the SVG's
+  // A random striped piece, chosen per page load (Home.tsx sets
+  // --home-art). One copy stretched to fill the viewport — the SVG's
   // `preserveAspectRatio="none"` lets the (uniform vertical) stripes stretch
   // without distortion. We deliberately do NOT tile with `repeat-y`: each
   // piece is an extremely wide, ~thin strip, so a tiled copy is only a couple
@@ -27,7 +29,7 @@
   // phones. A single stretched copy looks identical (full-height bars), has no
   // seams, and is far cheaper to paint.
   background-color: #000;
-  background-image: var(--placeholder-art, url('/shows/1972-08-27.svg'));
+  background-image: var(--home-art, url('/shows/1972-08-27.svg'));
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -44,7 +46,7 @@
     // Deliberately faint: the title is a logotype watermark over the artwork.
     // The low contrast is an intentional brand treatment (WCAG 1.4.3 logotype
     // exemption); the accessible name lives in the real <h1> text + <title>.
-    // Opacity (not an rgba alpha) so it can animate up to full — see below.
+    // Opacity (not an rgba alpha) so it can animate away — see below.
     color: #000;
     opacity: 0.25;
     font-weight: 200;
@@ -56,10 +58,10 @@
     // `text-wrap: balance` (global reset) keeps the wrap tidy.
     font-size: clamp(2.25rem, calc(1rem + 7vw), 8rem);
 
-    // After 30s on the page, the watermark fades up to full opacity and stays.
+    // After 10s on the page the watermark fades out over 4s and stays gone.
     // Motion-sensitive users keep the resting watermark (no animation).
     @media (prefers-reduced-motion: no-preference) {
-      animation: watermark-reveal 4s ease 10s forwards;
+      animation: watermark-retreat 4s ease 10s forwards;
     }
   }
 }

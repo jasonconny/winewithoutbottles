@@ -14,7 +14,7 @@ export default function NotFound() {
   return (
     <main className="NotFound">
       <p>Page not found.</p>
-      <Link to="/all">← Back to the gallery</Link>
+      <Link to="/">← Back home</Link>
     </main>
   );
 }
