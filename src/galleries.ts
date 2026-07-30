@@ -1,5 +1,8 @@
-import { shows } from '@/data/shows.generated';
-import type { ShowSummary } from '@/wwob';
+// Relative, not the `@/` alias: this module is imported by the Cloudflare
+// Worker (worker/routes.ts) as well as the app, and wrangler's bundler can't
+// resolve path-prefix aliases. Same convention generator/ uses.
+import { shows } from './data/shows.generated.ts';
+import type { ShowSummary } from './wwob/index.ts';
 
 /**
  * Gallery registry: derives every gallery page (all shows, per-year, per-tour,

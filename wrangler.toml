@@ -2,7 +2,11 @@
 # Serves the live site at winewithoutbottles.com (custom domains codified below).
 # Deploy with `npm run deploy` (builds first).
 name = "winewithoutbottles"
-compatibility_date = "2025-06-03"
+main = "worker/index.ts"
+# Current as of this Worker's creation. Capped at the newest date the pinned
+# wrangler's local workerd supports (4.114.0 tops out at 2026-07-29); a later
+# date builds fine but makes `wrangler dev` refuse to start.
+compatibility_date = "2026-07-29"
 account_id = "9166eee081850be3de4809d196801105"
 
 # Live custom domains — Cloudflare manages the proxied DNS record + edge cert.
@@ -15,7 +19,28 @@ routes = [
 
 [assets]
 directory = "./dist"
-# Serve index.html for unknown paths so client-side routes (/builder,
-# /placeholder) deep-link correctly. Workers-Static-Assets equivalent of a
-# Pages `/* /index.html 200` redirect.
+# Lets worker/index.ts serve the shell itself so it can correct the status.
+binding = "ASSETS"
+# Serve index.html for unknown paths so client-side routes (/builder, /1977)
+# deep-link correctly. Workers-Static-Assets equivalent of a Pages
+# `/* /index.html 200` redirect. Kept ON: it's what makes env.ASSETS.fetch()
+# hand the shell back to the Worker in the first place.
 not_found_handling = "single-page-application"
+# Navigation requests (Sec-Fetch-Mode: navigate) normally skip the Worker and
+# go straight to the SPA fallback — which is exactly the 200-for-everything we
+# need to fix, so opt them back in. The negations keep hashed bundles, fonts
+# and the ~350 per-show files off the Worker entirely: only navigations pay.
+run_worker_first = [
+  "/*",
+  "!/assets/*",
+  "!/shows/*",
+  "!/favicon.ico",
+  "!/manifest.json",
+]
+
+# Logs/traces in the dashboard. Worth having because this Worker's failure mode
+# is a wrong status code, not a thrown error — there's nothing user-visible to
+# report it. Keep this table LAST: a TOML table header captures every key after
+# it, so anything top-level (name, routes, …) must stay above it.
+[observability]
+enabled = true
