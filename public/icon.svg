@@ -1,0 +1,14 @@
+<!--
+  The site mark: one stripe, made the way every stripe is made.
+
+  titleToRgb('Wine Without Bottles') — the project's name run through its own
+  colour rule (src/wwob/color.ts) as if it were a song title:
+    'Wine Without Bottles' → cleanTitle → 'WINE_WITHOUT_BOTTLES'
+                           → rgb(119, 140, 133) → #778c85
+
+  Change this only if the name or the algorithm changes — it is derived, not
+  chosen. favicon.ico and apple-touch-icon.png are rasters of this same square.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#778c85" />
+</svg>

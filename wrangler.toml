@@ -35,6 +35,8 @@ run_worker_first = [
   "!/assets/*",
   "!/shows/*",
   "!/favicon.ico",
+  "!/icon.svg",
+  "!/apple-touch-icon.png",
   "!/manifest.json",
 ]
 

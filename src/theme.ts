@@ -3,6 +3,11 @@
  * that pass them to usePageMeta as the browser theme-color. Kept here so a
  * ground can't be changed in one place and drift in the other — the values
  * must match `.AppChrome-page` and `.AppChrome` in AppChrome.scss.
+ *
+ * One copy lives outside this file's reach: `public/manifest.json` repeats
+ * PAGE_GROUND as its `background_color` (the PWA splash). Static JSON can't
+ * import, and can't even carry a comment — so if a ground changes here, change
+ * it there too.
  */
 
 /**
