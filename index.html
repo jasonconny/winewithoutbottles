@@ -15,7 +15,12 @@
     <!-- Pre-hydration default; each route sets its own via usePageMeta. -->
     <meta name="theme-color" content="#000000" />
 
-    <link rel="icon" href="/favicon.ico" />
+    <!-- The mark is a solid square of titleToRgb('Wine Without Bottles');
+         see public/icon.svg for the derivation. Browsers that support SVG
+         icons prefer it and fall back to the .ico. -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
     <!-- Fonts are self-hosted via Fontsource (imported in src/index.tsx). -->
 
