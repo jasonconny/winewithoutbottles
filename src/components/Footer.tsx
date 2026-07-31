@@ -7,10 +7,11 @@ export default function Footer() {
         <a href="https://www.winewithoutbottles.com/">Wine Without Bottles</a>{' '}
         by Jason Conny is licensed under a{' '}
         <a
-          href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/"
-          rel="license"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+          rel="license noopener noreferrer"
+          target="_blank"
         >
-          Creative Commons BY-NC-SA 3.0 US
+          Creative Commons BY-NC-SA 4.0
         </a>{' '}
         license.
       </p>

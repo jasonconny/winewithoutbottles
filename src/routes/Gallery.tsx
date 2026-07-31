@@ -1,5 +1,6 @@
 import { Link, useLoaderData } from 'react-router-dom';
 import type { GalleryDef } from '@/galleries';
+import { PAGE_GROUND } from '@/theme';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import './Gallery.scss';
 
@@ -14,7 +15,7 @@ import './Gallery.scss';
  */
 export default function Gallery() {
   const gallery = useLoaderData() as GalleryDef;
-  usePageMeta(`Wine Without Bottles: ${gallery.title}`, '#ffffff');
+  usePageMeta(`Wine Without Bottles: ${gallery.title}`, PAGE_GROUND);
 
   const maxSeconds = Math.max(
     ...gallery.shows.map((show) => show.durationSeconds),
