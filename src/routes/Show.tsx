@@ -3,10 +3,8 @@ import { useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
+import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
-
-/** The page ground (see .Show in Show.scss) — the theme color matches it. */
-const SHOW_GROUND = '#a6abb1';
 
 /**
  * Show reader: the piece fills the viewport edge-to-edge (the SVG's

@@ -1,8 +1,9 @@
+import { PAGE_GROUND } from '@/theme';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import './About.scss';
 
 export default function About() {
-  usePageMeta('Wine Without Bottles: About', '#ffffff');
+  usePageMeta('Wine Without Bottles: About', PAGE_GROUND);
 
   return (
     <main className="About">
@@ -19,18 +20,27 @@ export default function About() {
 
       <ul className="About-essays">
         <li>
-          Sol LeWitt,{' '}
-          {/* TODO: link once Jason confirms a canonical hosted copy of the essay. */}
-          <em>&ldquo;Paragraphs on Conceptual Art&rdquo;</em> (Artforum, 1967) —
-          &ldquo;The idea becomes a machine that makes the art.&rdquo;
-        </li>
-        <li>
           John Perry Barlow,{' '}
-          <a href="https://www.wired.com/1994/03/economy-ideas/">
-            &ldquo;The Economy of Ideas: Selling Wine Without Bottles on the
-            Global Net&rdquo;
+          <a
+            href="https://www.wired.com/1994/03/economy-ideas/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            The Economy of Ideas: Selling Wine Without Bottles on the Global Net
           </a>{' '}
           (Wired, 1994) — Barlow was also a Grateful Dead lyricist.
+        </li>
+        <li>
+          Sol LeWitt,{' '}
+          <a
+            href="https://mma.pages.tufts.edu/fah188/sol_lewitt/paragraphs%20on%20conceptual%20art.htm"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Paragraphs on Conceptual Art
+          </a>{' '}
+          (Artforum, 1967) — &ldquo;The idea becomes a machine that makes the
+          art.&rdquo;
         </li>
       </ul>
     </main>

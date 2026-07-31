@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { PAGE_GROUND } from '@/theme';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import './NotFound.scss';
 
@@ -9,7 +10,7 @@ import './NotFound.scss';
  * Chromed like every reader page, so the nav drawer offers a way out.
  */
 export default function NotFound() {
-  usePageMeta('Wine Without Bottles: Not Found', '#ffffff');
+  usePageMeta('Wine Without Bottles: Not Found', PAGE_GROUND);
 
   return (
     <main className="NotFound">

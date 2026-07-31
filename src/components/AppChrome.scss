@@ -14,8 +14,11 @@
   background: #a6abb1;
 
   // The page pane: full width by default, anchored right so the drawer
-  // compress slides it away from the left edge, prototype-style. White so
-  // document pages (Gallery/About) read as today; art pages paint over it.
+  // compress slides it away from the left edge, prototype-style. A light gray
+  // midway between white and the nav ground above — quiet enough for document
+  // pages (About/Builder/NotFound), and it gives the Gallery's ragged right
+  // edge a field to read against instead of blank white. Art pages paint over
+  // it entirely. Mirrored by PAGE_GROUND in src/theme.ts for the theme-color.
   // MUST be positioned: the drawer is `fixed` (positioned), and positioned
   // elements paint over static in-flow content regardless of DOM order —
   // without this the drawer shows through the pane on document pages.
@@ -24,7 +27,7 @@
     width: 100%;
     margin-left: auto;
     min-height: 100dvh;
-    background: #fff;
+    background: #d2d5d8;
 
     @media (prefers-reduced-motion: no-preference) {
       transition: width 1s ease;
