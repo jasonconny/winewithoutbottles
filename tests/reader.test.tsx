@@ -185,8 +185,28 @@ describe('reader app', () => {
     await screen.findByRole('img');
     fireEvent.click(screen.getByRole('button', { name: 'i' }));
     const sheet = within(document.getElementById('show-info')!);
-    expect(sheet.queryByRole('link')).toBeNull();
+    // The year link is always there; it should be the sheet's ONLY link.
+    expect(sheet.getAllByRole('link')).toHaveLength(1);
+    expect(sheet.getByRole('link', { name: '1972' })).toHaveAttribute(
+      'href',
+      '/1972',
+    );
     expect(sheet.getByText('Sunshine Daydream')).toBeInTheDocument(); // tag
+  });
+
+  it('links the year in the heading to that year gallery', async () => {
+    renderAt('/19741016');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    // Only the year is a link — the month and day stay plain text.
+    expect(sheet.getByRole('link', { name: '1974' })).toHaveAttribute(
+      'href',
+      '/1974',
+    );
+    expect(sheet.getByRole('heading', { level: 2 })).toHaveTextContent(
+      'October 16, 1974',
+    );
   });
 
   it('puts the chrome to sleep after idle and wakes it on activity', async () => {

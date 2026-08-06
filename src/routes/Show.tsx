@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
 import { findRunForShow } from '@/galleries';
-import { formatShowDate } from '@/date';
+import { formatShowDate, formatShowDateParts } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
 
@@ -38,6 +38,9 @@ export default function Show() {
     .filter(Boolean)
     .join(', ');
   const date = formatShowDate(show.date);
+  // The year gallery's slug *is* the year, and years partition the whole
+  // corpus, so `/<year>` always resolves for any show.
+  const { monthDay, year } = formatShowDateParts(show.date);
   // Derived, not stored: runs depend on neighbouring shows, so they're computed
   // from the complete bundled index rather than baked into per-show JSON that a
   // filtered `npm run generate <id>` could leave stale.
@@ -76,7 +79,9 @@ export default function Show() {
         data-open={infoOpen || undefined}
         aria-label="Show information"
       >
-        <h2>{date}</h2>
+        <h2>
+          {monthDay}, <Link to={`/${year}`}>{year}</Link>
+        </h2>
         <h3 className="Show-location">{location}</h3>
         {run && (
           // The run page is not in the drawer (40 of them would swamp it), so
