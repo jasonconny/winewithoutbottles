@@ -6,8 +6,7 @@
   "state": "VA",
   "country": "USA",
   "tour": "Fall 1989",
-  "collection": "Formerly the Warlocks",
-  "tags": ["1989", "Hampton", "Formerly the Warlocks", "Dark Star"],
+  "tags": ["Formerly the Warlocks", "Dark Star"],
   "songs": [
     { "title": "Feel Like A Stranger", "duration": "8:16" },
     { "title": "Built To Last", "duration": "5:03" },

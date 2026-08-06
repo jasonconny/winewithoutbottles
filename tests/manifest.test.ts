@@ -7,7 +7,7 @@ it('the bundled index carries the 8/27/72 summary (no songs)', () => {
   expect(show).toBeDefined();
   expect(show?.songCount).toBe(20);
   expect(show?.svg).toBe('/shows/19720827.svg');
-  expect(show?.collection).toBe('Sunshine Daydream');
+  expect(show?.tags).toEqual(['Sunshine Daydream', 'Dark Star']);
   // The index is intentionally songs-free to keep the bundle small.
   expect('songs' in (show ?? {})).toBe(false);
 });

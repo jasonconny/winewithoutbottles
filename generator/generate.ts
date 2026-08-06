@@ -89,7 +89,6 @@ function toSummary(show: Show): ShowSummary {
     state: show.state,
     country: show.country,
     tour: show.tour,
-    collection: show.collection,
     tags: show.tags,
     svg: `/shows/${show.id}.svg`,
     songCount: show.songs.length,

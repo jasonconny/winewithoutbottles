@@ -6,8 +6,6 @@
   "state": "MA",
   "country": "USA",
   "tour": "Spring 1977",
-  "collection": "Spring 1977",
-  "tags": ["1977", "Boston"],
   "songs": [
     { "title": "Bertha", "duration": "7:11" },
     { "title": "Cassidy", "duration": "4:29" },

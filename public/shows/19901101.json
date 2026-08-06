@@ -5,10 +5,6 @@
   "city": "London",
   "country": "ENG",
   "tour": "Europe 1990",
-  "collection": "Europe 1990",
-  "tags": [
-    "1990"
-  ],
   "svg": "/shows/19901101.svg",
   "songCount": 20,
   "durationSeconds": 9567,

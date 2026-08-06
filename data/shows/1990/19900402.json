@@ -5,9 +5,7 @@
   "city": "Atlanta",
   "state": "GA",
   "tour": "Spring 1990",
-  "collection": "Spring 1990",
   "country": "USA",
-  "tags": ["1990"],
   "songs": [
     {
       "title": "Feel Like a Stranger",

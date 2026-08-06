@@ -5,8 +5,6 @@
   "city": "Paris",
   "country": "FRA",
   "tour": "Europe 1990",
-  "collection": "Europe 1990",
-  "tags": ["1990"],
   "songs": [
     {
       "title": "Touch of Grey",

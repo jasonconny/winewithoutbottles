@@ -5,6 +5,7 @@ import {
   render,
   screen,
   waitFor,
+  within,
 } from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
@@ -134,6 +135,7 @@ describe('reader app', () => {
     expect(
       screen.getByText('Old Renaissance Faire Grounds, Veneta, OR'),
     ).toBeInTheDocument();
+    expect(screen.getByText('Sunshine Daydream')).toBeInTheDocument(); // tag
     // Light-dismiss: clicking anywhere else (e.g. the art) closes the panel…
     fireEvent.click(screen.getByRole('img'));
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
@@ -150,6 +152,41 @@ describe('reader app', () => {
     // Esc is the keyboard companion to light-dismiss.
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
+  });
+
+  it('links a show to its run from the info sheet', async () => {
+    // 1974-10-16 opens the five-night Winterland stand. The run page is not in
+    // the drawer, so this link is the only way to reach it.
+    renderAt('/19741016');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    expect(
+      screen.getByRole('link', { name: 'Winterland Arena October 1974' }),
+    ).toHaveAttribute('href', '/winterland-arena-october-1974');
+  });
+
+  it('shows a run that spans dark days as one run', async () => {
+    // 1988-09-24 is the last of nine MSG nights broken by union dark days;
+    // naive date-adjacency would call this a separate three-night run.
+    renderAt('/19880924');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    expect(
+      screen.getByRole('link', {
+        name: 'Madison Square Garden September 1988',
+      }),
+    ).toBeInTheDocument();
+  });
+
+  it('omits the run line for a one-off show', async () => {
+    // Veneta 8/27/72 was a single night, so the sheet carries no run link.
+    // Scoped to the sheet: the drawer has year/tour links of its own.
+    renderAt('/19720827');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    expect(sheet.queryByRole('link')).toBeNull();
+    expect(sheet.getByText('Sunshine Daydream')).toBeInTheDocument(); // tag
   });
 
   it('puts the chrome to sleep after idle and wakes it on activity', async () => {

@@ -6,8 +6,6 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1977",
-  "collection": "Spring 1977",
-  "tags": ["1977", "Cornell", "Barton Hall"],
   "songs": [
     { "title": "New Minglewood Blues", "duration": "4:47" },
     { "title": "Loser", "duration": "7:30" },

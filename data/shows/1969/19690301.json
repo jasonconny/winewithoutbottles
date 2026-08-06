@@ -6,8 +6,7 @@
   "state": "CA",
   "country": "USA",
   "tour": "1969",
-  "collection": "Fillmore West 1969",
-  "tags": ["1969", "Dark Star", "Live/Dead"],
+  "tags": ["Dark Star", "Live/Dead"],
   "songs": [
     { "title": "That's It for the Other One", "duration": "21:22" },
     { "title": "New Potato Caboose", "duration": "11:43" },

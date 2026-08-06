@@ -6,8 +6,7 @@
   "state": "CA",
   "country": "USA",
   "tour": "Fall 1974",
-  "collection": "Winterland 1974",
-  "tags": ["1974", "Wall of Sound", "Winterland"],
+  "tags": ["Wall of Sound"],
   "songs": [
     { "title": "Bertha", "duration": "5:31" },
     { "title": "Jack Straw", "duration": "6:08" },

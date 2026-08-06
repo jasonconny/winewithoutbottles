@@ -1,10 +1,14 @@
 import { shows } from '@/data/shows.generated';
 import {
   RESERVED_SLUGS,
+  RUN_MAX_GAP_DAYS,
   VENUE_MIN_SHOWS,
   allShowsGallery,
+  allSubGalleries,
   buildGalleries,
+  buildRuns,
   findGallery,
+  findRunForShow,
   gallerySections,
   slugify,
 } from '@/galleries';
@@ -45,7 +49,9 @@ function venueRun(
   );
 }
 
-const subGalleries = gallerySections.flatMap((section) => section.galleries);
+// Every gallery page, drawer-listed or not — run pages are routed without
+// appearing in the nav, so `gallerySections` would miss them here.
+const subGalleries = allSubGalleries;
 
 describe('slugify', () => {
   it('lowercases, hyphenates, and strips diacritics + edge punctuation', () => {
@@ -207,5 +213,102 @@ describe('buildGalleries (synthetic corpora)', () => {
     expect(
       registry.sections.find((section) => section.label === 'Tours'),
     ).toBeUndefined(); // empty sections are dropped
+  });
+});
+
+describe('buildRuns', () => {
+  /** Shows at one venue on the given days of 1970-01. */
+  function nights(venue: string, days: number[]): ShowSummary[] {
+    return days.map((day) =>
+      stubShow({ venue, date: `1970-01-${String(day).padStart(2, '0')}` }),
+    );
+  }
+
+  it('needs two shows — a one-off night is not a run', () => {
+    expect(buildRuns(nights('Fillmore', [1]))).toEqual([]);
+  });
+
+  it('bridges dark days up to the gap limit', () => {
+    // The Madison Square Garden shape: nights with union dark days between.
+    const runs = buildRuns(nights('The Garden', [1, 2, 4, 5, 7]));
+    expect(runs).toHaveLength(1);
+    expect(runs[0].shows).toHaveLength(5);
+  });
+
+  it('splits once the gap exceeds the limit', () => {
+    const tooFar = RUN_MAX_GAP_DAYS + 1;
+    const runs = buildRuns(
+      nights('The Garden', [1, 2, 2 + tooFar, 3 + tooFar]),
+    );
+    expect(runs.map((run) => run.shows.length)).toEqual([2, 2]);
+  });
+
+  it('splits when the band played elsewhere in between', () => {
+    // Adjacent *performance* dates: an intervening show at another venue ends
+    // the run even though the dates would otherwise be close enough.
+    const runs = buildRuns([
+      ...nights('The Garden', [1, 2]),
+      ...nights('Elsewhere', [3]),
+      ...nights('The Garden', [4, 5]),
+    ]);
+    expect(runs).toHaveLength(2);
+    expect(runs.every((run) => run.shows.length === 2)).toBe(true);
+  });
+
+  it('keeps same-named venues in different cities apart', () => {
+    const runs = buildRuns([
+      stubShow({ venue: 'Capitol', city: 'Passaic', date: '1970-01-01' }),
+      stubShow({ venue: 'Capitol', city: 'Cardiff', date: '1970-01-02' }),
+    ]);
+    expect(runs).toEqual([]);
+  });
+
+  it('names a month-spanning run after its first show', () => {
+    const runs = buildRuns([
+      stubShow({ venue: 'Fillmore West', date: '1969-02-27' }),
+      stubShow({ venue: 'Fillmore West', date: '1969-02-28' }),
+      stubShow({ venue: 'Fillmore West', date: '1969-03-01' }),
+    ]);
+    expect(runs[0].name).toBe('Fillmore West February 1969');
+  });
+
+  it('is order-independent (sorts defensively)', () => {
+    const [first, second, third] = nights('The Garden', [1, 2, 3]);
+    expect(buildRuns([third, first, second])[0].shows).toHaveLength(3);
+  });
+});
+
+describe('runs in the real corpus', () => {
+  it('derives the two runs the retired `collection` field named by hand', () => {
+    const winterland = findGallery('winterland-arena-october-1974')!;
+    expect(winterland.kind).toBe('run');
+    expect(winterland.title).toBe('Winterland Arena October 1974');
+    expect(winterland.shows).toHaveLength(5);
+
+    // Spans Feb→Mar, so it is named for its first show, not the calendar month.
+    const fillmore = findGallery('fillmore-west-february-1969')!;
+    expect(fillmore.title).toBe('Fillmore West February 1969');
+    expect(fillmore.shows).toHaveLength(4);
+  });
+
+  it('bridges the Madison Square Garden dark days into one run', () => {
+    // 1988-09-14..24 is nine nights broken by two-day union gaps; naive
+    // date-adjacency would report three separate runs.
+    const run = findRunForShow('19880914')!;
+    expect(run.title).toBe('Madison Square Garden September 1988');
+    expect(run.shows).toHaveLength(9);
+    expect(findRunForShow('19880924')).toBe(run);
+  });
+
+  it('leaves one-off shows out of any run', () => {
+    expect(findRunForShow('19720827')).toBeUndefined(); // Veneta, single night
+  });
+
+  it('keeps runs out of the drawer but routable', () => {
+    const drawer = gallerySections.flatMap((section) => section.galleries);
+    expect(drawer.some((gallery) => gallery.kind === 'run')).toBe(false);
+    expect(allSubGalleries.some((gallery) => gallery.kind === 'run')).toBe(
+      true,
+    );
   });
 });

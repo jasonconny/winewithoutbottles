@@ -6,8 +6,7 @@
   "state": "CA",
   "country": "USA",
   "tour": "Fall 1974",
-  "collection": "Winterland 1974",
-  "tags": ["1974", "Wall of Sound", "Winterland"],
+  "tags": ["Wall of Sound"],
   "songs": [
     { "title": "Cold Rain and Snow", "duration": "5:29" },
     { "title": "Mama Tried", "duration": "2:26" },

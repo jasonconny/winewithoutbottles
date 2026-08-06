@@ -96,18 +96,29 @@
       font-weight: 400;
     }
 
+    // The sheet inverts the global type pairing (headings Roboto, body
+    // Merriweather — see index.scss): the location reads as serif and the
+    // supporting run/tags lines as sans, so the date <h2> stays the only
+    // Roboto heading here.
     h3 {
-      font-weight: 300;
+      font-family: 'Merriweather Variable', serif;
+      font-weight: 400;
       letter-spacing: 0.125em;
     }
   }
 
-  &-collection {
+  &-run {
     margin-top: 0.5rem;
+    font-family: 'Roboto Variable', sans-serif;
     font-style: italic;
+
+    a {
+      color: inherit;
+    }
   }
 
   &-tags {
+    font-family: 'Roboto Variable', sans-serif;
     list-style: none;
     margin: 0.5rem 0 0;
     padding: 0;

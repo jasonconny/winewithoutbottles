@@ -63,6 +63,50 @@ describe('show data is well-formed', () => {
   });
 });
 
+describe('tags stay an editorial vocabulary', () => {
+  const files = dataFiles();
+
+  it.each(files)('%s carries no retired `collection` field', (file) => {
+    // Retired in favour of derived facets (year/tour/venue/run) plus tags —
+    // it was single-valued, so it forced a "what wins?" choice that the
+    // many-to-many facets never have to make.
+    expect('collection' in readShow(file)).toBe(false);
+  });
+
+  it.each(files)('%s tags restate no other field', (file) => {
+    const show = readShow(file);
+    for (const tag of show.tags ?? []) {
+      // A year tag duplicates `date`, which already drives the year galleries.
+      expect(tag, `${file}: "${tag}" is a year — `).not.toMatch(/^\d{4}$/);
+      // Place/tour tags duplicate a field that already groups the show. Runs
+      // are derived (src/galleries.ts), so venue-shaped tags earn nothing.
+      expect(
+        show.venue?.includes(tag) || show.city === tag || show.tour === tag,
+        `${file}: tag "${tag}" restates venue/city/tour`,
+      ).toBe(false);
+    }
+  });
+
+  it('uses only known tags', () => {
+    // An allow-list, not a shape check: tags are headed for index pages, so a
+    // typo would quietly mint a phantom index. Adding a tag means adding it
+    // here — deliberately a small amount of friction.
+    const KNOWN_TAGS = [
+      'Dark Star',
+      'Final Show',
+      'Formerly the Warlocks',
+      'Live/Dead',
+      'Shows I Attended',
+      'Sunshine Daydream',
+      'Wall of Sound',
+    ];
+    const used = new Set(files.flatMap((file) => readShow(file).tags ?? []));
+    expect([...used].sort()).toEqual(
+      KNOWN_TAGS.filter((tag) => used.has(tag)).sort(),
+    );
+  });
+});
+
 describe('generated manifest is in sync with the data', () => {
   // Catches "added/removed a show but forgot to run `npm run generate`".
   // Only the id set is checked — not stripe content — so corrections to a

@@ -1,4 +1,4 @@
-import { allShowsGallery, gallerySections } from '../src/galleries.ts';
+import { allShowsGallery, allSubGalleries } from '../src/galleries.ts';
 
 /**
  * Which URLs the SPA actually serves — the Worker's half of the 404 story.
@@ -22,9 +22,10 @@ export const STATIC_PATHS = ['/', '/all', '/about', '/builder'];
  */
 const knownPaths = new Set<string>([
   ...STATIC_PATHS,
-  ...gallerySections
-    .flatMap(({ galleries }) => galleries)
-    .map(({ slug }) => `/${slug}`),
+  // Every gallery page, not just the drawer-listed ones — run pages are routed
+  // without appearing in the nav, so `gallerySections` would under-count here
+  // and the edge would 404 pages the SPA renders.
+  ...allSubGalleries.map(({ slug }) => `/${slug}`),
   ...allShowsGallery.shows.map(({ id }) => `/${id}`),
 ]);
 

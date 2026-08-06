@@ -6,8 +6,6 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1977",
-  "collection": "Spring 1977",
-  "tags": ["1977", "Buffalo"],
   "songs": [
     { "title": "Help On The Way", "duration": "4:41" },
     { "title": "Slipknot!", "duration": "7:37" },

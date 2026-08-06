@@ -6,8 +6,7 @@
   "state": "VA",
   "country": "USA",
   "tour": "Fall 1989",
-  "collection": "Formerly the Warlocks",
-  "tags": ["1989", "Hampton", "Formerly the Warlocks"],
+  "tags": ["Formerly the Warlocks"],
   "songs": [
     { "title": "Foolish Heart", "duration": "8:01" },
     { "title": "Walkin' Blues", "duration": "7:41" },
