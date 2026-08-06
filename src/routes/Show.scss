@@ -88,12 +88,15 @@ $info-veil-fallback: rgba(255, 255, 255, 0.5);
     // glass slid under the words. focus-visible rides along for keyboards.
     //
     // No padding on the fill: text-decoration underlines the whole inline box,
-    // so padding would push the dots out past the word on either side.
+    // so padding would push the dots out past the word on either side. The
+    // radius still softens the fill's corners without it — an inline
+    // background box is drawn to the font's height, not just the glyphs.
     a {
       color: inherit;
       text-decoration: underline dotted;
       text-decoration-thickness: 1px;
       text-underline-offset: 0.2em;
+      border-radius: 0.125rem;
       transition: background-color 0.25s ease;
 
       &:hover,
