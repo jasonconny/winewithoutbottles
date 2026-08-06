@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
+import { formatShowDate } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
 
@@ -34,19 +35,20 @@ export default function Show() {
   const location = [show.venue, show.city, show.state]
     .filter(Boolean)
     .join(', ');
+  const date = formatShowDate(show.date);
 
   return (
     // No click handler here: light-dismiss lives on the AppChrome root — a
     // click on the art bubbles up and closes the sheet and/or drawer.
     <main className="Show">
       <h1 className="Show-srOnly">
-        {show.date} — {location}
+        {date} — {location}
       </h1>
 
       <img
         className="Show-art"
         src={show.svg}
-        alt={`${show.date} setlist rendered as stripes`}
+        alt={`${date} setlist rendered as stripes`}
       />
 
       <button
@@ -68,7 +70,7 @@ export default function Show() {
         data-open={infoOpen || undefined}
         aria-label="Show information"
       >
-        <h2>{show.date}</h2>
+        <h2>{date}</h2>
         <h3 className="Show-location">{location}</h3>
         {show.collection && (
           <p className="Show-collection">{show.collection}</p>

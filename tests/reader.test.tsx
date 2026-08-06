@@ -9,6 +9,7 @@ import {
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
 import { shows } from '@/data/shows.generated';
+import { formatShowDate } from '@/date';
 
 // The Show route fetches per-show detail from /shows/<id>.json at runtime. Serve
 // those generated files from disk so the data router's loader resolves in jsdom.
@@ -45,10 +46,9 @@ describe('reader app', () => {
     expect(
       await screen.findByRole('heading', { name: /all shows/i }),
     ).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /1972-08-27/ })).toHaveAttribute(
-      'href',
-      '/19720827',
-    );
+    expect(
+      screen.getByRole('link', { name: /August 27, 1972/ }),
+    ).toHaveAttribute('href', '/19720827');
     // waitFor: the title is set in a passive effect, which can flush after
     // the DOM mutation that resolved the findBy above.
     await waitFor(() =>
@@ -59,7 +59,9 @@ describe('reader app', () => {
       show.durationSeconds > best.durationSeconds ? show : best,
     );
     expect(
-      screen.getByRole('link', { name: new RegExp(longest.date) }),
+      screen.getByRole('link', {
+        name: new RegExp(formatShowDate(longest.date)),
+      }),
     ).toHaveStyle({ width: '100%' });
     // Global chrome: the nav drawer is here too, inert until toggled.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
@@ -102,7 +104,7 @@ describe('reader app', () => {
     // Art appears once the loader's fetch resolves.
     expect(
       await screen.findByRole('img', {
-        name: '1972-08-27 setlist rendered as stripes',
+        name: 'August 27, 1972 setlist rendered as stripes',
       }),
     ).toBeInTheDocument();
     // Route-managed document metadata (waitFor: set in a passive effect that
