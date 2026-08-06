@@ -49,5 +49,3 @@ npm run generate                 # everything
 
 Pushes to `main` auto-deploy via GitHub Actions once CI passes. `npm run deploy`
 is available for manual deploys.
-
-noop
