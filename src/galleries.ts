@@ -13,7 +13,7 @@ import type { ShowSummary } from './wwob/index.ts';
  * reserved-word list — loudly, at build/test time, never silently at runtime.
  */
 
-export type GalleryKind = 'all' | 'year' | 'tour' | 'venue' | 'run';
+export type GalleryKind = 'all' | 'year' | 'tour' | 'venue' | 'run' | 'tag';
 
 export interface GalleryDef {
   /** Root-level URL segment ('' for the all-shows gallery at /all). */
@@ -45,6 +45,8 @@ export interface GalleryRegistry {
   bySlug: Map<string, GalleryDef>;
   /** Show id → the run it belongs to, for shows that are part of one. */
   runByShowId: Map<string, GalleryDef>;
+  /** Tag name (as authored, not slugified) → its index page. */
+  tagByName: Map<string, GalleryDef>;
 }
 
 /** A venue needs this many shows to earn its own gallery page. */
@@ -196,6 +198,26 @@ function groupBy(
 }
 
 /**
+ * Group shows by EACH of several keys — unlike `groupBy`, one show can land in
+ * more than one group. Tags are many-per-show, which is the whole point of
+ * them being the editorial layer.
+ */
+function groupByEach(
+  source: ShowSummary[],
+  keysOf: (show: ShowSummary) => string[],
+): Map<string, ShowSummary[]> {
+  const groups = new Map<string, ShowSummary[]>();
+  for (const show of source) {
+    for (const key of keysOf(show)) {
+      const group = groups.get(key);
+      if (group) group.push(show);
+      else groups.set(key, [show]);
+    }
+  }
+  return groups;
+}
+
+/**
  * Pure builder (exported for tests to feed synthetic corpora). Precedence on
  * slug collisions: years > tours > venues — years are always-complete
  * partitions of the corpus, so they win; anything else colliding throws.
@@ -307,6 +329,26 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
     for (const show of gallery.shows) runByShowId.set(show.id, gallery);
   }
 
+  // Tags — the editorial layer, so these are index pages rather than nav:
+  // reachable from the tags on a show, not from the drawer. Alphabetical by
+  // tag, and a show appears in every tag index it carries (many-to-many, which
+  // is exactly what the retired single-valued `collection` could not express).
+  const tagGalleries = [...groupByEach(source, (show) => show.tags ?? [])]
+    .sort(([tagA], [tagB]) => tagA.localeCompare(tagB))
+    .map(
+      ([tag, tagShows]): GalleryDef => ({
+        slug: slugify(tag),
+        title: tag,
+        kind: 'tag',
+        shows: tagShows,
+      }),
+    );
+  for (const gallery of tagGalleries) register(bySlug, gallery);
+
+  // Keyed by the tag as authored — a tag gallery's title IS its tag.
+  const tagByName = new Map<string, GalleryDef>();
+  for (const gallery of tagGalleries) tagByName.set(gallery.title, gallery);
+
   // Drawer sections deliberately exclude runs — 40 entries would swamp the
   // nav. They are still real pages; `subGalleries` is what routes are built
   // from.
@@ -322,6 +364,7 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
     subGalleries: [...bySlug.values()],
     bySlug,
     runByShowId,
+    tagByName,
   };
 }
 
@@ -340,4 +383,14 @@ export function findGallery(slug: string): GalleryDef | undefined {
 /** The run a show belongs to, if any. Undefined for one-off shows. */
 export function findRunForShow(showId: string): GalleryDef | undefined {
   return registry.runByShowId.get(showId);
+}
+
+/**
+ * The index page for a tag, keyed by the tag as authored. Every tag in the
+ * corpus has one (they're derived from the corpus), so this only returns
+ * undefined for a tag that isn't in the data — callers should fall back to
+ * rendering the tag as plain text rather than linking nowhere.
+ */
+export function findTagGallery(tag: string): GalleryDef | undefined {
+  return registry.tagByName.get(tag);
 }
