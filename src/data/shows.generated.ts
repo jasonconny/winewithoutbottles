@@ -10,9 +10,7 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "1969",
-    "collection": "Fillmore West 1969",
     "tags": [
-      "1969",
       "Dark Star",
       "Live/Dead"
     ],
@@ -28,9 +26,7 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "1969",
-    "collection": "Fillmore West 1969",
     "tags": [
-      "1969",
       "Dark Star",
       "Live/Dead"
     ],
@@ -46,9 +42,7 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "1969",
-    "collection": "Fillmore West 1969",
     "tags": [
-      "1969",
       "Dark Star",
       "Live/Dead"
     ],
@@ -64,9 +58,7 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "1969",
-    "collection": "Fillmore West 1969",
     "tags": [
-      "1969",
       "Dark Star",
       "Live/Dead"
     ],
@@ -81,10 +73,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720407.svg",
     "songCount": 25,
     "durationSeconds": 9837
@@ -96,10 +84,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720408.svg",
     "songCount": 22,
     "durationSeconds": 10716
@@ -111,10 +95,6 @@ export const shows: ShowSummary[] = [
     "city": "Newcastle",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720411.svg",
     "songCount": 27,
     "durationSeconds": 12168
@@ -126,10 +106,6 @@ export const shows: ShowSummary[] = [
     "city": "Copenhagen",
     "country": "DNK",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720414.svg",
     "songCount": 29,
     "durationSeconds": 12421
@@ -141,10 +117,6 @@ export const shows: ShowSummary[] = [
     "city": "Aarhus",
     "country": "DNK",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720416.svg",
     "songCount": 26,
     "durationSeconds": 10197
@@ -156,10 +128,6 @@ export const shows: ShowSummary[] = [
     "city": "Copenhagen",
     "country": "DNK",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720417.svg",
     "songCount": 23,
     "durationSeconds": 11049
@@ -171,10 +139,6 @@ export const shows: ShowSummary[] = [
     "city": "Bremen",
     "country": "BRD",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720421.svg",
     "songCount": 10,
     "durationSeconds": 4775
@@ -186,10 +150,6 @@ export const shows: ShowSummary[] = [
     "city": "Düsseldorf",
     "country": "BRD",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720424.svg",
     "songCount": 26,
     "durationSeconds": 12312
@@ -201,10 +161,6 @@ export const shows: ShowSummary[] = [
     "city": "Frankfurt",
     "country": "BRD",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720426.svg",
     "songCount": 30,
     "durationSeconds": 13885
@@ -216,10 +172,6 @@ export const shows: ShowSummary[] = [
     "city": "Hamburg",
     "country": "BRD",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720429.svg",
     "songCount": 22,
     "durationSeconds": 10631
@@ -231,10 +183,6 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720503.svg",
     "songCount": 32,
     "durationSeconds": 13291
@@ -246,10 +194,6 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720504.svg",
     "songCount": 29,
     "durationSeconds": 12856
@@ -261,10 +205,6 @@ export const shows: ShowSummary[] = [
     "city": "Wigan",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720507.svg",
     "songCount": 27,
     "durationSeconds": 14348
@@ -276,10 +216,6 @@ export const shows: ShowSummary[] = [
     "city": "Amsterdam",
     "country": "HOL",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720510.svg",
     "songCount": 32,
     "durationSeconds": 12983
@@ -291,10 +227,6 @@ export const shows: ShowSummary[] = [
     "city": "Rotterdam",
     "country": "HOL",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720511.svg",
     "songCount": 29,
     "durationSeconds": 13459
@@ -306,10 +238,6 @@ export const shows: ShowSummary[] = [
     "city": "Lille",
     "country": "FRA",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720513.svg",
     "songCount": 25,
     "durationSeconds": 10156
@@ -321,10 +249,6 @@ export const shows: ShowSummary[] = [
     "city": "Luxembourg",
     "country": "LUX",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720516.svg",
     "songCount": 22,
     "durationSeconds": 8726
@@ -336,10 +260,6 @@ export const shows: ShowSummary[] = [
     "city": "Munich",
     "country": "BRD",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720518.svg",
     "songCount": 25,
     "durationSeconds": 11220
@@ -351,10 +271,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720523.svg",
     "songCount": 30,
     "durationSeconds": 12618
@@ -366,10 +282,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720524.svg",
     "songCount": 26,
     "durationSeconds": 11352
@@ -381,10 +293,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720525.svg",
     "songCount": 27,
     "durationSeconds": 12367
@@ -396,10 +304,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
-    "collection": "Europe 72",
-    "tags": [
-      "1972"
-    ],
     "svg": "/shows/19720526.svg",
     "songCount": 31,
     "durationSeconds": 13367
@@ -412,9 +316,7 @@ export const shows: ShowSummary[] = [
     "state": "OR",
     "country": "USA",
     "tour": "Summer 1972",
-    "collection": "Sunshine Daydream",
     "tags": [
-      "1972",
       "Sunshine Daydream",
       "Dark Star"
     ],
@@ -430,11 +332,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "Fall 1974",
-    "collection": "Winterland 1974",
     "tags": [
-      "1974",
-      "Wall of Sound",
-      "Winterland"
+      "Wall of Sound"
     ],
     "svg": "/shows/19741016.svg",
     "songCount": 24,
@@ -448,11 +347,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "Fall 1974",
-    "collection": "Winterland 1974",
     "tags": [
-      "1974",
-      "Wall of Sound",
-      "Winterland"
+      "Wall of Sound"
     ],
     "svg": "/shows/19741017.svg",
     "songCount": 28,
@@ -466,11 +362,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "Fall 1974",
-    "collection": "Winterland 1974",
     "tags": [
-      "1974",
-      "Wall of Sound",
-      "Winterland"
+      "Wall of Sound"
     ],
     "svg": "/shows/19741018.svg",
     "songCount": 26,
@@ -484,11 +377,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "Fall 1974",
-    "collection": "Winterland 1974",
     "tags": [
-      "1974",
-      "Wall of Sound",
-      "Winterland"
+      "Wall of Sound"
     ],
     "svg": "/shows/19741019.svg",
     "songCount": 32,
@@ -502,11 +392,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tour": "Fall 1974",
-    "collection": "Winterland 1974",
     "tags": [
-      "1974",
-      "Wall of Sound",
-      "Winterland"
+      "Wall of Sound"
     ],
     "svg": "/shows/19741020.svg",
     "songCount": 28,
@@ -520,10 +407,6 @@ export const shows: ShowSummary[] = [
     "state": "OR",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760603.svg",
     "songCount": 24,
     "durationSeconds": 10320
@@ -536,10 +419,6 @@ export const shows: ShowSummary[] = [
     "state": "OR",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760604.svg",
     "songCount": 28,
     "durationSeconds": 9671
@@ -552,10 +431,6 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760609.svg",
     "songCount": 23,
     "durationSeconds": 11219
@@ -568,10 +443,6 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760610.svg",
     "songCount": 22,
     "durationSeconds": 9979
@@ -584,10 +455,6 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760611.svg",
     "songCount": 24,
     "durationSeconds": 10382
@@ -600,10 +467,6 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760612.svg",
     "songCount": 25,
     "durationSeconds": 9087
@@ -616,10 +479,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760614.svg",
     "songCount": 23,
     "durationSeconds": 10980
@@ -632,10 +491,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760615.svg",
     "songCount": 21,
     "durationSeconds": 9847
@@ -648,10 +503,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760617.svg",
     "songCount": 24,
     "durationSeconds": 10475
@@ -664,10 +515,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760618.svg",
     "songCount": 20,
     "durationSeconds": 8395
@@ -680,10 +527,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760619.svg",
     "songCount": 20,
     "durationSeconds": 9825
@@ -696,10 +539,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760621.svg",
     "songCount": 22,
     "durationSeconds": 9318
@@ -712,10 +551,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760622.svg",
     "songCount": 21,
     "durationSeconds": 10701
@@ -728,10 +563,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760623.svg",
     "songCount": 25,
     "durationSeconds": 8755
@@ -744,10 +575,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760624.svg",
     "songCount": 18,
     "durationSeconds": 7851
@@ -760,10 +587,6 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760626.svg",
     "songCount": 22,
     "durationSeconds": 9327
@@ -776,10 +599,6 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760627.svg",
     "songCount": 20,
     "durationSeconds": 8212
@@ -792,10 +611,6 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760628.svg",
     "songCount": 18,
     "durationSeconds": 7887
@@ -808,10 +623,6 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "June 1976",
-    "collection": "June 1976",
-    "tags": [
-      "1976"
-    ],
     "svg": "/shows/19760629.svg",
     "songCount": 22,
     "durationSeconds": 9180
@@ -824,10 +635,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770422.svg",
     "songCount": 18,
     "durationSeconds": 8617
@@ -840,10 +647,6 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770423.svg",
     "songCount": 20,
     "durationSeconds": 8812
@@ -856,10 +659,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770425.svg",
     "songCount": 21,
     "durationSeconds": 8709
@@ -872,10 +671,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770426.svg",
     "songCount": 17,
     "durationSeconds": 7904
@@ -888,10 +683,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770427.svg",
     "songCount": 18,
     "durationSeconds": 8245
@@ -904,10 +695,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770429.svg",
     "songCount": 23,
     "durationSeconds": 9890
@@ -920,10 +707,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770430.svg",
     "songCount": 21,
     "durationSeconds": 8638
@@ -936,10 +719,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770501.svg",
     "songCount": 21,
     "durationSeconds": 8371
@@ -952,10 +731,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770503.svg",
     "songCount": 24,
     "durationSeconds": 10294
@@ -968,10 +743,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770504.svg",
     "songCount": 17,
     "durationSeconds": 9178
@@ -984,10 +755,6 @@ export const shows: ShowSummary[] = [
     "state": "CT",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770505.svg",
     "songCount": 19,
     "durationSeconds": 8483
@@ -1000,11 +767,6 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977",
-      "Boston"
-    ],
     "svg": "/shows/19770507.svg",
     "songCount": 20,
     "durationSeconds": 9303
@@ -1017,12 +779,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977",
-      "Cornell",
-      "Barton Hall"
-    ],
     "svg": "/shows/19770508.svg",
     "songCount": 20,
     "durationSeconds": 9130
@@ -1035,11 +791,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977",
-      "Buffalo"
-    ],
     "svg": "/shows/19770509.svg",
     "songCount": 21,
     "durationSeconds": 8882
@@ -1052,10 +803,6 @@ export const shows: ShowSummary[] = [
     "state": "MN",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770511.svg",
     "songCount": 24,
     "durationSeconds": 10240
@@ -1068,10 +815,6 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770512.svg",
     "songCount": 21,
     "durationSeconds": 9174
@@ -1084,10 +827,6 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770513.svg",
     "songCount": 20,
     "durationSeconds": 8490
@@ -1100,10 +839,6 @@ export const shows: ShowSummary[] = [
     "state": "MO",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770515.svg",
     "songCount": 21,
     "durationSeconds": 9059
@@ -1116,10 +851,6 @@ export const shows: ShowSummary[] = [
     "state": "AL",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770517.svg",
     "songCount": 25,
     "durationSeconds": 11443
@@ -1132,10 +863,6 @@ export const shows: ShowSummary[] = [
     "state": "GA",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770518.svg",
     "songCount": 19,
     "durationSeconds": 8840
@@ -1148,10 +875,6 @@ export const shows: ShowSummary[] = [
     "state": "GA",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770519.svg",
     "songCount": 19,
     "durationSeconds": 10220
@@ -1164,10 +887,6 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770521.svg",
     "songCount": 24,
     "durationSeconds": 10776
@@ -1180,10 +899,6 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770522.svg",
     "songCount": 24,
     "durationSeconds": 11189
@@ -1196,10 +911,6 @@ export const shows: ShowSummary[] = [
     "state": "VA",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770525.svg",
     "songCount": 22,
     "durationSeconds": 9635
@@ -1212,10 +923,6 @@ export const shows: ShowSummary[] = [
     "state": "MD",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770526.svg",
     "songCount": 22,
     "durationSeconds": 9692
@@ -1228,10 +935,6 @@ export const shows: ShowSummary[] = [
     "state": "CT",
     "country": "USA",
     "tour": "Spring 1977",
-    "collection": "Spring 1977",
-    "tags": [
-      "1977"
-    ],
     "svg": "/shows/19770528.svg",
     "songCount": 21,
     "durationSeconds": 10008
@@ -1243,10 +946,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1979"
-    ],
     "svg": "/shows/19790107.svg",
     "songCount": 20,
     "durationSeconds": 8718
@@ -1258,10 +957,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1979"
-    ],
     "svg": "/shows/19790108.svg",
     "songCount": 21,
     "durationSeconds": 10138
@@ -1273,10 +968,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1979"
-    ],
     "svg": "/shows/19790904.svg",
     "songCount": 19,
     "durationSeconds": 9461
@@ -1288,10 +979,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1979"
-    ],
     "svg": "/shows/19790905.svg",
     "songCount": 19,
     "durationSeconds": 9464
@@ -1303,10 +990,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1979"
-    ],
     "svg": "/shows/19790906.svg",
     "songCount": 22,
     "durationSeconds": 9972
@@ -1318,10 +1001,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1981"
-    ],
     "svg": "/shows/19810309.svg",
     "songCount": 21,
     "durationSeconds": 10331
@@ -1333,10 +1012,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1981"
-    ],
     "svg": "/shows/19810310.svg",
     "songCount": 24,
     "durationSeconds": 10297
@@ -1348,10 +1023,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1982"
-    ],
     "svg": "/shows/19820920.svg",
     "songCount": 22,
     "durationSeconds": 10006
@@ -1363,10 +1034,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1982"
-    ],
     "svg": "/shows/19820921.svg",
     "songCount": 22,
     "durationSeconds": 10264
@@ -1378,10 +1045,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1983"
-    ],
     "svg": "/shows/19831011.svg",
     "songCount": 20,
     "durationSeconds": 8459
@@ -1393,10 +1056,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1983"
-    ],
     "svg": "/shows/19831012.svg",
     "songCount": 20,
     "durationSeconds": 10237
@@ -1408,10 +1067,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1987"
-    ],
     "svg": "/shows/19870915.svg",
     "songCount": 20,
     "durationSeconds": 7838
@@ -1423,10 +1078,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1987"
-    ],
     "svg": "/shows/19870916.svg",
     "songCount": 21,
     "durationSeconds": 9114
@@ -1438,10 +1089,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1987"
-    ],
     "svg": "/shows/19870918.svg",
     "songCount": 18,
     "durationSeconds": 7774
@@ -1453,10 +1100,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1987"
-    ],
     "svg": "/shows/19870919.svg",
     "songCount": 19,
     "durationSeconds": 7725
@@ -1468,10 +1111,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1987"
-    ],
     "svg": "/shows/19870920.svg",
     "songCount": 20,
     "durationSeconds": 8082
@@ -1483,10 +1122,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880914.svg",
     "songCount": 20,
     "durationSeconds": 8356
@@ -1498,10 +1133,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880915.svg",
     "songCount": 18,
     "durationSeconds": 7797
@@ -1513,10 +1144,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880916.svg",
     "songCount": 20,
     "durationSeconds": 8928
@@ -1528,10 +1155,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880918.svg",
     "songCount": 18,
     "durationSeconds": 8030
@@ -1543,10 +1166,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880919.svg",
     "songCount": 19,
     "durationSeconds": 7988
@@ -1558,10 +1177,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880920.svg",
     "songCount": 18,
     "durationSeconds": 8043
@@ -1573,10 +1188,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880922.svg",
     "songCount": 20,
     "durationSeconds": 7789
@@ -1588,10 +1199,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880923.svg",
     "songCount": 19,
     "durationSeconds": 8257
@@ -1603,10 +1210,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1988"
-    ],
     "svg": "/shows/19880924.svg",
     "songCount": 21,
     "durationSeconds": 9599
@@ -1619,10 +1222,7 @@ export const shows: ShowSummary[] = [
     "state": "VA",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Formerly the Warlocks",
     "tags": [
-      "1989",
-      "Hampton",
       "Formerly the Warlocks"
     ],
     "svg": "/shows/19891008.svg",
@@ -1637,10 +1237,7 @@ export const shows: ShowSummary[] = [
     "state": "VA",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Formerly the Warlocks",
     "tags": [
-      "1989",
-      "Hampton",
       "Formerly the Warlocks",
       "Dark Star"
     ],
@@ -1656,10 +1253,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891011.svg",
     "songCount": 20,
     "durationSeconds": 9064
@@ -1672,10 +1265,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891012.svg",
     "songCount": 17,
     "durationSeconds": 8525
@@ -1688,10 +1277,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891014.svg",
     "songCount": 18,
     "durationSeconds": 7837
@@ -1704,10 +1289,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891015.svg",
     "songCount": 18,
     "durationSeconds": 8278
@@ -1720,10 +1301,6 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891016.svg",
     "songCount": 20,
     "durationSeconds": 8267
@@ -1736,10 +1313,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891018.svg",
     "songCount": 20,
     "durationSeconds": 8977
@@ -1752,10 +1325,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891019.svg",
     "songCount": 22,
     "durationSeconds": 8742
@@ -1768,10 +1337,6 @@ export const shows: ShowSummary[] = [
     "state": "PA",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891020.svg",
     "songCount": 22,
     "durationSeconds": 10489
@@ -1784,10 +1349,6 @@ export const shows: ShowSummary[] = [
     "state": "NC",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891022.svg",
     "songCount": 21,
     "durationSeconds": 8961
@@ -1800,10 +1361,6 @@ export const shows: ShowSummary[] = [
     "state": "NC",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891023.svg",
     "songCount": 20,
     "durationSeconds": 8903
@@ -1816,10 +1373,6 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891025.svg",
     "songCount": 19,
     "durationSeconds": 9269
@@ -1832,10 +1385,6 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Fall 1989",
-    "collection": "Fall 1989",
-    "tags": [
-      "1989"
-    ],
     "svg": "/shows/19891026.svg",
     "songCount": 18,
     "durationSeconds": 8645
@@ -1848,10 +1397,6 @@ export const shows: ShowSummary[] = [
     "state": "MD",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900314.svg",
     "songCount": 20,
     "durationSeconds": 8699
@@ -1864,10 +1409,6 @@ export const shows: ShowSummary[] = [
     "state": "MD",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900315.svg",
     "songCount": 21,
     "durationSeconds": 10031
@@ -1880,10 +1421,6 @@ export const shows: ShowSummary[] = [
     "state": "MD",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900316.svg",
     "songCount": 20,
     "durationSeconds": 9837
@@ -1896,10 +1433,6 @@ export const shows: ShowSummary[] = [
     "state": "CT",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900318.svg",
     "songCount": 21,
     "durationSeconds": 9662
@@ -1912,10 +1445,6 @@ export const shows: ShowSummary[] = [
     "state": "CT",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900319.svg",
     "songCount": 19,
     "durationSeconds": 8846
@@ -1928,10 +1457,6 @@ export const shows: ShowSummary[] = [
     "state": "ON",
     "country": "CAN",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900321.svg",
     "songCount": 20,
     "durationSeconds": 9255
@@ -1944,10 +1469,6 @@ export const shows: ShowSummary[] = [
     "state": "ON",
     "country": "CAN",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900322.svg",
     "songCount": 21,
     "durationSeconds": 8931
@@ -1960,10 +1481,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900324.svg",
     "songCount": 20,
     "durationSeconds": 9161
@@ -1976,10 +1493,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900325.svg",
     "songCount": 20,
     "durationSeconds": 9224
@@ -1992,10 +1505,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900326.svg",
     "songCount": 20,
     "durationSeconds": 8630
@@ -2008,10 +1517,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900328.svg",
     "songCount": 19,
     "durationSeconds": 8469
@@ -2024,10 +1529,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900329.svg",
     "songCount": 17,
     "durationSeconds": 9113
@@ -2040,10 +1541,6 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900330.svg",
     "songCount": 21,
     "durationSeconds": 9151
@@ -2056,10 +1553,6 @@ export const shows: ShowSummary[] = [
     "state": "GA",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900401.svg",
     "songCount": 22,
     "durationSeconds": 9521
@@ -2072,10 +1565,6 @@ export const shows: ShowSummary[] = [
     "state": "GA",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900402.svg",
     "songCount": 18,
     "durationSeconds": 8207
@@ -2088,10 +1577,6 @@ export const shows: ShowSummary[] = [
     "state": "GA",
     "country": "USA",
     "tour": "Spring 1990",
-    "collection": "Spring 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900403.svg",
     "songCount": 20,
     "durationSeconds": 9469
@@ -2103,9 +1588,8 @@ export const shows: ShowSummary[] = [
     "city": "Buffalo",
     "state": "NY",
     "country": "USA",
-    "collection": "Shows I Attended",
     "tags": [
-      "1990"
+      "Shows I Attended"
     ],
     "svg": "/shows/19900716.svg",
     "songCount": 24,
@@ -2118,10 +1602,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900914.svg",
     "songCount": 19,
     "durationSeconds": 10331
@@ -2133,10 +1613,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900915.svg",
     "songCount": 21,
     "durationSeconds": 9908
@@ -2148,10 +1624,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900916.svg",
     "songCount": 20,
     "durationSeconds": 10781
@@ -2163,10 +1635,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900918.svg",
     "songCount": 18,
     "durationSeconds": 10967
@@ -2178,10 +1646,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900919.svg",
     "songCount": 21,
     "durationSeconds": 10592
@@ -2193,10 +1657,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19900920.svg",
     "songCount": 20,
     "durationSeconds": 10264
@@ -2208,10 +1668,6 @@ export const shows: ShowSummary[] = [
     "city": "Stockholm",
     "country": "SWE",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901013.svg",
     "songCount": 19,
     "durationSeconds": 8479
@@ -2223,10 +1679,6 @@ export const shows: ShowSummary[] = [
     "city": "Essen",
     "country": "DEU",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901017.svg",
     "songCount": 21,
     "durationSeconds": 8429
@@ -2238,10 +1690,6 @@ export const shows: ShowSummary[] = [
     "city": "Berlin",
     "country": "DEU",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901019.svg",
     "songCount": 20,
     "durationSeconds": 9710
@@ -2253,10 +1701,6 @@ export const shows: ShowSummary[] = [
     "city": "Berlin",
     "country": "DEU",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901020.svg",
     "songCount": 21,
     "durationSeconds": 8651
@@ -2268,10 +1712,6 @@ export const shows: ShowSummary[] = [
     "city": "Frankfurt",
     "country": "DEU",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901022.svg",
     "songCount": 19,
     "durationSeconds": 8320
@@ -2283,10 +1723,6 @@ export const shows: ShowSummary[] = [
     "city": "Hamburg",
     "country": "DEU",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901024.svg",
     "songCount": 21,
     "durationSeconds": 8767
@@ -2298,10 +1734,6 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901027.svg",
     "songCount": 21,
     "durationSeconds": 9984
@@ -2313,10 +1745,6 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901028.svg",
     "songCount": 20,
     "durationSeconds": 9644
@@ -2328,10 +1756,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901030.svg",
     "songCount": 20,
     "durationSeconds": 9051
@@ -2343,10 +1767,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901031.svg",
     "songCount": 22,
     "durationSeconds": 11233
@@ -2358,10 +1778,6 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1990",
-    "collection": "Europe 1990",
-    "tags": [
-      "1990"
-    ],
     "svg": "/shows/19901101.svg",
     "songCount": 20,
     "durationSeconds": 9567
@@ -2373,10 +1789,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910908.svg",
     "songCount": 19,
     "durationSeconds": 10016
@@ -2388,10 +1800,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910909.svg",
     "songCount": 18,
     "durationSeconds": 9045
@@ -2403,10 +1811,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910910.svg",
     "songCount": 19,
     "durationSeconds": 9737
@@ -2418,10 +1822,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910912.svg",
     "songCount": 20,
     "durationSeconds": 9539
@@ -2433,10 +1833,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910913.svg",
     "songCount": 18,
     "durationSeconds": 10387
@@ -2448,10 +1844,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910914.svg",
     "songCount": 19,
     "durationSeconds": 8520
@@ -2463,10 +1855,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910916.svg",
     "songCount": 19,
     "durationSeconds": 9486
@@ -2478,10 +1866,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910917.svg",
     "songCount": 19,
     "durationSeconds": 9627
@@ -2493,10 +1877,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1991"
-    ],
     "svg": "/shows/19910918.svg",
     "songCount": 18,
     "durationSeconds": 9358
@@ -2508,9 +1888,8 @@ export const shows: ShowSummary[] = [
     "city": "Buffalo",
     "state": "NY",
     "country": "USA",
-    "collection": "Shows I Attended",
     "tags": [
-      "1992"
+      "Shows I Attended"
     ],
     "svg": "/shows/19920606.svg",
     "songCount": 20,
@@ -2523,9 +1902,8 @@ export const shows: ShowSummary[] = [
     "city": "East Rutherford",
     "state": "NJ",
     "country": "USA",
-    "collection": "Shows I Attended",
     "tags": [
-      "1993"
+      "Shows I Attended"
     ],
     "svg": "/shows/19930606.svg",
     "songCount": 18,
@@ -2538,9 +1916,8 @@ export const shows: ShowSummary[] = [
     "city": "Buffalo",
     "state": "NY",
     "country": "USA",
-    "collection": "Shows I Attended",
     "tags": [
-      "1993"
+      "Shows I Attended"
     ],
     "svg": "/shows/19930613.svg",
     "songCount": 19,
@@ -2553,10 +1930,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1993"
-    ],
     "svg": "/shows/19930916.svg",
     "songCount": 19,
     "durationSeconds": 9574
@@ -2568,10 +1941,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1993"
-    ],
     "svg": "/shows/19930917.svg",
     "songCount": 19,
     "durationSeconds": 9944
@@ -2583,10 +1952,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1993"
-    ],
     "svg": "/shows/19930918.svg",
     "songCount": 18,
     "durationSeconds": 9209
@@ -2598,10 +1963,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1993"
-    ],
     "svg": "/shows/19930920.svg",
     "songCount": 19,
     "durationSeconds": 9082
@@ -2613,10 +1974,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1993"
-    ],
     "svg": "/shows/19930921.svg",
     "songCount": 18,
     "durationSeconds": 8922
@@ -2628,10 +1985,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1993"
-    ],
     "svg": "/shows/19930922.svg",
     "songCount": 17,
     "durationSeconds": 8917
@@ -2643,10 +1996,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1994"
-    ],
     "svg": "/shows/19941013.svg",
     "songCount": 19,
     "durationSeconds": 10128
@@ -2658,10 +2007,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1994"
-    ],
     "svg": "/shows/19941014.svg",
     "songCount": 19,
     "durationSeconds": 9989
@@ -2673,10 +2018,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1994"
-    ],
     "svg": "/shows/19941015.svg",
     "songCount": 18,
     "durationSeconds": 9175
@@ -2688,10 +2029,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1994"
-    ],
     "svg": "/shows/19941017.svg",
     "songCount": 17,
     "durationSeconds": 9941
@@ -2703,10 +2040,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1994"
-    ],
     "svg": "/shows/19941018.svg",
     "songCount": 19,
     "durationSeconds": 9453
@@ -2718,10 +2051,6 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "collection": "Madison Square Garden",
-    "tags": [
-      "1994"
-    ],
     "svg": "/shows/19941019.svg",
     "songCount": 17,
     "durationSeconds": 9643
@@ -2734,11 +2063,8 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "Summer 1995",
-    "collection": "Final Show",
     "tags": [
-      "1995",
-      "Final Show",
-      "Soldier Field"
+      "Final Show"
     ],
     "svg": "/shows/19950709.svg",
     "songCount": 18,

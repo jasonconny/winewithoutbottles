@@ -6,8 +6,7 @@
   "state": "OR",
   "country": "USA",
   "tour": "Summer 1972",
-  "collection": "Sunshine Daydream",
-  "tags": ["1972", "Sunshine Daydream", "Dark Star"],
+  "tags": ["Sunshine Daydream", "Dark Star"],
   "songs": [
     { "title": "Promised Land", "duration": "3:24" },
     { "title": "Sugaree", "duration": "7:30" },

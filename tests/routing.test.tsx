@@ -35,7 +35,7 @@ describe('routing', () => {
       expect(document.title).toBe('Wine Without Bottles: 1977'),
     );
     // Rows link to show pages; the name comes from the img alt.
-    expect(screen.getByRole('link', { name: /1977-05-08/ })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: /May 8, 1977/ })).toHaveAttribute(
       'href',
       '/19770508',
     );

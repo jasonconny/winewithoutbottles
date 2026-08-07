@@ -4,9 +4,8 @@
   "venue": "Rich Stadium",
   "city": "Buffalo",
   "state": "NY",
-  "collection": "Shows I Attended",
   "country": "USA",
-  "tags": ["1990"],
+  "tags": ["Shows I Attended"],
   "songs": [
     {
       "title": "Hell in a Bucket",

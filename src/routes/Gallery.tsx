@@ -2,6 +2,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import type { GalleryDef } from '@/galleries';
 import { PAGE_GROUND } from '@/theme';
 import { usePageMeta } from '@/hooks/usePageMeta';
+import { formatShowDate } from '@/date';
 import './Gallery.scss';
 
 /**
@@ -37,7 +38,7 @@ export default function Gallery() {
             >
               <img
                 src={show.svg}
-                alt={`${show.date} — ${show.venue}, ${show.city}`}
+                alt={`${formatShowDate(show.date)} — ${show.venue}, ${show.city}`}
                 loading="lazy"
               />
             </Link>

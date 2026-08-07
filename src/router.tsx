@@ -1,6 +1,6 @@
 import type { LoaderFunctionArgs, RouteObject } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
-import { allShowsGallery, gallerySections } from '@/galleries';
+import { allShowsGallery, allSubGalleries } from '@/galleries';
 import AppChrome from './components/AppChrome';
 import Home from './routes/Home';
 import Builder from './routes/Builder';
@@ -27,22 +27,23 @@ async function showLoader({ params }: LoaderFunctionArgs): Promise<ShowDetail> {
 }
 
 // Gallery pages: /all plus one static route per registry slug (/1977,
-// /spring-1977, /madison-square-garden, …). The registry is build-time static
-// data, so generating routes from it at module scope is safe, and its slug
-// guards (uniqueness, reserved words, never show-id-shaped) keep this root
-// namespace collision-free — see src/galleries.ts. Each loader hands the
-// route's GalleryDef straight to the Gallery component; it cannot fail, so no
-// errorElement is needed.
+// /spring-1977, /madison-square-garden, /winterland-arena-october-1974, …).
+// The registry is build-time static data, so generating routes from it at
+// module scope is safe, and its slug guards (uniqueness, reserved words, never
+// show-id-shaped) keep this root namespace collision-free — see
+// src/galleries.ts. Each loader hands the route's GalleryDef straight to the
+// Gallery component; it cannot fail, so no errorElement is needed.
+//
+// Built from `allSubGalleries`, not `gallerySections`: run pages are routed but
+// intentionally absent from the drawer, so the two lists are not the same.
 const galleryRoutes: RouteObject[] = [
   { path: '/all', element: <Gallery />, loader: () => allShowsGallery },
-  ...gallerySections.flatMap(({ galleries }) =>
-    galleries.map(
-      (gallery): RouteObject => ({
-        path: `/${gallery.slug}`,
-        element: <Gallery />,
-        loader: () => gallery,
-      }),
-    ),
+  ...allSubGalleries.map(
+    (gallery): RouteObject => ({
+      path: `/${gallery.slug}`,
+      element: <Gallery />,
+      loader: () => gallery,
+    }),
   ),
 ];
 

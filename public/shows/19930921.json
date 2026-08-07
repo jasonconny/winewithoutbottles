@@ -5,10 +5,6 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
-  "collection": "Madison Square Garden",
-  "tags": [
-    "1993"
-  ],
   "svg": "/shows/19930921.svg",
   "songCount": 18,
   "durationSeconds": 8922,

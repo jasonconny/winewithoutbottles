@@ -31,9 +31,13 @@ export interface ShowMeta {
   country?: string;
   /** Named tour, e.g. "Summer 1972". */
   tour?: string;
-  /** Curated grouping (from the FINAL collection folders), e.g. "Sunshine Daydream". */
-  collection?: string;
-  /** Faceted tags for navigation, e.g. ["1972", "Dark Star"]. */
+  /**
+   * Editorial tags — the many-to-many curation layer, aimed at tag index
+   * pages. Deliberately sparse: anything restating `date`/`tour`/`venue`/`city`
+   * belongs to those fields, and runs are derived (see `buildRuns` in
+   * src/galleries.ts), so a tag is only for what no facet can express, e.g.
+   * ["Dark Star", "Shows I Attended"].
+   */
   tags?: string[];
 }
 

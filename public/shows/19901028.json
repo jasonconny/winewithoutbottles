@@ -5,10 +5,6 @@
   "city": "Paris",
   "country": "FRA",
   "tour": "Europe 1990",
-  "collection": "Europe 1990",
-  "tags": [
-    "1990"
-  ],
   "svg": "/shows/19901028.svg",
   "songCount": 20,
   "durationSeconds": 9644,

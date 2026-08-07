@@ -5,10 +5,12 @@ import {
   render,
   screen,
   waitFor,
+  within,
 } from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
 import { shows } from '@/data/shows.generated';
+import { formatShowDate } from '@/date';
 
 // The Show route fetches per-show detail from /shows/<id>.json at runtime. Serve
 // those generated files from disk so the data router's loader resolves in jsdom.
@@ -45,10 +47,9 @@ describe('reader app', () => {
     expect(
       await screen.findByRole('heading', { name: /all shows/i }),
     ).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /1972-08-27/ })).toHaveAttribute(
-      'href',
-      '/19720827',
-    );
+    expect(
+      screen.getByRole('link', { name: /August 27, 1972/ }),
+    ).toHaveAttribute('href', '/19720827');
     // waitFor: the title is set in a passive effect, which can flush after
     // the DOM mutation that resolved the findBy above.
     await waitFor(() =>
@@ -59,7 +60,9 @@ describe('reader app', () => {
       show.durationSeconds > best.durationSeconds ? show : best,
     );
     expect(
-      screen.getByRole('link', { name: new RegExp(longest.date) }),
+      screen.getByRole('link', {
+        name: new RegExp(formatShowDate(longest.date)),
+      }),
     ).toHaveStyle({ width: '100%' });
     // Global chrome: the nav drawer is here too, inert until toggled.
     const navToggle = screen.getByRole('button', { name: 'WWOB' });
@@ -102,7 +105,7 @@ describe('reader app', () => {
     // Art appears once the loader's fetch resolves.
     expect(
       await screen.findByRole('img', {
-        name: '1972-08-27 setlist rendered as stripes',
+        name: 'August 27, 1972 setlist rendered as stripes',
       }),
     ).toBeInTheDocument();
     // Route-managed document metadata (waitFor: set in a passive effect that
@@ -132,6 +135,7 @@ describe('reader app', () => {
     expect(
       screen.getByText('Old Renaissance Faire Grounds, Veneta, OR'),
     ).toBeInTheDocument();
+    expect(screen.getByText('Sunshine Daydream')).toBeInTheDocument(); // tag
     // Light-dismiss: clicking anywhere else (e.g. the art) closes the panel…
     fireEvent.click(screen.getByRole('img'));
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
@@ -148,6 +152,61 @@ describe('reader app', () => {
     // Esc is the keyboard companion to light-dismiss.
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(infoToggle).toHaveAttribute('aria-expanded', 'false');
+  });
+
+  it('links a show to its run from the info sheet', async () => {
+    // 1974-10-16 opens the five-night Winterland stand. The run page is not in
+    // the drawer, so this link is the only way to reach it.
+    renderAt('/19741016');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    expect(
+      screen.getByRole('link', { name: 'Winterland Arena October 1974' }),
+    ).toHaveAttribute('href', '/winterland-arena-october-1974');
+  });
+
+  it('shows a run that spans dark days as one run', async () => {
+    // 1988-09-24 is the last of nine MSG nights broken by union dark days;
+    // naive date-adjacency would call this a separate three-night run.
+    renderAt('/19880924');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    expect(
+      screen.getByRole('link', {
+        name: 'Madison Square Garden September 1988',
+      }),
+    ).toBeInTheDocument();
+  });
+
+  it('omits the run line for a one-off show', async () => {
+    // Veneta 8/27/72 was a single night, so the sheet carries no run link.
+    // Scoped to the sheet: the drawer has year/tour links of its own.
+    renderAt('/19720827');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    // The year link is always there; it should be the sheet's ONLY link.
+    expect(sheet.getAllByRole('link')).toHaveLength(1);
+    expect(sheet.getByRole('link', { name: '1972' })).toHaveAttribute(
+      'href',
+      '/1972',
+    );
+    expect(sheet.getByText('Sunshine Daydream')).toBeInTheDocument(); // tag
+  });
+
+  it('links the year in the heading to that year gallery', async () => {
+    renderAt('/19741016');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    // Only the year is a link — the month and day stay plain text.
+    expect(sheet.getByRole('link', { name: '1974' })).toHaveAttribute(
+      'href',
+      '/1974',
+    );
+    expect(sheet.getByRole('heading', { level: 2 })).toHaveTextContent(
+      'October 16, 1974',
+    );
   });
 
   it('puts the chrome to sleep after idle and wakes it on activity', async () => {

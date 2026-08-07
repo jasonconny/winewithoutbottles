@@ -5,10 +5,6 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
-  "collection": "Madison Square Garden",
-  "tags": [
-    "1983"
-  ],
   "svg": "/shows/19831011.svg",
   "songCount": 20,
   "durationSeconds": 8459,

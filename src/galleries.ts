@@ -13,7 +13,7 @@ import type { ShowSummary } from './wwob/index.ts';
  * reserved-word list — loudly, at build/test time, never silently at runtime.
  */
 
-export type GalleryKind = 'all' | 'year' | 'tour' | 'venue';
+export type GalleryKind = 'all' | 'year' | 'tour' | 'venue' | 'run';
 
 export interface GalleryDef {
   /** Root-level URL segment ('' for the all-shows gallery at /all). */
@@ -33,14 +33,31 @@ export interface GallerySection {
 
 export interface GalleryRegistry {
   all: GalleryDef;
-  /** Non-empty sections only. */
+  /**
+   * Drawer navigation only — non-empty sections, and deliberately a subset of
+   * the pages that exist. Runs are routed but not listed (40 of them would
+   * swamp the drawer), so route builders must use `subGalleries`, not this.
+   */
   sections: GallerySection[];
+  /** Every sub-gallery page that exists (the all-shows root is not in here). */
+  subGalleries: GalleryDef[];
   /** Every sub-gallery by slug (the all-shows root is not in here). */
   bySlug: Map<string, GalleryDef>;
+  /** Show id → the run it belongs to, for shows that are part of one. */
+  runByShowId: Map<string, GalleryDef>;
 }
 
 /** A venue needs this many shows to earn its own gallery page. */
 export const VENUE_MIN_SHOWS = 10;
+
+/**
+ * How many days may separate two shows and still count as one run. A run is
+ * 2+ shows at one venue on *adjacent performance dates* — the band not playing
+ * in between (a "dark day", e.g. the union days that break up the Madison
+ * Square Garden stands) must not split it. 3 covers every gap in the corpus;
+ * anything larger is a separate visit.
+ */
+export const RUN_MAX_GAP_DAYS = 3;
 
 /** Root URL segments gallery slugs must never claim. */
 export const RESERVED_SLUGS = [
@@ -83,6 +100,83 @@ function register(bySlug: Map<string, GalleryDef>, gallery: GalleryDef): void {
     );
   }
   bySlug.set(slug, gallery);
+}
+
+const RUN_MONTHS = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+
+/**
+ * Physical venue identity. The bare name repeats across cities (two Capitol
+ * Theatres), and two venues sharing a name are not one run.
+ */
+function venueKey(show: ShowSummary): string {
+  return `${show.venue}|${show.city}|${show.state ?? ''}`;
+}
+
+/** ISO date → whole days since epoch, for gap arithmetic. */
+function toDayNumber(isoDate: string): number {
+  const [year, month, day] = isoDate.split('-').map(Number);
+  return Math.round(Date.UTC(year, month - 1, day) / 86_400_000);
+}
+
+/**
+ * A run is 2+ shows at one venue on adjacent performance dates: consecutive in
+ * the corpus (so the band played nowhere else in between) and no more than
+ * RUN_MAX_GAP_DAYS apart (so dark days don't split a stand). Named
+ * `Venue Month Year` from the run's FIRST show — three runs in the corpus cross
+ * a month boundary, which is why the name can't be derived from the calendar
+ * month alone.
+ *
+ * Derived rather than authored: it reproduces the groupings the retired
+ * `collection` field used to carry by hand, stays correct as shows are added,
+ * and puts no redundant string on the 137 shows that belong to a run.
+ *
+ * Sorts defensively — unlike the other groupings, membership here depends on
+ * source order, so an unsorted corpus would silently produce wrong runs.
+ */
+export function buildRuns(
+  source: ShowSummary[],
+): { name: string; shows: ShowSummary[] }[] {
+  const ordered = [...source].sort((showA, showB) =>
+    showA.date.localeCompare(showB.date),
+  );
+  const runs: ShowSummary[][] = [];
+  let current: ShowSummary[] = [];
+  for (const show of ordered) {
+    const previous = current[current.length - 1];
+    const continues =
+      previous !== undefined &&
+      venueKey(previous) === venueKey(show) &&
+      toDayNumber(show.date) - toDayNumber(previous.date) <= RUN_MAX_GAP_DAYS;
+    if (continues) {
+      current.push(show);
+    } else {
+      if (current.length > 1) runs.push(current);
+      current = [show];
+    }
+  }
+  if (current.length > 1) runs.push(current);
+
+  return runs.map((runShows) => {
+    const [first] = runShows;
+    const month = RUN_MONTHS[Number(first.date.slice(5, 7)) - 1];
+    return {
+      name: `${first.venue} ${month} ${first.date.slice(0, 4)}`,
+      shows: runShows,
+    };
+  });
 }
 
 /** Group shows into an insertion-ordered map (source order = date order). */
@@ -196,6 +290,26 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
     });
   for (const gallery of venueGalleries) register(bySlug, gallery);
 
+  // Runs last: the most specific slug (venue + month + year), so anything it
+  // collides with is a real problem and register() should throw.
+  const runGalleries = buildRuns(source).map(
+    ({ name, shows: runShows }): GalleryDef => ({
+      slug: slugify(name),
+      title: name,
+      kind: 'run',
+      shows: runShows,
+    }),
+  );
+  for (const gallery of runGalleries) register(bySlug, gallery);
+
+  const runByShowId = new Map<string, GalleryDef>();
+  for (const gallery of runGalleries) {
+    for (const show of gallery.shows) runByShowId.set(show.id, gallery);
+  }
+
+  // Drawer sections deliberately exclude runs — 40 entries would swamp the
+  // nav. They are still real pages; `subGalleries` is what routes are built
+  // from.
   const sections: GallerySection[] = [
     { label: 'Years', galleries: yearGalleries },
     { label: 'Tours', galleries: tourGalleries },
@@ -205,7 +319,9 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
   return {
     all: { slug: '', title: 'All Shows', kind: 'all', shows: source },
     sections,
+    subGalleries: [...bySlug.values()],
     bySlug,
+    runByShowId,
   };
 }
 
@@ -214,7 +330,14 @@ const registry = buildGalleries(shows);
 
 export const allShowsGallery = registry.all;
 export const gallerySections = registry.sections;
+/** Every sub-gallery page — what routers and the Worker enumerate. */
+export const allSubGalleries = registry.subGalleries;
 
 export function findGallery(slug: string): GalleryDef | undefined {
   return registry.bySlug.get(slug);
+}
+
+/** The run a show belongs to, if any. Undefined for one-off shows. */
+export function findRunForShow(showId: string): GalleryDef | undefined {
+  return registry.runByShowId.get(showId);
 }

@@ -6,8 +6,7 @@
   "state": "IL",
   "country": "USA",
   "tour": "Summer 1995",
-  "collection": "Final Show",
-  "tags": ["1995", "Final Show", "Soldier Field"],
+  "tags": ["Final Show"],
   "songs": [
     { "title": "Touch Of Grey", "duration": "7:35" },
     { "title": "Little Red Rooster", "duration": "7:44" },

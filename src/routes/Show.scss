@@ -1,6 +1,14 @@
 @use '../styles/a11y';
 @use '../styles/breakpoints' as bp;
 
+// The info sheet's frosted veil. Named because its links reuse the exact same
+// value as their hover/active fill — a link lights up as another pane of the
+// same glass, so the two must never drift apart.
+$info-veil: rgba(255, 255, 255, 0.2);
+// Stronger stand-in where backdrop-filter is unsupported and blur can't carry
+// legibility; the links follow it so the pairing holds there too.
+$info-veil-fallback: rgba(255, 255, 255, 0.5);
+
 // Show page content: the full-bleed piece and its info sheet. The chrome
 // (nav drawer, chip bar, sleep, pane compression) is AppChrome's — this file
 // only styles what the page itself contributes.
@@ -58,13 +66,44 @@
     color: rgba(0, 0, 0, 0.6);
     // Same frosted-glass trade as the chips: near-prototype translucency,
     // legibility carried by the blur (with a stronger-veil fallback).
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: $info-veil;
     backdrop-filter: blur(16px);
     visibility: hidden;
     opacity: 0;
 
     @supports not (backdrop-filter: blur(1px)) {
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: $info-veil-fallback;
+
+      a:hover,
+      a:focus-visible,
+      a:active {
+        background-color: $info-veil-fallback;
+      }
+    }
+
+    // Sheet links (the year in the heading, the run). A dotted underline is
+    // the at-rest affordance — quieter than a solid rule, and unlike the
+    // hover fill it survives on touch, where there is no hover at all. On
+    // hover/active they also take the sheet's own veil, as if another pane of
+    // glass slid under the words. focus-visible rides along for keyboards.
+    //
+    // No padding on the fill: text-decoration underlines the whole inline box,
+    // so padding would push the dots out past the word on either side. The
+    // radius still softens the fill's corners without it — an inline
+    // background box is drawn to the font's height, not just the glyphs.
+    a {
+      color: inherit;
+      text-decoration: underline dotted;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+      border-radius: 0.125rem;
+      transition: background-color 0.25s ease;
+
+      &:hover,
+      &:focus-visible,
+      &:active {
+        background-color: $info-veil;
+      }
     }
 
     @media (prefers-reduced-motion: no-preference) {
@@ -96,18 +135,25 @@
       font-weight: 400;
     }
 
+    // The sheet inverts the global type pairing (headings Roboto, body
+    // Merriweather — see index.scss): the location reads as serif and the
+    // supporting run/tags lines as sans, so the date <h2> stays the only
+    // Roboto heading here.
     h3 {
-      font-weight: 300;
+      font-family: 'Merriweather Variable', serif;
+      font-weight: 400;
       letter-spacing: 0.125em;
     }
   }
 
-  &-collection {
+  &-run {
     margin-top: 0.5rem;
+    font-family: 'Roboto Variable', sans-serif;
     font-style: italic;
   }
 
   &-tags {
+    font-family: 'Roboto Variable', sans-serif;
     list-style: none;
     margin: 0.5rem 0 0;
     padding: 0;

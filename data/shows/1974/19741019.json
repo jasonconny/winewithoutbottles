@@ -6,8 +6,7 @@
   "state": "CA",
   "country": "USA",
   "tour": "Fall 1974",
-  "collection": "Winterland 1974",
-  "tags": ["1974", "Wall of Sound", "Winterland"],
+  "tags": ["Wall of Sound"],
   "songs": [
     { "title": "Mississippi Half-Step Uptown Toodleoo", "duration": "7:48" },
     { "title": "Me and My Uncle", "duration": "2:47" },

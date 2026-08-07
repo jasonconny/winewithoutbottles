@@ -6,8 +6,7 @@
   "state": "CA",
   "country": "USA",
   "tour": "Fall 1974",
-  "collection": "Winterland 1974",
-  "tags": ["1974", "Wall of Sound", "Winterland"],
+  "tags": ["Wall of Sound"],
   "songs": [
     { "title": "Around And Around", "duration": "4:52" },
     { "title": "Sugaree", "duration": "7:09" },

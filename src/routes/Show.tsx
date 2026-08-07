@@ -1,8 +1,11 @@
 import { useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
+import { Link } from 'react-router-dom';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
+import { findRunForShow } from '@/galleries';
+import { formatShowDate, formatShowDateParts } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
 
@@ -34,19 +37,27 @@ export default function Show() {
   const location = [show.venue, show.city, show.state]
     .filter(Boolean)
     .join(', ');
+  const date = formatShowDate(show.date);
+  // The year gallery's slug *is* the year, and years partition the whole
+  // corpus, so `/<year>` always resolves for any show.
+  const { monthDay, year } = formatShowDateParts(show.date);
+  // Derived, not stored: runs depend on neighbouring shows, so they're computed
+  // from the complete bundled index rather than baked into per-show JSON that a
+  // filtered `npm run generate <id>` could leave stale.
+  const run = findRunForShow(show.id);
 
   return (
     // No click handler here: light-dismiss lives on the AppChrome root — a
     // click on the art bubbles up and closes the sheet and/or drawer.
     <main className="Show">
       <h1 className="Show-srOnly">
-        {show.date} — {location}
+        {date} — {location}
       </h1>
 
       <img
         className="Show-art"
         src={show.svg}
-        alt={`${show.date} setlist rendered as stripes`}
+        alt={`${date} setlist rendered as stripes`}
       />
 
       <button
@@ -68,10 +79,18 @@ export default function Show() {
         data-open={infoOpen || undefined}
         aria-label="Show information"
       >
-        <h2>{show.date}</h2>
+        <h2>
+          {monthDay}, <Link to={`/${year}`}>{year}</Link>
+        </h2>
         <h3 className="Show-location">{location}</h3>
-        {show.collection && (
-          <p className="Show-collection">{show.collection}</p>
+        {run && (
+          // The run page is not in the drawer (40 of them would swamp it), so
+          // this link is how a run is reached. Deliberately not stopping
+          // propagation: the click bubbles to AppChrome's light-dismiss, which
+          // is what should happen when navigating away — same as drawer links.
+          <p className="Show-run">
+            <Link to={`/${run.slug}`}>{run.title}</Link>
+          </p>
         )}
         {show.tags && show.tags.length > 0 && (
           <ul className="Show-tags">
