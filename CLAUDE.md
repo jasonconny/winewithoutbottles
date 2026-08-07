@@ -8,19 +8,11 @@ Wine Without Bottles — a web-based art project by Jason Conny that translates 
 
 ## Commands
 
-- `npm run dev` (alias `npm start`) — Vite dev server (HMR)
-- `npm run build` — typecheck (`tsc -b`) then production build to `dist/`
-- `npm run preview` — serve the production build locally
-- `npm run lint` — ESLint (flat config, `eslint.config.js`)
-- `npm run typecheck` — type-check only (`tsc -b --noEmit`)
-- `npm run format` / `npm run format:check` — Prettier write / verify
-- `npm test` — Vitest in watch mode
-- `npx vitest run` — run all tests once (CI-style)
-- `npx vitest run tests/Home.test.tsx` — run a single test file
+See `package.json` scripts; Node version is pinned in `.nvmrc`.
 
 `lint` and `typecheck` are separate steps: ESLint does not type-check, and `tsc` does not run lint rules. Run both.
 
-Node version is pinned in `.nvmrc` (26.3.0).
+`npx vitest run` runs the suite once (CI-style) — `npm test` is Vitest in **watch** mode, which will hang a non-interactive session.
 
 ## Architecture
 
