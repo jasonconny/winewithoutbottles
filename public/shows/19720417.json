@@ -5,6 +5,9 @@
   "city": "Copenhagen",
   "country": "DNK",
   "tour": "Europe 1972",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19720417.svg",
   "songCount": 23,
   "durationSeconds": 11049,

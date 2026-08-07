@@ -6,6 +6,7 @@
   "state": "NY",
   "tour": "Spring 1990",
   "country": "USA",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Jack Straw",

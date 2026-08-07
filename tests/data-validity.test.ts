@@ -15,6 +15,10 @@ const ID_RE = /^\d{8}$/;
 /** The `date` field stays ISO for display and sorting: 1972-08-27. */
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
+/** Wall of Sound era: debut at the Cow Palace → last night at Winterland. */
+const WALL_OF_SOUND_FIRST = '1974-03-23';
+const WALL_OF_SOUND_LAST = '1974-10-20';
+
 function dataFiles(): string[] {
   // Recursive: shows live in data/shows/<year>/<id>.json subdirectories.
   return (readdirSync(DATA_DIR, { recursive: true }) as string[])
@@ -85,6 +89,51 @@ describe('tags stay an editorial vocabulary', () => {
         `${file}: tag "${tag}" restates venue/city/tour`,
       ).toBe(false);
     }
+  });
+
+  it.each(files)('%s has no duplicate tags', (file) => {
+    const tags = readShow(file).tags ?? [];
+    expect(new Set(tags).size).toBe(tags.length);
+  });
+
+  it.each(files)('%s tags Dark Star iff it played it', (file) => {
+    // The one derivable tag we keep by hand. `Dark Star` is a special case —
+    // the song the project is built around — rather than the start of a
+    // per-song facet, so it stays authored; this guard is what stops it
+    // drifting out of sync when a setlist is corrected. Song indexes, if they
+    // ever happen, would supersede it.
+    //
+    // Once per show, not once per performance: 9 shows play it twice (the
+    // post-drums reprise) and still carry exactly one tag.
+    const show = readShow(file);
+    const played = show.songs.some((song) => song.title === 'Dark Star');
+    const tagged = (show.tags ?? []).includes('Dark Star');
+    expect(
+      tagged,
+      played
+        ? `${file}: plays Dark Star but is not tagged`
+        : `${file}: tagged Dark Star but never played it`,
+    ).toBe(played);
+  });
+
+  it.each(files)('%s tags Wall of Sound iff it fell in the era', (file) => {
+    // The second derivable-by-rule tag. The Wall of Sound PA debuted at the
+    // Cow Palace on 1974-03-23 and played its last night at Winterland on
+    // 1974-10-20, so era membership is purely a date range — every show
+    // inside it had the rig, and the handful of early-1974 shows before the
+    // debut did not. Deriving it from `date` rather than trusting the author
+    // means a newly-added 1974 show can't be tagged by hand incorrectly, in
+    // either direction.
+    const show = readShow(file);
+    const inEra =
+      show.date >= WALL_OF_SOUND_FIRST && show.date <= WALL_OF_SOUND_LAST;
+    const tagged = (show.tags ?? []).includes('Wall of Sound');
+    expect(
+      tagged,
+      inEra
+        ? `${file}: falls in the Wall of Sound era but is not tagged`
+        : `${file}: tagged Wall of Sound but falls outside ${WALL_OF_SOUND_FIRST}..${WALL_OF_SOUND_LAST}`,
+    ).toBe(inEra);
   });
 
   it('uses only known tags', () => {

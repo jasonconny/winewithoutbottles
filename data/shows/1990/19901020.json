@@ -5,6 +5,7 @@
   "city": "Berlin",
   "country": "DEU",
   "tour": "Europe 1990",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Jack Straw",

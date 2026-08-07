@@ -5,6 +5,7 @@
   "city": "Düsseldorf",
   "tour": "Europe 1972",
   "country": "BRD",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Truckin'",

@@ -5,6 +5,9 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19900920.svg",
   "songCount": 20,
   "durationSeconds": 10264,

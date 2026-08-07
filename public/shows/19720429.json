@@ -5,6 +5,9 @@
   "city": "Hamburg",
   "country": "BRD",
   "tour": "Europe 1972",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19720429.svg",
   "songCount": 22,
   "durationSeconds": 10631,

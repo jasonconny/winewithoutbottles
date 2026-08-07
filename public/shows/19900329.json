@@ -6,6 +6,9 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1990",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19900329.svg",
   "songCount": 17,
   "durationSeconds": 9113,

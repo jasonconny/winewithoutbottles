@@ -5,6 +5,7 @@
   "city": "Copenhagen",
   "tour": "Europe 1972",
   "country": "DNK",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Cold Rain and Snow",

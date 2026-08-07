@@ -5,6 +5,9 @@
   "city": "Wigan",
   "country": "ENG",
   "tour": "Europe 1972",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19720507.svg",
   "songCount": 27,
   "durationSeconds": 14348,

@@ -5,6 +5,7 @@
   "city": "Paris",
   "tour": "Europe 1972",
   "country": "FRA",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Greatest Story Ever Told",

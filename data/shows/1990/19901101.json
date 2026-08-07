@@ -5,6 +5,7 @@
   "city": "London",
   "country": "ENG",
   "tour": "Europe 1990",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Hell in a Bucket",

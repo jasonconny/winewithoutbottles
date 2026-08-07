@@ -5,6 +5,9 @@
   "city": "London",
   "country": "ENG",
   "tour": "Europe 1990",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19901101.svg",
   "songCount": 20,
   "durationSeconds": 9567,
