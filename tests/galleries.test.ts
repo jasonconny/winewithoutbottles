@@ -105,14 +105,14 @@ describe('gallery registry (real corpus)', () => {
     expect(slugs).toEqual([...slugs].sort());
   });
 
-  it('drops the bare-year "1969" tour — the year gallery wins', () => {
-    // Regression pin for the real collision: 4 shows carry tour "1969".
-    expect(shows.some((show) => show.tour === '1969')).toBe(true);
+  it('has no bare-year tour in the corpus', () => {
+    // The four 1969 Fillmore West shows used to carry tour "1969", which
+    // collided with the year gallery. They were never really a tour, so the
+    // field was dropped rather than worked around. The registry still handles
+    // the collision (year wins) — see the synthetic cases below, which are now
+    // the only coverage for it.
+    expect(shows.filter((show) => /^\d{4}$/.test(show.tour ?? ''))).toEqual([]);
     expect(findGallery('1969')!.kind).toBe('year');
-    const tours = gallerySections.find(
-      (section) => section.label === 'Tours',
-    )!.galleries;
-    expect(tours.map((gallery) => gallery.title)).not.toContain('1969');
   });
 
   it('only gives venues with enough shows a gallery', () => {

@@ -185,15 +185,43 @@ describe('reader app', () => {
     await screen.findByRole('img');
     fireEvent.click(screen.getByRole('button', { name: 'i' }));
     const sheet = within(document.getElementById('show-info')!);
-    // The sheet's links are exactly the year and the two tags — no run line.
+    // Year, tour, then the two tags — no run, since this was a single night.
     expect(sheet.getAllByRole('link').map((link) => link.textContent)).toEqual([
       '1972',
+      'Summer 1972',
       'Sunshine Daydream',
       'Dark Star',
     ]);
     expect(sheet.getByRole('link', { name: '1972' })).toHaveAttribute(
       'href',
       '/1972',
+    );
+  });
+
+  it('links the tour, before the run, on one line', async () => {
+    renderAt('/19741016');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    expect(sheet.getByRole('link', { name: 'Fall 1974' })).toHaveAttribute(
+      'href',
+      '/fall-1974',
+    );
+    // Both labelled, and tour precedes run in document order.
+    const line = document.querySelector('.Show-meta')!;
+    expect(line.textContent).toBe(
+      'Tour: Fall 1974Run: Winterland Arena October 1974',
+    );
+  });
+
+  it('shows only a run when a show has no tour', async () => {
+    // The 1969 Fillmore West nights carry no `tour` — they predate anything
+    // that was really a tour — so the meta line is the run alone.
+    renderAt('/19690227');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    expect(document.querySelector('.Show-meta')!.textContent).toBe(
+      'Run: Fillmore West February 1969',
     );
   });
 

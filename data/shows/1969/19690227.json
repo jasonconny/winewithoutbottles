@@ -5,7 +5,6 @@
   "city": "San Francisco",
   "state": "CA",
   "country": "USA",
-  "tour": "1969",
   "tags": ["Dark Star", "Live/Dead"],
   "songs": [
     { "title": "Good Morning Little Schoolgirl", "duration": "11:47" },

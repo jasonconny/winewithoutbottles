@@ -1,10 +1,9 @@
 import { useEffect } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
-import { Link } from 'react-router-dom';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
-import { findRunForShow, findTagGallery } from '@/galleries';
+import { findRunForShow, findTagGallery, findTourGallery } from '@/galleries';
 import { formatShowDate, formatShowDateParts } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
@@ -45,6 +44,7 @@ export default function Show() {
   // from the complete bundled index rather than baked into per-show JSON that a
   // filtered `npm run generate <id>` could leave stale.
   const run = findRunForShow(show.id);
+  const tour = show.tour ? findTourGallery(show.tour) : undefined;
 
   return (
     // No click handler here: light-dismiss lives on the AppChrome root — a
@@ -83,13 +83,32 @@ export default function Show() {
           {monthDay}, <Link to={`/${year}`}>{year}</Link>
         </h2>
         <h3 className="Show-location">{location}</h3>
-        {run && (
-          // The run page is not in the drawer (40 of them would swamp it), so
-          // this link is how a run is reached. Deliberately not stopping
-          // propagation: the click bubbles to AppChrome's light-dismiss, which
-          // is what should happen when navigating away — same as drawer links.
-          <p className="Show-run">
-            <Link to={`/${run.slug}`}>{run.title}</Link>
+        {(show.tour || run) && (
+          // Tour then run, on one line — widest grouping first. Neither page
+          // is in the drawer (40 runs would swamp it), so these links are how
+          // they're reached. Deliberately not stopping propagation: the click
+          // bubbles to AppChrome's light-dismiss, which is what should happen
+          // when navigating away — same as drawer links.
+          <p className="Show-meta">
+            {show.tour && (
+              <span className="Show-meta-item">
+                <span className="Show-meta-label">Tour:</span>{' '}
+                {tour ? (
+                  <Link to={`/${tour.slug}`}>{tour.title}</Link>
+                ) : (
+                  // A bare-year tour (e.g. "1969") has no page of its own —
+                  // the year gallery covers the same shows. Show the name as
+                  // plain text rather than link to a differently-titled page.
+                  show.tour
+                )}
+              </span>
+            )}
+            {run && (
+              <span className="Show-meta-item">
+                <span className="Show-meta-label">Run:</span>{' '}
+                <Link to={`/${run.slug}`}>{run.title}</Link>
+              </span>
+            )}
           </p>
         )}
         {show.tags && show.tags.length > 0 && (
