@@ -5,6 +5,9 @@
   "city": "Rotterdam",
   "country": "HOL",
   "tour": "Europe 1972",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19720511.svg",
   "songCount": 29,
   "durationSeconds": 13459,

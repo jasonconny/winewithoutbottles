@@ -185,13 +185,46 @@ describe('reader app', () => {
     await screen.findByRole('img');
     fireEvent.click(screen.getByRole('button', { name: 'i' }));
     const sheet = within(document.getElementById('show-info')!);
-    // The year link is always there; it should be the sheet's ONLY link.
-    expect(sheet.getAllByRole('link')).toHaveLength(1);
+    // The sheet's links are exactly the year and the two tags — no run line.
+    expect(sheet.getAllByRole('link').map((link) => link.textContent)).toEqual([
+      '1972',
+      'Sunshine Daydream',
+      'Dark Star',
+    ]);
     expect(sheet.getByRole('link', { name: '1972' })).toHaveAttribute(
       'href',
       '/1972',
     );
-    expect(sheet.getByText('Sunshine Daydream')).toBeInTheDocument(); // tag
+  });
+
+  it('links each tag to its tag index', async () => {
+    // 1989-10-09 carries two tags of different kinds — a named run and a song.
+    renderAt('/19891009');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    expect(
+      sheet.getByRole('link', { name: 'Formerly the Warlocks' }),
+    ).toHaveAttribute('href', '/formerly-the-warlocks');
+    expect(sheet.getByRole('link', { name: 'Dark Star' })).toHaveAttribute(
+      'href',
+      '/dark-star',
+    );
+  });
+
+  it('serves a tag index listing every show carrying that tag', async () => {
+    renderAt('/dark-star');
+    expect(
+      await screen.findByRole('heading', { name: 'Dark Star' }),
+    ).toBeInTheDocument();
+    await waitFor(() =>
+      expect(document.title).toBe('Wine Without Bottles: Dark Star'),
+    );
+    // A show reachable from more than one tag index proves the many-to-many
+    // grouping the retired single-valued `collection` could not express.
+    expect(
+      screen.getByRole('link', { name: /August 27, 1972/ }),
+    ).toHaveAttribute('href', '/19720827');
   });
 
   it('links the year in the heading to that year gallery', async () => {

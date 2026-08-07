@@ -161,9 +161,19 @@ $info-veil-fallback: rgba(255, 255, 255, 0.5);
     flex-wrap: wrap;
     column-gap: 0.5em;
 
-    // Prototype's inline "/ tag" treatment.
-    li::before {
-      content: '/ ';
+    // Pipe-delimited: "Wall of Sound | Dark Star | Some Other Tag" — a
+    // separator *between* tags, so there is no leading or trailing delimiter.
+    //
+    // ::after on all but the last (rather than ::before on all but the first)
+    // keeps the pipe attached to the tag it follows, so a wrapped list breaks
+    // after a separator instead of starting a line with one.
+    //
+    // Spacing is symmetric without hard-coding a space into the content
+    // string: `column-gap` opens the right side of the pipe, `margin-left`
+    // the left. Tuning the gap keeps both sides in step.
+    li:not(:last-child)::after {
+      content: '|';
+      margin-left: 0.5em;
     }
   }
 }

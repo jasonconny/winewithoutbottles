@@ -84,6 +84,9 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720408.svg",
     "songCount": 22,
     "durationSeconds": 10716
@@ -106,6 +109,9 @@ export const shows: ShowSummary[] = [
     "city": "Copenhagen",
     "country": "DNK",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720414.svg",
     "songCount": 29,
     "durationSeconds": 12421
@@ -128,6 +134,9 @@ export const shows: ShowSummary[] = [
     "city": "Copenhagen",
     "country": "DNK",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720417.svg",
     "songCount": 23,
     "durationSeconds": 11049
@@ -150,6 +159,9 @@ export const shows: ShowSummary[] = [
     "city": "Düsseldorf",
     "country": "BRD",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720424.svg",
     "songCount": 26,
     "durationSeconds": 12312
@@ -172,6 +184,9 @@ export const shows: ShowSummary[] = [
     "city": "Hamburg",
     "country": "BRD",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720429.svg",
     "songCount": 22,
     "durationSeconds": 10631
@@ -194,6 +209,9 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720504.svg",
     "songCount": 29,
     "durationSeconds": 12856
@@ -205,6 +223,9 @@ export const shows: ShowSummary[] = [
     "city": "Wigan",
     "country": "ENG",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720507.svg",
     "songCount": 27,
     "durationSeconds": 14348
@@ -227,6 +248,9 @@ export const shows: ShowSummary[] = [
     "city": "Rotterdam",
     "country": "HOL",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720511.svg",
     "songCount": 29,
     "durationSeconds": 13459
@@ -260,6 +284,9 @@ export const shows: ShowSummary[] = [
     "city": "Munich",
     "country": "BRD",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720518.svg",
     "songCount": 25,
     "durationSeconds": 11220
@@ -271,6 +298,9 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720523.svg",
     "songCount": 30,
     "durationSeconds": 12618
@@ -293,6 +323,9 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1972",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19720525.svg",
     "songCount": 27,
     "durationSeconds": 12367
@@ -363,7 +396,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Fall 1974",
     "tags": [
-      "Wall of Sound"
+      "Wall of Sound",
+      "Dark Star"
     ],
     "svg": "/shows/19741018.svg",
     "songCount": 26,
@@ -1301,6 +1335,9 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Fall 1989",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19891016.svg",
     "songCount": 20,
     "durationSeconds": 8267
@@ -1385,6 +1422,9 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Fall 1989",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19891026.svg",
     "songCount": 18,
     "durationSeconds": 8645
@@ -1529,6 +1569,9 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1990",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19900329.svg",
     "songCount": 17,
     "durationSeconds": 9113
@@ -1657,6 +1700,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19900920.svg",
     "songCount": 20,
     "durationSeconds": 10264
@@ -1701,6 +1747,9 @@ export const shows: ShowSummary[] = [
     "city": "Berlin",
     "country": "DEU",
     "tour": "Europe 1990",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19901020.svg",
     "songCount": 21,
     "durationSeconds": 8651
@@ -1778,6 +1827,9 @@ export const shows: ShowSummary[] = [
     "city": "London",
     "country": "ENG",
     "tour": "Europe 1990",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19901101.svg",
     "songCount": 20,
     "durationSeconds": 9567
@@ -1811,6 +1863,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19910910.svg",
     "songCount": 19,
     "durationSeconds": 9737
@@ -1985,6 +2040,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
     "svg": "/shows/19930922.svg",
     "songCount": 17,
     "durationSeconds": 8917

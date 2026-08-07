@@ -5,6 +5,7 @@
   "city": "London",
   "tour": "Europe 1972",
   "country": "ENG",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Bertha",

@@ -9,6 +9,7 @@ import {
   buildRuns,
   findGallery,
   findRunForShow,
+  findTagGallery,
   gallerySections,
   slugify,
 } from '@/galleries';
@@ -310,5 +311,70 @@ describe('runs in the real corpus', () => {
     expect(allSubGalleries.some((gallery) => gallery.kind === 'run')).toBe(
       true,
     );
+  });
+});
+
+describe('tag index galleries', () => {
+  it('gives every authored tag an index page, alphabetically', () => {
+    const tags = allSubGalleries.filter((gallery) => gallery.kind === 'tag');
+    expect(tags.map((gallery) => gallery.title)).toEqual([
+      'Dark Star',
+      'Final Show',
+      'Formerly the Warlocks',
+      'Live/Dead',
+      'Shows I Attended',
+      'Sunshine Daydream',
+      'Wall of Sound',
+    ]);
+    // Slugs survive the punctuation in "Live/Dead".
+    expect(findGallery('live-dead')!.title).toBe('Live/Dead');
+  });
+
+  it('matches each tag index against the corpus', () => {
+    for (const gallery of allSubGalleries.filter((g) => g.kind === 'tag')) {
+      const expected = shows.filter((show) =>
+        (show.tags ?? []).includes(gallery.title),
+      );
+      expect(gallery.shows).toEqual(expected);
+      expect(gallery.shows.length).toBeGreaterThan(0);
+    }
+  });
+
+  it('puts a multi-tagged show in every one of its indexes', () => {
+    // Many-to-many is the point: 8/27/72 is in both of its tag indexes, which
+    // the retired single-valued `collection` field could not express.
+    expect(
+      findGallery('dark-star')!.shows.some((show) => show.id === '19720827'),
+    ).toBe(true);
+    expect(
+      findGallery('sunshine-daydream')!.shows.some(
+        (show) => show.id === '19720827',
+      ),
+    ).toBe(true);
+  });
+
+  it('resolves a tag to its gallery by authored name', () => {
+    expect(findTagGallery('Wall of Sound')!.slug).toBe('wall-of-sound');
+    expect(findTagGallery('wall of sound')).toBeUndefined(); // exact, not fuzzy
+    expect(findTagGallery('Nonexistent')).toBeUndefined();
+  });
+
+  it('keeps tag indexes out of the drawer but routable', () => {
+    const drawer = gallerySections.flatMap((section) => section.galleries);
+    expect(drawer.some((gallery) => gallery.kind === 'tag')).toBe(false);
+    expect(allSubGalleries.some((gallery) => gallery.kind === 'tag')).toBe(
+      true,
+    );
+  });
+
+  it('groups a synthetic corpus by each tag independently', () => {
+    const registry = buildGalleries([
+      stubShow({ date: '1970-01-01', tags: ['Alpha', 'Beta'] }),
+      stubShow({ date: '1971-01-01', tags: ['Beta'] }),
+      stubShow({ date: '1972-01-01' }),
+    ]);
+    expect(registry.bySlug.get('alpha')!.shows).toHaveLength(1);
+    expect(registry.bySlug.get('beta')!.shows).toHaveLength(2);
+    expect(registry.bySlug.get('beta')!.kind).toBe('tag');
   });
 });

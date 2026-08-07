@@ -4,7 +4,7 @@ import type { ShowDetail } from '@/wwob';
 import { Link } from 'react-router-dom';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
-import { findRunForShow } from '@/galleries';
+import { findRunForShow, findTagGallery } from '@/galleries';
 import { formatShowDate, formatShowDateParts } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
@@ -94,9 +94,18 @@ export default function Show() {
         )}
         {show.tags && show.tags.length > 0 && (
           <ul className="Show-tags">
-            {show.tags.map((tag) => (
-              <li key={tag}>{tag}</li>
-            ))}
+            {show.tags.map((tag) => {
+              // Every authored tag has an index page (they're derived from the
+              // corpus), but fall back to plain text rather than linking
+              // nowhere if one ever doesn't. The pipe separator is a CSS
+              // ::after on the <li>, so it stays outside the link.
+              const gallery = findTagGallery(tag);
+              return (
+                <li key={tag}>
+                  {gallery ? <Link to={`/${gallery.slug}`}>{tag}</Link> : tag}
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>

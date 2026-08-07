@@ -5,6 +5,9 @@
   "city": "Berlin",
   "country": "DEU",
   "tour": "Europe 1990",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19901020.svg",
   "songCount": 21,
   "durationSeconds": 8651,

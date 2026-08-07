@@ -5,6 +5,9 @@
   "city": "Munich",
   "country": "BRD",
   "tour": "Europe 1972",
+  "tags": [
+    "Dark Star"
+  ],
   "svg": "/shows/19720518.svg",
   "songCount": 25,
   "durationSeconds": 11220,

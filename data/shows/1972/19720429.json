@@ -5,6 +5,7 @@
   "city": "Hamburg",
   "tour": "Europe 1972",
   "country": "BRD",
+  "tags": ["Dark Star"],
   "songs": [
     {
       "title": "Playing in the Band",
