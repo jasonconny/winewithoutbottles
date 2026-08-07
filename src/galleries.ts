@@ -47,6 +47,12 @@ export interface GalleryRegistry {
   runByShowId: Map<string, GalleryDef>;
   /** Tag name (as authored, not slugified) → its index page. */
   tagByName: Map<string, GalleryDef>;
+  /**
+   * Tour name (as authored) → its gallery. NOT every authored tour is in here:
+   * a tour named after a bare year defers to the year gallery and gets no page
+   * of its own (see the skip in `buildGalleries`).
+   */
+  tourByName: Map<string, GalleryDef>;
 }
 
 /** A venue needs this many shows to earn its own gallery page. */
@@ -345,9 +351,12 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
     );
   for (const gallery of tagGalleries) register(bySlug, gallery);
 
-  // Keyed by the tag as authored — a tag gallery's title IS its tag.
+  // Keyed by the name as authored — these galleries' titles ARE their source
+  // values. Tours that were skipped (bare-year) are simply absent.
   const tagByName = new Map<string, GalleryDef>();
   for (const gallery of tagGalleries) tagByName.set(gallery.title, gallery);
+  const tourByName = new Map<string, GalleryDef>();
+  for (const gallery of tourGalleries) tourByName.set(gallery.title, gallery);
 
   // Drawer sections deliberately exclude runs — 40 entries would swamp the
   // nav. They are still real pages; `subGalleries` is what routes are built
@@ -365,6 +374,7 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
     bySlug,
     runByShowId,
     tagByName,
+    tourByName,
   };
 }
 
@@ -393,4 +403,14 @@ export function findRunForShow(showId: string): GalleryDef | undefined {
  */
 export function findTagGallery(tag: string): GalleryDef | undefined {
   return registry.tagByName.get(tag);
+}
+
+/**
+ * The gallery for a tour, keyed by the tour as authored. Returns undefined for
+ * a bare-year tour (e.g. "1969"), which has no page of its own because the
+ * year gallery covers the same shows — callers should render the tour as plain
+ * text in that case rather than linking to a page titled something else.
+ */
+export function findTourGallery(tour: string): GalleryDef | undefined {
+  return registry.tourByName.get(tour);
 }

@@ -5,7 +5,6 @@
   "city": "San Francisco",
   "state": "CA",
   "country": "USA",
-  "tour": "1969",
   "tags": ["Dark Star", "Live/Dead"],
   "songs": [
     { "title": "That's It for the Other One", "duration": "21:22" },

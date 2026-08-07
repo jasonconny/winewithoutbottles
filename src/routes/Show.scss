@@ -146,10 +146,23 @@ $info-veil-fallback: rgba(255, 255, 255, 0.5);
     }
   }
 
-  &-run {
+  // Tour and run on one line, each labelled. Same pipe separator as the tags
+  // line below it, so the two supporting rows read as a pair.
+  &-meta {
     margin-top: 0.5rem;
     font-family: 'Roboto Variable', sans-serif;
-    font-style: italic;
+
+    &-item:not(:last-child)::after {
+      content: '|';
+      margin: 0 0.5em;
+    }
+
+    // One step heavier than the links it introduces (Roboto Variable covers
+    // 100–900, so 500 against the sheet's inherited 400 is a real instance,
+    // not a synthesized bold).
+    &-label {
+      font-weight: 500;
+    }
   }
 
   &-tags {

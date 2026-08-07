@@ -9,7 +9,6 @@ export const shows: ShowSummary[] = [
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
-    "tour": "1969",
     "tags": [
       "Dark Star",
       "Live/Dead"
@@ -25,7 +24,6 @@ export const shows: ShowSummary[] = [
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
-    "tour": "1969",
     "tags": [
       "Dark Star",
       "Live/Dead"
@@ -41,7 +39,6 @@ export const shows: ShowSummary[] = [
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
-    "tour": "1969",
     "tags": [
       "Dark Star",
       "Live/Dead"
@@ -57,7 +54,6 @@ export const shows: ShowSummary[] = [
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
-    "tour": "1969",
     "tags": [
       "Dark Star",
       "Live/Dead"
