@@ -30,12 +30,19 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { releaseTag } from './release-tag.ts';
+import {
+  articles,
+  datesFromDateText,
+  infoboxRecorded,
+  longDate,
+  monthDayIn,
+  sectionWikitext,
+  slashDate,
+  spanFromDateText,
+} from './wiki.ts';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const indexPath = join(root, 'data', 'releases.json');
-
-const API = 'https://en.wikipedia.org/w/api.php';
-const UA = 'wine-without-bottles/1.0 (https://winewithoutbottles.com)';
 
 /**
  * Discography sections, and what each contributes.
@@ -189,22 +196,9 @@ const COMPLETENESS_BY_HAND: Record<string, Release['completeness']> = {
   // Three MSG nights across three CDs — take the timings for the tracks it
   // does carry and leave the rest of each show as authored.
   'Road Trips Volume 2 Number 1': 'partial',
+  // A partial release of the 5/22/77 show, per Jason.
+  "Dick's Picks Volume 3": 'partial',
 };
-
-const MONTHS = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-];
 
 export interface Release {
   /** Wikipedia article title — the fetch key, which is NOT always the name. */
@@ -227,114 +221,6 @@ export interface Release {
   /** How `dates` was derived, or why it couldn't be. */
   note: string;
   musicbrainzReleaseId: string | null;
-}
-
-async function api(params: Record<string, string>): Promise<unknown> {
-  const url = new URL(API);
-  for (const [k, v] of Object.entries({
-    format: 'json',
-    formatversion: '2',
-    ...params,
-  })) {
-    url.searchParams.set(k, v);
-  }
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`${url.pathname}: HTTP ${res.status}`);
-  return res.json();
-}
-
-async function sectionWikitext(section: number): Promise<string> {
-  const data = (await api({
-    action: 'parse',
-    page: 'Grateful_Dead_discography',
-    section: String(section),
-    prop: 'wikitext',
-  })) as { parse?: { wikitext?: string } };
-  const text = data.parse?.wikitext;
-  if (!text) throw new Error(`discography section ${section} returned nothing`);
-  return text;
-}
-
-/** Fetch article wikitext in batches (the API takes up to 50 titles at once). */
-async function articles(titles: string[]): Promise<Map<string, string>> {
-  const out = new Map<string, string>();
-  for (let i = 0; i < titles.length; i += 40) {
-    const batch = titles.slice(i, i + 40);
-    const data = (await api({
-      action: 'query',
-      prop: 'revisions',
-      rvprop: 'content',
-      rvslots: 'main',
-      titles: batch.join('|'),
-    })) as {
-      query: {
-        pages: {
-          title: string;
-          missing?: boolean;
-          revisions?: { slots: { main: { content: string } } }[];
-        }[];
-        normalized?: { from: string; to: string }[];
-      };
-    };
-    // The API normalises titles (underscores, first-letter case), so map the
-    // response back onto the titles we asked for.
-    const alias = new Map<string, string>();
-    for (const n of data.query.normalized ?? []) alias.set(n.to, n.from);
-    for (const page of data.query.pages) {
-      if (page.missing || !page.revisions) continue;
-      const asked = alias.get(page.title) ?? page.title;
-      out.set(asked, page.revisions[0].slots.main.content);
-    }
-  }
-  return out;
-}
-
-const iso = (year: number, month: number, day: number) =>
-  `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
-
-/** "March 16, 1990" → 1990-03-16. Returns null for anything else. */
-function longDate(text: string): string | null {
-  const m = text.match(/([A-Z][a-z]+)\s+(\d{1,2}),\s*(\d{4})/);
-  if (!m) return null;
-  const month = MONTHS.indexOf(m[1]) + 1;
-  return month ? iso(+m[3], month, +m[2]) : null;
-}
-
-/** "(4/7/1972)" or a bare "10/7/77" → ISO. Two-digit years are 19xx. */
-function slashDate(text: string): string | null {
-  const m = text.match(/\b(\d{1,2})\/(\d{1,2})\/(\d{2}|\d{4})\b/);
-  if (!m) return null;
-  const year = m[3].length === 2 ? 1900 + +m[3] : +m[3];
-  return iso(year, +m[1], +m[2]);
-}
-
-/**
- * "Disc one – February 23", "October 1 – first set" → ISO, using the release's
- * span for the year the heading leaves off.
- *
- * Only safe because the span bounds it: Road Trips 4:2 prints a "Wednesday,
- * March 30" setlist heading for a show that isn't on the release, and it falls
- * outside the release's March 31 – April 1 span, so it drops out on its own.
- */
-function monthDayIn(
-  text: string,
-  span: { first: string; last: string } | null,
-): string | null {
-  if (!span) return null;
-  const m = text.match(/\b([A-Z][a-z]+)\s+(\d{1,2})\b(?!\s*,?\s*\d{4})/);
-  if (!m) return null;
-  const month = MONTHS.indexOf(m[1]) + 1;
-  if (!month) return null;
-  // A span can straddle New Year, so try each year it touches.
-  for (
-    let year = +span.first.slice(0, 4);
-    year <= +span.last.slice(0, 4);
-    year++
-  ) {
-    const date = iso(year, month, +m[2]);
-    if (date >= span.first && date <= span.last) return date;
-  }
-  return null;
 }
 
 /**
@@ -367,11 +253,29 @@ function resolveDates(
   const flaggedBonus = new Set<string>();
   const methods: string[] = [];
 
+  // Year-less headings ("June 12 – First set:") need a window to resolve
+  // against. When the discography has named the principal date, that window is
+  // a single day, which is too narrow to see the release's bonus material —
+  // Road Trips 4:5 is a 6/9/76 concert whose third disc also carries 6/12.
+  // Widen to the whole year so those dates resolve and land in bonusDates.
+  const resolveSpan = principal.length
+    ? {
+        first: `${principal[0].slice(0, 4)}-01-01`,
+        last: `${principal[principal.length - 1].slice(0, 4)}-12-31`,
+      }
+    : span;
+
   const add = (line: string, date: string | null) => {
     if (!date) return;
-    // Prose about neighbouring releases mentions their dates; the span keeps
-    // those out.
-    if (span && (date < span.first || date > span.last)) return;
+    // The span fences out dates belonging to neighbouring releases — but only
+    // when the article's own headings are what's establishing the show list.
+    // Once the discography has named the principal date, the span collapses to
+    // that single day, and fencing on it would throw away exactly the bonus
+    // headings worth recording: Dave's Picks 28 is one 6/17/76 concert whose
+    // last two tracks come from 6/23 and 6/28.
+    if (!principal.length && span && (date < span.first || date > span.last)) {
+      return;
+    }
     candidates.add(date);
     // "Bonus tracks – March 24, 1990" is material from a show the release does
     // not otherwise contain: usable for gap-filling, never as a whole show.
@@ -382,7 +286,12 @@ function resolveDates(
     const before = candidates.size;
     const heading = line.match(/^=+(.*?)=+\s*$/);
     if (heading) {
-      add(line, slashDate(heading[1]) ?? longDate(heading[1]));
+      add(
+        line,
+        slashDate(heading[1]) ??
+          longDate(heading[1]) ??
+          monthDayIn(heading[1], resolveSpan),
+      );
       if (candidates.size > before) methods.push('heading');
       continue;
     }
@@ -391,7 +300,9 @@ function resolveDates(
     if (sub) {
       add(
         line,
-        longDate(sub[1]) ?? slashDate(sub[1]) ?? monthDayIn(sub[1], span),
+        longDate(sub[1]) ??
+          slashDate(sub[1]) ??
+          monthDayIn(sub[1], resolveSpan),
       );
       if (candidates.size > before) methods.push('subheading');
       continue;
@@ -405,7 +316,7 @@ function resolveDates(
         line,
         longDate(strong[1]) ??
           slashDate(strong[1]) ??
-          monthDayIn(strong[1], span),
+          monthDayIn(strong[1], resolveSpan),
       );
       if (candidates.size > before) methods.push('bold');
       continue;
@@ -456,108 +367,6 @@ function resolveDates(
       ? `dates from ${unique}; article says "complete concerts"`
       : `dates from ${unique}; completeness not stated — confirm by hand`,
   };
-}
-
-/**
- * Dates stated in the discography's own entry ("– October 16, 1989").
- *
- * Authoritative only when it names specific days. A range like "June 10 – 19,
- * 1976" is a span, not a show list — it silently includes dark days the band
- * didn't play — so ranges resolve to nothing here and fall through to the
- * article, which lists the concerts individually.
- */
-function datesFromDateText(text: string): string[] {
-  // "October 4 & 6, 1980" / "July 12 & 13, 1989" — specific, non-contiguous.
-  const amp = text.match(
-    /^([A-Z][a-z]+)\s+(\d{1,2})\s*&\s*(\d{1,2}),\s*(\d{4})\s*$/,
-  );
-  if (amp) {
-    const month = MONTHS.indexOf(amp[1]) + 1;
-    if (month)
-      return [iso(+amp[4], month, +amp[2]), iso(+amp[4], month, +amp[3])];
-  }
-  // A single day, and nothing else on the line.
-  const one = text.match(/^([A-Z][a-z]+)\s+(\d{1,2}),\s*(\d{4})\s*$/);
-  if (one) {
-    const month = MONTHS.indexOf(one[1]) + 1;
-    if (month) return [iso(+one[3], month, +one[2])];
-  }
-  return [];
-}
-
-/**
- * Outer bounds of every date mentioned in a discography entry, so article
- * parsing can be confined to them. Release articles discuss neighbouring
- * releases in prose, and those stray dates otherwise land in the show list —
- * the Fillmore West 1969 box picked up a 1968 and a 1970 date that way.
- */
-function spanFromDateText(
-  text: string,
-): { first: string; last: string } | null {
-  const found: string[] = [];
-  let month = 0;
-  // A date's year is the next one written after it: "March 9, 1981 – October
-  // 12, 1983" gives each endpoint its own, while "June 10 – 19, 1976" and
-  // "February 27 – March 2, 1969" name theirs once, at the end, for both.
-  const years = [...text.matchAll(/\b(19\d\d)\b/g)].map((m) => ({
-    year: +m[1],
-    at: m.index,
-  }));
-  if (!years.length) return null;
-  for (const token of text.matchAll(/([A-Z][a-z]+)?\s*\b(\d{1,2})\b/g)) {
-    if (token[1]) {
-      const named = MONTHS.indexOf(token[1]) + 1;
-      if (!named) continue;
-      month = named;
-    }
-    if (!month) continue;
-    const day = +token[2];
-    if (day < 1 || day > 31) continue;
-    const year = (
-      years.find((y) => y.at > token.index) ?? years[years.length - 1]
-    ).year;
-    found.push(iso(year, month, day));
-  }
-  if (!found.length) return null;
-  const sorted = [...found].sort();
-  return { first: sorted[0], last: sorted[sorted.length - 1] };
-}
-
-/**
- * Dates from the infobox "recorded" field.
- *
- * Handles the single-concert case ("March 29, 1990") and the two ways a release
- * enumerates scattered nights rather than a span: line breaks ("August 7, 1971
- * <br /> August 24, 1971 <br /> August 6, 1971") and day lists sharing a month
- * ("June 22, 24, 1973"). Both are lists of specific shows, unlike a dashed
- * range, which stays unresolved because it may cover nights the band was dark.
- */
-function infoboxRecorded(wikitext: string): string[] {
-  const m = wikitext.match(/^\s*\|\s*recorded\s*=\s*(.+)$/m);
-  if (!m) return [];
-  const field = m[1]
-    .replace(/<!--.*?-->/g, '')
-    .replace(/&nbsp;/g, ' ')
-    .trim();
-  // A dash means a span; leave those to the article's own per-show structure.
-  const chunks = field.split(/<br\s*\/?>|\{\{break\}\}|;/i);
-  const dates = new Set<string>();
-  for (const chunk of chunks) {
-    if (/[–—]|\s-\s/.test(chunk)) continue;
-    const listed = chunk.match(
-      /^\s*([A-Z][a-z]+)\s+((?:\d{1,2}\s*,\s*)*\d{1,2})\s*,\s*(\d{4})\s*$/,
-    );
-    if (listed) {
-      const month = MONTHS.indexOf(listed[1]) + 1;
-      if (!month) continue;
-      for (const day of listed[2].split(/\s*,\s*/)) {
-        dates.add(iso(+listed[3], month, +day));
-      }
-      continue;
-    }
-    for (const date of datesFromDateText(chunk.trim())) dates.add(date);
-  }
-  return [...dates].sort();
 }
 
 function parseByDateSection(wikitext: string) {

@@ -208,6 +208,24 @@ describe('song titles come from the canonical registry', () => {
     expect(collisions, `same letters, different spacing`).toEqual([]);
   });
 
+  it('no two canonical titles are letter-for-letter rearrangements', () => {
+    // Catches transposition typos, which are the one variant class that is
+    // completely invisible: `Mississippi Half-Step Uptown Toodeloo` and the
+    // misspelled `…Toodleoo` both render 131,120,128, because a channel is the
+    // *mean* of its slice and averaging doesn't care about order. Two spellings
+    // of that song sat in the corpus for years looking identical on the wall.
+    // No two real songs in the repertoire are anagrams of each other.
+    const byLetters = new Map<string, string[]>();
+    for (const song of registry.songs) {
+      const key = [...cleanTitle(song.title).replace(/_/g, '')].sort().join('');
+      byLetters.set(key, [...(byLetters.get(key) ?? []), song.title]);
+    }
+    const clashes = [...byLetters.values()].filter((group) => group.length > 1);
+    expect(clashes, 'same letters, different order — likely a typo').toEqual(
+      [],
+    );
+  });
+
   it('titles that share a word-prefix say so deliberately', () => {
     // The failure mode this catches: an import drops a word and mints
     // "New Minglewood" beside "New Minglewood Blues". Real pairs exist though

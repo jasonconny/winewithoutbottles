@@ -65,7 +65,7 @@
       "eligible": true,
       "tag": null,
       "dates": ["1966-07-29"],
-      "bonusDates": [],
+      "bonusDates": ["1966-07-30"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -221,7 +221,7 @@
       "eligible": true,
       "tag": "Download Series",
       "dates": ["1969-04-17"],
-      "bonusDates": [],
+      "bonusDates": ["1969-01-23"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -311,7 +311,7 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1969-11-08"],
-      "bonusDates": [],
+      "bonusDates": ["1969-11-07"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -324,7 +324,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1969-12-12"],
-      "bonusDates": [],
+      "bonusDates": ["1969-12-11"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -350,7 +350,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1970-01-02"],
-      "bonusDates": [],
+      "bonusDates": ["1970-01-03"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -376,7 +376,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1970-01-23"],
-      "bonusDates": [],
+      "bonusDates": ["1970-01-24"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -441,7 +441,7 @@
       "eligible": true,
       "tag": "Road Trips",
       "dates": ["1970-05-15"],
-      "bonusDates": [],
+      "bonusDates": ["1970-05-14"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -467,7 +467,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1971-04-13"],
-      "bonusDates": [],
+      "bonusDates": ["1970-10-24", "1971-04-12"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -538,7 +538,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1971-10-22"],
-      "bonusDates": [],
+      "bonusDates": ["1971-10-21"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -577,7 +577,7 @@
       "eligible": true,
       "tag": "Road Trips",
       "dates": ["1971-11-15"],
-      "bonusDates": [],
+      "bonusDates": ["1971-11-14"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -590,7 +590,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1971-11-17"],
-      "bonusDates": [],
+      "bonusDates": ["1971-12-14"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -603,7 +603,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1971-11-20"],
-      "bonusDates": [],
+      "bonusDates": ["1970-10-24"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -663,7 +663,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1972-03-26"],
-      "bonusDates": [],
+      "bonusDates": ["1972-03-21", "1972-03-27"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -725,7 +725,7 @@
       "eligible": true,
       "tag": null,
       "dates": ["1972-04-24"],
-      "bonusDates": [],
+      "bonusDates": ["1972-05-24"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -790,7 +790,7 @@
       "eligible": true,
       "tag": "Download Series",
       "dates": ["1972-07-21"],
-      "bonusDates": [],
+      "bonusDates": ["1972-07-22"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -829,7 +829,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1972-09-09"],
-      "bonusDates": [],
+      "bonusDates": ["1972-09-03", "1972-09-19"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -855,7 +855,7 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1972-09-21"],
-      "bonusDates": [],
+      "bonusDates": ["1972-09-03"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -881,7 +881,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1972-11-17"],
-      "bonusDates": [],
+      "bonusDates": ["1972-11-15"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -933,7 +933,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1973-03-26"],
-      "bonusDates": [],
+      "bonusDates": ["1973-03-31"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1043,7 +1043,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1973-09-08"],
-      "bonusDates": [],
+      "bonusDates": ["1973-09-07"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1095,7 +1095,7 @@
       "eligible": true,
       "tag": "Road Trips",
       "dates": ["1973-11-21"],
-      "bonusDates": [],
+      "bonusDates": ["1973-11-20", "1973-12-06"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1134,7 +1134,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1973-12-18"],
-      "bonusDates": [],
+      "bonusDates": ["1973-12-12"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -1160,7 +1160,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1974-02-23"],
-      "bonusDates": [],
+      "bonusDates": ["1974-02-22"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1251,7 +1251,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1974-06-23"],
-      "bonusDates": [],
+      "bonusDates": ["1974-06-22"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1290,7 +1290,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1974-07-31"],
-      "bonusDates": [],
+      "bonusDates": ["1974-07-29"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -1342,7 +1342,7 @@
       "eligible": true,
       "tag": "Road Trips",
       "dates": ["1976-06-09"],
-      "bonusDates": [],
+      "bonusDates": ["1976-06-12"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1387,7 +1387,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1976-06-17"],
-      "bonusDates": [],
+      "bonusDates": ["1976-06-23", "1976-06-28"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1413,7 +1413,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1976-07-17"],
-      "bonusDates": [],
+      "bonusDates": ["1976-07-16"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1452,7 +1452,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1976-10-02"],
-      "bonusDates": [],
+      "bonusDates": ["1977-05-04"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1491,7 +1491,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1977-02-26"],
-      "bonusDates": [],
+      "bonusDates": ["1977-02-27"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1530,7 +1530,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1977-05-03"],
-      "bonusDates": [],
+      "bonusDates": ["1977-05-04"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1602,8 +1602,8 @@
       "tag": "Dick's Picks",
       "dates": ["1977-05-22"],
       "bonusDates": [],
-      "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "completeness": "partial",
+      "note": "principal date from the discography; article says \"complete concert\"; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1627,7 +1627,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1977-05-26"],
-      "bonusDates": [],
+      "bonusDates": ["1990-07-19"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -1731,7 +1731,7 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1977-11-05"],
-      "bonusDates": [],
+      "bonusDates": ["1977-11-02"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -1757,7 +1757,7 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1977-12-29"],
-      "bonusDates": [],
+      "bonusDates": ["1977-12-30"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -1783,7 +1783,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1978-02-01"],
-      "bonusDates": [],
+      "bonusDates": ["1978-01-31"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -1844,7 +1844,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1978-04-15"],
-      "bonusDates": [],
+      "bonusDates": ["1978-04-18"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2006,7 +2006,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1979-12-03"],
-      "bonusDates": [],
+      "bonusDates": ["1979-12-04"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2019,7 +2019,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1979-12-09"],
-      "bonusDates": [],
+      "bonusDates": ["1979-12-04"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2045,7 +2045,7 @@
       "eligible": true,
       "tag": "Road Trips",
       "dates": ["1979-12-28"],
-      "bonusDates": [],
+      "bonusDates": ["1979-12-30"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -2169,7 +2169,7 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1981-05-06"],
-      "bonusDates": [],
+      "bonusDates": ["1979-11-01"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -2195,7 +2195,7 @@
       "eligible": true,
       "tag": "Road Trips",
       "dates": ["1982-04-06"],
-      "bonusDates": [],
+      "bonusDates": ["1982-04-05"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2221,7 +2221,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1983-04-26"],
-      "bonusDates": [],
+      "bonusDates": ["1983-04-15", "1983-04-25"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2247,7 +2247,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1983-09-11"],
-      "bonusDates": [],
+      "bonusDates": ["1983-09-10"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2273,7 +2273,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1984-04-20"],
-      "bonusDates": [],
+      "bonusDates": ["1984-04-19"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2576,7 +2576,7 @@
       "eligible": true,
       "tag": null,
       "dates": ["1990-06-16"],
-      "bonusDates": [],
+      "bonusDates": ["1987-10-03"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -2589,7 +2589,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1990-06-23"],
-      "bonusDates": [],
+      "bonusDates": ["1969-12-26"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2602,7 +2602,7 @@
       "eligible": true,
       "tag": null,
       "dates": ["1990-07-08"],
-      "bonusDates": [],
+      "bonusDates": ["1990-07-06"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -2654,7 +2654,7 @@
       "eligible": true,
       "tag": "Dave's Picks",
       "dates": ["1990-10-28"],
-      "bonusDates": [],
+      "bonusDates": ["1990-10-30"],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
@@ -2693,7 +2693,7 @@
       "eligible": true,
       "tag": "Download Series",
       "dates": ["1991-06-20"],
-      "bonusDates": [],
+      "bonusDates": ["1991-06-19"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
@@ -2706,7 +2706,7 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1991-09-25"],
-      "bonusDates": [],
+      "bonusDates": ["1991-03-31"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
