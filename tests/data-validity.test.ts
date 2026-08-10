@@ -3,6 +3,8 @@ import { basename, join } from 'node:path';
 import { cleanTitle, isValidDuration } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
+import { releaseTag } from '../generator/release-tag';
+import type { Completeness } from '../generator/release-tag';
 
 // Show data is hand-authored, so the guard here is *validity*, not fidelity to
 // the original art. The authored data is the source of truth and is freely
@@ -253,6 +255,112 @@ describe('song titles come from the canonical registry', () => {
         canonical.has(song.title),
         `${file}: "${song.title}" is not in data/songs.json — add it there deliberately, or use the canonical spelling`,
       ).toBe(true);
+    }
+  });
+});
+
+describe('official-release index is well-formed', () => {
+  // data/releases.json is drafted by `npm run releases --draft` and then
+  // hand-corrected, so the fields most likely to be edited — `dates` and
+  // `completeness` — are exactly the ones `tag` is derived from. Re-deriving
+  // here is what stops an edit leaving a stale tag behind: resolving a release
+  // to three complete shows must also give it a tag, and demoting one to a
+  // selections-only compilation must take its tag away.
+  const releases = (
+    JSON.parse(readFileSync('data/releases.json', 'utf8')) as {
+      releases: {
+        name: string;
+        series: string | null;
+        eligible: boolean;
+        tag: string | null;
+        dates: string[];
+        bonusDates: string[];
+        completeness: Completeness;
+        note: string;
+      }[];
+    }
+  ).releases;
+
+  it('has entries, each named uniquely', () => {
+    expect(releases.length).toBeGreaterThan(0);
+    const names = releases.map((release) => release.name);
+    expect(new Set(names).size).toBe(names.length);
+  });
+
+  it.each(
+    releases
+      .filter((release) => !release.eligible)
+      .map((r) => [r.name, r] as const),
+  )('%s is ineligible, so sources nothing', (name, release) => {
+    // Ineligible entries are kept so the index records what was rejected and
+    // why, rather than the reasoning living only in the builder's constants.
+    // They must stay inert: no dates to source from, no tag to index.
+    expect(release.dates, `${name}: ineligible but lists show dates`).toEqual(
+      [],
+    );
+    expect(release.tag, `${name}: ineligible but carries a tag`).toBeNull();
+    expect(release.note, `${name}: ineligible without a reason`).toMatch(
+      /^not a source: /,
+    );
+  });
+
+  it.each(
+    releases
+      .filter((release) => release.eligible)
+      .map((r) => [r.name, r] as const),
+  )('%s earns a tag exactly when the rule says so', (name, release) => {
+    // Presence, not spelling: a few releases (e.g. the RFK Stadium set, whose
+    // name is comma-separated rather than subtitled) need a hand-picked
+    // short name that no rule produces. Whether a tag exists is the part
+    // that carries meaning, so that is what's pinned.
+    const expected = releaseTag(
+      name,
+      release.series,
+      release.completeness,
+      release.dates.length,
+    );
+    expect(
+      Boolean(release.tag),
+      release.tag
+        ? `${name}: tagged "${release.tag}" but the rule gives it no tag (${release.dates.length} show(s), ${release.completeness})`
+        : `${name}: has ${release.dates.length} complete show(s) but no tag`,
+    ).toBe(Boolean(expected));
+    if (release.series) expect(release.tag).toBe(release.series);
+  });
+
+  it.each(releases.map((release) => [release.name, release] as const))(
+    '%s has sorted, non-overlapping dates',
+    (name, release) => {
+      for (const date of [...release.dates, ...release.bonusDates]) {
+        expect(date, `${name}: "${date}"`).toMatch(DATE_RE);
+      }
+      expect(release.dates, `${name}: dates out of order`).toEqual(
+        [...release.dates].sort(),
+      );
+      // A date is either a whole show on this release or bonus material from a
+      // night it doesn't otherwise carry — never both.
+      const overlap = release.dates.filter((date) =>
+        release.bonusDates.includes(date),
+      );
+      expect(
+        overlap,
+        `${name}: listed as both a show and a bonus date`,
+      ).toEqual([]);
+    },
+  );
+
+  it('no two unrelated releases claim the same tag', () => {
+    const owners = new Map<string, Set<string>>();
+    for (const release of releases) {
+      if (!release.tag) continue;
+      const key = release.series ?? release.name;
+      owners.set(release.tag, (owners.get(release.tag) ?? new Set()).add(key));
+    }
+    for (const [tag, keys] of owners) {
+      expect(
+        [...keys],
+        `tag "${tag}" is claimed by more than one release`,
+      ).toHaveLength(1);
     }
   });
 });
