@@ -1,0 +1,716 @@
+{
+  "songs": [
+    {
+      "title": "(I Can't Get No) Satisfaction"
+    },
+    {
+      "title": "Alabama Getaway"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "aliases": ["All Along The Watchtower"]
+    },
+    {
+      "title": "Alligator"
+    },
+    {
+      "title": "Althea"
+    },
+    {
+      "title": "And We Bid You Goodnight"
+    },
+    {
+      "title": "Around And Around"
+    },
+    {
+      "title": "Attics of My Life",
+      "aliases": ["Attics Of My Life"]
+    },
+    {
+      "title": "Baba O'Riley"
+    },
+    {
+      "title": "Beat It On Down The Line"
+    },
+    {
+      "title": "Beer Barrel Polka"
+    },
+    {
+      "title": "Believe It or Not"
+    },
+    {
+      "title": "Bertha"
+    },
+    {
+      "title": "Big Boss Man"
+    },
+    {
+      "title": "Big Railroad Blues"
+    },
+    {
+      "title": "Big River"
+    },
+    {
+      "title": "Bird Song"
+    },
+    {
+      "title": "Black Muddy River"
+    },
+    {
+      "title": "Black Peter"
+    },
+    {
+      "title": "Black-Throated Wind"
+    },
+    {
+      "title": "Blow Away"
+    },
+    {
+      "title": "Box of Rain",
+      "aliases": ["Box Of Rain"]
+    },
+    {
+      "title": "Brokedown Palace"
+    },
+    {
+      "title": "Broken Arrow"
+    },
+    {
+      "title": "Brown-Eyed Women"
+    },
+    {
+      "title": "Built to Last",
+      "aliases": ["Built To Last"]
+    },
+    {
+      "title": "C.C. Rider"
+    },
+    {
+      "title": "California Earthquake"
+    },
+    {
+      "title": "Candyman"
+    },
+    {
+      "title": "Casey Jones"
+    },
+    {
+      "title": "Cassidy"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "aliases": ["Caution (Do Not Stop On Tracks)"]
+    },
+    {
+      "title": "Caution Jam"
+    },
+    {
+      "title": "Childhood's End"
+    },
+    {
+      "title": "China Cat Sunflower"
+    },
+    {
+      "title": "China Doll"
+    },
+    {
+      "title": "Chinatown Shuffle"
+    },
+    {
+      "title": "Chinese Bones"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "aliases": ["Cold Rain And Snow"]
+    },
+    {
+      "title": "Comes a Time"
+    },
+    {
+      "title": "Corrina"
+    },
+    {
+      "title": "Cosmic Charlie"
+    },
+    {
+      "title": "Crazy Fingers"
+    },
+    {
+      "title": "Cumberland Blues"
+    },
+    {
+      "title": "Dancing in the Street"
+    },
+    {
+      "title": "Dark Star"
+    },
+    {
+      "title": "Days Between"
+    },
+    {
+      "title": "Deal"
+    },
+    {
+      "title": "Dear Mr. Fantasy"
+    },
+    {
+      "title": "Death Don't Have No Mercy"
+    },
+    {
+      "title": "Deep Elem Blues"
+    },
+    {
+      "title": "Desolation Row"
+    },
+    {
+      "title": "Devil with the Blue Dress On"
+    },
+    {
+      "title": "Dire Wolf"
+    },
+    {
+      "title": "Doin' That Rag"
+    },
+    {
+      "title": "Don't Ease Me In"
+    },
+    {
+      "title": "Drums"
+    },
+    {
+      "title": "Dupree's Diamond Blues"
+    },
+    {
+      "title": "Easy Answers"
+    },
+    {
+      "title": "Easy to Love You"
+    },
+    {
+      "title": "El Paso"
+    },
+    {
+      "title": "Estimated Prophet"
+    },
+    {
+      "title": "Eternity"
+    },
+    {
+      "title": "Everytime You Go Away"
+    },
+    {
+      "title": "Eyes Of The World"
+    },
+    {
+      "title": "Far From Me"
+    },
+    {
+      "title": "Feedback"
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "aliases": ["Feel Like A Stranger"]
+    },
+    {
+      "title": "Fire on the Mountain",
+      "aliases": ["Fire On The Mountain"]
+    },
+    {
+      "title": "Foolish Heart"
+    },
+    {
+      "title": "Franklin's Tower"
+    },
+    {
+      "title": "Friend Of The Devil"
+    },
+    {
+      "title": "From the Heart of Me"
+    },
+    {
+      "title": "Gimme Some Lovin'"
+    },
+    {
+      "title": "Gloria"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "aliases": ["Goin' Down The Road Feeling Bad"]
+    },
+    {
+      "title": "Good Golly Miss Molly"
+    },
+    {
+      "title": "Good Lovin'"
+    },
+    {
+      "title": "Good Morning Little Schoolgirl"
+    },
+    {
+      "title": "Greatest Story Ever Told"
+    },
+    {
+      "title": "Happiness Is Drumming"
+    },
+    {
+      "title": "He's Gone"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "aliases": ["Hell In A Bucket"]
+    },
+    {
+      "title": "Help On The Way"
+    },
+    {
+      "title": "Here Comes Sunshine"
+    },
+    {
+      "title": "Hey Bo Diddley"
+    },
+    {
+      "title": "Hey Jude"
+    },
+    {
+      "title": "Hey Jude Reprise",
+      "sharesPrefixWith": "Hey Jude"
+    },
+    {
+      "title": "Hey Pocky Way"
+    },
+    {
+      "title": "High Time"
+    },
+    {
+      "title": "I Fought the Law"
+    },
+    {
+      "title": "I Got My Mojo Workin'"
+    },
+    {
+      "title": "I Know You Rider"
+    },
+    {
+      "title": "I Need a Miracle",
+      "aliases": ["I Need A Miracle"]
+    },
+    {
+      "title": "I Want To Tell You"
+    },
+    {
+      "title": "I Will Take You Home"
+    },
+    {
+      "title": "I'm a King Bee"
+    },
+    {
+      "title": "If the Shoe Fits"
+    },
+    {
+      "title": "Iko Iko"
+    },
+    {
+      "title": "In the Midnight Hour"
+    },
+    {
+      "title": "It Hurts Me Too"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "aliases": ["It Must Have Been The Roses"]
+    },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry"
+    },
+    {
+      "title": "It's All Over Now"
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "aliases": ["It's All Over Now Baby Blue"],
+      "sharesPrefixWith": "It's All Over Now"
+    },
+    {
+      "title": "Jack Straw"
+    },
+    {
+      "title": "Jack-A-Roe"
+    },
+    {
+      "title": "Jam"
+    },
+    {
+      "title": "Johnny B. Goode"
+    },
+    {
+      "title": "Just a Little Light",
+      "aliases": ["Just A Little Light"]
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues"
+    },
+    {
+      "title": "Keep Your Day Job"
+    },
+    {
+      "title": "Knockin' on Heaven's Door"
+    },
+    {
+      "title": "La Bamba"
+    },
+    {
+      "title": "Lazy Lightnin'"
+    },
+    {
+      "title": "Lazy River Road"
+    },
+    {
+      "title": "Let It Grow"
+    },
+    {
+      "title": "Let the Good Times Roll",
+      "aliases": ["Let The Good Times Roll"]
+    },
+    {
+      "title": "Liberty"
+    },
+    {
+      "title": "Little Red Rooster"
+    },
+    {
+      "title": "Looks Like Rain"
+    },
+    {
+      "title": "Loose Lucy"
+    },
+    {
+      "title": "Loser"
+    },
+    {
+      "title": "Lost Sailor"
+    },
+    {
+      "title": "Louie, Louie"
+    },
+    {
+      "title": "Maggie's Farm"
+    },
+    {
+      "title": "Mama Tried"
+    },
+    {
+      "title": "Man Smart Woman Smarter"
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "aliases": ["Me And Bobby McGee"]
+    },
+    {
+      "title": "Me and My Uncle"
+    },
+    {
+      "title": "Mexicali Blues"
+    },
+    {
+      "title": "Might As Well"
+    },
+    {
+      "title": "Mind Left Body Jam"
+    },
+    {
+      "title": "Mission in the Rain"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodleoo"
+    },
+    {
+      "title": "Morning Dew"
+    },
+    {
+      "title": "Mountains of the Moon"
+    },
+    {
+      "title": "Mr. Charlie"
+    },
+    {
+      "title": "My Brother Esau"
+    },
+    {
+      "title": "Neighborhood Girls"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "aliases": ["Never Trust A Woman"]
+    },
+    {
+      "title": "New Minglewood Blues"
+    },
+    {
+      "title": "New Potato Caboose"
+    },
+    {
+      "title": "New Speedway Boogie"
+    },
+    {
+      "title": "Next Time You See Me"
+    },
+    {
+      "title": "Not Fade Away"
+    },
+    {
+      "title": "Not Fade Away Reprise",
+      "sharesPrefixWith": "Not Fade Away"
+    },
+    {
+      "title": "One More Saturday Night"
+    },
+    {
+      "title": "Passenger"
+    },
+    {
+      "title": "Peggy-O"
+    },
+    {
+      "title": "Picasso Moon"
+    },
+    {
+      "title": "Playin' Reprise"
+    },
+    {
+      "title": "Playing in the Band",
+      "aliases": ["Playing In The Band"]
+    },
+    {
+      "title": "Promised Land"
+    },
+    {
+      "title": "Queen Jane Approximately"
+    },
+    {
+      "title": "Quinn the Eskimo (Mighty Quinn)"
+    },
+    {
+      "title": "Rain"
+    },
+    {
+      "title": "Rainy Day Women #12 and 35"
+    },
+    {
+      "title": "Ramble On Rose"
+    },
+    {
+      "title": "Revolution"
+    },
+    {
+      "title": "Rockin' Pneumonia and the Boogie Woogie Flu"
+    },
+    {
+      "title": "Row Jimmy"
+    },
+    {
+      "title": "Saint of Circumstance"
+    },
+    {
+      "title": "Samba in the Rain",
+      "aliases": ["Samba In The Rain"]
+    },
+    {
+      "title": "Samson And Delilah"
+    },
+    {
+      "title": "Scarlet Begonias"
+    },
+    {
+      "title": "Seastones"
+    },
+    {
+      "title": "Shakedown Street"
+    },
+    {
+      "title": "Ship Of Fools"
+    },
+    {
+      "title": "Sing Me Back Home"
+    },
+    {
+      "title": "Sitting on Top of the World"
+    },
+    {
+      "title": "Slipknot!"
+    },
+    {
+      "title": "Smokestack Lightning"
+    },
+    {
+      "title": "So Many Roads"
+    },
+    {
+      "title": "Space"
+    },
+    {
+      "title": "Spanish Jam"
+    },
+    {
+      "title": "Spoonful"
+    },
+    {
+      "title": "St. Stephen"
+    },
+    {
+      "title": "Stagger Lee"
+    },
+    {
+      "title": "Stander on the Mountain"
+    },
+    {
+      "title": "Standing on the Moon",
+      "aliases": ["Standing On The Moon"]
+    },
+    {
+      "title": "Stella Blue"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again"
+    },
+    {
+      "title": "Sugar Magnolia"
+    },
+    {
+      "title": "Sugaree"
+    },
+    {
+      "title": "Sunrise"
+    },
+    {
+      "title": "Sunshine Daydream"
+    },
+    {
+      "title": "Supplication"
+    },
+    {
+      "title": "Tennessee Jed"
+    },
+    {
+      "title": "Terrapin Station"
+    },
+    {
+      "title": "That Would Be Something"
+    },
+    {
+      "title": "That's It for the Other One"
+    },
+    {
+      "title": "The Eleven"
+    },
+    {
+      "title": "The Last Time"
+    },
+    {
+      "title": "The Music Never Stopped"
+    },
+    {
+      "title": "The Other One"
+    },
+    {
+      "title": "The Race Is On"
+    },
+    {
+      "title": "The Same Thing"
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)"
+    },
+    {
+      "title": "The Valley Road"
+    },
+    {
+      "title": "The Weight"
+    },
+    {
+      "title": "The Wheel"
+    },
+    {
+      "title": "They Love Each Other"
+    },
+    {
+      "title": "Throwing Stones"
+    },
+    {
+      "title": "To Lay Me Down"
+    },
+    {
+      "title": "Tomorrow Is Forever"
+    },
+    {
+      "title": "Tomorrow Never Knows"
+    },
+    {
+      "title": "Touch of Grey",
+      "aliases": ["Touch Of Grey"]
+    },
+    {
+      "title": "Truckin'"
+    },
+    {
+      "title": "Turn On Your Love Light"
+    },
+    {
+      "title": "U.S. Blues"
+    },
+    {
+      "title": "Unbroken Chain"
+    },
+    {
+      "title": "Uncle John's Band"
+    },
+    {
+      "title": "Victim or the Crime",
+      "aliases": ["Victim Or The Crime"]
+    },
+    {
+      "title": "Walkin' Blues"
+    },
+    {
+      "title": "Wang Dang Doodle"
+    },
+    {
+      "title": "Way to Go Home"
+    },
+    {
+      "title": "We Can Run"
+    },
+    {
+      "title": "Weather Report Suite Part 1"
+    },
+    {
+      "title": "Weather Report Suite Prelude"
+    },
+    {
+      "title": "Werewolves of London"
+    },
+    {
+      "title": "West L.A. Fadeaway"
+    },
+    {
+      "title": "Wharf Rat"
+    },
+    {
+      "title": "What's Going On?"
+    },
+    {
+      "title": "When I Paint My Masterpiece"
+    },
+    {
+      "title": "When Push Comes to Shove"
+    },
+    {
+      "title": "Yellow Dog Story"
+    },
+    {
+      "title": "You Win Again"
+    }
+  ]
+}

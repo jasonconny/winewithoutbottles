@@ -8,8 +8,8 @@
   "tour": "Fall 1989",
   "tags": ["Formerly the Warlocks", "Dark Star"],
   "songs": [
-    { "title": "Feel Like A Stranger", "duration": "8:16" },
-    { "title": "Built To Last", "duration": "5:03" },
+    { "title": "Feel Like a Stranger", "duration": "8:16" },
+    { "title": "Built to Last", "duration": "5:03" },
     { "title": "Little Red Rooster", "duration": "9:09" },
     { "title": "Ramble On Rose", "duration": "7:53" },
     { "title": "We Can Run", "duration": "6:32" },
@@ -31,6 +31,6 @@
     { "title": "Hey Jude", "duration": "3:13" },
     { "title": "Throwing Stones", "duration": "10:17" },
     { "title": "Good Lovin'", "duration": "9:22" },
-    { "title": "Attics Of My Life", "duration": "6:33" }
+    { "title": "Attics of My Life", "duration": "6:33" }
   ]
 }

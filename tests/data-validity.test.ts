@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { basename, join } from 'node:path';
-import { isValidDuration } from '@/wwob';
+import { cleanTitle, isValidDuration } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
 
@@ -153,6 +153,107 @@ describe('tags stay an editorial vocabulary', () => {
     expect([...used].sort()).toEqual(
       KNOWN_TAGS.filter((tag) => used.has(tag)).sort(),
     );
+  });
+});
+
+describe('song titles come from the canonical registry', () => {
+  // Why a registry at all: `titleToRgb` uppercases and strips non-letters, so
+  // case and punctuation are free but *word content* is not — "Lazy River" and
+  // "Lazy River Road" are different colours, i.e. different songs on the wall.
+  // Every entry in data/CORRECTIONS.md is an instance of that. Shows are now
+  // imported from external sources (official release track listings,
+  // archive.org), each with its own title conventions, so without this gate an
+  // import can silently mint a near-miss variant — invisible until two shows
+  // sit side by side. `aliases` are the external spellings that map onto a
+  // canonical title; they must never appear in show data themselves.
+  const files = dataFiles();
+  const registry = JSON.parse(readFileSync('data/songs.json', 'utf8')) as {
+    songs: { title: string; aliases?: string[]; sharesPrefixWith?: string }[];
+  };
+  const canonical = new Set(registry.songs.map((song) => song.title));
+  const words = (title: string) => cleanTitle(title).split('_').filter(Boolean);
+
+  it('registry has no duplicate or colour-colliding entries', () => {
+    expect(canonical.size).toBe(registry.songs.length);
+    // Two canonical titles that clean to the same string would render as one
+    // colour — they are the same song spelled two ways, not two songs.
+    const cleaned = registry.songs.map((song) => cleanTitle(song.title));
+    expect(new Set(cleaned).size).toBe(cleaned.length);
+  });
+
+  it('aliases are distinct from every canonical title and each other', () => {
+    const aliases = registry.songs.flatMap((song) => song.aliases ?? []);
+    expect(new Set(aliases).size).toBe(aliases.length);
+    for (const alias of aliases) {
+      expect(canonical.has(alias), `"${alias}" is also a canonical title`).toBe(
+        false,
+      );
+    }
+  });
+
+  it('no two canonical titles differ only in word boundaries', () => {
+    // "Turn On Your Lovelight" vs "Turn On Your Love Light" clean to different
+    // strings — different colours — but are the same song. Word spacing is the
+    // one difference the colour algorithm sees that a human reader does not.
+    const byLetters = new Map<string, string[]>();
+    for (const song of registry.songs) {
+      const key = cleanTitle(song.title).replace(/_/g, '');
+      byLetters.set(key, [...(byLetters.get(key) ?? []), song.title]);
+    }
+    const collisions = [...byLetters.values()].filter(
+      (group) => group.length > 1,
+    );
+    expect(collisions, `same letters, different spacing`).toEqual([]);
+  });
+
+  it('titles that share a word-prefix say so deliberately', () => {
+    // The failure mode this catches: an import drops a word and mints
+    // "New Minglewood" beside "New Minglewood Blues". Real pairs exist though
+    // — "Hey Jude Reprise", and Dylan's "It's All Over Now, Baby Blue" next to
+    // Womack's "It's All Over Now" — so the rule is declare-it, not ban-it.
+    for (const song of registry.songs) {
+      const own = words(song.title);
+      for (const other of registry.songs) {
+        if (other === song) continue;
+        const theirs = words(other.title);
+        if (
+          theirs.length >= own.length ||
+          !theirs.every((word, i) => word === own[i])
+        ) {
+          continue;
+        }
+        // The test can't know which of the pair is wrong, so it names both
+        // and leaves the call to a human: annotating the longer title is only
+        // right when both songs are real.
+        expect(
+          song.sharesPrefixWith,
+          `"${song.title}" starts with "${other.title}". If both are real songs, add sharesPrefixWith: "${other.title}" to "${song.title}". If one is a dropped-word typo, fix that instead`,
+        ).toBe(other.title);
+      }
+    }
+  });
+
+  it('every sharesPrefixWith names a real, actual prefix', () => {
+    for (const song of registry.songs) {
+      if (!song.sharesPrefixWith) continue;
+      expect(canonical.has(song.sharesPrefixWith)).toBe(true);
+      const own = words(song.title);
+      const theirs = words(song.sharesPrefixWith);
+      expect(
+        theirs.length < own.length &&
+          theirs.every((word, i) => word === own[i]),
+        `"${song.sharesPrefixWith}" is not a prefix of "${song.title}"`,
+      ).toBe(true);
+    }
+  });
+
+  it.each(files)('%s uses only canonical song titles', (file) => {
+    for (const song of readShow(file).songs) {
+      expect(
+        canonical.has(song.title),
+        `${file}: "${song.title}" is not in data/songs.json — add it there deliberately, or use the canonical spelling`,
+      ).toBe(true);
+    }
   });
 });
 
