@@ -1,0 +1,100 @@
+{
+  "id": "19761003",
+  "date": "1976-10-03",
+  "venue": "Cobo Arena",
+  "city": "Detroit",
+  "state": "MI",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19761003.svg",
+  "songCount": 21,
+  "durationSeconds": 9563,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 638
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 460
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 714
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 499
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 139
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 642
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 593
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 836
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 432
+    }
+  ]
+}

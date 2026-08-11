@@ -1,0 +1,88 @@
+{
+  "id": "19801128",
+  "date": "1980-11-28",
+  "venue": "Lakeland Civic Center",
+  "city": "Lakeland",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19801128.svg",
+  "songCount": 18,
+  "durationSeconds": 8600,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Deep Elem Blues",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 519
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 715
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 620
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 567
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 568
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 321
+    }
+  ]
+}

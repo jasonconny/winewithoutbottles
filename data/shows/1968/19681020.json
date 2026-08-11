@@ -1,0 +1,40 @@
+{
+  "id": "19681020",
+  "date": "1968-10-20",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "13:53"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "13:38"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "10:25"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "6:37"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "4:54"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "11:19"
+    },
+    {
+      "title": "Feedback",
+      "duration": "4:25"
+    }
+  ]
+}

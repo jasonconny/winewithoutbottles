@@ -118,3 +118,36 @@ length and the transposed letters fall in the same channel slice, which is a
 _mean_, so both render `131,120,128`. That is exactly why it survived so long,
 and why `tests/data-validity.test.ts` now rejects two canonical titles that are
 letter-for-letter rearrangements of each other.
+
+## Import departures
+
+Shows imported from an official release rather than bootstrapped from the 2013
+art, where the authored data deliberately **differs from the release's own track
+listing**. A release names tracks for a CD index, not for a setlist, so its
+splits and spellings are not always the performance. Each is confirmed by Jason.
+
+| Show(s)    | Release says                                                                     | Authored as                             | Why                                                                                                                                                                                                                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                      | `King Solomon's Marbles` (6:26)         | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
+| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`              | `That's It for the Other One` (16:53)   | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
+| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                    | `That's It for the Other One` (24:16)   | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
+| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical` | left split, `Cryptical Envelopment` × 2 | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
+| 1970-04-15 | `Technical Difficulties` (4:11)                                                  | dropped (`notASong`)                    | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
+| 1981-05-16 | `Nobody's Jam` (2:30)                                                            | `Nobody's Jam` (kept, as its own song)  | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
+| 1975-09-28 | `The Eleven Jam` (5:34)                                                          | `Jam` (5:34)                            | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
+
+The Cryptical rule is mechanical and worth restating, since it will come up
+again: fold a `Cryptical Envelopment` … `Cryptical Envelopment` span into one
+`That's It for the Other One` stripe **only** when nothing but `The Other One`,
+`Drums`, `Jam` or `Space` sits between them. It is the same umbrella-name
+convention the corpus already uses for `Terrapin Station` (31 uses; `Lady with a
+Fan` appears nowhere).
+
+### Venue naming
+
+Venues are filled in by hand (the importer leaves `venue`/`city` blank), so where
+sources disagree the choice is recorded here.
+
+| Show       | Sources disagree                                                                                           | Authored as                                                                                                                                                                |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1967-11-10 | Wikipedia's discography says `Shrine Auditorium`; DeadBase and JerryBase both say `Shrine Exhibition Hall` | `Shrine Exposition Hall` — the spelling on the official vinyl release. The Shrine complex has two distinct rooms and the band played both, so Auditorium is not a synonym. |

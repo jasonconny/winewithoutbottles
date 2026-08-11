@@ -1,0 +1,68 @@
+{
+  "id": "19700415",
+  "date": "1970-04-15",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:05"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "6:03"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "4:33"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:08"
+    },
+    {
+      "title": "It's a Man's, Man's, Man's World",
+      "duration": "8:31"
+    },
+    {
+      "title": "Candyman",
+      "duration": "5:31"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "4:05"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:43"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "24:16"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:44"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "11:27"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "12:10"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "2:16"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "7:45"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "19831021",
+  "date": "1983-10-21",
+  "venue": "Worcester Centrum",
+  "city": "Worcester",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19831021.svg",
+  "songCount": 20,
+  "durationSeconds": 10453,
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 422
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 454
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 809
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 1145
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 689
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 563
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 919
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 597
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 251
+    }
+  ]
+}

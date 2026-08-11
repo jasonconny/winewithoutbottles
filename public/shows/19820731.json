@@ -1,0 +1,104 @@
+{
+  "id": "19820731",
+  "date": "1982-07-31",
+  "venue": "Manor Downs",
+  "city": "Austin",
+  "state": "TX",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19820731.svg",
+  "songCount": 22,
+  "durationSeconds": 10728,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 414
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 568
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 443
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 347
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 792
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 622
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 680
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 862
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 657
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 194
+    }
+  ]
+}

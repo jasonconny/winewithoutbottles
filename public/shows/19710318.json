@@ -1,0 +1,108 @@
+{
+  "id": "19710318",
+  "date": "1971-03-18",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19710318.svg",
+  "songCount": 23,
+  "durationSeconds": 8646,
+  "songs": [
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 223
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 399
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 290
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Ain't It Crazy (The Rub)",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 355
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 691
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 835
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 148
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 426
+    }
+  ]
+}

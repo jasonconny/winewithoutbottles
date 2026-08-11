@@ -1,0 +1,48 @@
+{
+  "id": "19671110",
+  "date": "1967-11-10",
+  "venue": "Shrine Exposition Hall",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
+  "songs": [
+    {
+      "title": "Viola Lee Blues",
+      "duration": "15:58"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "4:40"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:27"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "7:39"
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "10:55"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "12:11"
+    },
+    {
+      "title": "New Potato Caboose",
+      "duration": "11:28"
+    },
+    {
+      "title": "Alligator",
+      "duration": "11:00"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "24:28"
+    }
+  ]
+}

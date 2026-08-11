@@ -161,8 +161,8 @@ describe('reader app', () => {
     await screen.findByRole('img');
     fireEvent.click(screen.getByRole('button', { name: 'i' }));
     expect(
-      screen.getByRole('link', { name: 'Winterland Arena October 1974' }),
-    ).toHaveAttribute('href', '/winterland-arena-october-1974');
+      screen.getByRole('link', { name: 'Winterland October 1974' }),
+    ).toHaveAttribute('href', '/winterland-october-1974');
   });
 
   it('shows a run that spans dark days as one run', async () => {
@@ -210,7 +210,7 @@ describe('reader app', () => {
     // Both labelled, and tour precedes run in document order.
     const line = document.querySelector('.Show-meta')!;
     expect(line.textContent).toBe(
-      'Tour: Fall 1974Run: Winterland Arena October 1974',
+      'Tour: Fall 1974Run: Winterland October 1974',
     );
   });
 

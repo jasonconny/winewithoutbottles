@@ -1,0 +1,104 @@
+{
+  "id": "19850624",
+  "date": "1985-06-24",
+  "venue": "Riverbend Music Center",
+  "city": "Cincinnati",
+  "state": "OH",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19850624.svg",
+  "songCount": 22,
+  "durationSeconds": 9010,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 261
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 506
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 482
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 751
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 513
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 108
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 663
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 353
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 37
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 228
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 532
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 289
+    }
+  ]
+}

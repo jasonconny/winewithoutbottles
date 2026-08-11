@@ -3,6 +3,64 @@ import type { ShowSummary } from '../wwob/index.ts';
 
 export const shows: ShowSummary[] = [
   {
+    "id": "19660703",
+    "date": "1966-07-03",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19660703.svg",
+    "songCount": 19,
+    "durationSeconds": 5495
+  },
+  {
+    "id": "19671110",
+    "date": "1967-11-10",
+    "venue": "Shrine Exposition Hall",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19671110.svg",
+    "songCount": 9,
+    "durationSeconds": 6106
+  },
+  {
+    "id": "19681020",
+    "date": "1968-10-20",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19681020.svg",
+    "songCount": 7,
+    "durationSeconds": 3911
+  },
+  {
+    "id": "19690222",
+    "date": "1969-02-22",
+    "venue": "Dream Bowl",
+    "city": "Vallejo",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19690222.svg",
+    "songCount": 9,
+    "durationSeconds": 6604
+  },
+  {
     "id": "19690227",
     "date": "1969-02-27",
     "venue": "Fillmore West",
@@ -65,6 +123,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19690302.svg",
     "songCount": 14,
     "durationSeconds": 9923
+  },
+  {
+    "id": "19700415",
+    "date": "1970-04-15",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19700415.svg",
+    "songCount": 14,
+    "durationSeconds": 6377
+  },
+  {
+    "id": "19710318",
+    "date": "1971-03-18",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19710318.svg",
+    "songCount": 23,
+    "durationSeconds": 8646
   },
   {
     "id": "19720407",
@@ -358,9 +444,52 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10319
   },
   {
+    "id": "19720924",
+    "date": "1972-09-24",
+    "venue": "Palace Theatre",
+    "city": "Waterbury",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19720924.svg",
+    "songCount": 27,
+    "durationSeconds": 10858
+  },
+  {
+    "id": "19731114",
+    "date": "1973-11-14",
+    "venue": "San Diego Sports Arena",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19731114.svg",
+    "songCount": 26,
+    "durationSeconds": 11328
+  },
+  {
+    "id": "19740918",
+    "date": "1974-09-18",
+    "venue": "Parc des Expositions",
+    "city": "Dijon",
+    "country": "FRA",
+    "tags": [
+      "Wall of Sound",
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19740918.svg",
+    "songCount": 26,
+    "durationSeconds": 12325
+  },
+  {
     "id": "19741016",
     "date": "1974-10-16",
-    "venue": "Winterland Arena",
+    "venue": "Winterland",
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
@@ -375,7 +504,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19741017",
     "date": "1974-10-17",
-    "venue": "Winterland Arena",
+    "venue": "Winterland",
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
@@ -390,7 +519,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19741018",
     "date": "1974-10-18",
-    "venue": "Winterland Arena",
+    "venue": "Winterland",
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
@@ -406,7 +535,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19741019",
     "date": "1974-10-19",
-    "venue": "Winterland Arena",
+    "venue": "Winterland",
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
@@ -421,7 +550,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19741020",
     "date": "1974-10-20",
-    "venue": "Winterland Arena",
+    "venue": "Winterland",
     "city": "San Francisco",
     "state": "CA",
     "country": "USA",
@@ -432,6 +561,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19741020.svg",
     "songCount": 28,
     "durationSeconds": 13795
+  },
+  {
+    "id": "19750928",
+    "date": "1975-09-28",
+    "venue": "Golden Gate Park",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19750928.svg",
+    "songCount": 15,
+    "durationSeconds": 6059
   },
   {
     "id": "19760603",
@@ -684,6 +827,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19760629.svg",
     "songCount": 22,
     "durationSeconds": 9180
+  },
+  {
+    "id": "19761003",
+    "date": "1976-10-03",
+    "venue": "Cobo Arena",
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19761003.svg",
+    "songCount": 21,
+    "durationSeconds": 9563
   },
   {
     "id": "19770422",
@@ -1049,6 +1206,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10400
   },
   {
+    "id": "19780514",
+    "date": "1978-05-14",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19780514.svg",
+    "songCount": 18,
+    "durationSeconds": 10303
+  },
+  {
     "id": "19790107",
     "date": "1979-01-07",
     "venue": "Madison Square Garden",
@@ -1104,6 +1275,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9972
   },
   {
+    "id": "19791027",
+    "date": "1979-10-27",
+    "venue": "Cape Cod Coliseum",
+    "city": "South Yarmouth",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19791027.svg",
+    "songCount": 21,
+    "durationSeconds": 9964
+  },
+  {
+    "id": "19801128",
+    "date": "1980-11-28",
+    "venue": "Lakeland Civic Center",
+    "city": "Lakeland",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19801128.svg",
+    "songCount": 18,
+    "durationSeconds": 8600
+  },
+  {
     "id": "19810309",
     "date": "1981-03-09",
     "venue": "Madison Square Garden",
@@ -1130,6 +1329,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19810310.svg",
     "songCount": 24,
     "durationSeconds": 10375
+  },
+  {
+    "id": "19810516",
+    "date": "1981-05-16",
+    "venue": "Barton Hall, Cornell University",
+    "city": "Ithaca",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19810516.svg",
+    "songCount": 24,
+    "durationSeconds": 10518
+  },
+  {
+    "id": "19820731",
+    "date": "1982-07-31",
+    "venue": "Manor Downs",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19820731.svg",
+    "songCount": 22,
+    "durationSeconds": 10728
   },
   {
     "id": "19820920",
@@ -1186,6 +1413,62 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19831012.svg",
     "songCount": 20,
     "durationSeconds": 10267
+  },
+  {
+    "id": "19831021",
+    "date": "1983-10-21",
+    "venue": "Worcester Centrum",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19831021.svg",
+    "songCount": 20,
+    "durationSeconds": 10453
+  },
+  {
+    "id": "19841012",
+    "date": "1984-10-12",
+    "venue": "Augusta Civic Center",
+    "city": "Augusta",
+    "state": "ME",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19841012.svg",
+    "songCount": 18,
+    "durationSeconds": 8522
+  },
+  {
+    "id": "19850624",
+    "date": "1985-06-24",
+    "venue": "Riverbend Music Center",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19850624.svg",
+    "songCount": 22,
+    "durationSeconds": 9010
+  },
+  {
+    "id": "19860503",
+    "date": "1986-05-03",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19860503.svg",
+    "songCount": 17,
+    "durationSeconds": 7709
   },
   {
     "id": "19870915",
@@ -1247,6 +1530,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19870920.svg",
     "songCount": 20,
     "durationSeconds": 8082
+  },
+  {
+    "id": "19880703",
+    "date": "1988-07-03",
+    "venue": "Oxford Plains Speedway",
+    "city": "Oxford",
+    "state": "ME",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19880703.svg",
+    "songCount": 19,
+    "durationSeconds": 8659
   },
   {
     "id": "19880914",
@@ -2094,6 +2391,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9358
   },
   {
+    "id": "19920320",
+    "date": "1992-03-20",
+    "venue": "Copps Coliseum",
+    "city": "Hamilton",
+    "state": "ON",
+    "country": "CAN",
+    "tags": [
+      "Dark Star",
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19920320.svg",
+    "songCount": 17,
+    "durationSeconds": 8997
+  },
+  {
     "id": "19920606",
     "date": "1992-06-06",
     "venue": "Rich Stadium",
@@ -2106,6 +2418,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19920606.svg",
     "songCount": 20,
     "durationSeconds": 9290
+  },
+  {
+    "id": "19930327",
+    "date": "1993-03-27",
+    "venue": "Knickerbocker Arena",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19930327.svg",
+    "songCount": 20,
+    "durationSeconds": 9024
   },
   {
     "id": "19930606",
@@ -2205,6 +2531,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8917
   },
   {
+    "id": "19941001",
+    "date": "1994-10-01",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19941001.svg",
+    "songCount": 21,
+    "durationSeconds": 10905
+  },
+  {
     "id": "19941013",
     "date": "1994-10-13",
     "venue": "Madison Square Garden",
@@ -2269,6 +2609,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19941019.svg",
     "songCount": 17,
     "durationSeconds": 9643
+  },
+  {
+    "id": "19950221",
+    "date": "1995-02-21",
+    "venue": "Delta Center",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
+    "svg": "/shows/19950221.svg",
+    "songCount": 18,
+    "durationSeconds": 8419
   },
   {
     "id": "19950709",
