@@ -6,6 +6,9 @@
   "state": "AL",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "May 1977"
+  ],
   "svg": "/shows/19770517.svg",
   "songCount": 25,
   "durationSeconds": 11830,

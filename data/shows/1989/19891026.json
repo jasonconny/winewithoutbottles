@@ -6,7 +6,8 @@
   "state": "FL",
   "tour": "Fall 1989",
   "country": "USA",
-  "tags": ["Dark Star"],
+  "tags": ["Dark Star", "30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
   "songs": [
     {
       "title": "Foolish Heart",

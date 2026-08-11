@@ -4,8 +4,10 @@
   "venue": "Beacon Theatre",
   "city": "New York",
   "state": "NY",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
   "country": "USA",
+  "tags": ["June 1976"],
+  "source": "June 1976",
   "songs": [
     {
       "title": "Promised Land",

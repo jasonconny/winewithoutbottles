@@ -5,7 +5,10 @@
   "city": "Hartford",
   "state": "CT",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900319.svg",
   "songCount": 19,
   "durationSeconds": 8853,

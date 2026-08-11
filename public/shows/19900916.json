@@ -5,6 +5,9 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
   "svg": "/shows/19900916.svg",
   "songCount": 20,
   "durationSeconds": 10789,

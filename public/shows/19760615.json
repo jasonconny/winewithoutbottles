@@ -5,7 +5,10 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
+  "tags": [
+    "June 1976"
+  ],
   "svg": "/shows/19760615.svg",
   "songCount": 21,
   "durationSeconds": 9853,

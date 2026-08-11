@@ -4,8 +4,10 @@
   "venue": "Copps Coliseum",
   "city": "Hamilton",
   "state": "ON",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "CAN",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",

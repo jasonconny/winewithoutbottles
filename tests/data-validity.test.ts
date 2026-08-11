@@ -28,6 +28,21 @@ function dataFiles(): string[] {
     .sort();
 }
 
+const releases = (
+  JSON.parse(readFileSync('data/releases.json', 'utf8')) as {
+    releases: {
+      name: string;
+      series: string | null;
+      eligible: boolean;
+      tag: string | null;
+      dates: string[];
+      bonusDates: string[];
+      completeness: Completeness;
+      note: string;
+    }[];
+  }
+).releases;
+
 function readShow(file: string): ShowFile {
   return JSON.parse(readFileSync(join(DATA_DIR, file), 'utf8')) as ShowFile;
 }
@@ -140,21 +155,32 @@ describe('tags stay an editorial vocabulary', () => {
 
   it('uses only known tags', () => {
     // An allow-list, not a shape check: tags are headed for index pages, so a
-    // typo would quietly mint a phantom index. Adding a tag means adding it
-    // here — deliberately a small amount of friction.
-    const KNOWN_TAGS = [
+    // typo would quietly mint a phantom index.
+    //
+    // Two sources, because tags now come from two places. The editorial ones
+    // are hand-listed — adding one is deliberate friction. The release ones are
+    // *derived* from data/releases.json, so adding a batch of shows from a new
+    // box doesn't mean remembering to widen this list, and a tag that no
+    // release grants still fails.
+    const EDITORIAL_TAGS = [
       'Dark Star',
       'Final Show',
-      'Formerly the Warlocks',
       'Live/Dead',
       'Shows I Attended',
       'Sunshine Daydream',
       'Wall of Sound',
     ];
+    const known = new Set([
+      ...EDITORIAL_TAGS,
+      ...releases.flatMap((release) => (release.tag ? [release.tag] : [])),
+    ]);
     const used = new Set(files.flatMap((file) => readShow(file).tags ?? []));
-    expect([...used].sort()).toEqual(
-      KNOWN_TAGS.filter((tag) => used.has(tag)).sort(),
-    );
+    for (const tag of used) {
+      expect(
+        known.has(tag),
+        `"${tag}" is neither an editorial tag nor granted by any release in data/releases.json`,
+      ).toBe(true);
+    }
   });
 });
 
@@ -284,20 +310,6 @@ describe('official-release index is well-formed', () => {
   // here is what stops an edit leaving a stale tag behind: resolving a release
   // to three complete shows must also give it a tag, and demoting one to a
   // selections-only compilation must take its tag away.
-  const releases = (
-    JSON.parse(readFileSync('data/releases.json', 'utf8')) as {
-      releases: {
-        name: string;
-        series: string | null;
-        eligible: boolean;
-        tag: string | null;
-        dates: string[];
-        bonusDates: string[];
-        completeness: Completeness;
-        note: string;
-      }[];
-    }
-  ).releases;
 
   it('has entries, each named uniquely', () => {
     expect(releases.length).toBeGreaterThan(0);
@@ -366,6 +378,32 @@ describe('official-release index is well-formed', () => {
       ).toEqual([]);
     },
   );
+
+  it.each(dataFiles())('%s names a real source, if any', (file) => {
+    // `source` records where a show's timings came from, so it must name
+    // something real: a release exactly as `data/releases.json` spells it
+    // (several, pipe-separated, when a show was stitched from more than one —
+    // pipe because release names contain commas),
+    // or an archive.org identifier for an unreleased show. A typo here would
+    // quietly break the "should this be re-timed?" question the field exists to
+    // answer, and nothing else would notice.
+    const source = (readShow(file) as { source?: string }).source;
+    if (!source) return;
+    const names = new Set(releases.map((release) => release.name));
+    for (const part of source.split('|').map((piece) => piece.trim())) {
+      if (part.startsWith('archive.org:')) {
+        expect(
+          part.slice('archive.org:'.length).length,
+          `${file}: empty archive.org identifier`,
+        ).toBeGreaterThan(0);
+        continue;
+      }
+      expect(
+        names.has(part),
+        `${file}: source "${part}" is not a release in data/releases.json`,
+      ).toBe(true);
+    }
+  });
 
   it('no two unrelated releases claim the same tag', () => {
     const owners = new Map<string, Set<string>>();

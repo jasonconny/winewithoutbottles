@@ -4,8 +4,10 @@
   "venue": "Capitol Centre",
   "city": "Landover",
   "state": "MD",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Cold Rain and Snow",

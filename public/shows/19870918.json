@@ -5,6 +5,9 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
   "svg": "/shows/19870918.svg",
   "songCount": 18,
   "durationSeconds": 8269,

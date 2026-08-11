@@ -6,6 +6,8 @@
   "state": "VA",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 1",
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",

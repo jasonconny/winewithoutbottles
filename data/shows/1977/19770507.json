@@ -6,6 +6,8 @@
   "state": "MA",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": ["Get Shown the Light"],
+  "source": "May 1977: Get Shown the Light",
   "songs": [
     { "title": "Bertha", "duration": "8:06" },
     { "title": "Cassidy", "duration": "5:08" },

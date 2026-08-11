@@ -5,7 +5,10 @@
   "city": "Landover",
   "state": "MD",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900314.svg",
   "songCount": 20,
   "durationSeconds": 8698,

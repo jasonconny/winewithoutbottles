@@ -6,6 +6,8 @@
   "state": "MD",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 41",
   "songs": [
     {
       "title": "The Music Never Stopped",

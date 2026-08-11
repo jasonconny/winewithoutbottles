@@ -5,7 +5,10 @@
   "city": "Hamilton",
   "state": "ON",
   "country": "CAN",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900321.svg",
   "songCount": 20,
   "durationSeconds": 9254,

@@ -6,6 +6,9 @@
   "state": "FL",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Dick's Picks"
+  ],
   "svg": "/shows/19770521.svg",
   "songCount": 23,
   "durationSeconds": 11057,

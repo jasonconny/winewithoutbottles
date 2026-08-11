@@ -5,6 +5,8 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": ["In and Out of the Garden"],
+  "source": "In and Out of the Garden: Madison Square Garden '81, '82, '83",
   "songs": [
     {
       "title": "Wang Dang Doodle",

@@ -5,7 +5,10 @@
   "city": "Hamilton",
   "state": "ON",
   "country": "CAN",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900322.svg",
   "songCount": 21,
   "durationSeconds": 8937,

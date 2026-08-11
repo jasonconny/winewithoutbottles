@@ -4,8 +4,10 @@
   "venue": "Boston Music Hall",
   "city": "Boston",
   "state": "MA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
   "country": "USA",
+  "tags": ["June 1976"],
+  "source": "June 1976",
   "songs": [
     {
       "title": "Might As Well",

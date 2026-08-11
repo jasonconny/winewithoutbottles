@@ -6,6 +6,8 @@
   "state": "FL",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 3",
   "songs": [
     {
       "title": "The Music Never Stopped",

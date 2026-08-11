@@ -6,6 +6,9 @@
   "state": "MD",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Dave's Picks"
+  ],
   "svg": "/shows/19770526.svg",
   "songCount": 21,
   "durationSeconds": 10442,

@@ -7,6 +7,7 @@
   "country": "USA",
   "tour": "Fall 1989",
   "tags": ["Formerly the Warlocks"],
+  "source": "Formerly the Warlocks",
   "songs": [
     { "title": "Foolish Heart", "duration": "8:00" },
     { "title": "Walkin' Blues", "duration": "7:41" },

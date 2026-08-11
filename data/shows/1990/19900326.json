@@ -4,8 +4,10 @@
   "venue": "Knickerbocker Arena",
   "city": "Albany",
   "state": "NY",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990"],
+  "source": "Spring 1990",
   "songs": [
     {
       "title": "Hell in a Bucket",

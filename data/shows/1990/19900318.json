@@ -4,8 +4,10 @@
   "venue": "Hartford Civic Center",
   "city": "Hartford",
   "state": "CT",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Shakedown Street",

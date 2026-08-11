@@ -4,8 +4,10 @@
   "venue": "Capitol Theatre",
   "city": "Passaic",
   "state": "NJ",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
   "country": "USA",
+  "tags": ["June 1976"],
+  "source": "June 1976",
   "songs": [
     {
       "title": "Help On The Way",

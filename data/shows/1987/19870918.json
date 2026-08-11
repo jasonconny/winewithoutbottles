@@ -5,6 +5,8 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
   "songs": [
     {
       "title": "Hell in a Bucket",

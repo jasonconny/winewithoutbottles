@@ -5,7 +5,8 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
-  "tags": ["Dark Star"],
+  "tags": ["Dark Star", "30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
   "songs": [
     {
       "title": "Shakedown Street",

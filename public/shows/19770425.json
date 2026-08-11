@@ -6,6 +6,9 @@
   "state": "NJ",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
   "svg": "/shows/19770425.svg",
   "songCount": 21,
   "durationSeconds": 9267,

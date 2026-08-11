@@ -5,7 +5,10 @@
   "city": "Albany",
   "state": "NY",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900326.svg",
   "songCount": 20,
   "durationSeconds": 8633,

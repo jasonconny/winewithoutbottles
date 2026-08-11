@@ -6,6 +6,9 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Get Shown the Light"
+  ],
   "svg": "/shows/19770509.svg",
   "songCount": 21,
   "durationSeconds": 9675,

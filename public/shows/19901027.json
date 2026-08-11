@@ -5,6 +5,9 @@
   "city": "Paris",
   "country": "FRA",
   "tour": "Europe 1990",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
   "svg": "/shows/19901027.svg",
   "songCount": 21,
   "durationSeconds": 9996,

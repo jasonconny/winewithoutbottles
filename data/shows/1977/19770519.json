@@ -6,6 +6,8 @@
   "state": "GA",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 29",
   "songs": [
     {
       "title": "Promised Land",

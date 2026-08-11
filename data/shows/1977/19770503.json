@@ -6,6 +6,8 @@
   "state": "NY",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 50",
   "songs": [
     {
       "title": "Promised Land",

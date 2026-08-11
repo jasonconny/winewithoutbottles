@@ -5,7 +5,10 @@
   "city": "Landover",
   "state": "MD",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900316.svg",
   "songCount": 20,
   "durationSeconds": 9843,

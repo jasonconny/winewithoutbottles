@@ -5,7 +5,10 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900402.svg",
   "songCount": 18,
   "durationSeconds": 8153,

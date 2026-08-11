@@ -4,8 +4,10 @@
   "venue": "Copps Coliseum",
   "city": "Hamilton",
   "state": "ON",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "CAN",
+  "tags": ["Spring 1990"],
+  "source": "Spring 1990",
   "songs": [
     {
       "title": "Feel Like a Stranger",

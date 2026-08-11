@@ -884,7 +884,18 @@ if (exists) {
     );
     process.exit(0);
   }
-  writeFileSync(path, serialiseShow({ ...current, songs }, isCompact(raw)));
+  // Pipe, not comma: release names contain commas of their own — "In and Out
+  // of the Garden: Madison Square Garden '81, '82, '83" would split into three
+  // sources that don't exist.
+  const source = sources.map((release) => release.name).join(' | ');
+  // Rebuild without `songs` first: it already exists on `current`, so adding a
+  // new key alongside it would append `source` *after* the setlist.
+  const { songs: _previous, ...meta } = current;
+  void _previous;
+  writeFileSync(
+    path,
+    serialiseShow({ ...meta, source, songs }, isCompact(raw)),
+  );
   console.log(`\n✓ rewrote ${path.replace(`${root}/`, '')}`);
 } else {
   const draft: ShowFile = {
@@ -892,6 +903,7 @@ if (exists) {
     date,
     venue: '',
     city: '',
+    source: sources.map((release) => release.name).join(' | '),
     songs: requireTimed(mapped),
   };
   if (!write) {

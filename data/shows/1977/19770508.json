@@ -6,6 +6,8 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": ["Get Shown the Light"],
+  "source": "May 1977: Get Shown the Light",
   "songs": [
     { "title": "New Minglewood Blues", "duration": "5:34" },
     { "title": "Loser", "duration": "7:58" },

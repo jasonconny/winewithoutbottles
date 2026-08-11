@@ -5,6 +5,8 @@
   "city": "Paris",
   "country": "FRA",
   "tour": "Europe 1990",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
   "songs": [
     {
       "title": "Hell in a Bucket",

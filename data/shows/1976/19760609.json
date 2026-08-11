@@ -4,8 +4,10 @@
   "venue": "Boston Music Hall",
   "city": "Boston",
   "state": "MA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
   "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Volume 4 Number 5",
   "songs": [
     {
       "title": "Cold Rain and Snow",

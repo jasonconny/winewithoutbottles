@@ -6,6 +6,9 @@
   "state": "IL",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "May 1977"
+  ],
   "svg": "/shows/19770513.svg",
   "songCount": 20,
   "durationSeconds": 9443,

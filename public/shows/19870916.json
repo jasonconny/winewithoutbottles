@@ -5,6 +5,9 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
   "svg": "/shows/19870916.svg",
   "songCount": 21,
   "durationSeconds": 9335,

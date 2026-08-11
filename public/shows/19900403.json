@@ -5,7 +5,10 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900403.svg",
   "songCount": 20,
   "durationSeconds": 9467,

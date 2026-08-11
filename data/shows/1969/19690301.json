@@ -5,7 +5,8 @@
   "city": "San Francisco",
   "state": "CA",
   "country": "USA",
-  "tags": ["Dark Star", "Live/Dead"],
+  "tags": ["Dark Star", "Live/Dead", "Fillmore West 1969"],
+  "source": "Fillmore West 1969: The Complete Recordings",
   "songs": [
     { "title": "That's It for the Other One", "duration": "21:22" },
     { "title": "New Potato Caboose", "duration": "11:43" },
