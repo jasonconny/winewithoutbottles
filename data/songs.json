@@ -77,7 +77,8 @@
       "title": "Broken Arrow"
     },
     {
-      "title": "Brown-Eyed Women"
+      "title": "Brown-Eyed Women",
+      "aliases": ["Brown Eyed Women", "Brown-Eyed Woman"]
     },
     {
       "title": "Built to Last",
@@ -141,7 +142,7 @@
     },
     {
       "title": "Dancing in the Street",
-      "aliases": ["Dancing in the Streets"]
+      "aliases": ["Dancin' In The Street", "Dancing in the Streets"]
     },
     {
       "title": "Dark Star"
@@ -223,7 +224,8 @@
       "title": "Foolish Heart"
     },
     {
-      "title": "Franklin's Tower"
+      "title": "Franklin's Tower",
+      "aliases": ["Franklins Tower"]
     },
     {
       "title": "Friend Of The Devil"
@@ -560,7 +562,8 @@
       "title": "Sitting on Top of the World"
     },
     {
-      "title": "Slipknot!"
+      "title": "Slipknot!",
+      "aliases": ["Slipknot"]
     },
     {
       "title": "Smokestack Lightning"
@@ -687,7 +690,8 @@
       "title": "Unbroken Chain"
     },
     {
-      "title": "Uncle John's Band"
+      "title": "Uncle John's Band",
+      "aliases": ["Uncle Johns Band"]
     },
     {
       "title": "Victim or the Crime",
@@ -738,5 +742,10 @@
     }
   ],
   "foldIntoPrevious": ["And"],
-  "notASong": ["Funiculi Funicula", "Funiculì, Funiculà", "Tuning Rap"]
+  "notASong": [
+    "Funiculi Funicula",
+    "Funiculì, Funiculà",
+    "Tuning",
+    "Tuning Rap"
+  ]
 }

@@ -32,6 +32,8 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { ShowFile } from '../src/wwob/index.ts';
 import { formatDuration, parseDuration } from '../src/wwob/index.ts';
+import { findRecording, recordingTracks } from './archive.ts';
+import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -275,24 +277,7 @@ function tracksByDate(
       orphans++;
       continue;
     }
-    const key = track.title.toLowerCase();
-    // Not a song: no stripe. Covers tuning and banter, and teases the
-    // setlist databases don't count as performances.
-    if (notASong.has(key)) continue;
-    const bucket = byDate.get(current) ?? [];
-    const previous = bucket[bucket.length - 1];
-    // A continuation adds its time to the track it continues; with nothing to
-    // continue it is dropped rather than standing alone under a name that
-    // isn't a song.
-    if (foldIntoPrevious.has(key)) {
-      if (previous?.duration && track.duration) {
-        previous.duration = formatDuration(
-          parseDuration(previous.duration) + parseDuration(track.duration),
-        );
-      }
-      continue;
-    }
-    byDate.set(current, [...bucket, track]);
+    byDate.set(current, [...(byDate.get(current) ?? []), track]);
   }
   return { byDate, orphans };
 }
@@ -311,6 +296,68 @@ function canonicalise(tracks: ParsedTrack[]) {
     }
   }
   return { mapped, unknown };
+}
+
+/**
+ * Apply the registry's two track-level rules to a show's listing.
+ *
+ * Shared by both sources deliberately: these are facts about the *repertoire*,
+ * not about Wikipedia's markup, so a show sourced from MusicBrainz has to come
+ * out the same. Skipping this on the MusicBrainz path let a `Funiculì,
+ * Funiculà` tease back into a show it had already been excluded from.
+ */
+function applyTrackRules(tracks: ParsedTrack[]): ParsedTrack[] {
+  const out: ParsedTrack[] = [];
+  for (const track of tracks) {
+    const key = track.title.toLowerCase();
+    // Not a song: no stripe. Covers tuning and banter, and teases the setlist
+    // databases don't count as performances.
+    if (notASong.has(key)) continue;
+    const previous = out[out.length - 1];
+    // A continuation adds its time to the track it continues; with nothing to
+    // continue it is dropped rather than standing alone under a name that
+    // isn't a song.
+    if (foldIntoPrevious.has(key)) {
+      if (previous?.duration && track.duration) {
+        previous.duration = formatDuration(
+          parseDuration(previous.duration) + parseDuration(track.duration),
+        );
+      }
+      continue;
+    }
+    out.push({ ...track });
+  }
+  return out;
+}
+
+/**
+ * Fall back to MusicBrainz when Wikipedia can't supply the show.
+ *
+ * Two cases, both common enough to matter:
+ *   - the article lists the show but gives no durations;
+ *   - the article organises its listing by disc rather than by night
+ *     ("===Disc 1===" … "===Disc 9==="), so no tracks bucket to the date at all.
+ *
+ * MusicBrainz titles each medium with the night it holds, so it answers both.
+ * Takes its tracks wholesale rather than grafting lengths onto Wikipedia's
+ * titles by position: it supplies title, order *and* length for the same night,
+ * so pairing by index would add a failure mode for nothing. Returns the input
+ * unchanged if MusicBrainz can't answer, leaving the gap visible.
+ */
+async function fillUntimed(
+  tracks: ParsedTrack[],
+  release: Release,
+  date: string,
+): Promise<{ tracks: ParsedTrack[]; source: 'wikipedia' | 'musicbrainz' }> {
+  if (tracks.length && tracks.every((track) => track.duration)) {
+    return { tracks: applyTrackRules(tracks), source: 'wikipedia' };
+  }
+  const byDate = await tracksByDateFromMusicBrainz(release.name, release.dates);
+  const fromMb = byDate.get(date);
+  if (!fromMb?.length) {
+    return { tracks: applyTrackRules(tracks), source: 'wikipedia' };
+  }
+  return { tracks: applyTrackRules(fromMb), source: 'musicbrainz' };
 }
 
 const showPath = (id: string) =>
@@ -401,6 +448,7 @@ async function audit() {
   const unknownTitles = new Set<string>();
   let failed = 0;
   let untimedShows = 0;
+  let recovered = 0;
   console.log('show       tracks      total   source');
   for (const { show, source } of jobs) {
     const wikitext = text.get(source.page!);
@@ -410,14 +458,19 @@ async function audit() {
       continue;
     }
     const { byDate } = tracksByDate(wikitext, source);
-    const raw = byDate.get(show.date) ?? [];
-    if (!raw.length) {
+    const filled = await fillUntimed(
+      byDate.get(show.date) ?? [],
+      source,
+      show.date,
+    );
+    if (!filled.tracks.length) {
       console.log(`${show.id}   !! no tracks matched — ${source.name}`);
       failed++;
       continue;
     }
-    const { mapped, unknown } = canonicalise(raw);
+    const { mapped, unknown } = canonicalise(filled.tracks);
     for (const title of unknown) unknownTitles.add(title);
+    if (filled.source === 'musicbrainz') recovered++;
     const untimed = mapped.filter((track) => !track.duration).length;
     if (untimed) {
       console.log(
@@ -430,6 +483,22 @@ async function audit() {
       (a, s) => a + parseDuration(s.duration),
       0,
     );
+    // A partial source merges into the setlist rather than replacing it, so
+    // report what the merge would actually do. Counting its 8 excerpted tracks
+    // against an 18-song night reads as a catastrophic loss that never happens.
+    if (source.completeness === 'partial') {
+      const merged = mergePartial(show.songs, mapped);
+      const after = merged.songs.reduce(
+        (a, s) => a + parseDuration(s.duration),
+        0,
+      );
+      console.log(
+        `${show.id}   ${String(show.songs.length).padStart(2)} merge ${fmt(after - before).padStart(8)}   ` +
+          `${source.name.slice(0, 30)} (${merged.updated} updated` +
+          `${merged.unmatched.length ? `, ${merged.unmatched.length} unmatched` : ''})`,
+      );
+      continue;
+    }
     const after = mapped.reduce((a, s) => a + parseDuration(s.duration!), 0);
     const counts =
       show.songs.length === mapped.length
@@ -444,7 +513,8 @@ async function audit() {
     for (const title of [...unknownTitles].sort()) console.log(`   ${title}`);
   }
   console.log(
-    `\n${jobs.length - failed - untimedShows} timed, ${untimedShows} untimed in the article, ${failed} unparsed`,
+    `\n${jobs.length - failed - untimedShows} timed (${recovered} via MusicBrainz), ` +
+      `${untimedShows} untimed, ${failed} unparsed`,
   );
 }
 
@@ -457,59 +527,81 @@ if (args.includes('--audit')) {
 const id = args.find((a) => /^\d{8}$/.test(a));
 if (!id) {
   console.error(
-    'usage: tsx generator/import.ts <YYYYMMDD> [--write] [--release "<name>"]\n' +
+    'usage: tsx generator/import.ts <YYYYMMDD> [--write] [--gaps] [--release "<name>"]\n' +
       '       tsx generator/import.ts --audit',
   );
   process.exit(1);
 }
 const write = args.includes('--write');
-const releaseAt = args.indexOf('--release');
-const named = releaseAt >= 0 ? args[releaseAt + 1] : null;
+// Repeatable: a show can need several releases. 3/24/90 was issued complete
+// only across four of them, so `--release A --release B …` merges in order.
+const named = args.flatMap((arg, i) =>
+  arg === '--release' ? [args[i + 1]] : [],
+);
 
 const date = `${id.slice(0, 4)}-${id.slice(4, 6)}-${id.slice(6, 8)}`;
-const source = named
-  ? (releases.find((r) => r.name === named) ?? null)
-  : chooseSource(date);
+const sources: Release[] = [];
+if (named.length) {
+  for (const name of named) {
+    const found = releases.find((r) => r.name === name);
+    if (!found) {
+      console.error(`no release named "${name}" in data/releases.json`);
+      process.exit(1);
+    }
+    sources.push(found);
+  }
+} else {
+  const chosen = chooseSource(date);
+  if (!chosen) {
+    console.error(`no eligible release carries ${date}`);
+    process.exit(1);
+  }
+  sources.push(chosen);
+}
 
-if (!source) {
+/** Merge rather than replace when no source claims the whole night. */
+const merging = sources.length > 1 || sources[0].completeness === 'partial';
+
+const collected: ParsedTrack[] = [];
+for (const source of sources) {
+  console.log(`${date} ← ${source.name} (${source.completeness})`);
+  if (source.completeness !== 'complete') console.log(`  ! ${source.note}`);
+  if (!source.page) {
+    console.error(`  "${source.name}" has no Wikipedia article to read`);
+    process.exit(1);
+  }
+  const wikitext = (await articles([source.page])).get(source.page);
+  if (!wikitext) {
+    console.error(`  could not fetch "${source.page}"`);
+    process.exit(1);
+  }
+  const { byDate, orphans } = tracksByDate(wikitext, source);
+  if (orphans) {
+    console.log(
+      `  ! ${orphans} track(s) before the first dated heading — ignored`,
+    );
+  }
+  const filled = await fillUntimed(byDate.get(date) ?? [], source, date);
+  if (filled.source === 'musicbrainz') {
+    console.log('  durations from MusicBrainz — the article lists it untimed');
+  }
+  if (!filled.tracks.length) {
+    console.log(`  ! no tracks for ${date} in the article or MusicBrainz`);
+    continue;
+  }
+  console.log(`  ${filled.tracks.length} track(s)`);
+  collected.push(...filled.tracks);
+}
+
+if (!collected.length) {
   console.error(
-    named
-      ? `no release named "${named}" in data/releases.json`
-      : `no eligible release carries ${date}`,
-  );
-  process.exit(1);
-}
-if (!source.page) {
-  console.error(`"${source.name}" has no Wikipedia article to read`);
-  process.exit(1);
-}
-
-console.log(`${date} ← ${source.name} (${source.completeness})`);
-if (source.completeness !== 'complete') {
-  console.log(`  ! ${source.note}`);
-}
-
-const wikitext = (await articles([source.page])).get(source.page);
-if (!wikitext) {
-  console.error(`could not fetch "${source.page}"`);
-  process.exit(1);
-}
-
-const { byDate, orphans } = tracksByDate(wikitext, source);
-const raw = byDate.get(date) ?? [];
-if (orphans) {
-  console.log(
-    `  ! ${orphans} track(s) before the first dated heading — ignored`,
-  );
-}
-if (!raw.length) {
-  console.error(
-    `no tracks found for ${date}; the article's headings may not match the index`,
+    `\nno tracks found for ${date}; the release may organise its listing in a ` +
+      `way neither Wikipedia nor MusicBrainz exposes per-night`,
   );
   process.exit(1);
 }
 
-const { mapped, unknown } = canonicalise(raw);
+const { mapped, unknown } = canonicalise(collected);
 if (unknown.length) {
   console.log(`\n  ! ${unknown.length} title(s) not in data/songs.json:`);
   for (const title of [...new Set(unknown)]) console.log(`      ${title}`);
@@ -541,12 +633,142 @@ function requireTimed(
   return tracks as { title: string; duration: string }[];
 }
 
+/**
+ * Update an authored setlist from a partial release, in place.
+ *
+ * A partial release holds only some of the night — selections across three
+ * Knickerbocker shows, or the parts of 3/24/90 that reached four different
+ * albums. Replacing the setlist with it would delete every song it omits, so
+ * instead its tracks are matched into the existing one and only those
+ * durations change; everything else keeps what was authored.
+ *
+ * Each incoming track claims the first *unclaimed* occurrence of its title.
+ * Songs repeat within a night — two `Let It Grow`s around a drums segment,
+ * `Dark Star` reprised after the break — so claiming has to be one-to-one, or
+ * both performances collapse onto whichever came first. It deliberately does
+ * not require forward progress: a partial release may be resequenced rather
+ * than excerpted, and Road Trips 2:1 is, so a forward-only cursor matched one
+ * track and then failed the other seven.
+ */
+function mergePartial(
+  existing: { title: string; duration: string }[],
+  incoming: ParsedTrack[],
+): {
+  songs: { title: string; duration: string }[];
+  updated: number;
+  unmatched: string[];
+} {
+  const songs = existing.map((song) => ({ ...song }));
+  const claimed = new Set<number>();
+  const unmatched: string[] = [];
+  let updated = 0;
+  for (const track of incoming) {
+    if (!track.duration) continue;
+    const at = songs.findIndex(
+      (song, i) => !claimed.has(i) && song.title === track.title,
+    );
+    if (at < 0) {
+      unmatched.push(track.title);
+      continue;
+    }
+    claimed.add(at);
+    if (songs[at].duration !== track.duration) updated++;
+    songs[at] = { ...songs[at], duration: track.duration };
+  }
+  return { songs, updated, unmatched };
+}
+
+/**
+ * Report which songs a release leaves out, against the circulating soundboard.
+ *
+ * A partial release's own track listing can't say what it's missing — only that
+ * it's short. Diffing against archive.org names the gaps, which is what makes
+ * them fillable by hand instead of merely detectable.
+ *
+ * Matching is one-to-one on canonical titles, ignoring order, for the same
+ * reason `mergePartial` is: some releases resequence.
+ */
+async function reportGaps(date: string, release: ParsedTrack[]) {
+  const recording = await findRecording(date);
+  if (!recording) {
+    console.log(`\n  no archive.org recording catalogued for ${date}`);
+    return;
+  }
+  console.log(
+    `\n  gaps vs archive.org: ${recording.identifier}` +
+      `${recording.transferer ? ` (${recording.transferer})` : ''}`,
+  );
+  const recorded = canonicalise(
+    applyTrackRules(await recordingTracks(recording.identifier)),
+  );
+  const played = recorded.mapped;
+  if (recorded.unknown.length) {
+    // An unmapped title can't match the release, so it would be reported as a
+    // gap whether or not the release actually has it. Say so rather than let a
+    // spelling difference masquerade as a missing song.
+    console.log(
+      `    ! ${recorded.unknown.length} recording title(s) not in the registry, ` +
+        `so any match is missed: ${[...new Set(recorded.unknown)].join(', ')}`,
+    );
+  }
+  if (!played.length) {
+    console.log('    recording has no usable track list');
+    return;
+  }
+  const claimed = new Set<number>();
+  const missing: ParsedTrack[] = [];
+  for (const track of played) {
+    const at = release.findIndex(
+      (candidate, i) => !claimed.has(i) && candidate.title === track.title,
+    );
+    if (at < 0) missing.push(track);
+    else claimed.add(at);
+  }
+  const extra = release.filter((_, i) => !claimed.has(i));
+  console.log(
+    `    ${played.length} played, ${played.length - missing.length} on the release`,
+  );
+  if (missing.length) {
+    console.log(`    missing from the release (${missing.length}):`);
+    for (const track of missing) {
+      console.log(`      ${track.title} ${track.duration ?? ''}`);
+    }
+  }
+  if (extra.length) {
+    console.log(
+      `    on the release but not this recording (${extra.length}): ` +
+        extra.map((track) => track.title).join(', '),
+    );
+  }
+}
+
 const path = showPath(id);
 const exists = existsSync(path);
+if (args.includes('--gaps')) await reportGaps(date, mapped);
 
 if (exists) {
   const current = JSON.parse(readFileSync(path, 'utf8')) as ShowFile;
-  const changed = diff(current, mapped);
+  let songs: { title: string; duration: string }[];
+  let changed: number;
+  if (merging) {
+    const merged = mergePartial(current.songs, mapped);
+    songs = merged.songs;
+    changed = merged.updated;
+    console.log(
+      `\n  merge: ${merged.updated} of ${current.songs.length} durations updated, ` +
+        `${current.songs.length - merged.updated} left as authored`,
+    );
+    if (merged.unmatched.length) {
+      console.log(
+        `  ! ${merged.unmatched.length} release track(s) matched nothing in the setlist:`,
+      );
+      for (const title of merged.unmatched) console.log(`      ${title}`);
+    }
+    diff(current, songs);
+  } else {
+    changed = diff(current, mapped);
+    songs = requireTimed(mapped);
+  }
   if (!write) {
     console.log(
       changed
@@ -555,10 +777,7 @@ if (exists) {
     );
     process.exit(0);
   }
-  writeFileSync(
-    path,
-    serialiseShow({ ...current, songs: requireTimed(mapped) }),
-  );
+  writeFileSync(path, serialiseShow({ ...current, songs }));
   console.log(`\n✓ rewrote ${path.replace(`${root}/`, '')}`);
 } else {
   const draft: ShowFile = {
