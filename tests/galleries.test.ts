@@ -309,9 +309,9 @@ describe('buildRuns', () => {
 
 describe('runs in the real corpus', () => {
   it('derives the two runs the retired `collection` field named by hand', () => {
-    const winterland = findGallery('winterland-arena-october-1974')!;
+    const winterland = findGallery('winterland-october-1974')!;
     expect(winterland.kind).toBe('run');
-    expect(winterland.title).toBe('Winterland Arena October 1974');
+    expect(winterland.title).toBe('Winterland October 1974');
     expect(winterland.shows).toHaveLength(5);
 
     // Spans Feb→Mar, so it is named for its first show, not the calendar month.

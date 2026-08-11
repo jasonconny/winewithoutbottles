@@ -1,0 +1,84 @@
+{
+  "id": "19841012",
+  "date": "1984-10-12",
+  "venue": "Augusta Civic Center",
+  "city": "Augusta",
+  "state": "ME",
+  "country": "USA",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "10:42"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "6:21"
+    },
+    {
+      "title": "On the Road Again",
+      "duration": "3:11"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "5:51"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "7:53"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:30"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:55"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:15"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:43"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "7:24"
+    },
+    {
+      "title": "Don't Need Love",
+      "duration": "6:20"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "16:21"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:01"
+    },
+    {
+      "title": "Space",
+      "duration": "6:43"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:03"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "2:03"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "13:06"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:40"
+    }
+  ]
+}

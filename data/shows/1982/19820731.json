@@ -1,0 +1,100 @@
+{
+  "id": "19820731",
+  "date": "1982-07-31",
+  "venue": "Manor Downs",
+  "city": "Austin",
+  "state": "TX",
+  "country": "USA",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "6:11"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:38"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:54"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:03"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "9:28"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:10"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:23"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "9:07"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:47"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "7:45"
+    },
+    {
+      "title": "Deal",
+      "duration": "6:29"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "13:12"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:22"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:20"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "14:22"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:14"
+    },
+    {
+      "title": "Space",
+      "duration": "8:01"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:23"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:49"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:57"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:59"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:14"
+    }
+  ]
+}

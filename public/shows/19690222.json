@@ -1,0 +1,53 @@
+{
+  "id": "19690222",
+  "date": "1969-02-22",
+  "venue": "Dream Bowl",
+  "city": "Vallejo",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19690222.svg",
+  "songCount": 9,
+  "durationSeconds": 6604,
+  "songs": [
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Mountains of the Moon",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1334
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1013
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 409
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 547
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 963
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1325
+    }
+  ]
+}

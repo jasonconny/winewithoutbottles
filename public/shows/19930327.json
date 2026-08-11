@@ -1,0 +1,96 @@
+{
+  "id": "19930327",
+  "date": "1993-03-27",
+  "venue": "Knickerbocker Arena",
+  "city": "Albany",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19930327.svg",
+  "songCount": 20,
+  "durationSeconds": 9024,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 414
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Broken Arrow",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 732
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 705
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 623
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 777
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 548
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 262
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Days Between",
+      "durationSeconds": 589
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 311
+    },
+    {
+      "title": "I Fought the Law",
+      "durationSeconds": 168
+    }
+  ]
+}

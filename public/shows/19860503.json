@@ -1,0 +1,84 @@
+{
+  "id": "19860503",
+  "date": "1986-05-03",
+  "venue": "Cal Expo Amphitheatre",
+  "city": "Sacramento",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19860503.svg",
+  "songCount": 17,
+  "durationSeconds": 7709,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 405
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 184
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 513
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 385
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 178
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 217
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 889
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 412
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 645
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "19740918",
+  "date": "1974-09-18",
+  "venue": "Parc des Expositions",
+  "city": "Dijon",
+  "country": "FRA",
+  "tags": [
+    "Wall of Sound",
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19740918.svg",
+  "songCount": 26,
+  "durationSeconds": 12325,
+  "songs": [
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 643
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 223
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 290
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 204
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1398
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 935
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 864
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 443
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 846
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Caution Jam",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 291
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 338
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "19791027",
+  "date": "1979-10-27",
+  "venue": "Cape Cod Coliseum",
+  "city": "South Yarmouth",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19791027.svg",
+  "songCount": 21,
+  "durationSeconds": 9964,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 244
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 863
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 1031
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 840
+    },
+    {
+      "title": "Caution Jam",
+      "durationSeconds": 224
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 488
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 306
+    }
+  ]
+}

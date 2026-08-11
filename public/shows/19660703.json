@@ -1,0 +1,92 @@
+{
+  "id": "19660703",
+  "date": "1966-07-03",
+  "venue": "Fillmore Auditorium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19660703.svg",
+  "songCount": 19,
+  "durationSeconds": 5495,
+  "songs": [
+    {
+      "title": "Nobody's Fault But Mine",
+      "durationSeconds": 69
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 479
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 185
+    },
+    {
+      "title": "He Was a Friend of Mine",
+      "durationSeconds": 256
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 212
+    },
+    {
+      "title": "Viola Lee Blues",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 229
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "durationSeconds": 141
+    },
+    {
+      "title": "Keep Rolling By",
+      "durationSeconds": 275
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 234
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 196
+    },
+    {
+      "title": "Tastebud",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 168
+    },
+    {
+      "title": "Cream Puff War",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Don't Mess Up a Good Thing",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Cardboard Cowboy",
+      "durationSeconds": 151
+    },
+    {
+      "title": "Gangster of Love",
+      "durationSeconds": 310
+    },
+    {
+      "title": "You Don't Have to Ask",
+      "durationSeconds": 272
+    },
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 950
+    }
+  ]
+}

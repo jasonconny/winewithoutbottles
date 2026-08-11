@@ -1,0 +1,76 @@
+{
+  "id": "19750928",
+  "date": "1975-09-28",
+  "venue": "Golden Gate Park",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19750928.svg",
+  "songCount": 15,
+  "durationSeconds": 6059,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 515
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 418
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 315
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 351
+    },
+    {
+      "title": "King Solomon's Marbles",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 413
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 323
+    }
+  ]
+}

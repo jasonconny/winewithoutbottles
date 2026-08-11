@@ -1,0 +1,120 @@
+{
+  "id": "19731114",
+  "date": "1973-11-14",
+  "venue": "San Diego Sports Arena",
+  "city": "San Diego",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19731114.svg",
+  "songCount": 26,
+  "durationSeconds": 11328,
+  "songs": [
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 228
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 793
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 546
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 199
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 503
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 270
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 536
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 191
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 451
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 766
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1157
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 299
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 753
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 261
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 607
+    }
+  ]
+}

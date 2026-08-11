@@ -1,0 +1,88 @@
+{
+  "id": "19950221",
+  "date": "1995-02-21",
+  "venue": "Delta Center",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19950221.svg",
+  "songCount": 18,
+  "durationSeconds": 8419,
+  "songs": [
+    {
+      "title": "Salt Lake City",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Broken Arrow",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 372
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 490
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 542
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 639
+    },
+    {
+      "title": "Samba in the Rain",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 512
+    },
+    {
+      "title": "I Just Want to Make Love to You",
+      "durationSeconds": 228
+    },
+    {
+      "title": "That Would Be Something",
+      "durationSeconds": 220
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 685
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Visions of Johanna",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 599
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 421
+    }
+  ]
+}

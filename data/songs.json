@@ -4,6 +4,9 @@
       "title": "(I Can't Get No) Satisfaction"
     },
     {
+      "title": "Ain't It Crazy (The Rub)"
+    },
+    {
       "title": "Alabama Getaway"
     },
     {
@@ -94,6 +97,9 @@
       "title": "Candyman"
     },
     {
+      "title": "Cardboard Cowboy"
+    },
+    {
       "title": "Casey Jones"
     },
     {
@@ -136,6 +142,12 @@
     },
     {
       "title": "Crazy Fingers"
+    },
+    {
+      "title": "Cream Puff War"
+    },
+    {
+      "title": "Cryptical Envelopment"
     },
     {
       "title": "Cumberland Blues"
@@ -181,6 +193,12 @@
     },
     {
       "title": "Don't Ease Me In"
+    },
+    {
+      "title": "Don't Mess Up a Good Thing"
+    },
+    {
+      "title": "Don't Need Love"
     },
     {
       "title": "Drums",
@@ -238,6 +256,9 @@
       "title": "From the Heart of Me"
     },
     {
+      "title": "Gangster of Love"
+    },
+    {
       "title": "Gimme Some Lovin'",
       "aliases": ["Gimme Some Lovin"]
     },
@@ -263,6 +284,9 @@
     },
     {
       "title": "Happiness Is Drumming"
+    },
+    {
+      "title": "Hard to Handle"
     },
     {
       "title": "He Was a Friend of Mine"
@@ -303,6 +327,9 @@
       "title": "I Got My Mojo Workin'"
     },
     {
+      "title": "I Just Want to Make Love to You"
+    },
+    {
       "title": "I Know You Rider"
     },
     {
@@ -339,6 +366,9 @@
       "title": "It Takes a Lot to Laugh, It Takes a Train to Cry"
     },
     {
+      "title": "It's a Man's, Man's, Man's World"
+    },
+    {
       "title": "It's All Over Now"
     },
     {
@@ -354,7 +384,12 @@
     },
     {
       "title": "Jam",
-      "aliases": ["Lunatic Preserve", "Mock Turtle Jam", "No MSG Jam"]
+      "aliases": [
+        "Lunatic Preserve",
+        "Mock Turtle Jam",
+        "No MSG Jam",
+        "The Eleven Jam"
+      ]
     },
     {
       "title": "Johnny B. Goode"
@@ -367,7 +402,14 @@
       "title": "Just Like Tom Thumb's Blues"
     },
     {
+      "title": "Keep Rolling By"
+    },
+    {
       "title": "Keep Your Day Job"
+    },
+    {
+      "title": "King Solomon's Marbles",
+      "aliases": ["Milkin' the Turkey"]
     },
     {
       "title": "Knockin' on Heaven's Door"
@@ -442,6 +484,7 @@
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
       "aliases": [
+        "Mississippi Half Step Uptown Toodeloo",
         "Mississippi Half-Step Uptown Toodelloo",
         "Mississippi Half-Step Uptown Toodleoo"
       ]
@@ -471,7 +514,7 @@
     },
     {
       "title": "New Minglewood Blues",
-      "aliases": ["All New Minglewood Blues"]
+      "aliases": ["All New Minglewood Blues", "New, New Minglewood Blues"]
     },
     {
       "title": "New Potato Caboose"
@@ -483,11 +526,20 @@
       "title": "Next Time You See Me"
     },
     {
+      "title": "Nobody's Fault But Mine"
+    },
+    {
+      "title": "Nobody's Jam"
+    },
+    {
       "title": "Not Fade Away"
     },
     {
       "title": "Not Fade Away Reprise",
       "sharesPrefixWith": "Not Fade Away"
+    },
+    {
+      "title": "On the Road Again"
     },
     {
       "title": "One More Saturday Night"
@@ -541,6 +593,9 @@
       "title": "Saint of Circumstance"
     },
     {
+      "title": "Salt Lake City"
+    },
+    {
       "title": "Samba in the Rain",
       "aliases": ["Samba In The Rain"]
     },
@@ -563,14 +618,16 @@
       "title": "Sing Me Back Home"
     },
     {
-      "title": "Sitting on Top of the World"
+      "title": "Sitting on Top of the World",
+      "aliases": ["Sittin' on Top of the World"]
     },
     {
       "title": "Slipknot!",
       "aliases": ["Slipknot"]
     },
     {
-      "title": "Smokestack Lightning"
+      "title": "Smokestack Lightning",
+      "aliases": ["Smokestack Lightnin'"]
     },
     {
       "title": "So Many Roads"
@@ -618,6 +675,9 @@
     },
     {
       "title": "Supplication"
+    },
+    {
+      "title": "Tastebud"
     },
     {
       "title": "Tennessee Jed"
@@ -702,6 +762,12 @@
       "aliases": ["Victim Or The Crime"]
     },
     {
+      "title": "Viola Lee Blues"
+    },
+    {
+      "title": "Visions of Johanna"
+    },
+    {
       "title": "Walkin' Blues"
     },
     {
@@ -743,6 +809,9 @@
       "aliases": ["The Yellow Dog Story"]
     },
     {
+      "title": "You Don't Have to Ask"
+    },
+    {
       "title": "You Win Again"
     }
   ],
@@ -752,8 +821,9 @@
     "Funiculì, Funiculà",
     "Introduction",
     "Jones Gang introduction",
+    "Technical Difficulties",
     "Tuning",
-    "Tuning Rap",
-    "Tuning intro"
+    "Tuning intro",
+    "Tuning Rap"
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "id": "19941001",
+  "date": "1994-10-01",
+  "venue": "Boston Garden",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19941001.svg",
+  "songCount": 21,
+  "durationSeconds": 10905,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 697
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 169
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 358
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 983
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 982
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 721
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1099
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 679
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 478
+    }
+  ]
+}

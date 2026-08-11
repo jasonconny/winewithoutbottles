@@ -1,0 +1,85 @@
+{
+  "id": "19920320",
+  "date": "1992-03-20",
+  "venue": "Copps Coliseum",
+  "city": "Hamilton",
+  "state": "ON",
+  "country": "CAN",
+  "tags": [
+    "Dark Star",
+    "30 Trips Around the Sun"
+  ],
+  "svg": "/shows/19920320.svg",
+  "songCount": 17,
+  "durationSeconds": 8997,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 451
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Maggie's Farm",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 741
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 792
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 856
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 590
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 667
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 566
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 593
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 468
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 326
+    }
+  ]
+}
