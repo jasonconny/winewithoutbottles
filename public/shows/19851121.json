@@ -1,0 +1,96 @@
+{
+  "id": "19851121",
+  "date": "1985-11-21",
+  "venue": "Henry J. Kaiser Convention Center",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19851121.svg",
+  "songCount": 20,
+  "durationSeconds": 7991,
+  "songs": [
+    {
+      "title": "Big Boy Pete",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 182
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 800
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 736
+    },
+    {
+      "title": "She Belongs to Me",
+      "durationSeconds": 530
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 561
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 109
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 290
+    },
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Walking the Dog",
+      "durationSeconds": 318
+    }
+  ]
+}

@@ -179,6 +179,43 @@ const HAND_RESOLVED: Record<
     completeness: 'partial',
     note: 'article: selections from three nights, each later released whole elsewhere (3/24 only across four releases)',
   },
+  // Mixed box, and the mix is why this is here: the parser read "17 complete
+  // concerts" as a blanket "complete concerts" claim and marked all 24 dates
+  // complete. The article's own breakdown is "17 complete concerts – four of
+  // them with bonus tracks… / 3 recordings each compiled from two or three
+  // concerts from the same run / 1 bonus cassette of a partial concert".
+  //
+  // Only the 17 are listed here. The seven dates behind those three composite
+  // discs are dropped: their track listings read "– selections:" where all 17
+  // others read "– first set:" / "– second set:" / "– encore:", and taking them
+  // as whole shows yields 4- and 3-track "concerts". They remain gap-fill
+  // material, not sources. The dropped dates are 1969-06-05/07/08 (Fillmore
+  // West), 1971-04-25/27 (Fillmore East) and 1972-09-15/16 (Boston Music Hall);
+  // the partial cassette is 1969-04-05 (Avalon Ballroom).
+  'Enjoying the Ride': {
+    dates: [
+      '1971-02-24',
+      '1973-03-16',
+      '1977-03-20',
+      '1978-05-13',
+      '1979-08-12',
+      '1980-08-23',
+      '1981-03-14',
+      '1981-05-01',
+      '1983-08-20',
+      '1984-07-13',
+      '1985-11-21',
+      '1987-09-16',
+      '1989-07-15',
+      '1989-12-27',
+      '1991-05-12',
+      '1993-03-17',
+      '1994-10-03',
+    ],
+    bonusDates: ['1971-02-20', '1981-07-11', '1982-09-15', '1985-11-22'],
+    completeness: 'complete',
+    note: 'article: "17 complete concerts – four of them with bonus tracks from different concerts at the same venues"; the 3 composite discs (selections from 6/5–6/8/69, 4/25+4/27/71, 9/15+9/16/72) and the 4/5/69 partial cassette are excluded — selections cannot source a show whole',
+  },
 };
 
 /**

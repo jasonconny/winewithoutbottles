@@ -1,0 +1,96 @@
+{
+  "id": "19800823",
+  "date": "1980-08-23",
+  "venue": "Alpine Valley Music Theatre",
+  "city": "East Troy",
+  "state": "WI",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19800823.svg",
+  "songCount": 20,
+  "durationSeconds": 8485,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 185
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 203
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 560
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 359
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 1249
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 483
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 280
+    }
+  ]
+}

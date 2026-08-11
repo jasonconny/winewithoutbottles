@@ -4,7 +4,8 @@
       "title": "(I Can't Get No) Satisfaction"
     },
     {
-      "title": "Ain't It Crazy (The Rub)"
+      "title": "Ain't It Crazy (The Rub)",
+      "aliases": ["The Rub"]
     },
     {
       "title": "Alabama Getaway"
@@ -49,7 +50,11 @@
       "title": "Big Boss Man"
     },
     {
-      "title": "Big Railroad Blues"
+      "title": "Big Boy Pete"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "aliases": ["Big RxR Blues"]
     },
     {
       "title": "Big River"
@@ -64,7 +69,8 @@
       "title": "Black Peter"
     },
     {
-      "title": "Black-Throated Wind"
+      "title": "Black-Throated Wind",
+      "aliases": ["Black Throated Wind"]
     },
     {
       "title": "Blow Away"
@@ -154,7 +160,11 @@
     },
     {
       "title": "Dancing in the Street",
-      "aliases": ["Dancin' In The Street", "Dancing in the Streets"]
+      "aliases": [
+        "Dancin' In The Street",
+        "Dancin' In The Streets",
+        "Dancing in the Streets"
+      ]
     },
     {
       "title": "Dark Star"
@@ -189,7 +199,8 @@
       "title": "Dire Wolf"
     },
     {
-      "title": "Doin' That Rag"
+      "title": "Doin' That Rag",
+      "aliases": ["Doing That Rag"]
     },
     {
       "title": "Don't Ease Me In"
@@ -267,7 +278,11 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "aliases": ["Goin' Down The Road Feeling Bad"]
+      "aliases": [
+        "GDTRFB",
+        "Goin' Down The Road Feelin' Bad",
+        "Goin' Down The Road Feeling Bad"
+      ]
     },
     {
       "title": "Good Golly Miss Molly"
@@ -280,7 +295,11 @@
       "aliases": ["Good Morning Little School Girl"]
     },
     {
-      "title": "Greatest Story Ever Told"
+      "title": "Good Vibrations"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "aliases": ["Greatest Story Even Told"]
     },
     {
       "title": "Happiness Is Drumming"
@@ -297,6 +316,9 @@
     {
       "title": "Hell in a Bucket",
       "aliases": ["Hell In A Bucket"]
+    },
+    {
+      "title": "Help Me Rhonda"
     },
     {
       "title": "Help On The Way"
@@ -324,17 +346,24 @@
       "title": "I Fought the Law"
     },
     {
+      "title": "I Get Around"
+    },
+    {
       "title": "I Got My Mojo Workin'"
     },
     {
       "title": "I Just Want to Make Love to You"
     },
     {
-      "title": "I Know You Rider"
+      "title": "I Know You Rider",
+      "aliases": ["I Know Your Rider"]
     },
     {
       "title": "I Need a Miracle",
       "aliases": ["I Need A Miracle"]
+    },
+    {
+      "title": "I Second That Emotion"
     },
     {
       "title": "I Want To Tell You"
@@ -453,6 +482,9 @@
       "title": "Louie, Louie"
     },
     {
+      "title": "Lucy in the Sky with Diamonds"
+    },
+    {
       "title": "Maggie's Farm"
     },
     {
@@ -539,6 +571,9 @@
       "sharesPrefixWith": "Not Fade Away"
     },
     {
+      "title": "Okie From Muskogee"
+    },
+    {
       "title": "On the Road Again"
     },
     {
@@ -558,7 +593,7 @@
     },
     {
       "title": "Playing in the Band",
-      "aliases": ["Playing In The Band"]
+      "aliases": ["Playin' In The Band", "Playing In The Band"]
     },
     {
       "title": "Promised Land",
@@ -584,6 +619,9 @@
       "title": "Revolution"
     },
     {
+      "title": "Riot In Cell Block #9"
+    },
+    {
       "title": "Rockin' Pneumonia and the Boogie Woogie Flu"
     },
     {
@@ -606,10 +644,16 @@
       "title": "Scarlet Begonias"
     },
     {
+      "title": "Searchin'"
+    },
+    {
       "title": "Seastones"
     },
     {
       "title": "Shakedown Street"
+    },
+    {
+      "title": "She Belongs to Me"
     },
     {
       "title": "Ship Of Fools"
@@ -662,7 +706,8 @@
       "title": "Stuck Inside Of Mobile With The Memphis Blues Again"
     },
     {
-      "title": "Sugar Magnolia"
+      "title": "Sugar Magnolia",
+      "aliases": ["Sugar Magonlia"]
     },
     {
       "title": "Sugaree"
@@ -711,6 +756,9 @@
     },
     {
       "title": "The Stranger (Two Souls in Communion)"
+    },
+    {
+      "title": "The Things I Used To Do"
     },
     {
       "title": "The Valley Road"
@@ -771,7 +819,13 @@
       "title": "Walkin' Blues"
     },
     {
+      "title": "Walking the Dog"
+    },
+    {
       "title": "Wang Dang Doodle"
+    },
+    {
+      "title": "Wave That Flag"
     },
     {
       "title": "Way to Go Home"
@@ -805,6 +859,9 @@
       "title": "When Push Comes to Shove"
     },
     {
+      "title": "Who's Lovin' You Tonight"
+    },
+    {
       "title": "Yellow Dog Story",
       "aliases": ["The Yellow Dog Story"]
     },
@@ -817,10 +874,13 @@
   ],
   "foldIntoPrevious": ["And"],
   "notASong": [
+    "crowd",
     "Funiculi Funicula",
     "Funiculì, Funiculà",
     "Introduction",
     "Jones Gang introduction",
+    "Set II crowd",
+    "Spanish Jam Tuning",
     "Technical Difficulties",
     "Tuning",
     "Tuning intro",

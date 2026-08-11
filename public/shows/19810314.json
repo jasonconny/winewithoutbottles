@@ -1,0 +1,108 @@
+{
+  "id": "19810314",
+  "date": "1981-03-14",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19810314.svg",
+  "songCount": 23,
+  "durationSeconds": 9656,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 758
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 481
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 350
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 344
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 774
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 170
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 606
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 477
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 280
+    }
+  ]
+}

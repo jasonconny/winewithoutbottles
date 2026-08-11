@@ -139,6 +139,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 6377
   },
   {
+    "id": "19710224",
+    "date": "1971-02-24",
+    "venue": "Capitol Theatre",
+    "city": "Port Chester",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19710224.svg",
+    "songCount": 22,
+    "durationSeconds": 8842
+  },
+  {
     "id": "19710318",
     "date": "1971-03-18",
     "venue": "Fox Theatre",
@@ -457,6 +471,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19720924.svg",
     "songCount": 27,
     "durationSeconds": 10858
+  },
+  {
+    "id": "19730316",
+    "date": "1973-03-16",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19730316.svg",
+    "songCount": 25,
+    "durationSeconds": 11794
   },
   {
     "id": "19731114",
@@ -843,6 +872,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9563
   },
   {
+    "id": "19770320",
+    "date": "1977-03-20",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19770320.svg",
+    "songCount": 19,
+    "durationSeconds": 9658
+  },
+  {
     "id": "19770422",
     "date": "1977-04-22",
     "venue": "Spectrum",
@@ -1206,6 +1249,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10400
   },
   {
+    "id": "19780513",
+    "date": "1978-05-13",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19780513.svg",
+    "songCount": 19,
+    "durationSeconds": 9870
+  },
+  {
     "id": "19780514",
     "date": "1978-05-14",
     "venue": "Providence Civic Center",
@@ -1240,6 +1297,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19790108.svg",
     "songCount": 21,
     "durationSeconds": 10138
+  },
+  {
+    "id": "19790812",
+    "date": "1979-08-12",
+    "venue": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19790812.svg",
+    "songCount": 23,
+    "durationSeconds": 10362
   },
   {
     "id": "19790904",
@@ -1289,6 +1360,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9964
   },
   {
+    "id": "19800823",
+    "date": "1980-08-23",
+    "venue": "Alpine Valley Music Theatre",
+    "city": "East Troy",
+    "state": "WI",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19800823.svg",
+    "songCount": 20,
+    "durationSeconds": 8485
+  },
+  {
     "id": "19801128",
     "date": "1980-11-28",
     "venue": "Lakeland Civic Center",
@@ -1329,6 +1414,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19810310.svg",
     "songCount": 24,
     "durationSeconds": 10375
+  },
+  {
+    "id": "19810314",
+    "date": "1981-03-14",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19810314.svg",
+    "songCount": 23,
+    "durationSeconds": 9656
+  },
+  {
+    "id": "19810501",
+    "date": "1981-05-01",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19810501.svg",
+    "songCount": 22,
+    "durationSeconds": 10328
   },
   {
     "id": "19810516",
@@ -1387,6 +1500,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10278
   },
   {
+    "id": "19830820",
+    "date": "1983-08-20",
+    "venue": "Frost Amphitheater",
+    "city": "Palo Alto",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19830820.svg",
+    "songCount": 20,
+    "durationSeconds": 10405
+  },
+  {
     "id": "19831011",
     "date": "1983-10-11",
     "venue": "Madison Square Garden",
@@ -1429,6 +1556,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10453
   },
   {
+    "id": "19840713",
+    "date": "1984-07-13",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19840713.svg",
+    "songCount": 20,
+    "durationSeconds": 9261
+  },
+  {
     "id": "19841012",
     "date": "1984-10-12",
     "venue": "Augusta Civic Center",
@@ -1455,6 +1597,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19850624.svg",
     "songCount": 22,
     "durationSeconds": 9010
+  },
+  {
+    "id": "19851121",
+    "date": "1985-11-21",
+    "venue": "Henry J. Kaiser Convention Center",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19851121.svg",
+    "songCount": 20,
+    "durationSeconds": 7991
   },
   {
     "id": "19860503",
@@ -1645,6 +1801,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9599
   },
   {
+    "id": "19890715",
+    "date": "1989-07-15",
+    "venue": "Deer Creek Music Center",
+    "city": "Noblesville",
+    "state": "IN",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19890715.svg",
+    "songCount": 20,
+    "durationSeconds": 10438
+  },
+  {
     "id": "19891008",
     "date": "1989-10-08",
     "venue": "Hampton Coliseum",
@@ -1827,9 +1997,23 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9112
   },
   {
+    "id": "19891227",
+    "date": "1989-12-27",
+    "venue": "Oakland Coliseum Arena",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19891227.svg",
+    "songCount": 20,
+    "durationSeconds": 9278
+  },
+  {
     "id": "19900314",
     "date": "1990-03-14",
-    "venue": "Capitol Centre",
+    "venue": "Capital Centre",
     "city": "Landover",
     "state": "MD",
     "country": "USA",
@@ -1844,7 +2028,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19900315",
     "date": "1990-03-15",
-    "venue": "Capitol Centre",
+    "venue": "Capital Centre",
     "city": "Landover",
     "state": "MD",
     "country": "USA",
@@ -1856,7 +2040,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19900316",
     "date": "1990-03-16",
-    "venue": "Capitol Centre",
+    "venue": "Capital Centre",
     "city": "Landover",
     "state": "MD",
     "country": "USA",
@@ -2288,6 +2472,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9567
   },
   {
+    "id": "19910512",
+    "date": "1991-05-12",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19910512.svg",
+    "songCount": 19,
+    "durationSeconds": 9981
+  },
+  {
     "id": "19910908",
     "date": "1991-09-08",
     "venue": "Madison Square Garden",
@@ -2420,6 +2618,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9290
   },
   {
+    "id": "19930317",
+    "date": "1993-03-17",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19930317.svg",
+    "songCount": 17,
+    "durationSeconds": 8703
+  },
+  {
     "id": "19930327",
     "date": "1993-03-27",
     "venue": "Knickerbocker Arena",
@@ -2543,6 +2756,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19941001.svg",
     "songCount": 21,
     "durationSeconds": 10905
+  },
+  {
+    "id": "19941003",
+    "date": "1994-10-03",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19941003.svg",
+    "songCount": 19,
+    "durationSeconds": 9211
   },
   {
     "id": "19941013",

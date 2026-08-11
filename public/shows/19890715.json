@@ -1,0 +1,96 @@
+{
+  "id": "19890715",
+  "date": "1989-07-15",
+  "venue": "Deer Creek Music Center",
+  "city": "Noblesville",
+  "state": "IN",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19890715.svg",
+  "songCount": 20,
+  "durationSeconds": 10438,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 450
+    },
+    {
+      "title": "We Can Run",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 834
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 656
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 623
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1018
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 420
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 622
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 427
+    }
+  ]
+}
