@@ -1,0 +1,100 @@
+{
+  "id": "19810501",
+  "date": "1981-05-01",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": ["Enjoying the Ride"],
+  "source": "Enjoying the Ride",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "4:54"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:12"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:34"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:01"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:10"
+    },
+    {
+      "title": "Althea",
+      "duration": "8:46"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "9:45"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:54"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "10:23"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:27"
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "9:58"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:30"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:02"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:31"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "11:41"
+    },
+    {
+      "title": "The Other One",
+      "duration": "5:41"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:21"
+    },
+    {
+      "title": "Space",
+      "duration": "5:59"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:51"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:19"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:53"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:16"
+    }
+  ]
+}

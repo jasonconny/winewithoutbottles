@@ -1,0 +1,108 @@
+{
+  "id": "19790812",
+  "date": "1979-08-12",
+  "venue": "Red Rocks Amphitheatre",
+  "city": "Morrison",
+  "state": "CO",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19790812.svg",
+  "songCount": 23,
+  "durationSeconds": 10362,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 286
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 152
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 212
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 300
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 321
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 834
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1175
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 833
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 606
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 506
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 325
+    }
+  ]
+}

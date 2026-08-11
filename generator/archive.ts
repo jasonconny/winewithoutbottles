@@ -61,13 +61,54 @@ export async function findRecording(date: string): Promise<Recording | null> {
     source: first(doc.source),
     transferer: first(doc.transferer),
   }));
+  return rank(candidates)[0] ?? null;
+}
+
+/**
+ * Every candidate for a date, best first.
+ *
+ * Same preference as `findRecording` — soundboards, Charlie Miller's if he did
+ * one — but the remainder is sorted by identifier rather than left in the order
+ * archive.org happened to return. **That order is not stable**: the search sets
+ * no sort, so two runs minutes apart can hand back the same two tapes in
+ * opposite order, and the pick silently changes with them. That surfaced when a
+ * staged skeleton came back with 8 songs where the previous run had 11, and
+ * again at 7 songs where a previous run had 23 — different tape, not different
+ * data. A staged file has to be reproducible, so the tie-break is explicit.
+ */
+export async function findRecordings(date: string): Promise<Recording[]> {
+  const url = new URL('https://archive.org/advancedsearch.php');
+  url.searchParams.set(
+    'q',
+    `collection:GratefulDead AND date:[${date} TO ${date}]`,
+  );
+  for (const field of ['identifier', 'source', 'transferer']) {
+    url.searchParams.append('fl[]', field);
+  }
+  url.searchParams.set('rows', '50');
+  url.searchParams.set('output', 'json');
+  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`archive.org search: HTTP ${res.status}`);
+  const body = (await res.json()) as { response?: { docs?: SearchDoc[] } };
+  return rank(
+    (body.response?.docs ?? []).map((doc) => ({
+      identifier: doc.identifier,
+      source: first(doc.source),
+      transferer: first(doc.transferer),
+    })),
+  );
+}
+
+function rank(candidates: Recording[]): Recording[] {
   const soundboards = candidates.filter(
     (item) =>
       /sbd|soundboard/i.test(item.source) || /\.sbd\./.test(item.identifier),
   );
-  const pool = soundboards.length ? soundboards : candidates;
-  const miller = pool.find((item) => /charlie miller/i.test(item.transferer));
-  return miller ?? pool[0] ?? null;
+  const pool = [...(soundboards.length ? soundboards : candidates)].sort(
+    (a, b) => a.identifier.localeCompare(b.identifier),
+  );
+  const miller = pool.filter((item) => /charlie miller/i.test(item.transferer));
+  return [...miller, ...pool.filter((item) => !miller.includes(item))];
 }
 
 /**
@@ -128,8 +169,14 @@ export async function recordingTracks(
         .replace(/^\d+\s*[-.]?\s*/, '')
         .replace(/[‘’]/g, "'")
         // Taper titles mark segues with an ASCII arrow, "Help On The Way ->",
-        // which is part of the sequencing rather than the song's name.
-        .replace(/\s*(->|[>→])\s*$/, '')
+        // which is part of the sequencing rather than the song's name. They
+        // also carry footnote markers — "Turn On Your Lovelight *", "The Things
+        // I Used To Do **" — keyed to notes in the item description, usually
+        // naming a guest. Both are annotation, not title: left on, the marker
+        // hides a song the registry already knows (that Lovelight is an
+        // existing alias). Repeat the group so "Title * >" comes off in either
+        // order.
+        .replace(/(?:\s*(?:->|[>→]|\*+))+\s*$/, '')
         .replace(/\s+/g, ' ')
         .trim();
       return title ? [{ title, duration: formatDuration(seconds) }] : [];

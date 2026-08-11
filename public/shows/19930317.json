@@ -1,0 +1,85 @@
+{
+  "id": "19930317",
+  "date": "1993-03-17",
+  "venue": "Capital Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19930317.svg",
+  "songCount": 17,
+  "durationSeconds": 8703,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 776
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Lazy River Road",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 680
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Eternity",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 727
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Days Between",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Lucy in the Sky with Diamonds",
+      "durationSeconds": 288
+    }
+  ]
+}

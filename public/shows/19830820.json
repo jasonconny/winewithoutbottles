@@ -1,0 +1,96 @@
+{
+  "id": "19830820",
+  "date": "1983-08-20",
+  "venue": "Frost Amphitheater",
+  "city": "Palo Alto",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19830820.svg",
+  "songCount": 20,
+  "durationSeconds": 10405,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 313
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 472
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 476
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 843
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 837
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 490
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 643
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 307
+    }
+  ]
+}

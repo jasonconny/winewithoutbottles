@@ -1,0 +1,104 @@
+{
+  "id": "19810501",
+  "date": "1981-05-01",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19810501.svg",
+  "songCount": 22,
+  "durationSeconds": 10328,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 574
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 181
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 585
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 623
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 598
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 391
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 701
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 681
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 359
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 619
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 533
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 316
+    }
+  ]
+}

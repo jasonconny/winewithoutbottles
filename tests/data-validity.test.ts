@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { basename, join } from 'node:path';
 import { cleanTitle, isValidDuration } from '@/wwob';
 import type { ShowFile } from '@/wwob';
@@ -432,4 +432,86 @@ describe('generated manifest is in sync with the data', () => {
     const manifestIds = shows.map((s) => s.id).sort();
     expect(manifestIds).toEqual(dataIds);
   });
+});
+
+describe('staged partial shows are well-formed', () => {
+  // `data/partial-shows/` holds shows an official release can only partly
+  // source — the setlist skeleton comes from an archive.org soundboard, the
+  // durations the release does carry are merged in, and the rest are left blank
+  // for Jason to fill from whichever source he judges right. Promotion is a
+  // plain `mv` into `data/shows/<year>/`.
+  //
+  // These are *format* guards only. Completeness is deliberately not checked —
+  // a blank duration is the entire point, and the show-data guards above will
+  // reject one the moment the file is promoted. What is checked is everything
+  // that would otherwise stay silent until promotion and then surface with no
+  // context: a bad id, a non-canonical title, a malformed duration, or a
+  // staging file shadowing a show that already exists.
+  const PARTIAL_DIR = 'data/partial-shows';
+  const partialFiles = existsSync(PARTIAL_DIR)
+    ? (readdirSync(PARTIAL_DIR) as string[])
+        .filter((f) => f.endsWith('.json'))
+        .sort()
+    : [];
+  const readPartial = (file: string) =>
+    JSON.parse(readFileSync(join(PARTIAL_DIR, file), 'utf8')) as ShowFile;
+
+  const registry = JSON.parse(readFileSync('data/songs.json', 'utf8')) as {
+    songs: { title: string; aliases?: string[] }[];
+  };
+  const canonical = new Set(registry.songs.map((song) => song.title));
+  const aliases = new Set(registry.songs.flatMap((song) => song.aliases ?? []));
+
+  it('the directory is optional and flat', () => {
+    // Nothing staged is the normal steady state, so an empty or absent
+    // directory must pass. Flat because there are only ever a handful in
+    // flight, and promotion should stay a one-step `mv`.
+    for (const file of partialFiles) expect(file).not.toContain('/');
+  });
+
+  it('no staged id collides with a show that already exists', () => {
+    const real = new Set(dataFiles().map((f) => readShow(f).id));
+    for (const file of partialFiles) {
+      const id = readPartial(file).id;
+      expect(
+        real.has(id),
+        `${file} stages ${id}, which is already in data/shows/ — finish or delete the staged copy`,
+      ).toBe(false);
+    }
+  });
+
+  it('staged ids are unique', () => {
+    const ids = partialFiles.map((f) => readPartial(f).id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  if (partialFiles.length) {
+    it.each(partialFiles)('%s is well-formed', (file) => {
+      const show = readPartial(file);
+
+      expect(show.id).toMatch(ID_RE);
+      expect(`${show.id}.json`).toBe(basename(file));
+      expect(show.date).toMatch(DATE_RE);
+      expect(show.date.replaceAll('-', '')).toBe(show.id);
+      expect(show.songs.length).toBeGreaterThan(0);
+
+      for (const song of show.songs) {
+        expect(
+          aliases.has(song.title),
+          `"${song.title}" is an alias; use the canonical title`,
+        ).toBe(false);
+        expect(
+          canonical.has(song.title),
+          `"${song.title}" is not in data/songs.json — add it deliberately or alias it`,
+        ).toBe(true);
+        // Blank is the work list. Anything else has to be a real duration:
+        // a half-typed "12:" or "3:7" would otherwise survive until promotion.
+        if (song.duration !== '')
+          expect(
+            isValidDuration(song.duration),
+            `"${song.title}" has duration "${song.duration}" — use m:ss, or "" if still unknown`,
+          ).toBe(true);
+      }
+    });
+  }
 });

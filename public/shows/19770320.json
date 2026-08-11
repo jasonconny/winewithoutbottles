@@ -1,0 +1,92 @@
+{
+  "id": "19770320",
+  "date": "1977-03-20",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19770320.svg",
+  "songCount": 19,
+  "durationSeconds": 9658,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 531
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 797
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 643
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 332
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 596
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 944
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 563
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 706
+    }
+  ]
+}

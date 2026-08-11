@@ -1,0 +1,92 @@
+{
+  "id": "19840713",
+  "date": "1984-07-13",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Enjoying the Ride"],
+  "source": "Enjoying the Ride",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:51"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:01"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:06"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "8:54"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:05"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:02"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "7:09"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "7:26"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "4:35"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:08"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:40"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "12:12"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:59"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:25"
+    },
+    {
+      "title": "Space",
+      "duration": "7:48"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:50"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "4:08"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:31"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:11"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "16:20"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "19941003",
+  "date": "1994-10-03",
+  "venue": "Boston Garden",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19941003.svg",
+  "songCount": 19,
+  "durationSeconds": 9211,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 469
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Childhood's End",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 807
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 1017
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1079
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 769
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 291
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 317
+    }
+  ]
+}

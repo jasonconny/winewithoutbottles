@@ -143,6 +143,49 @@ again: fold a `Cryptical Envelopment` … `Cryptical Envelopment` span into one
 convention the corpus already uses for `Terrapin Station` (31 uses; `Lady with a
 Fan` appears nowhere).
 
+### A duration the source doesn't carry
+
+`1978-05-13` (_Enjoying the Ride_) is the one show in the corpus with a timing
+that came from neither the release's track listing nor a tape. The article omits
+the duration for the encore, `One More Saturday Night`, and the importer
+deliberately refuses a show with any untimed track — stripe widths _are_ the
+durations, so a guess would be silently wrong. **Jason owns the release and
+timed it: 5:28.** The other 17 tracks are the article's own. The show is
+therefore hand-authored rather than `--write`-imported, and re-running the
+importer on it will still refuse; that is correct behaviour, not a regression.
+
+The same show carries a second, separate departure. The release lists one
+`Drums` of **22:26**, anomalously long for 1978 because — per JerryBase — it
+folds Space in. Jason listened to the track and placed the seam: Garcia starts
+noodling with the MuTron around **18:45**, Lesh joins about thirty seconds
+later, and it is full Space from there to the end. So the single track is
+authored as two stripes, `Drums` (18:45) + `Space` (3:41), the remainder being
+arithmetic rather than a second judgement.
+
+This is the same kind of call as the 1974-10-19 `He's Gone` / `Truckin'` split
+above: an official release's track _grouping_ is a CD index, not a claim about
+where one piece of music ends. Where the grouping and the performance disagree
+and Jason can hear the boundary, the performance wins.
+
+### Source typos
+
+Wikipedia's _Enjoying the Ride_ track listing misspells four titles. They are
+mapped with `aliases` in `data/songs.json` rather than corrected in the show
+data, so `--audit` stays quiet instead of re-flagging them on every sweep.
+
+| Article spells it          | Canonical                  | Note                                                                              |
+| -------------------------- | -------------------------- | --------------------------------------------------------------------------------- |
+| `Sugar Magonlia`           | `Sugar Magnolia`           | letter transposition                                                              |
+| `Greatest Story Even Told` | `Greatest Story Ever Told` | Even/Ever                                                                         |
+| `I Know Your Rider`        | `I Know You Rider`         | Your/You; this spelling does circulate elsewhere                                  |
+| `Black Throated Wind`      | `Black-Throated Wind`      | missing hyphen — **changes the colour**, since `BLACK_THROATED` ≠ `BLACKTHROATED` |
+
+A fifth was broken markup rather than a spelling: `#"The Other One: > (Weir,
+Kreutzmann) – 20:45` never closes its quote, so the unquoted fallback kept the
+colon and minted `The Other One:` as a separate song. Fixed in `cleanWikiTitle`
+(`generator/import.ts`) by stripping a trailing colon — no song title ends in
+one — rather than by aliasing the artifact.
+
 ### Venue naming
 
 Venues are filled in by hand (the importer leaves `venue`/`city` blank), so where

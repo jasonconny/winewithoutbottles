@@ -1,0 +1,92 @@
+{
+  "id": "19780513",
+  "date": "1978-05-13",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19780513.svg",
+  "songCount": 19,
+  "durationSeconds": 9870,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 472
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 665
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 514
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 686
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 852
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1125
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 640
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 680
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 328
+    }
+  ]
+}

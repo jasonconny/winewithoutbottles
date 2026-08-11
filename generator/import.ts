@@ -6,6 +6,17 @@
  *   tsx generator/import.ts 19760617           # diff against the authored show
  *   tsx generator/import.ts 19780708 --write   # write data/shows/1978/19780708.json
  *   tsx generator/import.ts 19770425 --release "30 Trips Around the Sun"
+ *   tsx generator/import.ts 19690607 --partial --release "Enjoying the Ride"
+ *
+ * `--partial` stages a show no release can source whole into
+ * `data/partial-shows/<id>.json`: the setlist skeleton comes from an archive.org
+ * soundboard (the only source that knows what was *played*), the release's
+ * timings are merged onto it, and the songs it doesn't carry are left with an
+ * empty duration for Jason to fill from whichever source he judges right. It
+ * never writes into `data/shows/`, so an unfinished show cannot reach the
+ * generator or the site; promotion is a plain `mv` into `data/shows/<year>/`.
+ * `tests/data-validity.test.ts` guards the staged files' *format* — ids, titles,
+ * durations — so a mistake surfaces while authoring rather than at promotion.
  *
  * Default mode never writes: for a show that already exists it prints a
  * track-by-track diff (the retime audit), and for a new one it prints the draft.
@@ -32,11 +43,18 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { ShowFile } from '../src/wwob/index.ts';
 import { formatDuration, parseDuration } from '../src/wwob/index.ts';
-import { findRecording, recordingTracks } from './archive.ts';
+import type { Recording } from './archive.ts';
+import { findRecording, findRecordings, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+
+/**
+ * How many archive.org tapes --partial will open to find the fullest one.
+ * Each costs a metadata request; six covers every date in the corpus so far.
+ */
+const MAX_CANDIDATES = 6;
 
 interface Release {
   page: string | null;
@@ -123,15 +141,23 @@ function chooseSource(date: string): Release | null {
  * algorithm hashes the title's words — a stray credit would repaint the stripe.
  */
 function cleanWikiTitle(raw: string): string {
-  return raw
-    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
-    .replace(/\[\[([^\]]+)\]\]/g, '$1')
-    .replace(/''+/g, '')
-    .replace(/[‘’]/g, "'")
-    .replace(/[“”]/g, '"')
-    .replace(/\s*[>→]\s*$/, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return (
+    raw
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
+      .replace(/\[\[([^\]]+)\]\]/g, '$1')
+      .replace(/''+/g, '')
+      .replace(/[‘’]/g, "'")
+      .replace(/[“”]/g, '"')
+      // Trailing segue markers, and a trailing colon left by broken markup:
+      // Enjoying the Ride writes `#"The Other One: > (Weir, Kreutzmann) – 20:45`,
+      // never closing the quote, so the unquoted fallback keeps the colon and
+      // mints `The Other One:` as a separate song from `The Other One`. No song
+      // title ends in a colon, so stripping one is safe; repeat the group so
+      // `: >` comes off in either order.
+      .replace(/(?:\s*[>→:])+\s*$/, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+  );
 }
 
 /**
@@ -300,6 +326,16 @@ function tracksByDate(
         // Only a date the release actually *contains* becomes the new main
         // show; a bonus date is a detour.
         if (release.dates.includes(flipped)) main = flipped;
+        // A date the index doesn't claim ends the show in progress outright:
+        // the listing has moved on to material the index knows nothing about.
+        // Clearing `main` too is what stops the *next* undated heading from
+        // resurrecting it — Enjoying the Ride carries three composite discs of
+        // selections between its complete shows, and with `main` left standing
+        // each following `'''Disc N'''` handed their tracks back to 2/24/71,
+        // which grew from 22 tracks to 49 across two venues and eighteen
+        // months. A bonus date deliberately does *not* do this: it is a detour
+        // inside a show the index does claim, and must come back.
+        else if (flipped === UNKNOWN_DATE) main = null;
       } else if (/bonus/i.test(line)) {
         // A bonus heading that names no date — Download Series 4 just says
         // "Bonus tracks:" — is still bonus. Orphan it rather than letting the
@@ -630,12 +666,15 @@ if (args.includes('--audit')) {
 const id = args.find((a) => /^\d{8}$/.test(a));
 if (!id) {
   console.error(
-    'usage: tsx generator/import.ts <YYYYMMDD> [--write] [--gaps] [--release "<name>"]\n' +
+    'usage: tsx generator/import.ts <YYYYMMDD> [--write] [--gaps] [--partial] [--release "<name>"]\n' +
       '       tsx generator/import.ts --audit',
   );
   process.exit(1);
 }
 const write = args.includes('--write');
+// Stage a show the release can't source whole into data/partial-shows/ for
+// Jason to finish by hand. Never writes into data/shows/.
+const partial = args.includes('--partial');
 // Repeatable: a show can need several releases. 3/24/90 was issued complete
 // only across four of them, so `--release A --release B …` merges in order.
 const named = args.flatMap((arg, i) =>
@@ -681,7 +720,16 @@ for (const source of sources) {
     console.error(`  could not fetch "${source.page}"`);
     process.exit(1);
   }
-  const { byDate, orphans } = tracksByDate(wikitext, source);
+  // A partial target is deliberately *not* in the release's `dates` — that is
+  // what records it as unsourceable — but the parser buckets on those dates, so
+  // without this its tracks orphan and the skeleton comes back empty. Inject
+  // the one date being staged, and only for `--partial`, so the release's own
+  // claim about what it can source stays untouched.
+  const bucketing =
+    partial && !source.dates.includes(date)
+      ? { ...source, dates: [...source.dates, date] }
+      : source;
+  const { byDate, orphans } = tracksByDate(wikitext, bucketing);
   if (orphans) {
     console.log(
       `  ! ${orphans} track(s) before the first dated heading — ignored`,
@@ -848,9 +896,149 @@ async function reportGaps(date: string, release: ParsedTrack[]) {
   }
 }
 
+/**
+ * Stage a show the release can only partly source, for finishing by hand.
+ *
+ * A release's track listing says what it *has* and can never say what it lacks,
+ * so the skeleton comes from the circulating soundboard instead: every song
+ * actually played, in performance order. The release's timings are merged onto
+ * that, and every song it doesn't carry is left with an empty duration. The
+ * blanks are the work list.
+ *
+ * Writes to `data/partial-shows/`, never `data/shows/`, so an unfinished show
+ * cannot reach the generator, the manifest, or the site. Promotion is a plain
+ * `mv` into `data/shows/<year>/` once the blanks are filled.
+ */
+async function writePartial(
+  // Taken as a parameter rather than closed over: `id` is `args.find(…)`, so
+  // its declared type is `string | undefined`, and the module-level guard that
+  // narrows it does not reach inside a function body.
+  id: string,
+  date: string,
+  release: ParsedTrack[],
+) {
+  const candidates = (await findRecordings(date)).slice(0, MAX_CANDIDATES);
+  if (!candidates.length) {
+    console.error(
+      `\nno archive.org recording catalogued for ${date} — no skeleton to build.` +
+        '\nThe release alone cannot say which songs it is missing.',
+    );
+    process.exit(1);
+  }
+  // Score by *recognisable* songs, not raw track count. Tapes of one night
+  // differ enormously — 1972-09-16 has a 25-track soundboard and an 8-track one
+  // — so the fullest is usually right. But raw count alone picks badly: the
+  // 31-track 4/27/71 reel titles every track as a filename (`gd71-04-27 t01
+  // Intro`), which beat four properly-titled 27-track tapes while yielding a
+  // skeleton of nothing. Counting only titles the registry recognises measures
+  // what the skeleton is actually worth. Ranking order breaks ties, so a
+  // Charlie Miller transfer still wins an even match.
+  const scored: {
+    recording: Recording;
+    tracks: ParsedTrack[];
+    usable: number;
+  }[] = [];
+  for (const candidate of candidates) {
+    const tracks = applyTrackRules(
+      await recordingTracks(candidate.identifier),
+      date,
+    );
+    const { unknown } = canonicalise(tracks);
+    scored.push({
+      recording: candidate,
+      tracks,
+      usable: tracks.length - unknown.length,
+    });
+  }
+  const best = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
+  const recording = best.recording;
+  console.log(
+    `\n  skeleton ← archive.org: ${recording.identifier}` +
+      `${recording.transferer ? ` (${recording.transferer})` : ''}`,
+  );
+  if (scored.length > 1) {
+    console.log(
+      `    best of ${scored.length} tapes (recognised/total): ` +
+        scored
+          .map(
+            (s) =>
+              `${s.usable}/${s.tracks.length}${s.recording === recording ? '*' : ''}`,
+          )
+          .join(', '),
+    );
+  }
+  const recorded = canonicalise(best.tracks);
+  // `canonicalise` keeps unknown titles in `mapped` so the diff view can show
+  // them, which is wrong for a file: they would be written as songs the
+  // registry has never agreed to, and the partials guard rejects exactly that.
+  // Drop them here and name them instead. Taper titles need it more than any
+  // release does — abbreviations (`GDTRFB`, `Big RxR Blues`), variant spellings
+  // (`Playin' In The Band`) and outright non-songs (`Set II crowd`) all appear.
+  const unknownTitles = new Set(recorded.unknown);
+  const skeleton = recorded.mapped
+    .filter((track) => !unknownTitles.has(track.title))
+    // Blank durations, then let the release fill what it carries.
+    .map((track) => ({ title: track.title, duration: '' }));
+  if (unknownTitles.size) {
+    console.log(
+      `  ! ${unknownTitles.size} recording title(s) not in data/songs.json, ` +
+        `LEFT OUT of the skeleton: ${[...unknownTitles].join(', ')}`,
+    );
+    console.log(
+      '    Add them to data/songs.json (or alias them) and re-run to get a complete skeleton.',
+    );
+  }
+  if (!skeleton.length) {
+    console.error('  recording has no usable track list');
+    process.exit(1);
+  }
+  const { songs, updated, unmatched } = mergePartial(skeleton, release);
+  const blank = songs.filter((song) => !song.duration);
+  console.log(
+    `  ${songs.length} songs played; ${updated} timed from the release, ` +
+      `${blank.length} left blank`,
+  );
+  if (blank.length)
+    console.log(`  to fill: ${blank.map((s) => s.title).join(', ')}`);
+  if (unmatched.length)
+    console.log(
+      `  ! ${unmatched.length} release track(s) matched nothing in the recording: ` +
+        `${unmatched.join(', ')}`,
+    );
+  const out: ShowFile = {
+    id,
+    date,
+    venue: '',
+    city: '',
+    // Both origins, in the documented pipe-separated form: the timings that do
+    // exist came from the release, the setlist and order from the soundboard.
+    source: `${sources.map((r) => r.name).join(' | ')} | archive.org:${recording.identifier}`,
+    songs,
+  };
+  const dir = join(root, 'data/partial-shows');
+  mkdirSync(dir, { recursive: true });
+  const target = join(dir, `${id}.json`);
+  writeFileSync(target, `${JSON.stringify(out, null, 2)}\n`);
+  console.log(`\n✓ staged ${target.replace(`${root}/`, '')}`);
+  console.log(
+    '  fill the blank durations, then move it into data/shows/<year>/',
+  );
+}
+
 const path = showPath(id);
 const exists = existsSync(path);
 if (args.includes('--gaps')) await reportGaps(date, mapped);
+
+if (partial) {
+  if (exists) {
+    console.error(
+      `\n${date} already exists in data/shows/ — staging would duplicate it`,
+    );
+    process.exit(1);
+  }
+  await writePartial(id, date, mapped);
+  process.exit(0);
+}
 
 if (exists) {
   const raw = readFileSync(path, 'utf8');
