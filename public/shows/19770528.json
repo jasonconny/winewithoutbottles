@@ -8,91 +8,91 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770528.svg",
   "songCount": 21,
-  "durationSeconds": 10008,
+  "durationSeconds": 10400,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 404
+      "durationSeconds": 406
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 336
+      "durationSeconds": 334
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 1123
+      "durationSeconds": 1158
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 333
+      "durationSeconds": 383
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 637
+      "durationSeconds": 643
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 346
+      "durationSeconds": 397
     },
     {
       "title": "Candyman",
-      "durationSeconds": 388
-    },
-    {
-      "title": "Passenger",
-      "durationSeconds": 188
-    },
-    {
-      "title": "Brown-Eyed Women",
-      "durationSeconds": 335
-    },
-    {
-      "title": "Promised Land",
-      "durationSeconds": 247
-    },
-    {
-      "title": "Samson And Delilah",
       "durationSeconds": 424
     },
     {
+      "title": "Passenger",
+      "durationSeconds": 220
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 485
+    },
+    {
       "title": "Tennessee Jed",
-      "durationSeconds": 535
+      "durationSeconds": 544
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 697
+      "durationSeconds": 695
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 690
+      "durationSeconds": 659
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 677
+      "durationSeconds": 666
     },
     {
       "title": "Drums",
-      "durationSeconds": 86
+      "durationSeconds": 90
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 932
+      "durationSeconds": 911
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 620
+      "durationSeconds": 618
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 384
+      "durationSeconds": 402
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 290
+      "durationSeconds": 320
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 336
+      "durationSeconds": 407
     }
   ]
 }

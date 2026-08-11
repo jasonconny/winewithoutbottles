@@ -5,10 +5,13 @@
   "city": "Uniondale",
   "state": "NY",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900328.svg",
   "songCount": 19,
-  "durationSeconds": 8469,
+  "durationSeconds": 8468,
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -40,7 +43,7 @@
     },
     {
       "title": "Deal",
-      "durationSeconds": 499
+      "durationSeconds": 498
     },
     {
       "title": "Foolish Heart",

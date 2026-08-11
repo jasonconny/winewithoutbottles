@@ -5,10 +5,13 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900402.svg",
   "songCount": 18,
-  "durationSeconds": 8207,
+  "durationSeconds": 8153,
   "songs": [
     {
       "title": "Feel Like a Stranger",
@@ -16,11 +19,11 @@
     },
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 421
+      "durationSeconds": 422
     },
     {
       "title": "The Weight",
-      "durationSeconds": 393
+      "durationSeconds": 394
     },
     {
       "title": "Queen Jane Approximately",
@@ -28,11 +31,11 @@
     },
     {
       "title": "Easy to Love You",
-      "durationSeconds": 336
+      "durationSeconds": 337
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 406
+      "durationSeconds": 346
     },
     {
       "title": "Let It Grow",
@@ -56,7 +59,7 @@
     },
     {
       "title": "Drums",
-      "durationSeconds": 641
+      "durationSeconds": 642
     },
     {
       "title": "Space",
@@ -68,7 +71,7 @@
     },
     {
       "title": "Death Don't Have No Mercy",
-      "durationSeconds": 456
+      "durationSeconds": 457
     },
     {
       "title": "Around And Around",
@@ -76,7 +79,7 @@
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 431
+      "durationSeconds": 432
     },
     {
       "title": "Black Muddy River",

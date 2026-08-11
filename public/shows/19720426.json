@@ -7,7 +7,7 @@
   "tour": "Europe 1972",
   "svg": "/shows/19720426.svg",
   "songCount": 30,
-  "durationSeconds": 13885,
+  "durationSeconds": 13864,
   "songs": [
     {
       "title": "Bertha",
@@ -23,11 +23,11 @@
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 500
+      "durationSeconds": 499
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 401
+      "durationSeconds": 400
     },
     {
       "title": "Next Time You See Me",
@@ -39,15 +39,15 @@
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 313
+      "durationSeconds": 312
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 293
+      "durationSeconds": 292
     },
     {
       "title": "Big Railroad Blues",
-      "durationSeconds": 287
+      "durationSeconds": 286
     },
     {
       "title": "Playing in the Band",
@@ -59,11 +59,11 @@
     },
     {
       "title": "Loser",
-      "durationSeconds": 404
+      "durationSeconds": 403
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 225
+      "durationSeconds": 224
     },
     {
       "title": "You Win Again",
@@ -71,35 +71,35 @@
     },
     {
       "title": "El Paso",
-      "durationSeconds": 277
+      "durationSeconds": 276
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 468
+      "durationSeconds": 467
     },
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 344
+      "durationSeconds": 343
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "durationSeconds": 418
+      "durationSeconds": 417
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 353
+      "durationSeconds": 350
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 849
+      "durationSeconds": 848
     },
     {
       "title": "Dire Wolf",
-      "durationSeconds": 261
+      "durationSeconds": 260
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 851
+      "durationSeconds": 850
     },
     {
       "title": "Drums",
@@ -107,15 +107,15 @@
     },
     {
       "title": "The Other One",
-      "durationSeconds": 2188
+      "durationSeconds": 2187
     },
     {
       "title": "Comes a Time",
-      "durationSeconds": 402
+      "durationSeconds": 401
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 434
+      "durationSeconds": 433
     },
     {
       "title": "Turn On Your Love Light",
@@ -127,7 +127,7 @@
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 305
+      "durationSeconds": 304
     }
   ]
 }

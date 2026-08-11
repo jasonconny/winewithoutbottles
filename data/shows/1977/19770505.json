@@ -6,82 +6,84 @@
   "state": "CT",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Get Shown the Light"],
+  "source": "May 1977: Get Shown the Light",
   "songs": [
     {
       "title": "Promised Land",
-      "duration": "4:19"
-    },
-    {
-      "title": "Sugaree",
-      "duration": "15:04"
-    },
-    {
-      "title": "Mama Tried",
-      "duration": "2:37"
-    },
-    {
-      "title": "El Paso",
-      "duration": "4:41"
-    },
-    {
-      "title": "Tennessee Jed",
-      "duration": "8:58"
-    },
-    {
-      "title": "Looks Like Rain",
-      "duration": "8:44"
-    },
-    {
-      "title": "Deal",
       "duration": "5:45"
     },
     {
+      "title": "Sugaree",
+      "duration": "15:36"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:39"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:08"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:24"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "9:19"
+    },
+    {
+      "title": "Deal",
+      "duration": "6:15"
+    },
+    {
       "title": "Lazy Lightnin'",
-      "duration": "3:31"
+      "duration": "3:34"
     },
     {
       "title": "Supplication",
-      "duration": "5:05"
+      "duration": "5:31"
     },
     {
       "title": "Peggy-O",
-      "duration": "7:37"
+      "duration": "8:10"
     },
     {
       "title": "The Music Never Stopped",
-      "duration": "6:33"
+      "duration": "6:53"
     },
     {
       "title": "Bertha",
-      "duration": "6:43"
+      "duration": "7:52"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "8:41"
+      "duration": "9:10"
     },
     {
       "title": "Scarlet Begonias",
-      "duration": "10:47"
+      "duration": "10:50"
     },
     {
       "title": "Fire on the Mountain",
-      "duration": "12:01"
+      "duration": "12:05"
     },
     {
       "title": "Good Lovin'",
-      "duration": "5:52"
+      "duration": "6:49"
     },
     {
       "title": "St. Stephen",
-      "duration": "11:40"
+      "duration": "11:49"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "8:37"
+      "duration": "8:59"
     },
     {
       "title": "Johnny B. Goode",
-      "duration": "4:08"
+      "duration": "4:35"
     }
   ]
 }

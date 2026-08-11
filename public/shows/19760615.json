@@ -5,22 +5,25 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
+  "tags": [
+    "June 1976"
+  ],
   "svg": "/shows/19760615.svg",
   "songCount": 21,
-  "durationSeconds": 9847,
+  "durationSeconds": 9853,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 265
+      "durationSeconds": 266
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 583
+      "durationSeconds": 584
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 287
+      "durationSeconds": 298
     },
     {
       "title": "Candyman",
@@ -28,35 +31,35 @@
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 352
+      "durationSeconds": 354
     },
     {
       "title": "It Must Have Been the Roses",
-      "durationSeconds": 437
+      "durationSeconds": 436
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 425
+      "durationSeconds": 426
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 583
+      "durationSeconds": 584
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 793
+      "durationSeconds": 794
     },
     {
       "title": "Might As Well",
-      "durationSeconds": 325
+      "durationSeconds": 326
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 670
+      "durationSeconds": 671
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 734
+      "durationSeconds": 735
     },
     {
       "title": "Stella Blue",
@@ -64,15 +67,15 @@
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 384
+      "durationSeconds": 385
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 549
+      "durationSeconds": 504
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 753
+      "durationSeconds": 781
     },
     {
       "title": "The Wheel",
@@ -80,7 +83,7 @@
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 364
+      "durationSeconds": 365
     },
     {
       "title": "Scarlet Begonias",
@@ -92,7 +95,7 @@
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 251
+      "durationSeconds": 252
     }
   ]
 }

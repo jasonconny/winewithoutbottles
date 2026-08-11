@@ -4,8 +4,10 @@
   "venue": "Knickerbocker Arena",
   "city": "Albany",
   "state": "NY",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Greatest Story Ever Told",
@@ -45,11 +47,11 @@
     },
     {
       "title": "Samson And Delilah",
-      "duration": "7:51"
+      "duration": "7:47"
     },
     {
       "title": "Crazy Fingers",
-      "duration": "7:47"
+      "duration": "7:21"
     },
     {
       "title": "Truckin'",

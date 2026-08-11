@@ -4,8 +4,10 @@
   "venue": "Capitol Centre",
   "city": "Landover",
   "state": "MD",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -45,7 +47,7 @@
     },
     {
       "title": "Crazy Fingers",
-      "duration": "8:13"
+      "duration": "8:12"
     },
     {
       "title": "Playing in the Band",
@@ -61,7 +63,7 @@
     },
     {
       "title": "Drums",
-      "duration": "7:37"
+      "duration": "7:38"
     },
     {
       "title": "Space",
@@ -85,7 +87,7 @@
     },
     {
       "title": "Black Muddy River",
-      "duration": "6:01"
+      "duration": "6:00"
     }
   ]
 }

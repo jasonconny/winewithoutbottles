@@ -7,83 +7,84 @@
   "country": "USA",
   "tour": "Fall 1989",
   "tags": [
-    "Dark Star"
+    "Dark Star",
+    "30 Trips Around the Sun"
   ],
   "svg": "/shows/19891026.svg",
   "songCount": 18,
-  "durationSeconds": 8645,
+  "durationSeconds": 9112,
   "songs": [
     {
       "title": "Foolish Heart",
-      "durationSeconds": 484
+      "durationSeconds": 547
     },
     {
       "title": "Little Red Rooster",
-      "durationSeconds": 479
+      "durationSeconds": 548
     },
     {
       "title": "Stagger Lee",
-      "durationSeconds": 344
+      "durationSeconds": 389
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 159
+      "durationSeconds": 170
     },
     {
       "title": "Big River",
-      "durationSeconds": 283
+      "durationSeconds": 348
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 280
+      "durationSeconds": 361
     },
     {
-      "title": "Victim Or The Crime",
-      "durationSeconds": 452
+      "title": "Victim or the Crime",
+      "durationSeconds": 472
     },
     {
       "title": "Don't Ease Me In",
-      "durationSeconds": 191
+      "durationSeconds": 215
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 752
+      "durationSeconds": 814
     },
     {
       "title": "Blow Away",
-      "durationSeconds": 598
+      "durationSeconds": 480
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1600
+      "durationSeconds": 1786
     },
     {
       "title": "Drums",
-      "durationSeconds": 615
+      "durationSeconds": 576
     },
     {
       "title": "Space",
-      "durationSeconds": 416
+      "durationSeconds": 393
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 288
+      "durationSeconds": 292
     },
     {
-      "title": "All Along The Watchtower",
-      "durationSeconds": 330
+      "title": "All Along the Watchtower",
+      "durationSeconds": 325
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 492
+      "durationSeconds": 496
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 733
+      "durationSeconds": 735
     },
     {
       "title": "And We Bid You Goodnight",
-      "durationSeconds": 149
+      "durationSeconds": 165
     }
   ]
 }

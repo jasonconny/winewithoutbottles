@@ -5,6 +5,7 @@
   "city": "Frankfurt",
   "tour": "Europe 1972",
   "country": "BRD",
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Bertha",
@@ -20,11 +21,11 @@
     },
     {
       "title": "He's Gone",
-      "duration": "8:20"
+      "duration": "8:19"
     },
     {
       "title": "Black-Throated Wind",
-      "duration": "6:41"
+      "duration": "6:40"
     },
     {
       "title": "Next Time You See Me",
@@ -36,15 +37,15 @@
     },
     {
       "title": "I Know You Rider",
-      "duration": "5:13"
+      "duration": "5:12"
     },
     {
       "title": "Jack Straw",
-      "duration": "4:53"
+      "duration": "4:52"
     },
     {
       "title": "Big Railroad Blues",
-      "duration": "4:47"
+      "duration": "4:46"
     },
     {
       "title": "Playing in the Band",
@@ -56,11 +57,11 @@
     },
     {
       "title": "Loser",
-      "duration": "6:44"
+      "duration": "6:43"
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:45"
+      "duration": "3:44"
     },
     {
       "title": "You Win Again",
@@ -68,35 +69,35 @@
     },
     {
       "title": "El Paso",
-      "duration": "4:37"
+      "duration": "4:36"
     },
     {
       "title": "Tennessee Jed",
-      "duration": "7:48"
+      "duration": "7:47"
     },
     {
       "title": "Greatest Story Ever Told",
-      "duration": "5:44"
+      "duration": "5:43"
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "duration": "6:58"
+      "duration": "6:57"
     },
     {
       "title": "Casey Jones",
-      "duration": "5:53"
+      "duration": "5:50"
     },
     {
       "title": "Good Lovin'",
-      "duration": "14:09"
+      "duration": "14:08"
     },
     {
       "title": "Dire Wolf",
-      "duration": "4:21"
+      "duration": "4:20"
     },
     {
       "title": "Truckin'",
-      "duration": "14:11"
+      "duration": "14:10"
     },
     {
       "title": "Drums",
@@ -104,15 +105,15 @@
     },
     {
       "title": "The Other One",
-      "duration": "36:28"
+      "duration": "36:27"
     },
     {
       "title": "Comes a Time",
-      "duration": "6:42"
+      "duration": "6:41"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "7:14"
+      "duration": "7:13"
     },
     {
       "title": "Turn On Your Love Light",
@@ -124,7 +125,7 @@
     },
     {
       "title": "One More Saturday Night",
-      "duration": "5:05"
+      "duration": "5:04"
     }
   ]
 }

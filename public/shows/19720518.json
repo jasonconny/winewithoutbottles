@@ -10,19 +10,19 @@
   ],
   "svg": "/shows/19720518.svg",
   "songCount": 25,
-  "durationSeconds": 11220,
+  "durationSeconds": 11203,
   "songs": [
     {
       "title": "Truckin'",
-      "durationSeconds": 635
+      "durationSeconds": 634
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 440
+      "durationSeconds": 439
     },
     {
       "title": "Mr. Charlie",
-      "durationSeconds": 242
+      "durationSeconds": 241
     },
     {
       "title": "Jack Straw",
@@ -38,19 +38,19 @@
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 418
+      "durationSeconds": 417
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 330
+      "durationSeconds": 329
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 415
+      "durationSeconds": 414
     },
     {
       "title": "El Paso",
-      "durationSeconds": 284
+      "durationSeconds": 283
     },
     {
       "title": "It Hurts Me Too",
@@ -66,15 +66,15 @@
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 758
+      "durationSeconds": 757
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 416
+      "durationSeconds": 412
     },
     {
       "title": "Sitting on Top of the World",
-      "durationSeconds": 214
+      "durationSeconds": 213
     },
     {
       "title": "Me and My Uncle",
@@ -82,7 +82,7 @@
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 405
+      "durationSeconds": 404
     },
     {
       "title": "Beat It On Down The Line",
@@ -90,7 +90,7 @@
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1701
+      "durationSeconds": 1700
     },
     {
       "title": "Morning Dew",
@@ -106,11 +106,11 @@
     },
     {
       "title": "Sing Me Back Home",
-      "durationSeconds": 696
+      "durationSeconds": 695
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 301
+      "durationSeconds": 300
     }
   ]
 }

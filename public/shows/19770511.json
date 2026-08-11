@@ -6,105 +6,108 @@
   "state": "MN",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "May 1977"
+  ],
   "svg": "/shows/19770511.svg",
   "songCount": 24,
-  "durationSeconds": 10240,
+  "durationSeconds": 10757,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 250
+      "durationSeconds": 294
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 407
+      "durationSeconds": 458
     },
     {
       "title": "Big River",
-      "durationSeconds": 351
+      "durationSeconds": 385
     },
     {
       "title": "Loser",
-      "durationSeconds": 416
+      "durationSeconds": 459
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 517
+      "durationSeconds": 558
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 429
+      "durationSeconds": 468
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 314
+      "durationSeconds": 354
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 487
+      "durationSeconds": 523
     },
     {
       "title": "El Paso",
-      "durationSeconds": 258
+      "durationSeconds": 284
     },
     {
       "title": "Deal",
-      "durationSeconds": 338
+      "durationSeconds": 349
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 204
+      "durationSeconds": 212
     },
     {
       "title": "Supplication",
-      "durationSeconds": 290
+      "durationSeconds": 320
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 802
+      "durationSeconds": 829
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 400
+      "durationSeconds": 428
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 304
+      "durationSeconds": 328
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 512
+      "durationSeconds": 518
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 584
+      "durationSeconds": 587
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 671
+      "durationSeconds": 662
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 357
+      "durationSeconds": 389
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 531
+      "durationSeconds": 551
     },
     {
       "title": "Space",
-      "durationSeconds": 394
+      "durationSeconds": 348
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 610
+      "durationSeconds": 591
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 486
+      "durationSeconds": 528
     },
     {
       "title": "Brokedown Palace",
-      "durationSeconds": 328
+      "durationSeconds": 334
     }
   ]
 }

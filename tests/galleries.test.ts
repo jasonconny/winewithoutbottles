@@ -316,16 +316,15 @@ describe('runs in the real corpus', () => {
 
 describe('tag index galleries', () => {
   it('gives every authored tag an index page, alphabetically', () => {
+    // Derived, not listed: release tags now come from data/releases.json, so a
+    // batch of shows from a new box would otherwise mean remembering to widen
+    // a literal here. The invariant that matters is the mapping — every tag any
+    // show carries gets exactly one page, and no page exists without a show.
+    const authored = [
+      ...new Set(shows.flatMap((show) => show.tags ?? [])),
+    ].sort((a, b) => a.localeCompare(b, 'en'));
     const tags = allSubGalleries.filter((gallery) => gallery.kind === 'tag');
-    expect(tags.map((gallery) => gallery.title)).toEqual([
-      'Dark Star',
-      'Final Show',
-      'Formerly the Warlocks',
-      'Live/Dead',
-      'Shows I Attended',
-      'Sunshine Daydream',
-      'Wall of Sound',
-    ]);
+    expect(tags.map((gallery) => gallery.title)).toEqual(authored);
     // Slugs survive the punctuation in "Live/Dead".
     expect(findGallery('live-dead')!.title).toBe('Live/Dead');
   });

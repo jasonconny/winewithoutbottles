@@ -5,14 +5,17 @@
   "city": "Boston",
   "state": "MA",
   "country": "USA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
+  "tags": [
+    "June 1976"
+  ],
   "svg": "/shows/19760611.svg",
   "songCount": 24,
-  "durationSeconds": 10382,
+  "durationSeconds": 10367,
   "songs": [
     {
       "title": "Might As Well",
-      "durationSeconds": 368
+      "durationSeconds": 369
     },
     {
       "title": "Mama Tried",
@@ -24,7 +27,7 @@
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 305
+      "durationSeconds": 306
     },
     {
       "title": "Candyman",
@@ -40,11 +43,11 @@
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 532
+      "durationSeconds": 533
     },
     {
       "title": "It Must Have Been the Roses",
-      "durationSeconds": 430
+      "durationSeconds": 431
     },
     {
       "title": "Lazy Lightnin'",
@@ -56,11 +59,11 @@
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 354
+      "durationSeconds": 309
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 216
+      "durationSeconds": 236
     },
     {
       "title": "St. Stephen",
@@ -68,19 +71,19 @@
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 717
+      "durationSeconds": 718
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 341
+      "durationSeconds": 342
     },
     {
       "title": "Ship Of Fools",
-      "durationSeconds": 444
+      "durationSeconds": 431
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 417
+      "durationSeconds": 429
     },
     {
       "title": "Sugaree",
@@ -88,23 +91,23 @@
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 363
+      "durationSeconds": 364
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 792
+      "durationSeconds": 793
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 648
+      "durationSeconds": 649
     },
     {
       "title": "Sunshine Daydream",
-      "durationSeconds": 208
+      "durationSeconds": 209
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 254
+      "durationSeconds": 255
     }
   ]
 }

@@ -6,33 +6,36 @@
   "state": "NJ",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
   "svg": "/shows/19770425.svg",
   "songCount": 21,
-  "durationSeconds": 8709,
+  "durationSeconds": 9267,
   "songs": [
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 305
+      "durationSeconds": 372
     },
     {
       "title": "Deal",
-      "durationSeconds": 307
+      "durationSeconds": 341
     },
     {
       "title": "Mama Tried",
-      "durationSeconds": 165
+      "durationSeconds": 187
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 415
+      "durationSeconds": 447
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 471
+      "durationSeconds": 508
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 527
+      "durationSeconds": 557
     },
     {
       "title": "Lazy Lightnin'",
@@ -40,59 +43,59 @@
     },
     {
       "title": "Supplication",
-      "durationSeconds": 210
+      "durationSeconds": 259
     },
     {
       "title": "Ship Of Fools",
-      "durationSeconds": 373
+      "durationSeconds": 410
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 471
+      "durationSeconds": 495
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 314
+      "durationSeconds": 365
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 379
+      "durationSeconds": 397
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 515
+      "durationSeconds": 542
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 658
+      "durationSeconds": 682
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 424
+      "durationSeconds": 472
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 579
+      "durationSeconds": 576
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 569
+      "durationSeconds": 562
     },
     {
       "title": "Drums",
-      "durationSeconds": 246
+      "durationSeconds": 241
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 634
+      "durationSeconds": 975
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 605
+      "durationSeconds": 300
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 331
+      "durationSeconds": 368
     }
   ]
 }

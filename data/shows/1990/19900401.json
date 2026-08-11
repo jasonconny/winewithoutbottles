@@ -4,8 +4,10 @@
   "venue": "The Omni",
   "city": "Atlanta",
   "state": "GA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Touch of Grey",
@@ -25,19 +27,19 @@
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:08"
+      "duration": "3:05"
     },
     {
       "title": "Big River",
-      "duration": "5:26"
+      "duration": "5:28"
     },
     {
       "title": "Althea",
-      "duration": "8:14"
+      "duration": "8:09"
     },
     {
       "title": "Victim or the Crime",
-      "duration": "9:51"
+      "duration": "9:55"
     },
     {
       "title": "To Lay Me Down",
@@ -45,11 +47,11 @@
     },
     {
       "title": "The Music Never Stopped",
-      "duration": "7:56"
+      "duration": "7:55"
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "5:34"
+      "duration": "5:33"
     },
     {
       "title": "I Know You Rider",

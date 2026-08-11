@@ -6,14 +6,15 @@
   "tour": "Europe 1972",
   "country": "ENG",
   "tags": ["Dark Star"],
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Promised Land",
-      "duration": "3:21"
+      "duration": "3:20"
     },
     {
       "title": "Sugaree",
-      "duration": "7:16"
+      "duration": "7:15"
     },
     {
       "title": "Mr. Charlie",
@@ -37,15 +38,15 @@
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "5:06"
+      "duration": "5:05"
     },
     {
       "title": "I Know You Rider",
-      "duration": "6:14"
+      "duration": "6:13"
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:23"
+      "duration": "3:22"
     },
     {
       "title": "Chinatown Shuffle",
@@ -57,7 +58,7 @@
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "duration": "7:58"
+      "duration": "7:57"
     },
     {
       "title": "Playing in the Band",
@@ -69,11 +70,11 @@
     },
     {
       "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
-      "duration": "5:13"
+      "duration": "5:12"
     },
     {
       "title": "Mexicali Blues",
-      "duration": "3:31"
+      "duration": "3:30"
     },
     {
       "title": "Good Lovin'",
@@ -81,11 +82,11 @@
     },
     {
       "title": "Casey Jones",
-      "duration": "6:51"
+      "duration": "6:45"
     },
     {
       "title": "Ramble On Rose",
-      "duration": "7:22"
+      "duration": "7:21"
     },
     {
       "title": "Dark Star",
@@ -93,31 +94,31 @@
     },
     {
       "title": "Morning Dew",
-      "duration": "11:37"
+      "duration": "11:36"
     },
     {
       "title": "He's Gone",
-      "duration": "8:53"
+      "duration": "8:52"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "7:00"
+      "duration": "6:59"
     },
     {
       "title": "Comes a Time",
-      "duration": "6:45"
+      "duration": "6:44"
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": "8:53"
+      "duration": "8:52"
     },
     {
       "title": "Not Fade Away",
-      "duration": "4:54"
+      "duration": "4:53"
     },
     {
       "title": "Hey Bo Diddley",
-      "duration": "4:31"
+      "duration": "4:30"
     },
     {
       "title": "Not Fade Away",
@@ -125,7 +126,7 @@
     },
     {
       "title": "Uncle John's Band",
-      "duration": "6:55"
+      "duration": "6:54"
     }
   ]
 }

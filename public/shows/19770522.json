@@ -6,17 +6,20 @@
   "state": "FL",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Dick's Picks"
+  ],
   "svg": "/shows/19770522.svg",
   "songCount": 24,
-  "durationSeconds": 11189,
+  "durationSeconds": 11457,
   "songs": [
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 392
+      "durationSeconds": 405
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 938
+      "durationSeconds": 954
     },
     {
       "title": "El Paso",
@@ -40,7 +43,7 @@
     },
     {
       "title": "Supplication",
-      "durationSeconds": 324
+      "durationSeconds": 334
     },
     {
       "title": "Ramble On Rose",
@@ -48,23 +51,23 @@
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 930
+      "durationSeconds": 868
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 298
+      "durationSeconds": 323
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 404
+      "durationSeconds": 389
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 912
+      "durationSeconds": 932
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 427
+      "durationSeconds": 451
     },
     {
       "title": "Brown-Eyed Women",
@@ -76,15 +79,15 @@
     },
     {
       "title": "Sunrise",
-      "durationSeconds": 227
+      "durationSeconds": 255
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 538
+      "durationSeconds": 540
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 631
+      "durationSeconds": 818
     },
     {
       "title": "Space",
@@ -96,11 +99,11 @@
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 355
+      "durationSeconds": 358
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 844
+      "durationSeconds": 861
     },
     {
       "title": "Sugar Magnolia",

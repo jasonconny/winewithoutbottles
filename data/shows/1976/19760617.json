@@ -4,8 +4,10 @@
   "venue": "Capitol Theatre",
   "city": "Passaic",
   "state": "NJ",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
   "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 28",
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -13,7 +15,7 @@
     },
     {
       "title": "Big River",
-      "duration": "6:42"
+      "duration": "6:43"
     },
     {
       "title": "They Love Each Other",
@@ -37,11 +39,11 @@
     },
     {
       "title": "The Music Never Stopped",
-      "duration": "6:28"
+      "duration": "6:29"
     },
     {
       "title": "Scarlet Begonias",
-      "duration": "11:05"
+      "duration": "11:06"
     },
     {
       "title": "Promised Land",
@@ -53,15 +55,15 @@
     },
     {
       "title": "Slipknot!",
-      "duration": "8:01"
+      "duration": "8:02"
     },
     {
       "title": "Franklin's Tower",
-      "duration": "11:09"
+      "duration": "11:10"
     },
     {
       "title": "Dancing in the Street",
-      "duration": "11:46"
+      "duration": "11:47"
     },
     {
       "title": "Samson And Delilah",
@@ -73,19 +75,19 @@
     },
     {
       "title": "Lazy Lightnin'",
-      "duration": "3:01"
+      "duration": "3:02"
     },
     {
       "title": "Supplication",
-      "duration": "5:14"
+      "duration": "5:15"
     },
     {
       "title": "Friend Of The Devil",
-      "duration": "8:53"
+      "duration": "8:54"
     },
     {
       "title": "Let It Grow",
-      "duration": "6:11"
+      "duration": "6:12"
     },
     {
       "title": "Drums",
@@ -97,7 +99,7 @@
     },
     {
       "title": "Wharf Rat",
-      "duration": "11:19"
+      "duration": "11:20"
     },
     {
       "title": "Around And Around",

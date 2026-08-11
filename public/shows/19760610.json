@@ -5,18 +5,21 @@
   "city": "Boston",
   "state": "MA",
   "country": "USA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
+  "tags": [
+    "June 1976"
+  ],
   "svg": "/shows/19760610.svg",
   "songCount": 22,
-  "durationSeconds": 9979,
+  "durationSeconds": 9971,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 230
+      "durationSeconds": 231
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 591
+      "durationSeconds": 592
     },
     {
       "title": "Cassidy",
@@ -24,7 +27,7 @@
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 508
+      "durationSeconds": 509
     },
     {
       "title": "The Music Never Stopped",
@@ -36,15 +39,15 @@
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 175
+      "durationSeconds": 176
     },
     {
       "title": "Supplication",
-      "durationSeconds": 265
+      "durationSeconds": 266
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 562
+      "durationSeconds": 563
     },
     {
       "title": "Big River",
@@ -52,19 +55,19 @@
     },
     {
       "title": "Mission in the Rain",
-      "durationSeconds": 446
+      "durationSeconds": 447
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 578
+      "durationSeconds": 548
     },
     {
       "title": "Might As Well",
-      "durationSeconds": 357
+      "durationSeconds": 371
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 437
+      "durationSeconds": 438
     },
     {
       "title": "Help On The Way",
@@ -72,7 +75,7 @@
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 418
+      "durationSeconds": 419
     },
     {
       "title": "Franklin's Tower",
@@ -84,11 +87,11 @@
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 512
+      "durationSeconds": 491
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 858
+      "durationSeconds": 877
     },
     {
       "title": "Dancing in the Street",
@@ -96,7 +99,7 @@
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 348
+      "durationSeconds": 349
     }
   ]
 }

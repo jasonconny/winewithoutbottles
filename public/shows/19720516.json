@@ -7,15 +7,15 @@
   "tour": "Europe 1972",
   "svg": "/shows/19720516.svg",
   "songCount": 22,
-  "durationSeconds": 8726,
+  "durationSeconds": 8706,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 415
+      "durationSeconds": 414
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 209
+      "durationSeconds": 208
     },
     {
       "title": "Mr. Charlie",
@@ -23,19 +23,19 @@
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 424
+      "durationSeconds": 423
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 354
+      "durationSeconds": 353
     },
     {
       "title": "Chinatown Shuffle",
-      "durationSeconds": 175
+      "durationSeconds": 174
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 348
+      "durationSeconds": 347
     },
     {
       "title": "I Know You Rider",
@@ -51,27 +51,27 @@
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 439
+      "durationSeconds": 438
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 676
+      "durationSeconds": 675
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 204
+      "durationSeconds": 199
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 727
+      "durationSeconds": 726
     },
     {
       "title": "Drums",
-      "durationSeconds": 148
+      "durationSeconds": 147
     },
     {
       "title": "The Other One",
-      "durationSeconds": 1177
+      "durationSeconds": 1176
     },
     {
       "title": "Sing Me Back Home",
@@ -79,7 +79,7 @@
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 410
+      "durationSeconds": 409
     },
     {
       "title": "Not Fade Away",
@@ -87,15 +87,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 442
+      "durationSeconds": 441
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 204
+      "durationSeconds": 203
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 317
+      "durationSeconds": 316
     }
   ]
 }

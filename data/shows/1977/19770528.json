@@ -6,90 +6,91 @@
   "state": "CT",
   "tour": "Spring 1977",
   "country": "USA",
+  "source": "To Terrapin: Hartford '77",
   "songs": [
     {
       "title": "Bertha",
-      "duration": "6:44"
+      "duration": "6:46"
     },
     {
       "title": "Good Lovin'",
-      "duration": "5:36"
+      "duration": "5:34"
     },
     {
       "title": "Sugaree",
-      "duration": "18:43"
+      "duration": "19:18"
     },
     {
       "title": "Jack Straw",
-      "duration": "5:33"
+      "duration": "6:23"
     },
     {
       "title": "Row Jimmy",
-      "duration": "10:37"
+      "duration": "10:43"
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "5:46"
+      "duration": "6:37"
     },
     {
       "title": "Candyman",
-      "duration": "6:28"
-    },
-    {
-      "title": "Passenger",
-      "duration": "3:08"
-    },
-    {
-      "title": "Brown-Eyed Women",
-      "duration": "5:35"
-    },
-    {
-      "title": "Promised Land",
-      "duration": "4:07"
-    },
-    {
-      "title": "Samson And Delilah",
       "duration": "7:04"
     },
     {
+      "title": "Passenger",
+      "duration": "3:40"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "6:12"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:26"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "8:05"
+    },
+    {
       "title": "Tennessee Jed",
-      "duration": "8:55"
+      "duration": "9:04"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "11:37"
+      "duration": "11:35"
     },
     {
       "title": "Playing in the Band",
-      "duration": "11:30"
+      "duration": "10:59"
     },
     {
       "title": "Terrapin Station",
-      "duration": "11:17"
+      "duration": "11:06"
     },
     {
       "title": "Drums",
-      "duration": "1:26"
+      "duration": "1:30"
     },
     {
       "title": "Not Fade Away",
-      "duration": "15:32"
+      "duration": "15:11"
     },
     {
       "title": "Wharf Rat",
-      "duration": "10:20"
+      "duration": "10:18"
     },
     {
       "title": "Playing in the Band",
-      "duration": "6:24"
+      "duration": "6:42"
     },
     {
       "title": "One More Saturday Night",
-      "duration": "4:50"
+      "duration": "5:20"
     },
     {
       "title": "U.S. Blues",
-      "duration": "5:36"
+      "duration": "6:47"
     }
   ]
 }

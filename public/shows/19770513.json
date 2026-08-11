@@ -6,89 +6,92 @@
   "state": "IL",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "May 1977"
+  ],
   "svg": "/shows/19770513.svg",
   "songCount": 20,
-  "durationSeconds": 8490,
+  "durationSeconds": 9443,
   "songs": [
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 362
+      "durationSeconds": 517
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 417
+      "durationSeconds": 453
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 263
+      "durationSeconds": 286
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 307
+      "durationSeconds": 335
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 285
+      "durationSeconds": 306
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 515
+      "durationSeconds": 518
     },
     {
       "title": "El Paso",
-      "durationSeconds": 267
+      "durationSeconds": 295
     },
     {
       "title": "Jack-A-Roe",
-      "durationSeconds": 309
+      "durationSeconds": 356
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 457
+      "durationSeconds": 497
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 404
+      "durationSeconds": 425
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 764
+      "durationSeconds": 799
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 409
+      "durationSeconds": 444
     },
     {
       "title": "Bertha",
-      "durationSeconds": 370
+      "durationSeconds": 412
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 557
+      "durationSeconds": 591
     },
     {
       "title": "Drums",
-      "durationSeconds": 277
+      "durationSeconds": 347
     },
     {
       "title": "The Other One",
-      "durationSeconds": 945
+      "durationSeconds": 988
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 639
+      "durationSeconds": 711
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 366
+      "durationSeconds": 485
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 252
+      "durationSeconds": 321
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 325
+      "durationSeconds": 357
     }
   ]
 }

@@ -6,94 +6,92 @@
   "state": "MD",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 41",
   "songs": [
     {
       "title": "The Music Never Stopped",
-      "duration": "7:03"
+      "duration": "8:07"
     },
     {
       "title": "Sugaree",
-      "duration": "15:15"
+      "duration": "15:37"
     },
     {
       "title": "Mama Tried",
-      "duration": "2:35"
+      "duration": "4:12"
     },
     {
       "title": "Sunrise",
-      "duration": "3:36"
+      "duration": "4:14"
     },
     {
       "title": "Deal",
-      "duration": "5:07"
+      "duration": "5:48"
     },
     {
       "title": "Passenger",
-      "duration": "3:10"
+      "duration": "3:45"
     },
     {
       "title": "Brown-Eyed Women",
-      "duration": "5:32"
+      "duration": "6:02"
     },
     {
       "title": "Looks Like Rain",
-      "duration": "8:32"
+      "duration": "8:51"
     },
     {
       "title": "Jack-A-Roe",
-      "duration": "5:28"
+      "duration": "6:23"
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "5:26"
+      "duration": "6:04"
     },
     {
       "title": "Bertha",
-      "duration": "7:18"
+      "duration": "7:21"
     },
     {
       "title": "Samson And Delilah",
-      "duration": "6:57"
+      "duration": "8:00"
     },
     {
       "title": "High Time",
-      "duration": "7:26"
+      "duration": "8:11"
     },
     {
       "title": "Big River",
-      "duration": "6:26"
+      "duration": "7:00"
     },
     {
       "title": "Terrapin Station",
-      "duration": "10:27"
+      "duration": "10:57"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "8:37"
+      "duration": "9:42"
     },
     {
       "title": "Eyes Of The World",
-      "duration": "11:48"
-    },
-    {
-      "title": "Drums",
-      "duration": "0:38"
+      "duration": "12:31"
     },
     {
       "title": "Not Fade Away",
-      "duration": "16:44"
+      "duration": "16:45"
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": "8:27"
+      "duration": "8:25"
     },
     {
       "title": "Around And Around",
-      "duration": "7:19"
+      "duration": "8:11"
     },
     {
       "title": "Uncle John's Band",
-      "duration": "7:41"
+      "duration": "7:56"
     }
   ]
 }

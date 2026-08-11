@@ -6,82 +6,84 @@
   "state": "GA",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 29",
   "songs": [
     {
       "title": "Promised Land",
-      "duration": "4:31"
+      "duration": "6:14"
     },
     {
       "title": "Sugaree",
-      "duration": "17:02"
+      "duration": "16:21"
     },
     {
       "title": "El Paso",
-      "duration": "4:39"
+      "duration": "5:04"
     },
     {
       "title": "Peggy-O",
-      "duration": "8:16"
+      "duration": "8:34"
     },
     {
       "title": "Looks Like Rain",
-      "duration": "8:36"
+      "duration": "8:59"
     },
     {
       "title": "Row Jimmy",
-      "duration": "10:52"
+      "duration": "11:29"
     },
     {
       "title": "Passenger",
-      "duration": "3:24"
+      "duration": "3:59"
     },
     {
       "title": "Loser",
-      "duration": "8:33"
+      "duration": "8:38"
     },
     {
       "title": "Dancing in the Street",
-      "duration": "13:57"
+      "duration": "13:47"
     },
     {
       "title": "Samson And Delilah",
-      "duration": "6:49"
+      "duration": "8:00"
     },
     {
       "title": "Ramble On Rose",
-      "duration": "8:02"
+      "duration": "8:38"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "10:12"
+      "duration": "10:09"
     },
     {
       "title": "Terrapin Station",
-      "duration": "11:56"
+      "duration": "11:43"
     },
     {
       "title": "Playing in the Band",
-      "duration": "9:21"
+      "duration": "11:07"
     },
     {
       "title": "Uncle John's Band",
-      "duration": "12:03"
+      "duration": "11:47"
     },
     {
       "title": "Drums",
-      "duration": "6:03"
+      "duration": "5:28"
     },
     {
       "title": "The Wheel",
-      "duration": "7:13"
+      "duration": "7:24"
     },
     {
       "title": "China Doll",
-      "duration": "8:54"
+      "duration": "7:50"
     },
     {
       "title": "Playing in the Band",
-      "duration": "9:57"
+      "duration": "10:33"
     }
   ]
 }

@@ -7,7 +7,8 @@
   "country": "USA",
   "tags": [
     "Dark Star",
-    "Live/Dead"
+    "Live/Dead",
+    "Fillmore West 1969"
   ],
   "svg": "/shows/19690228.svg",
   "songCount": 16,
@@ -66,7 +67,7 @@
       "durationSeconds": 897
     },
     {
-      "title": "Caution (Do Not Stop On Tracks)",
+      "title": "Caution (Do Not Stop on Tracks)",
       "durationSeconds": 527
     },
     {

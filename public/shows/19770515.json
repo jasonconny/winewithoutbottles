@@ -6,93 +6,96 @@
   "state": "MO",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "May 1977"
+  ],
   "svg": "/shows/19770515.svg",
   "songCount": 21,
-  "durationSeconds": 9059,
+  "durationSeconds": 9762,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 384
+      "durationSeconds": 394
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 329
+      "durationSeconds": 367
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 615
+      "durationSeconds": 651
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 299
+      "durationSeconds": 333
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 534
+      "durationSeconds": 575
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 207
+      "durationSeconds": 214
     },
     {
       "title": "Supplication",
-      "durationSeconds": 259
+      "durationSeconds": 282
     },
     {
       "title": "Jack-A-Roe",
-      "durationSeconds": 347
+      "durationSeconds": 384
     },
     {
       "title": "Passenger",
-      "durationSeconds": 180
+      "durationSeconds": 271
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 291
+      "durationSeconds": 316
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 1038
+      "durationSeconds": 1129
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 660
+      "durationSeconds": 692
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 744
+      "durationSeconds": 768
     },
     {
       "title": "Drums",
-      "durationSeconds": 206
+      "durationSeconds": 193
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 374
+      "durationSeconds": 448
     },
     {
       "title": "Ship Of Fools",
-      "durationSeconds": 440
+      "durationSeconds": 461
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 306
+      "durationSeconds": 328
     },
     {
       "title": "Iko Iko",
-      "durationSeconds": 222
+      "durationSeconds": 234
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 570
+      "durationSeconds": 578
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 539
+      "durationSeconds": 598
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 515
+      "durationSeconds": 546
     }
   ]
 }

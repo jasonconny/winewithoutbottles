@@ -10,23 +10,23 @@
   ],
   "svg": "/shows/19720417.svg",
   "songCount": 23,
-  "durationSeconds": 11049,
+  "durationSeconds": 10963,
   "songs": [
     {
       "title": "Cold Rain and Snow",
-      "durationSeconds": 389
+      "durationSeconds": 388
     },
     {
       "title": "Me and Bobby McGee",
-      "durationSeconds": 380
+      "durationSeconds": 379
     },
     {
       "title": "Chinatown Shuffle",
-      "durationSeconds": 176
+      "durationSeconds": 175
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 365
+      "durationSeconds": 364
     },
     {
       "title": "I Know You Rider",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 298
+      "durationSeconds": 237
     },
     {
       "title": "He's Gone",
@@ -42,43 +42,43 @@
     },
     {
       "title": "Next Time You See Me",
-      "durationSeconds": 312
+      "durationSeconds": 311
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 411
+      "durationSeconds": 408
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 343
+      "durationSeconds": 342
     },
     {
       "title": "Mr. Charlie",
-      "durationSeconds": 229
+      "durationSeconds": 228
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 599
+      "durationSeconds": 598
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 422
+      "durationSeconds": 419
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 289
+      "durationSeconds": 284
     },
     {
       "title": "It Hurts Me Too",
-      "durationSeconds": 434
-    },
-    {
-      "title": "Ramble On Rose",
       "durationSeconds": 433
     },
     {
+      "title": "Ramble On Rose",
+      "durationSeconds": 432
+    },
+    {
       "title": "El Paso",
-      "durationSeconds": 318
+      "durationSeconds": 317
     },
     {
       "title": "Big Railroad Blues",
@@ -90,11 +90,11 @@
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1860
+      "durationSeconds": 1859
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 416
+      "durationSeconds": 415
     },
     {
       "title": "Caution (Do Not Stop on Tracks)",
@@ -102,7 +102,7 @@
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 259
+      "durationSeconds": 258
     }
   ]
 }

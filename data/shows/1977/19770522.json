@@ -6,14 +6,16 @@
   "state": "FL",
   "tour": "Spring 1977",
   "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 3",
   "songs": [
     {
       "title": "The Music Never Stopped",
-      "duration": "6:32"
+      "duration": "6:45"
     },
     {
       "title": "Sugaree",
-      "duration": "15:38"
+      "duration": "15:54"
     },
     {
       "title": "El Paso",
@@ -37,7 +39,7 @@
     },
     {
       "title": "Supplication",
-      "duration": "5:24"
+      "duration": "5:34"
     },
     {
       "title": "Ramble On Rose",
@@ -45,23 +47,23 @@
     },
     {
       "title": "Dancing in the Street",
-      "duration": "15:30"
+      "duration": "14:28"
     },
     {
       "title": "Help On The Way",
-      "duration": "4:58"
+      "duration": "5:23"
     },
     {
       "title": "Slipknot!",
-      "duration": "6:44"
+      "duration": "6:29"
     },
     {
       "title": "Franklin's Tower",
-      "duration": "15:12"
+      "duration": "15:32"
     },
     {
       "title": "Samson And Delilah",
-      "duration": "7:07"
+      "duration": "7:31"
     },
     {
       "title": "Brown-Eyed Women",
@@ -73,15 +75,15 @@
     },
     {
       "title": "Sunrise",
-      "duration": "3:47"
+      "duration": "4:15"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "8:58"
+      "duration": "9:00"
     },
     {
       "title": "Eyes Of The World",
-      "duration": "10:31"
+      "duration": "13:38"
     },
     {
       "title": "Space",
@@ -93,11 +95,11 @@
     },
     {
       "title": "Terrapin Station",
-      "duration": "5:55"
+      "duration": "5:58"
     },
     {
       "title": "Morning Dew",
-      "duration": "14:04"
+      "duration": "14:21"
     },
     {
       "title": "Sugar Magnolia",

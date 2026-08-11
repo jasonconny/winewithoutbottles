@@ -5,10 +5,13 @@
   "city": "Hartford",
   "state": "CT",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900319.svg",
   "songCount": 19,
-  "durationSeconds": 8846,
+  "durationSeconds": 8853,
   "songs": [
     {
       "title": "Hell in a Bucket",
@@ -16,7 +19,7 @@
     },
     {
       "title": "Bertha",
-      "durationSeconds": 429
+      "durationSeconds": 430
     },
     {
       "title": "We Can Run",
@@ -36,11 +39,11 @@
     },
     {
       "title": "It's All Over Now",
-      "durationSeconds": 444
+      "durationSeconds": 445
     },
     {
       "title": "Deal",
-      "durationSeconds": 520
+      "durationSeconds": 521
     },
     {
       "title": "Box of Rain",
@@ -56,7 +59,7 @@
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 880
+      "durationSeconds": 881
     },
     {
       "title": "Drums",
@@ -68,7 +71,7 @@
     },
     {
       "title": "China Doll",
-      "durationSeconds": 372
+      "durationSeconds": 373
     },
     {
       "title": "Gimme Some Lovin'",
@@ -76,11 +79,11 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 414
+      "durationSeconds": 415
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 395
+      "durationSeconds": 396
     },
     {
       "title": "Brokedown Palace",

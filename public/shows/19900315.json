@@ -5,10 +5,10 @@
   "city": "Landover",
   "state": "MD",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "svg": "/shows/19900315.svg",
   "songCount": 21,
-  "durationSeconds": 10031,
+  "durationSeconds": 10158,
   "songs": [
     {
       "title": "Jack Straw",
@@ -16,7 +16,7 @@
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 673
+      "durationSeconds": 674
     },
     {
       "title": "Easy to Love You",
@@ -24,7 +24,7 @@
     },
     {
       "title": "Walkin' Blues",
-      "durationSeconds": 371
+      "durationSeconds": 372
     },
     {
       "title": "Althea",
@@ -36,15 +36,15 @@
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 556
+      "durationSeconds": 557
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 371
+      "durationSeconds": 372
     },
     {
       "title": "Don't Ease Me In",
-      "durationSeconds": 243
+      "durationSeconds": 362
     },
     {
       "title": "China Cat Sunflower",
@@ -52,7 +52,7 @@
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 409
+      "durationSeconds": 410
     },
     {
       "title": "Samson And Delilah",
@@ -60,7 +60,7 @@
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 862
+      "durationSeconds": 863
     },
     {
       "title": "Jam",
@@ -72,7 +72,7 @@
     },
     {
       "title": "Space",
-      "durationSeconds": 605
+      "durationSeconds": 606
     },
     {
       "title": "I Will Take You Home",
@@ -80,7 +80,7 @@
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 658
+      "durationSeconds": 659
     },
     {
       "title": "Throwing Stones",

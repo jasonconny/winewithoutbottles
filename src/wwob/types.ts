@@ -43,6 +43,16 @@ export interface ShowMeta {
 
 /** A show as authored on disk (`data/shows/*.json`); durations as "m:ss" strings. */
 export interface ShowFile extends ShowMeta {
+  /**
+   * Where the timings came from — an official release name as spelled in
+   * `data/releases.json`, several comma-separated when a show was stitched from
+   * more than one, or `archive.org:<identifier>` for an unreleased show.
+   *
+   * Deliberately on `ShowFile` and not `ShowMeta`: it exists to answer
+   * "should this be re-timed?" and to make a source swap auditable, so it never
+   * reaches `ShowSummary`, the bundled index, or the UI.
+   */
+  source?: string;
   songs: { title: string; duration: string }[];
 }
 

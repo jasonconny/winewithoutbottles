@@ -6,6 +6,7 @@
   "tour": "Europe 1972",
   "country": "DNK",
   "tags": ["Dark Star"],
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Bertha",
@@ -13,19 +14,19 @@
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:28"
+      "duration": "3:27"
     },
     {
       "title": "Mr. Charlie",
-      "duration": "4:47"
+      "duration": "4:46"
     },
     {
       "title": "You Win Again",
-      "duration": "4:02"
+      "duration": "4:01"
     },
     {
       "title": "Black-Throated Wind",
-      "duration": "6:08"
+      "duration": "6:07"
     },
     {
       "title": "Chinatown Shuffle",
@@ -33,15 +34,15 @@
     },
     {
       "title": "Loser",
-      "duration": "6:35"
+      "duration": "6:34"
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": "6:05"
+      "duration": "6:04"
     },
     {
       "title": "Cumberland Blues",
-      "duration": "5:35"
+      "duration": "5:34"
     },
     {
       "title": "Playing in the Band",
@@ -49,11 +50,11 @@
     },
     {
       "title": "Tennessee Jed",
-      "duration": "7:57"
+      "duration": "7:56"
     },
     {
       "title": "El Paso",
-      "duration": "4:25"
+      "duration": "4:24"
     },
     {
       "title": "Big Boss Man",
@@ -61,15 +62,15 @@
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:17"
+      "duration": "3:16"
     },
     {
       "title": "Casey Jones",
-      "duration": "5:58"
+      "duration": "5:53"
     },
     {
       "title": "Truckin'",
-      "duration": "10:56"
+      "duration": "10:55"
     },
     {
       "title": "It Hurts Me Too",
@@ -81,11 +82,11 @@
     },
     {
       "title": "Looks Like Rain",
-      "duration": "7:07"
+      "duration": "7:06"
     },
     {
       "title": "Dark Star",
-      "duration": "29:26"
+      "duration": "29:25"
     },
     {
       "title": "Sugar Magnolia",
@@ -93,15 +94,15 @@
     },
     {
       "title": "Good Lovin'",
-      "duration": "18:28"
+      "duration": "18:27"
     },
     {
       "title": "Caution (Do Not Stop on Tracks)",
-      "duration": "6:45"
+      "duration": "6:44"
     },
     {
       "title": "Good Lovin'",
-      "duration": "3:01"
+      "duration": "3:00"
     },
     {
       "title": "Ramble On Rose",
@@ -113,15 +114,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": "6:56"
+      "duration": "6:55"
     },
     {
       "title": "Not Fade Away",
-      "duration": "3:26"
+      "duration": "3:25"
     },
     {
       "title": "One More Saturday Night",
-      "duration": "4:45"
+      "duration": "4:44"
     }
   ]
 }

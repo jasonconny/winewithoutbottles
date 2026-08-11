@@ -4,8 +4,10 @@
   "venue": "Capitol Centre",
   "city": "Landover",
   "state": "MD",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990"],
+  "source": "Spring 1990",
   "songs": [
     {
       "title": "Let the Good Times Roll",
@@ -13,7 +15,7 @@
     },
     {
       "title": "Touch of Grey",
-      "duration": "6:27"
+      "duration": "6:28"
     },
     {
       "title": "New Minglewood Blues",
@@ -21,7 +23,7 @@
     },
     {
       "title": "Peggy-O",
-      "duration": "6:33"
+      "duration": "6:34"
     },
     {
       "title": "Queen Jane Approximately",
@@ -37,7 +39,7 @@
     },
     {
       "title": "Bird Song",
-      "duration": "14:22"
+      "duration": "14:23"
     },
     {
       "title": "Blow Away",
@@ -61,7 +63,7 @@
     },
     {
       "title": "Jam",
-      "duration": "5:23"
+      "duration": "5:24"
     },
     {
       "title": "Drums",
@@ -77,11 +79,11 @@
     },
     {
       "title": "Stella Blue",
-      "duration": "8:48"
+      "duration": "8:49"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "9:15"
+      "duration": "9:16"
     },
     {
       "title": "The Last Time",

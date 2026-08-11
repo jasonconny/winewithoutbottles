@@ -5,17 +5,20 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900403.svg",
   "songCount": 20,
-  "durationSeconds": 9469,
+  "durationSeconds": 9467,
   "songs": [
     {
       "title": "Shakedown Street",
       "durationSeconds": 735
     },
     {
-      "title": "Hell In A Bucket",
+      "title": "Hell in a Bucket",
       "durationSeconds": 377
     },
     {
@@ -24,7 +27,7 @@
     },
     {
       "title": "We Can Run",
-      "durationSeconds": 416
+      "durationSeconds": 415
     },
     {
       "title": "When I Paint My Masterpiece",
@@ -48,7 +51,7 @@
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 844
+      "durationSeconds": 843
     },
     {
       "title": "Scarlet Begonias",
@@ -59,7 +62,7 @@
       "durationSeconds": 486
     },
     {
-      "title": "Playing In The Band",
+      "title": "Playing in the Band",
       "durationSeconds": 700
     },
     {
@@ -75,7 +78,7 @@
       "durationSeconds": 257
     },
     {
-      "title": "Goin' Down The Road Feeling Bad",
+      "title": "Goin' Down the Road Feeling Bad",
       "durationSeconds": 374
     },
     {

@@ -6,93 +6,96 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Get Shown the Light"
+  ],
   "svg": "/shows/19770509.svg",
   "songCount": 21,
-  "durationSeconds": 8882,
+  "durationSeconds": 9675,
   "songs": [
     {
       "title": "Help On The Way",
-      "durationSeconds": 281
+      "durationSeconds": 360
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 457
+      "durationSeconds": 423
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 777
+      "durationSeconds": 838
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 261
+      "durationSeconds": 301
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 305
+      "durationSeconds": 351
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 201
+      "durationSeconds": 245
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 471
+      "durationSeconds": 529
     },
     {
       "title": "Big River",
-      "durationSeconds": 397
+      "durationSeconds": 447
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 422
+      "durationSeconds": 474
     },
     {
       "title": "Sunrise",
-      "durationSeconds": 217
+      "durationSeconds": 246
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 443
+      "durationSeconds": 469
     },
     {
       "title": "Bertha",
-      "durationSeconds": 421
+      "durationSeconds": 446
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 329
+      "durationSeconds": 382
     },
     {
       "title": "Ship Of Fools",
-      "durationSeconds": 437
+      "durationSeconds": 469
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 565
+      "durationSeconds": 613
     },
     {
       "title": "The Other One",
-      "durationSeconds": 363
+      "durationSeconds": 376
     },
     {
       "title": "Drums",
-      "durationSeconds": 216
+      "durationSeconds": 212
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 574
+      "durationSeconds": 613
     },
     {
       "title": "Comes a Time",
-      "durationSeconds": 668
+      "durationSeconds": 694
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 553
+      "durationSeconds": 617
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 524
+      "durationSeconds": 570
     }
   ]
 }

@@ -102,3 +102,19 @@ itself was a bad reconstruction.
 | 1994-10-15 | the 2013 art mis-placed `I Want to Tell You` (`112-100-142`) at the set break (#9); it was actually the show closer                                                | reordered by hand (closer → #18) and durations re-timed from the official source                                                                         |
 | 1972-04-16 | the 2013 art duplicated 4/14's exact setlist (same stripe colors/sequence, only widths differ) — impossible across distinct Aarhus/Copenhagen dates                | legacy SVG discarded; setlist + durations entered by hand from _Europe '72: The Complete Recordings_ (Vol. 5). No color checksum applies for this show.  |
 | 1972-05-25 | the 2013 art duplicated 5/24's exact setlist (same stripe colors/sequence, only widths differ) — impossible across distinct Lyceum dates                           | legacy SVG discarded; setlist + durations entered by hand from _Europe '72: The Complete Recordings_ (Vol. 21). No color checksum applies for this show. |
+
+## Duplicate spellings folded
+
+The same song authored two ways renders as two songs. Unlike the title typos
+above these are **not** departures from the 2013 art — the art is unchanged —
+they are internal inconsistencies in the authored data, folded to one spelling.
+
+| Song                  | Was                | Folded to          | Shows | Art       |
+| --------------------- | ------------------ | ------------------ | ----- | --------- |
+| Mississippi Half-Step | `…Uptown Toodleoo` | `…Uptown Toodeloo` | 14    | unchanged |
+
+The Half-Step fold is invisible to the art: both spellings clean to the same
+length and the transposed letters fall in the same channel slice, which is a
+_mean_, so both render `131,120,128`. That is exactly why it survived so long,
+and why `tests/data-validity.test.ts` now rejects two canonical titles that are
+letter-for-letter rearrangements of each other.

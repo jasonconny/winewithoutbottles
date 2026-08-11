@@ -5,6 +5,8 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": ["In and Out of the Garden"],
+  "source": "In and Out of the Garden: Madison Square Garden '81, '82, '83",
   "songs": [
     {
       "title": "Shakedown Street",
@@ -12,11 +14,11 @@
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "7:25"
+      "duration": "7:26"
     },
     {
       "title": "Candyman",
-      "duration": "6:05"
+      "duration": "6:06"
     },
     {
       "title": "El Paso",
@@ -24,11 +26,11 @@
     },
     {
       "title": "Dupree's Diamond Blues",
-      "duration": "6:03"
+      "duration": "6:04"
     },
     {
       "title": "It's All Over Now",
-      "duration": "8:00"
+      "duration": "8:01"
     },
     {
       "title": "Never Trust a Woman",
@@ -36,15 +38,15 @@
     },
     {
       "title": "Row Jimmy",
-      "duration": "10:35"
+      "duration": "10:36"
     },
     {
       "title": "Throwing Stones",
-      "duration": "5:54"
+      "duration": "5:55"
     },
     {
       "title": "Keep Your Day Job",
-      "duration": "5:25"
+      "duration": "5:26"
     },
     {
       "title": "Scarlet Begonias",
@@ -52,23 +54,23 @@
     },
     {
       "title": "Fire on the Mountain",
-      "duration": "9:27"
+      "duration": "9:29"
     },
     {
       "title": "Man Smart Woman Smarter",
-      "duration": "6:47"
+      "duration": "6:52"
     },
     {
       "title": "Terrapin Station",
-      "duration": "11:42"
+      "duration": "11:47"
     },
     {
       "title": "Drums",
-      "duration": "8:05"
+      "duration": "8:06"
     },
     {
       "title": "Space",
-      "duration": "6:38"
+      "duration": "6:37"
     },
     {
       "title": "Spanish Jam",
@@ -84,11 +86,11 @@
     },
     {
       "title": "Stella Blue",
-      "duration": "7:51"
+      "duration": "7:52"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "8:45"
+      "duration": "8:46"
     },
     {
       "title": "Touch of Grey",

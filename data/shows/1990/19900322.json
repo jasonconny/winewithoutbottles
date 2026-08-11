@@ -4,8 +4,10 @@
   "venue": "Copps Coliseum",
   "city": "Hamilton",
   "state": "ON",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "CAN",
+  "tags": ["Spring 1990"],
+  "source": "Spring 1990",
   "songs": [
     {
       "title": "Feel Like a Stranger",
@@ -49,23 +51,23 @@
     },
     {
       "title": "Samson And Delilah",
-      "duration": "6:50"
+      "duration": "6:51"
     },
     {
       "title": "Believe It or Not",
-      "duration": "6:33"
+      "duration": "6:32"
     },
     {
       "title": "Truckin'",
-      "duration": "11:02"
+      "duration": "11:04"
     },
     {
       "title": "Drums",
-      "duration": "11:35"
+      "duration": "11:36"
     },
     {
       "title": "Space",
-      "duration": "8:12"
+      "duration": "8:14"
     },
     {
       "title": "The Other One",
@@ -73,7 +75,7 @@
     },
     {
       "title": "Hey Jude",
-      "duration": "4:52"
+      "duration": "4:53"
     },
     {
       "title": "Dear Mr. Fantasy",
@@ -81,11 +83,11 @@
     },
     {
       "title": "Hey Jude",
-      "duration": "4:30"
+      "duration": "4:31"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "8:46"
+      "duration": "8:45"
     },
     {
       "title": "It's All Over Now, Baby Blue",

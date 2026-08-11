@@ -4,12 +4,14 @@
   "venue": "Nassau Coliseum",
   "city": "Uniondale",
   "state": "NY",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990"],
+  "source": "Spring 1990",
   "songs": [
     {
       "title": "Help On The Way",
-      "duration": "4:11"
+      "duration": "4:12"
     },
     {
       "title": "Slipknot!",
@@ -21,7 +23,7 @@
     },
     {
       "title": "Little Red Rooster",
-      "duration": "9:12"
+      "duration": "9:13"
     },
     {
       "title": "Dire Wolf",
@@ -33,7 +35,7 @@
     },
     {
       "title": "Just Like Tom Thumb's Blues",
-      "duration": "6:11"
+      "duration": "6:12"
     },
     {
       "title": "Picasso Moon",
@@ -41,7 +43,7 @@
     },
     {
       "title": "Don't Ease Me In",
-      "duration": "3:25"
+      "duration": "3:26"
     },
     {
       "title": "Iko Iko",
@@ -49,7 +51,7 @@
     },
     {
       "title": "Playing in the Band",
-      "duration": "9:18"
+      "duration": "9:19"
     },
     {
       "title": "China Doll",
@@ -57,7 +59,7 @@
     },
     {
       "title": "Uncle John's Band",
-      "duration": "8:15"
+      "duration": "8:16"
     },
     {
       "title": "Terrapin Station",
@@ -77,7 +79,7 @@
     },
     {
       "title": "Gimme Some Lovin'",
-      "duration": "4:54"
+      "duration": "4:55"
     },
     {
       "title": "Standing on the Moon",

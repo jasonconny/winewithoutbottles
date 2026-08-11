@@ -5,6 +5,8 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": ["In and Out of the Garden"],
+  "source": "In and Out of the Garden: Madison Square Garden '81, '82, '83",
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -12,11 +14,11 @@
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "9:13"
+      "duration": "9:14"
     },
     {
       "title": "Ramble On Rose",
-      "duration": "7:22"
+      "duration": "7:23"
     },
     {
       "title": "My Brother Esau",
@@ -24,7 +26,7 @@
     },
     {
       "title": "It Must Have Been the Roses",
-      "duration": "6:13"
+      "duration": "6:14"
     },
     {
       "title": "Cassidy",
@@ -32,19 +34,19 @@
     },
     {
       "title": "Cumberland Blues",
-      "duration": "10:13"
+      "duration": "10:14"
     },
     {
       "title": "Looks Like Rain",
-      "duration": "8:38"
+      "duration": "8:39"
     },
     {
       "title": "Might As Well",
-      "duration": "4:39"
+      "duration": "4:40"
     },
     {
       "title": "Help On The Way",
-      "duration": "3:52"
+      "duration": "3:53"
     },
     {
       "title": "Slipknot!",
@@ -52,23 +54,23 @@
     },
     {
       "title": "Franklin's Tower",
-      "duration": "14:43"
+      "duration": "14:44"
     },
     {
       "title": "Man Smart Woman Smarter",
-      "duration": "7:34"
+      "duration": "7:40"
     },
     {
       "title": "He's Gone",
-      "duration": "13:00"
+      "duration": "13:12"
     },
     {
       "title": "Drums",
-      "duration": "10:18"
+      "duration": "10:19"
     },
     {
       "title": "Space",
-      "duration": "14:29"
+      "duration": "14:30"
     },
     {
       "title": "Truckin'",
@@ -80,11 +82,11 @@
     },
     {
       "title": "Not Fade Away",
-      "duration": "9:19"
+      "duration": "9:20"
     },
     {
       "title": "Revolution",
-      "duration": "5:15"
+      "duration": "5:16"
     }
   ]
 }

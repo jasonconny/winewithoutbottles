@@ -6,105 +6,108 @@
   "state": "NY",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Dave's Picks"
+  ],
   "svg": "/shows/19770503.svg",
   "songCount": 24,
-  "durationSeconds": 10294,
+  "durationSeconds": 11012,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 254
+      "durationSeconds": 304
     },
     {
       "title": "Bertha",
-      "durationSeconds": 429
+      "durationSeconds": 462
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 177
+      "durationSeconds": 204
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 470
+      "durationSeconds": 519
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 317
+      "durationSeconds": 359
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 626
+      "durationSeconds": 648
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 203
+      "durationSeconds": 208
     },
     {
       "title": "Supplication",
-      "durationSeconds": 262
+      "durationSeconds": 298
     },
     {
       "title": "Deal",
-      "durationSeconds": 391
+      "durationSeconds": 448
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 347
+      "durationSeconds": 398
     },
     {
       "title": "Ship Of Fools",
-      "durationSeconds": 472
+      "durationSeconds": 504
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 410
+      "durationSeconds": 425
     },
     {
       "title": "Might As Well",
-      "durationSeconds": 341
+      "durationSeconds": 398
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 491
+      "durationSeconds": 528
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 792
+      "durationSeconds": 839
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 395
+      "durationSeconds": 426
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 460
+      "durationSeconds": 497
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 653
+      "durationSeconds": 700
     },
     {
       "title": "Space",
-      "durationSeconds": 232
+      "durationSeconds": 193
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 652
+      "durationSeconds": 644
     },
     {
       "title": "Drums",
-      "durationSeconds": 251
+      "durationSeconds": 243
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 737
+      "durationSeconds": 677
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 454
+      "durationSeconds": 539
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 478
+      "durationSeconds": 551
     }
   ]
 }

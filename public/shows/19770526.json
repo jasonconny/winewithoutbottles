@@ -6,97 +6,96 @@
   "state": "MD",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Dave's Picks"
+  ],
   "svg": "/shows/19770526.svg",
-  "songCount": 22,
-  "durationSeconds": 9692,
+  "songCount": 21,
+  "durationSeconds": 10442,
   "songs": [
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 423
+      "durationSeconds": 487
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 915
+      "durationSeconds": 937
     },
     {
       "title": "Mama Tried",
-      "durationSeconds": 155
+      "durationSeconds": 252
     },
     {
       "title": "Sunrise",
-      "durationSeconds": 216
+      "durationSeconds": 254
     },
     {
       "title": "Deal",
-      "durationSeconds": 307
+      "durationSeconds": 348
     },
     {
       "title": "Passenger",
-      "durationSeconds": 190
+      "durationSeconds": 225
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 332
+      "durationSeconds": 362
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 512
+      "durationSeconds": 531
     },
     {
       "title": "Jack-A-Roe",
-      "durationSeconds": 328
+      "durationSeconds": 383
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 326
+      "durationSeconds": 364
     },
     {
       "title": "Bertha",
-      "durationSeconds": 438
+      "durationSeconds": 441
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 417
+      "durationSeconds": 480
     },
     {
       "title": "High Time",
-      "durationSeconds": 446
+      "durationSeconds": 491
     },
     {
       "title": "Big River",
-      "durationSeconds": 386
+      "durationSeconds": 420
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 627
+      "durationSeconds": 657
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 517
+      "durationSeconds": 582
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 708
-    },
-    {
-      "title": "Drums",
-      "durationSeconds": 38
+      "durationSeconds": 751
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 1004
+      "durationSeconds": 1005
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 507
+      "durationSeconds": 505
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 439
+      "durationSeconds": 491
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 461
+      "durationSeconds": 476
     }
   ]
 }

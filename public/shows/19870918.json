@@ -5,81 +5,84 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "30 Trips Around the Sun"
+  ],
   "svg": "/shows/19870918.svg",
   "songCount": 18,
-  "durationSeconds": 7774,
+  "durationSeconds": 8269,
   "songs": [
     {
       "title": "Hell in a Bucket",
-      "durationSeconds": 374
+      "durationSeconds": 430
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 632
+      "durationSeconds": 629
     },
     {
       "title": "Walkin' Blues",
-      "durationSeconds": 370
+      "durationSeconds": 410
     },
     {
       "title": "Candyman",
-      "durationSeconds": 404
+      "durationSeconds": 411
     },
     {
       "title": "When I Paint My Masterpiece",
-      "durationSeconds": 248
+      "durationSeconds": 292
     },
     {
       "title": "Bird Song",
-      "durationSeconds": 597
+      "durationSeconds": 623
     },
     {
       "title": "Shakedown Street",
-      "durationSeconds": 716
+      "durationSeconds": 772
     },
     {
       "title": "Man Smart Woman Smarter",
-      "durationSeconds": 418
+      "durationSeconds": 435
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 786
+      "durationSeconds": 809
     },
     {
       "title": "Drums",
-      "durationSeconds": 505
+      "durationSeconds": 503
     },
     {
       "title": "Space",
-      "durationSeconds": 439
+      "durationSeconds": 479
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 358
+      "durationSeconds": 365
     },
     {
       "title": "All Along the Watchtower",
-      "durationSeconds": 285
+      "durationSeconds": 290
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 653
+      "durationSeconds": 670
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 251
+      "durationSeconds": 257
     },
     {
       "title": "La Bamba",
-      "durationSeconds": 91
+      "durationSeconds": 90
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 153
+      "durationSeconds": 261
     },
     {
       "title": "Knockin' on Heaven's Door",
-      "durationSeconds": 494
+      "durationSeconds": 543
     }
   ]
 }

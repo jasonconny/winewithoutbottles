@@ -6,105 +6,104 @@
   "state": "FL",
   "country": "USA",
   "tour": "Spring 1977",
+  "tags": [
+    "Dick's Picks"
+  ],
   "svg": "/shows/19770521.svg",
-  "songCount": 24,
-  "durationSeconds": 10776,
+  "songCount": 23,
+  "durationSeconds": 11057,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 402
+      "durationSeconds": 442
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 193
+      "durationSeconds": 232
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 425
+      "durationSeconds": 490
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 295
+      "durationSeconds": 321
     },
     {
       "title": "Jack-A-Roe",
-      "durationSeconds": 369
+      "durationSeconds": 420
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 339
+      "durationSeconds": 373
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 540
+      "durationSeconds": 581
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 310
+      "durationSeconds": 338
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 670
+      "durationSeconds": 688
     },
     {
       "title": "Passenger",
-      "durationSeconds": 194
-    },
-    {
-      "title": "Scarlet Begonias",
-      "durationSeconds": 705
-    },
-    {
-      "title": "Fire on the Mountain",
-      "durationSeconds": 753
-    },
-    {
-      "title": "Samson And Delilah",
-      "durationSeconds": 409
-    },
-    {
-      "title": "Brown-Eyed Women",
-      "durationSeconds": 314
-    },
-    {
-      "title": "Estimated Prophet",
-      "durationSeconds": 575
-    },
-    {
-      "title": "He's Gone",
-      "durationSeconds": 921
-    },
-    {
-      "title": "Drums",
       "durationSeconds": 256
     },
     {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 773
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 687
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 936
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 249
+    },
+    {
       "title": "The Other One",
-      "durationSeconds": 736
+      "durationSeconds": 699
     },
     {
       "title": "Comes a Time",
-      "durationSeconds": 708
+      "durationSeconds": 712
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 276
+      "durationSeconds": 277
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 735
+      "durationSeconds": 675
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 47
+      "durationSeconds": 106
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 285
-    },
-    {
-      "title": "U.S. Blues",
-      "durationSeconds": 319
+      "durationSeconds": 301
     }
   ]
 }

@@ -5,10 +5,13 @@
   "city": "Passaic",
   "state": "NJ",
   "country": "USA",
-  "tour": "June 1976",
+  "tour": "June 1976 Comeback",
+  "tags": [
+    "Download Series"
+  ],
   "svg": "/shows/19760618.svg",
   "songCount": 20,
-  "durationSeconds": 8395,
+  "durationSeconds": 8414,
   "songs": [
     {
       "title": "The Music Never Stopped",
@@ -24,7 +27,7 @@
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 786
+      "durationSeconds": 787
     },
     {
       "title": "Big River",
@@ -44,7 +47,7 @@
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 284
+      "durationSeconds": 285
     },
     {
       "title": "Mission in the Rain",
@@ -84,7 +87,7 @@
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 685
+      "durationSeconds": 702
     },
     {
       "title": "U.S. Blues",

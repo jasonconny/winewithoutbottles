@@ -5,14 +5,15 @@
   "city": "Amsterdam",
   "tour": "Europe 1972",
   "country": "HOL",
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Bertha",
-      "duration": "5:51"
+      "duration": "5:50"
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:18"
+      "duration": "3:17"
     },
     {
       "title": "Mr. Charlie",
@@ -36,19 +37,19 @@
     },
     {
       "title": "Next Time You See Me",
-      "duration": "5:17"
+      "duration": "5:16"
     },
     {
       "title": "El Paso",
-      "duration": "4:58"
+      "duration": "4:57"
     },
     {
       "title": "He's Gone",
-      "duration": "7:34"
+      "duration": "7:33"
     },
     {
       "title": "Chinatown Shuffle",
-      "duration": "2:53"
+      "duration": "2:52"
     },
     {
       "title": "Playing in the Band",
@@ -56,7 +57,7 @@
     },
     {
       "title": "Big Railroad Blues",
-      "duration": "3:56"
+      "duration": "3:55"
     },
     {
       "title": "Jack Straw",
@@ -72,19 +73,19 @@
     },
     {
       "title": "Greatest Story Ever Told",
-      "duration": "5:21"
+      "duration": "5:20"
     },
     {
       "title": "Casey Jones",
-      "duration": "5:53"
+      "duration": "5:52"
     },
     {
       "title": "Truckin'",
-      "duration": "8:51"
+      "duration": "8:50"
     },
     {
       "title": "Drums",
-      "duration": "2:25"
+      "duration": "2:24"
     },
     {
       "title": "The Other One",
@@ -92,7 +93,7 @@
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": "5:35"
+      "duration": "5:34"
     },
     {
       "title": "The Other One",
@@ -104,11 +105,11 @@
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:39"
+      "duration": "3:38"
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "duration": "7:00"
+      "duration": "6:59"
     },
     {
       "title": "Ramble On Rose",
@@ -116,11 +117,11 @@
     },
     {
       "title": "Sing Me Back Home",
-      "duration": "10:01"
+      "duration": "10:00"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "7:03"
+      "duration": "7:02"
     },
     {
       "title": "Not Fade Away",

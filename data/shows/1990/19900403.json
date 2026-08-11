@@ -4,15 +4,17 @@
   "venue": "The Omni",
   "city": "Atlanta",
   "state": "GA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
   "country": "USA",
+  "tags": ["Spring 1990 (The Other One)"],
+  "source": "Spring 1990 (The Other One)",
   "songs": [
     {
       "title": "Shakedown Street",
       "duration": "12:15"
     },
     {
-      "title": "Hell In A Bucket",
+      "title": "Hell in a Bucket",
       "duration": "6:17"
     },
     {
@@ -21,7 +23,7 @@
     },
     {
       "title": "We Can Run",
-      "duration": "6:56"
+      "duration": "6:55"
     },
     {
       "title": "When I Paint My Masterpiece",
@@ -45,7 +47,7 @@
     },
     {
       "title": "Estimated Prophet",
-      "duration": "14:04"
+      "duration": "14:03"
     },
     {
       "title": "Scarlet Begonias",
@@ -56,7 +58,7 @@
       "duration": "8:06"
     },
     {
-      "title": "Playing In The Band",
+      "title": "Playing in the Band",
       "duration": "11:40"
     },
     {
@@ -72,7 +74,7 @@
       "duration": "4:17"
     },
     {
-      "title": "Goin' Down The Road Feeling Bad",
+      "title": "Goin' Down the Road Feeling Bad",
       "duration": "6:14"
     },
     {

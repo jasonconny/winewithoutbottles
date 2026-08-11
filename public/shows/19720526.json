@@ -7,15 +7,15 @@
   "tour": "Europe 1972",
   "svg": "/shows/19720526.svg",
   "songCount": 31,
-  "durationSeconds": 13367,
+  "durationSeconds": 13354,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 229
+      "durationSeconds": 228
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 455
+      "durationSeconds": 454
     },
     {
       "title": "Mr. Charlie",
@@ -35,7 +35,7 @@
     },
     {
       "title": "El Paso",
-      "durationSeconds": 294
+      "durationSeconds": 293
     },
     {
       "title": "Dire Wolf",
@@ -47,11 +47,11 @@
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 1082
+      "durationSeconds": 1081
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 550
+      "durationSeconds": 549
     },
     {
       "title": "Cumberland Blues",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 319
+      "durationSeconds": 318
     },
     {
       "title": "Chinatown Shuffle",
@@ -83,19 +83,19 @@
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 180
+      "durationSeconds": 179
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 1138
+      "durationSeconds": 1137
     },
     {
       "title": "The Other One",
-      "durationSeconds": 550
+      "durationSeconds": 549
     },
     {
       "title": "Drums",
-      "durationSeconds": 138
+      "durationSeconds": 137
     },
     {
       "title": "The Other One",
@@ -111,11 +111,11 @@
     },
     {
       "title": "Sing Me Back Home",
-      "durationSeconds": 659
+      "durationSeconds": 658
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 226
+      "durationSeconds": 225
     },
     {
       "title": "Ramble On Rose",
@@ -127,7 +127,7 @@
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 402
+      "durationSeconds": 401
     },
     {
       "title": "One More Saturday Night",

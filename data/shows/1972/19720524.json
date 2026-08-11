@@ -5,18 +5,19 @@
   "city": "London",
   "tour": "Europe 1972",
   "country": "ENG",
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Cold Rain and Snow",
-      "duration": "5:44"
+      "duration": "5:43"
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:35"
+      "duration": "3:34"
     },
     {
       "title": "Mr. Charlie",
-      "duration": "4:04"
+      "duration": "4:03"
     },
     {
       "title": "Deal",
@@ -28,7 +29,7 @@
     },
     {
       "title": "It Hurts Me Too",
-      "duration": "7:44"
+      "duration": "7:43"
     },
     {
       "title": "Dire Wolf",
@@ -48,27 +49,27 @@
     },
     {
       "title": "I Know You Rider",
-      "duration": "6:35"
+      "duration": "6:34"
     },
     {
       "title": "Playing in the Band",
-      "duration": "12:16"
+      "duration": "12:15"
     },
     {
       "title": "You Win Again",
-      "duration": "4:15"
+      "duration": "4:14"
     },
     {
       "title": "Jack Straw",
-      "duration": "4:57"
+      "duration": "4:56"
     },
     {
       "title": "Casey Jones",
-      "duration": "6:19"
+      "duration": "6:16"
     },
     {
       "title": "Rockin' Pneumonia and the Boogie Woogie Flu",
-      "duration": "5:28"
+      "duration": "5:27"
     },
     {
       "title": "Mexicali Blues",
@@ -76,7 +77,7 @@
     },
     {
       "title": "Black Peter",
-      "duration": "10:08"
+      "duration": "10:07"
     },
     {
       "title": "Truckin'",
@@ -84,7 +85,7 @@
     },
     {
       "title": "Drums",
-      "duration": "1:51"
+      "duration": "1:50"
     },
     {
       "title": "The Other One",
@@ -104,7 +105,7 @@
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "duration": "8:37"
+      "duration": "8:36"
     },
     {
       "title": "One More Saturday Night",

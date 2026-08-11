@@ -11,7 +11,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tags": [
       "Dark Star",
-      "Live/Dead"
+      "Live/Dead",
+      "Fillmore West 1969"
     ],
     "svg": "/shows/19690227.svg",
     "songCount": 10,
@@ -26,7 +27,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tags": [
       "Dark Star",
-      "Live/Dead"
+      "Live/Dead",
+      "Fillmore West 1969"
     ],
     "svg": "/shows/19690228.svg",
     "songCount": 16,
@@ -41,7 +43,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tags": [
       "Dark Star",
-      "Live/Dead"
+      "Live/Dead",
+      "Fillmore West 1969"
     ],
     "svg": "/shows/19690301.svg",
     "songCount": 11,
@@ -56,7 +59,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tags": [
       "Dark Star",
-      "Live/Dead"
+      "Live/Dead",
+      "Fillmore West 1969"
     ],
     "svg": "/shows/19690302.svg",
     "songCount": 14,
@@ -71,7 +75,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720407.svg",
     "songCount": 25,
-    "durationSeconds": 9837
+    "durationSeconds": 9819
   },
   {
     "id": "19720408",
@@ -85,7 +89,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720408.svg",
     "songCount": 22,
-    "durationSeconds": 10716
+    "durationSeconds": 10694
   },
   {
     "id": "19720411",
@@ -96,7 +100,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720411.svg",
     "songCount": 27,
-    "durationSeconds": 12168
+    "durationSeconds": 12155
   },
   {
     "id": "19720414",
@@ -110,7 +114,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720414.svg",
     "songCount": 29,
-    "durationSeconds": 12421
+    "durationSeconds": 12397
   },
   {
     "id": "19720416",
@@ -135,7 +139,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720417.svg",
     "songCount": 23,
-    "durationSeconds": 11049
+    "durationSeconds": 10963
   },
   {
     "id": "19720421",
@@ -146,7 +150,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720421.svg",
     "songCount": 10,
-    "durationSeconds": 4775
+    "durationSeconds": 4768
   },
   {
     "id": "19720424",
@@ -160,7 +164,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720424.svg",
     "songCount": 26,
-    "durationSeconds": 12312
+    "durationSeconds": 12294
   },
   {
     "id": "19720426",
@@ -171,7 +175,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720426.svg",
     "songCount": 30,
-    "durationSeconds": 13885
+    "durationSeconds": 13864
   },
   {
     "id": "19720429",
@@ -185,7 +189,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720429.svg",
     "songCount": 22,
-    "durationSeconds": 10631
+    "durationSeconds": 10613
   },
   {
     "id": "19720503",
@@ -196,7 +200,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720503.svg",
     "songCount": 32,
-    "durationSeconds": 13291
+    "durationSeconds": 13263
   },
   {
     "id": "19720504",
@@ -210,7 +214,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720504.svg",
     "songCount": 29,
-    "durationSeconds": 12856
+    "durationSeconds": 12832
   },
   {
     "id": "19720507",
@@ -224,7 +228,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720507.svg",
     "songCount": 27,
-    "durationSeconds": 14348
+    "durationSeconds": 14266
   },
   {
     "id": "19720510",
@@ -235,7 +239,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720510.svg",
     "songCount": 32,
-    "durationSeconds": 12983
+    "durationSeconds": 12967
   },
   {
     "id": "19720511",
@@ -249,7 +253,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720511.svg",
     "songCount": 29,
-    "durationSeconds": 13459
+    "durationSeconds": 13452
   },
   {
     "id": "19720513",
@@ -260,7 +264,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720513.svg",
     "songCount": 25,
-    "durationSeconds": 10156
+    "durationSeconds": 10125
   },
   {
     "id": "19720516",
@@ -271,7 +275,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720516.svg",
     "songCount": 22,
-    "durationSeconds": 8726
+    "durationSeconds": 8706
   },
   {
     "id": "19720518",
@@ -285,7 +289,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720518.svg",
     "songCount": 25,
-    "durationSeconds": 11220
+    "durationSeconds": 11203
   },
   {
     "id": "19720523",
@@ -299,7 +303,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19720523.svg",
     "songCount": 30,
-    "durationSeconds": 12618
+    "durationSeconds": 12595
   },
   {
     "id": "19720524",
@@ -310,7 +314,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720524.svg",
     "songCount": 26,
-    "durationSeconds": 11352
+    "durationSeconds": 11337
   },
   {
     "id": "19720525",
@@ -335,7 +339,7 @@ export const shows: ShowSummary[] = [
     "tour": "Europe 1972",
     "svg": "/shows/19720526.svg",
     "songCount": 31,
-    "durationSeconds": 13367
+    "durationSeconds": 13354
   },
   {
     "id": "19720827",
@@ -436,7 +440,7 @@ export const shows: ShowSummary[] = [
     "city": "Portland",
     "state": "OR",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760603.svg",
     "songCount": 24,
     "durationSeconds": 10320
@@ -448,7 +452,7 @@ export const shows: ShowSummary[] = [
     "city": "Portland",
     "state": "OR",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760604.svg",
     "songCount": 28,
     "durationSeconds": 9671
@@ -460,7 +464,10 @@ export const shows: ShowSummary[] = [
     "city": "Boston",
     "state": "MA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "Road Trips"
+    ],
     "svg": "/shows/19760609.svg",
     "songCount": 23,
     "durationSeconds": 11219
@@ -472,10 +479,13 @@ export const shows: ShowSummary[] = [
     "city": "Boston",
     "state": "MA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "June 1976"
+    ],
     "svg": "/shows/19760610.svg",
     "songCount": 22,
-    "durationSeconds": 9979
+    "durationSeconds": 9971
   },
   {
     "id": "19760611",
@@ -484,10 +494,13 @@ export const shows: ShowSummary[] = [
     "city": "Boston",
     "state": "MA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "June 1976"
+    ],
     "svg": "/shows/19760611.svg",
     "songCount": 24,
-    "durationSeconds": 10382
+    "durationSeconds": 10367
   },
   {
     "id": "19760612",
@@ -496,7 +509,7 @@ export const shows: ShowSummary[] = [
     "city": "Boston",
     "state": "MA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760612.svg",
     "songCount": 25,
     "durationSeconds": 9087
@@ -508,10 +521,13 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "June 1976"
+    ],
     "svg": "/shows/19760614.svg",
     "songCount": 23,
-    "durationSeconds": 10980
+    "durationSeconds": 10996
   },
   {
     "id": "19760615",
@@ -520,10 +536,13 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "June 1976"
+    ],
     "svg": "/shows/19760615.svg",
     "songCount": 21,
-    "durationSeconds": 9847
+    "durationSeconds": 9853
   },
   {
     "id": "19760617",
@@ -532,10 +551,13 @@ export const shows: ShowSummary[] = [
     "city": "Passaic",
     "state": "NJ",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "Dave's Picks"
+    ],
     "svg": "/shows/19760617.svg",
     "songCount": 24,
-    "durationSeconds": 10475
+    "durationSeconds": 10486
   },
   {
     "id": "19760618",
@@ -544,10 +566,13 @@ export const shows: ShowSummary[] = [
     "city": "Passaic",
     "state": "NJ",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "Download Series"
+    ],
     "svg": "/shows/19760618.svg",
     "songCount": 20,
-    "durationSeconds": 8395
+    "durationSeconds": 8414
   },
   {
     "id": "19760619",
@@ -556,10 +581,13 @@ export const shows: ShowSummary[] = [
     "city": "Passaic",
     "state": "NJ",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
+    "tags": [
+      "June 1976"
+    ],
     "svg": "/shows/19760619.svg",
     "songCount": 20,
-    "durationSeconds": 9825
+    "durationSeconds": 9859
   },
   {
     "id": "19760621",
@@ -568,7 +596,7 @@ export const shows: ShowSummary[] = [
     "city": "Upper Darby",
     "state": "PA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760621.svg",
     "songCount": 22,
     "durationSeconds": 9318
@@ -580,7 +608,7 @@ export const shows: ShowSummary[] = [
     "city": "Upper Darby",
     "state": "PA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760622.svg",
     "songCount": 21,
     "durationSeconds": 10701
@@ -592,7 +620,7 @@ export const shows: ShowSummary[] = [
     "city": "Upper Darby",
     "state": "PA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760623.svg",
     "songCount": 25,
     "durationSeconds": 8755
@@ -604,7 +632,7 @@ export const shows: ShowSummary[] = [
     "city": "Upper Darby",
     "state": "PA",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760624.svg",
     "songCount": 18,
     "durationSeconds": 7851
@@ -616,7 +644,7 @@ export const shows: ShowSummary[] = [
     "city": "Chicago",
     "state": "IL",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760626.svg",
     "songCount": 22,
     "durationSeconds": 9327
@@ -628,7 +656,7 @@ export const shows: ShowSummary[] = [
     "city": "Chicago",
     "state": "IL",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760627.svg",
     "songCount": 20,
     "durationSeconds": 8212
@@ -640,7 +668,7 @@ export const shows: ShowSummary[] = [
     "city": "Chicago",
     "state": "IL",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760628.svg",
     "songCount": 18,
     "durationSeconds": 7887
@@ -652,7 +680,7 @@ export const shows: ShowSummary[] = [
     "city": "Chicago",
     "state": "IL",
     "country": "USA",
-    "tour": "June 1976",
+    "tour": "June 1976 Comeback",
     "svg": "/shows/19760629.svg",
     "songCount": 22,
     "durationSeconds": 9180
@@ -689,9 +717,12 @@ export const shows: ShowSummary[] = [
     "state": "NJ",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
     "svg": "/shows/19770425.svg",
     "songCount": 21,
-    "durationSeconds": 8709
+    "durationSeconds": 9267
   },
   {
     "id": "19770426",
@@ -737,9 +768,12 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Download Series"
+    ],
     "svg": "/shows/19770430.svg",
-    "songCount": 21,
-    "durationSeconds": 8638
+    "songCount": 24,
+    "durationSeconds": 11369
   },
   {
     "id": "19770501",
@@ -761,9 +795,12 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Dave's Picks"
+    ],
     "svg": "/shows/19770503.svg",
     "songCount": 24,
-    "durationSeconds": 10294
+    "durationSeconds": 11012
   },
   {
     "id": "19770504",
@@ -785,9 +822,12 @@ export const shows: ShowSummary[] = [
     "state": "CT",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Get Shown the Light"
+    ],
     "svg": "/shows/19770505.svg",
     "songCount": 19,
-    "durationSeconds": 8483
+    "durationSeconds": 9023
   },
   {
     "id": "19770507",
@@ -797,9 +837,12 @@ export const shows: ShowSummary[] = [
     "state": "MA",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Get Shown the Light"
+    ],
     "svg": "/shows/19770507.svg",
     "songCount": 20,
-    "durationSeconds": 9303
+    "durationSeconds": 9924
   },
   {
     "id": "19770508",
@@ -809,9 +852,12 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Get Shown the Light"
+    ],
     "svg": "/shows/19770508.svg",
     "songCount": 20,
-    "durationSeconds": 9130
+    "durationSeconds": 9720
   },
   {
     "id": "19770509",
@@ -821,9 +867,12 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Get Shown the Light"
+    ],
     "svg": "/shows/19770509.svg",
     "songCount": 21,
-    "durationSeconds": 8882
+    "durationSeconds": 9675
   },
   {
     "id": "19770511",
@@ -833,9 +882,12 @@ export const shows: ShowSummary[] = [
     "state": "MN",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "May 1977"
+    ],
     "svg": "/shows/19770511.svg",
     "songCount": 24,
-    "durationSeconds": 10240
+    "durationSeconds": 10757
   },
   {
     "id": "19770512",
@@ -845,9 +897,12 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "May 1977"
+    ],
     "svg": "/shows/19770512.svg",
     "songCount": 21,
-    "durationSeconds": 9174
+    "durationSeconds": 9628
   },
   {
     "id": "19770513",
@@ -857,9 +912,12 @@ export const shows: ShowSummary[] = [
     "state": "IL",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "May 1977"
+    ],
     "svg": "/shows/19770513.svg",
     "songCount": 20,
-    "durationSeconds": 8490
+    "durationSeconds": 9443
   },
   {
     "id": "19770515",
@@ -869,9 +927,12 @@ export const shows: ShowSummary[] = [
     "state": "MO",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "May 1977"
+    ],
     "svg": "/shows/19770515.svg",
     "songCount": 21,
-    "durationSeconds": 9059
+    "durationSeconds": 9762
   },
   {
     "id": "19770517",
@@ -881,9 +942,12 @@ export const shows: ShowSummary[] = [
     "state": "AL",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "May 1977"
+    ],
     "svg": "/shows/19770517.svg",
     "songCount": 25,
-    "durationSeconds": 11443
+    "durationSeconds": 11830
   },
   {
     "id": "19770518",
@@ -905,9 +969,12 @@ export const shows: ShowSummary[] = [
     "state": "GA",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Dick's Picks"
+    ],
     "svg": "/shows/19770519.svg",
     "songCount": 19,
-    "durationSeconds": 10220
+    "durationSeconds": 10544
   },
   {
     "id": "19770521",
@@ -917,9 +984,12 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Dick's Picks"
+    ],
     "svg": "/shows/19770521.svg",
-    "songCount": 24,
-    "durationSeconds": 10776
+    "songCount": 23,
+    "durationSeconds": 11057
   },
   {
     "id": "19770522",
@@ -929,9 +999,12 @@ export const shows: ShowSummary[] = [
     "state": "FL",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Dick's Picks"
+    ],
     "svg": "/shows/19770522.svg",
     "songCount": 24,
-    "durationSeconds": 11189
+    "durationSeconds": 11457
   },
   {
     "id": "19770525",
@@ -941,9 +1014,12 @@ export const shows: ShowSummary[] = [
     "state": "VA",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Dave's Picks"
+    ],
     "svg": "/shows/19770525.svg",
     "songCount": 22,
-    "durationSeconds": 9635
+    "durationSeconds": 10089
   },
   {
     "id": "19770526",
@@ -953,9 +1029,12 @@ export const shows: ShowSummary[] = [
     "state": "MD",
     "country": "USA",
     "tour": "Spring 1977",
+    "tags": [
+      "Dave's Picks"
+    ],
     "svg": "/shows/19770526.svg",
-    "songCount": 22,
-    "durationSeconds": 9692
+    "songCount": 21,
+    "durationSeconds": 10442
   },
   {
     "id": "19770528",
@@ -967,7 +1046,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770528.svg",
     "songCount": 21,
-    "durationSeconds": 10008
+    "durationSeconds": 10400
   },
   {
     "id": "19790107",
@@ -1031,9 +1110,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "In and Out of the Garden"
+    ],
     "svg": "/shows/19810309.svg",
     "songCount": 21,
-    "durationSeconds": 10331
+    "durationSeconds": 10382
   },
   {
     "id": "19810310",
@@ -1042,9 +1124,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "In and Out of the Garden"
+    ],
     "svg": "/shows/19810310.svg",
     "songCount": 24,
-    "durationSeconds": 10297
+    "durationSeconds": 10375
   },
   {
     "id": "19820920",
@@ -1053,9 +1138,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "In and Out of the Garden"
+    ],
     "svg": "/shows/19820920.svg",
     "songCount": 22,
-    "durationSeconds": 10006
+    "durationSeconds": 10027
   },
   {
     "id": "19820921",
@@ -1064,9 +1152,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "In and Out of the Garden"
+    ],
     "svg": "/shows/19820921.svg",
     "songCount": 22,
-    "durationSeconds": 10264
+    "durationSeconds": 10278
   },
   {
     "id": "19831011",
@@ -1075,9 +1166,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "In and Out of the Garden"
+    ],
     "svg": "/shows/19831011.svg",
     "songCount": 20,
-    "durationSeconds": 8459
+    "durationSeconds": 8475
   },
   {
     "id": "19831012",
@@ -1086,9 +1180,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "In and Out of the Garden"
+    ],
     "svg": "/shows/19831012.svg",
     "songCount": 20,
-    "durationSeconds": 10237
+    "durationSeconds": 10267
   },
   {
     "id": "19870915",
@@ -1108,9 +1205,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
     "svg": "/shows/19870916.svg",
     "songCount": 21,
-    "durationSeconds": 9114
+    "durationSeconds": 9335
   },
   {
     "id": "19870918",
@@ -1119,9 +1219,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
     "svg": "/shows/19870918.svg",
     "songCount": 18,
-    "durationSeconds": 7774
+    "durationSeconds": 8269
   },
   {
     "id": "19870919",
@@ -1257,7 +1360,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19891008.svg",
     "songCount": 21,
-    "durationSeconds": 9047
+    "durationSeconds": 9034
   },
   {
     "id": "19891009",
@@ -1273,7 +1376,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19891009.svg",
     "songCount": 21,
-    "durationSeconds": 10619
+    "durationSeconds": 10609
   },
   {
     "id": "19891011",
@@ -1336,7 +1439,7 @@ export const shows: ShowSummary[] = [
     ],
     "svg": "/shows/19891016.svg",
     "songCount": 20,
-    "durationSeconds": 8267
+    "durationSeconds": 8439
   },
   {
     "id": "19891018",
@@ -1419,11 +1522,12 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Fall 1989",
     "tags": [
-      "Dark Star"
+      "Dark Star",
+      "30 Trips Around the Sun"
     ],
     "svg": "/shows/19891026.svg",
     "songCount": 18,
-    "durationSeconds": 8645
+    "durationSeconds": 9112
   },
   {
     "id": "19900314",
@@ -1432,10 +1536,13 @@ export const shows: ShowSummary[] = [
     "city": "Landover",
     "state": "MD",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900314.svg",
     "songCount": 20,
-    "durationSeconds": 8699
+    "durationSeconds": 8698
   },
   {
     "id": "19900315",
@@ -1444,10 +1551,10 @@ export const shows: ShowSummary[] = [
     "city": "Landover",
     "state": "MD",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
     "svg": "/shows/19900315.svg",
     "songCount": 21,
-    "durationSeconds": 10031
+    "durationSeconds": 10158
   },
   {
     "id": "19900316",
@@ -1456,10 +1563,13 @@ export const shows: ShowSummary[] = [
     "city": "Landover",
     "state": "MD",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990"
+    ],
     "svg": "/shows/19900316.svg",
     "songCount": 20,
-    "durationSeconds": 9837
+    "durationSeconds": 9843
   },
   {
     "id": "19900318",
@@ -1468,10 +1578,13 @@ export const shows: ShowSummary[] = [
     "city": "Hartford",
     "state": "CT",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900318.svg",
     "songCount": 21,
-    "durationSeconds": 9662
+    "durationSeconds": 9660
   },
   {
     "id": "19900319",
@@ -1480,10 +1593,13 @@ export const shows: ShowSummary[] = [
     "city": "Hartford",
     "state": "CT",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990"
+    ],
     "svg": "/shows/19900319.svg",
     "songCount": 19,
-    "durationSeconds": 8846
+    "durationSeconds": 8853
   },
   {
     "id": "19900321",
@@ -1492,10 +1608,13 @@ export const shows: ShowSummary[] = [
     "city": "Hamilton",
     "state": "ON",
     "country": "CAN",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900321.svg",
     "songCount": 20,
-    "durationSeconds": 9255
+    "durationSeconds": 9254
   },
   {
     "id": "19900322",
@@ -1504,10 +1623,13 @@ export const shows: ShowSummary[] = [
     "city": "Hamilton",
     "state": "ON",
     "country": "CAN",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990"
+    ],
     "svg": "/shows/19900322.svg",
     "songCount": 21,
-    "durationSeconds": 8931
+    "durationSeconds": 8937
   },
   {
     "id": "19900324",
@@ -1516,10 +1638,10 @@ export const shows: ShowSummary[] = [
     "city": "Albany",
     "state": "NY",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
     "svg": "/shows/19900324.svg",
     "songCount": 20,
-    "durationSeconds": 9161
+    "durationSeconds": 9069
   },
   {
     "id": "19900325",
@@ -1528,10 +1650,13 @@ export const shows: ShowSummary[] = [
     "city": "Albany",
     "state": "NY",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900325.svg",
     "songCount": 20,
-    "durationSeconds": 9224
+    "durationSeconds": 9194
   },
   {
     "id": "19900326",
@@ -1540,10 +1665,13 @@ export const shows: ShowSummary[] = [
     "city": "Albany",
     "state": "NY",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990"
+    ],
     "svg": "/shows/19900326.svg",
     "songCount": 20,
-    "durationSeconds": 8630
+    "durationSeconds": 8633
   },
   {
     "id": "19900328",
@@ -1552,10 +1680,13 @@ export const shows: ShowSummary[] = [
     "city": "Uniondale",
     "state": "NY",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900328.svg",
     "songCount": 19,
-    "durationSeconds": 8469
+    "durationSeconds": 8468
   },
   {
     "id": "19900329",
@@ -1564,13 +1695,14 @@ export const shows: ShowSummary[] = [
     "city": "Uniondale",
     "state": "NY",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
     "tags": [
-      "Dark Star"
+      "Dark Star",
+      "Spring 1990 (The Other One)"
     ],
     "svg": "/shows/19900329.svg",
     "songCount": 17,
-    "durationSeconds": 9113
+    "durationSeconds": 9112
   },
   {
     "id": "19900330",
@@ -1579,10 +1711,13 @@ export const shows: ShowSummary[] = [
     "city": "Uniondale",
     "state": "NY",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990"
+    ],
     "svg": "/shows/19900330.svg",
     "songCount": 21,
-    "durationSeconds": 9151
+    "durationSeconds": 9158
   },
   {
     "id": "19900401",
@@ -1591,10 +1726,13 @@ export const shows: ShowSummary[] = [
     "city": "Atlanta",
     "state": "GA",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900401.svg",
     "songCount": 22,
-    "durationSeconds": 9521
+    "durationSeconds": 9517
   },
   {
     "id": "19900402",
@@ -1603,10 +1741,13 @@ export const shows: ShowSummary[] = [
     "city": "Atlanta",
     "state": "GA",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990"
+    ],
     "svg": "/shows/19900402.svg",
     "songCount": 18,
-    "durationSeconds": 8207
+    "durationSeconds": 8153
   },
   {
     "id": "19900403",
@@ -1615,10 +1756,13 @@ export const shows: ShowSummary[] = [
     "city": "Atlanta",
     "state": "GA",
     "country": "USA",
-    "tour": "Spring 1990",
+    "tour": "Spring 1990 East Coast",
+    "tags": [
+      "Spring 1990 (The Other One)"
+    ],
     "svg": "/shows/19900403.svg",
     "songCount": 20,
-    "durationSeconds": 9469
+    "durationSeconds": 9467
   },
   {
     "id": "19900716",
@@ -1663,9 +1807,12 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
     "svg": "/shows/19900916.svg",
     "songCount": 20,
-    "durationSeconds": 10781
+    "durationSeconds": 10789
   },
   {
     "id": "19900918",
@@ -1674,6 +1821,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
     "svg": "/shows/19900918.svg",
     "songCount": 18,
     "durationSeconds": 10967
@@ -1685,6 +1835,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
     "svg": "/shows/19900919.svg",
     "songCount": 21,
     "durationSeconds": 10592
@@ -1697,7 +1850,8 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tags": [
-      "Dark Star"
+      "Dark Star",
+      "Road Trips"
     ],
     "svg": "/shows/19900920.svg",
     "songCount": 20,
@@ -1779,9 +1933,12 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1990",
+    "tags": [
+      "30 Trips Around the Sun"
+    ],
     "svg": "/shows/19901027.svg",
     "songCount": 21,
-    "durationSeconds": 9984
+    "durationSeconds": 9996
   },
   {
     "id": "19901028",
@@ -1790,9 +1947,12 @@ export const shows: ShowSummary[] = [
     "city": "Paris",
     "country": "FRA",
     "tour": "Europe 1990",
+    "tags": [
+      "Dave's Picks"
+    ],
     "svg": "/shows/19901028.svg",
     "songCount": 20,
-    "durationSeconds": 9644
+    "durationSeconds": 9653
   },
   {
     "id": "19901030",
@@ -1860,11 +2020,12 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "tags": [
-      "Dark Star"
+      "Dark Star",
+      "30 Trips Around the Sun"
     ],
     "svg": "/shows/19910910.svg",
     "songCount": 19,
-    "durationSeconds": 9737
+    "durationSeconds": 9400
   },
   {
     "id": "19910912",

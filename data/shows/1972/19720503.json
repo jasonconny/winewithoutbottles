@@ -5,22 +5,23 @@
   "city": "Paris",
   "tour": "Europe 1972",
   "country": "FRA",
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Bertha",
-      "duration": "6:49"
+      "duration": "6:48"
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:20"
+      "duration": "3:19"
     },
     {
       "title": "Mr. Charlie",
-      "duration": "3:46"
+      "duration": "3:45"
     },
     {
       "title": "Sugaree",
-      "duration": "7:13"
+      "duration": "7:12"
     },
     {
       "title": "Black-Throated Wind",
@@ -28,19 +29,19 @@
     },
     {
       "title": "Chinatown Shuffle",
-      "duration": "3:03"
+      "duration": "3:02"
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "5:37"
+      "duration": "5:36"
     },
     {
       "title": "I Know You Rider",
-      "duration": "5:35"
+      "duration": "5:34"
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:31"
+      "duration": "3:30"
     },
     {
       "title": "He's Gone",
@@ -48,15 +49,15 @@
     },
     {
       "title": "Next Time You See Me",
-      "duration": "4:51"
+      "duration": "4:50"
     },
     {
       "title": "Playing in the Band",
-      "duration": "11:02"
+      "duration": "11:01"
     },
     {
       "title": "Tennessee Jed",
-      "duration": "7:33"
+      "duration": "7:32"
     },
     {
       "title": "Good Lovin'",
@@ -68,27 +69,27 @@
     },
     {
       "title": "Casey Jones",
-      "duration": "6:20"
+      "duration": "6:15"
     },
     {
       "title": "Greatest Story Ever Told",
-      "duration": "5:28"
+      "duration": "5:27"
     },
     {
       "title": "Ramble On Rose",
-      "duration": "6:20"
+      "duration": "6:19"
     },
     {
       "title": "It Hurts Me Too",
-      "duration": "6:35"
+      "duration": "6:34"
     },
     {
       "title": "Truckin'",
-      "duration": "9:34"
+      "duration": "9:33"
     },
     {
       "title": "The Other One",
-      "duration": "18:30"
+      "duration": "18:29"
     },
     {
       "title": "Drums",
@@ -96,15 +97,15 @@
     },
     {
       "title": "The Other One",
-      "duration": "12:53"
+      "duration": "12:52"
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": "5:31"
+      "duration": "5:30"
     },
     {
       "title": "The Other One",
-      "duration": "2:47"
+      "duration": "2:46"
     },
     {
       "title": "Wharf Rat",
@@ -116,7 +117,7 @@
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "6:22"
+      "duration": "6:21"
     },
     {
       "title": "Not Fade Away",
@@ -124,15 +125,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": "7:05"
+      "duration": "7:04"
     },
     {
       "title": "Not Fade Away",
-      "duration": "2:45"
+      "duration": "2:44"
     },
     {
       "title": "One More Saturday Night",
-      "duration": "5:19"
+      "duration": "5:18"
     }
   ]
 }

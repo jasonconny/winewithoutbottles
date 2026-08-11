@@ -5,9 +5,12 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "In and Out of the Garden"
+  ],
   "svg": "/shows/19820920.svg",
   "songCount": 22,
-  "durationSeconds": 10006,
+  "durationSeconds": 10027,
   "songs": [
     {
       "title": "Shakedown Street",
@@ -15,11 +18,11 @@
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 445
+      "durationSeconds": 446
     },
     {
       "title": "Candyman",
-      "durationSeconds": 365
+      "durationSeconds": 366
     },
     {
       "title": "El Paso",
@@ -27,11 +30,11 @@
     },
     {
       "title": "Dupree's Diamond Blues",
-      "durationSeconds": 363
+      "durationSeconds": 364
     },
     {
       "title": "It's All Over Now",
-      "durationSeconds": 480
+      "durationSeconds": 481
     },
     {
       "title": "Never Trust a Woman",
@@ -39,15 +42,15 @@
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 635
+      "durationSeconds": 636
     },
     {
       "title": "Throwing Stones",
-      "durationSeconds": 354
+      "durationSeconds": 355
     },
     {
       "title": "Keep Your Day Job",
-      "durationSeconds": 325
+      "durationSeconds": 326
     },
     {
       "title": "Scarlet Begonias",
@@ -55,23 +58,23 @@
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 567
+      "durationSeconds": 569
     },
     {
       "title": "Man Smart Woman Smarter",
-      "durationSeconds": 407
+      "durationSeconds": 412
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 702
+      "durationSeconds": 707
     },
     {
       "title": "Drums",
-      "durationSeconds": 485
+      "durationSeconds": 486
     },
     {
       "title": "Space",
-      "durationSeconds": 398
+      "durationSeconds": 397
     },
     {
       "title": "Spanish Jam",
@@ -87,11 +90,11 @@
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 471
+      "durationSeconds": 472
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 525
+      "durationSeconds": 526
     },
     {
       "title": "Touch of Grey",

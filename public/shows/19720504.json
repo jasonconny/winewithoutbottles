@@ -10,11 +10,11 @@
   ],
   "svg": "/shows/19720504.svg",
   "songCount": 29,
-  "durationSeconds": 12856,
+  "durationSeconds": 12832,
   "songs": [
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 357
+      "durationSeconds": 356
     },
     {
       "title": "Deal",
@@ -30,7 +30,7 @@
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 325
+      "durationSeconds": 324
     },
     {
       "title": "Chinatown Shuffle",
@@ -38,43 +38,43 @@
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 635
+      "durationSeconds": 634
     },
     {
       "title": "You Win Again",
-      "durationSeconds": 255
+      "durationSeconds": 254
     },
     {
       "title": "It Hurts Me Too",
-      "durationSeconds": 445
+      "durationSeconds": 444
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 502
+      "durationSeconds": 501
     },
     {
       "title": "El Paso",
-      "durationSeconds": 292
+      "durationSeconds": 291
     },
     {
       "title": "Big Railroad Blues",
-      "durationSeconds": 247
+      "durationSeconds": 246
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "durationSeconds": 421
+      "durationSeconds": 420
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 385
+      "durationSeconds": 382
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 1399
+      "durationSeconds": 1398
     },
     {
       "title": "Next Time You See Me",
-      "durationSeconds": 381
+      "durationSeconds": 380
     },
     {
       "title": "Ramble On Rose",
@@ -82,31 +82,31 @@
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 298
+      "durationSeconds": 297
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1162
+      "durationSeconds": 1161
     },
     {
       "title": "Drums",
-      "durationSeconds": 153
+      "durationSeconds": 152
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1055
+      "durationSeconds": 1054
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 462
+      "durationSeconds": 461
     },
     {
       "title": "Sing Me Back Home",
-      "durationSeconds": 698
+      "durationSeconds": 697
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 242
+      "durationSeconds": 241
     },
     {
       "title": "Big Boss Man",
@@ -118,15 +118,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 436
+      "durationSeconds": 435
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 178
+      "durationSeconds": 177
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 286
+      "durationSeconds": 285
     }
   ]
 }

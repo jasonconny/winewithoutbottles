@@ -5,10 +5,13 @@
   "city": "Hartford",
   "state": "CT",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900318.svg",
   "songCount": 21,
-  "durationSeconds": 9662,
+  "durationSeconds": 9660,
   "songs": [
     {
       "title": "Shakedown Street",
@@ -48,7 +51,7 @@
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 459
+      "durationSeconds": 458
     },
     {
       "title": "Iko Iko",
@@ -72,7 +75,7 @@
     },
     {
       "title": "Drums",
-      "durationSeconds": 413
+      "durationSeconds": 412
     },
     {
       "title": "Space",
@@ -80,11 +83,11 @@
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 347
+      "durationSeconds": 349
     },
     {
       "title": "All Along the Watchtower",
-      "durationSeconds": 368
+      "durationSeconds": 366
     },
     {
       "title": "Morning Dew",

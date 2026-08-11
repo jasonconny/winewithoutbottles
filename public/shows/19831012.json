@@ -5,9 +5,12 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "In and Out of the Garden"
+  ],
   "svg": "/shows/19831012.svg",
   "songCount": 20,
-  "durationSeconds": 10237,
+  "durationSeconds": 10267,
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -15,11 +18,11 @@
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 553
+      "durationSeconds": 554
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 442
+      "durationSeconds": 443
     },
     {
       "title": "My Brother Esau",
@@ -27,7 +30,7 @@
     },
     {
       "title": "It Must Have Been the Roses",
-      "durationSeconds": 373
+      "durationSeconds": 374
     },
     {
       "title": "Cassidy",
@@ -35,19 +38,19 @@
     },
     {
       "title": "Cumberland Blues",
-      "durationSeconds": 613
+      "durationSeconds": 614
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 518
+      "durationSeconds": 519
     },
     {
       "title": "Might As Well",
-      "durationSeconds": 279
+      "durationSeconds": 280
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 232
+      "durationSeconds": 233
     },
     {
       "title": "Slipknot!",
@@ -55,23 +58,23 @@
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 883
+      "durationSeconds": 884
     },
     {
       "title": "Man Smart Woman Smarter",
-      "durationSeconds": 454
+      "durationSeconds": 460
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 780
+      "durationSeconds": 792
     },
     {
       "title": "Drums",
-      "durationSeconds": 618
+      "durationSeconds": 619
     },
     {
       "title": "Space",
-      "durationSeconds": 869
+      "durationSeconds": 870
     },
     {
       "title": "Truckin'",
@@ -83,11 +86,11 @@
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 559
+      "durationSeconds": 560
     },
     {
       "title": "Revolution",
-      "durationSeconds": 315
+      "durationSeconds": 316
     }
   ]
 }

@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "typecheck": "tsc -b --noEmit && tsc -p tsconfig.generator.json && tsc -p tsconfig.worker.json",
     "generate": "tsx generator/generate.ts",
+    "releases": "tsx generator/releases.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "start": "npm run dev",

@@ -5,10 +5,13 @@
   "city": "Albany",
   "state": "NY",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990 (The Other One)"
+  ],
   "svg": "/shows/19900325.svg",
   "songCount": 20,
-  "durationSeconds": 9224,
+  "durationSeconds": 9194,
   "songs": [
     {
       "title": "Greatest Story Ever Told",
@@ -48,11 +51,11 @@
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 471
+      "durationSeconds": 467
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 467
+      "durationSeconds": 441
     },
     {
       "title": "Truckin'",

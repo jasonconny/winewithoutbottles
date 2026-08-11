@@ -5,14 +5,17 @@
   "city": "Uniondale",
   "state": "NY",
   "country": "USA",
-  "tour": "Spring 1990",
+  "tour": "Spring 1990 East Coast",
+  "tags": [
+    "Spring 1990"
+  ],
   "svg": "/shows/19900330.svg",
   "songCount": 21,
-  "durationSeconds": 9151,
+  "durationSeconds": 9158,
   "songs": [
     {
       "title": "Help On The Way",
-      "durationSeconds": 251
+      "durationSeconds": 252
     },
     {
       "title": "Slipknot!",
@@ -24,7 +27,7 @@
     },
     {
       "title": "Little Red Rooster",
-      "durationSeconds": 552
+      "durationSeconds": 553
     },
     {
       "title": "Dire Wolf",
@@ -36,7 +39,7 @@
     },
     {
       "title": "Just Like Tom Thumb's Blues",
-      "durationSeconds": 371
+      "durationSeconds": 372
     },
     {
       "title": "Picasso Moon",
@@ -44,7 +47,7 @@
     },
     {
       "title": "Don't Ease Me In",
-      "durationSeconds": 205
+      "durationSeconds": 206
     },
     {
       "title": "Iko Iko",
@@ -52,7 +55,7 @@
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 558
+      "durationSeconds": 559
     },
     {
       "title": "China Doll",
@@ -60,7 +63,7 @@
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 495
+      "durationSeconds": 496
     },
     {
       "title": "Terrapin Station",
@@ -80,7 +83,7 @@
     },
     {
       "title": "Gimme Some Lovin'",
-      "durationSeconds": 294
+      "durationSeconds": 295
     },
     {
       "title": "Standing on the Moon",

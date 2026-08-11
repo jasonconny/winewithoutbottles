@@ -5,9 +5,12 @@
   "city": "Paris",
   "country": "FRA",
   "tour": "Europe 1990",
+  "tags": [
+    "Dave's Picks"
+  ],
   "svg": "/shows/19901028.svg",
   "songCount": 20,
-  "durationSeconds": 9644,
+  "durationSeconds": 9653,
   "songs": [
     {
       "title": "Touch of Grey",
@@ -23,11 +26,11 @@
     },
     {
       "title": "Box of Rain",
-      "durationSeconds": 338
+      "durationSeconds": 339
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 321
+      "durationSeconds": 322
     },
     {
       "title": "Maggie's Farm",
@@ -39,11 +42,11 @@
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 414
+      "durationSeconds": 415
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 490
+      "durationSeconds": 491
     },
     {
       "title": "Stander on the Mountain",
@@ -55,7 +58,7 @@
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 640
+      "durationSeconds": 641
     },
     {
       "title": "Estimated Prophet",
@@ -63,11 +66,11 @@
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 535
+      "durationSeconds": 536
     },
     {
       "title": "Drums",
-      "durationSeconds": 712
+      "durationSeconds": 713
     },
     {
       "title": "Space",
@@ -75,7 +78,7 @@
     },
     {
       "title": "The Other One",
-      "durationSeconds": 464
+      "durationSeconds": 465
     },
     {
       "title": "Wharf Rat",
@@ -87,7 +90,7 @@
     },
     {
       "title": "Knockin' on Heaven's Door",
-      "durationSeconds": 492
+      "durationSeconds": 493
     }
   ]
 }

@@ -10,11 +10,11 @@
   ],
   "svg": "/shows/19720511.svg",
   "songCount": 29,
-  "durationSeconds": 13459,
+  "durationSeconds": 13452,
   "songs": [
     {
       "title": "Playing in the Band",
-      "durationSeconds": 653
+      "durationSeconds": 652
     },
     {
       "title": "Sugaree",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Chinatown Shuffle",
-      "durationSeconds": 191
+      "durationSeconds": 190
     },
     {
       "title": "Mexicali Blues",
@@ -50,7 +50,7 @@
     },
     {
       "title": "It Hurts Me Too",
-      "durationSeconds": 383
+      "durationSeconds": 382
     },
     {
       "title": "Beat It On Down The Line",
@@ -58,35 +58,35 @@
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 306
+      "durationSeconds": 305
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 296
+      "durationSeconds": 295
     },
     {
       "title": "Big Railroad Blues",
-      "durationSeconds": 259
+      "durationSeconds": 258
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 756
+      "durationSeconds": 755
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 381
+      "durationSeconds": 379
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 749
+      "durationSeconds": 758
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 192
+      "durationSeconds": 191
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "durationSeconds": 454
+      "durationSeconds": 453
     },
     {
       "title": "El Paso",
@@ -98,7 +98,7 @@
     },
     {
       "title": "Next Time You See Me",
-      "durationSeconds": 283
+      "durationSeconds": 282
     },
     {
       "title": "Dark Star",
@@ -106,11 +106,11 @@
     },
     {
       "title": "Drums",
-      "durationSeconds": 229
+      "durationSeconds": 228
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1834
+      "durationSeconds": 1833
     },
     {
       "title": "Sugar Magnolia",
@@ -122,11 +122,11 @@
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 559
+      "durationSeconds": 558
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 408
+      "durationSeconds": 407
     }
   ]
 }

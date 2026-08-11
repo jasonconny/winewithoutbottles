@@ -5,6 +5,8 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": ["In and Out of the Garden"],
+  "source": "In and Out of the Garden: Madison Square Garden '81, '82, '83",
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
@@ -12,7 +14,7 @@
     },
     {
       "title": "Franklin's Tower",
-      "duration": "10:50"
+      "duration": "10:51"
     },
     {
       "title": "Me and My Uncle",
@@ -20,15 +22,15 @@
     },
     {
       "title": "It Must Have Been the Roses",
-      "duration": "6:13"
+      "duration": "6:14"
     },
     {
       "title": "Little Red Rooster",
-      "duration": "6:43"
+      "duration": "6:44"
     },
     {
       "title": "Don't Ease Me In",
-      "duration": "4:03"
+      "duration": "4:04"
     },
     {
       "title": "Lazy Lightnin'",
@@ -40,7 +42,7 @@
     },
     {
       "title": "Brown-Eyed Women",
-      "duration": "5:14"
+      "duration": "5:15"
     },
     {
       "title": "Looks Like Rain",
@@ -48,11 +50,11 @@
     },
     {
       "title": "Deal",
-      "duration": "7:12"
+      "duration": "7:13"
     },
     {
       "title": "Scarlet Begonias",
-      "duration": "11:20"
+      "duration": "11:21"
     },
     {
       "title": "Fire on the Mountain",
@@ -60,7 +62,7 @@
     },
     {
       "title": "Lost Sailor",
-      "duration": "6:02"
+      "duration": "6:03"
     },
     {
       "title": "Saint of Circumstance",
@@ -72,11 +74,11 @@
     },
     {
       "title": "Drums",
-      "duration": "10:20"
+      "duration": "10:24"
     },
     {
       "title": "Space",
-      "duration": "2:33"
+      "duration": "2:48"
     },
     {
       "title": "The Wheel",
@@ -88,19 +90,19 @@
     },
     {
       "title": "Truckin'",
-      "duration": "8:37"
-    },
-    {
-      "title": "Sugar Magnolia",
       "duration": "8:29"
     },
     {
+      "title": "Sugar Magnolia",
+      "duration": "9:26"
+    },
+    {
       "title": "(I Can't Get No) Satisfaction",
-      "duration": "6:09"
+      "duration": "6:10"
     },
     {
       "title": "Brokedown Palace",
-      "duration": "6:01"
+      "duration": "6:02"
     }
   ]
 }

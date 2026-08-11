@@ -5,6 +5,8 @@
   "city": "Paris",
   "country": "FRA",
   "tour": "Europe 1990",
+  "tags": ["30 Trips Around the Sun"],
+  "source": "30 Trips Around the Sun",
   "songs": [
     {
       "title": "Hell in a Bucket",
@@ -12,19 +14,19 @@
     },
     {
       "title": "Sugaree",
-      "duration": "11:46"
+      "duration": "11:47"
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "7:30"
+      "duration": "7:31"
     },
     {
       "title": "Jack-A-Roe",
-      "duration": "5:11"
+      "duration": "5:12"
     },
     {
       "title": "Black-Throated Wind",
-      "duration": "6:19"
+      "duration": "6:20"
     },
     {
       "title": "Ramble On Rose",
@@ -36,7 +38,7 @@
     },
     {
       "title": "Bird Song",
-      "duration": "11:52"
+      "duration": "11:53"
     },
     {
       "title": "Promised Land",
@@ -52,15 +54,15 @@
     },
     {
       "title": "Saint of Circumstance",
-      "duration": "6:24"
+      "duration": "6:25"
     },
     {
       "title": "Crazy Fingers",
-      "duration": "9:24"
+      "duration": "9:25"
     },
     {
       "title": "Playing in the Band",
-      "duration": "10:44"
+      "duration": "10:45"
     },
     {
       "title": "Drums",
@@ -72,15 +74,15 @@
     },
     {
       "title": "Playing in the Band",
-      "duration": "2:27"
+      "duration": "2:28"
     },
     {
       "title": "Stella Blue",
-      "duration": "9:13"
+      "duration": "9:14"
     },
     {
       "title": "Throwing Stones",
-      "duration": "10:13"
+      "duration": "10:14"
     },
     {
       "title": "Not Fade Away",
@@ -88,7 +90,7 @@
     },
     {
       "title": "One More Saturday Night",
-      "duration": "5:17"
+      "duration": "5:18"
     }
   ]
 }

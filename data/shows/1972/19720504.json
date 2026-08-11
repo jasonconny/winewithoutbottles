@@ -6,10 +6,11 @@
   "tour": "Europe 1972",
   "country": "FRA",
   "tags": ["Dark Star"],
+  "source": "Europe '72: The Complete Recordings",
   "songs": [
     {
       "title": "Greatest Story Ever Told",
-      "duration": "5:57"
+      "duration": "5:56"
     },
     {
       "title": "Deal",
@@ -25,7 +26,7 @@
     },
     {
       "title": "Brown-Eyed Women",
-      "duration": "5:25"
+      "duration": "5:24"
     },
     {
       "title": "Chinatown Shuffle",
@@ -33,43 +34,43 @@
     },
     {
       "title": "Playing in the Band",
-      "duration": "10:35"
+      "duration": "10:34"
     },
     {
       "title": "You Win Again",
-      "duration": "4:15"
+      "duration": "4:14"
     },
     {
       "title": "It Hurts Me Too",
-      "duration": "7:25"
+      "duration": "7:24"
     },
     {
       "title": "He's Gone",
-      "duration": "8:22"
+      "duration": "8:21"
     },
     {
       "title": "El Paso",
-      "duration": "4:52"
+      "duration": "4:51"
     },
     {
       "title": "Big Railroad Blues",
-      "duration": "4:07"
+      "duration": "4:06"
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "duration": "7:01"
+      "duration": "7:00"
     },
     {
       "title": "Casey Jones",
-      "duration": "6:25"
+      "duration": "6:22"
     },
     {
       "title": "Good Lovin'",
-      "duration": "23:19"
+      "duration": "23:18"
     },
     {
       "title": "Next Time You See Me",
-      "duration": "6:21"
+      "duration": "6:20"
     },
     {
       "title": "Ramble On Rose",
@@ -77,31 +78,31 @@
     },
     {
       "title": "Jack Straw",
-      "duration": "4:58"
+      "duration": "4:57"
     },
     {
       "title": "Dark Star",
-      "duration": "19:22"
+      "duration": "19:21"
     },
     {
       "title": "Drums",
-      "duration": "2:33"
+      "duration": "2:32"
     },
     {
       "title": "Dark Star",
-      "duration": "17:35"
+      "duration": "17:34"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "7:42"
+      "duration": "7:41"
     },
     {
       "title": "Sing Me Back Home",
-      "duration": "11:38"
+      "duration": "11:37"
     },
     {
       "title": "Mexicali Blues",
-      "duration": "4:02"
+      "duration": "4:01"
     },
     {
       "title": "Big Boss Man",
@@ -113,15 +114,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": "7:16"
+      "duration": "7:15"
     },
     {
       "title": "Not Fade Away",
-      "duration": "2:58"
+      "duration": "2:57"
     },
     {
       "title": "One More Saturday Night",
-      "duration": "4:46"
+      "duration": "4:45"
     }
   ]
 }
