@@ -8,11 +8,11 @@
   "tour": "June 1976",
   "svg": "/shows/19760614.svg",
   "songCount": 23,
-  "durationSeconds": 10980,
+  "durationSeconds": 10996,
   "songs": [
     {
       "title": "Cold Rain and Snow",
-      "durationSeconds": 408
+      "durationSeconds": 409
     },
     {
       "title": "Mama Tried",
@@ -28,11 +28,11 @@
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 325
+      "durationSeconds": 326
     },
     {
       "title": "Big River",
-      "durationSeconds": 380
+      "durationSeconds": 381
     },
     {
       "title": "Might As Well",
@@ -40,19 +40,19 @@
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 175
+      "durationSeconds": 176
     },
     {
       "title": "Supplication",
-      "durationSeconds": 292
+      "durationSeconds": 293
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 575
+      "durationSeconds": 537
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 1162
+      "durationSeconds": 1180
     },
     {
       "title": "The Wheel",
@@ -60,11 +60,11 @@
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 395
+      "durationSeconds": 396
     },
     {
       "title": "High Time",
-      "durationSeconds": 591
+      "durationSeconds": 592
     },
     {
       "title": "The Music Never Stopped",
@@ -72,15 +72,15 @@
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 681
+      "durationSeconds": 693
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 744
+      "durationSeconds": 757
     },
     {
       "title": "Cosmic Charlie",
-      "durationSeconds": 526
+      "durationSeconds": 527
     },
     {
       "title": "Help On The Way",
@@ -92,15 +92,15 @@
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 662
+      "durationSeconds": 663
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 437
+      "durationSeconds": 438
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 351
+      "durationSeconds": 352
     }
   ]
 }

@@ -11,11 +11,11 @@
   ],
   "svg": "/shows/19891008.svg",
   "songCount": 21,
-  "durationSeconds": 9047,
+  "durationSeconds": 9034,
   "songs": [
     {
       "title": "Foolish Heart",
-      "durationSeconds": 481
+      "durationSeconds": 480
     },
     {
       "title": "Walkin' Blues",
@@ -23,15 +23,15 @@
     },
     {
       "title": "Candyman",
-      "durationSeconds": 450
+      "durationSeconds": 449
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 192
+      "durationSeconds": 191
     },
     {
       "title": "Big River",
-      "durationSeconds": 408
+      "durationSeconds": 407
     },
     {
       "title": "Stagger Lee",
@@ -39,7 +39,7 @@
     },
     {
       "title": "Queen Jane Approximately",
-      "durationSeconds": 414
+      "durationSeconds": 413
     },
     {
       "title": "Bird Song",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 285
+      "durationSeconds": 284
     },
     {
       "title": "Slipknot!",
@@ -59,11 +59,11 @@
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 507
+      "durationSeconds": 506
     },
     {
       "title": "Victim or the Crime",
-      "durationSeconds": 511
+      "durationSeconds": 510
     },
     {
       "title": "Eyes Of The World",
@@ -75,15 +75,15 @@
     },
     {
       "title": "Space",
-      "durationSeconds": 525
+      "durationSeconds": 524
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 302
+      "durationSeconds": 301
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 254
+      "durationSeconds": 253
     },
     {
       "title": "Gimme Some Lovin'",
@@ -91,11 +91,11 @@
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 805
+      "durationSeconds": 804
     },
     {
       "title": "And We Bid You Goodnight",
-      "durationSeconds": 236
+      "durationSeconds": 235
     }
   ]
 }

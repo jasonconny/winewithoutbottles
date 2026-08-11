@@ -7,15 +7,15 @@
   "tour": "Europe 1972",
   "svg": "/shows/19720510.svg",
   "songCount": 32,
-  "durationSeconds": 12983,
+  "durationSeconds": 12967,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 351
+      "durationSeconds": 350
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 198
+      "durationSeconds": 197
     },
     {
       "title": "Mr. Charlie",
@@ -39,19 +39,19 @@
     },
     {
       "title": "Next Time You See Me",
-      "durationSeconds": 317
+      "durationSeconds": 316
     },
     {
       "title": "El Paso",
-      "durationSeconds": 298
+      "durationSeconds": 297
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 454
+      "durationSeconds": 453
     },
     {
       "title": "Chinatown Shuffle",
-      "durationSeconds": 173
+      "durationSeconds": 172
     },
     {
       "title": "Playing in the Band",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Big Railroad Blues",
-      "durationSeconds": 236
+      "durationSeconds": 235
     },
     {
       "title": "Jack Straw",
@@ -75,19 +75,19 @@
     },
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 321
+      "durationSeconds": 320
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 353
+      "durationSeconds": 352
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 531
+      "durationSeconds": 530
     },
     {
       "title": "Drums",
-      "durationSeconds": 145
+      "durationSeconds": 144
     },
     {
       "title": "The Other One",
@@ -95,7 +95,7 @@
     },
     {
       "title": "Me and Bobby McGee",
-      "durationSeconds": 335
+      "durationSeconds": 334
     },
     {
       "title": "The Other One",
@@ -107,11 +107,11 @@
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 219
+      "durationSeconds": 218
     },
     {
       "title": "The Stranger (Two Souls in Communion)",
-      "durationSeconds": 420
+      "durationSeconds": 419
     },
     {
       "title": "Ramble On Rose",
@@ -119,11 +119,11 @@
     },
     {
       "title": "Sing Me Back Home",
-      "durationSeconds": 601
+      "durationSeconds": 600
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 423
+      "durationSeconds": 422
     },
     {
       "title": "Not Fade Away",

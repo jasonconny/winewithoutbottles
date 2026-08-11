@@ -8,7 +8,7 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900326.svg",
   "songCount": 20,
-  "durationSeconds": 8630,
+  "durationSeconds": 8633,
   "songs": [
     {
       "title": "Hell in a Bucket",
@@ -20,11 +20,11 @@
     },
     {
       "title": "Just a Little Light",
-      "durationSeconds": 314
+      "durationSeconds": 315
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 391
+      "durationSeconds": 392
     },
     {
       "title": "Big Railroad Blues",
@@ -40,7 +40,7 @@
     },
     {
       "title": "Blow Away",
-      "durationSeconds": 690
+      "durationSeconds": 691
     },
     {
       "title": "Built to Last",
@@ -52,11 +52,11 @@
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 344
+      "durationSeconds": 345
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 323
+      "durationSeconds": 324
     },
     {
       "title": "Man Smart Woman Smarter",
@@ -72,7 +72,7 @@
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 242
+      "durationSeconds": 243
     },
     {
       "title": "Dear Mr. Fantasy",
@@ -80,15 +80,15 @@
     },
     {
       "title": "Gimme Some Lovin'",
-      "durationSeconds": 308
+      "durationSeconds": 309
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 716
+      "durationSeconds": 717
     },
     {
       "title": "Brokedown Palace",
-      "durationSeconds": 342
+      "durationSeconds": 337
     }
   ]
 }

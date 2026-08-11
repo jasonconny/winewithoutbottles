@@ -8,11 +8,11 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900321.svg",
   "songCount": 20,
-  "durationSeconds": 9255,
+  "durationSeconds": 9254,
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 514
+      "durationSeconds": 513
     },
     {
       "title": "New Minglewood Blues",

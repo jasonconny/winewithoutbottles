@@ -8,7 +8,7 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900401.svg",
   "songCount": 22,
-  "durationSeconds": 9521,
+  "durationSeconds": 9517,
   "songs": [
     {
       "title": "Touch of Grey",
@@ -28,19 +28,19 @@
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 188
+      "durationSeconds": 185
     },
     {
       "title": "Big River",
-      "durationSeconds": 326
+      "durationSeconds": 328
     },
     {
       "title": "Althea",
-      "durationSeconds": 494
+      "durationSeconds": 489
     },
     {
       "title": "Victim or the Crime",
-      "durationSeconds": 591
+      "durationSeconds": 595
     },
     {
       "title": "To Lay Me Down",
@@ -48,11 +48,11 @@
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 476
+      "durationSeconds": 475
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 334
+      "durationSeconds": 333
     },
     {
       "title": "I Know You Rider",

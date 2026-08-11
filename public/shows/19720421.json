@@ -7,7 +7,7 @@
   "tour": "Europe 1972",
   "svg": "/shows/19720421.svg",
   "songCount": 10,
-  "durationSeconds": 4775,
+  "durationSeconds": 4768,
   "songs": [
     {
       "title": "Bertha",
@@ -15,15 +15,15 @@
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 599
+      "durationSeconds": 598
     },
     {
       "title": "Mr. Charlie",
-      "durationSeconds": 246
+      "durationSeconds": 245
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 474
+      "durationSeconds": 473
     },
     {
       "title": "One More Saturday Night",
@@ -31,15 +31,15 @@
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 657
+      "durationSeconds": 656
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 184
+      "durationSeconds": 183
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 574
+      "durationSeconds": 573
     },
     {
       "title": "Drums",
@@ -47,7 +47,7 @@
     },
     {
       "title": "The Other One",
-      "durationSeconds": 1308
+      "durationSeconds": 1307
     }
   ]
 }

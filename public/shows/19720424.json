@@ -10,15 +10,15 @@
   ],
   "svg": "/shows/19720424.svg",
   "songCount": 26,
-  "durationSeconds": 12312,
+  "durationSeconds": 12294,
   "songs": [
     {
       "title": "Truckin'",
-      "durationSeconds": 678
+      "durationSeconds": 677
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 482
+      "durationSeconds": 481
     },
     {
       "title": "Chinatown Shuffle",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 420
+      "durationSeconds": 419
     },
     {
       "title": "China Cat Sunflower",
@@ -34,31 +34,31 @@
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 380
+      "durationSeconds": 379
     },
     {
       "title": "Mr. Charlie",
-      "durationSeconds": 253
+      "durationSeconds": 252
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 211
+      "durationSeconds": 210
     },
     {
       "title": "Loser",
-      "durationSeconds": 400
+      "durationSeconds": 399
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 701
+      "durationSeconds": 700
     },
     {
       "title": "Next Time You See Me",
-      "durationSeconds": 282
+      "durationSeconds": 281
     },
     {
       "title": "Me and Bobby McGee",
-      "durationSeconds": 381
+      "durationSeconds": 380
     },
     {
       "title": "Good Lovin'",
@@ -66,7 +66,7 @@
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 373
+      "durationSeconds": 372
     },
     {
       "title": "Dark Star",
@@ -78,7 +78,7 @@
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 879
+      "durationSeconds": 878
     },
     {
       "title": "Wharf Rat",
@@ -90,15 +90,15 @@
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 634
+      "durationSeconds": 633
     },
     {
       "title": "It Hurts Me Too",
-      "durationSeconds": 515
+      "durationSeconds": 514
     },
     {
       "title": "El Paso",
-      "durationSeconds": 288
+      "durationSeconds": 287
     },
     {
       "title": "Not Fade Away",
@@ -106,15 +106,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 391
+      "durationSeconds": 390
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 182
+      "durationSeconds": 181
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 285
+      "durationSeconds": 284
     }
   ]
 }

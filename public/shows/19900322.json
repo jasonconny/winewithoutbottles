@@ -8,7 +8,7 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900322.svg",
   "songCount": 21,
-  "durationSeconds": 8931,
+  "durationSeconds": 8937,
   "songs": [
     {
       "title": "Feel Like a Stranger",
@@ -52,23 +52,23 @@
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 410
+      "durationSeconds": 411
     },
     {
       "title": "Believe It or Not",
-      "durationSeconds": 393
+      "durationSeconds": 392
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 662
+      "durationSeconds": 664
     },
     {
       "title": "Drums",
-      "durationSeconds": 695
+      "durationSeconds": 696
     },
     {
       "title": "Space",
-      "durationSeconds": 492
+      "durationSeconds": 494
     },
     {
       "title": "The Other One",
@@ -76,7 +76,7 @@
     },
     {
       "title": "Hey Jude",
-      "durationSeconds": 292
+      "durationSeconds": 293
     },
     {
       "title": "Dear Mr. Fantasy",
@@ -84,11 +84,11 @@
     },
     {
       "title": "Hey Jude",
-      "durationSeconds": 270
+      "durationSeconds": 271
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 526
+      "durationSeconds": 525
     },
     {
       "title": "It's All Over Now, Baby Blue",

@@ -8,7 +8,7 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900314.svg",
   "songCount": 20,
-  "durationSeconds": 8699,
+  "durationSeconds": 8698,
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -48,7 +48,7 @@
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 493
+      "durationSeconds": 492
     },
     {
       "title": "Playing in the Band",
@@ -64,7 +64,7 @@
     },
     {
       "title": "Drums",
-      "durationSeconds": 457
+      "durationSeconds": 458
     },
     {
       "title": "Space",
@@ -88,7 +88,7 @@
     },
     {
       "title": "Black Muddy River",
-      "durationSeconds": 361
+      "durationSeconds": 360
     }
   ]
 }

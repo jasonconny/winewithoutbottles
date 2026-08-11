@@ -364,13 +364,17 @@ const showPath = (id: string) =>
   join(root, 'data/shows', id.slice(0, 4), `${id}.json`);
 
 /**
- * Serialise a show the way the corpus is authored: one song per line.
+ * Serialise a show in the style the file already uses.
  *
- * `JSON.stringify(…, 2)` would explode every song onto four lines, and Prettier
- * cannot collapse them back — it preserves whether the source had a newline
- * after `{`. That would turn a one-line timing fix into a whole-file diff.
+ * The corpus is authored two ways — 159 shows put each song across four lines,
+ * 16 keep it on one — and Prettier will not reconcile them, because it
+ * preserves whether the source had a newline after `{`. Rewriting a file in the
+ * other style turns a one-line timing fix into a whole-file diff and buries the
+ * change being reviewed, so the existing layout is matched rather than imposed.
+ * New files follow the majority.
  */
-function serialiseShow(show: ShowFile): string {
+function serialiseShow(show: ShowFile, compact: boolean): string {
+  if (!compact) return `${JSON.stringify(show, null, 2)}\n`;
   const { songs, ...meta } = show;
   const head = JSON.stringify(meta, null, 2).replace(/\n}$/, '');
   const lines = songs.map(
@@ -379,6 +383,9 @@ function serialiseShow(show: ShowFile): string {
   );
   return `${head},\n  "songs": [\n${lines.join(',\n')}\n  ]\n}\n`;
 }
+
+/** True when a show file keeps each song on a single line. */
+const isCompact = (text: string) => /\{ "title":/.test(text);
 
 function fmt(seconds: number): string {
   const sign = seconds < 0 ? '-' : '+';
@@ -747,7 +754,8 @@ const exists = existsSync(path);
 if (args.includes('--gaps')) await reportGaps(date, mapped);
 
 if (exists) {
-  const current = JSON.parse(readFileSync(path, 'utf8')) as ShowFile;
+  const raw = readFileSync(path, 'utf8');
+  const current = JSON.parse(raw) as ShowFile;
   let songs: { title: string; duration: string }[];
   let changed: number;
   if (merging) {
@@ -777,7 +785,7 @@ if (exists) {
     );
     process.exit(0);
   }
-  writeFileSync(path, serialiseShow({ ...current, songs }));
+  writeFileSync(path, serialiseShow({ ...current, songs }, isCompact(raw)));
   console.log(`\n✓ rewrote ${path.replace(`${root}/`, '')}`);
 } else {
   const draft: ShowFile = {
@@ -788,12 +796,12 @@ if (exists) {
     songs: requireTimed(mapped),
   };
   if (!write) {
-    console.log(`\n${serialiseShow(draft)}`);
+    console.log(`\n${serialiseShow(draft, false)}`);
     console.log('  (draft only — pass --write to create the file)');
     process.exit(0);
   }
   mkdirSync(dirname(path), { recursive: true });
-  writeFileSync(path, serialiseShow(draft));
+  writeFileSync(path, serialiseShow(draft, false));
   console.log(
     `\n✓ wrote ${path.replace(`${root}/`, '')} — venue/city are blank, fill them in`,
   );

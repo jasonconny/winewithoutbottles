@@ -10,15 +10,15 @@
   ],
   "svg": "/shows/19720429.svg",
   "songCount": 22,
-  "durationSeconds": 10631,
+  "durationSeconds": 10613,
   "songs": [
     {
       "title": "Playing in the Band",
-      "durationSeconds": 584
+      "durationSeconds": 583
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 436
+      "durationSeconds": 435
     },
     {
       "title": "Mr. Charlie",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 358
+      "durationSeconds": 357
     },
     {
       "title": "China Cat Sunflower",
@@ -42,19 +42,19 @@
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 299
+      "durationSeconds": 298
     },
     {
       "title": "Loser",
-      "durationSeconds": 410
+      "durationSeconds": 409
     },
     {
       "title": "Chinatown Shuffle",
-      "durationSeconds": 167
+      "durationSeconds": 166
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 188
+      "durationSeconds": 187
     },
     {
       "title": "Big Railroad Blues",
@@ -66,27 +66,27 @@
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 368
+      "durationSeconds": 364
     },
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 376
+      "durationSeconds": 375
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 479
+      "durationSeconds": 478
     },
     {
       "title": "Next Time You See Me",
-      "durationSeconds": 332
+      "durationSeconds": 331
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1812
+      "durationSeconds": 1811
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 389
+      "durationSeconds": 388
     },
     {
       "title": "Caution (Do Not Stop on Tracks)",
@@ -94,11 +94,11 @@
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 307
+      "durationSeconds": 306
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 400
+      "durationSeconds": 399
     }
   ]
 }

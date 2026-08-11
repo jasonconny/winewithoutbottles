@@ -8,7 +8,7 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900403.svg",
   "songCount": 20,
-  "durationSeconds": 9469,
+  "durationSeconds": 9467,
   "songs": [
     {
       "title": "Shakedown Street",
@@ -24,7 +24,7 @@
     },
     {
       "title": "We Can Run",
-      "durationSeconds": 416
+      "durationSeconds": 415
     },
     {
       "title": "When I Paint My Masterpiece",
@@ -48,7 +48,7 @@
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 844
+      "durationSeconds": 843
     },
     {
       "title": "Scarlet Begonias",

@@ -10,7 +10,7 @@
   ],
   "svg": "/shows/19720414.svg",
   "songCount": 29,
-  "durationSeconds": 12421,
+  "durationSeconds": 12397,
   "songs": [
     {
       "title": "Bertha",
@@ -18,19 +18,19 @@
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 208
+      "durationSeconds": 207
     },
     {
       "title": "Mr. Charlie",
-      "durationSeconds": 287
+      "durationSeconds": 286
     },
     {
       "title": "You Win Again",
-      "durationSeconds": 242
+      "durationSeconds": 241
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 368
+      "durationSeconds": 367
     },
     {
       "title": "Chinatown Shuffle",
@@ -38,15 +38,15 @@
     },
     {
       "title": "Loser",
-      "durationSeconds": 395
+      "durationSeconds": 394
     },
     {
       "title": "Me and Bobby McGee",
-      "durationSeconds": 365
+      "durationSeconds": 364
     },
     {
       "title": "Cumberland Blues",
-      "durationSeconds": 335
+      "durationSeconds": 334
     },
     {
       "title": "Playing in the Band",
@@ -54,11 +54,11 @@
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 477
+      "durationSeconds": 476
     },
     {
       "title": "El Paso",
-      "durationSeconds": 265
+      "durationSeconds": 264
     },
     {
       "title": "Big Boss Man",
@@ -66,15 +66,15 @@
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 197
+      "durationSeconds": 196
     },
     {
       "title": "Casey Jones",
-      "durationSeconds": 358
+      "durationSeconds": 353
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 656
+      "durationSeconds": 655
     },
     {
       "title": "It Hurts Me Too",
@@ -86,11 +86,11 @@
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 427
+      "durationSeconds": 426
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 1766
+      "durationSeconds": 1765
     },
     {
       "title": "Sugar Magnolia",
@@ -98,15 +98,15 @@
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 1108
+      "durationSeconds": 1107
     },
     {
       "title": "Caution (Do Not Stop on Tracks)",
-      "durationSeconds": 405
+      "durationSeconds": 404
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 181
+      "durationSeconds": 180
     },
     {
       "title": "Ramble On Rose",
@@ -118,15 +118,15 @@
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 416
+      "durationSeconds": 415
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 206
+      "durationSeconds": 205
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 285
+      "durationSeconds": 284
     }
   ]
 }
