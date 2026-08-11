@@ -166,8 +166,12 @@
       "title": "Desolation Row"
     },
     {
-      "title": "Devil with the Blue Dress On",
-      "aliases": ["Devil with the Blue Dress"]
+      "title": "Devil with a Blue Dress On",
+      "aliases": [
+        "Devil With the Blue Dress On",
+        "Devil with the Blue Dress",
+        "Devil with the Blue Dress On"
+      ]
     },
     {
       "title": "Dire Wolf"

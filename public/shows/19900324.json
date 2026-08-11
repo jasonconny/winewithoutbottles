@@ -8,7 +8,7 @@
   "tour": "Spring 1990",
   "svg": "/shows/19900324.svg",
   "songCount": 20,
-  "durationSeconds": 9161,
+  "durationSeconds": 9069,
   "songs": [
     {
       "title": "Let the Good Times Roll",
@@ -16,23 +16,23 @@
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 244
+      "durationSeconds": 245
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 229
+      "durationSeconds": 230
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 487
+      "durationSeconds": 484
     },
     {
       "title": "Walkin' Blues",
-      "durationSeconds": 412
+      "durationSeconds": 371
     },
     {
       "title": "Loser",
-      "durationSeconds": 452
+      "durationSeconds": 450
     },
     {
       "title": "Desolation Row",
@@ -40,27 +40,27 @@
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 474
+      "durationSeconds": 473
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 290
+      "durationSeconds": 291
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 611
+      "durationSeconds": 608
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 605
+      "durationSeconds": 601
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 802
+      "durationSeconds": 800
     },
     {
       "title": "Mind Left Body Jam",
-      "durationSeconds": 472
+      "durationSeconds": 473
     },
     {
       "title": "Drums",
@@ -72,15 +72,15 @@
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 284
+      "durationSeconds": 285
     },
     {
       "title": "All Along the Watchtower",
-      "durationSeconds": 461
+      "durationSeconds": 465
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 518
+      "durationSeconds": 512
     },
     {
       "title": "Not Fade Away",
@@ -88,7 +88,7 @@
     },
     {
       "title": "And We Bid You Goodnight",
-      "durationSeconds": 180
+      "durationSeconds": 141
     }
   ]
 }

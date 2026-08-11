@@ -175,11 +175,15 @@ interface ParsedTrack {
  */
 /** Title of a track line that carries no usable quotes. */
 function unquotedTitle(text: string): string {
-  return text
-    .split(/\s*\(/)[0]
-    .split(/\s+[–—-]\s+/)[0]
-    .replace(/["'\s>→]+$/, '')
-    .trim();
+  return (
+    text
+      .split(/\s*\(/)[0]
+      .split(/\s+[–—-]\s+/)[0]
+      // A stray quote can sit on either end when the pair is unbalanced.
+      .replace(/^["'\s]+/, '')
+      .replace(/["'\s>→]+$/, '')
+      .trim()
+  );
 }
 
 function parseTrack(line: string): ParsedTrack | null {
@@ -194,9 +198,15 @@ function parseTrack(line: string): ParsedTrack | null {
   // movement (`* "Prelude"`), or a wikilink wrapping the quotes. Start from the
   // first quote rather than requiring one at position 0.
   const opens = text.indexOf('"');
+  // An opening quote is no guarantee of a closing one: Formerly the Warlocks
+  // never closes the quote on "Stuck Inside of Mobile…", and July 1978 omits the
+  // opening one on "Mexicali Blues". Either way the pair is unusable, so treat
+  // an unterminated quote as no quote at all.
+  const closes =
+    opens >= 0 && /^(?:"[^"]+"\s*[/>→]\s*)*"[^"]+"/.test(text.slice(opens));
   let title: string;
   let after: string;
-  if (opens >= 0) {
+  if (closes) {
     // A track can carry two titles and one time — Dick's Picks 29 lists
     // `"Lady with a Fan" / "Terrapin Station" – 11:43`. Take the last: it's the
     // song the corpus knows, the earlier name being its opening movement. There
@@ -207,7 +217,7 @@ function parseTrack(line: string): ParsedTrack | null {
     title = cleanWikiTitle(quoted[1]);
     after = from.slice(quoted[0].length);
   } else {
-    // A handful of lines have no usable quotes at all — Europe '72 prints
+    // No usable quote pair — Europe '72 prints
     // `#The Yellow Dog Story (traditional…) – 3:13` unquoted, and July 1978
     // loses its opening quote on one track. Fall back to the text before the
     // songwriter credits, but *only* for a line already carrying a duration:
@@ -334,6 +344,44 @@ function canonicalise(tracks: ParsedTrack[]) {
 }
 
 /**
+ * Per-show departures from what a release's track listing says.
+ *
+ * `drop` removes tracks by position in the release's own listing — position
+ * rather than title, because title alone can't do it: the Europe '72 box opens
+ * 5/16/72 with two soundcheck performances and one of them is `Sugar Magnolia`,
+ * which the band also played for real later that night. The expected title is
+ * recorded alongside so a parser change warns instead of silently dropping a
+ * different track. Titles here are the *parsed* form, before the registry maps
+ * aliases onto canonical names.
+ *
+ * `keepAuthored` forces a merge instead of a replace, for a release that packs
+ * several songs the corpus keeps separate into one track: dropping the packed
+ * track and replacing would delete those songs, so the authored ones stand and
+ * only the rest of the show is retimed.
+ */
+const SHOW_OVERRIDES: Record<
+  string,
+  {
+    drop?: { position: number; title: string }[];
+    keepAuthored?: boolean;
+    note: string;
+  }
+> = {
+  '1972-05-16': {
+    drop: [
+      { position: 1, title: 'Big River' },
+      { position: 2, title: 'Sugar Magnolia' },
+    ],
+    note: 'the box opens with two soundcheck performances, before the concert',
+  },
+  '1987-09-16': {
+    drop: [{ position: 11, title: 'Devil with the Blue Dress' }],
+    keepAuthored: true,
+    note: 'the release runs Devil with a Blue Dress On > Good Golly Miss Molly > Devil with a Blue Dress On as one 3:56 track; the corpus keeps the three separate, so their authored timings stand',
+  },
+};
+
+/**
  * Apply the registry's two track-level rules to a show's listing.
  *
  * Shared by both sources deliberately: these are facts about the *repertoire*,
@@ -341,9 +389,18 @@ function canonicalise(tracks: ParsedTrack[]) {
  * out the same. Skipping this on the MusicBrainz path let a `Funiculì,
  * Funiculà` tease back into a show it had already been excluded from.
  */
-function applyTrackRules(tracks: ParsedTrack[]): ParsedTrack[] {
+function applyTrackRules(tracks: ParsedTrack[], date: string): ParsedTrack[] {
+  const excluded = SHOW_OVERRIDES[date]?.drop ?? [];
   const out: ParsedTrack[] = [];
-  for (const track of tracks) {
+  for (const [index, track] of tracks.entries()) {
+    const drop = excluded.find((e) => e.position === index + 1);
+    if (drop) {
+      if (drop.title === track.title) continue;
+      console.log(
+        `  ! expected "${drop.title}" at position ${drop.position} to exclude, ` +
+          `found "${track.title}" — keeping it; check EXCLUDED_TRACKS`,
+      );
+    }
     const key = track.title.toLowerCase();
     // Not a song: no stripe. Covers tuning and banter, and teases the setlist
     // databases don't count as performances.
@@ -385,14 +442,14 @@ async function fillUntimed(
   date: string,
 ): Promise<{ tracks: ParsedTrack[]; source: 'wikipedia' | 'musicbrainz' }> {
   if (tracks.length && tracks.every((track) => track.duration)) {
-    return { tracks: applyTrackRules(tracks), source: 'wikipedia' };
+    return { tracks: applyTrackRules(tracks, date), source: 'wikipedia' };
   }
   const byDate = await tracksByDateFromMusicBrainz(release.name, release.dates);
   const fromMb = byDate.get(date);
   if (!fromMb?.length) {
-    return { tracks: applyTrackRules(tracks), source: 'wikipedia' };
+    return { tracks: applyTrackRules(tracks, date), source: 'wikipedia' };
   }
-  return { tracks: applyTrackRules(fromMb), source: 'musicbrainz' };
+  return { tracks: applyTrackRules(fromMb, date), source: 'musicbrainz' };
 }
 
 const showPath = (id: string) =>
@@ -525,10 +582,14 @@ async function audit() {
       (a, s) => a + parseDuration(s.duration),
       0,
     );
-    // A partial source merges into the setlist rather than replacing it, so
-    // report what the merge would actually do. Counting its 8 excerpted tracks
-    // against an 18-song night reads as a catastrophic loss that never happens.
-    if (source.completeness === 'partial') {
+    // A partial source — or a show whose override keeps authored tracks —
+    // merges into the setlist rather than replacing it, so report what the
+    // merge would actually do. Counting a release's 8 excerpted tracks against
+    // an 18-song night reads as a catastrophic loss that never happens.
+    if (
+      source.completeness === 'partial' ||
+      SHOW_OVERRIDES[show.date]?.keepAuthored
+    ) {
       const merged = mergePartial(show.songs, mapped);
       const after = merged.songs.reduce(
         (a, s) => a + parseDuration(s.duration),
@@ -602,7 +663,10 @@ if (named.length) {
 }
 
 /** Merge rather than replace when no source claims the whole night. */
-const merging = sources.length > 1 || sources[0].completeness === 'partial';
+const merging =
+  sources.length > 1 ||
+  sources[0].completeness === 'partial' ||
+  SHOW_OVERRIDES[date]?.keepAuthored === true;
 
 const collected: ParsedTrack[] = [];
 for (const source of sources) {
@@ -741,7 +805,7 @@ async function reportGaps(date: string, release: ParsedTrack[]) {
       `${recording.transferer ? ` (${recording.transferer})` : ''}`,
   );
   const recorded = canonicalise(
-    applyTrackRules(await recordingTracks(recording.identifier)),
+    applyTrackRules(await recordingTracks(recording.identifier), date),
   );
   const played = recorded.mapped;
   if (recorded.unknown.length) {

@@ -7,50 +7,50 @@
   "country": "USA",
   "svg": "/shows/19870916.svg",
   "songCount": 21,
-  "durationSeconds": 9114,
+  "durationSeconds": 9335,
   "songs": [
     {
       "title": "Touch of Grey",
-      "durationSeconds": 387
+      "durationSeconds": 395
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 541
+      "durationSeconds": 560
     },
     {
       "title": "Little Red Rooster",
-      "durationSeconds": 564
+      "durationSeconds": 607
     },
     {
       "title": "Dire Wolf",
-      "durationSeconds": 219
+      "durationSeconds": 268
     },
     {
       "title": "My Brother Esau",
-      "durationSeconds": 258
+      "durationSeconds": 296
     },
     {
       "title": "High Time",
-      "durationSeconds": 428
+      "durationSeconds": 438
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 753
+      "durationSeconds": 754
     },
     {
       "title": "Don't Ease Me In",
-      "durationSeconds": 199
+      "durationSeconds": 216
     },
     {
       "title": "Bertha",
-      "durationSeconds": 426
+      "durationSeconds": 430
     },
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 240
+      "durationSeconds": 234
     },
     {
-      "title": "Devil with the Blue Dress On",
+      "title": "Devil with a Blue Dress On",
       "durationSeconds": 133
     },
     {
@@ -58,40 +58,40 @@
       "durationSeconds": 40
     },
     {
-      "title": "Devil with the Blue Dress On",
+      "title": "Devil with a Blue Dress On",
       "durationSeconds": 73
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 858
+      "durationSeconds": 828
     },
     {
       "title": "Drums",
-      "durationSeconds": 658
+      "durationSeconds": 625
     },
     {
       "title": "Space",
-      "durationSeconds": 634
+      "durationSeconds": 644
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 401
+      "durationSeconds": 420
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 665
+      "durationSeconds": 636
     },
     {
       "title": "Throwing Stones",
-      "durationSeconds": 600
+      "durationSeconds": 570
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 643
+      "durationSeconds": 747
     },
     {
       "title": "Black Muddy River",
-      "durationSeconds": 394
+      "durationSeconds": 421
     }
   ]
 }

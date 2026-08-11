@@ -9,19 +9,19 @@
   "songs": [
     {
       "title": "Cold Rain and Snow",
-      "duration": "6:29"
+      "duration": "6:28"
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": "6:20"
+      "duration": "6:19"
     },
     {
       "title": "Chinatown Shuffle",
-      "duration": "2:56"
+      "duration": "2:55"
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "6:05"
+      "duration": "6:04"
     },
     {
       "title": "I Know You Rider",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Jack Straw",
-      "duration": "4:58"
+      "duration": "3:57"
     },
     {
       "title": "He's Gone",
@@ -37,43 +37,43 @@
     },
     {
       "title": "Next Time You See Me",
-      "duration": "5:12"
+      "duration": "5:11"
     },
     {
       "title": "Black-Throated Wind",
-      "duration": "6:51"
+      "duration": "6:48"
     },
     {
       "title": "Casey Jones",
-      "duration": "5:43"
+      "duration": "5:42"
     },
     {
       "title": "Mr. Charlie",
-      "duration": "3:49"
+      "duration": "3:48"
     },
     {
       "title": "Playing in the Band",
-      "duration": "9:59"
+      "duration": "9:58"
     },
     {
       "title": "Sugaree",
-      "duration": "7:02"
+      "duration": "6:59"
     },
     {
       "title": "One More Saturday Night",
-      "duration": "4:49"
+      "duration": "4:44"
     },
     {
       "title": "It Hurts Me Too",
-      "duration": "7:14"
-    },
-    {
-      "title": "Ramble On Rose",
       "duration": "7:13"
     },
     {
+      "title": "Ramble On Rose",
+      "duration": "7:12"
+    },
+    {
       "title": "El Paso",
-      "duration": "5:18"
+      "duration": "5:17"
     },
     {
       "title": "Big Railroad Blues",
@@ -85,11 +85,11 @@
     },
     {
       "title": "Dark Star",
-      "duration": "31:00"
+      "duration": "30:59"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "6:56"
+      "duration": "6:55"
     },
     {
       "title": "Caution (Do Not Stop on Tracks)",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Johnny B. Goode",
-      "duration": "4:19"
+      "duration": "4:18"
     }
   ]
 }
