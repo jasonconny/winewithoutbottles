@@ -158,6 +158,34 @@ describe('buildGalleries (synthetic corpora)', () => {
     expect(registry.get('winterland-arena')!.title).toBe('Winterland Arena');
   });
 
+  it('resolves a venue lookup past a shared name', () => {
+    // The reason `venueByKey` is keyed on venue + city + state rather than the
+    // name: two Fox Theatres are two galleries, and a show at one must not
+    // resolve to the other. Real data can't cover this yet — Madison Square
+    // Garden is the only venue over the threshold — but the composite key
+    // exists precisely for the day it can.
+    const registry = buildGalleries([
+      ...venueRun(VENUE_MIN_SHOWS, 'Fox Theatre', 'Atlanta', 'GA', 1970),
+      ...venueRun(VENUE_MIN_SHOWS, 'Fox Theatre', 'St. Louis', 'MO', 1971),
+      ...venueRun(
+        VENUE_MIN_SHOWS - 1,
+        'Capitol Theatre',
+        'Passaic',
+        'NJ',
+        1972,
+      ),
+    ]);
+    const atlanta = registry.venueByKey.get('Fox Theatre|Atlanta|GA');
+    const stLouis = registry.venueByKey.get('Fox Theatre|St. Louis|MO');
+    expect(atlanta!.slug).toBe('fox-theatre-atlanta');
+    expect(stLouis!.slug).toBe('fox-theatre-st-louis');
+    expect(atlanta).not.toBe(stLouis);
+    // Below the threshold means no page, so no entry to find.
+    expect(
+      registry.venueByKey.get('Capitol Theatre|Passaic|NJ'),
+    ).toBeUndefined();
+  });
+
   it('judges ambiguity corpus-wide, not just among qualifying venues', () => {
     // St. Louis is below threshold (no gallery), but its existence still
     // forces the Atlanta slug to carry the city — so the URL never churns

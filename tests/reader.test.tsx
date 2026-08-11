@@ -225,6 +225,38 @@ describe('reader app', () => {
     );
   });
 
+  it('links the venue when it has a gallery', async () => {
+    // Madison Square Garden clears VENUE_MIN_SHOWS with 52 shows, so the venue
+    // name in the location line is a link to that gallery.
+    renderAt('/19900916');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    expect(
+      sheet.getByRole('link', { name: 'Madison Square Garden' }),
+    ).toHaveAttribute('href', '/madison-square-garden');
+    // Only the venue is a link; the city and state stay text, and the line
+    // reads exactly as it did before.
+    expect(document.querySelector('.Show-location')!.textContent).toBe(
+      'Madison Square Garden, New York, NY',
+    );
+  });
+
+  it('leaves the venue as text when it has no gallery', async () => {
+    // One show at the Old Renaissance Faire Grounds, nowhere near the
+    // threshold, so there is nothing to link to.
+    renderAt('/19720827');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    expect(
+      sheet.queryByRole('link', { name: 'Old Renaissance Faire Grounds' }),
+    ).toBeNull();
+    expect(document.querySelector('.Show-location')!.textContent).toBe(
+      'Old Renaissance Faire Grounds, Veneta, OR',
+    );
+  });
+
   it('links each tag to its tag index', async () => {
     // 1989-10-09 carries two tags of different kinds — a named run and a song.
     renderAt('/19891009');

@@ -3,7 +3,12 @@ import { Link, useLoaderData } from 'react-router-dom';
 import type { ShowDetail } from '@/wwob';
 import { useUiState } from '@/hooks/useUiState';
 import { usePageMeta } from '@/hooks/usePageMeta';
-import { findRunForShow, findTagGallery, findTourGallery } from '@/galleries';
+import {
+  findRunForShow,
+  findTagGallery,
+  findTourGallery,
+  findVenueGallery,
+} from '@/galleries';
 import { formatShowDate, formatShowDateParts } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
@@ -36,6 +41,9 @@ export default function Show() {
   const location = [show.venue, show.city, show.state]
     .filter(Boolean)
     .join(', ');
+  // The location line links only the venue, so it renders from parts; the
+  // joined string stays for the accessible heading, which wants plain text.
+  const place = [show.city, show.state].filter(Boolean).join(', ');
   const date = formatShowDate(show.date);
   // The year gallery's slug *is* the year, and years partition the whole
   // corpus, so `/<year>` always resolves for any show.
@@ -45,6 +53,9 @@ export default function Show() {
   // filtered `npm run generate <id>` could leave stale.
   const run = findRunForShow(show.id);
   const tour = show.tour ? findTourGallery(show.tour) : undefined;
+  // Only venues past VENUE_MIN_SHOWS have a page, so most shows render the
+  // venue as plain text.
+  const venue = findVenueGallery(show);
 
   return (
     // No click handler here: light-dismiss lives on the AppChrome root — a
@@ -82,7 +93,13 @@ export default function Show() {
         <h2>
           {monthDay}, <Link to={`/${year}`}>{year}</Link>
         </h2>
-        <h3 className="Show-location">{location}</h3>
+        <h3 className="Show-location">
+          {/* The link text is the venue as authored, not the gallery title —
+              an ambiguous venue's title carries its city, which the rest of
+              this line already supplies. */}
+          {venue ? <Link to={`/${venue.slug}`}>{show.venue}</Link> : show.venue}
+          {place && `, ${place}`}
+        </h3>
         {(show.tour || run) && (
           // Tour then run, on one line — widest grouping first. Neither page
           // is in the drawer (40 runs would swamp it), so these links are how
