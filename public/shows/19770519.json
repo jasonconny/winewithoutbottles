@@ -8,83 +8,83 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770519.svg",
   "songCount": 19,
-  "durationSeconds": 10220,
+  "durationSeconds": 10544,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 271
+      "durationSeconds": 374
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 1022
+      "durationSeconds": 981
     },
     {
       "title": "El Paso",
-      "durationSeconds": 279
+      "durationSeconds": 304
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 496
+      "durationSeconds": 514
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 516
+      "durationSeconds": 539
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 652
+      "durationSeconds": 689
     },
     {
       "title": "Passenger",
-      "durationSeconds": 204
+      "durationSeconds": 239
     },
     {
       "title": "Loser",
-      "durationSeconds": 513
+      "durationSeconds": 518
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 837
+      "durationSeconds": 827
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 409
+      "durationSeconds": 480
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 482
+      "durationSeconds": 518
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 612
+      "durationSeconds": 609
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 716
+      "durationSeconds": 703
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 561
+      "durationSeconds": 667
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 723
+      "durationSeconds": 707
     },
     {
       "title": "Drums",
-      "durationSeconds": 363
+      "durationSeconds": 328
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 433
+      "durationSeconds": 444
     },
     {
       "title": "China Doll",
-      "durationSeconds": 534
+      "durationSeconds": 470
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 597
+      "durationSeconds": 633
     }
   ]
 }

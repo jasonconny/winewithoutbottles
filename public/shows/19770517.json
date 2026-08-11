@@ -8,83 +8,83 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770517.svg",
   "songCount": 25,
-  "durationSeconds": 11443,
+  "durationSeconds": 11830,
   "songs": [
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 316
-    },
-    {
-      "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 638
-    },
-    {
-      "title": "El Paso",
-      "durationSeconds": 261
-    },
-    {
-      "title": "They Love Each Other",
-      "durationSeconds": 444
-    },
-    {
-      "title": "Jack Straw",
-      "durationSeconds": 323
-    },
-    {
-      "title": "Jack-A-Roe",
       "durationSeconds": 346
     },
     {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 628
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 288
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 359
+    },
+    {
       "title": "Looks Like Rain",
-      "durationSeconds": 475
+      "durationSeconds": 490
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 502
+      "durationSeconds": 526
     },
     {
       "title": "Passenger",
-      "durationSeconds": 194
+      "durationSeconds": 216
     },
     {
       "title": "High Time",
-      "durationSeconds": 491
+      "durationSeconds": 512
     },
     {
       "title": "Big River",
-      "durationSeconds": 390
+      "durationSeconds": 399
     },
     {
       "title": "Sunrise",
-      "durationSeconds": 223
+      "durationSeconds": 275
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 688
+      "durationSeconds": 782
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 897
+      "durationSeconds": 794
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 390
+      "durationSeconds": 403
     },
     {
       "title": "Bertha",
-      "durationSeconds": 383
+      "durationSeconds": 376
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 319
+      "durationSeconds": 362
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 324
+      "durationSeconds": 334
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 516
+      "durationSeconds": 535
     },
     {
       "title": "Terrapin Station",
@@ -92,23 +92,23 @@
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 741
+      "durationSeconds": 740
     },
     {
       "title": "Drums",
-      "durationSeconds": 315
+      "durationSeconds": 289
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 628
+      "durationSeconds": 773
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 417
+      "durationSeconds": 366
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 539
+      "durationSeconds": 555
     }
   ]
 }

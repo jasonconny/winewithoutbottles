@@ -8,91 +8,91 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770512.svg",
   "songCount": 21,
-  "durationSeconds": 9174,
+  "durationSeconds": 9628,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 401
+      "durationSeconds": 436
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 157
+      "durationSeconds": 184
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 532
+      "durationSeconds": 572
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 272
+      "durationSeconds": 305
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 417
+      "durationSeconds": 472
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 320
+      "durationSeconds": 345
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 423
+      "durationSeconds": 467
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 303
+      "durationSeconds": 320
     },
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 593
+      "durationSeconds": 594
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 823
+      "durationSeconds": 859
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 392
+      "durationSeconds": 427
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 294
+      "durationSeconds": 328
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 510
+      "durationSeconds": 565
     },
     {
       "title": "Sunrise",
-      "durationSeconds": 214
+      "durationSeconds": 226
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 615
+      "durationSeconds": 613
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 542
+      "durationSeconds": 516
     },
     {
       "title": "Drums",
-      "durationSeconds": 257
+      "durationSeconds": 246
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 838
+      "durationSeconds": 855
     },
     {
       "title": "Comes a Time",
-      "durationSeconds": 628
+      "durationSeconds": 620
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 397
+      "durationSeconds": 420
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 246
+      "durationSeconds": 258
     }
   ]
 }

@@ -8,95 +8,95 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770525.svg",
   "songCount": 22,
-  "durationSeconds": 9635,
+  "durationSeconds": 10089,
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 594
+      "durationSeconds": 642
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 344
+      "durationSeconds": 377
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 412
+      "durationSeconds": 441
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 193
+      "durationSeconds": 219
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 436
+      "durationSeconds": 464
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 287
+      "durationSeconds": 327
     },
     {
       "title": "Loser",
-      "durationSeconds": 482
+      "durationSeconds": 512
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 193
+      "durationSeconds": 194
     },
     {
       "title": "Supplication",
-      "durationSeconds": 267
+      "durationSeconds": 313
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 333
+      "durationSeconds": 370
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 263
+      "durationSeconds": 272
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 622
+      "durationSeconds": 631
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 669
+      "durationSeconds": 712
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 528
+      "durationSeconds": 521
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 833
+      "durationSeconds": 832
     },
     {
       "title": "Drums",
-      "durationSeconds": 314
+      "durationSeconds": 325
     },
     {
       "title": "The Other One",
-      "durationSeconds": 895
+      "durationSeconds": 915
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 637
+      "durationSeconds": 670
     },
     {
       "title": "The Other One",
-      "durationSeconds": 255
+      "durationSeconds": 218
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 329
+      "durationSeconds": 324
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 503
+      "durationSeconds": 550
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 246
+      "durationSeconds": 260
     }
   ]
 }

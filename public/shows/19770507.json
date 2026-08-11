@@ -8,87 +8,87 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770507.svg",
   "songCount": 20,
-  "durationSeconds": 9303,
+  "durationSeconds": 9924,
   "songs": [
     {
       "title": "Bertha",
-      "durationSeconds": 431
+      "durationSeconds": 486
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 269
+      "durationSeconds": 308
     },
     {
       "title": "Deal",
-      "durationSeconds": 332
+      "durationSeconds": 369
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 293
+      "durationSeconds": 329
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 467
+      "durationSeconds": 500
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 299
+      "durationSeconds": 415
     },
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 748
+      "durationSeconds": 750
     },
     {
       "title": "Big River",
-      "durationSeconds": 407
+      "durationSeconds": 445
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 476
+      "durationSeconds": 491
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 450
+      "durationSeconds": 468
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 626
+      "durationSeconds": 664
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 419
+      "durationSeconds": 458
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 444
+      "durationSeconds": 498
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 489
+      "durationSeconds": 504
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 672
+      "durationSeconds": 681
     },
     {
       "title": "Drums",
-      "durationSeconds": 199
+      "durationSeconds": 196
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 633
+      "durationSeconds": 635
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 861
+      "durationSeconds": 860
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 456
+      "durationSeconds": 527
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 332
+      "durationSeconds": 340
     }
   ]
 }

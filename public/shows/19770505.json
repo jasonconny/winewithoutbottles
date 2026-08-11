@@ -8,83 +8,83 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770505.svg",
   "songCount": 19,
-  "durationSeconds": 8483,
+  "durationSeconds": 9023,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 259
-    },
-    {
-      "title": "Sugaree",
-      "durationSeconds": 904
-    },
-    {
-      "title": "Mama Tried",
-      "durationSeconds": 157
-    },
-    {
-      "title": "El Paso",
-      "durationSeconds": 281
-    },
-    {
-      "title": "Tennessee Jed",
-      "durationSeconds": 538
-    },
-    {
-      "title": "Looks Like Rain",
-      "durationSeconds": 524
-    },
-    {
-      "title": "Deal",
       "durationSeconds": 345
     },
     {
+      "title": "Sugaree",
+      "durationSeconds": 936
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 159
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 375
+    },
+    {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 211
+      "durationSeconds": 214
     },
     {
       "title": "Supplication",
-      "durationSeconds": 305
+      "durationSeconds": 331
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 457
+      "durationSeconds": 490
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 393
+      "durationSeconds": 413
     },
     {
       "title": "Bertha",
-      "durationSeconds": 403
+      "durationSeconds": 472
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 521
+      "durationSeconds": 550
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 647
+      "durationSeconds": 650
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 721
+      "durationSeconds": 725
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 352
+      "durationSeconds": 409
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 700
+      "durationSeconds": 709
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 517
+      "durationSeconds": 539
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 248
+      "durationSeconds": 275
     }
   ]
 }

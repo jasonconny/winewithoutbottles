@@ -690,8 +690,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Spring 1977",
     "svg": "/shows/19770425.svg",
-    "songCount": 21,
-    "durationSeconds": 8709
+    "songCount": 20,
+    "durationSeconds": 8899
   },
   {
     "id": "19770426",
@@ -738,8 +738,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Spring 1977",
     "svg": "/shows/19770430.svg",
-    "songCount": 21,
-    "durationSeconds": 8638
+    "songCount": 23,
+    "durationSeconds": 10749
   },
   {
     "id": "19770501",
@@ -763,7 +763,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770503.svg",
     "songCount": 24,
-    "durationSeconds": 10294
+    "durationSeconds": 11012
   },
   {
     "id": "19770504",
@@ -787,7 +787,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770505.svg",
     "songCount": 19,
-    "durationSeconds": 8483
+    "durationSeconds": 9023
   },
   {
     "id": "19770507",
@@ -799,7 +799,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770507.svg",
     "songCount": 20,
-    "durationSeconds": 9303
+    "durationSeconds": 9924
   },
   {
     "id": "19770508",
@@ -811,7 +811,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770508.svg",
     "songCount": 20,
-    "durationSeconds": 9130
+    "durationSeconds": 9720
   },
   {
     "id": "19770509",
@@ -823,7 +823,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770509.svg",
     "songCount": 21,
-    "durationSeconds": 8882
+    "durationSeconds": 9675
   },
   {
     "id": "19770511",
@@ -835,7 +835,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770511.svg",
     "songCount": 24,
-    "durationSeconds": 10240
+    "durationSeconds": 10757
   },
   {
     "id": "19770512",
@@ -847,7 +847,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770512.svg",
     "songCount": 21,
-    "durationSeconds": 9174
+    "durationSeconds": 9628
   },
   {
     "id": "19770513",
@@ -859,7 +859,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770513.svg",
     "songCount": 20,
-    "durationSeconds": 8490
+    "durationSeconds": 9443
   },
   {
     "id": "19770515",
@@ -871,7 +871,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770515.svg",
     "songCount": 21,
-    "durationSeconds": 9059
+    "durationSeconds": 9762
   },
   {
     "id": "19770517",
@@ -883,7 +883,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770517.svg",
     "songCount": 25,
-    "durationSeconds": 11443
+    "durationSeconds": 11830
   },
   {
     "id": "19770518",
@@ -907,7 +907,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770519.svg",
     "songCount": 19,
-    "durationSeconds": 10220
+    "durationSeconds": 10544
   },
   {
     "id": "19770521",
@@ -918,8 +918,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Spring 1977",
     "svg": "/shows/19770521.svg",
-    "songCount": 24,
-    "durationSeconds": 10776
+    "songCount": 23,
+    "durationSeconds": 11057
   },
   {
     "id": "19770522",
@@ -931,7 +931,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770522.svg",
     "songCount": 24,
-    "durationSeconds": 11189
+    "durationSeconds": 11457
   },
   {
     "id": "19770525",
@@ -943,7 +943,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770525.svg",
     "songCount": 22,
-    "durationSeconds": 9635
+    "durationSeconds": 10089
   },
   {
     "id": "19770526",
@@ -954,8 +954,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Spring 1977",
     "svg": "/shows/19770526.svg",
-    "songCount": 22,
-    "durationSeconds": 9692
+    "songCount": 21,
+    "durationSeconds": 10442
   },
   {
     "id": "19770528",
@@ -967,7 +967,7 @@ export const shows: ShowSummary[] = [
     "tour": "Spring 1977",
     "svg": "/shows/19770528.svg",
     "songCount": 21,
-    "durationSeconds": 10008
+    "durationSeconds": 10400
   },
   {
     "id": "19790107",

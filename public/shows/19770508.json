@@ -8,87 +8,87 @@
   "tour": "Spring 1977",
   "svg": "/shows/19770508.svg",
   "songCount": 20,
-  "durationSeconds": 9130,
+  "durationSeconds": 9720,
   "songs": [
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 287
+      "durationSeconds": 334
     },
     {
       "title": "Loser",
-      "durationSeconds": 450
+      "durationSeconds": 478
     },
     {
       "title": "El Paso",
-      "durationSeconds": 262
+      "durationSeconds": 291
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 419
+      "durationSeconds": 449
     },
     {
       "title": "Jack Straw",
-      "durationSeconds": 360
+      "durationSeconds": 389
     },
     {
       "title": "Deal",
-      "durationSeconds": 343
+      "durationSeconds": 370
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 209
+      "durationSeconds": 206
     },
     {
       "title": "Supplication",
-      "durationSeconds": 261
+      "durationSeconds": 288
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 312
+      "durationSeconds": 349
     },
     {
       "title": "Mama Tried",
-      "durationSeconds": 157
+      "durationSeconds": 192
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 652
+      "durationSeconds": 674
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 943
+      "durationSeconds": 992
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 554
+      "durationSeconds": 675
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 921
+      "durationSeconds": 940
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 512
+      "durationSeconds": 529
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 283
+      "durationSeconds": 303
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 982
+      "durationSeconds": 980
     },
     {
       "title": "St. Stephen",
-      "durationSeconds": 113
+      "durationSeconds": 114
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 816
+      "durationSeconds": 857
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 294
+      "durationSeconds": 310
     }
   ]
 }
