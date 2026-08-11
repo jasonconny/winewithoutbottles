@@ -53,6 +53,12 @@ export interface GalleryRegistry {
    * of its own (see the skip in `buildGalleries`).
    */
   tourByName: Map<string, GalleryDef>;
+  /**
+   * `venue|city|state` → its gallery, for venues that cleared
+   * `VENUE_MIN_SHOWS`. Keyed on all three because venue names repeat across
+   * cities; most venues are not in here.
+   */
+  venueByKey: Map<string, GalleryDef>;
 }
 
 /** A venue needs this many shows to earn its own gallery page. */
@@ -129,7 +135,7 @@ const RUN_MONTHS = [
  * Physical venue identity. The bare name repeats across cities (two Capitol
  * Theatres), and two venues sharing a name are not one run.
  */
-function venueKey(show: ShowSummary): string {
+function venueKey(show: Pick<ShowSummary, 'venue' | 'city' | 'state'>): string {
   return `${show.venue}|${show.city}|${show.state ?? ''}`;
 }
 
@@ -270,10 +276,10 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
   // show count. Name ambiguity (same venue name in several cities) is judged
   // over the WHOLE corpus, not just qualifying venues, so a slug doesn't churn
   // when a same-named venue elsewhere later crosses the threshold.
-  const venueGroups = groupBy(
-    source,
-    (show) => `${show.venue}|${show.city}|${show.state ?? ''}`,
-  );
+  // `venueKey`, not an inline equivalent: the same key is what `venueByKey`
+  // below is built from, and the lookup would break silently if the two ever
+  // drifted apart.
+  const venueGroups = groupBy(source, venueKey);
   const citiesByVenueName = groupBy(source, (show) => show.venue);
   const venueEntries = [...venueGroups.values()]
     .filter((venueShows) => venueShows.length >= VENUE_MIN_SHOWS)
@@ -317,6 +323,15 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
       return { slug, title, kind: 'venue', shows: venueShows };
     });
   for (const gallery of venueGalleries) register(bySlug, gallery);
+
+  // Keyed by venue + city + state rather than name, because the name alone
+  // isn't unique — that's the whole reason an ambiguous venue's slug and title
+  // get city-suffixed. Every show in a venue gallery shares the group key, so
+  // the first one carries it.
+  const venueByKey = new Map<string, GalleryDef>();
+  for (const gallery of venueGalleries) {
+    venueByKey.set(venueKey(gallery.shows[0]), gallery);
+  }
 
   // Runs last: the most specific slug (venue + month + year), so anything it
   // collides with is a real problem and register() should throw.
@@ -375,6 +390,7 @@ export function buildGalleries(source: ShowSummary[]): GalleryRegistry {
     runByShowId,
     tagByName,
     tourByName,
+    venueByKey,
   };
 }
 
@@ -413,4 +429,18 @@ export function findTagGallery(tag: string): GalleryDef | undefined {
  */
 export function findTourGallery(tour: string): GalleryDef | undefined {
   return registry.tourByName.get(tour);
+}
+
+/**
+ * The gallery for a show's venue, if that venue earned one.
+ *
+ * Most venues have not — a page needs `VENUE_MIN_SHOWS` shows — so callers
+ * should render the venue as plain text when this returns undefined. Takes the
+ * show rather than a name because venue names repeat across cities and the
+ * gallery is identified by venue + city + state.
+ */
+export function findVenueGallery(
+  show: Pick<ShowSummary, 'venue' | 'city' | 'state'>,
+): GalleryDef | undefined {
+  return registry.venueByKey.get(venueKey(show));
 }
