@@ -690,8 +690,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Spring 1977",
     "svg": "/shows/19770425.svg",
-    "songCount": 20,
-    "durationSeconds": 8899
+    "songCount": 21,
+    "durationSeconds": 9267
   },
   {
     "id": "19770426",

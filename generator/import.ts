@@ -174,7 +174,11 @@ interface ParsedTrack {
  * line: trailing parentheticals ("previously released on…") can carry their own.
  */
 function parseTrack(line: string): ParsedTrack | null {
-  const text = stripMarkup(line).replace(/^[#|]\s*(<li value=\d+>)?\s*/, '');
+  // The value attribute may be quoted (`<li value="7">`) or bare; 30 Trips
+  // uses the quoted form, and missing it drops the track silently.
+  const text = stripMarkup(line)
+    .replace(/^[#|]\s*(<li value="?\d+"?>)?\s*/, '')
+    .replace(/<\/li>\s*$/, '');
   // A track can carry two titles and one time — Dick's Picks 29 lists
   // `"Lady with a Fan" / "Terrapin Station" – 11:43`. Take the last: it's the
   // song the corpus knows, the earlier name being its opening movement. There
