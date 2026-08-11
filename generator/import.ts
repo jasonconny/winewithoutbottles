@@ -173,21 +173,52 @@ interface ParsedTrack {
  * taken as the first dashed time *after* the title, not the last time on the
  * line: trailing parentheticals ("previously released on…") can carry their own.
  */
+/** Title of a track line that carries no usable quotes. */
+function unquotedTitle(text: string): string {
+  return text
+    .split(/\s*\(/)[0]
+    .split(/\s+[–—-]\s+/)[0]
+    .replace(/["'\s>→]+$/, '')
+    .trim();
+}
+
 function parseTrack(line: string): ParsedTrack | null {
-  // The value attribute may be quoted (`<li value="7">`) or bare; 30 Trips
-  // uses the quoted form, and missing it drops the track silently.
+  // The value attribute may be quoted (`<li value="7">`), bare, or spaced
+  // (`<li value= 5>`); 30 Trips uses the quoted form, and missing any variant
+  // drops the track silently.
   const text = stripMarkup(line)
-    .replace(/^[#|]\s*(<li value="?\d+"?>)?\s*/, '')
+    .replace(/^[#|]\s*(<li value=\s*"?\d+"?>)?\s*/, '')
     .replace(/<\/li>\s*$/, '');
-  // A track can carry two titles and one time — Dick's Picks 29 lists
-  // `"Lady with a Fan" / "Terrapin Station" – 11:43`. Take the last: it's the
-  // song the corpus knows, the earlier name being its opening movement. There
-  // is only one duration, so splitting would mean inventing a boundary.
-  const quoted = text.match(/^(?:"[^"]+"\s*[/>→]\s*)*"([^"]+)"/);
-  if (!quoted) return null;
-  const rest = text.slice(quoted[0].length);
-  const timed = rest.match(/[–—-]\s*(\d{1,3}:\d{2})/);
-  const title = cleanWikiTitle(quoted[1]);
+  // The title is not always flush left: a line can open with a set label
+  // (`''Encore:'' "Terrapin Station"`), a nested-list bullet for a suite
+  // movement (`* "Prelude"`), or a wikilink wrapping the quotes. Start from the
+  // first quote rather than requiring one at position 0.
+  const opens = text.indexOf('"');
+  let title: string;
+  let after: string;
+  if (opens >= 0) {
+    // A track can carry two titles and one time — Dick's Picks 29 lists
+    // `"Lady with a Fan" / "Terrapin Station" – 11:43`. Take the last: it's the
+    // song the corpus knows, the earlier name being its opening movement. There
+    // is only one duration, so splitting would mean inventing a boundary.
+    const from = text.slice(opens);
+    const quoted = from.match(/^(?:"[^"]+"\s*[/>→]\s*)*"([^"]+)"/);
+    if (!quoted) return null;
+    title = cleanWikiTitle(quoted[1]);
+    after = from.slice(quoted[0].length);
+  } else {
+    // A handful of lines have no usable quotes at all — Europe '72 prints
+    // `#The Yellow Dog Story (traditional…) – 3:13` unquoted, and July 1978
+    // loses its opening quote on one track. Fall back to the text before the
+    // songwriter credits, but *only* for a line already carrying a duration:
+    // quotes are what identifies a track otherwise, and without that guard the
+    // fallback starts naming section labels and prose as untimed songs.
+    if (!/[–—-]\s*\d{1,3}:\d{2}/.test(text)) return null;
+    title = cleanWikiTitle(unquotedTitle(text));
+    // The whole line, since there is no closing quote to measure from.
+    after = text;
+  }
+  const timed = after.match(/[–—-]\s*(\d{1,3}:\d{2})/);
   // A title with no time is still a real track: several articles list whole
   // discs untimed. Keep it so the caller can say so, rather than silently
   // shortening the show.

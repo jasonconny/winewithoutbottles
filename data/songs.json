@@ -735,7 +735,8 @@
       "title": "When Push Comes to Shove"
     },
     {
-      "title": "Yellow Dog Story"
+      "title": "Yellow Dog Story",
+      "aliases": ["The Yellow Dog Story"]
     },
     {
       "title": "You Win Again"
@@ -745,7 +746,10 @@
   "notASong": [
     "Funiculi Funicula",
     "Funiculì, Funiculà",
+    "Introduction",
+    "Jones Gang introduction",
     "Tuning",
-    "Tuning Rap"
+    "Tuning Rap",
+    "Tuning intro"
   ]
 }

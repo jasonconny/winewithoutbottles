@@ -7,8 +7,8 @@
   "country": "USA",
   "tour": "Spring 1977",
   "svg": "/shows/19770430.svg",
-  "songCount": 23,
-  "durationSeconds": 10749,
+  "songCount": 24,
+  "durationSeconds": 11369,
   "songs": [
     {
       "title": "The Music Never Stopped",
@@ -89,6 +89,10 @@
     {
       "title": "One More Saturday Night",
       "durationSeconds": 333
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 620
     },
     {
       "title": "Sugaree",

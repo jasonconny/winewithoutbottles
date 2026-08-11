@@ -10,83 +10,83 @@
   ],
   "svg": "/shows/19910910.svg",
   "songCount": 19,
-  "durationSeconds": 9737,
+  "durationSeconds": 9400,
   "songs": [
     {
       "title": "Shakedown Street",
-      "durationSeconds": 833
+      "durationSeconds": 844
     },
     {
       "title": "C.C. Rider",
-      "durationSeconds": 355
+      "durationSeconds": 345
     },
     {
       "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
-      "durationSeconds": 384
+      "durationSeconds": 299
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 431
+      "durationSeconds": 379
     },
     {
       "title": "High Time",
-      "durationSeconds": 540
+      "durationSeconds": 463
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 514
+      "durationSeconds": 449
     },
     {
       "title": "Deal",
-      "durationSeconds": 563
+      "durationSeconds": 569
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 235
+      "durationSeconds": 251
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 441
+      "durationSeconds": 446
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 618
+      "durationSeconds": 619
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 785
+      "durationSeconds": 784
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 739
+      "durationSeconds": 745
     },
     {
       "title": "Drums",
-      "durationSeconds": 303
+      "durationSeconds": 296
     },
     {
       "title": "Space",
-      "durationSeconds": 497
+      "durationSeconds": 499
     },
     {
       "title": "Dark Star",
-      "durationSeconds": 732
+      "durationSeconds": 737
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 257
+      "durationSeconds": 255
     },
     {
       "title": "Standing on the Moon",
-      "durationSeconds": 540
+      "durationSeconds": 542
     },
     {
       "title": "Turn On Your Love Light",
-      "durationSeconds": 567
+      "durationSeconds": 470
     },
     {
       "title": "It's All Over Now, Baby Blue",
-      "durationSeconds": 403
+      "durationSeconds": 408
     }
   ]
 }
