@@ -1,0 +1,92 @@
+{
+  "id": "19770903",
+  "date": "1977-09-03",
+  "venue": "Raceway Park",
+  "city": "Englishtown",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19770903.svg",
+  "songCount": 19,
+  "durationSeconds": 10562,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 308
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 232
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 814
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 558
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 493
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 515
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 797
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 400
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 858
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 1198
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 662
+    }
+  ]
+}

@@ -167,6 +167,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8646
   },
   {
+    "id": "19720328",
+    "date": "1972-03-28",
+    "venue": "Academy of Music",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720328.svg",
+    "songCount": 27,
+    "durationSeconds": 11627
+  },
+  {
     "id": "19720407",
     "date": "1972-04-07",
     "venue": "Wembley Empire Pool",
@@ -458,6 +472,35 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10319
   },
   {
+    "id": "19720917",
+    "date": "1972-09-17",
+    "venue": "Baltimore Civic Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720917.svg",
+    "songCount": 24,
+    "durationSeconds": 12729
+  },
+  {
+    "id": "19720921",
+    "date": "1972-09-21",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720921.svg",
+    "songCount": 27,
+    "durationSeconds": 13774
+  },
+  {
     "id": "19720924",
     "date": "1972-09-24",
     "venue": "Palace Theatre",
@@ -473,6 +516,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10858
   },
   {
+    "id": "19720927",
+    "date": "1972-09-27",
+    "venue": "Stanley Theater",
+    "city": "Jersey City",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720927.svg",
+    "songCount": 25,
+    "durationSeconds": 11805
+  },
+  {
     "id": "19730316",
     "date": "1973-03-16",
     "venue": "Nassau Coliseum",
@@ -486,6 +544,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19730316.svg",
     "songCount": 25,
     "durationSeconds": 11794
+  },
+  {
+    "id": "19731019",
+    "date": "1973-10-19",
+    "venue": "Fairgrounds Arena",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731019.svg",
+    "songCount": 23,
+    "durationSeconds": 11334
   },
   {
     "id": "19731114",
@@ -1249,6 +1322,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10400
   },
   {
+    "id": "19770903",
+    "date": "1977-09-03",
+    "venue": "Raceway Park",
+    "city": "Englishtown",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19770903.svg",
+    "songCount": 19,
+    "durationSeconds": 10562
+  },
+  {
     "id": "19780513",
     "date": "1978-05-13",
     "venue": "Spectrum",
@@ -1472,6 +1559,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10728
   },
   {
+    "id": "19820807",
+    "date": "1982-08-07",
+    "venue": "Alpine Valley Music Theatre",
+    "city": "East Troy",
+    "state": "WI",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19820807.svg",
+    "songCount": 24,
+    "durationSeconds": 9490
+  },
+  {
     "id": "19820920",
     "date": "1982-09-20",
     "venue": "Madison Square Garden",
@@ -1597,6 +1698,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19850624.svg",
     "songCount": 22,
     "durationSeconds": 9010
+  },
+  {
+    "id": "19851101",
+    "date": "1985-11-01",
+    "venue": "Richmond Coliseum",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19851101.svg",
+    "songCount": 22,
+    "durationSeconds": 9028
   },
   {
     "id": "19851121",
@@ -2616,6 +2731,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19920606.svg",
     "songCount": 20,
     "durationSeconds": 9290
+  },
+  {
+    "id": "19921216",
+    "date": "1992-12-16",
+    "venue": "Oakland Coliseum Arena",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19921216.svg",
+    "songCount": 18,
+    "durationSeconds": 10046
   },
   {
     "id": "19930317",

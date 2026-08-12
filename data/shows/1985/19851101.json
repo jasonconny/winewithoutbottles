@@ -1,0 +1,100 @@
+{
+  "id": "19851101",
+  "date": "1985-11-01",
+  "venue": "Richmond Coliseum",
+  "city": "Richmond",
+  "state": "VA",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 21",
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "duration": "6:52"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:32"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:22"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "5:55"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:04"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:19"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:55"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:24"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:14"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:33"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:34"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "11:07"
+    },
+    {
+      "title": "Spoonful",
+      "duration": "4:54"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "8:26"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "7:27"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:06"
+    },
+    {
+      "title": "Space",
+      "duration": "11:26"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:52"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "4:27"
+    },
+    {
+      "title": "She Belongs to Me",
+      "duration": "7:54"
+    },
+    {
+      "title": "Gloria",
+      "duration": "6:51"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "4:14"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "19720328",
+  "date": "1972-03-28",
+  "venue": "Academy of Music",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 30",
+  "songs": [
+    {
+      "title": "Truckin'",
+      "duration": "9:49"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:45"
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "duration": "3:10"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:48"
+    },
+    {
+      "title": "You Win Again",
+      "duration": "5:09"
+    },
+    {
+      "title": "Mr. Charlie",
+      "duration": "5:02"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:37"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:13"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "4:52"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:09"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:06"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "4:09"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:25"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:05"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:27"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "6:43"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "13:56"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:36"
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "duration": "8:58"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "6:55"
+    },
+    {
+      "title": "The Other One",
+      "duration": "28:16"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "9:23"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "5:26"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:20"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:35"
+    },
+    {
+      "title": "Sidewalks of New York",
+      "duration": "1:10"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:43"
+    }
+  ]
+}

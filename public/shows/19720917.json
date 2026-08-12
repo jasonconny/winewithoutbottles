@@ -1,0 +1,112 @@
+{
+  "id": "19720917",
+  "date": "1972-09-17",
+  "venue": "Baltimore Civic Center",
+  "city": "Baltimore",
+  "state": "MD",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19720917.svg",
+  "songCount": 24,
+  "durationSeconds": 12729,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 259
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 655
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 237
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 318
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1128
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 739
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 196
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 621
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 2347
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 650
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 565
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 442
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 334
+    }
+  ]
+}

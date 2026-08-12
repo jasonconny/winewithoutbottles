@@ -303,7 +303,11 @@ function tracksByDate(
   const headingDate = (line: string): string | null => {
     const heading =
       line.match(/^=+(.*?)=+\s*$/) ??
-      line.match(/^:+''(.+?)''/) ??
+      // The indent colons are optional: Dick's Picks 30 writes its set headings
+      // flush left (`''March 25 – first set:''`), and requiring a colon made
+      // them invisible — the eight bonus-date tracks of disc one then fell to
+      // the show in progress and 3/28 came back as a 36-track night.
+      line.match(/^:*''(.+?)''/) ??
       line.match(/^'''(.+?)'''/);
     if (!heading) return null;
     const inner = heading[1];
@@ -322,7 +326,7 @@ function tracksByDate(
 
   for (const line of wikitext.split('\n')) {
     const isHeading =
-      /^=+.*=+\s*$/.test(line) || /^:+''/.test(line) || /^'''/.test(line);
+      /^=+.*=+\s*$/.test(line) || /^:*''/.test(line) || /^'''/.test(line);
     if (isHeading) {
       const flipped = headingDate(line);
       if (flipped) {
@@ -744,7 +748,7 @@ for (const source of sources) {
   const { byDate, orphans } = tracksByDate(wikitext, bucketing);
   if (orphans) {
     console.log(
-      `  ! ${orphans} track(s) before the first dated heading — ignored`,
+      `  ! ${orphans} track(s) under no date the release claims — ignored`,
     );
   }
   const filled = await fillUntimed(byDate.get(date) ?? [], source, date);

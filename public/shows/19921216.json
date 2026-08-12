@@ -1,0 +1,89 @@
+{
+  "id": "19921216",
+  "date": "1992-12-16",
+  "venue": "Oakland Coliseum Arena",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19921216.svg",
+  "songCount": 18,
+  "durationSeconds": 10046,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 322
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 610
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 785
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 779
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 881
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 656
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 536
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 338
+    }
+  ]
+}

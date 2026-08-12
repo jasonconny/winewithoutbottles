@@ -1,0 +1,117 @@
+{
+  "id": "19720927",
+  "date": "1972-09-27",
+  "venue": "Stanley Theater",
+  "city": "Jersey City",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19720927.svg",
+  "songCount": 25,
+  "durationSeconds": 11805,
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 758
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 706
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 359
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 282
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 445
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 974
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 810
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1849
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 318
+    }
+  ]
+}

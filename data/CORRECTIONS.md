@@ -126,15 +126,18 @@ art, where the authored data deliberately **differs from the release's own track
 listing**. A release names tracks for a CD index, not for a setlist, so its
 splits and spellings are not always the performance. Each is confirmed by Jason.
 
-| Show(s)    | Release says                                                                     | Authored as                             | Why                                                                                                                                                                                                                                                                                                               |
-| ---------- | -------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                      | `King Solomon's Marbles` (6:26)         | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
-| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`              | `That's It for the Other One` (16:53)   | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
-| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                    | `That's It for the Other One` (24:16)   | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
-| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical` | left split, `Cryptical Envelopment` × 2 | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
-| 1970-04-15 | `Technical Difficulties` (4:11)                                                  | dropped (`notASong`)                    | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
-| 1981-05-16 | `Nobody's Jam` (2:30)                                                            | `Nobody's Jam` (kept, as its own song)  | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
-| 1975-09-28 | `The Eleven Jam` (5:34)                                                          | `Jam` (5:34)                            | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
+| Show(s)    | Release says                                                                                           | Authored as                             | Why                                                                                                                                                                                                                                                                                                               |
+| ---------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                                            | `King Solomon's Marbles` (6:26)         | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
+| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`                                    | `That's It for the Other One` (16:53)   | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
+| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                                          | `That's It for the Other One` (24:16)   | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
+| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical`                       | left split, `Cryptical Envelopment` × 2 | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
+| 1970-04-15 | `Technical Difficulties` (4:11)                                                                        | dropped (`notASong`)                    | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
+| 1981-05-16 | `Nobody's Jam` (2:30)                                                                                  | `Nobody's Jam` (kept, as its own song)  | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
+| 1975-09-28 | `The Eleven Jam` (5:34)                                                                                | `Jam` (5:34)                            | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
+| 1982-08-07 | `Encore: U.S. Blues` printed on Disc One, straight after the first set                                 | `U.S. Blues` last, after `Morning Dew`  | Purest case of a CD index differing from a setlist: the encore is on disc one because that is where it fit. Both circulating soundboards (`gd1982-08-07.137625.sbd.miller`, `…141795.sbd.pcm.streeter.dalton.miller.clugston`) have it as the closer.                                                             |
+| 1982-08-07 | `Drums` (5:31) / `Space` (5:31), footnoted "Edited version of performance"                             | `Drums` (8:22) / `Space` (4:24)         | The release says outright that these two are edited, so its timings describe the CD, not the night. Taken from the PCM transfer of Dan Healy's master cassettes (Streeter reels → Dalton PCM → Clugston/Miller), the best-lineage unedited source; a second soundboard corroborates a ~13-minute pair.            |
+| 1972-03-28 | `Sidewalks of New York` (1:10), called in the article "a brief, instrumental tuning before the encore" | kept as a song                          | **Not** retired the way `Beer Barrel Polka` and `Funiculì, Funiculà` were. Jason's call: this is the Dead's only live performance of it, which makes it singular rather than routine tuning.                                                                                                                      |
 
 The Cryptical rule is mechanical and worth restating, since it will come up
 again: fold a `Cryptical Envelopment` … `Cryptical Envelopment` span into one
@@ -162,6 +165,16 @@ later, and it is full Space from there to the end. So the single track is
 authored as two stripes, `Drums` (18:45) + `Space` (3:41), the remainder being
 arithmetic rather than a second judgement.
 
+`1972-09-17` (_Dick's Picks Volume 23_) is the mirror case: the release is
+otherwise the complete Baltimore Civic Center show, and its own article says so
+— "complete concert, except for the encore, which was `One More Saturday
+Night`". The circulating soundboard (`gd72-09-17.sbd.hamilton`) stops short of
+the encore too, so for a while the show stood at 23 stripes with a documented
+song missing. Jason found an audience tape,
+`gd1972-09-17.aud-wolfson.minches.28165.shnf`, which carries it at **5:34**, and
+that is the authored timing. The `source` names both, pipe-separated, because
+23 of the 24 stripes are the release's.
+
 This is the same kind of call as the 1974-10-19 `He's Gone` / `Truckin'` split
 above: an official release's track _grouping_ is a CD index, not a claim about
 where one piece of music ends. Where the grouping and the performance disagree
@@ -185,6 +198,28 @@ Kreutzmann) – 20:45` never closes its quote, so the unquoted fallback kept the
 colon and minted `The Other One:` as a separate song. Fixed in `cleanWikiTitle`
 (`generator/import.ts`) by stripping a trailing colon — no song title ends in
 one — rather than by aliasing the artifact.
+
+### Set headings written flush left
+
+The `Dick's Picks` articles head their sets with an unindented italic line —
+`''March 25 – first set:''`, `''Bonus tracks recorded September 2, 1980:''` —
+where the releases imported earlier indent theirs (`:''First set:''`). The
+importer's heading test required at least one leading colon, so on those
+articles **every** set heading was invisible and every track fell to whichever
+show the listing was already on. Three of the nine Dick's Picks imports were
+wrong because of it:
+
+| Show       | Wrong                                                                             | Right |
+| ---------- | --------------------------------------------------------------------------------- | ----- |
+| 1972-03-28 | 36 tracks — disc one's Bo Diddley guest set (3/25) and a 3/27 selection prepended | 27    |
+| 1985-11-01 | 26 tracks — four bonus tracks from 1980-09-02, Rochester, appended                | 22    |
+| 1992-12-16 | 22 tracks — four bonus tracks from 1992-12-17 appended                            | 18    |
+
+The 1985 case is the loudest: it silently placed five-years-earlier music from
+another state inside a 1985 show. Fixed by making the indent optional in
+`tracksByDate`'s heading match (`generator/import.ts`). `--audit` reports the
+same 129 shows at +0:00 before and after, so no already-imported show was
+reading its headings that way.
 
 ### Reclassified as not a song
 
