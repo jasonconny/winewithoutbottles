@@ -105,8 +105,8 @@
       "tag": "Dick's Picks",
       "dates": ["1968-02-23", "1968-02-24"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from bold; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from bold; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -235,8 +235,8 @@
       "tag": "Dick's Picks",
       "dates": ["1969-04-26", "1969-04-27"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from bullet; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from bullet; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -274,8 +274,8 @@
       "tag": "Dick's Picks",
       "dates": ["1969-11-08"],
       "bonusDates": ["1969-11-07"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -366,7 +366,7 @@
       "bonusDates": [],
       "dates": ["1970-02-13", "1970-02-14"],
       "completeness": "partial",
-      "note": "article: recorded February 13 and 14, 1970, Fillmore East; three sets per night, three CDs — selections",
+      "note": "article: recorded February 13 and 14, 1970, Fillmore East; three sets per night, three CDs — selections; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -391,8 +391,8 @@
       "tag": "Dick's Picks",
       "dates": ["1970-05-02"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -519,8 +519,8 @@
       "tag": "Dick's Picks",
       "dates": ["1971-08-06", "1971-08-07", "1971-08-24"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "date from the article infobox; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "date from the article infobox; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -558,8 +558,8 @@
       "tag": "Dick's Picks",
       "dates": ["1971-10-31"],
       "bonusDates": [],
-      "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "completeness": "partial",
+      "note": "principal date from the discography; article says \"complete concert\"; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -671,7 +671,7 @@
       "bonusDates": ["1972-03-25", "1972-03-27"],
       "dates": ["1972-03-28"],
       "completeness": "complete",
-      "note": "article: \"the entire March 28, 1972 performance plus selections from March 25, 1972, and March 27, 1972\"",
+      "note": "article: \"the entire March 28, 1972 performance plus selections from March 25, 1972, and March 27, 1972\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -837,7 +837,7 @@
       "dates": ["1972-09-17"],
       "bonusDates": [],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "note": "principal date from the discography; article says \"complete concert\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -849,8 +849,8 @@
       "tag": "Dick's Picks",
       "dates": ["1972-09-21"],
       "bonusDates": ["1972-09-03"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -862,8 +862,8 @@
       "tag": "Dick's Picks",
       "dates": ["1972-09-27"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -901,8 +901,8 @@
       "tag": "Dick's Picks",
       "dates": ["1973-02-26", "1973-02-28"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from heading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from heading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1051,7 +1051,7 @@
       "dates": ["1973-10-19"],
       "bonusDates": [],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "note": "principal date from the discography; article says \"complete concert\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1102,8 +1102,8 @@
       "tag": "Dick's Picks",
       "dates": ["1973-11-30", "1973-12-02"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from subheading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1141,8 +1141,8 @@
       "tag": "Dick's Picks",
       "dates": ["1973-12-19"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1180,8 +1180,8 @@
       "tag": "Dick's Picks",
       "dates": ["1974-03-23"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1258,8 +1258,8 @@
       "tag": "Dick's Picks",
       "dates": ["1974-06-26", "1974-06-28"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from subheading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1297,8 +1297,8 @@
       "tag": "Dick's Picks",
       "dates": ["1974-08-04", "1974-08-05", "1974-08-06"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from subheading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1310,8 +1310,8 @@
       "tag": "Dick's Picks",
       "dates": ["1974-09-09", "1974-09-10", "1974-09-11"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from subheading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1433,8 +1433,8 @@
       "tag": "Dick's Picks",
       "dates": ["1976-09-25", "1976-09-28"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from heading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from heading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1459,8 +1459,8 @@
       "tag": "Dick's Picks",
       "dates": ["1976-10-09", "1976-10-10"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from subheading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1582,8 +1582,8 @@
       "tag": "Dick's Picks",
       "dates": ["1977-05-19", "1977-05-21"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from heading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from heading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1660,8 +1660,8 @@
       "tag": "Dick's Picks",
       "dates": ["1977-09-03"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1725,8 +1725,8 @@
       "tag": "Dick's Picks",
       "dates": ["1977-11-05"],
       "bonusDates": ["1977-11-02"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1751,8 +1751,8 @@
       "tag": "Dick's Picks",
       "dates": ["1977-12-29"],
       "bonusDates": ["1977-12-30"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1791,7 +1791,7 @@
       "bonusDates": ["1978-02-04"],
       "dates": ["1978-02-03", "1978-02-05"],
       "completeness": "partial",
-      "note": "article: 2/3 Madison and 2/5 Cedar Falls, plus two songs from 2/4 Milwaukee; disc 1 recombines all three",
+      "note": "article: 2/3 Madison and 2/5 Cedar Falls, plus two songs from 2/4 Milwaukee; disc 1 recombines all three; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1877,8 +1877,8 @@
       "tag": "Dick's Picks",
       "dates": ["1978-05-10", "1978-05-11"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "dates from subheading; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2026,8 +2026,8 @@
       "tag": "Dick's Picks",
       "dates": ["1979-12-26"],
       "bonusDates": [],
-      "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "completeness": "partial",
+      "note": "principal date from the discography; article says \"complete concert\"; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2163,8 +2163,8 @@
       "tag": "Dick's Picks",
       "dates": ["1981-05-06"],
       "bonusDates": ["1979-11-01"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2202,8 +2202,8 @@
       "tag": "Dick's Picks",
       "dates": ["1982-08-07"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2254,8 +2254,8 @@
       "tag": "Dick's Picks",
       "dates": ["1983-10-14"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2328,7 +2328,7 @@
       "dates": ["1985-11-01"],
       "bonusDates": [],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "note": "principal date from the discography; article says \"complete concert\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2622,8 +2622,8 @@
       "tag": "Dick's Picks",
       "dates": ["1990-09-16"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2700,8 +2700,8 @@
       "tag": "Dick's Picks",
       "dates": ["1991-09-25"],
       "bonusDates": ["1991-03-31"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "partial",
+      "note": "principal date from the discography; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2726,8 +2726,8 @@
       "tag": "Dick's Picks",
       "dates": ["1992-12-16"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {

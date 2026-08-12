@@ -235,6 +235,77 @@ const COMPLETENESS_BY_HAND: Record<string, Release['completeness']> = {
   'Road Trips Volume 2 Number 1': 'partial',
   // A partial release of the 5/22/77 show, per Jason.
   "Dick's Picks Volume 3": 'partial',
+
+  // ---------------------------------------------------------------------
+  // Dick's Picks, all 33 volumes with unimported dates, verified 2026-08-11
+  // by diffing each release against the fullest circulating soundboard
+  // (`tsx generator/import.ts <id> --gaps`).
+  //
+  // The whole series is pinned here, including volumes the parser had already
+  // called complete, because its `/complete concerts?/i` probe is demonstrably
+  // unreliable on these articles: Volume 2 was marked complete and holds 6 of
+  // the 21 songs played. "A regex found the phrase" and "we checked" needed to
+  // stop being the same value.
+  //
+  // Jason's rule: only a release holding *every* song played counts as
+  // complete. Anything short is partial and gets his review — which matters
+  // for a highlights series that predates any house model for what a
+  // Dick's Picks volume should be.
+  // ---------------------------------------------------------------------
+
+  // Verified complete: release track list matches the soundboard exactly.
+  "Dick's Picks Volume 11": 'complete', // 23/23
+  "Dick's Picks Volume 15": 'complete', // 19/19
+  "Dick's Picks Volume 19": 'complete', // 22/22
+  "Dick's Picks Volume 21": 'complete', // 22/22
+  "Dick's Picks Volume 23": 'complete', // 23/23
+  "Dick's Picks Volume 27": 'complete', // 18/18
+  "Dick's Picks Volume 30": 'complete', // 27/27, plus 3/25 + 3/27 bonus
+  "Dick's Picks Volume 32": 'complete', // 24/24
+  "Dick's Picks Volume 36": 'complete', // 27/27
+  // Its show is already in the corpus, so it never entered the sweep; verified
+  // separately so the series has no unaudited volumes left. 20/20.
+  "Dick's Picks Volume 9": 'complete',
+
+  // Partial: a single night, but the release is short of it. Percentages are
+  // songs-on-release ÷ songs-played.
+  "Dick's Picks Volume 1": 'partial', // 48%
+  "Dick's Picks Volume 2": 'partial', // 29% — was 'complete' from the phrase probe
+  "Dick's Picks Volume 5": 'partial', // 96%, missing Space — was 'complete'
+  "Dick's Picks Volume 6": 'partial', // 90%
+  "Dick's Picks Volume 8": 'partial', // whole concert bar Cold Rain and Snow, per Jason
+  "Dick's Picks Volume 10": 'partial', // 86%
+  "Dick's Picks Volume 13": 'partial', // 95%
+  "Dick's Picks Volume 16": 'partial', // 86%
+  "Dick's Picks Volume 17": 'partial', // 86%
+  "Dick's Picks Volume 24": 'partial', // 57%
+  "Dick's Picks Volume 34": 'partial', // 95%
+
+  // Partial: two nights, each well represented but neither whole.
+  "Dick's Picks Volume 20": 'partial', // 91% / 86%
+  "Dick's Picks Volume 25": 'partial', // 85% / 82%
+  "Dick's Picks Volume 28": 'partial', // 73% / 94%
+  "Dick's Picks Volume 33": 'partial', // 94% / 92%
+  // Both shows are already in the corpus (Jason's 2013 Spring '77 work), so it
+  // never entered the sweep. 5/19 is whole at 19/19, but 5/21 is missing
+  // U.S. Blues — so the release is partial even though one of its nights is not.
+  "Dick's Picks Volume 29": 'partial',
+
+  // Partial, and *too diffuse to attribute*: several nights at one venue with
+  // the tracks jumbled between them, so no night can be reconstructed from the
+  // release at all. Either the article gives no per-night attribution, or it
+  // does and every night still comes back far short — the signature of a
+  // compilation rather than a release missing a few songs. These need manual
+  // work; do not try to source a show from them.
+  "Dick's Picks Volume 4": 'partial', // Fillmore East, 2 nights, no attribution
+  "Dick's Picks Volume 7": 'partial', // 3 nights: 28% / 36% / 15%
+  "Dick's Picks Volume 12": 'partial', // 2 nights: 30% / 52%
+  "Dick's Picks Volume 14": 'partial', // 2 nights: 59% / 48%
+  "Dick's Picks Volume 18": 'partial', // 2 nights, no attribution
+  "Dick's Picks Volume 22": 'partial', // 2 nights, and no tape catalogued either
+  "Dick's Picks Volume 26": 'partial', // 2 nights, no attribution
+  "Dick's Picks Volume 31": 'partial', // 3 nights: 42% / 50% / 17%
+  "Dick's Picks Volume 35": 'partial', // 3 nights, no attribution
 };
 
 export interface Release {

@@ -415,7 +415,7 @@
     },
     {
       "title": "It's All Over Now, Baby Blue",
-      "aliases": ["It's All Over Now Baby Blue"],
+      "aliases": ["Baby Blue", "It's All Over Now Baby Blue"],
       "sharesPrefixWith": "It's All Over Now"
     },
     {
@@ -913,6 +913,7 @@
     "Beer Barrell Polka",
     "Bobby Announcement",
     "crowd",
+    "crowd / tuning",
     "crowd noise",
     "Encore Break",
     "Funiculi Funicula",
@@ -928,9 +929,12 @@
     "Spanish Jam Tuning",
     "Stage Announcements",
     "Take A Step Back",
+    "tech problem",
     "Technical Difficulties",
     "Tuning",
     "Tuning intro",
-    "Tuning Rap"
+    "Tuning Rap",
+    "tuning/banter",
+    "Weir messing around"
   ]
 }
