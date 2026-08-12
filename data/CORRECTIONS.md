@@ -35,7 +35,7 @@ archive reflects the right title rather than preserving the typo.
 | 1976 ×10   | BEW     | mis-colored stripe (`144-65-140`, G channel off); 06-04, 06-09, 06-10, 06-11, 06-12, 06-14, 06-18, 06-19, 06-21, 06-23 | `Brown-Eyed Women` (`144-78-140`)                       |
 | 1976-06-18 | #19     | mis-colored stripe (`120-78-105`)                                                                                      | `Sugar Magnolia`                                        |
 | 1990-03-14 | #13     | mis-colored jam stripe (`135-100-60`)                                                                                  | `Jam` (`100-10-130`)                                    |
-| 1990-03-25 | #20     | mis-colored stripe (`105-136-95`)                                                                                      | `Quinn the Eskimo (Mighty Quinn)`                       |
+| 1990-03-25 | #20     | mis-colored stripe (`105-136-95`)                                                                                      | `Quinn the Eskimo (The Mighty Quinn)`                   |
 | 1990-04-02 | #2      | mis-colored stripe (`131-128-128`, G off by 8)                                                                         | `Mississippi Half-Step Uptown Toodeloo` (`131-120-128`) |
 | 1990-10-17 | #9      | mis-colored stripe (`133-120-48`, G off by 14)                                                                         | `Tennessee Jed` (`133-106-48`)                          |
 | 1990-10-22 | #4      | mis-colored stripe (`90-45-102`, G off by 5)                                                                           | `Wang Dang Doodle` (`90-50-102`)                        |
@@ -119,6 +119,19 @@ _mean_, so both render `131,120,128`. That is exactly why it survived so long,
 and why `tests/data-validity.test.ts` now rejects two canonical titles that are
 letter-for-letter rearrangements of each other.
 
+### Quinn the Eskimo, retitled
+
+`Quinn the Eskimo (Mighty Quinn)` became **`Quinn the Eskimo (The Mighty
+Quinn)`** on 2026-08-12: Jason checked bobdylan.com, and that is the official
+title of the song. The old form is kept as an alias, alongside the release
+spellings `The Mighty Quinn` and `The Mighty Quinn (Quinn the Eskimo)`.
+
+Unlike the Half-Step fold this one **is visible in the art**. The extra `THE_`
+lengthens the cleaned title from 30 to 33 characters and shifts every channel
+slice, so the stripe moves from `108,104,135` to `103,103,131` — slightly
+darker, slightly less blue. Five shows carry the song, one stripe each:
+19880919, 19900325, 19900919, 19910909 and 19910925.
+
 ## Import departures
 
 Shows imported from an official release rather than bootstrapped from the 2013
@@ -126,18 +139,21 @@ art, where the authored data deliberately **differs from the release's own track
 listing**. A release names tracks for a CD index, not for a setlist, so its
 splits and spellings are not always the performance. Each is confirmed by Jason.
 
-| Show(s)    | Release says                                                                                           | Authored as                             | Why                                                                                                                                                                                                                                                                                                               |
-| ---------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                                            | `King Solomon's Marbles` (6:26)         | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
-| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`                                    | `That's It for the Other One` (16:53)   | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
-| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                                          | `That's It for the Other One` (24:16)   | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
-| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical`                       | left split, `Cryptical Envelopment` × 2 | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
-| 1970-04-15 | `Technical Difficulties` (4:11)                                                                        | dropped (`notASong`)                    | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
-| 1981-05-16 | `Nobody's Jam` (2:30)                                                                                  | `Nobody's Jam` (kept, as its own song)  | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
-| 1975-09-28 | `The Eleven Jam` (5:34)                                                                                | `Jam` (5:34)                            | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
-| 1982-08-07 | `Encore: U.S. Blues` printed on Disc One, straight after the first set                                 | `U.S. Blues` last, after `Morning Dew`  | Purest case of a CD index differing from a setlist: the encore is on disc one because that is where it fit. Both circulating soundboards (`gd1982-08-07.137625.sbd.miller`, `…141795.sbd.pcm.streeter.dalton.miller.clugston`) have it as the closer.                                                             |
-| 1982-08-07 | `Drums` (5:31) / `Space` (5:31), footnoted "Edited version of performance"                             | `Drums` (8:22) / `Space` (4:24)         | The release says outright that these two are edited, so its timings describe the CD, not the night. Taken from the PCM transfer of Dan Healy's master cassettes (Streeter reels → Dalton PCM → Clugston/Miller), the best-lineage unedited source; a second soundboard corroborates a ~13-minute pair.            |
-| 1972-03-28 | `Sidewalks of New York` (1:10), called in the article "a brief, instrumental tuning before the encore" | kept as a song                          | **Not** retired the way `Beer Barrel Polka` and `Funiculì, Funiculà` were. Jason's call: this is the Dead's only live performance of it, which makes it singular rather than routine tuning.                                                                                                                      |
+| Show(s)    | Release says                                                                                           | Authored as                                  | Why                                                                                                                                                                                                                                                                                                               |
+| ---------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                                            | `King Solomon's Marbles` (6:26)              | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
+| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`                                    | `That's It for the Other One` (16:53)        | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
+| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                                          | `That's It for the Other One` (24:16)        | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
+| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical`                       | left split, `Cryptical Envelopment` × 2      | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
+| 1970-04-15 | `Technical Difficulties` (4:11)                                                                        | dropped (`notASong`)                         | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
+| 1981-05-16 | `Nobody's Jam` (2:30)                                                                                  | `Nobody's Jam` (kept, as its own song)       | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
+| 1975-09-28 | `The Eleven Jam` (5:34)                                                                                | `Jam` (5:34)                                 | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
+| 1982-08-07 | `Encore: U.S. Blues` printed on Disc One, straight after the first set                                 | `U.S. Blues` last, after `Morning Dew`       | Purest case of a CD index differing from a setlist: the encore is on disc one because that is where it fit. Both circulating soundboards (`gd1982-08-07.137625.sbd.miller`, `…141795.sbd.pcm.streeter.dalton.miller.clugston`) have it as the closer.                                                             |
+| 1982-08-07 | `Drums` (5:31) / `Space` (5:31), footnoted "Edited version of performance"                             | `Drums` (8:22) / `Space` (4:24)              | The release says outright that these two are edited, so its timings describe the CD, not the night. Taken from the PCM transfer of Dan Healy's master cassettes (Streeter reels → Dalton PCM → Clugston/Miller), the best-lineage unedited source; a second soundboard corroborates a ~13-minute pair.            |
+| 1972-03-28 | `Sidewalks of New York` (1:10), called in the article "a brief, instrumental tuning before the encore" | kept as a song                               | **Not** retired the way `Beer Barrel Polka` and `Funiculì, Funiculà` were. Jason's call: this is the Dead's only live performance of it, which makes it singular rather than routine tuning.                                                                                                                      |
+| 1981-05-06 | one 15:24 track, `Caution / Spanish Jam`                                                               | `Caution Jam` (11:06) + `Spanish Jam` (4:18) | Two pieces under one CD index. The combined-track rule (take the last title) only fires on two separately quoted titles, and both pieces are canonical here, so neither half should vanish. Jason placed the seam: Jerry starts the Spanish Jam at 11:06, and the remainder is arithmetic.                        |
+| 1983-10-14 | `Spinach Jam` (13:05)                                                                                  | `Space` (13:05)                              | The name is the release's alone — DeadBase and JerryBase both read `Space > Spanish Jam` across this stretch. Jason doesn't hear a Spanish Jam in it, so it stands as one `Space` stripe rather than a jam the canon would otherwise have to mint.                                                                |
+| 1991-09-25 | `Boston Clam Jam` (5:37)                                                                               | `Jam` (5:37)                                 | A compiler's pun on the venue, not a piece of repertoire. Folded into `Jam` like `Mock Turtle Jam` / `No MSG Jam` / `The Eleven Jam` before it, rather than joining the named jams (`Spanish Jam`, `Mind Left Body Jam`) that name a theme.                                                                       |
 
 The Cryptical rule is mechanical and worth restating, since it will come up
 again: fold a `Cryptical Envelopment` … `Cryptical Envelopment` span into one
@@ -180,6 +196,32 @@ above: an official release's track _grouping_ is a CD index, not a claim about
 where one piece of music ends. Where the grouping and the performance disagree
 and Jason can hear the boundary, the performance wins.
 
+### Shows whose setlist can't be known
+
+`data/unknown-setlists/` is a third holding pen, alongside `data/shows/` and
+`data/partial-shows/`, opened on 2026-08-12 for **`1971-08-24`** (Auditorium
+Theatre, Chicago).
+
+_Dick's Picks Volume 35_ presents it as one of two complete shows, and the
+importer read it that way — 16 tracks, 1h34, short for 1971. It isn't a short
+show, it's a fragment: per JerryBase the tape was found among Keith Godchaux's
+houseboat tapes, only what was salvageable was released, and nothing else
+circulates. DeadBase 50 lists mostly the same songs **in a different order**,
+and where the rest of its setlist came from is unclear. No tape is catalogued on
+archive.org for the date, so there is nothing to check either source against.
+
+That is a different condition from a staged partial. A partial is waiting for a
+timing somebody can still supply; this is waiting for nothing. And it can't sit
+in `data/shows/`, because stripes are a claim about what was played and in what
+order — a claim the record here doesn't support. So the file keeps its 16
+surviving timings and a required `note` explaining the doubt, and stays out of
+the generator's reach (`generate.ts` reads `data/shows` recursively and never
+sees the sibling).
+
+`data/releases.json` records the same judgement by keeping `1971-08-24` out of
+Dick's Picks 35's `dates` — the convention that already means "this release
+can't source that show whole".
+
 ### Source typos
 
 Wikipedia's _Enjoying the Ride_ track listing misspells four titles. They are
@@ -198,6 +240,19 @@ Kreutzmann) – 20:45` never closes its quote, so the unquoted fallback kept the
 colon and minted `The Other One:` as a separate song. Fixed in `cleanWikiTitle`
 (`generator/import.ts`) by stripping a trailing colon — no song title ends in
 one — rather than by aliasing the artifact.
+
+### Additions to the canon from Dick's Picks
+
+Two titles the canon didn't hold, both settled by Jason on 2026-08-12:
+
+- **`Empty Pages`** (5:22, `1971-08-24`, _Dick's Picks Volume 35_) is a Pigpen
+  original — the release credits McKernan, not Traffic's Steve Winwood, whose
+  same-named song it isn't. Added as a canonical song with its own colour.
+- **`Phil Solo`** (2:06, `1977-11-05`, _Dick's Picks Volume 34_) went to
+  `notASong`. It opens the second set immediately before `Take A Step Back`,
+  which the canon already drops: the two are one crowd-control moment, Lesh
+  playing the crowd back off the stage front rather than a piece of repertoire.
+  That takes the show from 20 tracks to 19.
 
 ### Set headings written flush left
 

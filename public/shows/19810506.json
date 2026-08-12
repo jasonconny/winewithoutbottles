@@ -1,0 +1,116 @@
+{
+  "id": "19810506",
+  "date": "1981-05-06",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19810506.svg",
+  "songCount": 25,
+  "durationSeconds": 10243,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 265
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 234
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 453
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 435
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 395
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 713
+    },
+    {
+      "title": "Caution Jam",
+      "durationSeconds": 666
+    },
+    {
+      "title": "Spanish Jam",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 222
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 207
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "19761010",
+  "date": "1976-10-10",
+  "venue": "Oakland Coliseum Stadium",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19761010.svg",
+  "songCount": 23,
+  "durationSeconds": 9503,
+  "songs": [
+    {
+      "title": "Might As Well",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 197
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 318
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 272
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 514
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 880
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 658
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 130
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 288
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 565
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 722
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 613
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 244
+    }
+  ]
+}

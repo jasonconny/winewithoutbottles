@@ -115,7 +115,8 @@
       "aliases": ["Caution", "Caution (Do Not Stop On Tracks)"]
     },
     {
-      "title": "Caution Jam"
+      "title": "Caution Jam",
+      "aliases": ["Caution / Spanish Jam"]
     },
     {
       "title": "Childhood's End"
@@ -233,6 +234,9 @@
     },
     {
       "title": "El Paso"
+    },
+    {
+      "title": "Empty Pages"
     },
     {
       "title": "Estimated Prophet"
@@ -428,6 +432,7 @@
     {
       "title": "Jam",
       "aliases": [
+        "Boston Clam Jam",
         "Jam \\",
         "Lunatic Preserve",
         "Mock Turtle Jam",
@@ -631,8 +636,13 @@
       "title": "Queen Jane Approximately"
     },
     {
-      "title": "Quinn the Eskimo (Mighty Quinn)",
-      "aliases": ["Quinn The Eskimo", "The Mighty Quinn"]
+      "title": "Quinn the Eskimo (The Mighty Quinn)",
+      "aliases": [
+        "Quinn The Eskimo",
+        "Quinn the Eskimo (Mighty Quinn)",
+        "The Mighty Quinn",
+        "The Mighty Quinn (Quinn the Eskimo)"
+      ]
     },
     {
       "title": "Rain"
@@ -711,7 +721,8 @@
       "title": "So Many Roads"
     },
     {
-      "title": "Space"
+      "title": "Space",
+      "aliases": ["Spinach Jam"]
     },
     {
       "title": "Spanish Jam"
@@ -924,6 +935,7 @@
     "Jack Straw (Soundcheck)",
     "Jones Gang introduction",
     "merry-go-round and beer-barrel tunings",
+    "Phil Solo",
     "Remember your hippie training",
     "Set II crowd",
     "Spanish Jam Tuning",

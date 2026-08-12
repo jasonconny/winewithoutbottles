@@ -249,6 +249,36 @@ rejected), durations either `""` or valid `m:ss` — because completeness is the
 whole point of the directory, and the show-data guards catch that the moment a
 file is promoted.
 
+## Shows whose setlist can't be known (`data/unknown-setlists/`)
+
+The other holding pen, and the difference from a staged partial is **intent, not
+format**: a partial is waiting for a timing somebody can still supply, these are
+waiting for nothing. The tape doesn't circulate, the sources disagree about what
+was played, and no amount of listening will settle it.
+
+They stay out of `data/shows/` because stripes are a claim about what was played
+and in what order, and here that claim can't be made. Same sibling-directory
+mechanism as partials — `generate.ts` never sees it — and the same `mv` if a
+tape ever surfaces.
+
+Written by hand, not by a flag: import the show, read what the sources actually
+say, then move the file across and add a **`note`** (on `ShowFile`, like
+`source`, so it never reaches the UI) recording what survived and why the rest
+can't be recovered. The release's index entry keeps the date **out of `dates`**,
+the same convention staged partials use.
+
+The guards mirror the staged-partial ones with two differences: the `note` is
+**required** — a file whose whole reason for existing is doubt has to carry the
+reason — and every duration must be a real `m:ss`, since what survives is
+released material with timings. A blank would mean the file is waiting for
+something, which is exactly what this directory is not for.
+
+The founding case is `19710824` (Auditorium Theatre, Chicago). _Dick's Picks
+Volume 35_ calls it one of two complete shows; per JerryBase the tape came from
+Keith Godchaux's houseboat and only the salvageable part was released, DeadBase
+50 lists mostly the same songs in a different order, and archive.org catalogues
+no tape for the date at all. See `data/CORRECTIONS.md`.
+
 ## Release tags (`generator/release-tag.ts`)
 
 A pure module so `tests/data-validity.test.ts` can share the rule without

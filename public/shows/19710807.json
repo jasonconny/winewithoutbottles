@@ -1,0 +1,104 @@
+{
+  "id": "19710807",
+  "date": "1971-08-07",
+  "venue": "Golden Hall",
+  "city": "San Diego",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19710807.svg",
+  "songCount": 22,
+  "durationSeconds": 7727,
+  "songs": [
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 242
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 224
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 185
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 608
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 328
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 359
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 650
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 271
+    }
+  ]
+}

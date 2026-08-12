@@ -517,10 +517,10 @@
       "series": "Dick's Picks",
       "eligible": true,
       "tag": "Dick's Picks",
-      "dates": ["1971-08-06", "1971-08-07", "1971-08-24"],
-      "bonusDates": [],
-      "completeness": "partial",
-      "note": "date from the article infobox; confirmed partial by hand",
+      "dates": ["1971-08-07"],
+      "bonusDates": ["1971-08-06"],
+      "completeness": "complete",
+      "note": "article: \"the complete shows recorded on August 7, 1971, at Golden Hall ... and on August 24, 1971, at the Auditorium Theatre\"; 1971-08-06 (Hollywood Palladium) is bonus tracks only. 1971-08-24 is also out of dates despite the article's claim: per JerryBase the tape came from Keith Godchaux's houseboat and only the salvageable part was released, nothing else circulates, and DeadBase 50 orders the songs differently — so it is a fragment, not a sourceable show (see data/unknown-setlists/19710824.json); confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1459,8 +1459,8 @@
       "tag": "Dick's Picks",
       "dates": ["1976-10-09", "1976-10-10"],
       "bonusDates": [],
-      "completeness": "partial",
-      "note": "dates from subheading; confirmed partial by hand",
+      "completeness": "complete",
+      "note": "dates from subheading; article: \"two consecutive complete shows, recorded on October 9 and October 10, 1976\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1725,8 +1725,8 @@
       "tag": "Dick's Picks",
       "dates": ["1977-11-05"],
       "bonusDates": ["1977-11-02"],
-      "completeness": "partial",
-      "note": "principal date from the discography; confirmed partial by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; article: \"the complete show recorded on November 5, 1977, at the Community War Memorial\", plus 1977-11-02 Seneca College bonus tracks; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2026,8 +2026,8 @@
       "tag": "Dick's Picks",
       "dates": ["1979-12-26"],
       "bonusDates": [],
-      "completeness": "partial",
-      "note": "principal date from the discography; article says \"complete concert\"; confirmed partial by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; article: \"the first of the Dick's Picks to contain a complete concert\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2163,8 +2163,8 @@
       "tag": "Dick's Picks",
       "dates": ["1981-05-06"],
       "bonusDates": ["1979-11-01"],
-      "completeness": "partial",
-      "note": "principal date from the discography; confirmed partial by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; article: \"contains the complete show recorded on May 6, 1981\"; the 1979-11-01 hidden tracks are the bonus date; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2254,8 +2254,8 @@
       "tag": "Dick's Picks",
       "dates": ["1983-10-14"],
       "bonusDates": [],
-      "completeness": "partial",
-      "note": "principal date from the discography; confirmed partial by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; article: \"contains the complete show from that night\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2326,9 +2326,9 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1985-11-01"],
-      "bonusDates": [],
+      "bonusDates": ["1980-09-02"],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"; confirmed complete by hand",
+      "note": "principal date from the discography; article says \"complete concert\", plus bonus tracks from 1980-09-02, Community War Memorial, Rochester; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2700,8 +2700,8 @@
       "tag": "Dick's Picks",
       "dates": ["1991-09-25"],
       "bonusDates": ["1991-03-31"],
-      "completeness": "partial",
-      "note": "principal date from the discography; confirmed partial by hand",
+      "completeness": "complete",
+      "note": "principal date from the discography; the article makes no completeness claim, but lists a full first set, second set and encore, plus two 1991-03-31 bonus tracks; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2725,9 +2725,9 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "dates": ["1992-12-16"],
-      "bonusDates": [],
+      "bonusDates": ["1992-12-17"],
       "completeness": "complete",
-      "note": "principal date from the discography; confirmed complete by hand",
+      "note": "principal date from the discography; the article's four closing tracks are bonus material from 1992-12-17; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {

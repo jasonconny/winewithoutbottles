@@ -1,0 +1,104 @@
+{
+  "id": "19761009",
+  "date": "1976-10-09",
+  "venue": "Oakland Coliseum Stadium",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19761009.svg",
+  "songCount": 22,
+  "durationSeconds": 9093,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 261
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 516
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 430
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 739
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 198
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 695
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 715
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 50
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 203
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 763
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 327
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 376
+    }
+  ]
+}

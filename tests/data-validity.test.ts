@@ -515,3 +515,101 @@ describe('staged partial shows are well-formed', () => {
     });
   }
 });
+
+describe('shows with unknown setlists are well-formed', () => {
+  // `data/unknown-setlists/` is the other holding pen, and the distinction from
+  // `data/partial-shows/` is intent, not format: a staged partial is waiting
+  // for a timing somebody can still supply, while these are waiting for
+  // nothing. The tape doesn't circulate, the sources disagree about what was
+  // played, and no amount of listening will settle it — 19710824 survives only
+  // as whatever was salvageable from Keith Godchaux's houseboat tapes.
+  //
+  // They are held out of `data/shows/` because the art would otherwise assert a
+  // setlist the record doesn't support: stripes are a claim about what was
+  // played and in what order, and here that claim can't be made.
+  //
+  // Format guards only, with two differences from the staged-partial block. A
+  // `note` is required — a file whose whole reason for existing is doubt has to
+  // carry the reason — and every duration must be real, since what survives is
+  // released material with timings; a blank would mean the file is waiting for
+  // something, which is exactly what this directory is not for.
+  const UNKNOWN_DIR = 'data/unknown-setlists';
+  const unknownFiles = existsSync(UNKNOWN_DIR)
+    ? (readdirSync(UNKNOWN_DIR) as string[])
+        .filter((f) => f.endsWith('.json'))
+        .sort()
+    : [];
+  const readUnknown = (file: string) =>
+    JSON.parse(readFileSync(join(UNKNOWN_DIR, file), 'utf8')) as ShowFile;
+
+  const registry = JSON.parse(readFileSync('data/songs.json', 'utf8')) as {
+    songs: { title: string; aliases?: string[] }[];
+  };
+  const canonical = new Set(registry.songs.map((song) => song.title));
+  const aliases = new Set(registry.songs.flatMap((song) => song.aliases ?? []));
+
+  it('the directory is optional and flat', () => {
+    for (const file of unknownFiles) expect(file).not.toContain('/');
+  });
+
+  it('no id collides with a show that already exists, or with a staged partial', () => {
+    const real = new Set(dataFiles().map((f) => readShow(f).id));
+    const staged = new Set(
+      (existsSync('data/partial-shows')
+        ? (readdirSync('data/partial-shows') as string[])
+        : []
+      )
+        .filter((f) => f.endsWith('.json'))
+        .map(
+          (f) =>
+            (
+              JSON.parse(
+                readFileSync(join('data/partial-shows', f), 'utf8'),
+              ) as ShowFile
+            ).id,
+        ),
+    );
+    for (const file of unknownFiles) {
+      const id = readUnknown(file).id;
+      expect(
+        real.has(id),
+        `${file} duplicates ${id}, which is already in data/shows/`,
+      ).toBe(false);
+      expect(
+        staged.has(id),
+        `${file} duplicates ${id}, which is already staged in data/partial-shows/`,
+      ).toBe(false);
+    }
+  });
+
+  if (unknownFiles.length) {
+    it.each(unknownFiles)('%s is well-formed', (file) => {
+      const show = readUnknown(file);
+
+      expect(show.id).toMatch(ID_RE);
+      expect(`${show.id}.json`).toBe(basename(file));
+      expect(show.date).toMatch(DATE_RE);
+      expect(show.date.replaceAll('-', '')).toBe(show.id);
+      expect(show.songs.length).toBeGreaterThan(0);
+      expect(
+        (show.note ?? '').length,
+        `${file}: needs a note saying what survived and why the setlist can't be known`,
+      ).toBeGreaterThan(0);
+
+      for (const song of show.songs) {
+        expect(
+          aliases.has(song.title),
+          `"${song.title}" is an alias; use the canonical title`,
+        ).toBe(false);
+        expect(
+          canonical.has(song.title),
+          `"${song.title}" is not in data/songs.json — add it deliberately or alias it`,
+        ).toBe(true);
+        expect(
+          isValidDuration(song.duration),
+          `"${song.title}" has duration "${song.duration}" — what survives is released material, so it is timed`,
+        ).toBe(true);
+      }
+    });
+  }
+});

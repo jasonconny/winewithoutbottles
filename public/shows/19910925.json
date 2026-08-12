@@ -1,0 +1,104 @@
+{
+  "id": "19910925",
+  "date": "1991-09-25",
+  "venue": "Boston Garden",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19910925.svg",
+  "songCount": 22,
+  "durationSeconds": 9774,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 641
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 390
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 470
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 578
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 767
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 664
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 495
+    },
+    {
+      "title": "That Would Be Something",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 323
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 541
+    },
+    {
+      "title": "Quinn the Eskimo (The Mighty Quinn)",
+      "durationSeconds": 283
+    }
+  ]
+}

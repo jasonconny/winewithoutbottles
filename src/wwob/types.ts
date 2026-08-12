@@ -53,6 +53,14 @@ export interface ShowFile extends ShowMeta {
    * reaches `ShowSummary`, the bundled index, or the UI.
    */
   source?: string;
+  /**
+   * Why this file is held out of `data/shows/`. Only `data/unknown-setlists/`
+   * uses it: those shows have no knowable setlist (the tape doesn't circulate
+   * and the sources disagree), so the note records what survived and why the
+   * rest can't be recovered. Like `source`, it never reaches `ShowSummary` or
+   * the UI — `toSummary` in generator/generate.ts builds its fields explicitly.
+   */
+  note?: string;
   songs: { title: string; duration: string }[];
 }
 

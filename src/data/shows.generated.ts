@@ -167,6 +167,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8646
   },
   {
+    "id": "19710807",
+    "date": "1971-08-07",
+    "venue": "Golden Hall",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19710807.svg",
+    "songCount": 22,
+    "durationSeconds": 7727
+  },
+  {
     "id": "19720328",
     "date": "1972-03-28",
     "venue": "Academy of Music",
@@ -945,6 +959,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9563
   },
   {
+    "id": "19761009",
+    "date": "1976-10-09",
+    "venue": "Oakland Coliseum Stadium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19761009.svg",
+    "songCount": 22,
+    "durationSeconds": 9093
+  },
+  {
+    "id": "19761010",
+    "date": "1976-10-10",
+    "venue": "Oakland Coliseum Stadium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19761010.svg",
+    "songCount": 23,
+    "durationSeconds": 9503
+  },
+  {
     "id": "19770320",
     "date": "1977-03-20",
     "venue": "Winterland",
@@ -1336,6 +1378,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10562
   },
   {
+    "id": "19771105",
+    "date": "1977-11-05",
+    "venue": "Community War Memorial",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19771105.svg",
+    "songCount": 19,
+    "durationSeconds": 9434
+  },
+  {
     "id": "19780513",
     "date": "1978-05-13",
     "venue": "Spectrum",
@@ -1447,6 +1503,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9964
   },
   {
+    "id": "19791226",
+    "date": "1979-12-26",
+    "venue": "Oakland Auditorium Arena",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19791226.svg",
+    "songCount": 25,
+    "durationSeconds": 10566
+  },
+  {
     "id": "19800823",
     "date": "1980-08-23",
     "venue": "Alpine Valley Music Theatre",
@@ -1529,6 +1599,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19810501.svg",
     "songCount": 22,
     "durationSeconds": 10328
+  },
+  {
+    "id": "19810506",
+    "date": "1981-05-06",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19810506.svg",
+    "songCount": 25,
+    "durationSeconds": 10243
   },
   {
     "id": "19810516",
@@ -1641,6 +1725,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19831012.svg",
     "songCount": 20,
     "durationSeconds": 10267
+  },
+  {
+    "id": "19831014",
+    "date": "1983-10-14",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19831014.svg",
+    "songCount": 20,
+    "durationSeconds": 10655
   },
   {
     "id": "19831021",
@@ -2702,6 +2800,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910918.svg",
     "songCount": 18,
     "durationSeconds": 9358
+  },
+  {
+    "id": "19910925",
+    "date": "1991-09-25",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19910925.svg",
+    "songCount": 22,
+    "durationSeconds": 9774
   },
   {
     "id": "19920320",
