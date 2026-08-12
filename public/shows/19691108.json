@@ -1,0 +1,105 @@
+{
+  "id": "19691108",
+  "date": "1969-11-08",
+  "venue": "Fillmore Auditorium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19691108.svg",
+  "songCount": 22,
+  "durationSeconds": 9928,
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "durationSeconds": 813
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Easy Wind",
+      "durationSeconds": 542
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 225
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 340
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 849
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 722
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 60
+    },
+    {
+      "title": "Uncle John's Band Jam",
+      "durationSeconds": 153
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 185
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 464
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 841
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 1048
+    },
+    {
+      "title": "The Main Ten",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 542
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 477
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 208
+    }
+  ]
+}

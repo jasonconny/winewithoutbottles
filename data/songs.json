@@ -437,6 +437,7 @@
         "Lunatic Preserve",
         "Mock Turtle Jam",
         "No MSG Jam",
+        "Orange Tango Jam",
         "The Eleven Jam"
       ]
     },
@@ -625,7 +626,8 @@
       "aliases": [
         "Playin' In The Band",
         "Playin' In The Band (with false start)",
-        "Playing In The Band"
+        "Playing In The Band",
+        "Playing Jam"
       ]
     },
     {
@@ -788,6 +790,10 @@
       "title": "The Last Time"
     },
     {
+      "title": "The Main Ten",
+      "aliases": ["Main Ten Jam"]
+    },
+    {
       "title": "The Music Never Stopped"
     },
     {
@@ -850,6 +856,11 @@
     {
       "title": "Uncle John's Band",
       "aliases": ["Uncle Johns Band"]
+    },
+    {
+      "title": "Uncle John's Band Jam",
+      "aliases": ["Uncle John's Jam"],
+      "sharesPrefixWith": "Uncle John's Band"
     },
     {
       "title": "Victim or the Crime",

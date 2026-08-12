@@ -1,0 +1,104 @@
+{
+  "id": "19760928",
+  "date": "1976-09-28",
+  "venue": "Onondaga County War Memorial",
+  "city": "Syracuse",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19760928.svg",
+  "songCount": 22,
+  "durationSeconds": 9462,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 517
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 445
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 701
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 640
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 273
+    }
+  ]
+}

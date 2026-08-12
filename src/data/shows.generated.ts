@@ -125,6 +125,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9923
   },
   {
+    "id": "19691108",
+    "date": "1969-11-08",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19691108.svg",
+    "songCount": 22,
+    "durationSeconds": 9928
+  },
+  {
     "id": "19700415",
     "date": "1970-04-15",
     "venue": "Winterland",
@@ -559,6 +574,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11805
   },
   {
+    "id": "19730228",
+    "date": "1973-02-28",
+    "venue": "Salt Palace",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19730228.svg",
+    "songCount": 20,
+    "durationSeconds": 9205
+  },
+  {
     "id": "19730316",
     "date": "1973-03-16",
     "venue": "Nassau Coliseum",
@@ -957,6 +986,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19760629.svg",
     "songCount": 22,
     "durationSeconds": 9180
+  },
+  {
+    "id": "19760925",
+    "date": "1976-09-25",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19760925.svg",
+    "songCount": 23,
+    "durationSeconds": 9657
+  },
+  {
+    "id": "19760928",
+    "date": "1976-09-28",
+    "venue": "Onondaga County War Memorial",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19760928.svg",
+    "songCount": 22,
+    "durationSeconds": 9462
   },
   {
     "id": "19761003",
@@ -1404,6 +1461,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19771105.svg",
     "songCount": 19,
     "durationSeconds": 9434
+  },
+  {
+    "id": "19771229",
+    "date": "1977-12-29",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19771229.svg",
+    "songCount": 23,
+    "durationSeconds": 10219
   },
   {
     "id": "19780513",

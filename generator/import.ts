@@ -299,6 +299,32 @@ function tracksByDate(
     release.dates.length === 1 ? release.dates[0] : null;
   let current = main;
   let orphans = 0;
+  // How deep the heading that last set `current` sits — see `headingLevel`.
+  let currentLevel = 0;
+
+  /**
+   * Rank a heading, smaller being more senior: `==Section==` outranks
+   * `===Subsection===`, which outranks `'''Disc 1'''`, which outranks
+   * `:''First set:''`.
+   *
+   * This is what tells a *subordinate* undated heading from a *sibling* one,
+   * and the two must behave differently. Dick's Picks 28 heads each night with
+   * a section (`===February 26, 1973 – Pershing…===`) and then opens discs
+   * beneath it, so `'''Disc 1'''` is inside the February 26 block and its
+   * tracks belong to that date. Dave's Picks 50 does the opposite: a `:''May 4
+   * bonus''` subheading sits *inside* a disc, and the `'''Disc 3'''` that
+   * follows leaves it behind. Treating every undated heading as a return to
+   * `main` gets the second right and the first catastrophically wrong — 2/28
+   * came back with both nights, 38 tracks.
+   */
+  const headingLevel = (line: string): number => {
+    const equals = line.match(/^(=+)/);
+    if (equals) return equals[1].length;
+    if (/^'''/.test(line)) return 10;
+    const colons = line.match(/^(:*)''/);
+    if (colons) return 20 + colons[1].length;
+    return 30;
+  };
 
   const headingDate = (line: string): string | null => {
     const heading =
@@ -328,9 +354,11 @@ function tracksByDate(
     const isHeading =
       /^=+.*=+\s*$/.test(line) || /^:*''/.test(line) || /^'''/.test(line);
     if (isHeading) {
+      const level = headingLevel(line);
       const flipped = headingDate(line);
       if (flipped) {
         current = flipped === UNKNOWN_DATE ? null : flipped;
+        currentLevel = level;
         // Only a date the release actually *contains* becomes the new main
         // show; a bonus date is a detour.
         if (release.dates.includes(flipped)) main = flipped;
@@ -349,12 +377,18 @@ function tracksByDate(
         // "Bonus tracks:" — is still bonus. Orphan it rather than letting the
         // undated rule below hand nine extra tracks to the show.
         current = null;
+        currentLevel = level;
+      } else if (level > currentLevel) {
+        // Subordinate to whatever set `current` — a disc inside a dated
+        // section, a "second set, continued" inside a disc — so it stays with
+        // it. Only reached when the dated heading outranks this one.
       } else {
-        // An undated heading — "Disc 3", "Second set, continued:" — belongs to
-        // the show in progress. Without this, a bonus block mid-listing
-        // silently swallows every track after it: Dave's Picks 50 filed its
-        // whole third disc under a May 4 bonus heading.
+        // A sibling or more senior undated heading — "Disc 3" after a set-level
+        // bonus block — belongs to the show in progress. Without this, a bonus
+        // block mid-listing silently swallows every track after it: Dave's
+        // Picks 50 filed its whole third disc under a May 4 bonus heading.
         current = main;
+        currentLevel = level;
       }
       continue;
     }
