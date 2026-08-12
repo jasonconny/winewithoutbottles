@@ -139,6 +139,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 6377
   },
   {
+    "id": "19700502",
+    "date": "1970-05-02",
+    "venue": "Harpur College",
+    "city": "Binghamton",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19700502.svg",
+    "songCount": 22,
+    "durationSeconds": 11081
+  },
+  {
     "id": "19710224",
     "date": "1971-02-24",
     "venue": "Capitol Theatre",
