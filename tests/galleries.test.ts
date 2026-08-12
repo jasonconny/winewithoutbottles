@@ -61,6 +61,21 @@ describe('slugify', () => {
     expect(slugify('  --Weird__ Name!  ')).toBe('weird-name');
     expect(slugify('Spring 1977')).toBe('spring-1977');
   });
+
+  it('removes intra-word punctuation instead of separating on it', () => {
+    // An apostrophe used to become a separator, stranding the possessive `s`
+    // as its own word: `dick-s-picks`. These are live tag-page URLs.
+    expect(slugify("Dick's Picks")).toBe('dicks-picks');
+    expect(slugify("Dave's Picks")).toBe('daves-picks');
+    expect(slugify('Dozin’ at the Knick')).toBe('dozin-at-the-knick');
+  });
+
+  it('keeps hyphens separating, so hyphenated words do not fuse', () => {
+    // The reason the rule strips only apostrophes and periods. Treating every
+    // punctuation mark as removable would give `blackthroated-wind`.
+    expect(slugify('Black-Throated Wind')).toBe('black-throated-wind');
+    expect(slugify('Half-Step')).toBe('half-step');
+  });
 });
 
 describe('gallery registry (real corpus)', () => {

@@ -83,12 +83,20 @@ export const RESERVED_SLUGS = [
 ];
 
 export function slugify(text: string): string {
-  return text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // strip combining marks: Zénith → Zenith
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+  return (
+    text
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // strip combining marks: Zénith → Zenith
+      .toLowerCase()
+      // Intra-word punctuation is *removed*, not turned into a separator, so
+      // `Dick's Picks` slugs as `dicks-picks` rather than `dick-s-picks`, where
+      // the orphaned `s` reads as a word. Apostrophes and periods only: a hyphen
+      // has to keep separating, or `Black-Throated Wind` would collapse into
+      // `blackthroated-wind`.
+      .replace(/['’.]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+  );
 }
 
 /** Guarded insert — every slug rule lives here so no gallery can skip one. */
