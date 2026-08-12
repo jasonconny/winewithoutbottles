@@ -8,7 +8,8 @@
       "aliases": ["The Rub"]
     },
     {
-      "title": "Alabama Getaway"
+      "title": "Alabama Getaway",
+      "aliases": ["Alabama Getaway >(missing first notes)"]
     },
     {
       "title": "All Along the Watchtower",
@@ -22,7 +23,7 @@
     },
     {
       "title": "And We Bid You Goodnight",
-      "aliases": ["We Bid You Goodnight"]
+      "aliases": ["And We Bid You Good Night", "We Bid You Goodnight"]
     },
     {
       "title": "Around And Around"
@@ -35,7 +36,8 @@
       "title": "Baba O'Riley"
     },
     {
-      "title": "Beat It On Down The Line"
+      "title": "Beat It On Down The Line",
+      "aliases": ["Beait It On Down The Line"]
     },
     {
       "title": "Beer Barrel Polka"
@@ -113,7 +115,7 @@
     },
     {
       "title": "Caution (Do Not Stop on Tracks)",
-      "aliases": ["Caution (Do Not Stop On Tracks)"]
+      "aliases": ["Caution", "Caution (Do Not Stop On Tracks)"]
     },
     {
       "title": "Caution Jam"
@@ -203,7 +205,8 @@
       "aliases": ["Doing That Rag"]
     },
     {
-      "title": "Don't Ease Me In"
+      "title": "Don't Ease Me In",
+      "aliases": ["e: Don't Ease Me In"]
     },
     {
       "title": "Don't Mess Up a Good Thing"
@@ -237,7 +240,8 @@
       "title": "Everytime You Go Away"
     },
     {
-      "title": "Eyes Of The World"
+      "title": "Eyes Of The World",
+      "aliases": ["Eyes Of The World \\"]
     },
     {
       "title": "Far From Me"
@@ -281,14 +285,17 @@
       "aliases": [
         "GDTRFB",
         "Goin' Down The Road Feelin' Bad",
-        "Goin' Down The Road Feeling Bad"
+        "Goin' Down The Road Feeling Bad",
+        "Going Down The Road",
+        "Going Down The Road Feeling Bad"
       ]
     },
     {
       "title": "Good Golly Miss Molly"
     },
     {
-      "title": "Good Lovin'"
+      "title": "Good Lovin'",
+      "aliases": ["Good Lovin?"]
     },
     {
       "title": "Good Morning Little Schoolgirl",
@@ -299,7 +306,7 @@
     },
     {
       "title": "Greatest Story Ever Told",
-      "aliases": ["Greatest Story Even Told"]
+      "aliases": ["Greatest Story Even Told", "The Greatest Story Ever Told"]
     },
     {
       "title": "Happiness Is Drumming"
@@ -311,7 +318,8 @@
       "title": "He Was a Friend of Mine"
     },
     {
-      "title": "He's Gone"
+      "title": "He's Gone",
+      "aliases": ["He's Gone > jam"]
     },
     {
       "title": "Hell in a Bucket",
@@ -395,7 +403,8 @@
       "title": "It Takes a Lot to Laugh, It Takes a Train to Cry"
     },
     {
-      "title": "It's a Man's, Man's, Man's World"
+      "title": "It's a Man's, Man's, Man's World",
+      "aliases": ["It's A Man's World"]
     },
     {
       "title": "It's All Over Now"
@@ -409,11 +418,13 @@
       "title": "Jack Straw"
     },
     {
-      "title": "Jack-A-Roe"
+      "title": "Jack-A-Roe",
+      "aliases": ["Jack A Roe"]
     },
     {
       "title": "Jam",
       "aliases": [
+        "Jam \\",
         "Lunatic Preserve",
         "Mock Turtle Jam",
         "No MSG Jam",
@@ -421,7 +432,8 @@
       ]
     },
     {
-      "title": "Johnny B. Goode"
+      "title": "Johnny B. Goode",
+      "aliases": ["Johnny B Goode"]
     },
     {
       "title": "Just a Little Light",
@@ -499,7 +511,8 @@
       "aliases": ["Me And Bobby McGee"]
     },
     {
-      "title": "Me and My Uncle"
+      "title": "Me and My Uncle",
+      "aliases": ["Me & My Uncle"]
     },
     {
       "title": "Mexicali Blues"
@@ -516,8 +529,11 @@
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
       "aliases": [
+        "Mississippi Half Step",
         "Mississippi Half Step Uptown Toodeloo",
+        "Mississippi Half-Step",
         "Mississippi Half-Step Uptown Toodelloo",
+        "Mississippi Half-Step Uptown Toodleloo",
         "Mississippi Half-Step Uptown Toodleoo"
       ]
     },
@@ -546,7 +562,11 @@
     },
     {
       "title": "New Minglewood Blues",
-      "aliases": ["All New Minglewood Blues", "New, New Minglewood Blues"]
+      "aliases": [
+        "All New Minglewood Blues",
+        "Minglewood Blues",
+        "New, New Minglewood Blues"
+      ]
     },
     {
       "title": "New Potato Caboose"
@@ -593,7 +613,11 @@
     },
     {
       "title": "Playing in the Band",
-      "aliases": ["Playin' In The Band", "Playing In The Band"]
+      "aliases": [
+        "Playin' In The Band",
+        "Playin' In The Band (with false start)",
+        "Playing In The Band"
+      ]
     },
     {
       "title": "Promised Land",
@@ -604,7 +628,7 @@
     },
     {
       "title": "Quinn the Eskimo (Mighty Quinn)",
-      "aliases": ["Quinn The Eskimo"]
+      "aliases": ["Quinn The Eskimo", "The Mighty Quinn"]
     },
     {
       "title": "Rain"
@@ -638,7 +662,8 @@
       "aliases": ["Samba In The Rain"]
     },
     {
-      "title": "Samson And Delilah"
+      "title": "Samson And Delilah",
+      "aliases": ["Samson & Delilah"]
     },
     {
       "title": "Scarlet Begonias"
@@ -647,7 +672,8 @@
       "title": "Searchin'"
     },
     {
-      "title": "Seastones"
+      "title": "Seastones",
+      "aliases": ["Seastones (Phil & Ned)"]
     },
     {
       "title": "Shakedown Street"
@@ -687,7 +713,7 @@
     },
     {
       "title": "St. Stephen",
-      "aliases": ["Saint Stephen"]
+      "aliases": ["Saint Stephen", "St Stephen"]
     },
     {
       "title": "Stagger Lee"
@@ -796,7 +822,8 @@
       "aliases": ["Turn On Your Lovelight"]
     },
     {
-      "title": "U.S. Blues"
+      "title": "U.S. Blues",
+      "aliases": ["US Blues"]
     },
     {
       "title": "Unbroken Chain"
@@ -874,13 +901,23 @@
   ],
   "foldIntoPrevious": ["And"],
   "notASong": [
+    "Bobby Announcement",
     "crowd",
+    "crowd noise",
+    "Encore Break",
     "Funiculi Funicula",
     "Funiculì, Funiculà",
+    "Got To Be Funk weirdness",
+    "Intro",
     "Introduction",
+    "Jack Straw (Soundcheck)",
     "Jones Gang introduction",
+    "merry-go-round and beer-barrel tunings",
+    "Remember your hippie training",
     "Set II crowd",
     "Spanish Jam Tuning",
+    "Stage Announcements",
+    "Take A Step Back",
     "Technical Difficulties",
     "Tuning",
     "Tuning intro",

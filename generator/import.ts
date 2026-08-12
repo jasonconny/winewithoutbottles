@@ -44,7 +44,7 @@ import { fileURLToPath } from 'node:url';
 import type { ShowFile } from '../src/wwob/index.ts';
 import { formatDuration, parseDuration } from '../src/wwob/index.ts';
 import type { Recording } from './archive.ts';
-import { findRecording, findRecordings, recordingTracks } from './archive.ts';
+import { findRecordings, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
 
@@ -832,6 +832,61 @@ function mergePartial(
   return { songs, updated, unmatched };
 }
 
+interface ScoredRecording {
+  recording: Recording;
+  tracks: ParsedTrack[];
+  /** Tracks whose title the registry recognises — see `bestRecording`. */
+  usable: number;
+}
+
+/**
+ * The best archive.org tape for a date, with its tracks.
+ *
+ * Opens up to `MAX_CANDIDATES` and keeps the one with the most *recognisable*
+ * songs, because tapes of one night differ enormously — 1972-09-16 has a
+ * 25-track soundboard and an 8-track one.
+ *
+ * Two reasons it can't just take the best-ranked tape, both observed:
+ *
+ * 1. **Rank is not completeness.** `findRecordings` prefers Charlie Miller
+ *    transfers, and on 1974-08-05 the only Miller item is a *one-track*
+ *    `jam-segment` excerpt, which outranked three complete 25-track
+ *    soundboards. Same at 1976-09-25 and 1976-09-28. A gap report built on a
+ *    one-track tape says the release is missing the entire show.
+ * 2. **Raw track count is not usefulness.** The 31-track 4/27/71 reel titles
+ *    every track as a filename (`gd71-04-27 t01 Intro`), so on count alone it
+ *    beat four properly-titled 27-track tapes while recognising nothing.
+ *
+ * Scoring `tracks − unmapped` measures what the tape is actually worth for
+ * either purpose. Ranking order breaks ties, so a Miller transfer still wins an
+ * even match. Shared by `--gaps` and `--partial`: both are answering the same
+ * question — what was played that night — and only one of them used to get a
+ * trustworthy answer.
+ */
+async function bestRecording(date: string): Promise<{
+  recording: Recording;
+  tracks: ParsedTrack[];
+  scored: ScoredRecording[];
+} | null> {
+  const candidates = (await findRecordings(date)).slice(0, MAX_CANDIDATES);
+  if (!candidates.length) return null;
+  const scored: ScoredRecording[] = [];
+  for (const candidate of candidates) {
+    const tracks = applyTrackRules(
+      await recordingTracks(candidate.identifier),
+      date,
+    );
+    const { unknown } = canonicalise(tracks);
+    scored.push({
+      recording: candidate,
+      tracks,
+      usable: tracks.length - unknown.length,
+    });
+  }
+  const best = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
+  return { recording: best.recording, tracks: best.tracks, scored };
+}
+
 /**
  * Report which songs a release leaves out, against the circulating soundboard.
  *
@@ -843,18 +898,28 @@ function mergePartial(
  * reason `mergePartial` is: some releases resequence.
  */
 async function reportGaps(date: string, release: ParsedTrack[]) {
-  const recording = await findRecording(date);
-  if (!recording) {
+  const best = await bestRecording(date);
+  if (!best) {
     console.log(`\n  no archive.org recording catalogued for ${date}`);
     return;
   }
+  const { recording } = best;
   console.log(
     `\n  gaps vs archive.org: ${recording.identifier}` +
       `${recording.transferer ? ` (${recording.transferer})` : ''}`,
   );
-  const recorded = canonicalise(
-    applyTrackRules(await recordingTracks(recording.identifier), date),
-  );
+  if (best.scored.length > 1) {
+    console.log(
+      `    best of ${best.scored.length} tapes (recognised/total): ` +
+        best.scored
+          .map(
+            (s) =>
+              `${s.usable}/${s.tracks.length}${s.recording === recording ? '*' : ''}`,
+          )
+          .join(', '),
+    );
+  }
+  const recorded = canonicalise(best.tracks);
   const played = recorded.mapped;
   if (recorded.unknown.length) {
     // An unmapped title can't match the release, so it would be reported as a
@@ -917,41 +982,15 @@ async function writePartial(
   date: string,
   release: ParsedTrack[],
 ) {
-  const candidates = (await findRecordings(date)).slice(0, MAX_CANDIDATES);
-  if (!candidates.length) {
+  const best = await bestRecording(date);
+  if (!best) {
     console.error(
       `\nno archive.org recording catalogued for ${date} — no skeleton to build.` +
         '\nThe release alone cannot say which songs it is missing.',
     );
     process.exit(1);
   }
-  // Score by *recognisable* songs, not raw track count. Tapes of one night
-  // differ enormously — 1972-09-16 has a 25-track soundboard and an 8-track one
-  // — so the fullest is usually right. But raw count alone picks badly: the
-  // 31-track 4/27/71 reel titles every track as a filename (`gd71-04-27 t01
-  // Intro`), which beat four properly-titled 27-track tapes while yielding a
-  // skeleton of nothing. Counting only titles the registry recognises measures
-  // what the skeleton is actually worth. Ranking order breaks ties, so a
-  // Charlie Miller transfer still wins an even match.
-  const scored: {
-    recording: Recording;
-    tracks: ParsedTrack[];
-    usable: number;
-  }[] = [];
-  for (const candidate of candidates) {
-    const tracks = applyTrackRules(
-      await recordingTracks(candidate.identifier),
-      date,
-    );
-    const { unknown } = canonicalise(tracks);
-    scored.push({
-      recording: candidate,
-      tracks,
-      usable: tracks.length - unknown.length,
-    });
-  }
-  const best = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
-  const recording = best.recording;
+  const { recording, scored } = best;
   console.log(
     `\n  skeleton ← archive.org: ${recording.identifier}` +
       `${recording.transferer ? ` (${recording.transferer})` : ''}`,

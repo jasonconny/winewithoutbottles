@@ -35,46 +35,24 @@ const first = (value: string | string[] | undefined): string =>
   (Array.isArray(value) ? value[0] : value) ?? '';
 
 /**
- * Best recording of a date: a soundboard, Charlie Miller's if he did one.
+ * Every candidate recording for a date, best first. Empty when nothing is
+ * catalogued, which for a show the band definitely played usually means the
+ * tape isn't circulating.
  *
- * Returns null when nothing is catalogued for the date, which for a show the
- * band definitely played usually means the tape isn't circulating.
- */
-export async function findRecording(date: string): Promise<Recording | null> {
-  const url = new URL('https://archive.org/advancedsearch.php');
-  url.searchParams.set(
-    'q',
-    `collection:GratefulDead AND date:[${date} TO ${date}]`,
-  );
-  for (const field of ['identifier', 'source', 'transferer']) {
-    url.searchParams.append('fl[]', field);
-  }
-  url.searchParams.set('rows', '50');
-  url.searchParams.set('output', 'json');
-
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`archive.org search: HTTP ${res.status}`);
-  const body = (await res.json()) as { response?: { docs?: SearchDoc[] } };
-
-  const candidates = (body.response?.docs ?? []).map((doc) => ({
-    identifier: doc.identifier,
-    source: first(doc.source),
-    transferer: first(doc.transferer),
-  }));
-  return rank(candidates)[0] ?? null;
-}
-
-/**
- * Every candidate for a date, best first.
+ * Preference is soundboards, Charlie Miller's transfers first, then sorted by
+ * identifier rather than left in the order archive.org happened to return.
+ * **That order is not stable**: the search sets no sort, so two runs minutes
+ * apart can hand back the same two tapes in opposite order, and the pick
+ * silently changes with them. That surfaced when a staged skeleton came back
+ * with 8 songs where the previous run had 11, and again at 7 where a previous
+ * run had 23 — different tape, not different data.
  *
- * Same preference as `findRecording` — soundboards, Charlie Miller's if he did
- * one — but the remainder is sorted by identifier rather than left in the order
- * archive.org happened to return. **That order is not stable**: the search sets
- * no sort, so two runs minutes apart can hand back the same two tapes in
- * opposite order, and the pick silently changes with them. That surfaced when a
- * staged skeleton came back with 8 songs where the previous run had 11, and
- * again at 7 songs where a previous run had 23 — different tape, not different
- * data. A staged file has to be reproducible, so the tie-break is explicit.
+ * This deliberately returns the whole ranked list rather than a single best
+ * pick, because **rank is not completeness**: on 1974-08-05 the only Miller
+ * item is a one-track `jam-segment` excerpt, which outranks three complete
+ * 25-track soundboards. Callers open several and choose on content — see
+ * `bestRecording` in `generator/import.ts`. A single-pick helper used to live
+ * here and was removed for exactly that reason.
  */
 export async function findRecordings(date: string): Promise<Recording[]> {
   const url = new URL('https://archive.org/advancedsearch.php');
