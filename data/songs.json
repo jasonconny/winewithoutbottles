@@ -40,9 +40,6 @@
       "aliases": ["Beait It On Down The Line"]
     },
     {
-      "title": "Beer Barrel Polka"
-    },
-    {
       "title": "Believe It or Not"
     },
     {
@@ -136,6 +133,10 @@
       "title": "Chinese Bones"
     },
     {
+      "title": "Cold Jordan",
+      "aliases": ["Cold Jordon"]
+    },
+    {
       "title": "Cold Rain and Snow",
       "aliases": ["Cold Rain & Snow", "Cold Rain And Snow"]
     },
@@ -226,6 +227,9 @@
     },
     {
       "title": "Easy to Love You"
+    },
+    {
+      "title": "Easy Wind"
     },
     {
       "title": "El Paso"
@@ -685,6 +689,10 @@
       "title": "Ship Of Fools"
     },
     {
+      "title": "Sidewalks of New York",
+      "aliases": ["Sidewalks Of New York"]
+    },
+    {
       "title": "Sing Me Back Home"
     },
     {
@@ -901,6 +909,8 @@
   ],
   "foldIntoPrevious": ["And"],
   "notASong": [
+    "Beer Barrel Polka",
+    "Beer Barrell Polka",
     "Bobby Announcement",
     "crowd",
     "crowd noise",

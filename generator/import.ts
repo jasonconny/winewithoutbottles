@@ -217,7 +217,11 @@ function parseTrack(line: string): ParsedTrack | null {
   // (`<li value= 5>`); 30 Trips uses the quoted form, and missing any variant
   // drops the track silently.
   const text = stripMarkup(line)
-    .replace(/^[#|]\s*(<li value=\s*"?\d+"?>)?\s*/, '')
+    .replace(/^[#|]\s*/, '')
+    // Split from the list-marker strip above so a bare `<li>` opening the line
+    // is handled too, not only `# <li value=N>`. Raw `<ol>`/`<li>` markup is
+    // what Dick's Picks 36 uses instead of a wikitext list.
+    .replace(/^<li[^>]*>\s*/, '')
     .replace(/<\/li>\s*$/, '');
   // The title is not always flush left: a line can open with a set label
   // (`''Encore:'' "Terrapin Station"`), a nested-list bullet for a suite
@@ -350,8 +354,16 @@ function tracksByDate(
       }
       continue;
     }
-    // Track rows are `#` lists, or `|"Title"` rows inside an {{ordered list}}.
-    if (!line.startsWith('#') && !/^\|\s*"/.test(line)) continue;
+    // Track rows come in three markups: `#` lists, `|"Title"` rows inside an
+    // {{ordered list}}, and raw HTML `<li>` inside an `<ol>` — Dick's Picks 36
+    // uses the last, which is why it parsed as zero tracks while plainly being
+    // a single, fully-listed show.
+    if (
+      !line.startsWith('#') &&
+      !/^\|\s*"/.test(line) &&
+      !/^<li[ >]/.test(line)
+    )
+      continue;
     const track = parseTrack(line);
     if (!track) continue;
     if (!current) {

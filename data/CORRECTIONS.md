@@ -186,6 +186,20 @@ colon and minted `The Other One:` as a separate song. Fixed in `cleanWikiTitle`
 (`generator/import.ts`) by stripping a trailing colon — no song title ends in
 one — rather than by aliasing the artifact.
 
+### Reclassified as not a song
+
+`Beer Barrel Polka` was a canonical title and a **1:39 stripe in 1977-05-01**
+(The Palladium, track 15, between `Brown-Eyed Women` and `Playing in the Band`).
+Jason's call, 2026-08-11: it is a tuning rather than a performance — the same
+judgement already applied to `Funiculì, Funiculà`. It moved from `songs` to
+`notASong` (both the correct spelling and the tape's `Beer Barrell Polka`), and
+the stripe was removed, taking that show from 21 tracks to 20.
+
+This is the first time a `notASong` decision has **retired an existing stripe**
+rather than merely excluded a track during import, so it changed art that was
+already generated. The show is 1:39 shorter and every stripe after position 15
+shifts left.
+
 ### Venue naming
 
 Venues are filled in by hand (the importer leaves `venue`/`city` blank), so where
