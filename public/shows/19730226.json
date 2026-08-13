@@ -1,0 +1,117 @@
+{
+  "id": "19730226",
+  "date": "1973-02-26",
+  "venue": "Pershing Municipal Auditorium",
+  "city": "Lincoln",
+  "state": "NE",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19730226.svg",
+  "songCount": 25,
+  "durationSeconds": 11212,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 241
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 285
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 436
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 453
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 240
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1043
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1523
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1149
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 182
+    }
+  ]
+}

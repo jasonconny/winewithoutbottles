@@ -498,6 +498,24 @@ three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
 colour beside the Prelude and Part 1, under a name two sources already use for
 different spans of music.
 
+### A transition jam that gets no stripe — 1973-02-26
+
+The two soundboards for this date disagree by exactly one track. `sbd.kaplan`
+(2004) breaks out a **0:42 `Jam`** between `China Cat Sunflower` and
+`I Know You Rider`; `sbd.roman.revision` (2025) folds it into China Cat. No
+Miller transfer exists for the date, and _Dick's Picks 28_ carries neither song,
+so nothing but the tapes could settle it.
+
+The corpus settled it instead: it holds **59** `China Cat Sunflower` →
+`I Know You Rider` pairs and **not one** with anything between them. A 42-second
+stripe here would be the sole exception in a transition the band played the same
+way for twenty years. Jason's call, 2026-08-13: take the revision, no `Jam`
+stripe, 25 songs.
+
+Choosing the revision also decided the other blanks, per the one-tape rule below
+— which matters, because the two transfers disagree by 1:41 on `El Paso`
+(4:15 against 5:56) and by 0:56 on `Big Railroad Blues`.
+
 ### Which tape a staged partial is built from
 
 Three rules, in this order of precedence (Jason, 2026-08-13).

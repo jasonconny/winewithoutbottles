@@ -1,9 +1,12 @@
 {
   "id": "19730226",
   "date": "1973-02-26",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 28 | archive.org:gd73-02-26.sbd.kaplan.1208.sbeok.shnf",
+  "venue": "Pershing Municipal Auditorium",
+  "city": "Lincoln",
+  "state": "NE",
+  "country": "USA",
+  "tags": ["Dark Star", "Dick's Picks"],
+  "source": "Dick's Picks Volume 28 | archive.org:gd1973-02-26.167612.sbd.roman.revision.flac1644",
   "songs": [
     {
       "title": "Promised Land",
@@ -23,19 +26,15 @@
     },
     {
       "title": "Box of Rain",
-      "duration": ""
+      "duration": "4:45"
     },
     {
       "title": "China Cat Sunflower",
-      "duration": ""
-    },
-    {
-      "title": "Jam",
-      "duration": ""
+      "duration": "7:16"
     },
     {
       "title": "I Know You Rider",
-      "duration": ""
+      "duration": "5:05"
     },
     {
       "title": "Looks Like Rain",
@@ -47,15 +46,15 @@
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "duration": "3:12"
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "duration": "7:33"
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "duration": "5:56"
     },
     {
       "title": "Big Railroad Blues",

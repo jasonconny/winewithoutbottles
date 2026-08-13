@@ -694,6 +694,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11805
   },
   {
+    "id": "19730226",
+    "date": "1973-02-26",
+    "venue": "Pershing Municipal Auditorium",
+    "city": "Lincoln",
+    "state": "NE",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19730226.svg",
+    "songCount": 25,
+    "durationSeconds": 11212
+  },
+  {
     "id": "19730228",
     "date": "1973-02-28",
     "venue": "Salt Palace",
