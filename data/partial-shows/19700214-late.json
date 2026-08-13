@@ -1,33 +1,13 @@
 {
-  "id": "19700214",
+  "id": "19700214-late",
   "date": "1970-02-14",
   "venue": "Fillmore East",
   "city": "New York",
   "state": "NY",
   "country": "USA",
-  "tags": ["Dark Star", "Dick's Picks"],
+  "tags": ["Dick's Picks"],
   "source": "Dick's Picks Volume 4 | History of the Grateful Dead, Volume One (Bear's Choice) | archive.org:gd1970-02-14.sbd.miller.97644.flac16",
   "songs": [
-    {
-      "title": "Cold Rain and Snow",
-      "duration": ""
-    },
-    {
-      "title": "Dark Star",
-      "duration": ""
-    },
-    {
-      "title": "St. Stephen",
-      "duration": ""
-    },
-    {
-      "title": "The Eleven",
-      "duration": ""
-    },
-    {
-      "title": "Turn On Your Love Light",
-      "duration": ""
-    },
     {
       "title": "Casey Jones",
       "duration": "4:29"

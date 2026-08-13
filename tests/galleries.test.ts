@@ -1,4 +1,5 @@
 import { shows } from '@/data/shows.generated';
+import { isShowId } from '@/wwob';
 import {
   RESERVED_SLUGS,
   RUN_MAX_GAP_DAYS,
@@ -84,7 +85,7 @@ describe('gallery registry (real corpus)', () => {
     expect(new Set(slugs).size).toBe(slugs.length);
     for (const slug of slugs) {
       expect(slug).toMatch(/^[a-z0-9][a-z0-9-]*$/);
-      expect(slug).not.toMatch(/^\d{8}$/); // never show-id-shaped
+      expect(isShowId(slug)).toBe(false); // never show-id-shaped
       expect(RESERVED_SLUGS).not.toContain(slug);
     }
   });

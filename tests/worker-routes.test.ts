@@ -1,6 +1,7 @@
 import type { RouteObject } from 'react-router-dom';
 import { routes } from '@/router';
 import { allShowsGallery, gallerySections } from '@/galleries';
+import { isShowId } from '@/wwob';
 import { STATIC_PATHS, isKnownPath, knownPathList } from '../worker/routes.ts';
 
 /**
@@ -65,7 +66,7 @@ describe('worker route matching', () => {
     }
 
     const workerPaths = new Set(
-      knownPathList().filter((path) => !/^\/\d{8}$/.test(path)),
+      knownPathList().filter((path) => !isShowId(path.slice(1))),
     );
     // Guard against the comparison passing vacuously if either side ever stops
     // resolving: '/', '/all', '/about', '/builder' + every gallery slug.

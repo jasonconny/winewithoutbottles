@@ -2,7 +2,7 @@
 // Worker (worker/routes.ts) as well as the app, and wrangler's bundler can't
 // resolve path-prefix aliases. Same convention generator/ uses.
 import { shows } from './data/shows.generated.ts';
-import type { ShowSummary } from './wwob/index.ts';
+import { isShowId, type ShowSummary } from './wwob/index.ts';
 
 /**
  * Gallery registry: derives every gallery page (all shows, per-year, per-tour,
@@ -110,7 +110,7 @@ function register(bySlug: Map<string, GalleryDef>, gallery: GalleryDef): void {
       `Gallery "${title}" slug "${slug}" collides with a reserved route`,
     );
   }
-  if (/^\d{8}$/.test(slug)) {
+  if (isShowId(slug)) {
     throw new Error(
       `Gallery "${title}" slug "${slug}" is show-id-shaped and would clash with show URLs`,
     );
@@ -171,8 +171,11 @@ function toDayNumber(isoDate: string): number {
 export function buildRuns(
   source: ShowSummary[],
 ): { name: string; shows: ShowSummary[] }[] {
-  const ordered = [...source].sort((showA, showB) =>
-    showA.date.localeCompare(showB.date),
+  // Tiebreak on id, not just date: a two-show night puts two shows on one date,
+  // and the id suffixes (`-early` < `-late`) are what order them.
+  const ordered = [...source].sort(
+    (showA, showB) =>
+      showA.date.localeCompare(showB.date) || showA.id.localeCompare(showB.id),
   );
   const runs: ShowSummary[][] = [];
   let current: ShowSummary[] = [];

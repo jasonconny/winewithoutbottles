@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { basename, join } from 'node:path';
-import { cleanTitle, isValidDuration } from '@/wwob';
+import { cleanTitle, isValidDuration, parseShowId } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
 import { releaseTag } from '../generator/release-tag';
@@ -12,10 +12,24 @@ import type { Completeness } from '../generator/release-tag';
 // generated manifest in sync with it.
 
 const DATA_DIR = 'data/shows';
-/** Show ids are compact dates (also the show's URL): 19720827. */
-const ID_RE = /^\d{8}$/;
 /** The `date` field stays ISO for display and sorting: 1972-08-27. */
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * The id ↔ date contract, in one place because three directories check it.
+ * An id is the date compacted (19720827), plus a performance suffix on the
+ * two-show nights (19700213-early) — see src/wwob/showId.ts. `parseShowId`
+ * returns undefined for anything not id-shaped, so this covers both the shape
+ * and the derivation in one assertion.
+ */
+function expectIdMatchesDate(show: ShowFile, file: string): void {
+  expect(show.date).toMatch(DATE_RE);
+  expect(
+    parseShowId(show.id)?.date,
+    `${file}: id "${show.id}" is not "${show.date.replaceAll('-', '')}" with an optional -early/-late suffix`,
+  ).toBe(show.date);
+  expect(`${show.id}.json`).toBe(basename(file));
+}
 
 /** Wall of Sound era: debut at the Cow Palace → last night at Winterland. */
 const WALL_OF_SOUND_FIRST = '1974-03-23';
@@ -57,13 +71,8 @@ describe('show data is well-formed', () => {
   it.each(files)('%s is valid', (file) => {
     const show = readShow(file);
 
-    // id present, well-formed, and matches its filename.
-    expect(show.id).toMatch(ID_RE);
-    expect(`${show.id}.json`).toBe(basename(file));
-
-    // required metadata; the id is the date, compacted.
-    expect(show.date).toMatch(DATE_RE);
-    expect(show.id).toBe(show.date.replaceAll('-', ''));
+    // id present, well-formed, derived from the date, matching its filename.
+    expectIdMatchesDate(show, file);
     expect(show.venue?.trim()).toBeTruthy();
 
     // non-empty setlist with valid songs.
@@ -81,6 +90,22 @@ describe('show data is well-formed', () => {
   it('has no duplicate ids', () => {
     const ids = files.map((f) => readShow(f).id);
     expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it('no date is both a whole show and a split one', () => {
+    // A date carries either one show or an early/late pair — never both. The
+    // bare id and a suffixed one for the same night would be two different
+    // claims about what was played, and both would render.
+    const ids = files.map((f) => readShow(f).id);
+    const bare = new Set(ids.filter((id) => !id.includes('-')));
+    for (const id of ids) {
+      if (!id.includes('-')) continue;
+      const date = id.slice(0, 8);
+      expect(
+        bare.has(date),
+        `${id} splits a night that also exists whole as ${date} — delete one`,
+      ).toBe(false);
+    }
   });
 });
 
@@ -489,10 +514,7 @@ describe('staged partial shows are well-formed', () => {
     it.each(partialFiles)('%s is well-formed', (file) => {
       const show = readPartial(file);
 
-      expect(show.id).toMatch(ID_RE);
-      expect(`${show.id}.json`).toBe(basename(file));
-      expect(show.date).toMatch(DATE_RE);
-      expect(show.date.replaceAll('-', '')).toBe(show.id);
+      expectIdMatchesDate(show, file);
       expect(show.songs.length).toBeGreaterThan(0);
 
       for (const song of show.songs) {
@@ -586,10 +608,7 @@ describe('shows with unknown setlists are well-formed', () => {
     it.each(unknownFiles)('%s is well-formed', (file) => {
       const show = readUnknown(file);
 
-      expect(show.id).toMatch(ID_RE);
-      expect(`${show.id}.json`).toBe(basename(file));
-      expect(show.date).toMatch(DATE_RE);
-      expect(show.date.replaceAll('-', '')).toBe(show.id);
+      expectIdMatchesDate(show, file);
       expect(show.songs.length).toBeGreaterThan(0);
       expect(
         (show.note ?? '').length,
