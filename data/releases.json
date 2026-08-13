@@ -103,10 +103,10 @@
       "series": "Dick's Picks",
       "eligible": true,
       "tag": "Dick's Picks",
-      "dates": ["1968-02-23", "1968-02-24"],
-      "bonusDates": [],
+      "dates": [],
+      "bonusDates": ["1968-02-23", "1968-02-24"],
       "completeness": "partial",
-      "note": "dates from bold; confirmed partial by hand",
+      "note": "dates from bold; article: \"documents portions of the concerts\" at the Kings Beach Bowl, and nothing circulates for either night, so neither date can be sourced whole or ever completed — both are staged in data/unknown-setlists/; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {

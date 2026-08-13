@@ -228,6 +228,24 @@ sees the sibling).
 Dick's Picks 35's `dates` — the convention that already means "this release
 can't source that show whole".
 
+**`1968-02-23` and `1968-02-24`** (Kings Beach Bowl, Kings Beach) joined them the
+same day. _Dick's Picks Volume 22_ says outright that it "documents portions of
+the concerts", giving 8 tracks from the first night and 10 from the second,
+mastered from Dan Healy's original reels — the live material that also fed
+_Anthem of the Sun_. Neither night circulates on archive.org, so unlike a
+staged partial there is no soundboard to say what else was played, and unlike a
+retiming there is nothing to check the order against. Dick's Picks 22 therefore
+carries **no** `dates` at all: both are `bonusDates`, since the release can
+source neither whole.
+
+The 2/24 file folds the article's untimed `Cryptical Envelopment` / `The Faster
+We Go, the Rounder We Get` / `Cryptical Envelopment` sub-bullets into the single
+8:13 `That's It for the Other One` they sit under — the same umbrella the corpus
+uses everywhere else.
+
+`Born Cross-Eyed` was added to the canon for the 2/23 file: a Weir song off
+_Anthem of the Sun_, credited as such by the release.
+
 ### Patched and edited tracks
 
 _Dick's Picks 20_ and _28_ both splice material from other nights into otherwise
