@@ -172,7 +172,7 @@ export function buildRuns(
   source: ShowSummary[],
 ): { name: string; shows: ShowSummary[] }[] {
   // Tiebreak on id, not just date: a two-show night puts two shows on one date,
-  // and the id suffixes (`-early` < `-late`) are what order them.
+  // and the id's ordinal (…01 before …02) is what orders them.
   const ordered = [...source].sort(
     (showA, showB) =>
       showA.date.localeCompare(showB.date) || showA.id.localeCompare(showB.id),

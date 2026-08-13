@@ -1,6 +1,7 @@
 {
-  "id": "19700214-late",
+  "id": "1970021402",
   "date": "1970-02-14",
+  "sitting": "late",
   "venue": "Fillmore East",
   "city": "New York",
   "state": "NY",
@@ -14,7 +15,7 @@
     },
     {
       "title": "Mama Tried",
-      "duration": ""
+      "duration": "3:58"
     },
     {
       "title": "Hard to Handle",
@@ -22,7 +23,7 @@
     },
     {
       "title": "Monkey and the Engineer",
-      "duration": ""
+      "duration": "2:10"
     },
     {
       "title": "Dark Hollow",
@@ -30,23 +31,23 @@
     },
     {
       "title": "I've Been All Around This World",
-      "duration": "4:40"
+      "duration": "4:22"
     },
     {
       "title": "Wake Up Little Susie",
-      "duration": ""
+      "duration": "2:27"
     },
     {
       "title": "Black Peter",
-      "duration": ""
+      "duration": "7:24"
     },
     {
       "title": "Uncle John's Band",
-      "duration": ""
+      "duration": "8:26"
     },
     {
       "title": "Katie Mae",
-      "duration": ""
+      "duration": "5:26"
     },
     {
       "title": "Dancing in the Street",

@@ -84,6 +84,7 @@ function toSummary(show: Show): ShowSummary {
   return {
     id: show.id,
     date: show.date,
+    sitting: show.sitting,
     venue: show.venue,
     city: show.city,
     state: show.state,
@@ -153,8 +154,8 @@ function main(): void {
     console.log(`  (selective: ${written} of ${files.length} shows rewritten)`);
   }
 
-  // Date first, then id: a two-show night shares one date, and the id suffixes
-  // (`-early` < `-late`) are what put the two performances in the order played.
+  // Date first, then id: a two-show night shares one date, and the id's
+  // ordinal (…01 before …02) is what puts the sittings in the order played.
   index.sort(
     (a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id),
   );

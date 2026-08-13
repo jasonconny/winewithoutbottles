@@ -1,27 +1,29 @@
 /**
- * Show ids, and the early/late split.
+ * Show ids.
  *
  * A show's id is its date, compacted — `19720827` — and that id is also the
- * show's URL. On the nights the band played two separate performances (a 1970–71
- * habit; by the time the three-set night became the shape of a Dead show it was
- * over), one date carries two shows. Each has its own setlist, so each is its
- * own piece of art, and each gets its own id with a performance suffix:
- * `19700213-early`, `19700213-late`.
+ * show's URL. Almost every date carries one show, so almost every id is exactly
+ * that.
  *
- * `date` stays ISO `YYYY-MM-DD` on both halves — it is what sorts, what the
- * year/tour/venue/run galleries group on, and what a release's date list
- * matches. Only the id, and therefore the URL, tells the two apart.
+ * The exception is a date the band played twice, clearing the house between
+ * performances (a 1970–71 habit; once the three-set night became the shape of a
+ * Dead show it was over). Those are two shows with two setlists, so two pieces
+ * of art — but they share a date, and the date is the id. The tiebreak is a
+ * two-digit ordinal appended to it: `1970021301`, `1970021302`.
  *
- * The suffixes sort the way the night ran: `-early` < `-late`, and a bare id
- * sorts before either, so ordering by id is a safe tiebreak wherever two shows
- * share a date.
+ * The ordinal is *only* a collision-breaker. It says which of the date's shows
+ * this is and nothing more; which sitting it was — early or late — is the
+ * `sitting` field on the show itself (see `ShowMeta`), because that is a fact
+ * about the performance rather than about the URL. A date whose early tape is
+ * lost still has a knowable late show, and it keeps a plain 8-digit id.
+ *
+ * Ids sort lexicographically into performance order without special handling:
+ * `1970021301` < `1970021302` < `19700214`, since the ordinal digits are
+ * compared before the following date's day digits ever come up.
  */
 
-/** Which performance of a two-show night. Absent on a single-show date. */
-export type ShowSet = 'early' | 'late';
-
-/** The id shape: a compact date, optionally suffixed with a performance. */
-export const SHOW_ID_RE = /^\d{8}(?:-early|-late)?$/;
+/** The id shape: a compact date, plus a two-digit ordinal on a shared date. */
+export const SHOW_ID_RE = /^\d{8}(?:\d{2})?$/;
 
 /** Whether a URL segment could be a show id at all (says nothing about existence). */
 export function isShowId(value: string): boolean {
@@ -29,15 +31,14 @@ export function isShowId(value: string): boolean {
 }
 
 /**
- * Split an id back into the ISO date it was built from and, for a two-show
- * night, which performance it is. Returns undefined for anything not id-shaped,
- * so callers can use it as the shape check as well as the parse.
+ * Split an id into the ISO date it was built from and, when the date carries
+ * more than one show, which of them this is. Returns undefined for anything not
+ * id-shaped, so callers can use it as the shape check as well as the parse.
  */
 export function parseShowId(
   id: string,
-): { date: string; set?: ShowSet } | undefined {
+): { date: string; ordinal?: number } | undefined {
   if (!SHOW_ID_RE.test(id)) return undefined;
   const date = `${id.slice(0, 4)}-${id.slice(4, 6)}-${id.slice(6, 8)}`;
-  const suffix = id.slice(9);
-  return suffix ? { date, set: suffix as ShowSet } : { date };
+  return id.length > 8 ? { date, ordinal: Number(id.slice(8)) } : { date };
 }

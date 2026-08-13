@@ -19,12 +19,27 @@ export interface Stripe {
   x: number;
 }
 
+/**
+ * Which performance of a night the band played twice, clearing the house
+ * between them — a 1970–71 practice. Absent on the single-show dates, which is
+ * nearly all of them.
+ */
+export type Sitting = 'early' | 'late';
+
 /** Show metadata shared by the on-disk, parsed, and manifest shapes. */
 export interface ShowMeta {
   /** Stable id, e.g. "1972-08-27". */
   id: string;
   /** ISO date, "YYYY-MM-DD". */
   date: string;
+  /**
+   * Early or late show, on the nights there were two. Free-standing, and
+   * deliberately not encoded in the id: a date whose early tape is lost still
+   * has a knowable *late* show, and it keeps a plain 8-digit id. When a date
+   * does carry both, the id's two-digit ordinal is what separates the URLs —
+   * see src/wwob/showId.ts.
+   */
+  sitting?: Sitting;
   venue: string;
   city: string;
   state?: string;

@@ -5,6 +5,8 @@
  * rendering of the same value: "1972-08-27" → "August 27, 1972".
  */
 
+import type { Sitting } from '@/wwob';
+
 const monthDayFormat = new Intl.DateTimeFormat('en-US', {
   month: 'long',
   day: 'numeric',
@@ -36,4 +38,19 @@ export function formatShowDateParts(isoDate: string): {
 export function formatShowDate(isoDate: string): string {
   const { monthDay, year } = formatShowDateParts(isoDate);
   return `${monthDay}, ${year}`;
+}
+
+/**
+ * Display text for a show's `sitting`: "early show" / "late show".
+ *
+ * Lowercase on purpose, including mid-heading after the date — it reads as a
+ * quiet qualifier on the date rather than a second proper noun competing with
+ * the venue.
+ *
+ * A label rather than a full formatter because the separator differs by
+ * context — the info sheet's heading joins it to the date with a middot, the
+ * alt text with a comma — and only the caller knows which it wants.
+ */
+export function sittingLabel(sitting: Sitting): string {
+  return sitting === 'early' ? 'early show' : 'late show';
 }

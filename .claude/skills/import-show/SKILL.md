@@ -249,6 +249,16 @@ rejected), durations either `""` or valid `m:ss` — because completeness is the
 whole point of the directory, and the show-data guards catch that the moment a
 file is promoted.
 
+## Nights the band played twice (early/late)
+
+`generator/import.ts` still takes the **bare 8-digit date**: releases are indexed
+by date, and the importer drafts the whole night's tracks in one go. Splitting
+that draft into an early and a late show is a **hand step afterwards** — decide
+where the first performance ends, cut the file in two, add `"sitting"` to each,
+and renumber the ids with a two-digit ordinal (`1970021301`, `1970021302`). The
+importer needs no flag and knows nothing about it. See the Early/late shows
+bullet in CLAUDE.md for the contract the data-validity test enforces.
+
 ## Shows whose setlist can't be known (`data/unknown-setlists/`)
 
 The other holding pen, and the difference from a staged partial is **intent, not

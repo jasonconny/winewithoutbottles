@@ -17,8 +17,8 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 /**
  * The id ↔ date contract, in one place because three directories check it.
- * An id is the date compacted (19720827), plus a performance suffix on the
- * two-show nights (19700213-early) — see src/wwob/showId.ts. `parseShowId`
+ * An id is the date compacted (19720827), plus a two-digit ordinal on the dates
+ * that carry two shows (1970021301) — see src/wwob/showId.ts. `parseShowId`
  * returns undefined for anything not id-shaped, so this covers both the shape
  * and the derivation in one assertion.
  */
@@ -26,10 +26,13 @@ function expectIdMatchesDate(show: ShowFile, file: string): void {
   expect(show.date).toMatch(DATE_RE);
   expect(
     parseShowId(show.id)?.date,
-    `${file}: id "${show.id}" is not "${show.date.replaceAll('-', '')}" with an optional -early/-late suffix`,
+    `${file}: id "${show.id}" is not "${show.date.replaceAll('-', '')}" with an optional two-digit ordinal`,
   ).toBe(show.date);
   expect(`${show.id}.json`).toBe(basename(file));
 }
+
+/** `sitting`, where authored, is one of the two performances of a night. */
+const SITTINGS = ['early', 'late'];
 
 /** Wall of Sound era: debut at the Cow Palace → last night at Winterland. */
 const WALL_OF_SOUND_FIRST = '1974-03-23';
@@ -92,19 +95,69 @@ describe('show data is well-formed', () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it('no date is both a whole show and a split one', () => {
-    // A date carries either one show or an early/late pair — never both. The
-    // bare id and a suffixed one for the same night would be two different
-    // claims about what was played, and both would render.
-    const ids = files.map((f) => readShow(f).id);
-    const bare = new Set(ids.filter((id) => !id.includes('-')));
-    for (const id of ids) {
-      if (!id.includes('-')) continue;
-      const date = id.slice(0, 8);
+  it.each(files)('%s declares a real sitting, if any', (file) => {
+    const { sitting } = readShow(file);
+    if (sitting === undefined) return;
+    expect(
+      SITTINGS,
+      `${file}: sitting "${sitting}" is not one of ${SITTINGS.join('/')}`,
+    ).toContain(sitting);
+  });
+
+  it('dates with two shows carry ordinals and sittings; lone dates carry neither', () => {
+    // The whole early/late contract, in one place, because every part of it is
+    // a statement about a *date* rather than about one file.
+    //
+    // The id's two-digit ordinal is only ever a collision-breaker: it exists so
+    // two shows on one night can have two URLs, and it means nothing else. The
+    // fact it breaks a tie on — which performance this was — lives in
+    // `sitting`, which is why a lone show can carry `sitting` with a plain
+    // 8-digit id (a date whose early tape is lost still has a knowable late
+    // show) but must never carry an ordinal with nothing to be ordinal to.
+    const byDate = new Map<string, ShowFile[]>();
+    for (const file of files) {
+      const show = readShow(file);
+      byDate.set(show.date, [...(byDate.get(show.date) ?? []), show]);
+    }
+
+    for (const [date, dateShows] of byDate) {
+      const ordinals = dateShows.map((show) => parseShowId(show.id)?.ordinal);
+
+      if (dateShows.length === 1) {
+        expect(
+          ordinals[0],
+          `${dateShows[0].id}: only show on ${date}, so it must not carry an ordinal`,
+        ).toBeUndefined();
+        continue;
+      }
+
+      // Contiguous 1..N, so the ids say how many shows the night had. A gap
+      // would read as a missing sibling that isn't coming.
       expect(
-        bare.has(date),
-        `${id} splits a night that also exists whole as ${date} — delete one`,
-      ).toBe(false);
+        [...ordinals].sort((a, b) => (a ?? 0) - (b ?? 0)),
+        `${date}: has ${dateShows.length} shows, so their ids must end 01..${String(dateShows.length).padStart(2, '0')}`,
+      ).toEqual(dateShows.map((_, index) => index + 1));
+
+      // Two performances is a thing you know about a night, not a thing you
+      // discover later — if the corpus has both, it knows which was which.
+      for (const show of dateShows) {
+        expect(
+          show.sitting,
+          `${show.id}: shares ${date} with another show, so it needs a sitting`,
+        ).toBeDefined();
+      }
+
+      // Ordinal order must agree with the order the night ran, or the gallery
+      // rows and the run listing put the late show first.
+      const byOrdinal = [...dateShows].sort(
+        (showA, showB) =>
+          (parseShowId(showA.id)?.ordinal ?? 0) -
+          (parseShowId(showB.id)?.ordinal ?? 0),
+      );
+      expect(
+        byOrdinal.map((show) => show.sitting),
+        `${date}: ordinals disagree with the sittings — early comes first`,
+      ).toEqual(SITTINGS.slice(0, dateShows.length));
     }
   });
 });

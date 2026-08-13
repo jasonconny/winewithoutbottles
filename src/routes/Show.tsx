@@ -9,7 +9,7 @@ import {
   findTourGallery,
   findVenueGallery,
 } from '@/galleries';
-import { formatShowDate, formatShowDateParts } from '@/date';
+import { formatShowDate, formatShowDateParts, sittingLabel } from '@/date';
 import { SHOW_GROUND } from '@/theme';
 import './Show.scss';
 
@@ -48,6 +48,10 @@ export default function Show() {
   // The year gallery's slug *is* the year, and years partition the whole
   // corpus, so `/<year>` always resolves for any show.
   const { monthDay, year } = formatShowDateParts(show.date);
+  // Early/late shows share a date, so on those nights the date alone doesn't
+  // identify the piece — every place that names the show has to carry this too.
+  const sitting = show.sitting ? sittingLabel(show.sitting) : undefined;
+  const dateAndSitting = sitting ? `${date}, ${sitting}` : date;
   // Derived, not stored: runs depend on neighbouring shows, so they're computed
   // from the complete bundled index rather than baked into per-show JSON that a
   // filtered `npm run generate <id>` could leave stale.
@@ -62,13 +66,13 @@ export default function Show() {
     // click on the art bubbles up and closes the sheet and/or drawer.
     <main className="Show">
       <h1 className="Show-srOnly">
-        {date} — {location}
+        {dateAndSitting} — {location}
       </h1>
 
       <img
         className="Show-art"
         src={show.svg}
-        alt={`${date} setlist rendered as stripes`}
+        alt={`${dateAndSitting} setlist rendered as stripes`}
       />
 
       <button
@@ -92,6 +96,7 @@ export default function Show() {
       >
         <h2>
           {monthDay}, <Link to={`/${year}`}>{year}</Link>
+          {sitting && ` · ${sitting}`}
         </h2>
         <h3 className="Show-location">
           {/* The link text is the venue as authored, not the gallery title —

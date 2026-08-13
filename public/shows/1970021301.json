@@ -1,0 +1,53 @@
+{
+  "id": "1970021301",
+  "date": "1970-02-13",
+  "sitting": "early",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/1970021301.svg",
+  "songCount": 9,
+  "durationSeconds": 3534,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 159
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 404
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 293
+    }
+  ]
+}

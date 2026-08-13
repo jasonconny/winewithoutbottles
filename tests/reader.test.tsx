@@ -302,6 +302,49 @@ describe('reader app', () => {
     );
   });
 
+  it('names the sitting on a night the band played twice', async () => {
+    // 1970-02-13 Fillmore East is two shows: the room was cleared between them,
+    // so they're two setlists and two pieces. The date alone can't tell them
+    // apart, and the id's ordinal is a URL tiebreak rather than something to
+    // read, so the heading has to say which sitting this is.
+    renderAt('/1970021301');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const sheet = within(document.getElementById('show-info')!);
+    expect(sheet.getByRole('heading', { level: 2 })).toHaveTextContent(
+      'February 13, 1970 · early show',
+    );
+    // The year link survives the addition.
+    expect(sheet.getByRole('link', { name: '1970' })).toHaveAttribute(
+      'href',
+      '/1970',
+    );
+  });
+
+  it('leaves the heading bare for a single-show date', async () => {
+    renderAt('/19741016');
+    await screen.findByRole('img');
+    fireEvent.click(screen.getByRole('button', { name: 'i' }));
+    const heading = within(document.getElementById('show-info')!).getByRole(
+      'heading',
+      { level: 2 },
+    );
+    expect(heading).not.toHaveTextContent('show');
+  });
+
+  it('distinguishes two sittings of one night in the gallery', async () => {
+    // Both rows link to the same date; without the sitting in the alt text
+    // they'd be two identically-named links to different art.
+    renderAt('/1970');
+    const names = (await screen.findAllByRole('img'))
+      .map((img) => img.getAttribute('alt'))
+      .filter((alt) => alt?.startsWith('February 13, 1970'));
+    expect(names).toEqual([
+      'February 13, 1970, early show — Fillmore East, New York',
+      'February 13, 1970, late show — Fillmore East, New York',
+    ]);
+  });
+
   it('puts the chrome to sleep after idle and wakes it on activity', async () => {
     renderAt('/19720827');
     const art = await screen.findByRole('img');

@@ -1,6 +1,7 @@
 {
-  "id": "19700213-late",
+  "id": "1970021302",
   "date": "1970-02-13",
+  "sitting": "late",
   "venue": "Fillmore East",
   "city": "New York",
   "state": "NY",
@@ -10,19 +11,19 @@
   "songs": [
     {
       "title": "China Cat Sunflower",
-      "duration": ""
+      "duration": "4:21"
     },
     {
       "title": "I Know You Rider",
-      "duration": ""
+      "duration": "5:45"
     },
     {
       "title": "Me and My Uncle",
-      "duration": ""
+      "duration": "4:13"
     },
     {
       "title": "Dire Wolf",
-      "duration": ""
+      "duration": "4:40"
     },
     {
       "title": "Smokestack Lightning",
@@ -30,11 +31,11 @@
     },
     {
       "title": "Monkey and the Engineer",
-      "duration": ""
+      "duration": "2:24"
     },
     {
       "title": "Little Sadie",
-      "duration": ""
+      "duration": "3:05"
     },
     {
       "title": "Wake Up Little Susie",
@@ -46,11 +47,11 @@
     },
     {
       "title": "Uncle John's Band",
-      "duration": ""
+      "duration": "7:26"
     },
     {
       "title": "Katie Mae",
-      "duration": ""
+      "duration": "6:46"
     },
     {
       "title": "Dark Star",
@@ -66,7 +67,7 @@
     },
     {
       "title": "And We Bid You Goodnight",
-      "duration": ""
+      "duration": "3:47"
     }
   ]
 }

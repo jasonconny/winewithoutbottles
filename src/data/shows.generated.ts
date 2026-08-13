@@ -140,6 +140,68 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9928
   },
   {
+    "id": "1970021301",
+    "date": "1970-02-13",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021301.svg",
+    "songCount": 9,
+    "durationSeconds": 3534
+  },
+  {
+    "id": "1970021302",
+    "date": "1970-02-13",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021302.svg",
+    "songCount": 15,
+    "durationSeconds": 9642
+  },
+  {
+    "id": "1970021401",
+    "date": "1970-02-14",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021401.svg",
+    "songCount": 5,
+    "durationSeconds": 4132
+  },
+  {
+    "id": "1970021402",
+    "date": "1970-02-14",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021402.svg",
+    "songCount": 23,
+    "durationSeconds": 8517
+  },
+  {
     "id": "19700415",
     "date": "1970-04-15",
     "venue": "Winterland",

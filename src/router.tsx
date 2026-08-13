@@ -13,8 +13,8 @@ import NotFound from './routes/NotFound';
 // public/shows/<id>.json — it's intentionally NOT in the bundled index, so the
 // bundle stays small as the show count grows.
 //
-// Show ids are compact dates (19720827), with a performance suffix on the
-// two-show nights (19700213-early), and live at the root (`/:id`), so this
+// Show ids are compact dates (19720827), with a two-digit ordinal on the dates
+// that carry two shows (1970021301), and live at the root (`/:id`), so this
 // route matches ANY single path segment. Anything not id-shaped, and any
 // id-shaped segment with no show behind it, throws a 404 Response that the
 // route's errorElement renders as the global NotFound page.

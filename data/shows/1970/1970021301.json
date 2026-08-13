@@ -1,6 +1,7 @@
 {
-  "id": "19700213-early",
+  "id": "1970021301",
   "date": "1970-02-13",
+  "sitting": "early",
   "venue": "Fillmore East",
   "city": "New York",
   "state": "NY",
@@ -10,11 +11,11 @@
   "songs": [
     {
       "title": "Cold Rain and Snow",
-      "duration": ""
+      "duration": "5:46"
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "duration": "2:53"
     },
     {
       "title": "Good Lovin'",
@@ -22,27 +23,27 @@
     },
     {
       "title": "Mama Tried",
-      "duration": ""
+      "duration": "2:39"
     },
     {
       "title": "Black Peter",
-      "duration": ""
+      "duration": "10:12"
     },
     {
       "title": "Hard to Handle",
-      "duration": ""
+      "duration": "6:44"
     },
     {
       "title": "St. Stephen",
-      "duration": ""
+      "duration": "6:40"
     },
     {
       "title": "Not Fade Away",
-      "duration": ""
+      "duration": "10:11"
     },
     {
       "title": "Casey Jones",
-      "duration": ""
+      "duration": "4:53"
     }
   ]
 }
