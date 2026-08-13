@@ -282,10 +282,178 @@ function parseTrack(line: string): ParsedTrack | null {
 /** Sentinel for a heading naming a date the release index doesn't list. */
 const UNKNOWN_DATE = '\u0000unknown';
 
+/** Disc headings spell the number out (`;Disc one`) as often as not. */
+const DISC_WORDS = [
+  'one',
+  'two',
+  'three',
+  'four',
+  'five',
+  'six',
+  'seven',
+  'eight',
+  'nine',
+  'ten',
+];
+
+/** `Disc one` / `'''Disc 2'''` / `;Discs 1 & 2` → the disc number it opens. */
+function discHeadingNumber(line: string): number | null {
+  const match = line
+    .replace(/^[;:*#]+\s*/, '')
+    .replace(/^'+|'+$/g, '')
+    .replace(/^=+|=+$/g, '')
+    .trim()
+    .match(/^discs?\s+(\d+|[a-z]+)\b/i);
+  if (!match) return null;
+  const token = match[1].toLowerCase();
+  if (/^\d+$/.test(token)) return Number(token);
+  const word = DISC_WORDS.indexOf(token);
+  return word === -1 ? null : word + 1;
+}
+
+/**
+ * Read a `==Recording dates==` section that attributes tracks to nights by
+ * **disc and track number** rather than by sectioning the listing itself.
+ *
+ * Some releases cannot be bucketed by heading at all, because a single disc
+ * spans two nights. Dick's Picks 26 lists two discs and then says, in prose:
+ *
+ *     *April 26, 1969 – Disc 1 tracks 1–9
+ *     *April 27, 1969 – Disc 1 tracks 10–12, Disc 2
+ *
+ * No heading rule can split disc one there, and MusicBrainz can't help either —
+ * its per-medium titles name a night, and here one medium holds two. So this
+ * section becomes the authority whenever it is present and fully readable.
+ *
+ * Returns `disc:trackNumber` → date, or null when the section is absent or
+ * anything in it fails to resolve. **Null on any doubt is deliberate**: a
+ * half-read mapping would attribute some tracks and silently orphan the rest,
+ * a worse failure than the heading walk's. Rocking the Cradle writes its
+ * bullets date-*last* and references an unnumbered "Bonus disc" and a DVD, so
+ * it bails here and is no worse off than before.
+ */
+function discTrackDates(
+  wikitext: string,
+  release: Release,
+): Map<string, string> | null {
+  const section = wikitext.match(
+    /==\s*Recording dates\s*==([\s\S]*?)(?:\n==[^=]|$)/i,
+  );
+  if (!section) return null;
+  const all = [...release.dates, ...release.bonusDates].sort();
+  const span = all.length ? { first: all[0], last: all[all.length - 1] } : null;
+  const known = new Set(all);
+
+  const out = new Map<string, string>();
+  for (const raw of section[1].split('\n')) {
+    const line = raw.trim();
+    if (!line.startsWith('*')) continue;
+    // Parentheticals are asides about material issued elsewhere ("an additional
+    // track from this date was released on Fallout from the Phil Zone") and
+    // would otherwise contribute stray numbers.
+    const body = line.replace(/^\*+\s*/, '').replace(/\([^)]*\)/g, '');
+
+    // The date heads the bullet in every shape handled here; reading it from
+    // the whole line would let a date in a trailing aside win.
+    const head = body.split(/[–—:-]/)[0];
+    const date = longDate(head) ?? monthDayIn(head, span);
+    if (!date || !known.has(date)) return null;
+
+    // Everything after the date is disc clauses. Each `disc N` opens a clause
+    // running to the next one, so a track spec belongs to the disc preceding
+    // it: "Disc 1 tracks 3–4 & 9–11, disc 2 tracks 1–4".
+    const rest = body.slice(head.length);
+    const clauses = [...rest.matchAll(/discs?\s+([\d\s&,]*\d)/gi)];
+    if (clauses.length === 0) return null;
+    for (const [index, clause] of clauses.entries()) {
+      const discs = [...clause[1].matchAll(/\d+/g)].map((m) => Number(m[0]));
+      const tail = rest.slice(
+        clause.index + clause[0].length,
+        index + 1 < clauses.length ? clauses[index + 1].index : undefined,
+      );
+      const spec = tail.match(/^\s*:?\s*tracks?\s*:?\s*([\d\s,&–—-]+)/i);
+      if (!spec) {
+        // No track spec — the whole disc belongs to this date ("Discs 1 & 2").
+        for (const disc of discs) out.set(`${disc}:*`, date);
+        continue;
+      }
+      // Per-track and multi-disc can't combine on one clause: splitting the
+      // numbers across discs would need each disc's length, which the section
+      // never states.
+      if (discs.length > 1) return null;
+      for (const part of spec[1].split(/[,&]/)) {
+        const text = part.trim();
+        if (!text) continue;
+        const range = text.match(/^(\d+)\s*[–—-]\s*(\d+)$/);
+        const single = text.match(/^(\d+)$/);
+        if (range) {
+          for (let n = Number(range[1]); n <= Number(range[2]); n++) {
+            out.set(`${discs[0]}:${n}`, date);
+          }
+        } else if (single) {
+          out.set(`${discs[0]}:${single[1]}`, date);
+        } else {
+          return null;
+        }
+      }
+    }
+  }
+  if (out.size === 0) return null;
+  // Every date the release claims has to turn up, or the section describes only
+  // part of the record and the heading walk is the better reader.
+  const covered = new Set(out.values());
+  if (release.dates.some((date) => !covered.has(date))) return null;
+  return out;
+}
+
+/**
+ * Bucket by disc and track number using the mapping above — walking the listing
+ * counting tracks within each disc, which is what the prose section refers to.
+ */
+function tracksByDiscTrack(
+  wikitext: string,
+  mapping: Map<string, string>,
+): { byDate: Map<string, ParsedTrack[]>; orphans: number } {
+  const byDate = new Map<string, ParsedTrack[]>();
+  let orphans = 0;
+  let disc = 0;
+  let position = 0;
+  for (const line of wikitext.split('\n')) {
+    const opened = discHeadingNumber(line);
+    if (opened !== null) {
+      disc = opened;
+      position = 0;
+      continue;
+    }
+    if (
+      !line.startsWith('#') &&
+      !/^\|\s*"/.test(line) &&
+      !/^<li[ >]/.test(line)
+    )
+      continue;
+    const track = parseTrack(line);
+    if (!track) continue;
+    position++;
+    const date = mapping.get(`${disc}:${position}`) ?? mapping.get(`${disc}:*`);
+    if (!date) {
+      orphans++;
+      continue;
+    }
+    byDate.set(date, [...(byDate.get(date) ?? []), track]);
+  }
+  return { byDate, orphans };
+}
+
 function tracksByDate(
   wikitext: string,
   release: Release,
 ): { byDate: Map<string, ParsedTrack[]>; orphans: number } {
+  // A disc+track mapping outranks the heading walk: it's only present when the
+  // article states the attribution outright, and it's the only reader that can
+  // split one disc across two nights.
+  const mapping = discTrackDates(wikitext, release);
+  if (mapping) return tracksByDiscTrack(wikitext, mapping);
+
   // The window for resolving year-less headings has to cover bonus dates too,
   // or a "June 12 – First set:" heading on a 6/9 release won't resolve, will
   // read as undated, and will hand its tracks to the show in progress.

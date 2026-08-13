@@ -125,6 +125,35 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9923
   },
   {
+    "id": "19690426",
+    "date": "1969-04-26",
+    "venue": "Electric Theater",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19690426.svg",
+    "songCount": 26,
+    "durationSeconds": 10213
+  },
+  {
+    "id": "19690427",
+    "date": "1969-04-27",
+    "venue": "Labor Temple",
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19690427.svg",
+    "songCount": 8,
+    "durationSeconds": 6052
+  },
+  {
     "id": "19691108",
     "date": "1969-11-08",
     "venue": "Fillmore Auditorium",

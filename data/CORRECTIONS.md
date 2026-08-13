@@ -352,6 +352,90 @@ shifts left.
 Venues are filled in by hand (the importer leaves `venue`/`city` blank), so where
 sources disagree the choice is recorded here.
 
-| Show       | Sources disagree                                                                                           | Authored as                                                                                                                                                                |
-| ---------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1967-11-10 | Wikipedia's discography says `Shrine Auditorium`; DeadBase and JerryBase both say `Shrine Exhibition Hall` | `Shrine Exposition Hall` — the spelling on the official vinyl release. The Shrine complex has two distinct rooms and the band played both, so Auditorium is not a synonym. |
+| Show       | Sources disagree                                                                                           | Authored as                                                                                                                                                                 |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1967-11-10 | Wikipedia's discography says `Shrine Auditorium`; DeadBase and JerryBase both say `Shrine Exhibition Hall` | `Shrine Exposition Hall` — the spelling on the official vinyl release. The Shrine complex has two distinct rooms and the band played both, so Auditorium is not a synonym.  |
+| 1969-04-26 | Wikipedia links the venue as `[[Kinetic Playground\|Electric Theater]]`                                    | `Electric Theater` — the room's name in April 1969. It was renamed Kinetic Playground later that year, so the article's link target is the modern article, not the marquee. |
+
+### Attribution by disc and track number
+
+_Dick's Picks Volume 26_ could not be imported at all: its two nights are split
+**within a single disc**, so no heading rule could ever separate them, and
+MusicBrainz was no help either because its per-medium titles name one night
+where this medium holds two. The article states the attribution in prose instead:
+
+```
+*April 26, 1969 – Disc 1 tracks 1–9 (an additional track from this date was released on ''Fallout from the Phil Zone'')
+*April 27, 1969 – Disc 1 tracks 10–12, Disc 2
+```
+
+`discTrackDates` (`generator/import.ts`) now reads a `==Recording dates==`
+section of that shape and, when it resolves completely, it **outranks the
+heading walk** — it is the only reader that can split one disc across two nights.
+It returns null on any doubt, since a half-read mapping would attribute some
+tracks and silently orphan the rest.
+
+Three other releases carry such a section. _Go to Nassau_ was also unreadable
+before (23 tracks orphaned, no show importable) and now splits 14/9. _Dick's
+Picks Volume 14_ parses identically either way — its headings already worked.
+_Rocking the Cradle: Egypt 1978_ writes its bullets date-**last** and references
+an unnumbered "Bonus disc" and a DVD, so it bails and is no worse off. `--audit`
+reports the corpus unchanged (154 timed, 1 untimed, 1 unparsed) before and after.
+
+### Additions to the canon from Dick's Picks Volume 26
+
+Settled by Jason on 2026-08-13, all from the 4/26/69 Charlie Miller soundboard:
+
+- **`What's Become of the Baby`** (8:18, `1969-04-26`) sits between two `Feedback`
+  tracks, and it is not a performance in the ordinary sense — the _Aoxomoxoa_
+  studio recording was played over the PA during Feedback, which makes this its
+  only "live" appearance. Added as a canonical song anyway, deliberately, for the
+  weirdness: the wall records what the room heard.
+- **`Silver Threads and Golden Needles`** (`1969-04-26`) — a straightforward
+  addition, a cover in the 1969 rotation the corpus hadn't reached yet.
+- **`I Know It's a Sin`** — the Jimmy Reed cover the DP 26 article itself calls
+  rare. The tape abbreviates it to `It's A Sin`, which is aliased rather than
+  added, since a dropped `I Know` would be a different colour.
+
+Two taper spellings were aliased at the same time: `It's a Sin` and
+`Sittin on Top of the World` (the canon already held the apostrophe'd
+`Sittin' on Top of the World`, and alias matching is exact once lowercased).
+
+### Where the tape and the release disagree about boundaries — 1969-04-26
+
+A taper's tracking is a reading of the music, not a fact about it, and so is a
+release's. Two of Charlie Miller's calls on the 4/26/69 soundboard went opposite
+ways when Jason listened, 2026-08-13:
+
+- **`Dark Star Jam` (1:37) rejected — folded back into `Mountains of the Moon`.**
+  Miller tracks a separate jam after Mountains of the Moon. Jason: there are
+  similarities in Garcia's phrasing to the Mountains → Dark Star transition on
+  _Live/Dead_, but **none of the key phrases or riffs are played**, so it isn't
+  Dark Star. Folded, which restores the official release's `Mountains of the
+Moon` — 5:08 + 1:37 = the 6:45 _Dick's Picks 26_ carries. Two independent
+  readings landing on the same number is the confirmation.
+- **`Caution Jam` (8:05) accepted — Miller's tracking kept over the official
+  one.** `Viola Lee Blues` from this date was released on _Fallout from the Phil
+  Zone_ as a single undivided track. Jason: the performance **does** contain a
+  substantial Caution jam, so Miller's three-way split (`Viola Lee Blues` 10:53
+  → `Caution Jam` 8:05 → `Viola Lee Blues` 1:35) is the truer reading, and the
+  official timing and tracking were disregarded.
+
+The pair is worth keeping together because they point in opposite directions:
+the release is not automatically right, and neither is the taper. Same class of
+judgement as the He's Gone / Truckin' and Drums / Space splits — a track listing
+is a CD index, not a claim about where the music ends.
+
+### A release that is partial overall but whole for one night
+
+_Dick's Picks Volume 26_ is `completeness: partial`, and for **4/26/69** it
+plainly is: the Miller soundboard runs 27 songs and the release carries 9.
+
+**4/27/69 is the opposite case.** archive.org has exactly one tape for the date,
+and its 8 tracks are the release's 8 in the release's order — it is a rip of
+_Dick's Picks 26_, not an independent soundboard, so it cannot testify about what
+else was played. Jason's call, 2026-08-13: **no source specifically indicates the
+setlist is incomplete, so treat it as complete.** The show was promoted to
+`data/shows/1969/` with `source: "Dick's Picks Volume 26"` alone — the archive.org
+identifier was dropped from `source`, since citing a rip of the release as a
+second source would be circular.

@@ -1,0 +1,44 @@
+{
+  "id": "19690427",
+  "date": "1969-04-27",
+  "venue": "Labor Temple",
+  "city": "Minneapolis",
+  "state": "MN",
+  "country": "USA",
+  "tags": ["Dark Star", "Dick's Picks"],
+  "source": "Dick's Picks Volume 26",
+  "songs": [
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "20:37"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "4:12"
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "duration": "3:37"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "26:37"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "9:18"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "10:19"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "15:25"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:47"
+    }
+  ]
+}

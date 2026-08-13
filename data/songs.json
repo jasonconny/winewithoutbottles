@@ -381,6 +381,10 @@
       "title": "I Just Want to Make Love to You"
     },
     {
+      "title": "I Know It's a Sin",
+      "aliases": ["It's a Sin"]
+    },
+    {
       "title": "I Know You Rider",
       "aliases": ["I Know Your Rider"]
     },
@@ -731,11 +735,14 @@
       "aliases": ["Sidewalks Of New York"]
     },
     {
+      "title": "Silver Threads and Golden Needles"
+    },
+    {
       "title": "Sing Me Back Home"
     },
     {
       "title": "Sitting on Top of the World",
-      "aliases": ["Sittin' on Top of the World"]
+      "aliases": ["Sittin' on Top of the World", "Sittin on Top of the World"]
     },
     {
       "title": "Slipknot!",
@@ -936,6 +943,9 @@
     },
     {
       "title": "Wharf Rat"
+    },
+    {
+      "title": "What's Become of the Baby"
     },
     {
       "title": "What's Going On?"
