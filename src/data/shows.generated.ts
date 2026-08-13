@@ -287,6 +287,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8646
   },
   {
+    "id": "19710806",
+    "date": "1971-08-06",
+    "venue": "Hollywood Palladium",
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19710806.svg",
+    "songCount": 20,
+    "durationSeconds": 9446
+  },
+  {
     "id": "19710807",
     "date": "1971-08-07",
     "venue": "Golden Hall",
@@ -299,6 +313,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19710807.svg",
     "songCount": 22,
     "durationSeconds": 7727
+  },
+  {
+    "id": "19711031",
+    "date": "1971-10-31",
+    "venue": "Ohio Theatre",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19711031.svg",
+    "songCount": 21,
+    "durationSeconds": 8156
   },
   {
     "id": "19720328",

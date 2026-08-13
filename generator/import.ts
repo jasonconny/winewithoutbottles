@@ -266,6 +266,82 @@ function parseTrack(line: string): ParsedTrack | null {
 }
 
 /**
+ * Split on the `|` separators that belong to the list, ignoring those inside
+ * `[[wikilinks]]` and `{{templates}}`.
+ *
+ * A plain `split('|')` looks fine until a piped link turns up mid-list:
+ * `"[[Brokedown Palace (song)|Brokedown Palace]]" (Garcia, Hunter) – 5:39`
+ * tears into a titleless half and a quoteless one, and the track vanishes with
+ * no warning — four of Road Trips 1:3's five Hollywood Palladium tracks came
+ * through and the fifth simply didn't.
+ */
+function splitTopLevelPipes(line: string): string[] {
+  const parts: string[] = [];
+  let depth = 0;
+  let start = 0;
+  for (let index = 0; index < line.length; index++) {
+    if (line.startsWith('[[', index) || line.startsWith('{{', index)) {
+      depth++;
+      index++;
+    } else if (line.startsWith(']]', index) || line.startsWith('}}', index)) {
+      if (depth > 0) depth--;
+      index++;
+    } else if (line[index] === '|' && depth === 0) {
+      parts.push(line.slice(start, index));
+      start = index + 1;
+    }
+  }
+  parts.push(line.slice(start));
+  return parts;
+}
+
+/**
+ * The track rows on one wikitext line — normally zero or one, but sometimes
+ * several.
+ *
+ * `{{ordered list}}` is usually written an item per line, and those come
+ * through as `|"Title" … – m:ss` rows. It can equally be written **inline**,
+ * with the whole list on a single line:
+ *
+ *     {{ordered list
+ *     | start = 1|"Bertha" (Garcia, Hunter) – 7:04|"Mr. Charlie" (…) – 3:57|…
+ *     }}
+ *
+ * Road Trips 1:3 does both in the same article — one item per line for its
+ * 7/31 and 8/4 bonus blocks, inline for the 8/6 one — so a reader that only
+ * knows the row form silently loses the five Hollywood Palladium tracks and
+ * reports the date as carrying nothing at all.
+ *
+ * Two or more quoted segments on a line is the tell; a genuine single row has
+ * exactly one, and the `start = 1` parameter that leads the inline form has no
+ * quote and drops out on its own.
+ */
+function parseTrackLine(line: string): ParsedTrack[] {
+  const quoted = splitTopLevelPipes(line).filter((segment) =>
+    /^\s*"/.test(segment),
+  );
+  if (quoted.length > 1) {
+    return quoted.flatMap((segment) => {
+      const track = parseTrack(segment);
+      return track ? [track] : [];
+    });
+  }
+  // Track rows come in three markups: `#` lists, `|"Title"` rows inside an
+  // {{ordered list}}, and raw HTML `<li>` inside an `<ol>` — Dick's Picks 36
+  // uses the last, which is why it parsed as zero tracks while plainly being
+  // a single, fully-listed show.
+  if (
+    !line.startsWith('#') &&
+    !/^\|\s*"/.test(line) &&
+    !/^<li[ >]/.test(line)
+  ) {
+    return [];
+  }
+  const track = parseTrack(line);
+  return track ? [track] : [];
+}
+
+/**
  * Split a release's track listing into per-show buckets.
  *
  * Walks the article top to bottom keeping a "current date", flipped by the same
@@ -425,21 +501,16 @@ function tracksByDiscTrack(
       position = 0;
       continue;
     }
-    if (
-      !line.startsWith('#') &&
-      !/^\|\s*"/.test(line) &&
-      !/^<li[ >]/.test(line)
-    )
-      continue;
-    const track = parseTrack(line);
-    if (!track) continue;
-    position++;
-    const date = mapping.get(`${disc}:${position}`) ?? mapping.get(`${disc}:*`);
-    if (!date) {
-      orphans++;
-      continue;
+    for (const track of parseTrackLine(line)) {
+      position++;
+      const date =
+        mapping.get(`${disc}:${position}`) ?? mapping.get(`${disc}:*`);
+      if (!date) {
+        orphans++;
+        continue;
+      }
+      byDate.set(date, [...(byDate.get(date) ?? []), track]);
     }
-    byDate.set(date, [...(byDate.get(date) ?? []), track]);
   }
   return { byDate, orphans };
 }
@@ -560,23 +631,13 @@ function tracksByDate(
       }
       continue;
     }
-    // Track rows come in three markups: `#` lists, `|"Title"` rows inside an
-    // {{ordered list}}, and raw HTML `<li>` inside an `<ol>` — Dick's Picks 36
-    // uses the last, which is why it parsed as zero tracks while plainly being
-    // a single, fully-listed show.
-    if (
-      !line.startsWith('#') &&
-      !/^\|\s*"/.test(line) &&
-      !/^<li[ >]/.test(line)
-    )
-      continue;
-    const track = parseTrack(line);
-    if (!track) continue;
-    if (!current) {
-      orphans++;
-      continue;
+    for (const track of parseTrackLine(line)) {
+      if (!current) {
+        orphans++;
+        continue;
+      }
+      byDate.set(current, [...(byDate.get(current) ?? []), track]);
     }
-    byDate.set(current, [...(byDate.get(current) ?? []), track]);
   }
   return { byDate, orphans };
 }

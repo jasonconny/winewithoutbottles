@@ -421,7 +421,16 @@ Moon` — 5:08 + 1:37 = the 6:45 _Dick's Picks 26_ carries. Two independent
   → `Caution Jam` 8:05 → `Viola Lee Blues` 1:35) is the truer reading, and the
   official timing and tracking were disregarded.
 
-The pair is worth keeping together because they point in opposite directions:
+- **`Drums` (0:57) gained — Miller's split kept over the release's single track.**
+  _Dick's Picks 26_ lists `Cryptical Envelopment – 3:05` and no Drums at all;
+  Miller splits it `Cryptical Envelopment` 2:08 → `Drums` 0:57, and 2:08 + 0:57 =
+  3:05 exactly. The corpus follows Miller, so the show carries a Drums stripe the
+  release doesn't have. This is why `--audit` reports 19690426 at **+0:57 with 1
+  row differing** against DP 26 — that is the deliberate departure showing up,
+  not drift.
+
+The set is worth keeping together because the calls point in different
+directions:
 the release is not automatically right, and neither is the taper. Same class of
 judgement as the He's Gone / Truckin' and Drums / Space splits — a track listing
 is a CD index, not a claim about where the music ends.
@@ -439,3 +448,89 @@ setlist is incomplete, so treat it as complete.** The show was promoted to
 `data/shows/1969/` with `source: "Dick's Picks Volume 26"` alone — the archive.org
 identifier was dropped from `source`, since citing a rip of the release as a
 second source would be circular.
+
+### The Tighten Up Jam gets no stripe — 1971-10-31
+
+The DP 2 article carries a `==Set list==` section sourced to _DeadBase XI_ that
+lists the complete concert, and it names a **`Jam`** between `Dark Star` and
+`Sugar Magnolia` — the "Tighten Up Jam", which the article notes the band played
+only a handful of times between 1969 and 1971.
+
+It is **not** authored as a stripe. No source separates it: _Dick's Picks Volume
+2_ writes its first track as `"Dark Star" – 23:14 → "Jam" →`, one duration
+covering both, and the Gans/Eaton/Miller soundboard does the same. Jason's call,
+2026-08-13: since neither the official release, DeadBase nor JerryBase explicitly
+breaks it out, leave it folded into the 23:14 `Dark Star`.
+
+The distinction from the He's Gone / Truckin' and Drums / Space splits is that
+those had a boundary Jason could hear and place. Here nothing supplies one, and
+inventing a seam to honour a setlist entry would be a guess wearing the clothes
+of a correction. A rare jam the written record knows about is therefore absent
+from the art, deliberately.
+
+The `Cold Rain and Snow` tease on the way back into `Not Fade Away`, which the
+same article calls out, gets no stripe either — the standing rule for teases.
+
+### An `{{ordered list}}` written inline — 1971-08-06
+
+_Road Trips Volume 1 Number 3_ reported **zero** tracks for its Hollywood
+Palladium bonus block while plainly listing five. The article writes
+`{{ordered list}}` both ways in the same page: an item per line for its 7/31 and
+8/4 blocks, and **inline** for 8/6, with the whole list on one line —
+
+```
+| start = 1|"Bertha" (Garcia, Hunter) – 7:04|"Mr. Charlie" (McKernan, Hunter) – 3:57|…
+```
+
+— and the reader only knew the per-line form. `parseTrackLine`
+(`generator/import.ts`) now returns 0..n tracks per line, taking the inline form
+when a line holds two or more quoted segments; a genuine single row has exactly
+one, and the leading `start = 1` parameter carries no quote and drops out.
+
+A second bug surfaced underneath the first: splitting the line on `|` tore
+`"[[Brokedown Palace (song)|Brokedown Palace]]"` into a titleless half and a
+quoteless one and **lost the track with no warning** — four of five came through.
+`splitTopLevelPipes` now ignores separators inside `[[…]]` and `{{…}}`.
+
+`--audit` covers 159 shows across 52 releases with no already-imported show
+changed.
+
+### Timings mixed from three sources — 1971-08-06
+
+Two eligible releases carry 8/6 and neither carries it whole: _Dick's Picks
+Volume 35_ has it as bonus tracks (7 songs) and _Road Trips Volume 1 Number 3_ as
+a bonus disc (5 songs), together 12 of the 20 played. The remaining 8 come from
+`gd1971-08-06.sbd.miller.96541.sbeok.flac16`.
+
+The standing convention held — the release wins where it carries a song — but
+this is the case that shows what the convention costs. _Dick's Picks 35_ agrees
+with Miller to within seconds, while _Road Trips 1:3_ disagrees by up to **1:53**
+and not in a consistent direction: `Bertha` 7:04 against Miller's 8:57,
+`Mr. Charlie` 3:57 against 5:13, `Cumberland Blues` 5:50 against 7:08 — yet
+`Hard to Handle` is _longer_ on Road Trips, 8:20 against 7:48. So it isn't a
+uniform trim, and the finished show mixes two readings of where songs begin.
+Jason's call, 2026-08-13: keep the released timings anyway.
+
+The show takes the tag of its **chosen** source only, so it carries `Dick's
+Picks` and not `Road Trips` — DP 35 is `complete` and a series volume where Road
+Trips 1:3 is `unknown`. All three sources are named in `source`.
+
+This closes _Dick's Picks Volume 35_: 1971-08-07 and 1971-08-06 in
+`data/shows/1971/`, and 1971-08-24 in `data/unknown-setlists/`.
+
+### Timings mixed from two sources — 1971-10-31
+
+_Dick's Picks Volume 2_ is a single CD holding the second set only, so it carries
+6 of the night's 21 songs. The rest come from the archive.org soundboard
+`gd1971-10-31.142426.sbd.gans.eaton.miller.flac1644` — as definitive as an
+unofficial transfer gets: David Gans hosted the syndicated _Grateful Dead Hour_
+and was loaned vault tapes for it, and Rob Eaton recovered a major batch of Betty
+Boards and returned them to the vault.
+
+Where both sources carry a song the **release wins**, which is the standing
+convention. They nearly agree anyway — `Dark Star`, `Sugar Magnolia` and
+`St. Stephen` are identical to the second; `Not Fade Away` 7:25 vs the board's
+7:28, `Goin' Down the Road Feeling Bad` 10:38 vs 10:35, and the `Not Fade Away`
+reprise 3:19 vs 3:31. Net effect of preferring the release across those six: the
+show is 12 seconds shorter than a pure-board reading. Both sources are named in
+`source`, pipe-separated.
