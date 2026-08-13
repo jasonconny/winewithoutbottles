@@ -795,6 +795,22 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 12030
   },
   {
+    "id": "19740323",
+    "date": "1974-03-23",
+    "venue": "Cow Palace",
+    "city": "Daly City",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Playing Palindrome",
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740323.svg",
+    "songCount": 32,
+    "durationSeconds": 12419
+  },
+  {
     "id": "19740918",
     "date": "1974-09-18",
     "venue": "Parc des Expositions",

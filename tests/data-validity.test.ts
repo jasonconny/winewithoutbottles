@@ -37,6 +37,29 @@ const SITTINGS = ['early', 'late'];
 /** Setlist titles that earn a show the `Dark Star` tag — see the guard below. */
 const DARK_STAR_TITLES = ['Dark Star', 'Dark Star Jam'];
 
+/**
+ * The `Playing Palindrome`: Playing in the Band opens a second-set sequence that
+ * turns around on Morning Dew and comes back out the way it went in. Must appear
+ * as five *consecutive* songs — the same five titles scattered through a setlist
+ * are not the thing.
+ */
+const PLAYING_PALINDROME = [
+  'Playing in the Band',
+  "Uncle John's Band",
+  'Morning Dew',
+  "Uncle John's Band",
+  'Playing in the Band',
+];
+
+function hasPlayingPalindrome(show: ShowFile): boolean {
+  const titles = show.songs.map((song) => song.title);
+  return titles.some((_, start) =>
+    PLAYING_PALINDROME.every(
+      (title, offset) => titles[start + offset] === title,
+    ),
+  );
+}
+
 /** Wall of Sound era: debut at the Cow Palace → last night at Winterland. */
 const WALL_OF_SOUND_FIRST = '1974-03-23';
 const WALL_OF_SOUND_LAST = '1974-10-20';
@@ -223,6 +246,27 @@ describe('tags stay an editorial vocabulary', () => {
     ).toBe(played);
   });
 
+  it.each(files)('%s tags the Playing Palindrome iff it played one', (file) => {
+    // The third derivable-by-rule tag, and the first keyed on a *sequence*
+    // rather than a single song or a date. Playing in the Band opens, the set
+    // turns around on Morning Dew, and it comes back out through the same two
+    // songs in reverse — a shape the band reached only a handful of times, all
+    // of them 1973–74 (Jason, 2026-08-13).
+    //
+    // Pinned here for the same reason `Dark Star` is: the corpus doesn't hold
+    // every instance yet, and when the remaining ones are imported this test
+    // demands the tag rather than trusting anyone to remember it.
+    const show = readShow(file);
+    const played = hasPlayingPalindrome(show);
+    const tagged = (show.tags ?? []).includes('Playing Palindrome');
+    expect(
+      tagged,
+      played
+        ? `${file}: plays the Playing palindrome but is not tagged`
+        : `${file}: tagged Playing Palindrome but the sequence isn't in the setlist`,
+    ).toBe(played);
+  });
+
   it.each(files)('%s tags Wall of Sound iff it fell in the era', (file) => {
     // The second derivable-by-rule tag. The Wall of Sound PA debuted at the
     // Cow Palace on 1974-03-23 and played its last night at Winterland on
@@ -256,6 +300,7 @@ describe('tags stay an editorial vocabulary', () => {
       'Dark Star',
       'Final Show',
       'Live/Dead',
+      'Playing Palindrome',
       'Shows I Attended',
       'Sunshine Daydream',
       'Wall of Sound',

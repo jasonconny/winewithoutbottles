@@ -1,0 +1,146 @@
+{
+  "id": "19740323",
+  "date": "1974-03-23",
+  "venue": "Cow Palace",
+  "city": "Daly City",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Playing Palindrome",
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740323.svg",
+  "songCount": 32,
+  "durationSeconds": 12419,
+  "songs": [
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 212
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 226
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 297
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 249
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 521
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 84
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 851
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 751
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 189
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 481
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 299
+    }
+  ]
+}
