@@ -826,6 +826,36 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 12419
   },
   {
+    "id": "19740626",
+    "date": "1974-06-26",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740626.svg",
+    "songCount": 29,
+    "durationSeconds": 12771
+  },
+  {
+    "id": "19740628",
+    "date": "1974-06-28",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740628.svg",
+    "songCount": 28,
+    "durationSeconds": 12484
+  },
+  {
     "id": "19740918",
     "date": "1974-09-18",
     "venue": "Parc des Expositions",

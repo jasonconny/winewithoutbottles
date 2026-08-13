@@ -1,61 +1,64 @@
 {
   "id": "19740628",
   "date": "1974-06-28",
-  "venue": "",
-  "city": "",
+  "venue": "Boston Garden",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": ["Wall of Sound", "Dick's Picks"],
   "source": "Dick's Picks Volume 12 | archive.org:gd1974-06-28.139780.sbd.miller.fixed.flac1644",
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "duration": ""
+      "duration": "7:30"
     },
     {
       "title": "It Must Have Been the Roses",
-      "duration": ""
+      "duration": "4:59"
     },
     {
       "title": "Jack Straw",
-      "duration": ""
+      "duration": "5:16"
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "duration": "3:54"
     },
     {
       "title": "Deal",
-      "duration": ""
+      "duration": "5:02"
     },
     {
       "title": "Mexicali Blues",
-      "duration": ""
+      "duration": "3:22"
     },
     {
       "title": "Tennessee Jed",
-      "duration": ""
+      "duration": "8:05"
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": ""
+      "duration": "7:14"
     },
     {
       "title": "Loose Lucy",
-      "duration": ""
+      "duration": "5:07"
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "duration": "4:17"
     },
     {
       "title": "Sugaree",
-      "duration": ""
+      "duration": "7:07"
     },
     {
       "title": "Around And Around",
-      "duration": ""
+      "duration": "5:19"
     },
     {
       "title": "Seastones",
-      "duration": "4:52"
+      "duration": "24:33"
     },
     {
       "title": "Sugar Magnolia",
@@ -80,6 +83,22 @@
     {
       "title": "Row Jimmy",
       "duration": "8:16"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:11"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:16"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "9:08"
+    },
+    {
+      "title": "Jam",
+      "duration": "27:54"
     },
     {
       "title": "U.S. Blues",

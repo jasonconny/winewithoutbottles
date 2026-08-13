@@ -498,6 +498,57 @@ three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
 colour beside the Prelude and Part 1, under a name two sources already use for
 different spans of music.
 
+### When a partial release EXCERPTS a track, the tape wins — 1974-06-26/28
+
+The standing convention is that the release wins where it carries a song. _Dick's
+Picks Volume 12_ is the case that needed an exception carved into it.
+
+Its `Seastones` on 6/28 is **4:52**. Miller's soundboard has **24:33**. On 6/26
+the release omits Seastones altogether where Miller has **22:17**. This is not
+two readings of a boundary — the release is a `partial`, and its duration is what
+the CD holds, not what the band played. Taking it would have put a 4:52 stripe on
+a twenty-four-minute performance and left the 6/26 one off the wall entirely.
+
+Jason's call, 2026-08-13: **for a partial release, the tape wins wherever the two
+plainly differ.** Release-wins still governs everything else, including the many
+small disagreements — it is specifically the excerpt case that is carved out.
+
+The distinction from a boundary disagreement is size and shape: `Truckin'` on
+6/26 is 11:06 on the release against Miller's 31:01, but the release splits that
+span into `Truckin'` + `Other One Jam` + `Spanish Jam` summing to 29:25, so it is
+reading the same music differently rather than holding less of it.
+
+Every other `Seastones` in `data/shows` was checked at the same time and none is
+affected: 19740918 comes from `30 Trips Around the Sun`, which is `complete`, and
+19741016–19741020 are legacy reconstructions with no release source at all. The
+rule bites ahead rather than behind — five staged partials (19740804/05/06 from
+_Dick's Picks 31_, 19740910/11 from _Dick's Picks 7_) carry a blank `Seastones`
+that must be filled from the tape, not the release.
+
+### A release naming jams the tapes don't — 1974-06-26
+
+_Dick's Picks 12_ names two things neither soundboard separates, and Jason took
+the release on both (2026-08-13):
+
+- **`Mind Left Body Jam` (1:39)** between `China Cat Sunflower` and
+  `I Know You Rider`. Worth flagging against the 1973-02-26 entry below, which
+  rejected an interposed track in that same transition on a 59-0 corpus
+  precedent: there the claim came from **one taper** against every other source,
+  here it comes from the **official release**.
+- **`Other One Jam` (3:06)** where the oleynick tape says `The Other One` (4:00).
+  This added `Other One Jam` to `data/songs.json` — a deliberate canon entry, and
+  a distinct colour from `The Other One`, which is the point: a jam on the theme
+  is not the song.
+
+The suite on 6/26 came from a third source again. Miller carries it as one 16:43
+block; the oleynick tape splits it 1:18 / 4:24 / 10:59, summing to 16:41 — two
+seconds off Miller. So the split is taken from oleynick rather than placed by
+ear, the only three stripes on that show not from Miller or the release. On 6/28
+no such trouble: _Dick's Picks 12_ prints the split itself (Prelude 1:11, Part 1
+4:16, Let It Grow 9:08, against its own 14:35 umbrella) plus a 27:54 `Jam` that
+the staged skeleton had dropped entirely, because the umbrella title
+`Weather Report Suite` is not in the canon.
+
 ### A transition jam that gets no stripe — 1973-02-26
 
 The two soundboards for this date disagree by exactly one track. `sbd.kaplan`

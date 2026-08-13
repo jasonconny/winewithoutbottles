@@ -1,117 +1,133 @@
 {
   "id": "19740626",
   "date": "1974-06-26",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 12 | archive.org:gd74-06-26.sbd.oleynick.214.sbeok.shnf",
+  "venue": "Providence Civic Center",
+  "city": "Providence",
+  "state": "RI",
+  "country": "USA",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740626.svg",
+  "songCount": 29,
+  "durationSeconds": 12771,
   "songs": [
     {
       "title": "Big River",
-      "duration": ""
+      "durationSeconds": 315
     },
     {
       "title": "Brown-Eyed Women",
-      "duration": ""
+      "durationSeconds": 344
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "durationSeconds": 240
     },
     {
       "title": "Scarlet Begonias",
-      "duration": ""
+      "durationSeconds": 498
     },
     {
       "title": "Black-Throated Wind",
-      "duration": ""
+      "durationSeconds": 535
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "durationSeconds": 527
     },
     {
       "title": "Mexicali Blues",
-      "duration": ""
+      "durationSeconds": 289
     },
     {
       "title": "Deal",
-      "duration": ""
+      "durationSeconds": 313
     },
     {
       "title": "The Race Is On",
-      "duration": ""
+      "durationSeconds": 227
     },
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "duration": ""
+      "durationSeconds": 521
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "durationSeconds": 348
     },
     {
       "title": "Ship Of Fools",
-      "duration": ""
+      "durationSeconds": 406
     },
     {
       "title": "Weather Report Suite Prelude",
-      "duration": ""
+      "durationSeconds": 78
     },
     {
       "title": "Weather Report Suite Part 1",
-      "duration": ""
+      "durationSeconds": 264
     },
     {
       "title": "Let It Grow",
-      "duration": ""
+      "durationSeconds": 659
     },
     {
       "title": "It Must Have Been the Roses",
-      "duration": ""
+      "durationSeconds": 372
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 1337
     },
     {
       "title": "U.S. Blues",
-      "duration": ""
+      "durationSeconds": 358
     },
     {
       "title": "Me and My Uncle",
-      "duration": ""
+      "durationSeconds": 188
     },
     {
       "title": "Jam",
-      "duration": "2:29"
+      "durationSeconds": 149
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "11:24"
+      "durationSeconds": 684
+    },
+    {
+      "title": "Mind Left Body Jam",
+      "durationSeconds": 99
     },
     {
       "title": "I Know You Rider",
-      "duration": "6:12"
+      "durationSeconds": 372
     },
     {
       "title": "Truckin'",
-      "duration": "11:06"
+      "durationSeconds": 666
     },
     {
-      "title": "The Other One",
-      "duration": ""
+      "title": "Other One Jam",
+      "durationSeconds": 186
     },
     {
       "title": "Spanish Jam",
-      "duration": "15:13"
+      "durationSeconds": 913
     },
     {
       "title": "Wharf Rat",
-      "duration": "9:50"
+      "durationSeconds": 590
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "9:52"
+      "durationSeconds": 592
     },
     {
       "title": "Eyes Of The World",
-      "duration": "11:41"
+      "durationSeconds": 701
     }
   ]
 }
