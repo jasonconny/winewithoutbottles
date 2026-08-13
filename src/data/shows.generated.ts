@@ -752,6 +752,35 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11328
   },
   {
+    "id": "19731130",
+    "date": "1973-11-30",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731130.svg",
+    "songCount": 23,
+    "durationSeconds": 10771
+  },
+  {
+    "id": "19731202",
+    "date": "1973-12-02",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731202.svg",
+    "songCount": 23,
+    "durationSeconds": 11175
+  },
+  {
     "id": "19740918",
     "date": "1974-09-18",
     "venue": "Parc des Expositions",

@@ -471,6 +471,45 @@ from the art, deliberately.
 The `Cold Rain and Snow` tease on the way back into `Not Fade Away`, which the
 same article calls out, gets no stripe either — the standing rule for teases.
 
+### Weather Report Suite, named three ways — 1973-11-30
+
+The suite is authored as **three stripes** — `Weather Report Suite Prelude`,
+`Weather Report Suite Part 1`, `Let It Grow` — matching how the corpus already
+carries it at 1974-10-17 and 1974-10-18. Getting there took a decision, because
+on this date the same words mean different music in different sources:
+
+| source                             | what it calls the suite                                                      | duration    |
+| ---------------------------------- | ---------------------------------------------------------------------------- | ----------- |
+| _Dick's Picks Volume 14_           | `Weather Report Suite`                                                       | 14:44       |
+| `mtx.dusborne` (the skeleton tape) | `Weather Report Suite` + `Let It Grow`                                       | 5:27 + 9:16 |
+| `sbd.vernon`                       | `Weather Report Suite Prelude-> Weather Report Suite Part 1` + `Let It Grow` | 5:37 + 9:19 |
+
+The release uses the name for **all three parts** (5:27 + 9:16 = 14:43 against
+its 14:44), while both tapes use it for the **first two**. Taking the release's
+14:44 onto the tape's slot would have double-counted Let It Grow.
+
+No source on this date separates the Prelude from Part 1. Jason's call,
+2026-08-13: keep the established three-stripe convention and supply the split by
+listening — **Prelude 1:18, Part 1 4:10**, which sums to 5:28 against dusborne's
+undivided 5:27. Two nights later on 12/02 the `sbd.clugston` tape splits all
+three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
+
+`Weather Report Suite` was **not** added to the canon. It would have been a third
+colour beside the Prelude and Part 1, under a name two sources already use for
+different spans of music.
+
+### Filling a staged partial's blanks from one tape
+
+Standing practice for the staged partials, applied from 1973-11-30 onward: the
+blanks are filled from **the same tape the skeleton was built from**, so a show
+carries one consistent reading of where songs begin rather than a mix. Released
+timings still win where the release carries the song, which is the only place a
+show mixes readings.
+
+That is why 11/30 uses `mtx.dusborne` rather than `sbd.vernon`, despite vernon
+being a pure soundboard: dusborne tracks finer, splitting `Bertha` from
+`Promised Land` where vernon runs them together as one 9:35 track.
+
 ### An `{{ordered list}}` written inline — 1971-08-06
 
 _Road Trips Volume 1 Number 3_ reported **zero** tracks for its Hollywood

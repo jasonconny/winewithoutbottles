@@ -1,8 +1,11 @@
 {
   "id": "19731202",
   "date": "1973-12-02",
-  "venue": "",
-  "city": "",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
   "source": "Dick's Picks Volume 14 | archive.org:gd73-12-02.sbd.clugston.3415.sbeok.shnf",
   "songs": [
     {
@@ -15,11 +18,11 @@
     },
     {
       "title": "Dire Wolf",
-      "duration": ""
+      "duration": "4:51"
     },
     {
       "title": "The Race Is On",
-      "duration": ""
+      "duration": "3:21"
     },
     {
       "title": "Brown-Eyed Women",
@@ -35,31 +38,31 @@
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "duration": "4:29"
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "duration": "9:47"
     },
     {
       "title": "Big River",
-      "duration": ""
+      "duration": "5:24"
     },
     {
       "title": "Deal",
-      "duration": ""
+      "duration": "5:11"
     },
     {
       "title": "Weather Report Suite Prelude",
-      "duration": ""
+      "duration": "1:27"
     },
     {
       "title": "Weather Report Suite Part 1",
-      "duration": ""
+      "duration": "4:49"
     },
     {
       "title": "Let It Grow",
-      "duration": ""
+      "duration": "9:07"
     },
     {
       "title": "Wharf Rat",
@@ -91,12 +94,11 @@
     },
     {
       "title": "Sugar Magnolia",
-      "duration": ""
+      "duration": "10:19"
     },
     {
       "title": "Morning Dew",
       "duration": "14:31"
     }
-  ],
-  "note": "Second set and encore take Dick's Picks 14's timings. The release's Playing in the Band (12:09) and Jam (15:39) are authored as Playing in the Band (20:33) + Mind Left Body Jam (7:15): DeadBase and JerryBase both have MLB coming out of Playing, and Jason placed the seam 8:24 into the Jam track. Sugar Magnolia closes the set on both listings but is not on the release, so it is blank. The Weather Report Suite is three stripes to be timed by hand."
+  ]
 }

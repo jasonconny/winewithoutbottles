@@ -6,7 +6,7 @@
   "state": "CA",
   "country": "USA",
   "source": "Dick's Picks Volume 22",
-  "note": "Setlist not definitively known. Dick's Picks Volume 22 documents \"portions of the concerts\" of February 23 and 24, 1968 at the Kings Beach Bowl, mastered from Dan Healy's original reels — the same live material that fed Anthem of the Sun. Nothing circulates for either night on archive.org, so there is no source to say what else was played or in what order. The tracks here are the released portion, not the night.",
+  "note": "Setlist not definitively known. Dick's Picks Volume 22 documents \"portions of the concerts\" of February 23 and 24, 1968 at the Kings Beach Bowl, mastered from Dan Healy's original reels — the same live material that fed Anthem of the Sun. Nothing circulates for either night on archive.org, so there is no source to say what else was played or in what order. The tracks here are the released portion, not the night. It is not impossible that the remainder survives in the vault and is released some day, in which case these move into data/shows/ — but nothing outside the vault can settle them now.",
   "songs": [
     {
       "title": "Morning Dew",

@@ -1,93 +1,109 @@
 {
   "id": "19731130",
   "date": "1973-11-30",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 14 | archive.org:gd1973-11-30.124131.mtx.dusborne.flac16",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19731130.svg",
+  "songCount": 23,
+  "durationSeconds": 10771,
   "songs": [
     {
       "title": "Morning Dew",
-      "duration": "14:29"
+      "durationSeconds": 869
     },
     {
       "title": "Mexicali Blues",
-      "duration": "3:46"
+      "durationSeconds": 226
     },
     {
       "title": "Dire Wolf",
-      "duration": "5:09"
+      "durationSeconds": 309
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "durationSeconds": 215
     },
     {
       "title": "Brown-Eyed Women",
-      "duration": ""
+      "durationSeconds": 302
     },
     {
       "title": "Black-Throated Wind",
-      "duration": "7:01"
+      "durationSeconds": 421
     },
     {
       "title": "Don't Ease Me In",
-      "duration": "4:44"
+      "durationSeconds": 284
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "durationSeconds": 251
     },
     {
       "title": "They Love Each Other",
-      "duration": "6:01"
+      "durationSeconds": 361
     },
     {
       "title": "Big River",
-      "duration": "5:30"
+      "durationSeconds": 330
     },
     {
       "title": "Loser",
-      "duration": ""
+      "durationSeconds": 408
     },
     {
       "title": "Playing in the Band",
-      "duration": "23:18"
+      "durationSeconds": 1398
     },
     {
       "title": "Bertha",
-      "duration": ""
+      "durationSeconds": 385
     },
     {
       "title": "Promised Land",
-      "duration": ""
+      "durationSeconds": 191
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "durationSeconds": 569
     },
     {
       "title": "Jack Straw",
-      "duration": ""
+      "durationSeconds": 314
     },
     {
       "title": "Here Comes Sunshine",
-      "duration": "11:54"
+      "durationSeconds": 714
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 78
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 250
     },
     {
       "title": "Let It Grow",
-      "duration": ""
+      "durationSeconds": 556
     },
     {
       "title": "Dark Star Jam",
-      "duration": "9:18"
+      "durationSeconds": 558
     },
     {
       "title": "Eyes Of The World",
-      "duration": "19:26"
+      "durationSeconds": 1166
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "10:16"
+      "durationSeconds": 616
     }
   ]
 }

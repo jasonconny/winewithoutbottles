@@ -34,6 +34,9 @@ function expectIdMatchesDate(show: ShowFile, file: string): void {
 /** `sitting`, where authored, is one of the two performances of a night. */
 const SITTINGS = ['early', 'late'];
 
+/** Setlist titles that earn a show the `Dark Star` tag — see the guard below. */
+const DARK_STAR_TITLES = ['Dark Star', 'Dark Star Jam'];
+
 /** Wall of Sound era: debut at the Cow Palace → last night at Winterland. */
 const WALL_OF_SOUND_FIRST = '1974-03-23';
 const WALL_OF_SOUND_LAST = '1974-10-20';
@@ -200,8 +203,17 @@ describe('tags stay an editorial vocabulary', () => {
     //
     // Once per show, not once per performance: 9 shows play it twice (the
     // post-drums reprise) and still carry exactly one tag.
+    //
+    // `Dark Star Jam` counts too (Jason, 2026-08-13). The tag asks whether the
+    // band went to Dark Star that night, and on 1973-11-30 they went there
+    // without singing it — the jam is the thing, not a lesser version of it.
+    // Listed explicitly rather than matched on a `Dark Star` prefix, so a new
+    // variant fails here until it is admitted deliberately, the same friction
+    // data/songs.json applies to titles.
     const show = readShow(file);
-    const played = show.songs.some((song) => song.title === 'Dark Star');
+    const played = show.songs.some((song) =>
+      DARK_STAR_TITLES.includes(song.title),
+    );
     const tagged = (show.tags ?? []).includes('Dark Star');
     expect(
       tagged,
