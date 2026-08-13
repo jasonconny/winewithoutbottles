@@ -1,0 +1,121 @@
+{
+  "id": "19740804",
+  "date": "1974-08-04",
+  "venue": "Philadelphia Civic Center",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740804.svg",
+  "songCount": 26,
+  "durationSeconds": 12455,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 513
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 516
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1550
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 993
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 215
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 80
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 260
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 565
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 681
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 642
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 386
+    }
+  ]
+}

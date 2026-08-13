@@ -1,125 +1,133 @@
 {
   "id": "19740806",
   "date": "1974-08-06",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 31 | archive.org:gd1974-08-06.135934.5-1.tobin.flac1648",
+  "venue": "Roosevelt Stadium",
+  "city": "Jersey City",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740806.svg",
+  "songCount": 29,
+  "durationSeconds": 14033,
   "songs": [
     {
       "title": "Bertha",
-      "duration": ""
+      "durationSeconds": 357
     },
     {
       "title": "Mexicali Blues",
-      "duration": ""
+      "durationSeconds": 222
     },
     {
       "title": "Don't Ease Me In",
-      "duration": ""
+      "durationSeconds": 218
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "durationSeconds": 214
     },
     {
       "title": "Sugaree",
-      "duration": ""
+      "durationSeconds": 482
     },
     {
       "title": "Jack Straw",
-      "duration": ""
+      "durationSeconds": 344
     },
     {
       "title": "Eyes Of The World",
-      "duration": "19:28"
+      "durationSeconds": 1168
     },
     {
       "title": "Promised Land",
-      "duration": ""
+      "durationSeconds": 214
     },
     {
       "title": "Deal",
-      "duration": ""
+      "durationSeconds": 308
     },
     {
       "title": "Playing in the Band",
-      "duration": "22:37"
+      "durationSeconds": 1357
     },
     {
       "title": "Scarlet Begonias",
-      "duration": "9:25"
+      "durationSeconds": 565
     },
     {
       "title": "Playing in the Band",
-      "duration": "5:04"
+      "durationSeconds": 304
     },
     {
       "title": "Seastones",
-      "duration": ""
+      "durationSeconds": 1087
     },
     {
       "title": "Uncle John's Band",
-      "duration": "10:44"
+      "durationSeconds": 644
     },
     {
       "title": "Black Peter",
-      "duration": ""
+      "durationSeconds": 660
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "durationSeconds": 254
     },
     {
       "title": "Loose Lucy",
-      "duration": ""
+      "durationSeconds": 355
     },
     {
       "title": "Big River",
-      "duration": ""
+      "durationSeconds": 345
     },
     {
       "title": "Ship Of Fools",
-      "duration": ""
+      "durationSeconds": 396
     },
     {
       "title": "Me and My Uncle",
-      "duration": ""
+      "durationSeconds": 173
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "durationSeconds": 494
     },
     {
       "title": "Sugar Magnolia",
-      "duration": ""
+      "durationSeconds": 398
     },
     {
       "title": "He's Gone",
-      "duration": ""
+      "durationSeconds": 725
     },
     {
       "title": "Truckin'",
-      "duration": ""
+      "durationSeconds": 829
     },
     {
       "title": "Spanish Jam",
-      "duration": ""
+      "durationSeconds": 413
     },
     {
       "title": "The Other One",
-      "duration": ""
+      "durationSeconds": 621
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": ""
+      "durationSeconds": 374
     },
     {
       "title": "Sunshine Daydream",
-      "duration": ""
+      "durationSeconds": 172
     },
     {
       "title": "U.S. Blues",
-      "duration": ""
+      "durationSeconds": 340
     }
   ]
 }

@@ -498,6 +498,56 @@ three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
 colour beside the Prelude and Part 1, under a name two sources already use for
 different spans of music.
 
+### A release that splits what the tapes lump — 1974-08-04/05
+
+_Dick's Picks Volume 31_ is the clearest case of the release being the finer
+reader, and twice its split reconciles to a tape's single track almost exactly:
+
+- **8/4, the suite.** The seamons matrix has one `Weather Report Suite` of 14:58.
+  The release prints Prelude 1:20, Part 1 4:20, Part 2: Let It Grow 9:16 — 14:56.
+  Authored as three stripes with the corpus's names, no ear needed.
+- **8/5, the Truckin' passage.** Miller's board has one `Truckin'` of 31:04. The
+  release prints `Truckin'` 9:46 → `Jam` 8:16 → `The Other One Jam` 2:30 →
+  `Space` 10:25 — 30:57. Authored as four stripes. `The Other One Jam` is a
+  spelling of the canonical `Other One Jam` and was aliased rather than added.
+
+`Seastones` came from the tape on all three nights (16:33 / 17:32 / 18:07) under
+the excerpt rule below — the release carries it on none of them.
+
+Two caveats sit in this volume and neither is a mistake:
+
+- The **8/4 matrix absorbs between-song announcement into the songs**, having no
+  separate banter tracks beyond two `Take A Step Back`. Its `Jack Straw` is 7:47
+  against the release's 5:27, its `Peggy-O` 8:49 against 6:47. Release-wins
+  covers the tracks the release carries; the eleven stripes seamons alone
+  supplies may run slightly long, and there is no better tape — the alternatives
+  are 24 tracks against its 27.
+- The release's **8/6 `Scarlet Begonias` contains a patch from the August 4
+  performance**, per a footnote in the article. That 9:25 stripe is therefore
+  partly another night's music. Kept, because it is the release's own timing and
+  nothing else can separate the patch.
+
+For 8/6 the skeleton's tape was **rejected**: a tobin 5.1 surround transfer with
+no banter tracks at all, whose `The Promised Land` runs 5:17 where two other
+tapes say ~3:20. Replaced with `sbd.anon.gems` (2024), which separates a 2:00
+tuning and lands closest to the release on the one track both carry (`Eyes of the
+World`, 19:23 against 19:28). Jason's call, 2026-08-13. Second time a tobin
+surround transfer has had to be set aside — see 1974-03-23, where its titles were
+shifted two positions against its own durations.
+
+### Sugar Magnolia and its coda — 1974-08-04
+
+The release lists one track called `Sugar Magnolia / Sunshine Daydream` (10:42);
+the tape lists one called `Sugar Magnolia` (13:27) and no Daydream. Neither
+separates them, so it is authored as a single `Sugar Magnolia` at the release's
+10:42.
+
+Jason, 2026-08-13, on why the combined listing is a quirk rather than an error:
+**`Sunshine Daydream` is the coda of `Sugar Magnolia`**, and was only
+occasionally performed apart from it — on 1990-07-16 the two bookended the second
+set. That is why the corpus never has them adjacent: everywhere the Daydream
+appears as its own stripe, it returns after other songs.
+
 ### When a partial release EXCERPTS a track, the tape wins — 1974-06-26/28
 
 The standing convention is that the release wins where it carries a song. _Dick's

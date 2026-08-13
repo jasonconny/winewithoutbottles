@@ -856,6 +856,51 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 12484
   },
   {
+    "id": "19740804",
+    "date": "1974-08-04",
+    "venue": "Philadelphia Civic Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740804.svg",
+    "songCount": 26,
+    "durationSeconds": 12455
+  },
+  {
+    "id": "19740805",
+    "date": "1974-08-05",
+    "venue": "Philadelphia Civic Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740805.svg",
+    "songCount": 27,
+    "durationSeconds": 11587
+  },
+  {
+    "id": "19740806",
+    "date": "1974-08-06",
+    "venue": "Roosevelt Stadium",
+    "city": "Jersey City",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740806.svg",
+    "songCount": 29,
+    "durationSeconds": 14033
+  },
+  {
     "id": "19740918",
     "date": "1974-09-18",
     "venue": "Parc des Expositions",
