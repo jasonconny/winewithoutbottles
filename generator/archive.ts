@@ -120,6 +120,7 @@ export async function recordingTracks(
   if (!res.ok) throw new Error(`archive.org metadata: HTTP ${res.status}`);
   const body = (await res.json()) as {
     files?: {
+      name?: string;
       format?: string;
       title?: string;
       track?: string;
@@ -137,26 +138,64 @@ export async function recordingTracks(
     ) ?? null;
   if (!format) return [];
 
-  return files
-    .filter((file) => file.format === format && file.title && file.length)
-    .sort((a, b) => Number(a.track ?? 0) - Number(b.track ?? 0))
-    .flatMap((file) => {
-      const seconds = parseLength(file.length ?? '');
-      if (seconds === null) return [];
-      const title = (file.title ?? '')
-        .replace(/^\d+\s*[-.]?\s*/, '')
-        .replace(/[‘’]/g, "'")
-        // Taper titles mark segues with an ASCII arrow, "Help On The Way ->",
-        // which is part of the sequencing rather than the song's name. They
-        // also carry footnote markers — "Turn On Your Lovelight *", "The Things
-        // I Used To Do **" — keyed to notes in the item description, usually
-        // naming a guest. Both are annotation, not title: left on, the marker
-        // hides a song the registry already knows (that Lovelight is an
-        // existing alias). Repeat the group so "Title * >" comes off in either
-        // order.
-        .replace(/(?:\s*(?:->|[>→]|\*+))+\s*$/, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-      return title ? [{ title, duration: formatDuration(seconds) }] : [];
-    });
+  // One item can carry the same track twice under one format name: 9/11/74 has
+  // both `gd74-09-11d1t01.mp3` and `…d1t01_vbr.mp3`, each reported as
+  // "VBR MP3", and the skeleton came back with all 19 songs doubled. Dedupe on
+  // the filename with its extension and encoding suffix stripped, which is the
+  // only key that separates a re-encode from a genuine repeat: the two copies
+  // can differ by a second in `length` (3:27 vs 3:26), and a two-disc item
+  // numbering both discs from 1 makes `track` ambiguous on its own.
+  const seen = new Set<string>();
+  const unique = files.filter((file) => {
+    if (file.format !== format || !file.title || !file.length) return false;
+    const key = (file.name ?? '')
+      .replace(/\.[a-z0-9]+$/i, '')
+      .replace(/_(vbr|sample|\d+kb)$/i, '');
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  /** `…d2t07.mp3` → [2, 7]; null when the name doesn't carry disc/track. */
+  const discTrack = (name: string): [number, number] | null => {
+    const match = name.match(/d(\d+)t(\d+)/i);
+    return match ? [Number(match[1]), Number(match[2])] : null;
+  };
+
+  return (
+    unique
+      // Disc first, then track, read from the *filename*. Sorting on the `track`
+      // field alone interleaves the discs of any item numbering each from 1, and
+      // sorting on the raw name fails when an item spells its discs differently:
+      // 6/26/74 names disc two `gd74-06-26d2t01` and disc one `gd740626d1t01`,
+      // so plain name order puts the second set first. Items without the
+      // convention fall back to numeric name order.
+      .sort((a, b) => {
+        const left = discTrack(a.name ?? '');
+        const right = discTrack(b.name ?? '');
+        if (left && right) return left[0] - right[0] || left[1] - right[1];
+        return (a.name ?? '').localeCompare(b.name ?? '', undefined, {
+          numeric: true,
+        });
+      })
+      .flatMap((file) => {
+        const seconds = parseLength(file.length ?? '');
+        if (seconds === null) return [];
+        const title = (file.title ?? '')
+          .replace(/^\d+\s*[-.]?\s*/, '')
+          .replace(/[‘’]/g, "'")
+          // Taper titles mark segues with an ASCII arrow, "Help On The Way ->",
+          // which is part of the sequencing rather than the song's name. They
+          // also carry footnote markers — "Turn On Your Lovelight *", "The Things
+          // I Used To Do **" — keyed to notes in the item description, usually
+          // naming a guest. Both are annotation, not title: left on, the marker
+          // hides a song the registry already knows (that Lovelight is an
+          // existing alias). Repeat the group so "Title * >" comes off in either
+          // order.
+          .replace(/(?:\s*(?:->|[>→]|\*+))+\s*$/, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+        return title ? [{ title, duration: formatDuration(seconds) }] : [];
+      })
+  );
 }

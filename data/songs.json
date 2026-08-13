@@ -174,7 +174,14 @@
       ]
     },
     {
+      "title": "Dark Hollow"
+    },
+    {
       "title": "Dark Star"
+    },
+    {
+      "title": "Dark Star Jam",
+      "sharesPrefixWith": "Dark Star"
     },
     {
       "title": "Days Between"
@@ -394,6 +401,9 @@
       "title": "I'm a King Bee"
     },
     {
+      "title": "I've Been All Around This World"
+    },
+    {
       "title": "If the Shoe Fits"
     },
     {
@@ -456,6 +466,9 @@
       "title": "Just Like Tom Thumb's Blues"
     },
     {
+      "title": "Katie Mae"
+    },
+    {
       "title": "Keep Rolling By"
     },
     {
@@ -492,6 +505,9 @@
       "title": "Little Red Rooster"
     },
     {
+      "title": "Little Sadie"
+    },
+    {
       "title": "Looks Like Rain"
     },
     {
@@ -518,6 +534,9 @@
     {
       "title": "Man Smart Woman Smarter",
       "aliases": ["Man Smart (Woman Smarter)", "Man Smart, Woman Smarter"]
+    },
+    {
+      "title": "Mason's Children"
     },
     {
       "title": "Me and Bobby McGee",
@@ -549,6 +568,10 @@
         "Mississippi Half-Step Uptown Toodleloo",
         "Mississippi Half-Step Uptown Toodleoo"
       ]
+    },
+    {
+      "title": "Monkey and the Engineer",
+      "aliases": ["Monkey And The Engineer"]
     },
     {
       "title": "Morning Dew",
@@ -843,7 +866,8 @@
       "aliases": ["Touch Of Grey"]
     },
     {
-      "title": "Truckin'"
+      "title": "Truckin'",
+      "aliases": ["Truckin' . Nobody's Fault Jam"]
     },
     {
       "title": "Turn On Your Love Light",
@@ -876,6 +900,9 @@
       "title": "Visions of Johanna"
     },
     {
+      "title": "Wake Up Little Susie"
+    },
+    {
       "title": "Walkin' Blues"
     },
     {
@@ -894,7 +921,8 @@
       "title": "We Can Run"
     },
     {
-      "title": "Weather Report Suite Part 1"
+      "title": "Weather Report Suite Part 1",
+      "aliases": ["Weather Report Suite Part One"]
     },
     {
       "title": "Weather Report Suite Prelude"
@@ -934,6 +962,7 @@
   ],
   "foldIntoPrevious": ["And"],
   "notASong": [
+    "Bass Solo",
     "Beer Barrel Polka",
     "Beer Barrell Polka",
     "Bobby Announcement",
