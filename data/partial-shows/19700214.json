@@ -1,9 +1,12 @@
 {
   "id": "19700214",
   "date": "1970-02-14",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 4 | archive.org:gd1970-02-14.sbd.miller.97644.flac16",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dark Star", "Dick's Picks"],
+  "source": "Dick's Picks Volume 4 | History of the Grateful Dead, Volume One (Bear's Choice) | archive.org:gd1970-02-14.sbd.miller.97644.flac16",
   "songs": [
     {
       "title": "Cold Rain and Snow",
@@ -35,7 +38,7 @@
     },
     {
       "title": "Hard to Handle",
-      "duration": ""
+      "duration": "6:14"
     },
     {
       "title": "Monkey and the Engineer",
@@ -43,11 +46,11 @@
     },
     {
       "title": "Dark Hollow",
-      "duration": ""
+      "duration": "3:30"
     },
     {
       "title": "I've Been All Around This World",
-      "duration": ""
+      "duration": "4:40"
     },
     {
       "title": "Wake Up Little Susie",
