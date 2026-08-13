@@ -44,7 +44,7 @@ import { fileURLToPath } from 'node:url';
 import type { ShowFile } from '../src/wwob/index.ts';
 import { formatDuration, parseDuration } from '../src/wwob/index.ts';
 import type { Recording } from './archive.ts';
-import { findRecordings, recordingTracks } from './archive.ts';
+import { findRecordings, isMiller, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
 
@@ -55,6 +55,13 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
  * Each costs a metadata request; six covers every date in the corpus so far.
  */
 const MAX_CANDIDATES = 6;
+
+/**
+ * How complete a Charlie Miller transfer must be, as a share of the fullest
+ * candidate, to be preferred over it. See `bestRecording` — this is what lets
+ * Miller win a near-tie without letting a Miller *excerpt* win at all.
+ */
+const MILLER_MIN_SHARE = 0.8;
 
 interface Release {
   page: string | null;
@@ -1162,7 +1169,27 @@ async function bestRecording(date: string): Promise<{
       usable: tracks.length - unknown.length,
     });
   }
-  const best = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
+  const fullest = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
+  // Miller outranks the raw score. `findRecordings` already sorts his transfers
+  // first (newest first among them), but scoring alone would overrule that, and
+  // did: 1973-12-19 went to a 26-track patched transfer over Miller's 24, and
+  // the patched one turned out to run 4:35 long through the Other One passage
+  // where Miller agreed with Dick's Picks 1 to within 12 seconds.
+  //
+  // Not unconditionally, though — **rank is not completeness**. On 1974-08-05
+  // the only Miller item is a one-track `jam-segment` excerpt sitting beside
+  // three complete 25-track soundboards, and taking it would stage a show of
+  // one song. So Miller wins only when his tape is a serious attempt at the
+  // whole night, which `MILLER_MIN_SHARE` of the fullest candidate measures:
+  // 24/26 clears it easily, 1/25 does not.
+  const miller = scored.filter((item) => isMiller(item.recording));
+  const bestMiller = miller.length
+    ? miller.reduce((a, b) => (b.usable > a.usable ? b : a))
+    : null;
+  const best =
+    bestMiller && bestMiller.usable >= fullest.usable * MILLER_MIN_SHARE
+      ? bestMiller
+      : fullest;
   return { recording: best.recording, tracks: best.tracks, scored };
 }
 

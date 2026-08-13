@@ -781,6 +781,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11175
   },
   {
+    "id": "19731219",
+    "date": "1973-12-19",
+    "venue": "Curtis Hixon Hall",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731219.svg",
+    "songCount": 26,
+    "durationSeconds": 12030
+  },
+  {
     "id": "19740918",
     "date": "1974-09-18",
     "venue": "Parc des Expositions",

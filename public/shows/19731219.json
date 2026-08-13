@@ -1,101 +1,120 @@
 {
   "id": "19731219",
   "date": "1973-12-19",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 1 | archive.org:gd1973-12-19.107984.sbd.dan.patch-97361.flac16",
+  "venue": "Curtis Hixon Hall",
+  "city": "Tampa",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19731219.svg",
+  "songCount": 26,
+  "durationSeconds": 12030,
   "songs": [
     {
       "title": "Promised Land",
-      "duration": ""
+      "durationSeconds": 221
     },
     {
       "title": "Sugaree",
-      "duration": ""
+      "durationSeconds": 514
     },
     {
       "title": "Mexicali Blues",
-      "duration": ""
+      "durationSeconds": 213
     },
     {
       "title": "Dire Wolf",
-      "duration": ""
+      "durationSeconds": 286
     },
     {
       "title": "Black-Throated Wind",
-      "duration": ""
+      "durationSeconds": 440
     },
     {
       "title": "Candyman",
-      "duration": ""
+      "durationSeconds": 431
     },
     {
       "title": "Jack Straw",
-      "duration": ""
+      "durationSeconds": 314
     },
     {
       "title": "Big Railroad Blues",
-      "duration": "4:06"
+      "durationSeconds": 246
     },
     {
       "title": "Big River",
-      "duration": "5:23"
+      "durationSeconds": 323
     },
     {
       "title": "Here Comes Sunshine",
-      "duration": "14:13"
+      "durationSeconds": 853
     },
     {
       "title": "El Paso",
-      "duration": ""
+      "durationSeconds": 305
     },
     {
       "title": "Ramble On Rose",
-      "duration": ""
+      "durationSeconds": 397
     },
     {
       "title": "Playing in the Band",
-      "duration": "21:11"
+      "durationSeconds": 1271
     },
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "duration": "7:29"
+      "durationSeconds": 449
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": ""
+      "durationSeconds": 382
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "durationSeconds": 577
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 88
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 566
     },
     {
       "title": "He's Gone",
-      "duration": "10:48"
+      "durationSeconds": 648
     },
     {
       "title": "Truckin'",
-      "duration": "9:18"
+      "durationSeconds": 558
     },
     {
       "title": "Nobody's Fault But Mine",
-      "duration": "5:53"
+      "durationSeconds": 353
     },
     {
       "title": "The Other One",
-      "duration": "1:57"
+      "durationSeconds": 991
     },
     {
       "title": "Stella Blue",
-      "duration": "8:45"
+      "durationSeconds": 525
     },
     {
       "title": "Around And Around",
-      "duration": "5:37"
+      "durationSeconds": 337
     },
     {
       "title": "Casey Jones",
-      "duration": ""
+      "durationSeconds": 440
     }
   ]
 }

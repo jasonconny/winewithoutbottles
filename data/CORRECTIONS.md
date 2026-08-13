@@ -498,17 +498,40 @@ three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
 colour beside the Prelude and Part 1, under a name two sources already use for
 different spans of music.
 
-### Filling a staged partial's blanks from one tape
+### Which tape a staged partial is built from
 
-Standing practice for the staged partials, applied from 1973-11-30 onward: the
-blanks are filled from **the same tape the skeleton was built from**, so a show
-carries one consistent reading of where songs begin rather than a mix. Released
-timings still win where the release carries the song, which is the only place a
-show mixes readings.
+Three rules, in this order of precedence (Jason, 2026-08-13).
 
-That is why 11/30 uses `mtx.dusborne` rather than `sbd.vernon`, despite vernon
-being a pure soundboard: dusborne tracks finer, splitting `Bertha` from
-`Promised Land` where vernon runs them together as one 9:35 track.
+**1. Charlie Miller's transfer wins.** Not merely as a tie-break — outright.
+`findRecordings` had always sorted his transfers first, but `bestRecording` then
+re-picked on raw score and overruled it, which is how 1973-12-19 came to be
+staged from a 26-track patched transfer instead of Miller's 24. The patched one
+ran **4:35 long** through the Other One passage, where Miller agreed with
+_Dick's Picks 1_ to within 12 seconds, and it had also broken out a `Bass Solo`
+and 3:00 of stage announcement to inflate its count.
+
+**2. Among Miller's own copies, the most recent.** He re-transfers, and the
+later pass is the better one. 1973-12-19 has two — `sbd.miller.113503` (2011)
+and `sbd.miller.97361` (2009) — and the 2011 copy is the one that squares with
+the release. `findRecordings` now requests `addeddate` and orders his items
+newest first.
+
+**Rank is still not completeness**, so rule 1 is conditional. On 1974-08-05 the
+only Miller item is a one-track `jam-segment` excerpt sitting beside three
+complete 25-track soundboards; taking it would stage a show of one song. Miller
+therefore wins only when his tape reaches `MILLER_MIN_SHARE` (0.8) of the
+fullest candidate's usable track count — 24/26 clears it, 1/25 does not.
+
+**3. Blanks are filled from whichever tape the skeleton was built from**, so a
+show carries one consistent reading of where songs begin rather than a mix.
+Released timings still win where the release carries the song, which is the only
+place a show mixes readings at all.
+
+Rule 3 is last, and only decides what rules 1 and 2 leave open. Where Miller has
+nothing, the scorer's pick stands: 1973-11-30 uses `mtx.dusborne` over
+`sbd.vernon` despite vernon being a pure soundboard, because dusborne tracks
+finer — it splits `Bertha` from `Promised Land` where vernon runs them together
+as one 9:35 track.
 
 ### An `{{ordered list}}` written inline — 1971-08-06
 

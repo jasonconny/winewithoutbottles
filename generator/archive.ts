@@ -11,7 +11,8 @@
  * into "these six songs are missing" — the gaps Jason fills by hand.
  *
  * Soundboards are preferred over audience and matrix recordings, and among
- * those, Charlie Miller's transfers: `transferer` carries his name verbatim, so
+ * those, Charlie Miller's transfers — newest first, since he re-transfers and
+ * the later pass is the better one. `transferer` carries his name verbatim, so
  * that's a real filter rather than a guess at the filename.
  */
 import { formatDuration } from '../src/wwob/index.ts';
@@ -22,13 +23,20 @@ export interface Recording {
   identifier: string;
   source: string;
   transferer: string;
+  /** When archive.org took the item in — the tie-break between two Miller copies. */
+  added: string;
 }
 
 interface SearchDoc {
   identifier: string;
   source?: string | string[];
   transferer?: string | string[];
+  addeddate?: string | string[];
 }
+
+/** Charlie Miller's transfers; `transferer` carries his name verbatim. */
+export const isMiller = (item: Recording): boolean =>
+  /charlie miller/i.test(item.transferer);
 
 /** archive.org returns some fields as either a string or an array of them. */
 const first = (value: string | string[] | undefined): string =>
@@ -39,8 +47,9 @@ const first = (value: string | string[] | undefined): string =>
  * catalogued, which for a show the band definitely played usually means the
  * tape isn't circulating.
  *
- * Preference is soundboards, Charlie Miller's transfers first, then sorted by
- * identifier rather than left in the order archive.org happened to return.
+ * Preference is soundboards, Charlie Miller's transfers first (his own copies
+ * newest first), then sorted by identifier rather than left in the order
+ * archive.org happened to return.
  * **That order is not stable**: the search sets no sort, so two runs minutes
  * apart can hand back the same two tapes in opposite order, and the pick
  * silently changes with them. That surfaced when a staged skeleton came back
@@ -60,7 +69,7 @@ export async function findRecordings(date: string): Promise<Recording[]> {
     'q',
     `collection:GratefulDead AND date:[${date} TO ${date}]`,
   );
-  for (const field of ['identifier', 'source', 'transferer']) {
+  for (const field of ['identifier', 'source', 'transferer', 'addeddate']) {
     url.searchParams.append('fl[]', field);
   }
   url.searchParams.set('rows', '50');
@@ -73,6 +82,7 @@ export async function findRecordings(date: string): Promise<Recording[]> {
       identifier: doc.identifier,
       source: first(doc.source),
       transferer: first(doc.transferer),
+      added: first(doc.addeddate),
     })),
   );
 }
@@ -85,8 +95,19 @@ function rank(candidates: Recording[]): Recording[] {
   const pool = [...(soundboards.length ? soundboards : candidates)].sort(
     (a, b) => a.identifier.localeCompare(b.identifier),
   );
-  const miller = pool.filter((item) => /charlie miller/i.test(item.transferer));
-  return [...miller, ...pool.filter((item) => !miller.includes(item))];
+  // Miller's own copies are ordered newest first (Jason, 2026-08-13): he
+  // re-transfers, and the later pass is the better one. 1973-12-19 has two —
+  // `sbd.miller.113503` from 2011 and `sbd.miller.97361` from 2009 — and the
+  // 2011 copy is the one that agrees with Dick's Picks 1. `added` falls back to
+  // the identifier so a missing date can't scramble the order.
+  const miller = pool
+    .filter(isMiller)
+    .sort(
+      (a, b) =>
+        (b.added || '').localeCompare(a.added || '') ||
+        a.identifier.localeCompare(b.identifier),
+    );
+  return [...miller, ...pool.filter((item) => !isMiller(item))];
 }
 
 /**
