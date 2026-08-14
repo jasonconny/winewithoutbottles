@@ -1,0 +1,88 @@
+{
+  "id": "19880401",
+  "date": "1988-04-01",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Volume 4 Number 2",
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "10:10"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:19"
+    },
+    {
+      "title": "To Lay Me Down",
+      "duration": "8:29"
+    },
+    {
+      "title": "Ballad of a Thin Man",
+      "duration": "6:52"
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "duration": "4:50"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:48"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:51"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:07"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "6:19"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:37"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "12:36"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "8:55"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:00"
+    },
+    {
+      "title": "Space",
+      "duration": "8:33"
+    },
+    {
+      "title": "The Other One",
+      "duration": "7:19"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "7:55"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:05"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "5:57"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:21"
+    }
+  ]
+}

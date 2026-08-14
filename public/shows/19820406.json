@@ -1,0 +1,108 @@
+{
+  "id": "19820406",
+  "date": "1982-04-06",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19820406.svg",
+  "songCount": 23,
+  "durationSeconds": 9909,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 388
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 144
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 241
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 530
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 295
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 796
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 718
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 727
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 402
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 131
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 729
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 532
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 450
+    }
+  ]
+}

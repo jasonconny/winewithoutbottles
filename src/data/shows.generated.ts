@@ -31,6 +31,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 6106
   },
   {
+    "id": "19680214",
+    "date": "1968-02-14",
+    "venue": "Carousel Ballroom",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Road Trips"
+    ],
+    "svg": "/shows/19680214.svg",
+    "songCount": 14,
+    "durationSeconds": 7116
+  },
+  {
     "id": "19681020",
     "date": "1968-10-20",
     "venue": "Greek Theatre",
@@ -167,6 +182,35 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19690427.svg",
     "songCount": 8,
     "durationSeconds": 6052
+  },
+  {
+    "id": "19690523",
+    "date": "1969-05-23",
+    "venue": "Big Rock Pow-Wow",
+    "city": "Hollywood",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Road Trips"
+    ],
+    "svg": "/shows/19690523.svg",
+    "songCount": 7,
+    "durationSeconds": 5302
+  },
+  {
+    "id": "19690524",
+    "date": "1969-05-24",
+    "venue": "Big Rock Pow-Wow",
+    "city": "Hollywood",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19690524.svg",
+    "songCount": 12,
+    "durationSeconds": 5522
   },
   {
     "id": "19691108",
@@ -357,6 +401,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19711031.svg",
     "songCount": 21,
     "durationSeconds": 8156
+  },
+  {
+    "id": "19711115",
+    "date": "1971-11-15",
+    "venue": "Austin Memorial Auditorium",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Road Trips"
+    ],
+    "svg": "/shows/19711115.svg",
+    "songCount": 25,
+    "durationSeconds": 9101
   },
   {
     "id": "19720328",
@@ -1985,6 +2044,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9964
   },
   {
+    "id": "19791105",
+    "date": "1979-11-05",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19791105.svg",
+    "songCount": 21,
+    "durationSeconds": 10388
+  },
+  {
+    "id": "19791106",
+    "date": "1979-11-06",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19791106.svg",
+    "songCount": 18,
+    "durationSeconds": 8762
+  },
+  {
     "id": "19791226",
     "date": "1979-12-26",
     "venue": "Oakland Auditorium Arena",
@@ -1997,6 +2084,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19791226.svg",
     "songCount": 25,
     "durationSeconds": 10566
+  },
+  {
+    "id": "19791228",
+    "date": "1979-12-28",
+    "venue": "Oakland Auditorium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19791228.svg",
+    "songCount": 19,
+    "durationSeconds": 9148
   },
   {
     "id": "19800823",
@@ -2137,6 +2238,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19810516.svg",
     "songCount": 24,
     "durationSeconds": 10518
+  },
+  {
+    "id": "19820406",
+    "date": "1982-04-06",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19820406.svg",
+    "songCount": 23,
+    "durationSeconds": 9909
   },
   {
     "id": "19820731",
@@ -2423,6 +2538,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19880327.svg",
     "songCount": 22,
     "durationSeconds": 8525
+  },
+  {
+    "id": "19880401",
+    "date": "1988-04-01",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19880401.svg",
+    "songCount": 19,
+    "durationSeconds": 8463
   },
   {
     "id": "19880703",

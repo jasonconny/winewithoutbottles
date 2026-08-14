@@ -18,6 +18,28 @@ export interface Sortable {
 }
 
 /**
+ * Releases whose series is not the section Wikipedia files them under.
+ *
+ * The two "Road Trips Full Show" downloads sit in the discography's *Download
+ * Series* section, accurately enough — they were digital releases continuing
+ * that stream. But they exist **because of** Road Trips, not beside it: Road
+ * Trips Volume 1 Number 1 was a highlights compilation, deadheads are vocal
+ * about wanting whole shows, and these two full-show downloads were the answer
+ * to that complaint. The 11/6/79 article says as much — "a spin-off of the Road
+ * Trips series", and "a full show from the same tour as that release". Nobody
+ * looking for a Road Trips show goes hunting under Download Series.
+ *
+ * The **series** is what moves, not just the tag. A release's tag is its series
+ * — `tests/data-validity.test.ts` pins exactly that — so overriding the tag
+ * alone would leave one tag spanning two series and break the rule that says a
+ * tag page has a single owner. Jason's call, 2026-08-14.
+ */
+export const HAND_SERIES: Record<string, string> = {
+  'Road Trips Full Show: Spectrum 11/5/79': 'Road Trips',
+  'Road Trips Full Show: Spectrum 11/6/79': 'Road Trips',
+};
+
+/**
  * The marker that says a human settled this entry, and the fields their
  * judgement can live in. `--draft` refuses to overwrite any of these without
  * reproducing them; see the guard at the bottom of the file.

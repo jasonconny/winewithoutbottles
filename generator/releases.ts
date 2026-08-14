@@ -54,6 +54,7 @@ import {
   CONFIRMABLE,
   CONFIRMED,
   HAND_RESOLVED,
+  HAND_SERIES,
   stripPending,
 } from './hand-readings.ts';
 import { releaseTag } from './release-tag.ts';
@@ -424,7 +425,7 @@ async function build(only: string | null): Promise<Release[]> {
       continue;
     }
     const kind = section?.kind ?? 'uncatalogued';
-    const series = section?.series ?? null;
+    const series = HAND_SERIES[entry.name] ?? section?.series ?? null;
     const wikitext = entry.page ? text.get(entry.page) : undefined;
     const byHand = HAND_RESOLVED[entry.name];
     const principal = datesFromDateText(entry.dateText);

@@ -327,7 +327,20 @@ function parseTrackLine(line: string): ParsedTrack[] {
   const quoted = splitTopLevelPipes(line).filter((segment) =>
     /^\s*"/.test(segment),
   );
-  if (quoted.length > 1) {
+  // Several quoted segments on one line is the combined-row case. One quoted
+  // segment behind a template parameter is a different shape with the same fix:
+  // Road Trips 4:2 opens its April 1 encore
+  //
+  //     {{ordered list
+  //     | start = 11|"Brokedown Palace" (Garcia, Hunter) – 5:21
+  //
+  // putting `start` and the first track on one line, where every other list in
+  // the article writes `{{ordered list|start=11` and the track below it. The
+  // row-start guard below only recognises `|"` at the very beginning of a line,
+  // so the encore was invisible and 4/1/88 came back a song short.
+  const paramLed =
+    quoted.length === 1 && /^\|/.test(line) && !/^\|\s*"/.test(line);
+  if (quoted.length > 1 || paramLed) {
     return quoted.flatMap((segment) => {
       const track = parseTrack(segment);
       return track ? [track] : [];
@@ -356,6 +369,23 @@ function parseTrackLine(line: string): ParsedTrack[] {
   ) {
     return [];
   }
+  // A `#*` sub-item under a `#` row names the movements *inside* one track, and
+  // whether that is data or decoration turns on the duration, not the markup.
+  // Three articles, three shapes:
+  //
+  //   Road Trips 2:2   #"That's It for the Other One" – 9:30 →
+  //                    #*"Cryptical Envelopment" (Garcia)          ← no time
+  //   Dick's Picks 31  #"Weather Report Suite" →
+  //                    #*"Prelude" (Weir) – 1:20                   ← the only time
+  //   Dick's Picks 12  #"Weather Report Suite" – 14:35 →
+  //                    #*"Prelude" (Weir) – 1:11                   ← the finer split
+  //
+  // So drop only the untimed ones. Reading RT 2:2's three as tracks gave 2/14/68
+  // three untimed songs and made the whole show unsourceable — the importer
+  // refuses any untimed track, correctly — while dropping DP 31's would throw
+  // away the suite's only timings, and DP 12's the three-stripe split the corpus
+  // actually keeps (see the Weather Report Suite entries in CORRECTIONS.md).
+  if (/^#[*:]/.test(line) && !/[–—-]\s*\d{1,3}:\d{2}/.test(line)) return [];
   const track = parseTrack(line);
   return track ? [track] : [];
 }
@@ -844,6 +874,14 @@ const SHOW_OVERRIDES: Record<
     note: string;
   }
 > = {
+  '1988-04-01': {
+    keepAuthored: true,
+    note: "Road Trips 4:2 fills out disc one with the April 1 encore, so `Brokedown Palace` sits at track 9 of 19, between the first set and a disc of second-set music. It closed the night. Same disc-sequencing artefact as 1969-05-23, and the same fix — Jason's call, 2026-08-14",
+  },
+  '1969-05-23': {
+    keepAuthored: true,
+    note: "Road Trips 4:1 sequences the disc as Hard to Handle, Dark Star > St. Stephen > The Eleven > Lovelight, then Morning Dew and Me and My Uncle — but those last two opened the show. DeadBase and JerryBase agree on the performance order, which puts the Dark Star suite where it belongs, at the end. Jason's call, 2026-08-14. `keepAuthored` because the merge path is deliberately not order-dependent, so the authored sequence stands while durations still retime",
+  },
   '1969-04-17': {
     drop: [
       { position: 11, title: 'The Eleven' },

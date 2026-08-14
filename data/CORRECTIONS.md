@@ -1093,3 +1093,132 @@ describing a disc.
   folds a track into the one _before_ it and here the drums come _after_. Expect
   9/3/80 to show a permanent `24→23` in `--audit`, the same way the other
   authored departures do.
+
+### A disc order that isn't the show — 1969-05-23 and 1988-04-01
+
+_Road Trips Volume 4 Number 1_ sequences the Big Rock Pow-Wow set as `Hard to
+Handle`, then `Dark Star` > `St. Stephen` > `The Eleven` > `Turn On Your
+Lovelight`, and finally `Morning Dew` and `Me and My Uncle`. Those last two
+opened the show. DeadBase and JerryBase agree on the performance order, and it is
+the shape a 1969 set actually takes — the Dark Star suite closes, it doesn't sit
+in the middle with two songs trailing after Lovelight. Jason's call, 2026-08-14.
+
+The authored order is therefore:
+
+    Hard to Handle > Morning Dew > Me and My Uncle > Dark Star > St. Stephen >
+    The Eleven > Turn On Your Lovelight
+
+This is the clearest case yet of the standing rule that **a release names and
+orders tracks for a CD, not for a setlist**. Nothing about the audio is wrong; a
+two-disc set has to start somewhere, and starting on `Hard to Handle` reads
+better than starting on the Dew. But stripes are a claim about what was played
+and in what order, so the disc's convenience is not the record.
+
+Pinned with `keepAuthored` in `SHOW_OVERRIDES`, which is what stops a re-import
+from quietly restoring disc order. That flag was added for a different problem —
+a release packing several songs into one track — but its mechanism is exactly
+what's wanted here: the merge path claims tracks by **title, one-to-one, and
+deliberately not in order**, precisely because some releases resequence rather
+than excerpt. So durations still retime while the authored sequence stands.
+
+**1988-04-01 is the same artefact in a smaller way.** _Road Trips 4:2_ fills out
+disc one with the April 1 encore, so `Brokedown Palace` lands at track 9 of 19,
+sitting between the first set and a whole disc of second-set music. It closed the
+night. Jason caught it as a missing encore rather than a misplaced one, because
+of a **separate parser bug** that hid the track entirely (below); with that fixed
+the release yields all 19 songs, in an order that still isn't the show's, so this
+date carries `keepAuthored` too.
+
+Both cases are worth stating as one rule: **where a release puts a track is a
+fact about the disc, not about the night.** Sequencing decisions — open on the
+stronger song, use up the space at the end of a disc — are exactly the kind of
+thing a CD index does and a setlist does not.
+
+### An {{ordered list}} row hiding behind its own parameter — 1988-04-01
+
+Road Trips 4:2 writes its April 1 encore as
+
+    {{ordered list
+    | start = 11|"Brokedown Palace" (Garcia, Hunter) – 5:21
+
+with the `start` parameter and the first track sharing a line. Every other list
+in the article writes `{{ordered list|start=11` and puts the track on the line
+below, which is the shape the row-start guard recognises: it accepts `|"` only at
+the very beginning of a line. Behind `| start = 11|` the track was invisible, and
+4/1/88 came back a song short with nothing to indicate anything was missing.
+
+The line _was_ already being split on top-level pipes — that path exists for
+combined rows carrying several quoted titles — so the fix is to take that path
+for a single quoted segment as well, when the line starts with a pipe but not
+with `|"`. Narrow on purpose: it adds the one shape and leaves every existing
+line classified as before. `--audit` is unchanged across the corpus.
+
+### Sub-items are data or decoration depending on the duration
+
+A `#*` row under a `#` row names the movements inside one track. Whether those
+rows are tracks turns on whether they carry a time, and three articles show all
+three shapes:
+
+| release         | umbrella                               | sub-items                 | what they are    |
+| --------------- | -------------------------------------- | ------------------------- | ---------------- |
+| Road Trips 2:2  | `"That's It for the Other One" – 9:30` | `"Cryptical Envelopment"` | decoration       |
+| Dick's Picks 31 | `"Weather Report Suite" →`             | `"Prelude" – 1:20`        | the only timings |
+| Dick's Picks 12 | `"Weather Report Suite" – 14:35`       | `"Prelude" – 1:11`        | the finer split  |
+
+Reading Road Trips 2:2's three movements as tracks gave 2/14/68 three untimed
+songs, and the importer refuses any show with an untimed track — correctly, since
+stripe widths _are_ the durations. But dropping every `#*` would have thrown away
+Dick's Picks 31's only timings for the suite, and Dick's Picks 12's three-stripe
+split, which is the form the corpus keeps. So the rule is: **drop an untimed
+sub-item, keep a timed one**. `--audit` is byte-identical across the change apart
+from 2/14/68 becoming sourceable.
+
+### Two shows no published source can time — 1979-11-05 and 1979-11-06
+
+Both _Road Trips Full Show_ releases were download-only. Their Wikipedia listings
+carry no durations at all, and MusicBrainz has no copy of either, so the release
+gives the setlist and its order and nothing else. **`--audit` reports both as
+untimed against their release and always will** — that is correct, not a defect.
+
+They were first authored from soundboards, which is the only thing an outside
+source can do here, and then **reconciled against the official downloads** by
+Jason, whose copies are the only place the real durations exist. Both tapes had
+matched the release setlist 1:1 in order, so the setlists needed no change; the
+timings did, in two quite different ways.
+
+**11/6/79 ran 8:39 long**, because `gd79-11-06.sbd.miller.29735.flac16` folds
+lead-in tuning into each track — Mexicali Blues by 1:57, Tennessee Jed by 1:45,
+Jack-A-Roe by 1:15. That was predictable and had been predicted: the GEMS
+transfer of the same night breaks tuning out as separate tracks and totals 139:15
+against Miller's 154:41.
+
+**11/5/79 was within 12 seconds overall** and still wrong in the middle:
+`gd79-11-05.sbd.wier.12177.sbeok.shnf` gave `Franklin's Tower` 13:38 and the `Jam`
+after it 5:22, where the release has 16:37 and 2:42. Same music, boundary drawn
+nearly three minutes early. A show total agreeing is not the same as the stripes
+agreeing, which is the whole reason durations are per-song here.
+
+One transfer was **rejected** along the way, despite the standing "Miller wins
+outright" rule: `gd1979-11-06.150953.sbd.newhouse.miller.flac2496` lists a
+`Wharf Rat` and a `Casey Jones` encore that neither the release nor two other
+tapes have. That rule picks between plausible transfers; it does not oblige
+anyone to believe a demonstrably wrong track list.
+
+`source` on both names the release alone — the tapes supplied nothing that
+survived, and each show's `note` records what they got wrong.
+
+### The Road Trips full-show downloads are Road Trips, not Download Series
+
+Both are filed under _Download Series_ in Wikipedia's discography, accurately —
+they were digital releases continuing that stream. They are indexed here as Road
+Trips anyway, because they exist as an answer to it: _Road Trips Volume 1 Number
+1_ was a highlights compilation, deadheads are vocal about wanting whole shows,
+and these two full-show downloads were the response. The 11/6/79 article says as
+much — "a spin-off of the Road Trips series", "a full show from the same tour as
+that release".
+
+What moves is the **series**, not just the tag. A series release's tag is its
+series, pinned by `tests/data-validity.test.ts`, so overriding the tag alone left
+one tag spanning two series and failed the rule that a tag page has a single
+owner. `HAND_SERIES` in `generator/hand-readings.ts`, so a re-draft reproduces
+it. Jason's call, 2026-08-14.
