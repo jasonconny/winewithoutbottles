@@ -90,6 +90,26 @@ overwriting. Durable corrections belong in `HAND_RESOLVED` / `HAND_SHORTENED`
 **in the tool, not hand-edited into the JSON**, so a re-draft reproduces the
 reading instead of reverting.
 
+That rule is now **enforced rather than advised**, because it had already been
+broken 27 times and nothing said so. A note ending `; confirmed <completeness> by
+hand` marks a settled reading — appended automatically to anything in
+`HAND_RESOLVED` — and `--draft` **refuses to write** if it can't reproduce one,
+naming every field it would change (`--force` overrides deliberately). The
+verify pass reports the same set as maintenance debt without failing on it, and
+`--draft --only` merges into the index instead of replacing it with the subset it
+just built.
+
+The invariant: **a draft over an up-to-date index is a no-op.** If it isn't,
+something in the JSON is a judgement the tool can't rederive.
+
+`HAND_RESOLVED` entries pin **only the fields a human settled** — every field but
+`note` is optional. Pin `dates` and the parser's date resolution is bypassed
+(an empty array is a reading: the release sources no show whole); leave `dates`
+off and the parser keeps deriving them, staying under drift detection, while
+`bonusDates` / `completeness` / `note` are overlaid. Don't pin dates the parser
+already gets right — that freezes them and turns "verify against Wikipedia" into
+"verify against ourselves".
+
 > `--draft` writes raw `JSON.stringify`, but the committed file is
 > Prettier-formatted. Run `npx prettier --write data/releases.json` after, or a
 > one-release change shows up as a ~1000-line diff.

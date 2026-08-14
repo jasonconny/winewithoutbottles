@@ -1,19 +1,6 @@
 {
   "releases": [
     {
-      "page": "Fillmore Auditorium, San Francisco, CA, July 3, 1966",
-      "name": "Fillmore Auditorium, San Francisco, CA, July 3, 1966",
-      "kind": "traditional",
-      "series": null,
-      "eligible": true,
-      "tag": null,
-      "dates": ["1966-07-03"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "30 Trips Around the Sun",
       "name": "30 Trips Around the Sun",
       "kind": "box",
@@ -58,6 +45,19 @@
       "musicbrainzReleaseId": null
     },
     {
+      "page": "Fillmore Auditorium, San Francisco, CA, July 3, 1966",
+      "name": "Fillmore Auditorium, San Francisco, CA, July 3, 1966",
+      "kind": "traditional",
+      "series": null,
+      "eligible": true,
+      "tag": null,
+      "dates": ["1966-07-03"],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
       "page": "July 29 1966, P.N.E. Garden Aud., Vancouver Canada",
       "name": "July 29 1966, P.N.E. Garden Aud., Vancouver Canada",
       "kind": "traditional",
@@ -94,32 +94,6 @@
       "bonusDates": [],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Dick's Picks Volume 22",
-      "name": "Dick's Picks Volume 22",
-      "kind": "series",
-      "series": "Dick's Picks",
-      "eligible": true,
-      "tag": "Dick's Picks",
-      "dates": [],
-      "bonusDates": ["1968-02-23", "1968-02-24"],
-      "completeness": "partial",
-      "note": "dates from bold; article: \"documents portions of the concerts\" at the Kings Beach Bowl, and nothing circulates for either night, so neither date can be sourced whole or ever completed — both are staged in data/unknown-setlists/; confirmed partial by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Grateful Dead Download Series Volume 6",
-      "name": "Grateful Dead Download Series Volume 6",
-      "kind": "series",
-      "series": "Download Series",
-      "eligible": true,
-      "tag": "Download Series",
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "partial",
-      "note": "article: the release holds \"the first set closer, 'Turn On Your Lovelight', and the entire second set\" — the rest of the first set is absent, JerryBase lists the date as a partial setlist itself and no tape is catalogued, so 3/17/68 is held in data/unknown-setlists/; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -162,19 +136,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Fillmore West 1969: The Complete Recordings",
-      "name": "Fillmore West 1969: The Complete Recordings",
-      "kind": "box",
-      "series": null,
-      "eligible": true,
-      "tag": "Fillmore West 1969",
-      "dates": ["1969-02-27", "1969-02-28", "1969-03-01", "1969-03-02"],
-      "bonusDates": [],
-      "completeness": "complete",
-      "note": "dates from subheading; article says \"complete concerts\"",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "Fillmore West 1969",
       "name": "Fillmore West 1969",
       "kind": "traditional",
@@ -182,9 +143,9 @@
       "eligible": true,
       "tag": null,
       "bonusDates": [],
-      "dates": ["1969-02-27", "1969-02-28", "1969-03-01", "1969-03-02"],
       "completeness": "partial",
-      "note": "article: \"selected songs\" from the four nights; the complete run is the 10-CD box",
+      "dates": ["1969-02-27", "1969-02-28", "1969-03-01", "1969-03-02"],
+      "note": "article: \"selected songs\" from the four nights; the complete run is the 10-CD box; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -198,6 +159,19 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Fillmore West 1969: The Complete Recordings",
+      "name": "Fillmore West 1969: The Complete Recordings",
+      "kind": "box",
+      "series": null,
+      "eligible": true,
+      "tag": "Fillmore West 1969",
+      "dates": ["1969-02-27", "1969-02-28", "1969-03-01", "1969-03-02"],
+      "bonusDates": [],
+      "completeness": "complete",
+      "note": "dates from subheading; article says \"complete concerts\"",
       "musicbrainzReleaseId": null
     },
     {
@@ -220,9 +194,9 @@
       "series": "Download Series",
       "eligible": true,
       "tag": "Download Series",
-      "dates": ["1969-04-17"],
       "bonusDates": ["1969-01-23"],
       "completeness": "complete",
+      "dates": ["1969-04-17"],
       "note": "article: \"a complete two-disc show performed by the Grateful Dead on April 17, 1969 at Washington University in St. Louis\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -318,19 +292,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Grateful Dead Download Series Volume 2",
-      "name": "Grateful Dead Download Series Volume 2",
-      "kind": "series",
-      "series": "Download Series",
-      "eligible": true,
-      "tag": "Download Series",
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "partial",
-      "note": "article: \"a previously uncirculated concert\", never called complete; JerryBase lists songs the nine released tracks do not carry, and the band played a two-set show at the same venue on 1/16/70, so 1/18/70 is held in data/unknown-setlists/; confirmed partial by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "Dave's Picks Volume 19",
       "name": "Dave's Picks Volume 19",
       "kind": "series",
@@ -344,19 +305,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Grateful Dead Download Series: Family Dog at the Great Highway",
-      "name": "Grateful Dead Download Series: Family Dog at the Great Highway",
-      "kind": "series",
-      "series": "Download Series",
-      "eligible": true,
-      "tag": "Download Series",
-      "dates": [],
-      "bonusDates": ["1970-10-05", "1970-12-31"],
-      "completeness": "partial",
-      "note": "the release, the Kaplan soundboard and JerryBase disagree about 2/4/70 in every direction — JerryBase opens with Cold Rain and Snow, which is on no tape — so the date is held in data/unknown-setlists/; the three bonus tracks are 10/5/70 and 12/31/70 at Winterland; confirmed partial by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "Dick's Picks Volume 4",
       "name": "Dick's Picks Volume 4",
       "kind": "series",
@@ -364,8 +312,8 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "bonusDates": [],
-      "dates": ["1970-02-13", "1970-02-14"],
       "completeness": "partial",
+      "dates": ["1970-02-13", "1970-02-14"],
       "note": "article: recorded February 13 and 14, 1970, Fillmore East; three sets per night, three CDs — selections; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
@@ -429,6 +377,7 @@
       "eligible": true,
       "tag": "Enjoying the Ride",
       "bonusDates": ["1971-02-20", "1981-07-11", "1982-09-15", "1985-11-22"],
+      "completeness": "complete",
       "dates": [
         "1971-02-24",
         "1973-03-16",
@@ -448,8 +397,7 @@
         "1993-03-17",
         "1994-10-03"
       ],
-      "completeness": "complete",
-      "note": "article: \"17 complete concerts – four of them with bonus tracks from different concerts at the same venues\"; the 3 composite discs (selections from 6/5–6/8/69, 4/25+4/27/71, 9/15+9/16/72) and the 4/5/69 partial cassette are excluded — selections cannot source a show whole",
+      "note": "article: \"17 complete concerts – four of them with bonus tracks from different concerts at the same venues\"; the 3 composite discs (selections from 6/5–6/8/69, 4/25+4/27/71, 9/15+9/16/72) and the 4/5/69 partial cassette are excluded — selections cannot source a show whole; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -473,6 +421,7 @@
       "eligible": true,
       "tag": null,
       "bonusDates": [],
+      "completeness": "partial",
       "dates": [
         "1971-04-25",
         "1971-04-26",
@@ -480,8 +429,7 @@
         "1971-04-28",
         "1971-04-29"
       ],
-      "completeness": "partial",
-      "note": "article: recorded at the April 25–29, 1971 Fillmore East shows — four CDs across five nights",
+      "note": "article: recorded at the April 25–29, 1971 Fillmore East shows — four CDs across five nights; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -517,9 +465,9 @@
       "series": "Dick's Picks",
       "eligible": true,
       "tag": "Dick's Picks",
-      "dates": ["1971-08-07"],
       "bonusDates": ["1971-08-06"],
       "completeness": "complete",
+      "dates": ["1971-08-07"],
       "note": "article: \"the complete shows recorded on August 7, 1971, at Golden Hall ... and on August 24, 1971, at the Auditorium Theatre\"; 1971-08-06 (Hollywood Palladium) is bonus tracks only. 1971-08-24 is also out of dates despite the article's claim: per JerryBase the tape came from Keith Godchaux's houseboat and only the salvageable part was released, nothing else circulates, and DeadBase 50 orders the songs differently — so it is a fragment, not a sourceable show (see data/unknown-setlists/19710824.json); confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -543,9 +491,9 @@
       "series": "Download Series",
       "eligible": true,
       "tag": "Download Series",
-      "dates": ["1971-10-26"],
       "bonusDates": [],
       "completeness": "complete",
+      "dates": ["1971-10-26"],
       "note": "article: \"an almost complete concert, with the exception of 'Beat It On Down the Line' which was played after 'Loser'\"; 19711026 restores that one song from the soundboard; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -669,8 +617,8 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "bonusDates": ["1972-03-25", "1972-03-27"],
-      "dates": ["1972-03-28"],
       "completeness": "complete",
+      "dates": ["1972-03-28"],
       "note": "article: \"the entire March 28, 1972 performance plus selections from March 25, 1972, and March 27, 1972\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -773,19 +721,6 @@
       "bonusDates": [],
       "completeness": "complete",
       "note": "principal date from the discography; article says \"complete concert\"",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Grateful Dead Download Series Volume 10",
-      "name": "Grateful Dead Download Series Volume 10",
-      "kind": "series",
-      "series": "Download Series",
-      "eligible": true,
-      "tag": "Download Series",
-      "dates": [],
-      "bonusDates": ["1972-07-22"],
-      "completeness": "partial",
-      "note": "article: \"nearly the entire concert\"; the opener Promised Land is missing and no circulating tape carries it either — the soundboard opens with Sugaree — so 7/21/72 is held in data/unknown-setlists/; the bonus tracks are from 1972-07-22; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -899,9 +834,9 @@
       "series": "Dick's Picks",
       "eligible": true,
       "tag": "Dick's Picks",
-      "dates": ["1973-02-28"],
       "bonusDates": ["1973-02-26"],
       "completeness": "complete",
+      "dates": ["1973-02-28"],
       "note": "dates from heading. 1973-02-28 is the whole show bar Promised Land, which 19730228 takes from the soundboard; 1973-02-26 is selections (19 of 26 songs) so it stays out of dates. Some tracks carry patches from 1973-02-22 and 1973-06-29; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -990,6 +925,25 @@
       "musicbrainzReleaseId": null
     },
     {
+      "page": "Pacific Northwest '73–'74: Believe It If You Need It",
+      "name": "Pacific Northwest '73–'74: Believe It If You Need It",
+      "kind": "traditional",
+      "series": null,
+      "eligible": true,
+      "tag": null,
+      "dates": [
+        "1973-06-22",
+        "1973-06-24",
+        "1974-05-17",
+        "1974-05-19",
+        "1974-05-21"
+      ],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "date from the article infobox; completeness not stated — confirm by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
       "page": "Pacific Northwest '73–'74: The Complete Recordings",
       "name": "Pacific Northwest '73–'74: The Complete Recordings",
       "kind": "box",
@@ -1007,25 +961,6 @@
       "bonusDates": [],
       "completeness": "complete",
       "note": "dates from bullet; article says \"complete concerts\"",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Pacific Northwest '73–'74: Believe It If You Need It",
-      "name": "Pacific Northwest '73–'74: Believe It If You Need It",
-      "kind": "traditional",
-      "series": null,
-      "eligible": true,
-      "tag": null,
-      "dates": [
-        "1973-06-22",
-        "1973-06-24",
-        "1974-05-17",
-        "1974-05-19",
-        "1974-05-21"
-      ],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "date from the article infobox; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1062,9 +997,9 @@
       "eligible": true,
       "tag": "Winterland 1973",
       "bonusDates": ["1973-12-04"],
-      "dates": ["1973-11-09", "1973-11-10", "1973-11-11"],
       "completeness": "complete",
-      "note": "article: \"three complete concerts, missing only the encore of the first\"; bonus disc is 12/4/73 Cincinnati",
+      "dates": ["1973-11-09", "1973-11-10", "1973-11-11"],
+      "note": "article: \"three complete concerts, missing only the encore of the first\"; bonus disc is 12/4/73 Cincinnati; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1104,19 +1039,6 @@
       "bonusDates": [],
       "completeness": "partial",
       "note": "dates from subheading; confirmed partial by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Grateful Dead Download Series Volume 8",
-      "name": "Grateful Dead Download Series Volume 8",
-      "kind": "series",
-      "series": "Download Series",
-      "eligible": true,
-      "tag": "Download Series",
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "partial",
-      "note": "article: \"most of the concert\"; five songs are omitted — Jack Straw, Tennessee Jed, El Paso and Brown-Eyed Women from the first set, Me and My Uncle from the second — and the only tape catalogued for the date is a two-track fragment, so nothing can time them and 12/10/73 is held in data/unknown-setlists/; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1392,9 +1314,9 @@
       "series": "Download Series",
       "eligible": true,
       "tag": "Download Series",
-      "dates": ["1976-06-18"],
       "bonusDates": [],
       "completeness": "complete",
+      "dates": ["1976-06-18"],
       "note": "article: \"virtually all of the June 18, 1976 show\"; only Tennessee Jed was omitted, for tape damage, and 19760618 restores it from Miller's outtakes transfer. Disc three's Philadelphia and Chicago highlights are not this show; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -1509,9 +1431,9 @@
       "series": "Download Series",
       "eligible": true,
       "tag": "Download Series",
-      "dates": ["1977-04-30"],
       "bonusDates": ["1977-04-29"],
       "completeness": "complete",
+      "dates": ["1977-04-30"],
       "note": "article: \"the complete show from April 30, 1977\"; the third disc is filled out with bonus material from 4/29 at the same venue; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -1646,9 +1568,9 @@
       "eligible": true,
       "tag": "Winterland June 1977",
       "bonusDates": ["1977-05-12"],
-      "dates": ["1977-06-07", "1977-06-08", "1977-06-09"],
       "completeness": "complete",
-      "note": "article: \"three complete concerts\"; bonus disc is 5/12/77, released whole on the May 1977 box",
+      "dates": ["1977-06-07", "1977-06-08", "1977-06-09"],
+      "note": "article: \"three complete concerts\"; bonus disc is 5/12/77, released whole on the May 1977 box; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1789,8 +1711,8 @@
       "eligible": true,
       "tag": "Dick's Picks",
       "bonusDates": ["1978-02-04"],
-      "dates": ["1978-02-03", "1978-02-05"],
       "completeness": "partial",
+      "dates": ["1978-02-03", "1978-02-05"],
       "note": "article: 2/3 Madison and 2/5 Cedar Falls, plus two songs from 2/4 Milwaukee; disc 1 recombines all three; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
@@ -2064,9 +1986,9 @@
       "eligible": true,
       "tag": null,
       "bonusDates": [],
-      "dates": ["1980-05-15", "1980-05-16"],
       "completeness": "partial",
-      "note": "article: \"presents half of the songs played on the final two nights\", resequenced as one concert",
+      "dates": ["1980-05-15", "1980-05-16"],
+      "note": "article: \"presents half of the songs played on the final two nights\", resequenced as one concert; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2076,9 +1998,9 @@
       "series": "Download Series",
       "eligible": true,
       "tag": "Download Series",
-      "dates": ["1980-09-03"],
       "bonusDates": ["1980-09-04"],
       "completeness": "complete",
+      "dates": ["1980-09-03"],
       "note": "article: \"The first two discs feature the September 3 show, while the third disc presents the second set from the September 4 performance\"; 9/4 is one set, itself missing Samson and Delilah and Ramble On Rose, so it stays out of dates — 19800904 is completed from Miller's soundboard instead; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -2109,19 +2031,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Madison Square Garden, New York, NY 3/9/81",
-      "name": "Madison Square Garden, New York, NY 3/9/81",
-      "kind": "traditional",
-      "series": null,
-      "eligible": true,
-      "tag": null,
-      "dates": ["1981-03-09"],
-      "bonusDates": [],
-      "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "In and Out of the Garden: Madison Square Garden '81, '82, '83",
       "name": "In and Out of the Garden: Madison Square Garden '81, '82, '83",
       "kind": "box",
@@ -2139,6 +2048,19 @@
       "bonusDates": [],
       "completeness": "complete",
       "note": "dates from heading; article says \"complete concerts\"",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Madison Square Garden, New York, NY 3/9/81",
+      "name": "Madison Square Garden, New York, NY 3/9/81",
+      "kind": "traditional",
+      "series": null,
+      "eligible": true,
+      "tag": null,
+      "dates": ["1981-03-09"],
+      "bonusDates": [],
+      "completeness": "complete",
+      "note": "principal date from the discography; article says \"complete concert\"",
       "musicbrainzReleaseId": null
     },
     {
@@ -2543,9 +2465,9 @@
       "eligible": true,
       "tag": null,
       "bonusDates": [],
-      "dates": ["1990-03-24", "1990-03-25", "1990-03-26"],
       "completeness": "partial",
-      "note": "article: selections from three nights, each later released whole elsewhere (3/24 only across four releases)",
+      "dates": ["1990-03-24", "1990-03-25", "1990-03-26"],
+      "note": "article: selections from three nights, each later released whole elsewhere (3/24 only across four releases); confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2685,9 +2607,9 @@
       "series": "Download Series",
       "eligible": true,
       "tag": "Download Series",
-      "dates": ["1991-06-20"],
       "bonusDates": ["1991-06-19"],
       "completeness": "complete",
+      "dates": ["1991-06-20"],
       "note": "article: \"the complete show performed by the band on June 20, 1991\"; discs one and three are supplemented by 6/19 tracks at the same venue; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
@@ -2744,32 +2666,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Rare Cuts and Oddities 1966",
-      "name": "Rare Cuts and Oddities 1966",
-      "kind": "traditional",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Birth of the Dead",
-      "name": "Birth of the Dead",
-      "kind": "traditional",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "30 Trips Around the Sun: The Definitive Live Story 1965–1995",
       "name": "30 Trips Around the Sun: The Definitive Live Story 1965–1995",
       "kind": "traditional",
@@ -2780,188 +2676,6 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "So Many Roads (1965–1995)",
-      "name": "So Many Roads (1965–1995)",
-      "kind": "box",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "So Many Roads (1965–1995) Sampler",
-      "name": "So Many Roads (1965–1995) Sampler",
-      "kind": "traditional",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "The Grateful Dead (album)",
-      "name": "The Grateful Dead",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Vintage Dead",
-      "name": "Vintage Dead",
-      "kind": "unauthorized",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unauthorized release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Historic Dead",
-      "name": "Historic Dead",
-      "kind": "unauthorized",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unauthorized release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Fallout from the Phil Zone",
-      "name": "Fallout from the Phil Zone",
-      "kind": "traditional",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Anthem of the Sun",
-      "name": "Anthem of the Sun",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Grayfolded",
-      "name": "Grayfolded",
-      "kind": "traditional",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Aoxomoxoa",
-      "name": "Aoxomoxoa",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Live/Dead",
-      "name": "Live/Dead",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": null,
-      "name": "Fillmore West 1969: March 1st",
-      "kind": "uncatalogued",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": null,
-      "name": "Fillmore West 1969: March 2nd",
-      "kind": "uncatalogued",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "The Music Never Stopped (album)",
-      "name": "The Music Never Stopped",
-      "kind": "traditional",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "History of the Grateful Dead, Volume One (Bear's Choice)",
-      "name": "History of the Grateful Dead, Volume One (Bear's Choice)",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
       "musicbrainzReleaseId": null
     },
     {
@@ -2978,8 +2692,8 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Workingman's Dead",
-      "name": "Workingman's Dead",
+      "page": "Anthem of the Sun",
+      "name": "Anthem of the Sun",
       "kind": "contemporary",
       "series": null,
       "eligible": false,
@@ -2991,8 +2705,86 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Grateful Dead (album)",
-      "name": "Grateful Dead",
+      "page": "Aoxomoxoa",
+      "name": "Aoxomoxoa",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": null,
+      "name": "Beacon Theatre, New York, NY 6/14/76",
+      "kind": "uncatalogued",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Birth of the Dead",
+      "name": "Birth of the Dead",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": null,
+      "name": "Boston Garden, Boston, MA 5/7/77",
+      "kind": "uncatalogued",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Dead Set (album)",
+      "name": "Dead Set",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Dick's Picks Volume 22",
+      "name": "Dick's Picks Volume 22",
+      "kind": "series",
+      "series": "Dick's Picks",
+      "eligible": true,
+      "tag": "Dick's Picks",
+      "bonusDates": ["1968-02-23", "1968-02-24"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "dates from bold; article: \"documents portions of the concerts\" at the Kings Beach Bowl, and nothing circulates for either night, so neither date can be sourced whole or ever completed — both are staged in data/unknown-setlists/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Dylan & the Dead",
+      "name": "Dylan & the Dead",
       "kind": "contemporary",
       "series": null,
       "eligible": false,
@@ -3030,8 +2822,8 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Steppin' Out with the Grateful Dead: England '72",
-      "name": "Steppin' Out with the Grateful Dead: England '72",
+      "page": "Fallout from the Phil Zone",
+      "name": "Fallout from the Phil Zone",
       "kind": "traditional",
       "series": null,
       "eligible": false,
@@ -3044,7 +2836,7 @@
     },
     {
       "page": null,
-      "name": "Light into Ashes",
+      "name": "Fillmore West 1969: March 1st",
       "kind": "uncatalogued",
       "series": null,
       "eligible": false,
@@ -3056,16 +2848,16 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Postcards of the Hanging",
-      "name": "Postcards of the Hanging",
-      "kind": "traditional",
+      "page": null,
+      "name": "Fillmore West 1969: March 2nd",
+      "kind": "uncatalogued",
       "series": null,
       "eligible": false,
       "tag": null,
       "dates": [],
       "bonusDates": [],
       "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
+      "note": "not a source: unlinked in the discography — classify by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -3082,8 +2874,8 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Steal Your Face",
-      "name": "Steal Your Face",
+      "page": "Grateful Dead (album)",
+      "name": "Grateful Dead",
       "kind": "contemporary",
       "series": null,
       "eligible": false,
@@ -3095,8 +2887,73 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "The Grateful Dead Movie Soundtrack",
-      "name": "The Grateful Dead Movie Soundtrack",
+      "page": "Grateful Dead Download Series Volume 10",
+      "name": "Grateful Dead Download Series Volume 10",
+      "kind": "series",
+      "series": "Download Series",
+      "eligible": true,
+      "tag": "Download Series",
+      "bonusDates": ["1972-07-22"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: \"nearly the entire concert\"; the opener Promised Land is missing and no circulating tape carries it either — the soundboard opens with Sugaree — so 7/21/72 is held in data/unknown-setlists/; the bonus tracks are from 1972-07-22; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Grateful Dead Download Series Volume 2",
+      "name": "Grateful Dead Download Series Volume 2",
+      "kind": "series",
+      "series": "Download Series",
+      "eligible": true,
+      "tag": "Download Series",
+      "bonusDates": [],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: \"a previously uncirculated concert\", never called complete; JerryBase lists songs the nine released tracks do not carry, and the band played a two-set show at the same venue on 1/16/70, so 1/18/70 is held in data/unknown-setlists/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Grateful Dead Download Series Volume 6",
+      "name": "Grateful Dead Download Series Volume 6",
+      "kind": "series",
+      "series": "Download Series",
+      "eligible": true,
+      "tag": "Download Series",
+      "bonusDates": [],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: the release holds \"the first set closer, 'Turn On Your Lovelight', and the entire second set\" — the rest of the first set is absent, JerryBase lists the date as a partial setlist itself and no tape is catalogued, so 3/17/68 is held in data/unknown-setlists/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Grateful Dead Download Series Volume 8",
+      "name": "Grateful Dead Download Series Volume 8",
+      "kind": "series",
+      "series": "Download Series",
+      "eligible": true,
+      "tag": "Download Series",
+      "bonusDates": [],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: \"most of the concert\"; five songs are omitted — Jack Straw, Tennessee Jed, El Paso and Brown-Eyed Women from the first set, Me and My Uncle from the second — and the only tape catalogued for the date is a two-track fragment, so nothing can time them and 12/10/73 is held in data/unknown-setlists/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Grateful Dead Download Series: Family Dog at the Great Highway",
+      "name": "Grateful Dead Download Series: Family Dog at the Great Highway",
+      "kind": "series",
+      "series": "Download Series",
+      "eligible": true,
+      "tag": "Download Series",
+      "bonusDates": ["1970-10-05", "1970-12-31"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "the release, the Kaplan soundboard and JerryBase disagree about 2/4/70 in every direction — JerryBase opens with Cold Rain and Snow, which is on no tape — so the date is held in data/unknown-setlists/; the three bonus tracks are 10/5/70 and 12/31/70 at Winterland; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Grayfolded",
+      "name": "Grayfolded",
       "kind": "traditional",
       "series": null,
       "eligible": false,
@@ -3108,112 +2965,21 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": null,
-      "name": "Beacon Theatre, New York, NY 6/14/76",
-      "kind": "uncatalogued",
+      "page": "Historic Dead",
+      "name": "Historic Dead",
+      "kind": "unauthorized",
       "series": null,
       "eligible": false,
       "tag": null,
       "dates": [],
       "bonusDates": [],
       "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
+      "note": "not a source: unauthorized release",
       "musicbrainzReleaseId": null
     },
     {
-      "page": null,
-      "name": "Veterans Memorial Coliseum, New Haven, CT 5/5/77",
-      "kind": "uncatalogued",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": null,
-      "name": "Boston Garden, Boston, MA 5/7/77",
-      "kind": "uncatalogued",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": null,
-      "name": "Memorial Auditorium, Buffalo, NY 5/9/77",
-      "kind": "uncatalogued",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Road Trips Volume 1 Number 1",
-      "name": "Road Trips Volume 1 Number 1",
-      "kind": "series",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: compilation / highlights collection",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Reckoning (Grateful Dead album)",
-      "name": "Reckoning",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Dead Set (album)",
-      "name": "Dead Set",
-      "kind": "contemporary",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: contemporary release",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": null,
-      "name": "The Warfield, San Francisco, California, October 4 & 6, 1980",
-      "kind": "uncatalogued",
-      "series": null,
-      "eligible": false,
-      "tag": null,
-      "dates": [],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "not a source: unlinked in the discography — classify by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Dylan & the Dead",
-      "name": "Dylan & the Dead",
+      "page": "History of the Grateful Dead, Volume One (Bear's Choice)",
+      "name": "History of the Grateful Dead, Volume One (Bear's Choice)",
       "kind": "contemporary",
       "series": null,
       "eligible": false,
@@ -3238,8 +3004,21 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Without a Net",
-      "name": "Without a Net",
+      "page": null,
+      "name": "Light into Ashes",
+      "kind": "uncatalogued",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Live/Dead",
+      "name": "Live/Dead",
       "kind": "contemporary",
       "series": null,
       "eligible": false,
@@ -3251,8 +3030,34 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Spring 1990: So Glad You Made It",
-      "name": "Spring 1990: So Glad You Made It",
+      "page": null,
+      "name": "Memorial Auditorium, Buffalo, NY 5/9/77",
+      "kind": "uncatalogued",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Postcards of the Hanging",
+      "name": "Postcards of the Hanging",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Rare Cuts and Oddities 1966",
+      "name": "Rare Cuts and Oddities 1966",
       "kind": "traditional",
       "series": null,
       "eligible": false,
@@ -3274,6 +3079,201 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Reckoning (Grateful Dead album)",
+      "name": "Reckoning",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 1 Number 1",
+      "name": "Road Trips Volume 1 Number 1",
+      "kind": "series",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "So Many Roads (1965–1995)",
+      "name": "So Many Roads (1965–1995)",
+      "kind": "box",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "So Many Roads (1965–1995) Sampler",
+      "name": "So Many Roads (1965–1995) Sampler",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Spring 1990: So Glad You Made It",
+      "name": "Spring 1990: So Glad You Made It",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Steal Your Face",
+      "name": "Steal Your Face",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Steppin' Out with the Grateful Dead: England '72",
+      "name": "Steppin' Out with the Grateful Dead: England '72",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "The Grateful Dead (album)",
+      "name": "The Grateful Dead",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "The Grateful Dead Movie Soundtrack",
+      "name": "The Grateful Dead Movie Soundtrack",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "The Music Never Stopped (album)",
+      "name": "The Music Never Stopped",
+      "kind": "traditional",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": null,
+      "name": "The Warfield, San Francisco, California, October 4 & 6, 1980",
+      "kind": "uncatalogued",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": null,
+      "name": "Veterans Memorial Coliseum, New Haven, CT 5/5/77",
+      "kind": "uncatalogued",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Vintage Dead",
+      "name": "Vintage Dead",
+      "kind": "unauthorized",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: unauthorized release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Without a Net",
+      "name": "Without a Net",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Workingman's Dead",
+      "name": "Workingman's Dead",
+      "kind": "contemporary",
+      "series": null,
+      "eligible": false,
+      "tag": null,
+      "dates": [],
+      "bonusDates": [],
+      "completeness": "unknown",
+      "note": "not a source: contemporary release",
       "musicbrainzReleaseId": null
     }
   ]
