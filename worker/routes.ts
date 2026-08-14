@@ -12,7 +12,7 @@ import { allShowsGallery, allSubGalleries } from '../src/galleries.ts';
  */
 
 /** Static routes from src/router.tsx, outside the gallery and show families. */
-export const STATIC_PATHS = ['/', '/all', '/about', '/builder'];
+export const STATIC_PATHS = ['/', '/all', '/about', '/builder', '/progress'];
 
 /**
  * Every path the app renders as a real page. Show ids come from the bundled

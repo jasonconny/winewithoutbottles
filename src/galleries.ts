@@ -80,6 +80,7 @@ export const RESERVED_SLUGS = [
   'builder',
   'placeholder',
   'gallery',
+  'progress',
 ];
 
 export function slugify(text: string): string {

@@ -1,0 +1,80 @@
+.Progress {
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  line-height: 1.6;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  &-table {
+    // Half the old width. Both columns are fixed-size content — a four-digit
+    // year and a count that tops out at the four-character total — so the
+    // table only ever needed to be as wide as those two plus the gap between.
+    width: 50%;
+    margin-top: 1.5rem;
+    // Collapsed so the rule above the total reads as one line across both
+    // columns rather than two abutting borders.
+    border-collapse: collapse;
+
+    th,
+    td {
+      // Horizontal padding is for the banding below: without it a striped row
+      // would start and stop flush against the text.
+      padding: 0.35rem 0.5rem;
+      text-align: left;
+      font-weight: normal;
+    }
+
+    // Counts are compared down the column, so they align right and take
+    // tabular figures — proportional digits make a 1 and a 3 different widths
+    // and the column stops scanning cleanly. The header sits over them, so it
+    // right-aligns too rather than floating off to the left of its own column.
+    td,
+    thead th:last-child {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    thead th {
+      font-weight: 600;
+      border-bottom: 1px solid currentColor;
+    }
+
+    // Zebra striping. The nav gutter's gray (#a6abb1, SHOW_GROUND in
+    // src/theme.ts) lightened 50% toward the page pane's #d2d5d8 — the exact
+    // midpoint of the two grounds the chrome already uses, so the banding stays
+    // inside that family without a third color entering the palette. At full
+    // strength the nav gray read as a highlight on the rows rather than a band
+    // under them.
+    //
+    // Banded rows need the color to run the full width of the row rather than
+    // stopping at the text, so it goes on the cells: a `background` on `tr` is
+    // painted under the cells' own backgrounds and disappears wherever a cell
+    // has one.
+    tbody tr:nth-child(odd) {
+      th,
+      td {
+        background: #bcc0c4;
+      }
+    }
+
+    tfoot th,
+    tfoot td {
+      padding-top: 0.75rem;
+      font-weight: 600;
+      border-top: 1px solid currentColor;
+    }
+
+    // Dotted rather than solid, the same affordance the Show info sheet uses:
+    // quieter than a solid rule under thirty stacked rows, and unlike a
+    // hover-only underline it survives on touch, where there is no hover.
+    a {
+      color: inherit;
+      text-decoration: underline dotted;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
+  }
+}

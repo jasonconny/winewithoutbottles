@@ -69,7 +69,8 @@ describe('worker route matching', () => {
       knownPathList().filter((path) => !isShowId(path.slice(1))),
     );
     // Guard against the comparison passing vacuously if either side ever stops
-    // resolving: '/', '/all', '/about', '/builder' + every gallery slug.
+    // resolving: '/', '/all', '/about', '/builder', '/progress' + every
+    // gallery slug.
     expect(routerPaths.size).toBeGreaterThan(STATIC_PATHS.length);
     expect([...workerPaths].sort()).toEqual([...routerPaths].sort());
     // And the show family is genuinely in there too.

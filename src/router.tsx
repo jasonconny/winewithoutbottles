@@ -7,6 +7,7 @@ import Builder from './routes/Builder';
 import Gallery from './routes/Gallery';
 import Show from './routes/Show';
 import About from './routes/About';
+import Progress from './routes/Progress';
 import NotFound from './routes/NotFound';
 
 // Per-show detail (incl. the full setlist) is fetched on demand from
@@ -74,6 +75,9 @@ export const routes: RouteObject[] = [
       // Unlinked easter egg — not in the drawer nav, discoverable only by
       // visiting the URL directly, but it gets the chrome like every page.
       { path: '/builder', element: <Builder /> },
+      // Also unlinked: a working summary of how much of the corpus exists,
+      // by year. A tool rather than part of the reader.
+      { path: '/progress', element: <Progress /> },
       // Global 404 for everything else (only multi-segment paths reach this —
       // single strays match `/:id` above and 404 via its loader).
       { path: '*', element: <NotFound /> },

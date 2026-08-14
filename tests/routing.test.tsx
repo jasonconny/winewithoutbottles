@@ -1,6 +1,13 @@
-import { cleanup, render, screen, waitFor } from '@testing-library/react';
+import {
+  cleanup,
+  render,
+  screen,
+  waitFor,
+  within,
+} from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { routes } from '@/router';
+import { shows } from '@/data/shows.generated';
 
 function renderAt(path: string) {
   const router = createMemoryRouter(routes, { initialEntries: [path] });
@@ -15,6 +22,48 @@ describe('routing', () => {
     ).toBeInTheDocument();
     // Builder sits inside the global chrome like every page.
     expect(screen.getByRole('button', { name: 'WWOB' })).toBeInTheDocument();
+  });
+
+  it('summarises the corpus by year at /progress', () => {
+    // Driven off the same bundled index the page reads, so adding shows never
+    // makes this test wrong — only a page that stops agreeing with the index
+    // does.
+    const byYear = new Map<string, number>();
+    for (const show of shows) {
+      const year = show.date.slice(0, 4);
+      byYear.set(year, (byYear.get(year) ?? 0) + 1);
+    }
+
+    renderAt('/progress');
+    expect(
+      screen.getByRole('heading', { name: 'Progress' }),
+    ).toBeInTheDocument();
+
+    // One row per year, plus the header and the total.
+    expect(screen.getAllByRole('row')).toHaveLength(byYear.size + 2);
+
+    // A year row reports that year's count and links to its gallery.
+    const [year, count] = [...byYear][0];
+    const yearRow = screen
+      .getByRole('rowheader', { name: year })
+      .closest('tr')!;
+    expect(within(yearRow).getByRole('cell')).toHaveTextContent(String(count));
+    expect(within(yearRow).getByRole('link')).toHaveAttribute(
+      'href',
+      `/${year}`,
+    );
+
+    const totalRow = screen
+      .getByRole('rowheader', { name: 'Total' })
+      .closest('tr')!;
+    expect(within(totalRow).getByRole('cell')).toHaveTextContent(
+      String(shows.length),
+    );
+
+    // Unlinked like /builder: reachable by URL, absent from the drawer.
+    expect(
+      screen.queryByRole('link', { name: /progress/i }),
+    ).not.toBeInTheDocument();
   });
 
   it('404s at the retired /placeholder route', async () => {
