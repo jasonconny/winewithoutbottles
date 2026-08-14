@@ -498,6 +498,57 @@ three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
 colour beside the Prelude and Part 1, under a name two sources already use for
 different spans of music.
 
+### A track listing held in a template — 1978-02-03 and 1978-02-05
+
+_Dick's Picks Volume 18_ returned **zero tracks for both its nights** while
+listing 26, because its track listing is a `{{track listing}}` **template**:
+tracks are numbered parameters (`title1=`, `length1=`), not list rows, so every
+line-based reader was blind to them. Six eligible releases use the template and
+four attach dates to it, so `tracksByTrackListing` (`generator/import.ts`) now
+reads it, ahead of the heading walk.
+
+The article uses **both** of the template's date mechanisms at once, and both are
+supported:
+
+- **`extra_column = Recording date`** with a per-track `extraN`, which is how
+  disc one attributes a first set recombined from three different nights;
+- a **`headline`** naming one — `Disc 2 (all tracks recorded on February 3)` —
+  covering every track in that block.
+
+Per-track wins where both apply. A track resolving to neither is orphaned rather
+than handed to a neighbour: a template block has no "show in progress" to fall
+back on.
+
+**A shared helper was wrong.** `monthDayIn` tested only the **first**
+`Word Number` pair in a string, and in `Disc 2 (all tracks recorded on February
+3)` that is `Disc 2` — not a month, so it returned null and never reached the
+date. It now scans every pair and skips non-months, which can only turn a null
+into a date and never change one the old form already found. `--audit`
+confirms: no already-imported show re-bucketed.
+
+The fix had one side effect worth recording — _Dozin' at the Knick_ also uses the
+template, and went from `!! no tracks matched` to parsing. That was the corpus's
+only `unparsed` release.
+
+**2/4/78 Milwaukee stays out.** _Dick's Picks 18_ carries two songs from it,
+which cannot source a show, so it remains an unimported bonus date.
+
+### 1990-03-24 always shows an audit delta, and that is correct
+
+`--audit` reports 19900324 against _Dozin' at the Knick_ at roughly −9:55 across
+three durations, and it always will. Two things combine:
+
+- the show is a **legacy reconstruction with no `source`**, authored from Jason's
+  2013 art rather than imported, so the audit has to pick a release by date; and
+- of the releases carrying the date, _Spring 1990_ holds it as a **bonus** date
+  (which `chooseSource` skips, since it filters on `dates`), leaving only
+  _Dozin' at the Knick_ — a **selections** set that was never its source.
+
+So the audit compares hand-authored art against a release holding part of the
+night. Jason, 2026-08-13: **accept it as a standing exception.** The show is
+spread across more releases than any other in the corpus, and a unified release
+that would settle it is unlikely. Do not "fix" the delta.
+
 ### Two named jams, treated two ways — 1974-09-09 and 1974-09-10
 
 _Dick's Picks Volume 7_ again reads more finely than the tape, and again the

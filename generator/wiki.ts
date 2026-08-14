@@ -114,18 +114,26 @@ export function monthDayIn(
   span: { first: string; last: string } | null,
 ): string | null {
   if (!span) return null;
-  const m = text.match(/\b([A-Z][a-z]+)\s+(\d{1,2})\b(?!\s*,?\s*\d{4})/);
-  if (!m) return null;
-  const month = MONTHS.indexOf(m[1]) + 1;
-  if (!month) return null;
-  // A span can straddle New Year, so try each year it touches.
-  for (
-    let year = +span.first.slice(0, 4);
-    year <= +span.last.slice(0, 4);
-    year++
-  ) {
-    const date = iso(year, month, +m[2]);
-    if (date >= span.first && date <= span.last) return date;
+  // Scan every `Word Number` pair rather than testing only the first. A heading
+  // routinely opens with one that isn't a date — `Disc 2 (all tracks recorded on
+  // February 3)` — and stopping there returned null for a string that plainly
+  // names a day, which is how Dick's Picks 18's second and third discs came back
+  // undated. Non-month words are skipped, so this can only turn a null into a
+  // date, never change one the old form already found.
+  for (const m of text.matchAll(
+    /\b([A-Z][a-z]+)\s+(\d{1,2})\b(?!\s*,?\s*\d{4})/g,
+  )) {
+    const month = MONTHS.indexOf(m[1]) + 1;
+    if (!month) continue;
+    // A span can straddle New Year, so try each year it touches.
+    for (
+      let year = +span.first.slice(0, 4);
+      year <= +span.last.slice(0, 4);
+      year++
+    ) {
+      const date = iso(year, month, +m[2]);
+      if (date >= span.first && date <= span.last) return date;
+    }
   }
   return null;
 }

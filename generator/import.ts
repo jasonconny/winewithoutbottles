@@ -522,6 +522,104 @@ function tracksByDiscTrack(
   return { byDate, orphans };
 }
 
+/** Every `{{track listing}}` block, brace-balanced so nested templates survive. */
+function trackListingBlocks(wikitext: string): string[] {
+  const blocks: string[] = [];
+  const opener = /\{\{\s*track listing/gi;
+  let match: RegExpExecArray | null;
+  while ((match = opener.exec(wikitext))) {
+    let depth = 0;
+    let index = match.index;
+    for (; index < wikitext.length; index++) {
+      if (wikitext.startsWith('{{', index)) {
+        depth++;
+        index++;
+      } else if (wikitext.startsWith('}}', index)) {
+        depth--;
+        index++;
+        if (depth === 0) {
+          index++;
+          break;
+        }
+      }
+    }
+    blocks.push(wikitext.slice(match.index, index));
+    opener.lastIndex = index;
+  }
+  return blocks;
+}
+
+/**
+ * Read a `{{track listing}}` template, which carries its tracks as numbered
+ * parameters (`title1=`, `length1=`) rather than as list rows.
+ *
+ * Nothing in the line-based readers can see this at all — Dick's Picks 18 came
+ * back with zero tracks for both its nights while listing 26. The template is
+ * standard Wikipedia furniture, and four eligible releases use it with dates
+ * attached, so it earns a reader of its own.
+ *
+ * Dates come from two places, both of which DP 18 uses at once:
+ *
+ * - an **`extra_column = Recording date`** with a per-track `extraN`, which is
+ *   how its disc one attributes a sequence recombined from three nights;
+ * - a **`headline`** naming one, as in `Disc 2 (all tracks recorded on
+ *   February 3)`, which covers every track in that block.
+ *
+ * Per-track wins where present. A track resolving to neither is orphaned rather
+ * than handed to a neighbour, since a template block has no "show in progress"
+ * to fall back on.
+ */
+function tracksByTrackListing(
+  wikitext: string,
+  release: Release,
+): { byDate: Map<string, ParsedTrack[]>; orphans: number } | null {
+  const blocks = trackListingBlocks(wikitext);
+  if (!blocks.length) return null;
+  const all = [...release.dates, ...release.bonusDates].sort();
+  const span = all.length ? { first: all[0], last: all[all.length - 1] } : null;
+  const known = new Set(all);
+
+  const byDate = new Map<string, ParsedTrack[]>();
+  let orphans = 0;
+  let seen = 0;
+  for (const block of blocks) {
+    const params = new Map<string, string>();
+    // Strip the outer braces so the splitter sees the parameters at top level;
+    // it already ignores pipes inside `[[…]]` and nested `{{…}}`.
+    for (const part of splitTopLevelPipes(block.slice(2, -2))) {
+      const equals = part.indexOf('=');
+      if (equals < 0) continue;
+      params.set(
+        part.slice(0, equals).trim().toLowerCase(),
+        part.slice(equals + 1).trim(),
+      );
+    }
+    const headline = params.get('headline') ?? '';
+    const headlineDate = longDate(headline) ?? monthDayIn(headline, span);
+    const dated = /recording date/i.test(params.get('extra_column') ?? '');
+
+    for (let n = 1; params.has(`title${n}`); n++) {
+      seen++;
+      const title = cleanWikiTitle(stripMarkup(params.get(`title${n}`) ?? ''));
+      if (!title) continue;
+      const length = (params.get(`length${n}`) ?? '').match(/\d{1,3}:\d{2}/);
+      const extra = dated ? (params.get(`extra${n}`) ?? '') : '';
+      const date =
+        (extra ? (longDate(extra) ?? monthDayIn(extra, span)) : null) ??
+        headlineDate;
+      if (!date || !known.has(date)) {
+        orphans++;
+        continue;
+      }
+      const track: ParsedTrack = { title, duration: length ? length[0] : null };
+      byDate.set(date, [...(byDate.get(date) ?? []), track]);
+    }
+  }
+  // Nothing resolved means the template carries no date information the index
+  // recognises; let the heading walk try instead of reporting an empty release.
+  return seen && byDate.size ? { byDate, orphans } : null;
+}
+
 function tracksByDate(
   wikitext: string,
   release: Release,
@@ -531,6 +629,10 @@ function tracksByDate(
   // split one disc across two nights.
   const mapping = discTrackDates(wikitext, release);
   if (mapping) return tracksByDiscTrack(wikitext, mapping);
+  // Likewise a {{track listing}} template: its tracks are parameters, not rows,
+  // so the line walk below cannot see them at all.
+  const templated = tracksByTrackListing(wikitext, release);
+  if (templated) return templated;
 
   // The window for resolving year-less headings has to cover bonus dates too,
   // or a "June 12 – First set:" heading on a 6/9 release won't resolve, will

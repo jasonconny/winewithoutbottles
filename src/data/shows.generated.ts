@@ -1789,6 +1789,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10219
   },
   {
+    "id": "19780203",
+    "date": "1978-02-03",
+    "venue": "Dane County Coliseum",
+    "city": "Madison",
+    "state": "WI",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780203.svg",
+    "songCount": 19,
+    "durationSeconds": 9239
+  },
+  {
+    "id": "19780205",
+    "date": "1978-02-05",
+    "venue": "UNI-Dome",
+    "city": "Cedar Falls",
+    "state": "IA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780205.svg",
+    "songCount": 19,
+    "durationSeconds": 8832
+  },
+  {
     "id": "19780510",
     "date": "1978-05-10",
     "venue": "Veteran's Memorial Coliseum",
