@@ -1,0 +1,48 @@
+{
+  "id": "19700118",
+  "date": "1970-01-18",
+  "venue": "Springer's Ballroom",
+  "city": "Gresham",
+  "state": "OR",
+  "country": "USA",
+  "source": "Grateful Dead Download Series Volume 2",
+  "note": "Setlist not definitively known. Download Series Volume 2 presents the night as a single 79:47 disc and never calls it complete; the Wikipedia article notes the release itself mis-credits the venue as Springer's Inn in Portland. JerryBase lists several songs the release does not carry, and the band played a two-set show at the same venue on January 16, 1970, so the nine released tracks cannot be assumed to be the whole night. Nothing circulates on archive.org for the date, so there is no second witness to settle the order or the remainder.",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:10"
+    },
+    {
+      "title": "Big Boss Man",
+      "duration": "4:48"
+    },
+    {
+      "title": "Mason's Children",
+      "duration": "5:53"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "10:44"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "14:04"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "10:17"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:36"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:08"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "18:07"
+    }
+  ]
+}

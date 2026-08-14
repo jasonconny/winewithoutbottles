@@ -1,0 +1,48 @@
+{
+  "id": "19700204",
+  "date": "1970-02-04",
+  "venue": "Family Dog at the Great Highway",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "source": "Grateful Dead Download Series: Family Dog at the Great Highway",
+  "note": "Setlist not definitively known. The release and the circulating tape disagree in both directions: Download Series: Family Dog at the Great Highway carries nine songs for the date, while Seth Kaplan's soundboard (gd70-02-04.sbd.kaplan.14188.sbeok.shnf) has eight, including a Jam the release omits and lacking five the release has. JerryBase opens the night with Cold Rain and Snow, which appears on no tape at all. No source reconciles the three, so the order and the full contents can't be claimed.",
+  "songs": [
+    {
+      "title": "Hard to Handle",
+      "duration": "6:43"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:33"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:29"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:04"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "4:53"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "2:18"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:58"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "2:22"
+    },
+    {
+      "title": "In the Midnight Hour",
+      "duration": "8:16"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "19800904",
+  "date": "1980-09-04",
+  "venue": "Providence Civic Center",
+  "city": "Providence",
+  "state": "RI",
+  "country": "USA",
+  "tags": [
+    "Download Series"
+  ],
+  "svg": "/shows/19800904.svg",
+  "songCount": 22,
+  "durationSeconds": 9465,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 236
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 280
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 329
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Supplication Jam",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 629
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 671
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 406
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 589
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 484
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 325
+    }
+  ]
+}

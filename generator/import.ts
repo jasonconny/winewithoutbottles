@@ -681,9 +681,34 @@ function tracksByDate(
     const equals = line.match(/^(=+)/);
     if (equals) return equals[1].length;
     if (/^'''/.test(line)) return 10;
+    // A definition-list term (`;Bonus tracks`) is the bold form by another
+    // spelling, so it ranks with `'''`.
+    if (/^;/.test(line)) return 10;
     const colons = line.match(/^(:*)''/);
     if (colons) return 20 + colons[1].length;
     return 30;
+  };
+
+  /**
+   * A venue line under a disc heading — Download Series 7 writes
+   * `===Disc one===` and then, on its own line, `9/3/80 Springfield Civic
+   * Center, Springfield, MA` — carries the date the heading itself doesn't.
+   *
+   * Deliberately narrow: the date must *open* the line, the line must carry no
+   * list markup, and it must resolve to a date the index already claims. Prose
+   * that merely mentions a date can't match, which is the trap free-text date
+   * scanning falls into. Without this the whole release orphans — vol 7's 34
+   * tracks bucketed to nothing at all.
+   */
+  const bareDateLine = (line: string): string | null => {
+    const text = line.trim();
+    if (!text || /^[#*:;=']/.test(text)) return null;
+    const found = /^\d{1,2}\/\d{1,2}\/\d{2,4}\b/.test(text)
+      ? slashDate(text)
+      : /^[A-Z][a-z]+\s+\d{1,2},\s*\d{4}\b/.test(text)
+        ? longDate(text)
+        : null;
+    return found && known.has(found) ? found : null;
   };
 
   const headingDate = (line: string): string | null => {
@@ -694,7 +719,8 @@ function tracksByDate(
       // them invisible — the eight bonus-date tracks of disc one then fell to
       // the show in progress and 3/28 came back as a 36-track night.
       line.match(/^:*''(.+?)''/) ??
-      line.match(/^'''(.+?)'''/);
+      line.match(/^'''(.+?)'''/) ??
+      line.match(/^;\s*(.+?)\s*$/);
     if (!heading) return null;
     const inner = heading[1];
     const found =
@@ -712,7 +738,13 @@ function tracksByDate(
 
   for (const line of wikitext.split('\n')) {
     const isHeading =
-      /^=+.*=+\s*$/.test(line) || /^:*''/.test(line) || /^'''/.test(line);
+      /^=+.*=+\s*$/.test(line) ||
+      /^:*''/.test(line) ||
+      /^'''/.test(line) ||
+      // `;Bonus tracks` — the Family Dog release's spelling. Unrecognised, it
+      // wasn't a heading at all, and its three tracks from two other 1970
+      // nights joined the February 4 show.
+      /^;/.test(line);
     if (isHeading) {
       const level = headingLevel(line);
       const flipped = headingDate(line);
@@ -750,6 +782,15 @@ function tracksByDate(
         current = main;
         currentLevel = level;
       }
+      continue;
+    }
+    const bare = bareDateLine(line);
+    if (bare) {
+      current = bare;
+      main = bare;
+      // Rank it with the disc heading it annotates, so the set headings that
+      // follow read as subordinate rather than as a return to `main`.
+      currentLevel = 10;
       continue;
     }
     for (const track of parseTrackLine(line)) {
@@ -803,6 +844,13 @@ const SHOW_OVERRIDES: Record<
     note: string;
   }
 > = {
+  '1969-04-17': {
+    drop: [
+      { position: 11, title: 'The Eleven' },
+      { position: 12, title: "Dupree's Diamond Blues" },
+    ],
+    note: 'Download Series 12 closes with a footnote — "3 and 4 are bonus tracks from Avalon Ballroom, January 23, 1969 rehearsals" — that numbers tracks within disc two and sits *after* the list it describes, so the heading walk cannot see it: it names a bonus date the index knows, but by the time it is read there are no tracks left to reassign. The show ends where the plug was pulled, mid-Caution',
+  },
   '1972-05-16': {
     drop: [
       { position: 1, title: 'Big River' },

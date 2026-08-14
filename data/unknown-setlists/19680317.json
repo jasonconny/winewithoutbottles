@@ -1,0 +1,40 @@
+{
+  "id": "19680317",
+  "date": "1968-03-17",
+  "venue": "Carousel Ballroom",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "source": "Grateful Dead Download Series Volume 6",
+  "note": "Setlist not definitively known. Download Series Volume 6 carries \"the first set closer, 'Turn On Your Lovelight', and the entire second set\", so the seven tracks here are the second set plus one song and the rest of the first set is absent. Nothing fills it: JerryBase itself lists 3/17/68 as a partial setlist, so the missing songs are unnamed at the source as well as untimed, and archive.org catalogues no tape for the date at all. There is no second witness to say what else was played or in what order. Jason's call, 2026-08-14: this is waiting for nothing, so it belongs here rather than in data/partial-shows/.",
+  "songs": [
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "16:13"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "9:17"
+    },
+    {
+      "title": "New Potato Caboose",
+      "duration": "8:26"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:42"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "10:56"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "20:54"
+    },
+    {
+      "title": "Feedback",
+      "duration": "7:15"
+    }
+  ]
+}

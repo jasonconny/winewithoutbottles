@@ -1,0 +1,96 @@
+{
+  "id": "19890403",
+  "date": "1989-04-03",
+  "venue": "Civic Arena",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Download Series"],
+  "source": "Grateful Dead Download Series Volume 9",
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:13"
+    },
+    {
+      "title": "Bertha",
+      "duration": "7:18"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:48"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "5:43"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:31"
+    },
+    {
+      "title": "Built to Last",
+      "duration": "5:26"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "7:38"
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "duration": "5:06"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:26"
+    },
+    {
+      "title": "Blow Away",
+      "duration": "8:12"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:30"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:44"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "10:46"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:14"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "11:46"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:24"
+    },
+    {
+      "title": "Space",
+      "duration": "9:37"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "5:11"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "4:15"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:02"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:54"
+    }
+  ]
+}

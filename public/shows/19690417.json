@@ -1,0 +1,57 @@
+{
+  "id": "19690417",
+  "date": "1969-04-17",
+  "venue": "Washington University",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Download Series"
+  ],
+  "svg": "/shows/19690417.svg",
+  "songCount": 10,
+  "durationSeconds": 6100,
+  "songs": [
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 621
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1295
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 154
+    },
+    {
+      "title": "I Know It's a Sin",
+      "durationSeconds": 225
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 181
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1153
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1364
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 113
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "19690417",
+  "date": "1969-04-17",
+  "venue": "Washington University",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": ["Dark Star", "Download Series"],
+  "source": "Grateful Dead Download Series Volume 12",
+  "songs": [
+    {
+      "title": "Hard to Handle",
+      "duration": "7:18"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:21"
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "9:16"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "21:35"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "2:34"
+    },
+    {
+      "title": "I Know It's a Sin",
+      "duration": "3:45"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "3:01"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "19:13"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "22:44"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "1:53"
+    }
+  ]
+}
