@@ -333,11 +333,23 @@ function parseTrackLine(line: string): ParsedTrack[] {
       return track ? [track] : [];
     });
   }
-  // Track rows come in three markups: `#` lists, `|"Title"` rows inside an
-  // {{ordered list}}, and raw HTML `<li>` inside an `<ol>` — Dick's Picks 36
-  // uses the last, which is why it parsed as zero tracks while plainly being
-  // a single, fully-listed show.
+  // Track rows come in four markups: `#` lists, `|"Title"` rows inside an
+  // {{ordered list}}, raw HTML `<li>` inside an `<ol>` — Dick's Picks 36 uses
+  // that, which is why it parsed as zero tracks while plainly being a single,
+  // fully-listed show — and indented bullets.
+  //
+  // The bullet form is Dick's Picks 13's: its two hidden bonus tracks sit under
+  // `:''Hidden tracks recorded November 1, 1979:''` as `::*"Title" … – 18:30`.
+  //
+  // Two guards, both learned by getting it wrong. A `*` is **required** — a bare
+  // `::"Title"` indent is not enough, because Europe '72 writes one for its
+  // `Happy Birthday to You` insert and accepting it added a 28th track to an
+  // already-authored 5/7/72. And a **duration** is required, because plain `*`
+  // bullets also carry personnel lists and the `==Recording dates==` prose,
+  // which `parseTrack`'s scan-from-the-first-quote would mint songs out of.
+  const bullet = /^:*\*+\s*"/.test(line) && /[–—-]\s*\d{1,3}:\d{2}/.test(line);
   if (
+    !bullet &&
     !line.startsWith('#') &&
     !/^\|\s*"/.test(line) &&
     !/^<li[ >]/.test(line)
