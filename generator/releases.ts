@@ -21,6 +21,25 @@
  * default mode reports drift instead of overwriting — re-drafting would throw
  * away every judgement call recorded in the file.
  *
+ * That was advice, and advice lost. Twenty-seven entries were hand-edited
+ * straight into the JSON and a `--draft` reverted every one: twelve Dick's Picks
+ * volumes reviewed against the tapes and upgraded to complete, five date splits
+ * no parser derives, ten notes recording *why*. Nothing warned, because VERIFY
+ * only compared `dates`, and only in the direction of "Wikipedia found something
+ * new". So the advice is now a mechanism:
+ *
+ *   - a note ending "; confirmed <completeness> by hand" marks a settled reading,
+ *     and the suffix is appended automatically to anything in HAND_RESOLVED;
+ *   - `--draft` refuses to write if it cannot reproduce one of those readings,
+ *     naming each field it would change. `--force` overrides, deliberately;
+ *   - VERIFY reports the same set as maintenance debt, without failing on it;
+ *   - `--draft --only` merges into the index rather than replacing it with the
+ *     subset it just built.
+ *
+ * The invariant to preserve: **a draft over an up-to-date index is a no-op.**
+ * If it isn't, something in the file is a judgement the tool can't rederive, and
+ * it belongs in HAND_RESOLVED.
+ *
  * Sources: the MediaWiki API only. Wikipedia's own sectioning decides
  * eligibility (see SECTIONS), and each release's article supplies the dates.
  * jerrybase is deliberately not consulted — its robots.txt disallows automated
@@ -29,6 +48,14 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  byFirstDate,
+  COMPLETENESS_BY_HAND,
+  CONFIRMABLE,
+  CONFIRMED,
+  HAND_RESOLVED,
+  stripPending,
+} from './hand-readings.ts';
 import { releaseTag } from './release-tag.ts';
 import {
   articles,
@@ -103,275 +130,6 @@ const NOT_CONCERTS = new Set([
   "From the Mars Hotel: The Angel's Share",
   "Blues for Allah: The Angel's Share",
 ]);
-
-/**
- * Releases whose shows are stated only in article prose, which the parser
- * deliberately doesn't mine (scanning free text for dates picks up neighbouring
- * releases and chart trivia). Each is read off the article's own lead, quoted
- * in the note, so a re-draft reproduces the reading instead of reverting to
- * "resolve by hand".
- *
- * `partial` here is load-bearing: a release covering several nights with
- * *selections* from each can gap-fill a show but can never source one whole,
- * and it earns no tag.
- */
-const HAND_RESOLVED: Record<
-  string,
-  {
-    dates: string[];
-    bonusDates?: string[];
-    completeness: Release['completeness'];
-    note: string;
-  }
-> = {
-  // The Download Series, read volume by volume. The discography states a
-  // principal date for each and nothing else, so every one of these came back
-  // `unknown` — and `unknown` is not a reading, it's the absence of one. Each
-  // note quotes the article's own words about what the volume holds.
-  'Grateful Dead Download Series Volume 1': {
-    dates: ['1977-04-30'],
-    bonusDates: ['1977-04-29'],
-    completeness: 'complete',
-    note: 'article: "the complete show from April 30, 1977"; the third disc is filled out with bonus material from 4/29 at the same venue',
-  },
-  'Grateful Dead Download Series Volume 2': {
-    dates: [],
-    completeness: 'partial',
-    note: 'article: "a previously uncirculated concert", never called complete; JerryBase lists songs the nine released tracks do not carry, so 1/18/70 is held in data/unknown-setlists/',
-  },
-  'Grateful Dead Download Series Volume 3': {
-    dates: ['1971-10-26'],
-    completeness: 'complete',
-    note: "article: \"an almost complete concert, with the exception of 'Beat It On Down the Line' which was played after 'Loser'\"; that one song is timed from the soundboard",
-  },
-  'Grateful Dead Download Series Volume 4': {
-    dates: ['1976-06-18'],
-    completeness: 'complete',
-    note: 'article: "virtually all of the June 18, 1976 show"; only "Tennessee Jed" was omitted, for tape damage, and it is timed from Miller\'s outtakes transfer. Disc three\'s Philadelphia and Chicago highlights are not this show',
-  },
-  'Grateful Dead Download Series Volume 6': {
-    dates: [],
-    completeness: 'partial',
-    note: 'article: "the first set closer, \'Turn On Your Lovelight\', and the entire second set" — the rest of the first set is absent, JerryBase lists the date as a partial setlist itself and no tape is catalogued, so 3/17/68 is held in data/unknown-setlists/',
-  },
-  'Grateful Dead Download Series Volume 7': {
-    dates: ['1980-09-03'],
-    bonusDates: ['1980-09-04'],
-    completeness: 'complete',
-    note: 'article: "The first two discs feature the September 3 show, while the third disc presents the second set from the September 4 performance"; 9/4 is one set, itself missing "Samson and Delilah" and "Ramble On Rose", so it stays out of dates — 19800904 is completed from Miller\'s soundboard instead',
-  },
-  'Grateful Dead Download Series Volume 8': {
-    dates: [],
-    completeness: 'partial',
-    note: 'article: "most of the concert"; five songs are omitted — Jack Straw, Tennessee Jed, El Paso and Brown-Eyed Women from the first set, Me and My Uncle from the second — and the only tape catalogued for the date is a two-track fragment, so nothing can time them and 12/10/73 is held in data/unknown-setlists/',
-  },
-  'Grateful Dead Download Series Volume 10': {
-    dates: [],
-    bonusDates: ['1972-07-22'],
-    completeness: 'partial',
-    note: 'article: "nearly the entire concert"; the opener "Promised Land" is missing and no circulating tape carries it either — the soundboard opens with Sugaree — so 7/21/72 is held in data/unknown-setlists/',
-  },
-  'Grateful Dead Download Series Volume 11': {
-    dates: ['1991-06-20'],
-    bonusDates: ['1991-06-19'],
-    completeness: 'complete',
-    note: 'article: "the complete show performed by the band on June 20, 1991"; discs one and three are supplemented by 6/19 tracks at the same venue',
-  },
-  'Grateful Dead Download Series Volume 12': {
-    dates: ['1969-04-17'],
-    bonusDates: ['1969-01-23'],
-    completeness: 'complete',
-    note: 'article: "a complete two-disc show performed by the Grateful Dead on April 17, 1969 at Washington University in St. Louis"',
-  },
-  'Grateful Dead Download Series: Family Dog at the Great Highway': {
-    dates: [],
-    bonusDates: ['1970-10-05', '1970-12-31'],
-    completeness: 'partial',
-    note: 'the release, the Kaplan soundboard and JerryBase disagree about 2/4/70 in every direction, so the date is held in data/unknown-setlists/; the three bonus tracks are 10/5/70 and 12/31/70 at Winterland',
-  },
-  'Winterland 1973: The Complete Recordings': {
-    dates: ['1973-11-09', '1973-11-10', '1973-11-11'],
-    bonusDates: ['1973-12-04'],
-    completeness: 'complete',
-    note: 'article: "three complete concerts, missing only the encore of the first"; bonus disc is 12/4/73 Cincinnati',
-  },
-  'Winterland June 1977: The Complete Recordings': {
-    dates: ['1977-06-07', '1977-06-08', '1977-06-09'],
-    bonusDates: ['1977-05-12'],
-    completeness: 'complete',
-    note: 'article: "three complete concerts"; bonus disc is 5/12/77, released whole on the May 1977 box',
-  },
-  "Dick's Picks Volume 30": {
-    dates: ['1972-03-28'],
-    bonusDates: ['1972-03-25', '1972-03-27'],
-    completeness: 'complete',
-    note: 'article: "the entire March 28, 1972 performance plus selections from March 25, 1972, and March 27, 1972"',
-  },
-  "Dick's Picks Volume 4": {
-    dates: ['1970-02-13', '1970-02-14'],
-    completeness: 'partial',
-    note: 'article: recorded February 13 and 14, 1970, Fillmore East; three sets per night, three CDs — selections',
-  },
-  "Dick's Picks Volume 18": {
-    dates: ['1978-02-03', '1978-02-05'],
-    bonusDates: ['1978-02-04'],
-    completeness: 'partial',
-    note: 'article: 2/3 Madison and 2/5 Cedar Falls, plus two songs from 2/4 Milwaukee; disc 1 recombines all three',
-  },
-  'Ladies and Gentlemen... the Grateful Dead': {
-    dates: [
-      '1971-04-25',
-      '1971-04-26',
-      '1971-04-27',
-      '1971-04-28',
-      '1971-04-29',
-    ],
-    completeness: 'partial',
-    note: 'article: recorded at the April 25–29, 1971 Fillmore East shows — four CDs across five nights',
-  },
-  'Go to Nassau': {
-    dates: ['1980-05-15', '1980-05-16'],
-    completeness: 'partial',
-    note: 'article: "presents half of the songs played on the final two nights", resequenced as one concert',
-  },
-  'Fillmore West 1969': {
-    dates: ['1969-02-27', '1969-02-28', '1969-03-01', '1969-03-02'],
-    completeness: 'partial',
-    note: 'article: "selected songs" from the four nights; the complete run is the 10-CD box',
-  },
-  "Dozin' at the Knick": {
-    dates: ['1990-03-24', '1990-03-25', '1990-03-26'],
-    completeness: 'partial',
-    note: 'article: selections from three nights, each later released whole elsewhere (3/24 only across four releases)',
-  },
-  // Mixed box, and the mix is why this is here: the parser read "17 complete
-  // concerts" as a blanket "complete concerts" claim and marked all 24 dates
-  // complete. The article's own breakdown is "17 complete concerts – four of
-  // them with bonus tracks… / 3 recordings each compiled from two or three
-  // concerts from the same run / 1 bonus cassette of a partial concert".
-  //
-  // Only the 17 are listed here. The seven dates behind those three composite
-  // discs are dropped: their track listings read "– selections:" where all 17
-  // others read "– first set:" / "– second set:" / "– encore:", and taking them
-  // as whole shows yields 4- and 3-track "concerts". They remain gap-fill
-  // material, not sources. The dropped dates are 1969-06-05/07/08 (Fillmore
-  // West), 1971-04-25/27 (Fillmore East) and 1972-09-15/16 (Boston Music Hall);
-  // the partial cassette is 1969-04-05 (Avalon Ballroom).
-  'Enjoying the Ride': {
-    dates: [
-      '1971-02-24',
-      '1973-03-16',
-      '1977-03-20',
-      '1978-05-13',
-      '1979-08-12',
-      '1980-08-23',
-      '1981-03-14',
-      '1981-05-01',
-      '1983-08-20',
-      '1984-07-13',
-      '1985-11-21',
-      '1987-09-16',
-      '1989-07-15',
-      '1989-12-27',
-      '1991-05-12',
-      '1993-03-17',
-      '1994-10-03',
-    ],
-    bonusDates: ['1971-02-20', '1981-07-11', '1982-09-15', '1985-11-22'],
-    completeness: 'complete',
-    note: 'article: "17 complete concerts – four of them with bonus tracks from different concerts at the same venues"; the 3 composite discs (selections from 6/5–6/8/69, 4/25+4/27/71, 9/15+9/16/72) and the 4/5/69 partial cassette are excluded — selections cannot source a show whole',
-  },
-};
-
-/**
- * Completeness the article doesn't state, settled by Jason from knowledge of
- * the catalogue.
- *
- * Completeness-only: dates still come from the parser, because these resolve
- * cleanly — it's the claim about *how much of each night* is present that the
- * prose leaves out. The default stays `unknown` precisely so an unverified
- * guess never passes for a verified one.
- */
-const COMPLETENESS_BY_HAND: Record<string, Release['completeness']> = {
-  // One complete show from each year the band performed, 1966–1995.
-  '30 Trips Around the Sun': 'complete',
-  // Three MSG nights across three CDs — take the timings for the tracks it
-  // does carry and leave the rest of each show as authored.
-  'Road Trips Volume 2 Number 1': 'partial',
-  // A partial release of the 5/22/77 show, per Jason.
-  "Dick's Picks Volume 3": 'partial',
-
-  // ---------------------------------------------------------------------
-  // Dick's Picks, all 33 volumes with unimported dates, verified 2026-08-11
-  // by diffing each release against the fullest circulating soundboard
-  // (`tsx generator/import.ts <id> --gaps`).
-  //
-  // The whole series is pinned here, including volumes the parser had already
-  // called complete, because its `/complete concerts?/i` probe is demonstrably
-  // unreliable on these articles: Volume 2 was marked complete and holds 6 of
-  // the 21 songs played. "A regex found the phrase" and "we checked" needed to
-  // stop being the same value.
-  //
-  // Jason's rule: only a release holding *every* song played counts as
-  // complete. Anything short is partial and gets his review — which matters
-  // for a highlights series that predates any house model for what a
-  // Dick's Picks volume should be.
-  // ---------------------------------------------------------------------
-
-  // Verified complete: release track list matches the soundboard exactly.
-  "Dick's Picks Volume 11": 'complete', // 23/23
-  "Dick's Picks Volume 15": 'complete', // 19/19
-  "Dick's Picks Volume 19": 'complete', // 22/22
-  "Dick's Picks Volume 21": 'complete', // 22/22
-  "Dick's Picks Volume 23": 'complete', // 23/23
-  "Dick's Picks Volume 27": 'complete', // 18/18
-  "Dick's Picks Volume 30": 'complete', // 27/27, plus 3/25 + 3/27 bonus
-  "Dick's Picks Volume 32": 'complete', // 24/24
-  "Dick's Picks Volume 36": 'complete', // 27/27
-  // Its show is already in the corpus, so it never entered the sweep; verified
-  // separately so the series has no unaudited volumes left. 20/20.
-  "Dick's Picks Volume 9": 'complete',
-
-  // Partial: a single night, but the release is short of it. Percentages are
-  // songs-on-release ÷ songs-played.
-  "Dick's Picks Volume 1": 'partial', // 48%
-  "Dick's Picks Volume 2": 'partial', // 29% — was 'complete' from the phrase probe
-  "Dick's Picks Volume 5": 'partial', // 96%, missing Space — was 'complete'
-  "Dick's Picks Volume 6": 'partial', // 90%
-  "Dick's Picks Volume 8": 'partial', // whole concert bar Cold Rain and Snow, per Jason
-  "Dick's Picks Volume 10": 'partial', // 86%
-  "Dick's Picks Volume 13": 'partial', // 95%
-  "Dick's Picks Volume 16": 'partial', // 86%
-  "Dick's Picks Volume 17": 'partial', // 86%
-  "Dick's Picks Volume 24": 'partial', // 57%
-  "Dick's Picks Volume 34": 'partial', // 95%
-
-  // Partial: two nights, each well represented but neither whole.
-  "Dick's Picks Volume 20": 'partial', // 91% / 86%
-  "Dick's Picks Volume 25": 'partial', // 85% / 82%
-  "Dick's Picks Volume 28": 'partial', // 73% / 94%
-  "Dick's Picks Volume 33": 'partial', // 94% / 92%
-  // Both shows are already in the corpus (Jason's 2013 Spring '77 work), so it
-  // never entered the sweep. 5/19 is whole at 19/19, but 5/21 is missing
-  // U.S. Blues — so the release is partial even though one of its nights is not.
-  "Dick's Picks Volume 29": 'partial',
-
-  // Partial, and *too diffuse to attribute*: several nights at one venue with
-  // the tracks jumbled between them, so no night can be reconstructed from the
-  // release at all. Either the article gives no per-night attribution, or it
-  // does and every night still comes back far short — the signature of a
-  // compilation rather than a release missing a few songs. These need manual
-  // work; do not try to source a show from them.
-  "Dick's Picks Volume 4": 'partial', // Fillmore East, 2 nights, no attribution
-  "Dick's Picks Volume 7": 'partial', // 3 nights: 28% / 36% / 15%
-  "Dick's Picks Volume 12": 'partial', // 2 nights: 30% / 52%
-  "Dick's Picks Volume 14": 'partial', // 2 nights: 59% / 48%
-  "Dick's Picks Volume 18": 'partial', // 2 nights, no attribution
-  "Dick's Picks Volume 22": 'partial', // 2 nights, and no tape catalogued either
-  "Dick's Picks Volume 26": 'partial', // 2 nights, no attribution
-  "Dick's Picks Volume 31": 'partial', // 3 nights: 42% / 50% / 17%
-  "Dick's Picks Volume 35": 'partial', // 3 nights, no attribution
-};
 
 export interface Release {
   /** Wikipedia article title — the fetch key, which is NOT always the name. */
@@ -671,8 +429,21 @@ async function build(only: string | null): Promise<Release[]> {
     const byHand = HAND_RESOLVED[entry.name];
     const principal = datesFromDateText(entry.dateText);
     const span = spanFromDateText(entry.dateText);
-    let resolved = byHand
-      ? { bonusDates: [], ...byHand }
+    // A hand reading that pins `dates` replaces the parser outright; one that
+    // doesn't lets the parser run and is overlaid further down, so the dates it
+    // derives stay under drift detection.
+    let resolved: {
+      dates: string[];
+      bonusDates: string[];
+      completeness: Release['completeness'];
+      note: string;
+    } = byHand?.dates
+      ? {
+          bonusDates: [],
+          completeness: 'unknown',
+          ...byHand,
+          dates: byHand.dates,
+        }
       : wikitext
         ? resolveDates(wikitext, principal, span)
         : {
@@ -693,7 +464,7 @@ async function build(only: string | null): Promise<Release[]> {
     // unknown-setlists or partial-shows and is deliberately not sourceable.
     // Letting the fallback fill it back in silently undid five of the Download
     // Series corrections.
-    if (!byHand && resolved.dates.length === 0) {
+    if (!byHand?.dates && resolved.dates.length === 0) {
       const recorded = wikitext ? infoboxRecorded(wikitext) : [];
       const fallback = principal.length ? principal : recorded;
       if (fallback.length) {
@@ -725,7 +496,23 @@ async function build(only: string | null): Promise<Release[]> {
         ...resolved,
         completeness: settled,
         // Drop the parser's "confirm by hand" clause — it just was.
-        note: `${resolved.note.replace(/;? *completeness not stated.*$/, '')}; confirmed ${settled} by hand`,
+        note: `${stripPending(resolved.note)}; confirmed ${settled} by hand`,
+      };
+    }
+
+    // A hand reading overrides everything above it, field by field, so an entry
+    // that pins only `completeness` keeps the parser's dates and its note. This
+    // has to run after COMPLETENESS_BY_HAND: where the two disagree the hand
+    // reading is the later and better-evidenced one — twelve Dick's Picks
+    // volumes were reviewed song-by-song against the tapes and upgraded to
+    // complete while that map still held the earlier blanket verdict.
+    if (byHand) {
+      const completeness = byHand.completeness ?? resolved.completeness;
+      resolved = {
+        ...resolved,
+        ...(byHand.bonusDates ? { bonusDates: byHand.bonusDates } : {}),
+        completeness,
+        note: `${stripPending(byHand.note)}; confirmed ${completeness} by hand`,
       };
     }
 
@@ -746,9 +533,7 @@ async function build(only: string | null): Promise<Release[]> {
       musicbrainzReleaseId: null,
     });
   }
-  releases.sort((a, b) =>
-    (a.dates[0] ?? '9999').localeCompare(b.dates[0] ?? '9999'),
-  );
+  releases.sort(byFirstDate);
   return releases;
 }
 
@@ -762,29 +547,111 @@ function report(releases: Release[]) {
   console.log(`  ${complete.length} declare complete concerts`);
   console.log(`  ${showDates.size} distinct show dates covered`);
   // Ineligible entries have no dates by design; only eligible ones are gaps.
-  const unresolved = releases.filter((r) => r.eligible && r.dates.length === 0);
+  // Nor is a hand-resolved empty: those releases were read and found to source
+  // no show whole, so asking a human to resolve them again is asking twice.
+  const unresolved = releases.filter(
+    (r) => r.eligible && r.dates.length === 0 && !CONFIRMED.test(r.note),
+  );
   if (unresolved.length) {
     console.log(`\n  need a human (${unresolved.length}):`);
     for (const r of unresolved) console.log(`    ${r.name} — ${r.note}`);
   }
 }
 
+/**
+ * Every hand-confirmed reading in the authored index that a draft would not
+ * reproduce — i.e. everything about to be silently thrown away.
+ *
+ * This exists because the file said "keep durable corrections in HAND_RESOLVED"
+ * and twenty-seven entries didn't: they were hand-edited straight into the JSON,
+ * and a `--draft` reverted the lot. Nothing announced it, because the verify
+ * pass only ever compared `dates` in one direction, so twenty-four of the
+ * twenty-seven were invisible to it as well.
+ */
+function unreproduced(fresh: Release[], authored: Release[]) {
+  const byName = new Map(fresh.map((r) => [r.name, r]));
+  const lost: { name: string; field: string; was: unknown; now: unknown }[] =
+    [];
+  for (const mine of authored) {
+    if (!CONFIRMED.test(mine.note)) continue;
+    const now = byName.get(mine.name);
+    // Under `--only` the build is a deliberate subset; absence isn't loss.
+    if (!now) {
+      if (!only)
+        lost.push({
+          name: mine.name,
+          field: 'entry',
+          was: 'present',
+          now: 'gone',
+        });
+      continue;
+    }
+    for (const field of CONFIRMABLE) {
+      const was = JSON.stringify(mine[field]);
+      const next = JSON.stringify(now[field]);
+      if (was !== next)
+        lost.push({
+          name: mine.name,
+          field,
+          was: mine[field],
+          now: now[field],
+        });
+    }
+  }
+  return lost;
+}
+
 const args = process.argv.slice(2);
 const draft = args.includes('--draft');
+const force = args.includes('--force');
 const onlyAt = args.indexOf('--only');
 const only = onlyAt >= 0 ? args[onlyAt + 1] : null;
 
 const releases = await build(only);
 
 if (draft || !existsSync(indexPath)) {
-  writeFileSync(indexPath, `${JSON.stringify({ releases }, null, 2)}\n`);
+  const authored = existsSync(indexPath)
+    ? (JSON.parse(readFileSync(indexPath, 'utf8')) as { releases: Release[] })
+        .releases
+    : [];
+  const lost = unreproduced(releases, authored);
+  if (lost.length && !force) {
+    console.log(
+      `\n✗ refusing to draft: ${lost.length} hand-confirmed value(s) would be lost\n`,
+    );
+    for (const { name, field, was, now } of lost)
+      console.log(
+        `  ${name}\n      ${field}: ${JSON.stringify(was)}\n${' '.repeat(6 + field.length + 2)}→ ${JSON.stringify(now)}`,
+      );
+    console.log(
+      '\nEach of these is a judgement the draft cannot rederive. Move it into\n' +
+        'HAND_RESOLVED in this file so the draft reproduces it, then re-run.\n' +
+        'Pass --force only to discard them deliberately.',
+    );
+    process.exit(1);
+  }
+  // Under `--only` the build covers just the matching releases, so write those
+  // over the authored index rather than replacing it with the subset.
+  const rebuilt = new Set(releases.map((r) => r.name));
+  const merged = only
+    ? [...authored.filter((a) => !rebuilt.has(a.name)), ...releases].sort(
+        byFirstDate,
+      )
+    : releases;
+  writeFileSync(
+    indexPath,
+    `${JSON.stringify({ releases: merged }, null, 2)}\n`,
+  );
   console.log(`\n✓ wrote ${releases.length} releases → data/releases.json`);
   report(releases);
-  const open = releases.filter((r) => r.eligible && !r.dates.length).length;
+  // Same test `report` uses: a hand-resolved empty is an answer, not a gap.
+  const open = releases.filter(
+    (r) => r.eligible && !r.dates.length && !CONFIRMED.test(r.note),
+  ).length;
   console.log(
     open
-      ? `\nDRAFT: resolve the ${open} entries above. Prefer a HAND_RESOLVED entry in\nthis file over editing the JSON, so a re-draft reproduces the reading.`
-      : '\nEvery eligible release resolved. Re-drafting overwrites the JSON, so keep\ndurable corrections in HAND_RESOLVED rather than in the file.',
+      ? `\nDRAFT: resolve the ${open} entries above. Put each reading in HAND_RESOLVED in\nthis file, not in the JSON — a draft refuses to overwrite what it can't rederive.`
+      : '\nEvery eligible release resolved, and this draft reproduced every\nhand-confirmed reading — a draft over an up-to-date index is a no-op.',
   );
 } else {
   const authored = (
@@ -807,6 +674,25 @@ if (draft || !existsSync(indexPath)) {
       drift++;
     }
   }
+
+  // A second, different question: not "has Wikipedia changed?" but "would a
+  // draft still produce this file?". Comparing dates alone answered the first
+  // and missed twenty-four entries whose completeness, bonus dates or note the
+  // build no longer derives — every one of them a silent revert waiting for the
+  // next `--draft`. Reported rather than fatal: an unreproduced value is a
+  // maintenance debt in this file, not a fact about the world being wrong.
+  const stale = unreproduced(releases, authored);
+  if (stale.length) {
+    console.log(
+      `\n! ${stale.length} hand-confirmed value(s) a --draft would not reproduce:`,
+    );
+    for (const { name, field } of stale) console.log(`    ${name} — ${field}`);
+    console.log(
+      '  Move each into HAND_RESOLVED so the draft rederives it. Until then\n' +
+        '  --draft refuses to run without --force.',
+    );
+  }
+
   console.log(
     drift ? `\n✗ ${drift} differences` : '\n✓ index matches Wikipedia',
   );
