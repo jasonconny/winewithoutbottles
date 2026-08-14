@@ -455,7 +455,8 @@
         "Mock Turtle Jam",
         "No MSG Jam",
         "Orange Tango Jam",
-        "The Eleven Jam"
+        "The Eleven Jam",
+        "Wood Green Jam"
       ]
     },
     {
@@ -974,7 +975,7 @@
       "title": "You Win Again"
     }
   ],
-  "foldIntoPrevious": ["And"],
+  "foldIntoPrevious": ["And", "Spam Jam"],
   "notASong": [
     "Bass Solo",
     "Beer Barrel Polka",

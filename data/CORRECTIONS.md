@@ -498,6 +498,71 @@ three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
 colour beside the Prelude and Part 1, under a name two sources already use for
 different spans of music.
 
+### Two named jams, treated two ways — 1974-09-09 and 1974-09-10
+
+_Dick's Picks Volume 7_ again reads more finely than the tape, and again the
+arithmetic confirms it — but the two jams it names got opposite treatment
+(Jason, 2026-08-13).
+
+- **`Wood Green Jam` (5:56) → renamed `Jam`.** The release splits 9/9's
+  `Truckin'` into `Truckin'` 10:31 → `Wood Green Jam` 5:56 → `Wharf Rat`, against
+  Miller's single 16:31 (10:31 + 5:56 = 16:27). The split is kept; the name is
+  not. Wood Green is the London district beside Alexandra Palace, so this is a
+  compiler's pun on the locale rather than a piece of repertoire — the same
+  judgement already applied to `Boston Clam Jam`, `No MSG Jam` and
+  `Mock Turtle Jam`, and it joins them as an alias of `Jam`.
+- **`Spam Jam` (7:13) → folded into `Dark Star`.** The release splits 9/10's
+  `Dark Star` into `Dark Star` 24:08 → `Spam Jam` 7:13 → `Morning Dew`, against
+  Miller's single 31:18. Here the split itself is rejected: the show carries one
+  `Dark Star` of **31:21**, the release's own two parts summed. The powell matrix
+  independently has 31:22, which is the confirmation. `Spam Jam` went into
+  `foldIntoPrevious` so a future import absorbs it without asking.
+
+The difference is what the jam is doing. Wood Green sits between two songs and is
+its own passage; Spam Jam is inside the Dark Star and belongs to it.
+
+The suite on 9/10 needed a third source once more. Miller and the release both
+carry it whole (18:17 / 18:18); the powell matrix splits it
+`Prelude and Part 1` 6:08 + `Let It Grow` 12:10, so only the first boundary was
+placed by ear — Jason's 1:22 + 4:46 = 6:08 exactly, and the suite totals 18:18.
+
+Two of the three skeletons were on the wrong tape and were rebuilt: 9/10 had used
+a matrix while a Miller transfer existed, and 9/11 had used Miller's
+`sbd.miller` (2016-05-21) where his `sbd.miller.repatched` (2016-05-30) is newer.
+
+Note that **9/9 was a one-set show due to a late start**, per a dead.net citation
+in the article, so its 19 stripes are the whole night rather than a partial record.
+
+### Seastones > Jam > Eyes > Jam — 1974-09-11
+
+Miller's repatched transfer carries this passage as two enormous tracks,
+`Seastones` 41:02 and `Eyes Of The World` 31:45. JerryBase reads it as four:
+**Seastones > Jam > Eyes > Jam**, and three other tapes agree, with the GEMS-BCE
+matrix supplying the boundaries:
+
+| tape             | Seastones     | Jam      | Eyes  | Jam      |
+| ---------------- | ------------- | -------- | ----- | -------- |
+| Miller repatched | 41:02         | _lumped_ | 31:45 | _lumped_ |
+| GEMS-BCE matrix  | 11:29 + 10:39 | 19:56    | 20:39 | 11:03    |
+| bertha-ashley    | 26:59         | _lumped_ | 20:27 | 10:30    |
+| hamilton         | 27:02         | _lumped_ | 20:21 | 10:36    |
+
+The tell is `Eyes`: three tapes put it near 20:30 where Miller has 31:45, and
+GEMS's `20:39 + 11:03 = 31:42` reconciles Miller to within three seconds. So
+Miller is running the trailing jam into Eyes.
+
+Jason listened, 2026-08-13, and took **GEMS on both boundaries**: on the first
+"Jerry enters earlier, but the drums enter at the GEMS timing", and on the second
+"by GEMS time they've pretty clearly departed Eyes for the unknown." The whole
+passage is therefore authored from GEMS — `Seastones` 22:08 (GEMS's two Seastones
+tracks summed, since the corpus records one), `Jam` 19:56, `Eyes Of The World`
+20:39, `Jam` 11:03 — while the rest of the show stays Miller. That makes the show
+59 seconds longer than a pure-Miller reading, 73:46 against 72:47.
+
+`bertha-ashley` and `hamilton` are **missing about fifteen minutes** through this
+stretch (57:56 and 57:59 against Miller's 72:47), so they were used only to
+corroborate the Eyes and trailing-Jam boundaries, never for span.
+
 ### A release that splits what the tapes lump — 1974-08-04/05
 
 _Dick's Picks Volume 31_ is the clearest case of the release being the finer

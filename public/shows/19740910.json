@@ -1,0 +1,105 @@
+{
+  "id": "19740910",
+  "date": "1974-09-10",
+  "venue": "Alexandra Palace",
+  "city": "London",
+  "country": "England",
+  "tags": [
+    "Dark Star",
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740910.svg",
+  "songCount": 22,
+  "durationSeconds": 11951,
+  "songs": [
+    {
+      "title": "Around And Around",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 528
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 205
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 440
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 583
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 82
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 730
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 817
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 987
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1881
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 795
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 551
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 341
+    }
+  ]
+}

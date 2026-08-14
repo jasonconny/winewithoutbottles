@@ -1,89 +1,104 @@
 {
   "id": "19740911",
   "date": "1974-09-11",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 7 | archive.org:gd1974-09-11.135802.sbd.miller.flac16",
+  "venue": "Alexandra Palace",
+  "city": "London",
+  "country": "England",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740911.svg",
+  "songCount": 22,
+  "durationSeconds": 12867,
   "songs": [
     {
       "title": "Scarlet Begonias",
-      "duration": ""
+      "durationSeconds": 657
     },
     {
       "title": "Mexicali Blues",
-      "duration": ""
+      "durationSeconds": 219
     },
     {
       "title": "Brown-Eyed Women",
-      "duration": "5:07"
+      "durationSeconds": 307
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:30"
+      "durationSeconds": 210
     },
     {
       "title": "Sugaree",
-      "duration": ""
+      "durationSeconds": 467
     },
     {
       "title": "Jack Straw",
-      "duration": "5:19"
+      "durationSeconds": 319
     },
     {
       "title": "Row Jimmy",
-      "duration": ""
+      "durationSeconds": 543
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": ""
+      "durationSeconds": 385
     },
     {
       "title": "Tennessee Jed",
-      "duration": "7:59"
+      "durationSeconds": 479
     },
     {
       "title": "Big River",
-      "duration": "5:14"
+      "durationSeconds": 314
     },
     {
       "title": "It Must Have Been the Roses",
-      "duration": ""
+      "durationSeconds": 346
     },
     {
       "title": "Playing in the Band",
-      "duration": "23:30"
+      "durationSeconds": 1410
     },
     {
       "title": "Seastones",
-      "duration": ""
+      "durationSeconds": 1328
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 1196
     },
     {
       "title": "Eyes Of The World",
-      "duration": ""
+      "durationSeconds": 1239
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 663
     },
     {
       "title": "Wharf Rat",
-      "duration": ""
+      "durationSeconds": 730
     },
     {
       "title": "Around And Around",
-      "duration": ""
+      "durationSeconds": 365
     },
     {
       "title": "Ship Of Fools",
-      "duration": ""
+      "durationSeconds": 390
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": ""
+      "durationSeconds": 484
     },
     {
       "title": "Sugar Magnolia",
-      "duration": ""
+      "durationSeconds": 486
     },
     {
       "title": "U.S. Blues",
-      "duration": ""
+      "durationSeconds": 330
     }
   ]
 }

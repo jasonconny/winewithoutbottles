@@ -901,6 +901,49 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 14033
   },
   {
+    "id": "19740909",
+    "date": "1974-09-09",
+    "venue": "Alexandra Palace",
+    "city": "London",
+    "country": "England",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740909.svg",
+    "songCount": 19,
+    "durationSeconds": 8385
+  },
+  {
+    "id": "19740910",
+    "date": "1974-09-10",
+    "venue": "Alexandra Palace",
+    "city": "London",
+    "country": "England",
+    "tags": [
+      "Dark Star",
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740910.svg",
+    "songCount": 22,
+    "durationSeconds": 11951
+  },
+  {
+    "id": "19740911",
+    "date": "1974-09-11",
+    "venue": "Alexandra Palace",
+    "city": "London",
+    "country": "England",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740911.svg",
+    "songCount": 22,
+    "durationSeconds": 12867
+  },
+  {
     "id": "19740918",
     "date": "1974-09-18",
     "venue": "Parc des Expositions",
