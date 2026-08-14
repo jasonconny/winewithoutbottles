@@ -1,0 +1,124 @@
+{
+  "id": "19731121",
+  "date": "1973-11-21",
+  "venue": "Denver Coliseum",
+  "city": "Denver",
+  "state": "CO",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19731121.svg",
+  "songCount": 27,
+  "durationSeconds": 11102,
+  "songs": [
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 228
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 95
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 717
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 801
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 757
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 623
+    },
+    {
+      "title": "Nobody's Fault But Mine",
+      "durationSeconds": 180
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 522
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 459
+    }
+  ]
+}

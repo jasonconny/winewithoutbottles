@@ -855,6 +855,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11328
   },
   {
+    "id": "19731121",
+    "date": "1973-11-21",
+    "venue": "Denver Coliseum",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19731121.svg",
+    "songCount": 27,
+    "durationSeconds": 11102
+  },
+  {
     "id": "19731130",
     "date": "1973-11-30",
     "venue": "Boston Music Hall",

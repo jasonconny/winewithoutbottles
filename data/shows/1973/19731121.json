@@ -1,0 +1,121 @@
+{
+  "id": "19731121",
+  "date": "1973-11-21",
+  "venue": "Denver Coliseum",
+  "city": "Denver",
+  "state": "CO",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Volume 4 Number 3",
+  "note": "Road Trips 4:3 lists the suite as a single \"Weather Report Suite\" of 14:53 with Prelude, Part 1 and Let It Grow as untimed sub-bullets. The corpus keeps three stripes, and \"Weather Report Suite\" is deliberately not in data/songs.json because two sources use that name for different spans of music. No tape settles the split — both Miller transfers give one undivided 14:38, and gd73-11-21.sbd.barrick.192.sbeok.shnf does divide it but its length metadata is half-scale throughout, so only its proportions survive and a proportion is a guess. Split by ear by Jason, 2026-08-14: 1:35 / 4:22 / 8:56, summing exactly to the release's 14:53. Every other track is the release's own timing.",
+  "songs": [
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:29"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:41"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:13"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:26"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:51"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "5:31"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:48"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "5:37"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:35"
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "duration": "11:08"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:22"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:53"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:35"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:22"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "8:56"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "7:59"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "11:57"
+    },
+    {
+      "title": "El Paso",
+      "duration": "3:57"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "4:30"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:07"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "13:21"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "12:37"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "10:23"
+    },
+    {
+      "title": "Nobody's Fault But Mine",
+      "duration": "3:00"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:42"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:23"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:39"
+    }
+  ]
+}
