@@ -1,0 +1,108 @@
+{
+  "id": "19800903",
+  "date": "1980-09-03",
+  "venue": "Springfield Civic Center",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Download Series"
+  ],
+  "svg": "/shows/19800903.svg",
+  "songCount": 23,
+  "durationSeconds": 9542,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 146
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 656
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 675
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 168
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 698
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 135
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 597
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 322
+    }
+  ]
+}

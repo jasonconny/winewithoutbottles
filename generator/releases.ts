@@ -124,6 +124,71 @@ const HAND_RESOLVED: Record<
     note: string;
   }
 > = {
+  // The Download Series, read volume by volume. The discography states a
+  // principal date for each and nothing else, so every one of these came back
+  // `unknown` — and `unknown` is not a reading, it's the absence of one. Each
+  // note quotes the article's own words about what the volume holds.
+  'Grateful Dead Download Series Volume 1': {
+    dates: ['1977-04-30'],
+    bonusDates: ['1977-04-29'],
+    completeness: 'complete',
+    note: 'article: "the complete show from April 30, 1977"; the third disc is filled out with bonus material from 4/29 at the same venue',
+  },
+  'Grateful Dead Download Series Volume 2': {
+    dates: [],
+    completeness: 'partial',
+    note: 'article: "a previously uncirculated concert", never called complete; JerryBase lists songs the nine released tracks do not carry, so 1/18/70 is held in data/unknown-setlists/',
+  },
+  'Grateful Dead Download Series Volume 3': {
+    dates: ['1971-10-26'],
+    completeness: 'complete',
+    note: "article: \"an almost complete concert, with the exception of 'Beat It On Down the Line' which was played after 'Loser'\"; that one song is timed from the soundboard",
+  },
+  'Grateful Dead Download Series Volume 4': {
+    dates: ['1976-06-18'],
+    completeness: 'complete',
+    note: 'article: "virtually all of the June 18, 1976 show"; only "Tennessee Jed" was omitted, for tape damage, and it is timed from Miller\'s outtakes transfer. Disc three\'s Philadelphia and Chicago highlights are not this show',
+  },
+  'Grateful Dead Download Series Volume 6': {
+    dates: [],
+    completeness: 'partial',
+    note: 'article: "the first set closer, \'Turn On Your Lovelight\', and the entire second set" — the rest of the first set is absent, JerryBase lists the date as a partial setlist itself and no tape is catalogued, so 3/17/68 is held in data/unknown-setlists/',
+  },
+  'Grateful Dead Download Series Volume 7': {
+    dates: ['1980-09-03'],
+    bonusDates: ['1980-09-04'],
+    completeness: 'complete',
+    note: 'article: "The first two discs feature the September 3 show, while the third disc presents the second set from the September 4 performance"; 9/4 is one set, itself missing "Samson and Delilah" and "Ramble On Rose", so it stays out of dates — 19800904 is completed from Miller\'s soundboard instead',
+  },
+  'Grateful Dead Download Series Volume 8': {
+    dates: [],
+    completeness: 'partial',
+    note: 'article: "most of the concert"; five songs are omitted — Jack Straw, Tennessee Jed, El Paso and Brown-Eyed Women from the first set, Me and My Uncle from the second — and the only tape catalogued for the date is a two-track fragment, so nothing can time them and 12/10/73 is held in data/unknown-setlists/',
+  },
+  'Grateful Dead Download Series Volume 10': {
+    dates: [],
+    bonusDates: ['1972-07-22'],
+    completeness: 'partial',
+    note: 'article: "nearly the entire concert"; the opener "Promised Land" is missing and no circulating tape carries it either — the soundboard opens with Sugaree — so 7/21/72 is held in data/unknown-setlists/',
+  },
+  'Grateful Dead Download Series Volume 11': {
+    dates: ['1991-06-20'],
+    bonusDates: ['1991-06-19'],
+    completeness: 'complete',
+    note: 'article: "the complete show performed by the band on June 20, 1991"; discs one and three are supplemented by 6/19 tracks at the same venue',
+  },
+  'Grateful Dead Download Series Volume 12': {
+    dates: ['1969-04-17'],
+    bonusDates: ['1969-01-23'],
+    completeness: 'complete',
+    note: 'article: "a complete two-disc show performed by the Grateful Dead on April 17, 1969 at Washington University in St. Louis"',
+  },
+  'Grateful Dead Download Series: Family Dog at the Great Highway': {
+    dates: [],
+    bonusDates: ['1970-10-05', '1970-12-31'],
+    completeness: 'partial',
+    note: 'the release, the Kaplan soundboard and JerryBase disagree about 2/4/70 in every direction, so the date is held in data/unknown-setlists/; the three bonus tracks are 10/5/70 and 12/31/70 at Winterland',
+  },
   'Winterland 1973: The Complete Recordings': {
     dates: ['1973-11-09', '1973-11-10', '1973-11-11'],
     bonusDates: ['1973-12-04'],
@@ -622,7 +687,13 @@ async function build(only: string | null): Promise<Release[]> {
     // Most releases are a single concert, and their articles carry no per-show
     // heading precisely because there is only one show to delimit. For those,
     // the discography's own date text settles it, with the infobox as backup.
-    if (resolved.dates.length === 0) {
+    //
+    // Never for a hand-resolved release, though: there, empty `dates` is a
+    // reading rather than a parser failure — the release's one date is held in
+    // unknown-setlists or partial-shows and is deliberately not sourceable.
+    // Letting the fallback fill it back in silently undid five of the Download
+    // Series corrections.
+    if (!byHand && resolved.dates.length === 0) {
       const recorded = wikitext ? infoboxRecorded(wikitext) : [];
       const fallback = principal.length ? principal : recorded;
       if (fallback.length) {

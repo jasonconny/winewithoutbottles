@@ -7,7 +7,7 @@
   "tour": "June 1976 Comeback",
   "country": "USA",
   "tags": ["Download Series"],
-  "source": "Grateful Dead Download Series Volume 4",
+  "source": "Grateful Dead Download Series Volume 4 | archive.org:gd1976-06-18.ds-outtakes.sbd.miller.92266.sbeok.flac16",
   "songs": [
     {
       "title": "The Music Never Stopped",
@@ -56,6 +56,10 @@
     {
       "title": "Samson And Delilah",
       "duration": "6:44"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "11:07"
     },
     {
       "title": "St. Stephen",

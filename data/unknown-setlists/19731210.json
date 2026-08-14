@@ -1,0 +1,100 @@
+{
+  "id": "19731210",
+  "date": "1973-12-10",
+  "venue": "Charlotte Coliseum",
+  "city": "Charlotte",
+  "state": "NC",
+  "country": "USA",
+  "source": "Grateful Dead Download Series Volume 8 | archive.org:gd73-12-10pt.sbd.elliot.11800.sbeok.shnf",
+  "note": "Setlist known, timings not. Download Series Volume 8 holds \"most of the concert\" and the article names the five songs it omits — Jack Straw, Tennessee Jed, El Paso and Brown-Eyed Women from the first set, Me and My Uncle from the second. So unusually for this directory the songs are not in doubt; what cannot be recovered is how long they were. The only recording catalogued on archive.org for the date, gd73-12-10pt.sbd.elliot.11800.sbeok.shnf, is a two-track fragment: a 1:51 piece of Casey Jones and One More Saturday Night 4:58. Nothing else circulates, so five stripes have no width and no source can give them one.\n\nWhat is here is what can be timed: the release's 21 tracks in its own order, plus One More Saturday Night from the fragment, which the release lacks and which closes the night after Casey Jones. The five untimed songs are deliberately absent rather than blank — a blank belongs in data/partial-shows/, where it is a work list, and here there is no work anyone can do. Their positions within their sets are unknown too: the article gives the set, not the running order.\n\nJason's call, 2026-08-14. If a fuller tape ever surfaces this moves to data/shows/1973/.",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "7:01"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:12"
+    },
+    {
+      "title": "Deal",
+      "duration": "4:50"
+    },
+    {
+      "title": "Big River",
+      "duration": "4:54"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "4:03"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "20:52"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:40"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:03"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:49"
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "duration": "5:59"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "4:26"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:00"
+    },
+    {
+      "title": "Nobody's Fault But Mine",
+      "duration": "5:07"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "13:20"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:23"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:16"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "8:41"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "6:16"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:46"
+    },
+    {
+      "title": "Sunshine Daydream",
+      "duration": "3:11"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "7:26"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:58"
+    }
+  ]
+}

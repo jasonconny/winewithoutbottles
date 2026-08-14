@@ -1,0 +1,100 @@
+{
+  "id": "19890402",
+  "date": "1989-04-02",
+  "venue": "Civic Arena",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Download Series"
+  ],
+  "svg": "/shows/19890402.svg",
+  "songCount": 21,
+  "durationSeconds": 8659,
+  "songs": [
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 566
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 235
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 520
+    },
+    {
+      "title": "We Can Run",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 459
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 484
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 725
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 653
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 538
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 267
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 159
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 230
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 344
+    }
+  ]
+}

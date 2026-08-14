@@ -843,3 +843,253 @@ convention. They nearly agree anyway — `Dark Star`, `Sugar Magnolia` and
 reprise 3:19 vs 3:31. Net effect of preferring the release across those six: the
 show is 12 seconds shorter than a pure-board reading. Both sources are named in
 `source`, pipe-separated.
+
+### Two parser blind spots the Download Series exposed
+
+Neither was a source error. `generator/import.ts` recognised three heading
+shapes — `==Section==`, `'''Bold'''`, `:''Italic:''` — and the Download Series
+articles use two more.
+
+**A definition-list term.** _Download Series: Family Dog at the Great Highway_
+heads its bonus block `;Bonus tracks`, not `:''Bonus tracks:''`. Unrecognised,
+it was not a heading at all, so the three tracks below it — 10/5/70 and 12/31/70
+at Winterland — joined the February 4 show, which came back with twelve tracks
+instead of nine. The `;` form now ranks with `'''`, which is what it is.
+
+**A date on its own line.** _Download Series Volume 7_ writes `===Disc one===`
+and then, unadorned on the next line, `9/3/80 Springfield Civic Center,
+Springfield, MA`. No heading names a date, so with two dates on the release
+nothing became `main` and all 34 tracks orphaned — the release was unreadable.
+A bare line now sets the date, but only when the date **opens** the line, the
+line carries no list markup, and it resolves to a date the index already claims.
+That narrowness is the point: scanning free text for dates is what drags in
+neighbouring releases, which is why the release index deliberately doesn't do it.
+
+Both changes are inert on the existing corpus — `--audit` is byte-identical
+before and after.
+
+### `unknown` completeness is the absence of a reading — the Download Series
+
+Nine of the thirteen volumes came back `completeness: 'unknown'`, because the
+discography names a principal date for each and the articles rarely say the
+words "complete concert". Read one by one, the articles say plenty:
+
+| volume     | date       | what the article actually says                           | verdict         |
+| ---------- | ---------- | -------------------------------------------------------- | --------------- |
+| 6          | 1968-03-17 | first-set closer plus "the entire second set"            | unknown setlist |
+| 12         | 1969-04-17 | "a complete two-disc show"                               | complete        |
+| 2          | 1970-01-18 | "a previously uncirculated concert"                      | unknown setlist |
+| Family Dog | 1970-02-04 | recorded 2/4/70, plus 10/5 and 12/31 bonus               | unknown setlist |
+| 3          | 1971-10-26 | "almost complete … with the exception of" one song       | complete        |
+| 10         | 1972-07-21 | "nearly the entire concert"; opener missing              | unknown setlist |
+| 8          | 1973-12-10 | "most of the concert"; five songs named as omitted       | unknown setlist |
+| 4          | 1976-06-18 | "virtually all of" it; Tennessee Jed lost to tape damage | complete        |
+| 7          | 1980-09-03 | discs one and two are the whole 9/3 show                 | complete        |
+| 7          | 1980-09-04 | disc three is "the second set from" 9/4                  | shipped         |
+| 1          | 1977-04-30 | "the complete show", plus 4/29 bonus                     | complete        |
+| 11         | 1991-06-20 | "the complete show", plus 6/19 bonus                     | complete        |
+
+Volume 4's reading is the one that mattered most: **19760618 was already on the
+site**, imported while the release read `unknown`, and it was missing Tennessee
+Jed the whole time. Charlie Miller's `ds-outtakes` transfer carries the song the
+release dropped, at 11:07, and DeadBase and JerryBase both place it after
+`Samson and Delilah` — checked in both by Jason, 2026-08-14, and they agree. The
+show is now 21 songs.
+
+That agreement is what makes the placement safe to author. A recovered song needs
+two answers, and the outtakes transfer only gives one: it is a bonus reel, so it
+carries the duration and says nothing about where in the night the song sat.
+
+Volume 3 is the same shape a disc smaller: the release omits `Beat It On Down
+the Line`, the article says it "was played after 'Loser'", and the soundboard
+`gd71-10-26.sbd.cotsman.9761.sbeok.shnf` times it at 3:12. DeadBase and JerryBase
+both put it in that slot, confirmed by Jason 2026-08-14. Both shows name two
+sources in `source`, pipe-separated.
+
+That threshold is Jason's call, 2026-08-14, and follows the _Winterland 1973_
+precedent already in `HAND_RESOLVED`: a release missing one song whose timing
+can be recovered still sources a whole show. A release missing songs nothing can
+time does not — which is why Volumes 8 and 10 are held as unknown setlists
+rather than shipped.
+
+**One missing song is not one verdict.** Three volumes are short by a single
+song and they land in two different places, on the same rule applied to the
+evidence rather than the count:
+
+| volume | date       | missing song             | where the timing came from     | outcome         |
+| ------ | ---------- | ------------------------ | ------------------------------ | --------------- |
+| 3      | 1971-10-26 | Beat It On Down the Line | soundboard, 3:12               | shipped         |
+| 4      | 1976-06-18 | Tennessee Jed            | Miller's outtakes, 11:07       | shipped         |
+| 10     | 1972-07-21 | Promised Land            | nowhere — the tape opens later | unknown setlist |
+
+### Two nights the sources will not agree on — 1970-01-18 and 1970-02-04
+
+Both are in `data/unknown-setlists/`, and for the same reason in mirror image.
+
+**1/18/70, Springer's Ballroom.** _Download Series Volume 2_ presents nine songs
+on one 79:47 disc and never calls it complete. Nothing circulates on archive.org
+for the date at all, so the release is the only witness — except that JerryBase
+lists songs it does not carry, and the band played a two-set show at the same
+venue two nights earlier, which is the shape a full night there took.
+
+**2/4/70, Family Dog at the Great Highway.** Here there are three witnesses and
+no two agree. The release has nine songs for the date. Seth Kaplan's soundboard
+`gd70-02-04.sbd.kaplan.14188.sbeok.shnf` has eight, including a `Jam` the release
+omits and missing five the release has. JerryBase opens the night with `Cold Rain
+and Snow`, which appears on no tape. Three readings of one night, disagreeing
+about contents and order both.
+
+### A Prelude nobody played — 1972-07-21
+
+Both _Download Series Volume 10_ and the soundboard
+`gd72-07-21.sbd.cotsman.9246.sbeok.shnf` carry a `Weather Report Suite Prelude`
+after `Casey Jones`, and the article itself flags it as "truncated and contains
+errors". JerryBase says what actually happened: it is
+
+> More of a tease, Bob bails on it and says with a chuckle "Well anyway, what
+> we're gonna do next is, uh history" and they go straight into Me And My Uncle
+
+1:04 on the tape, and the show does indeed run straight into `Me and My Uncle`.
+Jason's call, 2026-08-14: **no stripe**. Two sources naming a track is not two
+sources saying it was performed — both are indexing a tape, and the tape has a
+minute of Bob changing his mind on it.
+
+Removed from this show only, **not** added to `notASong`. That list is global by
+title and the corpus carries real performances of the Prelude at 1973-11-30,
+1974-10-17 and 1974-10-18; blacklisting the name would silently delete those.
+This is the mirror of `Funiculì, Funiculà`, which is in `notASong` precisely
+because the Dead never played it as anything but a tease.
+
+7/21/72 sits in `data/unknown-setlists/` for a separate reason — see the
+one-missing-song table above — and its `Jam` between `Drums` and `The Other One`
+takes the tape's 3:45, the one song the release lacks that the tape supplies.
+
+### A known setlist that still can't be drawn — 1973-12-10
+
+This one is the clearest statement of what `data/unknown-setlists/` is actually
+for, because the setlist is **not** what's unknown. _Download Series Volume 8_
+holds "most of the concert" and the article names exactly what it drops: `Jack
+Straw`, `Tennessee Jed`, `El Paso` and `Brown-Eyed Women` from the first set,
+`Me and My Uncle` from the second. Twenty-six songs, all named.
+
+What can't be recovered is how long five of them were, and a stripe **is** a
+duration — so five songs that are certainly known to have been played cannot be
+drawn at all. The only recording catalogued for the date,
+`gd73-12-10pt.sbd.elliot.11800.sbeok.shnf`, is a two-track fragment: 1:51 of
+`Casey Jones` and `One More Saturday Night` 4:58. Nothing else circulates.
+
+The route here went through `data/partial-shows/` first and that was wrong twice
+over. `--partial` builds its skeleton from the fullest circulating soundboard, so
+on a two-track tape it produced a two-song skeleton that silently dropped twenty
+songs the release carries — worse than no skeleton. Rebuilding it by hand, with
+the five omissions blank, fixed the file but not the classification: a blank in
+`data/partial-shows/` is a work list, and here there is no work anyone can do.
+
+So the file holds what can be timed — the release's 21 tracks in its own order,
+plus `One More Saturday Night` from the fragment, which the release lacks and
+which closes the night after `Casey Jones`. The five untimed songs are
+**deliberately absent rather than blank**, and named in the `note` instead. Their
+positions were never known either: the article gives the set each belongs to, not
+the running order. Jason's call, 2026-08-14.
+
+3/17/68 failed the other way, and ended up in the same place. No tape is
+catalogued for the date at all, so `--partial` had nothing to work from, and the
+release alone cannot say what it lacks. It was staged by hand at first, on the
+assumption that a setlist source could name the missing first set later — but
+JerryBase lists 3/17/68 as a **partial setlist** itself, and two archive.org
+searches return nothing for the date. So the missing songs are unnamed at the
+source as well as untimed, and there is nothing for a staged file to be waiting
+for. Jason's call, 2026-08-14: it moves to `data/unknown-setlists/`, which is
+exactly the distinction that directory draws — a partial waits for a timing
+somebody can still supply, these wait for nothing.
+
+### A footnote the heading walk can't reach — 1969-04-17
+
+_Download Series Volume 12_ ends its listing with a caption rather than a
+heading:
+
+    ;Disc two
+    #"That's It for the Other One" - 22:44
+    # "Caution (Do Not Stop On Tracks)" - 1:53
+    # "The Eleven" - 13:57
+    # "Dupree's Diamond Blues" - 5:06
+    :''3 and 4 are bonus tracks from Avalon Ballroom, January 23, 1969 rehearsals.''
+
+Two things put that out of reach of the heading walk, and either alone would be
+enough. It numbers tracks **within disc two**, so "3 and 4" means the eleventh
+and twelfth tracks of the release. And it sits **after** the tracks it describes,
+so by the time the walk reads it — and it does read it, resolving January 23,
+1969 to a bonus date the index already knows — there is nothing left to
+reassign. The show came back with twelve tracks and 2:00:43, two of them a
+rehearsal three months earlier at another venue.
+
+Recorded as a `SHOW_OVERRIDES` drop rather than parsed. A caption that
+back-references list positions is a shape the walk isn't built for, and teaching
+it to read numbers pointing backwards into a list it has already consumed would
+be a lot of machinery for one article — but a silent mis-attribution is exactly
+what the override table exists to pin, so a re-import can't quietly restore them.
+
+Two things about the remaining ten that look like transcription errors and are
+not. `St. Stephen` 2:34 > `I Know It's a Sin` 3:45 > `St. Stephen` 3:01 is how
+the night actually went — Jason listened to the release to check, 2026-08-14 —
+so the Jimmy Reed blues sits inside St. Stephen rather than either side of it,
+and the two St. Stephen stripes are one song interrupted, not a reprise.
+
+And the show **ends mid-`Caution` at 1:53**, which is not a
+truncated tape: the plug was pulled, and the banter on the release has the band's
+road manager arrested. Jason's call, 2026-08-14, from the _Deadcast_. So the last
+stripe being a stub is the record of how the night ended, not a gap in it.
+
+### Timings mixed from two sources — 1980-09-04
+
+The counterexample to all three of those, and the reason the distinction is worth
+drawing. _Download Series Volume 7_ gives 9/4/80 a single disc — the second set,
+ten songs of the night's twenty-two — which is the same shape of gap that put
+12/10/73 and 7/21/72 out of reach. Here somebody could supply the timings, and
+did: Charlie Miller's phase-repaired soundboard
+`gd1980-09-04.175071.sbd.miller.phase-repair.flac1644` carries the whole show,
+and the staged skeleton was built from it, so the twelve blanks were filled in
+one pass and the file promoted to `data/shows/1980/`.
+
+Where both sources carry a song the **release wins**, which is the standing
+convention, so the second set keeps Volume 7's timings and the first set takes
+Miller's. Both are named in `source`, pipe-separated.
+
+1980-09-04 stays in Volume 7's `bonusDates` rather than moving to `dates`: the
+release still holds under half the night, and `dates` records what a release can
+source whole. Same reading as _Dick's Picks Volume 28_, whose 1973-02-26
+selections stay out of `dates` while the show itself is in the corpus.
+
+One disagreement left standing. The article heads disc three "Second set:
+(missing 'Samson and Delilah' and 'Ramble On Rose')", placing both in the second
+set; Miller's tape has them as tracks 11 and 12, closing the first. The corpus
+stores no set boundaries, so this only affects running order, and there the tape
+is the better witness — it is the recording of the night, while the article is
+describing a disc.
+
+### Additions to the canon from the Download Series
+
+- **`Ballad of a Thin Man`** — Dylan, 7:04, first set of 3/27/88.
+- **`So What`** — Miles Davis, 0:57 on 3/27/88, segued between two `Space`s.
+  Short enough to read as a tease, which would have put it in `notASong` beside
+  `Funiculì, Funiculà`; Jason's call, 2026-08-14, is that it gets a stripe.
+- **`Supplication Jam`** — 4:36, opening the second set of 9/4/80. The
+  instrumental without the song, so it is not `Supplication` and declares
+  `sharesPrefixWith` against it.
+- **`Walking Blues`** aliased onto **`Walkin' Blues`**, which the canon already
+  had. Wikipedia's display text differs from the DeadBase spelling by one letter
+  that `cleanTitle` keeps, so unaliased it would have been a second colour.
+- **`Bobby McGee`** aliased onto **`Me and Bobby McGee`** — a taper's shortening
+  on the 7/21/72 soundboard, which cost that show's skeleton a song until it was
+  mapped.
+- **`Drums with Brent`** aliased onto **`Drums`**, and folded into the `Drums`
+  that follows it. Volume 7 runs the 9/3/80 passage as three tracks — `Jam` 2:48,
+  `Drums with Brent` 2:47, `Rhythm Devils` 8:51 — and the last of those is
+  already an alias of `Drums`, so the middle one is the front of the drum
+  segment, not a second jam. 9/3/80 therefore carries `Jam` 2:48 then a single
+  `Drums` of **11:38**, and the show is 23 tracks against the release's 24.
+
+  The fold is a **hand edit**, not a `foldIntoPrevious` entry, because that list
+  folds a track into the one _before_ it and here the drums come _after_. Expect
+  9/3/80 to show a permanent `24→23` in `--audit`, the same way the other
+  authored departures do.

@@ -125,6 +125,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9923
   },
   {
+    "id": "19690417",
+    "date": "1969-04-17",
+    "venue": "Washington University",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Download Series"
+    ],
+    "svg": "/shows/19690417.svg",
+    "songCount": 10,
+    "durationSeconds": 6100
+  },
+  {
     "id": "19690426",
     "date": "1969-04-26",
     "venue": "Electric Theater",
@@ -313,6 +328,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19710807.svg",
     "songCount": 22,
     "durationSeconds": 7727
+  },
+  {
+    "id": "19711026",
+    "date": "1971-10-26",
+    "venue": "Palestra",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19711026.svg",
+    "songCount": 22,
+    "durationSeconds": 8634
   },
   {
     "id": "19711031",
@@ -1185,8 +1214,8 @@ export const shows: ShowSummary[] = [
       "Download Series"
     ],
     "svg": "/shows/19760618.svg",
-    "songCount": 20,
-    "durationSeconds": 8414
+    "songCount": 21,
+    "durationSeconds": 9081
   },
   {
     "id": "19760619",
@@ -1984,6 +2013,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8485
   },
   {
+    "id": "19800903",
+    "date": "1980-09-03",
+    "venue": "Springfield Civic Center",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19800903.svg",
+    "songCount": 23,
+    "durationSeconds": 9542
+  },
+  {
+    "id": "19800904",
+    "date": "1980-09-04",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19800904.svg",
+    "songCount": 22,
+    "durationSeconds": 9465
+  },
+  {
     "id": "19801128",
     "date": "1980-11-28",
     "venue": "Lakeland Civic Center",
@@ -2354,6 +2411,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8082
   },
   {
+    "id": "19880327",
+    "date": "1988-03-27",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19880327.svg",
+    "songCount": 22,
+    "durationSeconds": 8525
+  },
+  {
     "id": "19880703",
     "date": "1988-07-03",
     "venue": "Oxford Plains Speedway",
@@ -2465,6 +2536,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19880924.svg",
     "songCount": 21,
     "durationSeconds": 9599
+  },
+  {
+    "id": "19890402",
+    "date": "1989-04-02",
+    "venue": "Civic Arena",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19890402.svg",
+    "songCount": 21,
+    "durationSeconds": 8659
+  },
+  {
+    "id": "19890403",
+    "date": "1989-04-03",
+    "venue": "Civic Arena",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19890403.svg",
+    "songCount": 21,
+    "durationSeconds": 8684
   },
   {
     "id": "19890715",
@@ -3150,6 +3249,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910512.svg",
     "songCount": 19,
     "durationSeconds": 9981
+  },
+  {
+    "id": "19910620",
+    "date": "1991-06-20",
+    "venue": "Pine Knob Music Theatre",
+    "city": "Clarkston",
+    "state": "MI",
+    "country": "USA",
+    "tags": [
+      "Download Series"
+    ],
+    "svg": "/shows/19910620.svg",
+    "songCount": 19,
+    "durationSeconds": 9887
   },
   {
     "id": "19910908",

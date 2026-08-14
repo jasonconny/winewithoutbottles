@@ -1,0 +1,100 @@
+{
+  "id": "19890403",
+  "date": "1989-04-03",
+  "venue": "Civic Arena",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Download Series"
+  ],
+  "svg": "/shows/19890403.svg",
+  "songCount": 21,
+  "durationSeconds": 8684,
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 343
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Built to Last",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 646
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 706
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 311
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 534
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "19910620",
+  "date": "1991-06-20",
+  "venue": "Pine Knob Music Theatre",
+  "city": "Clarkston",
+  "state": "MI",
+  "country": "USA",
+  "tags": [
+    "Download Series"
+  ],
+  "svg": "/shows/19910620.svg",
+  "songCount": 19,
+  "durationSeconds": 9887,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Maggie's Farm",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 861
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 591
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 636
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1230
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 577
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 310
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 640
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 308
+    }
+  ]
+}
