@@ -1,0 +1,113 @@
+{
+  "id": "19740618",
+  "date": "1974-06-18",
+  "venue": "Freedom Hall",
+  "city": "Louisville",
+  "state": "KY",
+  "country": "USA",
+  "tags": [
+    "Road Trips",
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740618.svg",
+  "songCount": 24,
+  "durationSeconds": 10460,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 313
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 867
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 334
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 82
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 568
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 946
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 198
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 787
+    }
+  ]
+}

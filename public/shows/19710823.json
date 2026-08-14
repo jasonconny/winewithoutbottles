@@ -1,0 +1,140 @@
+{
+  "id": "19710823",
+  "date": "1971-08-23",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19710823.svg",
+  "songCount": 31,
+  "durationSeconds": 11355,
+  "songs": [
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 431
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 287
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 309
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 514
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 122
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 266
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 780
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 184
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 505
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 134
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 306
+    }
+  ]
+}

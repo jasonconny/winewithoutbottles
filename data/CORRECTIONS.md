@@ -1222,3 +1222,28 @@ series, pinned by `tests/data-validity.test.ts`, so overriding the tag alone lef
 one tag spanning two series and failed the rule that a tag page has a single
 owner. `HAND_SERIES` in `generator/hand-readings.ts`, so a re-draft reproduces
 it. Jason's call, 2026-08-14.
+
+### A night with one set on tape — 1977-10-07
+
+Road Trips 1:2 draws four tracks from this show, and the skeleton looked nearly
+fillable at six blanks. It isn't: **every recording catalogued for the date is
+set two only.** All four archive.org identifiers say so — `sbd-set2` twice,
+`pset2`, and the fullest transfer, `gd1977-10-07.170389.sbd.miller.flac1644`,
+which carries ten tracks and no first set. archive.org's own listing shows set
+two opened with `Samson & Delilah` and `Sunrise`, which no tape has either.
+
+So it moved to `data/unknown-setlists/` on the same reading as 1973-12-10: the
+missing songs are not waiting for a timing somebody can supply, they are waiting
+for a tape that does not circulate. The ten surviving songs are all timed —
+four from the release, six from the Miller transfer — because what is here is
+known; it is the rest of the night that cannot be claimed.
+
+**The venue was also wrong, and the shape of the release is why.** This is
+University Arena — The Pit — at the University of New Mexico, Albuquerque. Road
+Trips 1:2 attributes every track individually through a `Recording venue and
+date` column, so 10/11/77, 10/14/77 and 10/16/77 take their venues from the
+release itself. 10/7/77's tracks sit on the bonus disc, outside that column, and
+the venue had been guessed from the lede's list of states — "New Mexico,
+Oklahoma, Texas, and Louisiana" — landing on Texas. The tape's own metadata
+settled it. Worth remembering that a release naming venues per track names them
+only for the tracks in that table.

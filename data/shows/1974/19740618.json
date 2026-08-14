@@ -1,0 +1,109 @@
+{
+  "id": "19740618",
+  "date": "1974-06-18",
+  "venue": "Freedom Hall",
+  "city": "Louisville",
+  "state": "KY",
+  "country": "USA",
+  "tags": ["Road Trips", "Wall of Sound"],
+  "source": "Road Trips Volume 2 Number 3 | archive.org:gd1974-06-18.sbd.miller.89690.sbeok.flac16",
+  "note": "Road Trips 2:3 lists a single \"Weather Report Suite\" of 16:19 between China Doll and the Jam. The corpus keeps the suite as three stripes and \"Weather Report Suite\" is deliberately absent from data/songs.json, so an unaided import dropped the song entirely. No tape settles the split either: gd1974-06-18.sbd.miller.89690.sbeok.flac16 gives one 26:08 track bundling the suite *and* the Jam after it, against the release's 16:19 + 9:28. That bundling had also mis-paired the file — the release's 9:28 Jam matched the tape's separate 3:21 It's A Sin Jam, swapping The Other One and the Jam and losing the second jam — so the running order was rebuilt to the one the release and the tape agree on: Row Jimmy > the suite > Jam > The Other One > a second Jam > Stella Blue. Split by ear by Jason, 2026-08-14: 1:22 / 4:40 / 10:17, summing exactly to 16:19.",
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "5:13"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:22"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "7:07"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:51"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:45"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:10"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:28"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "14:27"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:02"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "5:29"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "5:34"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:54"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "8:10"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:22"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:40"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "10:17"
+    },
+    {
+      "title": "Jam",
+      "duration": "9:28"
+    },
+    {
+      "title": "The Other One",
+      "duration": "15:46"
+    },
+    {
+      "title": "Jam",
+      "duration": "3:18"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:27"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:29"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:24"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:30"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "13:07"
+    }
+  ]
+}

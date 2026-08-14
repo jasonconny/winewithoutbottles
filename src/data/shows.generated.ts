@@ -318,6 +318,37 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11081
   },
   {
+    "id": "1970051501",
+    "date": "1970-05-15",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/1970051501.svg",
+    "songCount": 16,
+    "durationSeconds": 6407
+  },
+  {
+    "id": "1970051502",
+    "date": "1970-05-15",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Road Trips"
+    ],
+    "svg": "/shows/1970051502.svg",
+    "songCount": 24,
+    "durationSeconds": 10083
+  },
+  {
     "id": "19710224",
     "date": "1971-02-24",
     "venue": "Capitol Theatre",
@@ -346,6 +377,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8646
   },
   {
+    "id": "19710731",
+    "date": "1971-07-31",
+    "venue": "Yale Bowl",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Road Trips"
+    ],
+    "svg": "/shows/19710731.svg",
+    "songCount": 27,
+    "durationSeconds": 11368
+  },
+  {
     "id": "19710806",
     "date": "1971-08-06",
     "venue": "Hollywood Palladium",
@@ -353,7 +399,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tags": [
-      "Dick's Picks"
+      "Dick's Picks",
+      "Road Trips"
     ],
     "svg": "/shows/19710806.svg",
     "songCount": 20,
@@ -372,6 +419,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19710807.svg",
     "songCount": 22,
     "durationSeconds": 7727
+  },
+  {
+    "id": "19710823",
+    "date": "1971-08-23",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19710823.svg",
+    "songCount": 31,
+    "durationSeconds": 11355
   },
   {
     "id": "19711026",
@@ -926,6 +987,36 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19740323.svg",
     "songCount": 32,
     "durationSeconds": 12419
+  },
+  {
+    "id": "19740616",
+    "date": "1974-06-16",
+    "venue": "Iowa State Fairgrounds",
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "tags": [
+      "Road Trips",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740616.svg",
+    "songCount": 28,
+    "durationSeconds": 13874
+  },
+  {
+    "id": "19740618",
+    "date": "1974-06-18",
+    "venue": "Freedom Hall",
+    "city": "Louisville",
+    "state": "KY",
+    "country": "USA",
+    "tags": [
+      "Road Trips",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740618.svg",
+    "songCount": 24,
+    "durationSeconds": 10460
   },
   {
     "id": "19740626",
@@ -1863,6 +1954,48 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10562
   },
   {
+    "id": "19771011",
+    "date": "1977-10-11",
+    "venue": "Lloyd Noble Center",
+    "city": "Norman",
+    "state": "OK",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19771011.svg",
+    "songCount": 17,
+    "durationSeconds": 9092
+  },
+  {
+    "id": "19771014",
+    "date": "1977-10-14",
+    "venue": "Hofheinz Pavilion",
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19771014.svg",
+    "songCount": 21,
+    "durationSeconds": 10183
+  },
+  {
+    "id": "19771016",
+    "date": "1977-10-16",
+    "venue": "Assembly Center",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19771016.svg",
+    "songCount": 19,
+    "durationSeconds": 9313
+  },
+  {
     "id": "19771105",
     "date": "1977-11-05",
     "venue": "Community War Memorial",
@@ -1973,6 +2106,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19780514.svg",
     "songCount": 18,
     "durationSeconds": 10303
+  },
+  {
+    "id": "19781021",
+    "date": "1978-10-21",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19781021.svg",
+    "songCount": 20,
+    "durationSeconds": 11035
+  },
+  {
+    "id": "19781022",
+    "date": "1978-10-22",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19781022.svg",
+    "songCount": 17,
+    "durationSeconds": 9872
   },
   {
     "id": "19790107",
@@ -2112,6 +2273,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19791228.svg",
     "songCount": 19,
     "durationSeconds": 9148
+  },
+  {
+    "id": "19800506",
+    "date": "1980-05-06",
+    "venue": "Recreation Hall, Pennsylvania State University",
+    "city": "State College",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19800506.svg",
+    "songCount": 23,
+    "durationSeconds": 9255
+  },
+  {
+    "id": "19800507",
+    "date": "1980-05-07",
+    "venue": "Barton Hall, Cornell University",
+    "city": "Ithaca",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19800507.svg",
+    "songCount": 20,
+    "durationSeconds": 8819
   },
   {
     "id": "19800823",
@@ -2552,6 +2741,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19880327.svg",
     "songCount": 22,
     "durationSeconds": 8525
+  },
+  {
+    "id": "19880331",
+    "date": "1988-03-31",
+    "venue": "Brendan Byrne Arena",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19880331.svg",
+    "songCount": 20,
+    "durationSeconds": 8163
   },
   {
     "id": "19880401",
@@ -3596,6 +3799,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19930327.svg",
     "songCount": 20,
     "durationSeconds": 9024
+  },
+  {
+    "id": "19930526",
+    "date": "1993-05-26",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19930526.svg",
+    "songCount": 18,
+    "durationSeconds": 9536
+  },
+  {
+    "id": "19930527",
+    "date": "1993-05-27",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Road Trips"
+    ],
+    "svg": "/shows/19930527.svg",
+    "songCount": 20,
+    "durationSeconds": 9726
   },
   {
     "id": "19930606",

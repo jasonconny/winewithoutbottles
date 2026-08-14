@@ -1,0 +1,92 @@
+{
+  "id": "19771016",
+  "date": "1977-10-16",
+  "venue": "Assembly Center",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19771016.svg",
+  "songCount": 19,
+  "durationSeconds": 9313,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 1061
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 480
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 243
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 228
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 571
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 724
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 189
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 689
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 797
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 548
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 374
+    }
+  ]
+}

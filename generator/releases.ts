@@ -575,6 +575,15 @@ function unreproduced(fresh: Release[], authored: Release[]) {
     [];
   for (const mine of authored) {
     if (!CONFIRMED.test(mine.note)) continue;
+    // A reading the tool already owns is not at risk: HAND_RESOLVED *is* where
+    // the judgement lives, so when it and the JSON disagree the tool is the
+    // newer word and should simply win. Guarding those too would mean every
+    // deliberate edit to a hand reading needed `--force`, which trains the
+    // habit of passing `--force`, which is exactly how the guard stops working.
+    // What it exists to catch is the opposite case: a value in the JSON with
+    // nothing behind it.
+    if (mine.name in HAND_RESOLVED || mine.name in COMPLETENESS_BY_HAND)
+      continue;
     const now = byName.get(mine.name);
     // Under `--only` the build is a deliberate subset; absence isn't loss.
     if (!now) {

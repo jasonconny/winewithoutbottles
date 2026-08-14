@@ -1,0 +1,52 @@
+{
+  "id": "19771007",
+  "date": "1977-10-07",
+  "venue": "University Arena",
+  "city": "Albuquerque",
+  "state": "NM",
+  "country": "USA",
+  "source": "Road Trips Volume 1 Number 2 | archive.org:gd1977-10-07.170389.sbd.miller.flac1644",
+  "note": "Setlist not definitively known, and a whole set of it has no audio at all. Every recording catalogued on archive.org for this date is **set two only** — all four identifiers say so (sbd-set2, pset2) — so the first set is absent, and archive.org's own listing shows set two opened with Samson & Delilah and Sunrise, which no tape carries either. What survives is the ten songs here, from Ramble On Rose to the One More Saturday Night encore, timed from gd1977-10-07.170389.sbd.miller.flac1644; four of them Road Trips 1:2 also carries, and its timings stand for those.\n\nIt is here rather than in data/partial-shows/ for the reason 19731210 is: the missing songs are not waiting for a timing somebody can supply, they are waiting for a tape that does not circulate. Stripes are a claim about what was played and in what order, and for the first set that claim cannot be made at all.\n\nNote the venue: this is University Arena (The Pit) at the University of New Mexico. Road Trips 1:2 draws on four nights across New Mexico, Oklahoma, Texas and Louisiana, and only the other three are named in the release's own per-track venue column.",
+  "songs": [
+    {
+      "title": "Ramble On Rose",
+      "duration": "9:16"
+    },
+    {
+      "title": "Passenger",
+      "duration": "4:16"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "14:52"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:43"
+    },
+    {
+      "title": "Drums",
+      "duration": "4:50"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "7:05"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:30"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "13:31"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:48"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:44"
+    }
+  ]
+}

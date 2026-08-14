@@ -1,0 +1,96 @@
+{
+  "id": "19930527",
+  "date": "1993-05-27",
+  "venue": "Cal Expo Amphitheatre",
+  "city": "Sacramento",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19930527.svg",
+  "songCount": 20,
+  "durationSeconds": 9726,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 860
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 203
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 194
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 500
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Wave to the Wind",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 813
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 499
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 658
+    },
+    {
+      "title": "Gloria",
+      "durationSeconds": 344
+    }
+  ]
+}

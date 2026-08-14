@@ -638,7 +638,13 @@ function tracksByTrackListing(
     }
     const headline = params.get('headline') ?? '';
     const headlineDate = longDate(headline) ?? monthDayIn(headline, span);
-    const dated = /recording date/i.test(params.get('extra_column') ?? '');
+    // The extra column carries a per-track date whenever it says it does, in
+    // whatever words. Road Trips 1:2 heads it "Recording venue and date", which
+    // a `/recording date/` test misses by one word — and that release is
+    // *nothing but* per-track attribution, four October 1977 nights interleaved
+    // across two discs with no dated headings at all, so missing it orphaned
+    // every track and made all four dates unreadable.
+    const dated = /\bdates?\b/i.test(params.get('extra_column') ?? '');
 
     for (let n = 1; params.has(`title${n}`); n++) {
       seen++;
@@ -646,9 +652,13 @@ function tracksByTrackListing(
       if (!title) continue;
       const length = (params.get(`length${n}`) ?? '').match(/\d{1,3}:\d{2}/);
       const extra = dated ? (params.get(`extra${n}`) ?? '') : '';
+      // `slashDate` first: an extra cell is a venue and a date in whatever form
+      // the editor liked, and Road Trips 1:2 writes "Lloyd Noble Center,
+      // 10/11/77" — which neither of the other two readers can see.
       const date =
-        (extra ? (longDate(extra) ?? monthDayIn(extra, span)) : null) ??
-        headlineDate;
+        (extra
+          ? (slashDate(extra) ?? longDate(extra) ?? monthDayIn(extra, span))
+          : null) ?? headlineDate;
       if (!date || !known.has(date)) {
         orphans++;
         continue;

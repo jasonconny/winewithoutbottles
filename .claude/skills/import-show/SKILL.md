@@ -337,6 +337,26 @@ would give one show a pile of tags describing its release history rather than
 grouping it usefully, so precedence picks one source and that source's tag is
 the one that sticks.
 
+**But a stitched `source` grants every one of its tags.** That rule is about
+releases a show merely _appears_ on; when `source` names several releases, each
+one **supplied timings** — it is part of how the art was made, not a coincidence
+of the catalogue. So a show built across series carries a tag from each. The
+case that prompted it, Jason 2026-08-14: **19710806** is stitched from _Dick's
+Picks 35_ and _Road Trips 1:3_, and carried only `Dick's Picks`, so it was
+missing from the `Road Trips` index it belongs in.
+
+`source` is what keeps this narrow — it names only what was used, so merely
+appearing on a release still grants nothing. Only 5 shows in the corpus are
+stitched from two releases, and only this one spans two series; the other four
+pair _Dick's Picks 4_ with `Bear's Choice`, which grants no tag at all.
+
+Enforced one-directionally by `tests/data-validity.test.ts` — source-granted
+tags must be **present**, never that nothing else is, since editorial tags like
+`Dark Star` are granted by no release. It carries the one carve-out below: a
+release covering exactly a tour's date set grants nothing, derived from the
+corpus rather than hard-coded, so it keeps up if a tour or a release changes
+shape.
+
 The test re-derives every tag from the file's own `completeness`/`dates` and
 pins **presence, not spelling**: `tag` is drafted from fields a human then
 edits, so resolving a release to complete shows must also give it a tag, while a

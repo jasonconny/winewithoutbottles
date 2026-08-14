@@ -1,0 +1,81 @@
+{
+  "id": "1970051501",
+  "date": "1970-05-15",
+  "sitting": "early",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/1970051501.svg",
+  "songCount": 16,
+  "durationSeconds": 6407,
+  "songs": [
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 264
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Ain't It Crazy (The Rub)",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Long Black Limousine",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 292
+    },
+    {
+      "title": "New Speedway Boogie",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Cold Jordan",
+      "durationSeconds": 150
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Easy Wind",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 346
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 347
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1469
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 479
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 216
+    }
+  ]
+}

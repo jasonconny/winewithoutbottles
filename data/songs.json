@@ -4,6 +4,9 @@
       "title": "(I Can't Get No) Satisfaction"
     },
     {
+      "title": "A Voice from On High"
+    },
+    {
       "title": "Ain't It Crazy (The Rub)",
       "aliases": ["The Rub"]
     },
@@ -26,7 +29,8 @@
       "aliases": ["And We Bid You Good Night", "We Bid You Goodnight"]
     },
     {
-      "title": "Around And Around"
+      "title": "Around And Around",
+      "aliases": ["Around & Around"]
     },
     {
       "title": "Attics of My Life",
@@ -85,14 +89,15 @@
       "aliases": ["Box Of Rain"]
     },
     {
-      "title": "Brokedown Palace"
+      "title": "Brokedown Palace",
+      "aliases": ["E: Brokedown Palace"]
     },
     {
       "title": "Broken Arrow"
     },
     {
       "title": "Brown-Eyed Women",
-      "aliases": ["Brown Eyed Women", "Brown-Eyed Woman"]
+      "aliases": ["Brown Eyed Woman", "Brown Eyed Women", "Brown-Eyed Woman"]
     },
     {
       "title": "Built to Last",
@@ -193,7 +198,8 @@
       "title": "Deal"
     },
     {
-      "title": "Dear Mr. Fantasy"
+      "title": "Dear Mr. Fantasy",
+      "aliases": ["Dear Mr Fantasy"]
     },
     {
       "title": "Death Don't Have No Mercy"
@@ -326,6 +332,9 @@
       "title": "Good Vibrations"
     },
     {
+      "title": "Got My Mojo Workin'"
+    },
+    {
       "title": "Greatest Story Ever Told",
       "aliases": ["Greatest Story Even Told", "The Greatest Story Ever Told"]
     },
@@ -453,6 +462,8 @@
       "title": "Jam",
       "aliases": [
         "Boston Clam Jam",
+        "Darkness Jam",
+        "It's A Sin Jam",
         "Jam \\",
         "Lunatic Preserve",
         "Mock Turtle Jam",
@@ -514,6 +525,9 @@
     },
     {
       "title": "Little Sadie"
+    },
+    {
+      "title": "Long Black Limousine"
     },
     {
       "title": "Looks Like Rain"
@@ -638,6 +652,9 @@
       "title": "Okie From Muskogee"
     },
     {
+      "title": "Ollin Arrageed"
+    },
+    {
       "title": "On the Road Again"
     },
     {
@@ -651,7 +668,8 @@
       "title": "Passenger"
     },
     {
-      "title": "Peggy-O"
+      "title": "Peggy-O",
+      "aliases": ["Peggy O"]
     },
     {
       "title": "Picasso Moon"
@@ -662,6 +680,7 @@
     {
       "title": "Playing in the Band",
       "aliases": [
+        "PLayin' In The Band Reprise",
         "Playin' In The Band",
         "Playin' In The Band (with false start)",
         "Playing In The Band",
@@ -734,6 +753,9 @@
     },
     {
       "title": "She Belongs to Me"
+    },
+    {
+      "title": "She's Mine"
     },
     {
       "title": "Ship Of Fools"
@@ -830,6 +852,10 @@
     },
     {
       "title": "That's It for the Other One"
+    },
+    {
+      "title": "The Ballad of Casey Jones",
+      "aliases": ["Ballad of Casey Jones"]
     },
     {
       "title": "The Eleven"
@@ -938,6 +964,10 @@
       "title": "Wave That Flag"
     },
     {
+      "title": "Wave to the Wind",
+      "aliases": ["Wave To The Wind"]
+    },
+    {
       "title": "Way to Go Home"
     },
     {
@@ -995,6 +1025,7 @@
     "crowd",
     "crowd / tuning",
     "crowd noise",
+    "Crowd/Tuning",
     "Encore Break",
     "Funiculi Funicula",
     "Funiculì, Funiculà",

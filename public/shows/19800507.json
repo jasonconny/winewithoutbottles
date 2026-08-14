@@ -1,0 +1,96 @@
+{
+  "id": "19800507",
+  "date": "1980-05-07",
+  "venue": "Barton Hall, Cornell University",
+  "city": "Ithaca",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19800507.svg",
+  "songCount": 20,
+  "durationSeconds": 8819,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 530
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 722
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 835
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 794
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 269
+    }
+  ]
+}

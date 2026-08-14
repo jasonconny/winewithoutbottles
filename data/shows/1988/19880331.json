@@ -1,0 +1,93 @@
+{
+  "id": "19880331",
+  "date": "1988-03-31",
+  "venue": "Brendan Byrne Arena",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Volume 4 Number 2 | archive.org:gd1988-03-31.140328.UltraMatrix.sbd.cm.miller.flac1644",
+  "note": "Six songs come from the tape. Road Trips 4:2 carries this night's second set and encore whole but only \"two songs from the first set\" — When I Paint My Masterpiece and Let It Grow — because its three discs are mostly given to the complete April 1 show. The rest of set one takes its timings from gd1988-03-31.140328.UltraMatrix.sbd.cm.miller.flac1644, whose 23 tracks are these 20 songs plus two Tuning segments and an Encore Break, all three already excluded by data/songs.json. Against the release the tape runs within about twenty seconds on every shared track except Space, 6:22 on the release against 8:20 on the tape, which is where the segue into Goin' Down the Road is drawn rather than a cut; the release keeps those.",
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "5:57"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "11:13"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:10"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:57"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "7:50"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:00"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:41"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:06"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "8:05"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "11:35"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:40"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:41"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:52"
+    },
+    {
+      "title": "Space",
+      "duration": "6:22"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:17"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "3:21"
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "duration": "4:20"
+    },
+    {
+      "title": "Hey Jude",
+      "duration": "1:41"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "4:45"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "duration": "8:30"
+    }
+  ]
+}

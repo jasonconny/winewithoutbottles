@@ -1,0 +1,84 @@
+{
+  "id": "19781022",
+  "date": "1978-10-22",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19781022.svg",
+  "songCount": 17,
+  "durationSeconds": 9872,
+  "songs": [
+    {
+      "title": "Ollin Arrageed",
+      "durationSeconds": 1273
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 609
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 760
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 618
+    },
+    {
+      "title": "From the Heart of Me",
+      "durationSeconds": 250
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 800
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 1303
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 280
+    }
+  ]
+}
