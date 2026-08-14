@@ -1,0 +1,96 @@
+{
+  "id": "19781021",
+  "date": "1978-10-21",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19781021.svg",
+  "songCount": 20,
+  "durationSeconds": 11035,
+  "songs": [
+    {
+      "title": "Ollin Arrageed",
+      "durationSeconds": 1113
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 820
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 448
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 469
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 892
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 635
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 961
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 111
+    },
+    {
+      "title": "Got My Mojo Workin'",
+      "durationSeconds": 648
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 713
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 528
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 342
+    }
+  ]
+}

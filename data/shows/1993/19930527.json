@@ -1,0 +1,92 @@
+{
+  "id": "19930527",
+  "date": "1993-05-27",
+  "venue": "Cal Expo Amphitheatre",
+  "city": "Sacramento",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Volume 2 Number 4 | archive.org:gd93-05-27.sbd.miller.27777.sbeok.flac",
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "duration": "14:20"
+    },
+    {
+      "title": "The Same Thing",
+      "duration": "8:39"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:23"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:14"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:20"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "5:28"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:48"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:57"
+    },
+    {
+      "title": "Picasso Moon",
+      "duration": "7:57"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "12:18"
+    },
+    {
+      "title": "Wave to the Wind",
+      "duration": "7:31"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:54"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:30"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:10"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:33"
+    },
+    {
+      "title": "Space",
+      "duration": "8:19"
+    },
+    {
+      "title": "The Other One",
+      "duration": "10:03"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:00"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:58"
+    },
+    {
+      "title": "Gloria",
+      "duration": "5:44"
+    }
+  ]
+}

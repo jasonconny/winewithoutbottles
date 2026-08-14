@@ -1,0 +1,100 @@
+{
+  "id": "19791105",
+  "date": "1979-11-05",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19791105.svg",
+  "songCount": 21,
+  "durationSeconds": 10388,
+  "songs": [
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 365
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 533
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 272
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 509
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 747
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 240
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1396
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 821
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 997
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 162
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 135
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 356
+    }
+  ]
+}

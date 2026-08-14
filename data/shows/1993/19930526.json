@@ -1,0 +1,85 @@
+{
+  "id": "19930526",
+  "date": "1993-05-26",
+  "venue": "Cal Expo Amphitheatre",
+  "city": "Sacramento",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Volume 2 Number 4 | archive.org:gd93-05-26.sbd.miller.27776.sbeok.flacf",
+  "note": "Two departures from the release, both about the drums slot. Road Trips 2:4 gives Rhythm Devils 5:17 and omits Space entirely, to fit two nights plus a bonus disc onto three discs; the soundboard gd93-05-26.sbd.miller.27776.sbeok.flacf has Drums at 20:06 and Space at 10:02. Where a release excerpts a track the tape wins — the same call as 1974-06-26/28 in this file — so both come from the tape and the show is 15 minutes longer than the release would make it. Every other song is the release's own timing, and against the tape they agree to within a few seconds.",
+  "songs": [
+    {
+      "title": "Samson And Delilah",
+      "duration": "8:12"
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "duration": "6:27"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:52"
+    },
+    {
+      "title": "Broken Arrow",
+      "duration": "5:52"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:53"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "8:32"
+    },
+    {
+      "title": "Deal",
+      "duration": "9:52"
+    },
+    {
+      "title": "Box of Rain",
+      "duration": "5:25"
+    },
+    {
+      "title": "Victim or the Crime",
+      "duration": "8:32"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "9:31"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "18:59"
+    },
+    {
+      "title": "Drums",
+      "duration": "20:06"
+    },
+    {
+      "title": "Space",
+      "duration": "10:02"
+    },
+    {
+      "title": "Corrina",
+      "duration": "8:44"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "3:36"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:17"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "7:34"
+    },
+    {
+      "title": "Liberty",
+      "duration": "6:30"
+    }
+  ]
+}

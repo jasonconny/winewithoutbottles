@@ -1,0 +1,88 @@
+{
+  "id": "19791106",
+  "date": "1979-11-06",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19791106.svg",
+  "songCount": 18,
+  "durationSeconds": 8762,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 592
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 936
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1328
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 191
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 693
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 462
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 342
+    }
+  ]
+}

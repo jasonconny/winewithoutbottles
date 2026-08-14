@@ -1,0 +1,68 @@
+{
+  "id": "19680214",
+  "date": "1968-02-14",
+  "venue": "Carousel Ballroom",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Road Trips"],
+  "source": "Road Trips Volume 2 Number 2",
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "duration": "6:30"
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "12:35"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "6:10"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:25"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "5:15"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "9:02"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "9:30"
+    },
+    {
+      "title": "New Potato Caboose",
+      "duration": "8:48"
+    },
+    {
+      "title": "Born Cross-Eyed",
+      "duration": "2:38"
+    },
+    {
+      "title": "Spanish Jam",
+      "duration": "12:28"
+    },
+    {
+      "title": "Alligator",
+      "duration": "14:30"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "10:00"
+    },
+    {
+      "title": "Feedback",
+      "duration": "6:10"
+    },
+    {
+      "title": "In the Midnight Hour",
+      "duration": "10:35"
+    }
+  ]
+}

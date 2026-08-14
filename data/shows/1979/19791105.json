@@ -1,0 +1,97 @@
+{
+  "id": "19791105",
+  "date": "1979-11-05",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Full Show: Spectrum 11/5/79",
+  "note": "Durations come from the official download itself, supplied by Jason, not from any published listing. Road Trips Full Show: Spectrum 11/5/79 was download-only: its Wikipedia track listing carries no times at all and MusicBrainz has no copy, so `--audit` reports this show as untimed against its release and always will. The setlist and its order are the release's. An earlier pass timed it from gd79-11-05.sbd.wier.12177.sbeok.shnf, which matched the setlist 1:1 but drew the Franklin's Tower / Jam boundary nearly three minutes early; the show total was within 12 seconds either way.",
+  "songs": [
+    {
+      "title": "China Cat Sunflower",
+      "duration": "6:05"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "7:19"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:26"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:53"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:32"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "8:14"
+    },
+    {
+      "title": "Passenger",
+      "duration": "5:26"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "8:29"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "9:10"
+    },
+    {
+      "title": "Althea",
+      "duration": "12:27"
+    },
+    {
+      "title": "Easy to Love You",
+      "duration": "4:00"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "23:16"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "13:41"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "16:37"
+    },
+    {
+      "title": "Jam",
+      "duration": "2:42"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:33"
+    },
+    {
+      "title": "Space",
+      "duration": "2:15"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:40"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "5:09"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:18"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "5:56"
+    }
+  ]
+}

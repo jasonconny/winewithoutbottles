@@ -1,0 +1,92 @@
+{
+  "id": "19791228",
+  "date": "1979-12-28",
+  "venue": "Oakland Auditorium",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19791228.svg",
+  "songCount": 19,
+  "durationSeconds": 9148,
+  "songs": [
+    {
+      "title": "Sugaree",
+      "durationSeconds": 964
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 146
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 795
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 499
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 422
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 843
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1049
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 148
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 574
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 245
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 314
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 296
+    }
+  ]
+}

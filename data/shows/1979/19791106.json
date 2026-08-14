@@ -1,0 +1,85 @@
+{
+  "id": "19791106",
+  "date": "1979-11-06",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Road Trips"],
+  "source": "Road Trips Full Show: Spectrum 11/6/79",
+  "note": "Durations come from the official download itself, supplied by Jason, not from any published listing — same as 19791105, and for the same reason: a download-only release with no times on Wikipedia and no MusicBrainz copy, so `--audit` will always call it untimed. An earlier pass timed it from gd79-11-06.sbd.miller.29735.flac16, which ran 8:39 long over the show because that transfer folds lead-in tuning into each track — Mexicali Blues by 1:57, Tennessee Jed by 1:45, Jack-A-Roe by 1:15. The gd1979-11-06.137296.sbd.GEMS.flac16 transfer, which breaks tuning out as its own tracks, had predicted almost exactly that gap.",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "6:24"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:51"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:52"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:10"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:59"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:51"
+    },
+    {
+      "title": "Easy to Love You",
+      "duration": "4:10"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:43"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "7:39"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "6:49"
+    },
+    {
+      "title": "Deal",
+      "duration": "6:53"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "15:36"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "22:08"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:49"
+    },
+    {
+      "title": "Space",
+      "duration": "3:11"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "11:33"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:42"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:42"
+    }
+  ]
+}

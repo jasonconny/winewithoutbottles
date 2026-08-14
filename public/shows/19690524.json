@@ -1,0 +1,64 @@
+{
+  "id": "19690524",
+  "date": "1969-05-24",
+  "venue": "Big Rock Pow-Wow",
+  "city": "Hollywood",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19690524.svg",
+  "songCount": 12,
+  "durationSeconds": 5522,
+  "songs": [
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1647
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 403
+    },
+    {
+      "title": "He Was a Friend of Mine",
+      "durationSeconds": 529
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 324
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Yellow Dog Story",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Alligator",
+      "durationSeconds": 240
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 453
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 257
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 202
+    }
+  ]
+}

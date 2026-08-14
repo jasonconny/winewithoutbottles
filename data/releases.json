@@ -344,19 +344,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Road Trips Volume 3 Number 3",
-      "name": "Road Trips Volume 3 Number 3",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1970-05-15"],
-      "bonusDates": ["1970-05-14"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "Three from the Vault",
       "name": "Three from the Vault",
       "kind": "traditional",
@@ -443,19 +430,6 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Road Trips Volume 1 Number 3",
-      "name": "Road Trips Volume 1 Number 3",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1971-07-31", "1971-08-04", "1971-08-06", "1971-08-23"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1146,19 +1120,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Road Trips Volume 2 Number 3",
-      "name": "Road Trips Volume 2 Number 3",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1974-06-16", "1974-06-18"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from bold; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "Dave's Picks Volume 34",
       "name": "Dave's Picks Volume 34",
       "kind": "series",
@@ -1600,19 +1561,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Road Trips Volume 1 Number 2",
-      "name": "Road Trips Volume 1 Number 2",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1977-10-07", "1977-10-11", "1977-10-14", "1977-10-16"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from bold; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "Dave's Picks Volume 33",
       "name": "Dave's Picks Volume 33",
       "kind": "series",
@@ -1849,19 +1797,6 @@
       "musicbrainzReleaseId": null
     },
     {
-      "page": "Road Trips Volume 1 Number 4",
-      "name": "Road Trips Volume 1 Number 4",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1978-10-21", "1978-10-22"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
       "page": "The Closing of Winterland",
       "name": "The Closing of Winterland",
       "kind": "traditional",
@@ -1891,9 +1826,9 @@
       "page": "Road Trips Full Show: Spectrum 11/5/79",
       "name": "Road Trips Full Show: Spectrum 11/5/79",
       "kind": "series",
-      "series": "Download Series",
+      "series": "Road Trips",
       "eligible": true,
-      "tag": "Download Series",
+      "tag": "Road Trips",
       "dates": ["1979-11-05"],
       "bonusDates": [],
       "completeness": "complete",
@@ -1904,9 +1839,9 @@
       "page": "Road Trips Full Show: Spectrum 11/6/79",
       "name": "Road Trips Full Show: Spectrum 11/6/79",
       "kind": "series",
-      "series": "Download Series",
+      "series": "Road Trips",
       "eligible": true,
-      "tag": "Download Series",
+      "tag": "Road Trips",
       "dates": ["1979-11-06"],
       "bonusDates": [],
       "completeness": "unknown",
@@ -1963,19 +1898,6 @@
       "bonusDates": ["1979-12-30"],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Road Trips Volume 3 Number 4",
-      "name": "Road Trips Volume 3 Number 4",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1980-05-06", "1980-05-07"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from bold; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2318,10 +2240,10 @@
       "series": "Road Trips",
       "eligible": true,
       "tag": "Road Trips",
-      "dates": ["1988-03-31", "1988-04-01"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "bonusDates": ["1988-03-31"],
+      "completeness": "complete",
+      "dates": ["1988-04-01"],
+      "note": "article: \"includes the complete April 1 concert, along with the second set, encore, and two songs from the first set of the March 31 concert\" — so 4/1/88 is sourceable whole and 3/31/88 is not, and the latter is staged in data/partial-shows/; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2650,19 +2572,6 @@
       "bonusDates": ["1992-12-17"],
       "completeness": "complete",
       "note": "principal date from the discography; the article's four closing tracks are bonus material from 1992-12-17; confirmed complete by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Road Trips Volume 2 Number 4",
-      "name": "Road Trips Volume 2 Number 4",
-      "kind": "series",
-      "series": "Road Trips",
-      "eligible": true,
-      "tag": "Road Trips",
-      "dates": ["1993-05-26", "1993-05-27"],
-      "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from bold; completeness not stated — confirm by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -3105,6 +3014,97 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "not a source: compilation / highlights collection",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 1 Number 2",
+      "name": "Road Trips Volume 1 Number 2",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1977-10-07", "1977-10-11", "1977-10-14", "1977-10-16"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: \"material from four different concerts\" across two discs, attributed per track — 10/7, 10/11, 10/14 and 10/16/77, none of them whole (4, 5, 6 and 11 songs of 10, 17, 21 and 19 played). All four are staged in data/partial-shows/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 1 Number 3",
+      "name": "Road Trips Volume 1 Number 3",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1971-07-31", "1971-08-04", "1971-08-06", "1971-08-23"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: disc one is 7/31/71 Yale Bowl and disc two 8/23/71 Auditorium Theatre — one disc each of shows that ran 27 and 31 songs, so neither is whole; both are staged in data/partial-shows/. The bonus disc holds 8/6/71 Hollywood Palladium and 8/4/71 Terminal Island, which is why those two are bonus dates and not staged at all; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 1 Number 4",
+      "name": "Road Trips Volume 1 Number 4",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1978-10-17", "1978-10-21", "1978-10-22"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: disc one is 10/21/78 and disc two 10/22/78, a disc each of two Winterland nights, so neither is whole; both are staged in data/partial-shows/. The bonus disc adds more 10/21 plus 10/17/78; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 2 Number 3",
+      "name": "Road Trips Volume 2 Number 3",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1974-06-16", "1974-06-18"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: recorded 6/16/74 Des Moines and 6/18/74 Louisville across two discs, with a bonus disc drawn from the same two nights — 13 and 11 songs against 28 and more played, so neither night is whole. Both staged in data/partial-shows/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 2 Number 4",
+      "name": "Road Trips Volume 2 Number 4",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1993-05-26", "1993-05-27"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: recorded 5/26/93 and 5/27/93 at Cal Expo across two discs plus a bonus disc from the same two nights. 5/26 is close — 16 of the 18 played — and 5/27 is not, at 11 of 20; both staged in data/partial-shows/; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 3 Number 3",
+      "name": "Road Trips Volume 3 Number 3",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1970-05-14", "1970-05-15"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: billed as a Workingman's Dead anniversary set, \"several versions, some acoustic and some electric, of seven of the eight songs that appear on that album\" — a compilation shape, not a concert. Its 5/15/70 Fillmore East material is an early and a late show, staged separately as 1970051501 and 1970051502; the bonus disc is 5/14/70 Meramec Community College; confirmed partial by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Road Trips Volume 3 Number 4",
+      "name": "Road Trips Volume 3 Number 4",
+      "kind": "series",
+      "series": "Road Trips",
+      "eligible": true,
+      "tag": "Road Trips",
+      "bonusDates": ["1980-05-06", "1980-05-07"],
+      "completeness": "partial",
+      "dates": [],
+      "note": "article: recorded 5/6/80 Penn State and 5/7/80 Barton Hall, three discs, and never called complete — 19 and 13 songs against 24 and 20 played. Both staged in data/partial-shows/; confirmed partial by hand",
       "musicbrainzReleaseId": null
     },
     {

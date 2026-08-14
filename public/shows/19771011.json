@@ -1,0 +1,84 @@
+{
+  "id": "19771011",
+  "date": "1977-10-11",
+  "venue": "Lloyd Noble Center",
+  "city": "Norman",
+  "state": "OK",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19771011.svg",
+  "songCount": 17,
+  "durationSeconds": 9092,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 899
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 459
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 1051
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 861
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 962
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 809
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 526
+    }
+  ]
+}

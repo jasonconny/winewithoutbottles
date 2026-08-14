@@ -1,0 +1,129 @@
+{
+  "id": "19740616",
+  "date": "1974-06-16",
+  "venue": "Iowa State Fairgrounds",
+  "city": "Des Moines",
+  "state": "IA",
+  "country": "USA",
+  "tags": [
+    "Road Trips",
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740616.svg",
+  "songCount": 28,
+  "durationSeconds": 13874,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 256
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 688
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 327
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 314
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 636
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 256
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 335
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 203
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1209
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1733
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 186
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Nobody's Jam",
+      "durationSeconds": 763
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 429
+    }
+  ]
+}

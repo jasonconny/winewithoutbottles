@@ -1,0 +1,45 @@
+{
+  "id": "19690523",
+  "date": "1969-05-23",
+  "venue": "Big Rock Pow-Wow",
+  "city": "Hollywood",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Road Trips"
+  ],
+  "svg": "/shows/19690523.svg",
+  "songCount": 7,
+  "durationSeconds": 5302,
+  "songs": [
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 197
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1136
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 541
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1859
+    }
+  ]
+}

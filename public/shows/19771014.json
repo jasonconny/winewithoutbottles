@@ -1,0 +1,100 @@
+{
+  "id": "19771014",
+  "date": "1977-10-14",
+  "venue": "Hofheinz Pavilion",
+  "city": "Houston",
+  "state": "TX",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19771014.svg",
+  "songCount": 21,
+  "durationSeconds": 10183,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 713
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 341
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 581
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 618
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1032
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 201
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 833
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 351
+    }
+  ]
+}

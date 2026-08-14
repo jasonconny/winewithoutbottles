@@ -1,0 +1,88 @@
+{
+  "id": "19930526",
+  "date": "1993-05-26",
+  "venue": "Cal Expo Amphitheatre",
+  "city": "Sacramento",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Road Trips"
+  ],
+  "svg": "/shows/19930526.svg",
+  "songCount": 18,
+  "durationSeconds": 9536,
+  "songs": [
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Broken Arrow",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 592
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 571
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1139
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1206
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 216
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 390
+    }
+  ]
+}

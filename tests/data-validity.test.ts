@@ -90,6 +90,41 @@ function readShow(file: string): ShowFile {
   return JSON.parse(readFileSync(join(DATA_DIR, file), 'utf8')) as ShowFile;
 }
 
+/**
+ * Does this release's date set match some tour's exactly?
+ *
+ * Such a release grants no show tag: its index page would list precisely the
+ * shows the tour gallery already lists, so the tag is a duplicate rather than a
+ * grouping. Europe '72 is the case in the data — all 22 shows of the Europe
+ * 1972 tour and nothing besides.
+ *
+ * Derived from the corpus rather than hard-coded, so it keeps up as tours and
+ * releases change: a release growing a date beyond its tour, or a tour gaining
+ * a show the release lacks, stops being an exact cover and the tag starts
+ * being required.
+ */
+function coversExactlyOneTour(dates: string[]): boolean {
+  if (!dates.length) return false;
+  const byTour = new Map<string, Set<string>>();
+  for (const file of dataFiles()) {
+    const show = readShow(file) as { tour?: string; date: string };
+    if (!show.tour) continue;
+    byTour.set(
+      show.tour,
+      (byTour.get(show.tour) ?? new Set<string>()).add(show.date),
+    );
+  }
+  const set = new Set(dates);
+  for (const tourDates of byTour.values()) {
+    if (
+      tourDates.size === set.size &&
+      [...tourDates].every((date) => set.has(date))
+    )
+      return true;
+  }
+  return false;
+}
+
 describe('show data is well-formed', () => {
   const files = dataFiles();
 
@@ -539,6 +574,50 @@ describe('official-release index is well-formed', () => {
       ).toBe(true);
     }
   });
+
+  it.each(dataFiles())(
+    '%s carries the tag of every release that timed it',
+    (file) => {
+      // The standing rule is that a show takes the tag of its **chosen source**
+      // and not of every release that happens to contain the date — most shows
+      // sit on two or three, and tagging from all of them would describe a
+      // release history rather than group anything.
+      //
+      // A stitched `source` is the case that rule doesn't cover. When a show is
+      // built from more than one release, each named release *supplied
+      // timings*: it is not a coincidence of the catalogue, it is part of how
+      // the art was made. So every release in `source` grants its tag.
+      //
+      // Merely appearing on a release still grants nothing, which is what keeps
+      // this narrow — `source` is the filter, and it names only what was used.
+      // 19710806 is the case that prompted it: stitched from Dick's Picks 35
+      // and Road Trips 1:3, it carried only `Dick's Picks` and was missing from
+      // the `Road Trips` index it belongs in.
+      //
+      // One-directional on purpose. A show may carry editorial tags no release
+      // grants (`Dark Star`, `Wall of Sound`), so this checks that
+      // source-granted tags are *present*, never that nothing else is.
+      const show = readShow(file) as { source?: string; tags?: string[] };
+      if (!show.source) return;
+      const tags = new Set(show.tags ?? []);
+      for (const part of show.source.split('|').map((piece) => piece.trim())) {
+        if (!part || part.startsWith('archive.org:')) continue;
+        const release = releases.find((entry) => entry.name === part);
+        const tag = release?.tag;
+        if (!tag) continue;
+        // One carve-out, already the project's rule: a release covering
+        // *exactly* a tour's date set grants no tag, because its index would
+        // duplicate the tour gallery. Europe '72 is the case — all 22 shows of
+        // the Europe 1972 tour and nothing else — and those shows deliberately
+        // carry no `Europe '72` tag.
+        if (coversExactlyOneTour(release.dates)) continue;
+        expect(
+          tags.has(tag),
+          `${file}: sourced from "${part}", which grants the tag "${tag}", but the show does not carry it`,
+        ).toBe(true);
+      }
+    },
+  );
 
   it('no two unrelated releases claim the same tag', () => {
     const owners = new Map<string, Set<string>>();

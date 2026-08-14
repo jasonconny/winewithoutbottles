@@ -1,0 +1,110 @@
+{
+  "id": "1970051502",
+  "date": "1970-05-15",
+  "sitting": "late",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dark Star", "Road Trips"],
+  "source": "Road Trips Volume 3 Number 3 | archive.org:gd70-05-15.early-late.sbd.97.sbeok.shnf",
+  "note": "The late of the two shows the Dead played this night. Assembled disc by disc rather than by merge. Road Trips 3:3 spreads this night across four discs — disc one is the early show, discs two and three the late, and the bonus disc carries six more early-show songs plus two late-show ones — so a title-matching merge over the undivided night assigned several timings to the wrong sitting (the early Friend Of The Devil took the late show's 4:06, Cumberland Blues took 5:14, Cold Jordan took 2:33). Every duration here comes from the disc that actually holds that performance. The article's own setlists mark which songs are on the release (*) and which are on the bonus disc (**), and both sittings match those lists exactly. One song needed the tape: Candyman is on neither disc nor bonus disc, and takes 5:51 from gd70-05-15.early-late.sbd.97.sbeok.shnf. Three rows were removed that the skeleton had picked up from the New Riders of the Purple Sage set between the Dead's own — Mama Tried, Me and My Uncle twice — which the article marks as New Riders performances with Bob Weir sitting in. Two songs the tape lacks were added from the release: Deep Elem Blues, which opens the acoustic set, and A Voice from On High, which the taper labels I Hear A Voice Calling.",
+  "songs": [
+    {
+      "title": "Deep Elem Blues",
+      "duration": "5:42"
+    },
+    {
+      "title": "The Ballad of Casey Jones",
+      "duration": "4:49"
+    },
+    {
+      "title": "Silver Threads and Golden Needles",
+      "duration": "3:49"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "7:23"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "4:06"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:01"
+    },
+    {
+      "title": "Candyman",
+      "duration": "5:51"
+    },
+    {
+      "title": "She's Mine",
+      "duration": "2:54"
+    },
+    {
+      "title": "Katie Mae",
+      "duration": "4:38"
+    },
+    {
+      "title": "A Voice from On High",
+      "duration": "2:52"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:58"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "4:39"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:14"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "5:51"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:17"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:53"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "13:45"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:54"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "3:32"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "19:40"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "6:04"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:53"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "27:45"
+    },
+    {
+      "title": "Cold Jordan",
+      "duration": "2:33"
+    }
+  ]
+}

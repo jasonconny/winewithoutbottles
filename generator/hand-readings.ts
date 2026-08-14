@@ -18,6 +18,28 @@ export interface Sortable {
 }
 
 /**
+ * Releases whose series is not the section Wikipedia files them under.
+ *
+ * The two "Road Trips Full Show" downloads sit in the discography's *Download
+ * Series* section, accurately enough — they were digital releases continuing
+ * that stream. But they exist **because of** Road Trips, not beside it: Road
+ * Trips Volume 1 Number 1 was a highlights compilation, deadheads are vocal
+ * about wanting whole shows, and these two full-show downloads were the answer
+ * to that complaint. The 11/6/79 article says as much — "a spin-off of the Road
+ * Trips series", and "a full show from the same tour as that release". Nobody
+ * looking for a Road Trips show goes hunting under Download Series.
+ *
+ * The **series** is what moves, not just the tag. A release's tag is its series
+ * — `tests/data-validity.test.ts` pins exactly that — so overriding the tag
+ * alone would leave one tag spanning two series and break the rule that says a
+ * tag page has a single owner. Jason's call, 2026-08-14.
+ */
+export const HAND_SERIES: Record<string, string> = {
+  'Road Trips Full Show: Spectrum 11/5/79': 'Road Trips',
+  'Road Trips Full Show: Spectrum 11/6/79': 'Road Trips',
+};
+
+/**
  * The marker that says a human settled this entry, and the fields their
  * judgement can live in. `--draft` refuses to overwrite any of these without
  * reproducing them; see the guard at the bottom of the file.
@@ -166,6 +188,60 @@ export const HAND_RESOLVED: Record<
   "Dick's Picks Volume 8": {
     completeness: 'complete',
     note: "principal date from the discography; article: \"the entire concert, except for one song \u2014 Cold Rain and Snow, which was played between Good Lovin' and It's a Man's Man's Man's World\" (the show takes that one timing from the DP 8 outtake on archive.org); the article also notes the first two verses of St. Stephen are missing from the tape",
+  },
+
+  // Road Trips, the partial half. Every volume below holds pieces of its nights
+  // rather than whole ones, so each date leaves `dates` and is staged in
+  // data/partial-shows/ instead — that absence is what records it as
+  // unsourceable. `bonusDates` keeps the dates a volume touches only as bonus
+  // material, which is a different claim and worth keeping.
+  'Road Trips Volume 1 Number 2': {
+    dates: [],
+    bonusDates: ['1977-10-07', '1977-10-11', '1977-10-14', '1977-10-16'],
+    completeness: 'partial',
+    note: 'article: "material from four different concerts" across two discs, attributed per track — 10/7, 10/11, 10/14 and 10/16/77, none of them whole (4, 5, 6 and 11 songs of 10, 17, 21 and 19 played). All four are staged in data/partial-shows/',
+  },
+  'Road Trips Volume 1 Number 3': {
+    dates: [],
+    bonusDates: ['1971-07-31', '1971-08-04', '1971-08-06', '1971-08-23'],
+    completeness: 'partial',
+    note: 'article: disc one is 7/31/71 Yale Bowl and disc two 8/23/71 Auditorium Theatre — one disc each of shows that ran 27 and 31 songs, so neither is whole; both are staged in data/partial-shows/. The bonus disc holds 8/6/71 Hollywood Palladium and 8/4/71 Terminal Island, which is why those two are bonus dates and not staged at all',
+  },
+  'Road Trips Volume 1 Number 4': {
+    dates: [],
+    bonusDates: ['1978-10-17', '1978-10-21', '1978-10-22'],
+    completeness: 'partial',
+    note: 'article: disc one is 10/21/78 and disc two 10/22/78, a disc each of two Winterland nights, so neither is whole; both are staged in data/partial-shows/. The bonus disc adds more 10/21 plus 10/17/78',
+  },
+  'Road Trips Volume 2 Number 3': {
+    dates: [],
+    bonusDates: ['1974-06-16', '1974-06-18'],
+    completeness: 'partial',
+    note: 'article: recorded 6/16/74 Des Moines and 6/18/74 Louisville across two discs, with a bonus disc drawn from the same two nights — 13 and 11 songs against 28 and more played, so neither night is whole. Both staged in data/partial-shows/',
+  },
+  'Road Trips Volume 2 Number 4': {
+    dates: [],
+    bonusDates: ['1993-05-26', '1993-05-27'],
+    completeness: 'partial',
+    note: 'article: recorded 5/26/93 and 5/27/93 at Cal Expo across two discs plus a bonus disc from the same two nights. 5/26 is close — 16 of the 18 played — and 5/27 is not, at 11 of 20; both staged in data/partial-shows/',
+  },
+  'Road Trips Volume 3 Number 3': {
+    dates: [],
+    bonusDates: ['1970-05-14', '1970-05-15'],
+    completeness: 'partial',
+    note: 'article: billed as a Workingman\'s Dead anniversary set, "several versions, some acoustic and some electric, of seven of the eight songs that appear on that album" — a compilation shape, not a concert. Its 5/15/70 Fillmore East material is an early and a late show, staged separately as 1970051501 and 1970051502; the bonus disc is 5/14/70 Meramec Community College',
+  },
+  'Road Trips Volume 3 Number 4': {
+    dates: [],
+    bonusDates: ['1980-05-06', '1980-05-07'],
+    completeness: 'partial',
+    note: 'article: recorded 5/6/80 Penn State and 5/7/80 Barton Hall, three discs, and never called complete — 19 and 13 songs against 24 and 20 played. Both staged in data/partial-shows/',
+  },
+  'Road Trips Volume 4 Number 2': {
+    dates: ['1988-04-01'],
+    bonusDates: ['1988-03-31'],
+    completeness: 'complete',
+    note: 'article: "includes the complete April 1 concert, along with the second set, encore, and two songs from the first set of the March 31 concert" — so 4/1/88 is sourceable whole and 3/31/88 is not, and the latter is staged in data/partial-shows/',
   },
 
   // The Download Series, read volume by volume. The discography states a
