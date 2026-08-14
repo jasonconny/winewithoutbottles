@@ -125,6 +125,112 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9923
   },
   {
+    "id": "19690426",
+    "date": "1969-04-26",
+    "venue": "Electric Theater",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19690426.svg",
+    "songCount": 26,
+    "durationSeconds": 10213
+  },
+  {
+    "id": "19690427",
+    "date": "1969-04-27",
+    "venue": "Labor Temple",
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19690427.svg",
+    "songCount": 8,
+    "durationSeconds": 6052
+  },
+  {
+    "id": "19691108",
+    "date": "1969-11-08",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19691108.svg",
+    "songCount": 22,
+    "durationSeconds": 9928
+  },
+  {
+    "id": "1970021301",
+    "date": "1970-02-13",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021301.svg",
+    "songCount": 9,
+    "durationSeconds": 3534
+  },
+  {
+    "id": "1970021302",
+    "date": "1970-02-13",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021302.svg",
+    "songCount": 15,
+    "durationSeconds": 9642
+  },
+  {
+    "id": "1970021401",
+    "date": "1970-02-14",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021401.svg",
+    "songCount": 5,
+    "durationSeconds": 4132
+  },
+  {
+    "id": "1970021402",
+    "date": "1970-02-14",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/1970021402.svg",
+    "songCount": 23,
+    "durationSeconds": 8517
+  },
+  {
     "id": "19700415",
     "date": "1970-04-15",
     "venue": "Winterland",
@@ -137,6 +243,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19700415.svg",
     "songCount": 14,
     "durationSeconds": 6377
+  },
+  {
+    "id": "19700502",
+    "date": "1970-05-02",
+    "venue": "Harpur College",
+    "city": "Binghamton",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19700502.svg",
+    "songCount": 22,
+    "durationSeconds": 11081
   },
   {
     "id": "19710224",
@@ -165,6 +285,63 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19710318.svg",
     "songCount": 23,
     "durationSeconds": 8646
+  },
+  {
+    "id": "19710806",
+    "date": "1971-08-06",
+    "venue": "Hollywood Palladium",
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19710806.svg",
+    "songCount": 20,
+    "durationSeconds": 9446
+  },
+  {
+    "id": "19710807",
+    "date": "1971-08-07",
+    "venue": "Golden Hall",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19710807.svg",
+    "songCount": 22,
+    "durationSeconds": 7727
+  },
+  {
+    "id": "19711031",
+    "date": "1971-10-31",
+    "venue": "Ohio Theatre",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19711031.svg",
+    "songCount": 21,
+    "durationSeconds": 8156
+  },
+  {
+    "id": "19720328",
+    "date": "1972-03-28",
+    "venue": "Academy of Music",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720328.svg",
+    "songCount": 27,
+    "durationSeconds": 11627
   },
   {
     "id": "19720407",
@@ -458,6 +635,35 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10319
   },
   {
+    "id": "19720917",
+    "date": "1972-09-17",
+    "venue": "Baltimore Civic Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720917.svg",
+    "songCount": 24,
+    "durationSeconds": 12729
+  },
+  {
+    "id": "19720921",
+    "date": "1972-09-21",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720921.svg",
+    "songCount": 27,
+    "durationSeconds": 13774
+  },
+  {
     "id": "19720924",
     "date": "1972-09-24",
     "venue": "Palace Theatre",
@@ -471,6 +677,50 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19720924.svg",
     "songCount": 27,
     "durationSeconds": 10858
+  },
+  {
+    "id": "19720927",
+    "date": "1972-09-27",
+    "venue": "Stanley Theater",
+    "city": "Jersey City",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19720927.svg",
+    "songCount": 25,
+    "durationSeconds": 11805
+  },
+  {
+    "id": "19730226",
+    "date": "1973-02-26",
+    "venue": "Pershing Municipal Auditorium",
+    "city": "Lincoln",
+    "state": "NE",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19730226.svg",
+    "songCount": 25,
+    "durationSeconds": 11212
+  },
+  {
+    "id": "19730228",
+    "date": "1973-02-28",
+    "venue": "Salt Palace",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19730228.svg",
+    "songCount": 20,
+    "durationSeconds": 9205
   },
   {
     "id": "19730316",
@@ -488,6 +738,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11794
   },
   {
+    "id": "19731019",
+    "date": "1973-10-19",
+    "venue": "Fairgrounds Arena",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731019.svg",
+    "songCount": 23,
+    "durationSeconds": 11334
+  },
+  {
     "id": "19731114",
     "date": "1973-11-14",
     "venue": "San Diego Sports Arena",
@@ -500,6 +765,183 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19731114.svg",
     "songCount": 26,
     "durationSeconds": 11328
+  },
+  {
+    "id": "19731130",
+    "date": "1973-11-30",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731130.svg",
+    "songCount": 23,
+    "durationSeconds": 10771
+  },
+  {
+    "id": "19731202",
+    "date": "1973-12-02",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731202.svg",
+    "songCount": 23,
+    "durationSeconds": 11175
+  },
+  {
+    "id": "19731219",
+    "date": "1973-12-19",
+    "venue": "Curtis Hixon Hall",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19731219.svg",
+    "songCount": 26,
+    "durationSeconds": 12030
+  },
+  {
+    "id": "19740323",
+    "date": "1974-03-23",
+    "venue": "Cow Palace",
+    "city": "Daly City",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Playing Palindrome",
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740323.svg",
+    "songCount": 32,
+    "durationSeconds": 12419
+  },
+  {
+    "id": "19740626",
+    "date": "1974-06-26",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740626.svg",
+    "songCount": 29,
+    "durationSeconds": 12771
+  },
+  {
+    "id": "19740628",
+    "date": "1974-06-28",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740628.svg",
+    "songCount": 28,
+    "durationSeconds": 12484
+  },
+  {
+    "id": "19740804",
+    "date": "1974-08-04",
+    "venue": "Philadelphia Civic Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740804.svg",
+    "songCount": 26,
+    "durationSeconds": 12455
+  },
+  {
+    "id": "19740805",
+    "date": "1974-08-05",
+    "venue": "Philadelphia Civic Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740805.svg",
+    "songCount": 27,
+    "durationSeconds": 11587
+  },
+  {
+    "id": "19740806",
+    "date": "1974-08-06",
+    "venue": "Roosevelt Stadium",
+    "city": "Jersey City",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740806.svg",
+    "songCount": 29,
+    "durationSeconds": 14033
+  },
+  {
+    "id": "19740909",
+    "date": "1974-09-09",
+    "venue": "Alexandra Palace",
+    "city": "London",
+    "country": "England",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740909.svg",
+    "songCount": 19,
+    "durationSeconds": 8385
+  },
+  {
+    "id": "19740910",
+    "date": "1974-09-10",
+    "venue": "Alexandra Palace",
+    "city": "London",
+    "country": "England",
+    "tags": [
+      "Dark Star",
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740910.svg",
+    "songCount": 22,
+    "durationSeconds": 11951
+  },
+  {
+    "id": "19740911",
+    "date": "1974-09-11",
+    "venue": "Alexandra Palace",
+    "city": "London",
+    "country": "England",
+    "tags": [
+      "Wall of Sound",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19740911.svg",
+    "songCount": 22,
+    "durationSeconds": 12867
   },
   {
     "id": "19740918",
@@ -858,6 +1300,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9180
   },
   {
+    "id": "19760925",
+    "date": "1976-09-25",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19760925.svg",
+    "songCount": 23,
+    "durationSeconds": 9657
+  },
+  {
+    "id": "19760928",
+    "date": "1976-09-28",
+    "venue": "Onondaga County War Memorial",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19760928.svg",
+    "songCount": 22,
+    "durationSeconds": 9462
+  },
+  {
     "id": "19761003",
     "date": "1976-10-03",
     "venue": "Cobo Arena",
@@ -870,6 +1340,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19761003.svg",
     "songCount": 21,
     "durationSeconds": 9563
+  },
+  {
+    "id": "19761009",
+    "date": "1976-10-09",
+    "venue": "Oakland Coliseum Stadium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19761009.svg",
+    "songCount": 22,
+    "durationSeconds": 9093
+  },
+  {
+    "id": "19761010",
+    "date": "1976-10-10",
+    "venue": "Oakland Coliseum Stadium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19761010.svg",
+    "songCount": 23,
+    "durationSeconds": 9503
   },
   {
     "id": "19770320",
@@ -984,8 +1482,8 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "tour": "Spring 1977",
     "svg": "/shows/19770501.svg",
-    "songCount": 21,
-    "durationSeconds": 8371
+    "songCount": 20,
+    "durationSeconds": 8272
   },
   {
     "id": "19770503",
@@ -1249,6 +1747,104 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10400
   },
   {
+    "id": "19770903",
+    "date": "1977-09-03",
+    "venue": "Raceway Park",
+    "city": "Englishtown",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19770903.svg",
+    "songCount": 19,
+    "durationSeconds": 10562
+  },
+  {
+    "id": "19771105",
+    "date": "1977-11-05",
+    "venue": "Community War Memorial",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19771105.svg",
+    "songCount": 19,
+    "durationSeconds": 9434
+  },
+  {
+    "id": "19771229",
+    "date": "1977-12-29",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19771229.svg",
+    "songCount": 23,
+    "durationSeconds": 10219
+  },
+  {
+    "id": "19780203",
+    "date": "1978-02-03",
+    "venue": "Dane County Coliseum",
+    "city": "Madison",
+    "state": "WI",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780203.svg",
+    "songCount": 19,
+    "durationSeconds": 9239
+  },
+  {
+    "id": "19780205",
+    "date": "1978-02-05",
+    "venue": "UNI-Dome",
+    "city": "Cedar Falls",
+    "state": "IA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780205.svg",
+    "songCount": 19,
+    "durationSeconds": 8832
+  },
+  {
+    "id": "19780510",
+    "date": "1978-05-10",
+    "venue": "Veteran's Memorial Coliseum",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780510.svg",
+    "songCount": 20,
+    "durationSeconds": 10113
+  },
+  {
+    "id": "19780511",
+    "date": "1978-05-11",
+    "venue": "Springfield Civic Center Arena",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780511.svg",
+    "songCount": 22,
+    "durationSeconds": 10245
+  },
+  {
     "id": "19780513",
     "date": "1978-05-13",
     "venue": "Spectrum",
@@ -1360,6 +1956,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9964
   },
   {
+    "id": "19791226",
+    "date": "1979-12-26",
+    "venue": "Oakland Auditorium Arena",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19791226.svg",
+    "songCount": 25,
+    "durationSeconds": 10566
+  },
+  {
     "id": "19800823",
     "date": "1980-08-23",
     "venue": "Alpine Valley Music Theatre",
@@ -1444,6 +2054,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10328
   },
   {
+    "id": "19810506",
+    "date": "1981-05-06",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19810506.svg",
+    "songCount": 25,
+    "durationSeconds": 10243
+  },
+  {
     "id": "19810516",
     "date": "1981-05-16",
     "venue": "Barton Hall, Cornell University",
@@ -1470,6 +2094,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19820731.svg",
     "songCount": 22,
     "durationSeconds": 10728
+  },
+  {
+    "id": "19820807",
+    "date": "1982-08-07",
+    "venue": "Alpine Valley Music Theatre",
+    "city": "East Troy",
+    "state": "WI",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19820807.svg",
+    "songCount": 24,
+    "durationSeconds": 9490
   },
   {
     "id": "19820920",
@@ -1542,6 +2180,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10267
   },
   {
+    "id": "19831014",
+    "date": "1983-10-14",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19831014.svg",
+    "songCount": 20,
+    "durationSeconds": 10655
+  },
+  {
     "id": "19831021",
     "date": "1983-10-21",
     "venue": "Worcester Centrum",
@@ -1597,6 +2249,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19850624.svg",
     "songCount": 22,
     "durationSeconds": 9010
+  },
+  {
+    "id": "19851101",
+    "date": "1985-11-01",
+    "venue": "Richmond Coliseum",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19851101.svg",
+    "songCount": 22,
+    "durationSeconds": 9028
   },
   {
     "id": "19851121",
@@ -2589,6 +3255,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9358
   },
   {
+    "id": "19910925",
+    "date": "1991-09-25",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19910925.svg",
+    "songCount": 22,
+    "durationSeconds": 9774
+  },
+  {
     "id": "19920320",
     "date": "1992-03-20",
     "venue": "Copps Coliseum",
@@ -2616,6 +3296,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19920606.svg",
     "songCount": 20,
     "durationSeconds": 9290
+  },
+  {
+    "id": "19921216",
+    "date": "1992-12-16",
+    "venue": "Oakland Coliseum Arena",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19921216.svg",
+    "songCount": 18,
+    "durationSeconds": 10046
   },
   {
     "id": "19930317",

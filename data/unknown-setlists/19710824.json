@@ -1,0 +1,76 @@
+{
+  "id": "19710824",
+  "date": "1971-08-24",
+  "venue": "Auditorium Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "source": "Dick's Picks Volume 35",
+  "note": "Setlist not definitively known. Per JerryBase the tape was found among Keith Godchaux's houseboat tapes and only what was salvageable was released on Dick's Picks Volume 35; nothing else circulates. DeadBase 50 lists mostly the same songs in a different order, and the origin of the rest of its setlist is unclear. The 16 timed tracks here are the surviving fragment, not the night.",
+  "songs": [
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:12"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "5:04"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:09"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "7:48"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:42"
+    },
+    {
+      "title": "Empty Pages",
+      "duration": "5:22"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:45"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:11"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "5:31"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "4:08"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:25"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:13"
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "duration": "6:18"
+    },
+    {
+      "title": "Big Boss Man",
+      "duration": "4:30"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:03"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "11:37"
+    }
+  ]
+}

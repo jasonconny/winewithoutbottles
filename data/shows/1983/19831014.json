@@ -1,0 +1,92 @@
+{
+  "id": "19831014",
+  "date": "1983-10-14",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 6",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "6:06"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:52"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "9:10"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:48"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:31"
+    },
+    {
+      "title": "Althea",
+      "duration": "8:49"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "8:01"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:33"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "5:53"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "5:57"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "14:20"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "16:36"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "13:11"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "17:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:25"
+    },
+    {
+      "title": "Space",
+      "duration": "13:05"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:09"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:10"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:26"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:40"
+    }
+  ]
+}

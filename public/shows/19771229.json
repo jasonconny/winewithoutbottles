@@ -1,0 +1,108 @@
+{
+  "id": "19771229",
+  "date": "1977-12-29",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19771229.svg",
+  "songCount": 23,
+  "durationSeconds": 10219,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 425
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 228
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 549
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 858
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 410
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 948
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 339
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 327
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 100
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 159
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 629
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 276
+    }
+  ]
+}

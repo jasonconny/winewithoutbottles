@@ -1,0 +1,104 @@
+{
+  "id": "19700502",
+  "date": "1970-05-02",
+  "venue": "Harpur College",
+  "city": "Binghamton",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19700502.svg",
+  "songCount": 22,
+  "durationSeconds": 11081,
+  "songs": [
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 278
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 103
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Deep Elem Blues",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Cold Jordan",
+      "durationSeconds": 155
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 388
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 203
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1697
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 910
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 483
+    },
+    {
+      "title": "It's a Man's, Man's, Man's World",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 942
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 760
+    },
+    {
+      "title": "Viola Lee Blues",
+      "durationSeconds": 995
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 299
+    }
+  ]
+}

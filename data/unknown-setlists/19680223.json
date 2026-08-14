@@ -1,0 +1,44 @@
+{
+  "id": "19680223",
+  "date": "1968-02-23",
+  "venue": "Kings Beach Bowl",
+  "city": "Kings Beach",
+  "state": "CA",
+  "country": "USA",
+  "source": "Dick's Picks Volume 22",
+  "note": "Setlist not definitively known. Dick's Picks Volume 22 documents \"portions of the concerts\" of February 23 and 24, 1968 at the Kings Beach Bowl, mastered from Dan Healy's original reels — the same live material that fed Anthem of the Sun. Nothing circulates for either night on archive.org, so there is no source to say what else was played or in what order. The tracks here are the released portion, not the night. It is not impossible that the remainder survives in the vault and is released some day, in which case these move into data/shows/ — but nothing outside the vault can settle them now.",
+  "songs": [
+    {
+      "title": "Viola Lee Blues",
+      "duration": "19:16"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "4:13"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "6:49"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:38"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "10:33"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "12:40"
+    },
+    {
+      "title": "Born Cross-Eyed",
+      "duration": "2:32"
+    },
+    {
+      "title": "Spanish Jam",
+      "duration": "7:23"
+    }
+  ]
+}

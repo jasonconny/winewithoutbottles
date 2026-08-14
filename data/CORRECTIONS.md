@@ -35,7 +35,7 @@ archive reflects the right title rather than preserving the typo.
 | 1976 ×10   | BEW     | mis-colored stripe (`144-65-140`, G channel off); 06-04, 06-09, 06-10, 06-11, 06-12, 06-14, 06-18, 06-19, 06-21, 06-23 | `Brown-Eyed Women` (`144-78-140`)                       |
 | 1976-06-18 | #19     | mis-colored stripe (`120-78-105`)                                                                                      | `Sugar Magnolia`                                        |
 | 1990-03-14 | #13     | mis-colored jam stripe (`135-100-60`)                                                                                  | `Jam` (`100-10-130`)                                    |
-| 1990-03-25 | #20     | mis-colored stripe (`105-136-95`)                                                                                      | `Quinn the Eskimo (Mighty Quinn)`                       |
+| 1990-03-25 | #20     | mis-colored stripe (`105-136-95`)                                                                                      | `Quinn the Eskimo (The Mighty Quinn)`                   |
 | 1990-04-02 | #2      | mis-colored stripe (`131-128-128`, G off by 8)                                                                         | `Mississippi Half-Step Uptown Toodeloo` (`131-120-128`) |
 | 1990-10-17 | #9      | mis-colored stripe (`133-120-48`, G off by 14)                                                                         | `Tennessee Jed` (`133-106-48`)                          |
 | 1990-10-22 | #4      | mis-colored stripe (`90-45-102`, G off by 5)                                                                           | `Wang Dang Doodle` (`90-50-102`)                        |
@@ -119,6 +119,19 @@ _mean_, so both render `131,120,128`. That is exactly why it survived so long,
 and why `tests/data-validity.test.ts` now rejects two canonical titles that are
 letter-for-letter rearrangements of each other.
 
+### Quinn the Eskimo, retitled
+
+`Quinn the Eskimo (Mighty Quinn)` became **`Quinn the Eskimo (The Mighty
+Quinn)`** on 2026-08-12: Jason checked bobdylan.com, and that is the official
+title of the song. The old form is kept as an alias, alongside the release
+spellings `The Mighty Quinn` and `The Mighty Quinn (Quinn the Eskimo)`.
+
+Unlike the Half-Step fold this one **is visible in the art**. The extra `THE_`
+lengthens the cleaned title from 30 to 33 characters and shifts every channel
+slice, so the stripe moves from `108,104,135` to `103,103,131` — slightly
+darker, slightly less blue. Five shows carry the song, one stripe each:
+19880919, 19900325, 19900919, 19910909 and 19910925.
+
 ## Import departures
 
 Shows imported from an official release rather than bootstrapped from the 2013
@@ -126,15 +139,27 @@ art, where the authored data deliberately **differs from the release's own track
 listing**. A release names tracks for a CD index, not for a setlist, so its
 splits and spellings are not always the performance. Each is confirmed by Jason.
 
-| Show(s)    | Release says                                                                     | Authored as                             | Why                                                                                                                                                                                                                                                                                                               |
-| ---------- | -------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                      | `King Solomon's Marbles` (6:26)         | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
-| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`              | `That's It for the Other One` (16:53)   | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
-| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                    | `That's It for the Other One` (24:16)   | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
-| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical` | left split, `Cryptical Envelopment` × 2 | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
-| 1970-04-15 | `Technical Difficulties` (4:11)                                                  | dropped (`notASong`)                    | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
-| 1981-05-16 | `Nobody's Jam` (2:30)                                                            | `Nobody's Jam` (kept, as its own song)  | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
-| 1975-09-28 | `The Eleven Jam` (5:34)                                                          | `Jam` (5:34)                            | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
+| Show(s)    | Release says                                                                                             | Authored as                                        | Why                                                                                                                                                                                                                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1975-09-28 | `Milkin' the Turkey` (6:26)                                                                              | `King Solomon's Marbles` (6:26)                    | Not a jam — the composed _Blues for Allah_ instrumental. `King Solomon's Marbles` is the umbrella covering both themes (Stronger Than Dirt, Milkin' the Turkey) per Jesse Jarnow on the Good Ol' Grateful Deadcast; both are played here. DeadBase/JerryBase call it `Stronger Than Dirt`, which names only half. |
+| 1969-02-22 | `Cryptical Envelopment` / `The Other One` / `Cryptical Envelopment`                                      | `That's It for the Other One` (16:53)              | The full suite played unbroken. Matches the four Feb–Mar 1969 shows already in the corpus (19690227/28, 19690301/02), which store it as one stripe.                                                                                                                                                               |
+| 1970-04-15 | `Cryptical` / `Drums` / `Jam` / `The Other One` / `Cryptical`                                            | `That's It for the Other One` (24:16)              | Same suite. Drums, Jam and Space are _excepted_ — they occur inside the suite and do not break it; any other song does.                                                                                                                                                                                           |
+| 1985-06-24 | `Cryptical` / `Drums` / `Space` / `Comes a Time` / `The Other One` / `Cryptical`                         | left split, `Cryptical Envelopment` × 2            | **Not** folded: `Comes a Time` is a separate song sitting inside the span, so the suite is genuinely interrupted. This is why `Cryptical Envelopment` exists as a canonical title at all.                                                                                                                         |
+| 1970-04-15 | `Technical Difficulties` (4:11)                                                                          | dropped (`notASong`)                               | Banter while the roadies dealt with technical difficulties — not music, like `Tuning` and `Introduction`.                                                                                                                                                                                                         |
+| 1981-05-16 | `Nobody's Jam` (2:30)                                                                                    | `Nobody's Jam` (kept, as its own song)             | Charlie Miller's soundboard titles it `Nobody's Fault But Mine Jam`. Following DeadBase, the sung `Nobody's Fault But Mine` and the purely instrumental `Nobody's Jam` are two different songs; JerryBase instead calls both by the sung title, marking instrumentals "theme only".                               |
+| 1975-09-28 | `The Eleven Jam` (5:34)                                                                                  | `Jam` (5:34)                                       | Never touches the Eleven theme; the soundboard just calls it `Jam`. Matches JerryBase's notation and the existing `Lunatic Preserve` / `Mock Turtle Jam` / `No MSG Jam` aliases.                                                                                                                                  |
+| 1982-08-07 | `Encore: U.S. Blues` printed on Disc One, straight after the first set                                   | `U.S. Blues` last, after `Morning Dew`             | Purest case of a CD index differing from a setlist: the encore is on disc one because that is where it fit. Both circulating soundboards (`gd1982-08-07.137625.sbd.miller`, `…141795.sbd.pcm.streeter.dalton.miller.clugston`) have it as the closer.                                                             |
+| 1982-08-07 | `Drums` (5:31) / `Space` (5:31), footnoted "Edited version of performance"                               | `Drums` (8:22) / `Space` (4:24)                    | The release says outright that these two are edited, so its timings describe the CD, not the night. Taken from the PCM transfer of Dan Healy's master cassettes (Streeter reels → Dalton PCM → Clugston/Miller), the best-lineage unedited source; a second soundboard corroborates a ~13-minute pair.            |
+| 1972-03-28 | `Sidewalks of New York` (1:10), called in the article "a brief, instrumental tuning before the encore"   | kept as a song                                     | **Not** retired the way `Beer Barrel Polka` and `Funiculì, Funiculà` were. Jason's call: this is the Dead's only live performance of it, which makes it singular rather than routine tuning.                                                                                                                      |
+| 1981-05-06 | one 15:24 track, `Caution / Spanish Jam`                                                                 | `Caution Jam` (11:06) + `Spanish Jam` (4:18)       | Two pieces under one CD index. The combined-track rule (take the last title) only fires on two separately quoted titles, and both pieces are canonical here, so neither half should vanish. Jason placed the seam: Jerry starts the Spanish Jam at 11:06, and the remainder is arithmetic.                        |
+| 1983-10-14 | `Spinach Jam` (13:05)                                                                                    | `Space` (13:05)                                    | The name is the release's alone — DeadBase and JerryBase both read `Space > Spanish Jam` across this stretch. Jason doesn't hear a Spanish Jam in it, so it stands as one `Space` stripe rather than a jam the canon would otherwise have to mint.                                                                |
+| 1991-09-25 | `Boston Clam Jam` (5:37)                                                                                 | `Jam` (5:37)                                       | A compiler's pun on the venue, not a piece of repertoire. Folded into `Jam` like `Mock Turtle Jam` / `No MSG Jam` / `The Eleven Jam` before it, rather than joining the named jams (`Spanish Jam`, `Mind Left Body Jam`) that name a theme.                                                                       |
+| 1970-05-02 | `Cryptical Envelopment` / `Drums` / `The Other One` / `Cryptical Envelopment` (28:17 across four tracks) | `That's It for the Other One` (28:17)              | The Cryptical rule below, third instance. Corroborated by the primary source rather than only by convention: Charlie Miller's soundboard (`gd1970-05-02.138227.sbd.miller`) titles the same stretch as one 28:46 track.                                                                                           |
+| 1970-05-02 | nothing — `Cold Rain and Snow` is left off the release entirely                                          | `Cold Rain and Snow` (8:03), after `Good Lovin'`   | The article names both the omission and its slot: "played between Good Lovin' and It's a Man's Man's Man's World". The timing comes from `gd1970-05-02.sbd.remaster.dp8outtake`, which is that song alone from the release's own remaster, so it sits consistently beside the other 21 stripes.                   |
+| 1973-02-28 | nothing — `Promised Land` is absent from Dick's Picks 28                                                 | `Promised Land` (3:32), after `Row Jimmy`          | The soundboard (`gd1973-02-28.sbd.jools`) has it there, but that tape stops after Eyes of the World and never reaches the release's `Truckin'`, so the position is **inferred**: the tape's ordering as far as it goes, with Truckin' left where the release puts it.                                             |
+| 1976-09-25 | nothing — `It's All Over Now` is absent                                                                  | `It's All Over Now` (6:38), after `Cosmic Charlie` | Dick's Picks 20 says it holds "the majority of the concerts"; against the soundboard this is the one song missing from 9/25, and the tape places it between Cosmic Charlie and Scarlet Begonias.                                                                                                                  |
+| 1976-09-28 | nothing — `Bertha` is absent                                                                             | `Bertha` (5:36), after `Big River`                 | Same release, same reason; the tape has it third, between Big River and Cassidy. The release's `Orange Tango Jam` is **not** a second gap — it is the tape's second `Jam`, in the same slot between Eyes of the World and Dancing in the Street.                                                                  |
+| 1977-12-29 | nothing — `It Must Have Been the Roses` and `Sunrise` are absent                                         | both restored after `Good Lovin'` (9:19, 8:24)     | Dick's Picks 10 holds 21 of the night's 23 songs. The two come from the PCM transfer of Betty's masters, which places them between Good Lovin' and Playing in the Band. The release's `Playing Jam` is not a third gap — DeadBase and JerryBase both call that coda `Playing in the Band`.                        |
 
 The Cryptical rule is mechanical and worth restating, since it will come up
 again: fold a `Cryptical Envelopment` … `Cryptical Envelopment` span into one
@@ -162,10 +187,97 @@ later, and it is full Space from there to the end. So the single track is
 authored as two stripes, `Drums` (18:45) + `Space` (3:41), the remainder being
 arithmetic rather than a second judgement.
 
+`1972-09-17` (_Dick's Picks Volume 23_) is the mirror case: the release is
+otherwise the complete Baltimore Civic Center show, and its own article says so
+— "complete concert, except for the encore, which was `One More Saturday
+Night`". The circulating soundboard (`gd72-09-17.sbd.hamilton`) stops short of
+the encore too, so for a while the show stood at 23 stripes with a documented
+song missing. Jason found an audience tape,
+`gd1972-09-17.aud-wolfson.minches.28165.shnf`, which carries it at **5:34**, and
+that is the authored timing. The `source` names both, pipe-separated, because
+23 of the 24 stripes are the release's.
+
 This is the same kind of call as the 1974-10-19 `He's Gone` / `Truckin'` split
 above: an official release's track _grouping_ is a CD index, not a claim about
 where one piece of music ends. Where the grouping and the performance disagree
 and Jason can hear the boundary, the performance wins.
+
+### Shows whose setlist can't be known
+
+`data/unknown-setlists/` is a third holding pen, alongside `data/shows/` and
+`data/partial-shows/`, opened on 2026-08-12 for **`1971-08-24`** (Auditorium
+Theatre, Chicago).
+
+_Dick's Picks Volume 35_ presents it as one of two complete shows, and the
+importer read it that way — 16 tracks, 1h34, short for 1971. It isn't a short
+show, it's a fragment: per JerryBase the tape was found among Keith Godchaux's
+houseboat tapes, only what was salvageable was released, and nothing else
+circulates. DeadBase 50 lists mostly the same songs **in a different order**,
+and where the rest of its setlist came from is unclear. No tape is catalogued on
+archive.org for the date, so there is nothing to check either source against.
+
+That is a different condition from a staged partial. A partial is waiting for a
+timing somebody can still supply; this is waiting for nothing. And it can't sit
+in `data/shows/`, because stripes are a claim about what was played and in what
+order — a claim the record here doesn't support. So the file keeps its 16
+surviving timings and a required `note` explaining the doubt, and stays out of
+the generator's reach (`generate.ts` reads `data/shows` recursively and never
+sees the sibling).
+
+`data/releases.json` records the same judgement by keeping `1971-08-24` out of
+Dick's Picks 35's `dates` — the convention that already means "this release
+can't source that show whole".
+
+**`1968-02-23` and `1968-02-24`** (Kings Beach Bowl, Kings Beach) joined them the
+same day. _Dick's Picks Volume 22_ says outright that it "documents portions of
+the concerts", giving 8 tracks from the first night and 10 from the second,
+mastered from Dan Healy's original reels — the live material that also fed
+_Anthem of the Sun_. Neither night circulates on archive.org, so unlike a
+staged partial there is no soundboard to say what else was played, and unlike a
+retiming there is nothing to check the order against. Dick's Picks 22 therefore
+carries **no** `dates` at all: both are `bonusDates`, since the release can
+source neither whole.
+
+The 2/24 file folds the article's untimed `Cryptical Envelopment` / `The Faster
+We Go, the Rounder We Get` / `Cryptical Envelopment` sub-bullets into the single
+8:13 `That's It for the Other One` they sit under — the same umbrella the corpus
+uses everywhere else.
+
+`Born Cross-Eyed` was added to the canon for the 2/23 file: a Weir song off
+_Anthem of the Sun_, credited as such by the release.
+
+### Patched and edited tracks
+
+_Dick's Picks 20_ and _28_ both splice material from other nights into otherwise
+whole performances, and say so in their own footnotes: 20 patches its
+`Mississippi Half-Step` from 1976-10-09 and another track from 1976-10-01, and
+prints an "edited version with second verse excised" of `Dancing in the
+Streets`; 28 patches from 1973-02-22 and 1973-06-29. _Dick's Picks 32_ footnotes
+its `Drums` and `Space` as edited, which is why those two came off a tape
+instead (above).
+
+Jason's call, 2026-08-12: import the patched ones as they stand and log it. The
+splices are seconds to a verse inside performances that are otherwise the night
+in question, and the release is the only source that times them at all — where a
+release admits to shortening a whole _piece_, as 32 does, the tape wins instead.
+
+### Set headings and the depth rule
+
+`tracksByDate` ranks headings — `==Section==` above `===Subsection===` above
+`'''Disc 1'''` above `:''First set:''` — because an undated heading means two
+opposite things depending on where it sits.
+
+Dick's Picks 28 heads each night with a section (`===February 26, 1973 –
+Pershing…===`) and opens discs beneath it, so `'''Disc 1'''` is _inside_ that
+night. Dave's Picks 50 does the reverse: a `:''May 4 bonus''` subheading sits
+inside a disc, and the `'''Disc 3'''` after it leaves the bonus block behind.
+Treating every undated heading as a return to the main show gets the second
+right and the first badly wrong — with 1973-02-26 moved to `bonusDates`, 2/28
+came back carrying both nights, 38 tracks.
+
+So an undated heading _subordinate_ to whatever set the current date stays with
+it; a sibling or more senior one returns to the main show. `--audit` reports the
+same shows at +0:00 before and after the change.
 
 ### Source typos
 
@@ -186,11 +298,548 @@ colon and minted `The Other One:` as a separate song. Fixed in `cleanWikiTitle`
 (`generator/import.ts`) by stripping a trailing colon — no song title ends in
 one — rather than by aliasing the artifact.
 
+### Additions to the canon from Dick's Picks
+
+Two titles the canon didn't hold, both settled by Jason on 2026-08-12:
+
+- **`Empty Pages`** (5:22, `1971-08-24`, _Dick's Picks Volume 35_) is a Pigpen
+  original — the release credits McKernan, not Traffic's Steve Winwood, whose
+  same-named song it isn't. Added as a canonical song with its own colour.
+- **`Phil Solo`** (2:06, `1977-11-05`, _Dick's Picks Volume 34_) went to
+  `notASong`. It opens the second set immediately before `Take A Step Back`,
+  which the canon already drops: the two are one crowd-control moment, Lesh
+  playing the crowd back off the stage front rather than a piece of repertoire.
+  That takes the show from 20 tracks to 19.
+
+### Set headings written flush left
+
+The `Dick's Picks` articles head their sets with an unindented italic line —
+`''March 25 – first set:''`, `''Bonus tracks recorded September 2, 1980:''` —
+where the releases imported earlier indent theirs (`:''First set:''`). The
+importer's heading test required at least one leading colon, so on those
+articles **every** set heading was invisible and every track fell to whichever
+show the listing was already on. Three of the nine Dick's Picks imports were
+wrong because of it:
+
+| Show       | Wrong                                                                             | Right |
+| ---------- | --------------------------------------------------------------------------------- | ----- |
+| 1972-03-28 | 36 tracks — disc one's Bo Diddley guest set (3/25) and a 3/27 selection prepended | 27    |
+| 1985-11-01 | 26 tracks — four bonus tracks from 1980-09-02, Rochester, appended                | 22    |
+| 1992-12-16 | 22 tracks — four bonus tracks from 1992-12-17 appended                            | 18    |
+
+The 1985 case is the loudest: it silently placed five-years-earlier music from
+another state inside a 1985 show. Fixed by making the indent optional in
+`tracksByDate`'s heading match (`generator/import.ts`). `--audit` reports the
+same 129 shows at +0:00 before and after, so no already-imported show was
+reading its headings that way.
+
+### Reclassified as not a song
+
+`Beer Barrel Polka` was a canonical title and a **1:39 stripe in 1977-05-01**
+(The Palladium, track 15, between `Brown-Eyed Women` and `Playing in the Band`).
+Jason's call, 2026-08-11: it is a tuning rather than a performance — the same
+judgement already applied to `Funiculì, Funiculà`. It moved from `songs` to
+`notASong` (both the correct spelling and the tape's `Beer Barrell Polka`), and
+the stripe was removed, taking that show from 21 tracks to 20.
+
+This is the first time a `notASong` decision has **retired an existing stripe**
+rather than merely excluded a track during import, so it changed art that was
+already generated. The show is 1:39 shorter and every stripe after position 15
+shifts left.
+
 ### Venue naming
 
 Venues are filled in by hand (the importer leaves `venue`/`city` blank), so where
 sources disagree the choice is recorded here.
 
-| Show       | Sources disagree                                                                                           | Authored as                                                                                                                                                                |
-| ---------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1967-11-10 | Wikipedia's discography says `Shrine Auditorium`; DeadBase and JerryBase both say `Shrine Exhibition Hall` | `Shrine Exposition Hall` — the spelling on the official vinyl release. The Shrine complex has two distinct rooms and the band played both, so Auditorium is not a synonym. |
+| Show       | Sources disagree                                                                                           | Authored as                                                                                                                                                                 |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1967-11-10 | Wikipedia's discography says `Shrine Auditorium`; DeadBase and JerryBase both say `Shrine Exhibition Hall` | `Shrine Exposition Hall` — the spelling on the official vinyl release. The Shrine complex has two distinct rooms and the band played both, so Auditorium is not a synonym.  |
+| 1969-04-26 | Wikipedia links the venue as `[[Kinetic Playground\|Electric Theater]]`                                    | `Electric Theater` — the room's name in April 1969. It was renamed Kinetic Playground later that year, so the article's link target is the modern article, not the marquee. |
+
+### Attribution by disc and track number
+
+_Dick's Picks Volume 26_ could not be imported at all: its two nights are split
+**within a single disc**, so no heading rule could ever separate them, and
+MusicBrainz was no help either because its per-medium titles name one night
+where this medium holds two. The article states the attribution in prose instead:
+
+```
+*April 26, 1969 – Disc 1 tracks 1–9 (an additional track from this date was released on ''Fallout from the Phil Zone'')
+*April 27, 1969 – Disc 1 tracks 10–12, Disc 2
+```
+
+`discTrackDates` (`generator/import.ts`) now reads a `==Recording dates==`
+section of that shape and, when it resolves completely, it **outranks the
+heading walk** — it is the only reader that can split one disc across two nights.
+It returns null on any doubt, since a half-read mapping would attribute some
+tracks and silently orphan the rest.
+
+Three other releases carry such a section. _Go to Nassau_ was also unreadable
+before (23 tracks orphaned, no show importable) and now splits 14/9. _Dick's
+Picks Volume 14_ parses identically either way — its headings already worked.
+_Rocking the Cradle: Egypt 1978_ writes its bullets date-**last** and references
+an unnumbered "Bonus disc" and a DVD, so it bails and is no worse off. `--audit`
+reports the corpus unchanged (154 timed, 1 untimed, 1 unparsed) before and after.
+
+### Additions to the canon from Dick's Picks Volume 26
+
+Settled by Jason on 2026-08-13, all from the 4/26/69 Charlie Miller soundboard:
+
+- **`What's Become of the Baby`** (8:18, `1969-04-26`) sits between two `Feedback`
+  tracks, and it is not a performance in the ordinary sense — the _Aoxomoxoa_
+  studio recording was played over the PA during Feedback, which makes this its
+  only "live" appearance. Added as a canonical song anyway, deliberately, for the
+  weirdness: the wall records what the room heard.
+- **`Silver Threads and Golden Needles`** (`1969-04-26`) — a straightforward
+  addition, a cover in the 1969 rotation the corpus hadn't reached yet.
+- **`I Know It's a Sin`** — the Jimmy Reed cover the DP 26 article itself calls
+  rare. The tape abbreviates it to `It's A Sin`, which is aliased rather than
+  added, since a dropped `I Know` would be a different colour.
+
+Two taper spellings were aliased at the same time: `It's a Sin` and
+`Sittin on Top of the World` (the canon already held the apostrophe'd
+`Sittin' on Top of the World`, and alias matching is exact once lowercased).
+
+### Where the tape and the release disagree about boundaries — 1969-04-26
+
+A taper's tracking is a reading of the music, not a fact about it, and so is a
+release's. Two of Charlie Miller's calls on the 4/26/69 soundboard went opposite
+ways when Jason listened, 2026-08-13:
+
+- **`Dark Star Jam` (1:37) rejected — folded back into `Mountains of the Moon`.**
+  Miller tracks a separate jam after Mountains of the Moon. Jason: there are
+  similarities in Garcia's phrasing to the Mountains → Dark Star transition on
+  _Live/Dead_, but **none of the key phrases or riffs are played**, so it isn't
+  Dark Star. Folded, which restores the official release's `Mountains of the
+Moon` — 5:08 + 1:37 = the 6:45 _Dick's Picks 26_ carries. Two independent
+  readings landing on the same number is the confirmation.
+- **`Caution Jam` (8:05) accepted — Miller's tracking kept over the official
+  one.** `Viola Lee Blues` from this date was released on _Fallout from the Phil
+  Zone_ as a single undivided track. Jason: the performance **does** contain a
+  substantial Caution jam, so Miller's three-way split (`Viola Lee Blues` 10:53
+  → `Caution Jam` 8:05 → `Viola Lee Blues` 1:35) is the truer reading, and the
+  official timing and tracking were disregarded.
+
+- **`Drums` (0:57) gained — Miller's split kept over the release's single track.**
+  _Dick's Picks 26_ lists `Cryptical Envelopment – 3:05` and no Drums at all;
+  Miller splits it `Cryptical Envelopment` 2:08 → `Drums` 0:57, and 2:08 + 0:57 =
+  3:05 exactly. The corpus follows Miller, so the show carries a Drums stripe the
+  release doesn't have. This is why `--audit` reports 19690426 at **+0:57 with 1
+  row differing** against DP 26 — that is the deliberate departure showing up,
+  not drift.
+
+The set is worth keeping together because the calls point in different
+directions:
+the release is not automatically right, and neither is the taper. Same class of
+judgement as the He's Gone / Truckin' and Drums / Space splits — a track listing
+is a CD index, not a claim about where the music ends.
+
+### A release that is partial overall but whole for one night
+
+_Dick's Picks Volume 26_ is `completeness: partial`, and for **4/26/69** it
+plainly is: the Miller soundboard runs 27 songs and the release carries 9.
+
+**4/27/69 is the opposite case.** archive.org has exactly one tape for the date,
+and its 8 tracks are the release's 8 in the release's order — it is a rip of
+_Dick's Picks 26_, not an independent soundboard, so it cannot testify about what
+else was played. Jason's call, 2026-08-13: **no source specifically indicates the
+setlist is incomplete, so treat it as complete.** The show was promoted to
+`data/shows/1969/` with `source: "Dick's Picks Volume 26"` alone — the archive.org
+identifier was dropped from `source`, since citing a rip of the release as a
+second source would be circular.
+
+### The Tighten Up Jam gets no stripe — 1971-10-31
+
+The DP 2 article carries a `==Set list==` section sourced to _DeadBase XI_ that
+lists the complete concert, and it names a **`Jam`** between `Dark Star` and
+`Sugar Magnolia` — the "Tighten Up Jam", which the article notes the band played
+only a handful of times between 1969 and 1971.
+
+It is **not** authored as a stripe. No source separates it: _Dick's Picks Volume
+2_ writes its first track as `"Dark Star" – 23:14 → "Jam" →`, one duration
+covering both, and the Gans/Eaton/Miller soundboard does the same. Jason's call,
+2026-08-13: since neither the official release, DeadBase nor JerryBase explicitly
+breaks it out, leave it folded into the 23:14 `Dark Star`.
+
+The distinction from the He's Gone / Truckin' and Drums / Space splits is that
+those had a boundary Jason could hear and place. Here nothing supplies one, and
+inventing a seam to honour a setlist entry would be a guess wearing the clothes
+of a correction. A rare jam the written record knows about is therefore absent
+from the art, deliberately.
+
+The `Cold Rain and Snow` tease on the way back into `Not Fade Away`, which the
+same article calls out, gets no stripe either — the standing rule for teases.
+
+### Weather Report Suite, named three ways — 1973-11-30
+
+The suite is authored as **three stripes** — `Weather Report Suite Prelude`,
+`Weather Report Suite Part 1`, `Let It Grow` — matching how the corpus already
+carries it at 1974-10-17 and 1974-10-18. Getting there took a decision, because
+on this date the same words mean different music in different sources:
+
+| source                             | what it calls the suite                                                      | duration    |
+| ---------------------------------- | ---------------------------------------------------------------------------- | ----------- |
+| _Dick's Picks Volume 14_           | `Weather Report Suite`                                                       | 14:44       |
+| `mtx.dusborne` (the skeleton tape) | `Weather Report Suite` + `Let It Grow`                                       | 5:27 + 9:16 |
+| `sbd.vernon`                       | `Weather Report Suite Prelude-> Weather Report Suite Part 1` + `Let It Grow` | 5:37 + 9:19 |
+
+The release uses the name for **all three parts** (5:27 + 9:16 = 14:43 against
+its 14:44), while both tapes use it for the **first two**. Taking the release's
+14:44 onto the tape's slot would have double-counted Let It Grow.
+
+No source on this date separates the Prelude from Part 1. Jason's call,
+2026-08-13: keep the established three-stripe convention and supply the split by
+listening — **Prelude 1:18, Part 1 4:10**, which sums to 5:28 against dusborne's
+undivided 5:27. Two nights later on 12/02 the `sbd.clugston` tape splits all
+three itself (1:27 / 4:49 / 9:07), so that show needed no judgement at all.
+
+`Weather Report Suite` was **not** added to the canon. It would have been a third
+colour beside the Prelude and Part 1, under a name two sources already use for
+different spans of music.
+
+### A track listing held in a template — 1978-02-03 and 1978-02-05
+
+_Dick's Picks Volume 18_ returned **zero tracks for both its nights** while
+listing 26, because its track listing is a `{{track listing}}` **template**:
+tracks are numbered parameters (`title1=`, `length1=`), not list rows, so every
+line-based reader was blind to them. Six eligible releases use the template and
+four attach dates to it, so `tracksByTrackListing` (`generator/import.ts`) now
+reads it, ahead of the heading walk.
+
+The article uses **both** of the template's date mechanisms at once, and both are
+supported:
+
+- **`extra_column = Recording date`** with a per-track `extraN`, which is how
+  disc one attributes a first set recombined from three different nights;
+- a **`headline`** naming one — `Disc 2 (all tracks recorded on February 3)` —
+  covering every track in that block.
+
+Per-track wins where both apply. A track resolving to neither is orphaned rather
+than handed to a neighbour: a template block has no "show in progress" to fall
+back on.
+
+**A shared helper was wrong.** `monthDayIn` tested only the **first**
+`Word Number` pair in a string, and in `Disc 2 (all tracks recorded on February
+3)` that is `Disc 2` — not a month, so it returned null and never reached the
+date. It now scans every pair and skips non-months, which can only turn a null
+into a date and never change one the old form already found. `--audit`
+confirms: no already-imported show re-bucketed.
+
+The fix had one side effect worth recording — _Dozin' at the Knick_ also uses the
+template, and went from `!! no tracks matched` to parsing. That was the corpus's
+only `unparsed` release.
+
+**2/4/78 Milwaukee stays out.** _Dick's Picks 18_ carries two songs from it,
+which cannot source a show, so it remains an unimported bonus date.
+
+### 1990-03-24 always shows an audit delta, and that is correct
+
+`--audit` reports 19900324 against _Dozin' at the Knick_ at roughly −9:55 across
+three durations, and it always will. Two things combine:
+
+- the show is a **legacy reconstruction with no `source`**, authored from Jason's
+  2013 art rather than imported, so the audit has to pick a release by date; and
+- of the releases carrying the date, _Spring 1990_ holds it as a **bonus** date
+  (which `chooseSource` skips, since it filters on `dates`), leaving only
+  _Dozin' at the Knick_ — a **selections** set that was never its source.
+
+So the audit compares hand-authored art against a release holding part of the
+night. Jason, 2026-08-13: **accept it as a standing exception.** The show is
+spread across more releases than any other in the corpus, and a unified release
+that would settle it is unlikely. Do not "fix" the delta.
+
+### Two named jams, treated two ways — 1974-09-09 and 1974-09-10
+
+_Dick's Picks Volume 7_ again reads more finely than the tape, and again the
+arithmetic confirms it — but the two jams it names got opposite treatment
+(Jason, 2026-08-13).
+
+- **`Wood Green Jam` (5:56) → renamed `Jam`.** The release splits 9/9's
+  `Truckin'` into `Truckin'` 10:31 → `Wood Green Jam` 5:56 → `Wharf Rat`, against
+  Miller's single 16:31 (10:31 + 5:56 = 16:27). The split is kept; the name is
+  not. Wood Green is the London district beside Alexandra Palace, so this is a
+  compiler's pun on the locale rather than a piece of repertoire — the same
+  judgement already applied to `Boston Clam Jam`, `No MSG Jam` and
+  `Mock Turtle Jam`, and it joins them as an alias of `Jam`.
+- **`Spam Jam` (7:13) → folded into `Dark Star`.** The release splits 9/10's
+  `Dark Star` into `Dark Star` 24:08 → `Spam Jam` 7:13 → `Morning Dew`, against
+  Miller's single 31:18. Here the split itself is rejected: the show carries one
+  `Dark Star` of **31:21**, the release's own two parts summed. The powell matrix
+  independently has 31:22, which is the confirmation. `Spam Jam` went into
+  `foldIntoPrevious` so a future import absorbs it without asking.
+
+The difference is what the jam is doing. Wood Green sits between two songs and is
+its own passage; Spam Jam is inside the Dark Star and belongs to it.
+
+The suite on 9/10 needed a third source once more. Miller and the release both
+carry it whole (18:17 / 18:18); the powell matrix splits it
+`Prelude and Part 1` 6:08 + `Let It Grow` 12:10, so only the first boundary was
+placed by ear — Jason's 1:22 + 4:46 = 6:08 exactly, and the suite totals 18:18.
+
+Two of the three skeletons were on the wrong tape and were rebuilt: 9/10 had used
+a matrix while a Miller transfer existed, and 9/11 had used Miller's
+`sbd.miller` (2016-05-21) where his `sbd.miller.repatched` (2016-05-30) is newer.
+
+Note that **9/9 was a one-set show due to a late start**, per a dead.net citation
+in the article, so its 19 stripes are the whole night rather than a partial record.
+
+### Seastones > Jam > Eyes > Jam — 1974-09-11
+
+Miller's repatched transfer carries this passage as two enormous tracks,
+`Seastones` 41:02 and `Eyes Of The World` 31:45. JerryBase reads it as four:
+**Seastones > Jam > Eyes > Jam**, and three other tapes agree, with the GEMS-BCE
+matrix supplying the boundaries:
+
+| tape             | Seastones     | Jam      | Eyes  | Jam      |
+| ---------------- | ------------- | -------- | ----- | -------- |
+| Miller repatched | 41:02         | _lumped_ | 31:45 | _lumped_ |
+| GEMS-BCE matrix  | 11:29 + 10:39 | 19:56    | 20:39 | 11:03    |
+| bertha-ashley    | 26:59         | _lumped_ | 20:27 | 10:30    |
+| hamilton         | 27:02         | _lumped_ | 20:21 | 10:36    |
+
+The tell is `Eyes`: three tapes put it near 20:30 where Miller has 31:45, and
+GEMS's `20:39 + 11:03 = 31:42` reconciles Miller to within three seconds. So
+Miller is running the trailing jam into Eyes.
+
+Jason listened, 2026-08-13, and took **GEMS on both boundaries**: on the first
+"Jerry enters earlier, but the drums enter at the GEMS timing", and on the second
+"by GEMS time they've pretty clearly departed Eyes for the unknown." The whole
+passage is therefore authored from GEMS — `Seastones` 22:08 (GEMS's two Seastones
+tracks summed, since the corpus records one), `Jam` 19:56, `Eyes Of The World`
+20:39, `Jam` 11:03 — while the rest of the show stays Miller. That makes the show
+59 seconds longer than a pure-Miller reading, 73:46 against 72:47.
+
+`bertha-ashley` and `hamilton` are **missing about fifteen minutes** through this
+stretch (57:56 and 57:59 against Miller's 72:47), so they were used only to
+corroborate the Eyes and trailing-Jam boundaries, never for span.
+
+### A release that splits what the tapes lump — 1974-08-04/05
+
+_Dick's Picks Volume 31_ is the clearest case of the release being the finer
+reader, and twice its split reconciles to a tape's single track almost exactly:
+
+- **8/4, the suite.** The seamons matrix has one `Weather Report Suite` of 14:58.
+  The release prints Prelude 1:20, Part 1 4:20, Part 2: Let It Grow 9:16 — 14:56.
+  Authored as three stripes with the corpus's names, no ear needed.
+- **8/5, the Truckin' passage.** Miller's board has one `Truckin'` of 31:04. The
+  release prints `Truckin'` 9:46 → `Jam` 8:16 → `The Other One Jam` 2:30 →
+  `Space` 10:25 — 30:57. Authored as four stripes. `The Other One Jam` is a
+  spelling of the canonical `Other One Jam` and was aliased rather than added.
+
+`Seastones` came from the tape on all three nights (16:33 / 17:32 / 18:07) under
+the excerpt rule below — the release carries it on none of them.
+
+Two caveats sit in this volume and neither is a mistake:
+
+- The **8/4 matrix absorbs between-song announcement into the songs**, having no
+  separate banter tracks beyond two `Take A Step Back`. Its `Jack Straw` is 7:47
+  against the release's 5:27, its `Peggy-O` 8:49 against 6:47. Release-wins
+  covers the tracks the release carries; the eleven stripes seamons alone
+  supplies may run slightly long, and there is no better tape — the alternatives
+  are 24 tracks against its 27.
+- The release's **8/6 `Scarlet Begonias` contains a patch from the August 4
+  performance**, per a footnote in the article. That 9:25 stripe is therefore
+  partly another night's music. Kept, because it is the release's own timing and
+  nothing else can separate the patch.
+
+For 8/6 the skeleton's tape was **rejected**: a tobin 5.1 surround transfer with
+no banter tracks at all, whose `The Promised Land` runs 5:17 where two other
+tapes say ~3:20. Replaced with `sbd.anon.gems` (2024), which separates a 2:00
+tuning and lands closest to the release on the one track both carry (`Eyes of the
+World`, 19:23 against 19:28). Jason's call, 2026-08-13. Second time a tobin
+surround transfer has had to be set aside — see 1974-03-23, where its titles were
+shifted two positions against its own durations.
+
+### Sugar Magnolia and its coda — 1974-08-04
+
+The release lists one track called `Sugar Magnolia / Sunshine Daydream` (10:42);
+the tape lists one called `Sugar Magnolia` (13:27) and no Daydream. Neither
+separates them, so it is authored as a single `Sugar Magnolia` at the release's
+10:42.
+
+Jason, 2026-08-13, on why the combined listing is a quirk rather than an error:
+**`Sunshine Daydream` is the coda of `Sugar Magnolia`**, and was only
+occasionally performed apart from it — on 1990-07-16 the two bookended the second
+set. That is why the corpus never has them adjacent: everywhere the Daydream
+appears as its own stripe, it returns after other songs.
+
+### When a partial release EXCERPTS a track, the tape wins — 1974-06-26/28
+
+The standing convention is that the release wins where it carries a song. _Dick's
+Picks Volume 12_ is the case that needed an exception carved into it.
+
+Its `Seastones` on 6/28 is **4:52**. Miller's soundboard has **24:33**. On 6/26
+the release omits Seastones altogether where Miller has **22:17**. This is not
+two readings of a boundary — the release is a `partial`, and its duration is what
+the CD holds, not what the band played. Taking it would have put a 4:52 stripe on
+a twenty-four-minute performance and left the 6/26 one off the wall entirely.
+
+Jason's call, 2026-08-13: **for a partial release, the tape wins wherever the two
+plainly differ.** Release-wins still governs everything else, including the many
+small disagreements — it is specifically the excerpt case that is carved out.
+
+The distinction from a boundary disagreement is size and shape: `Truckin'` on
+6/26 is 11:06 on the release against Miller's 31:01, but the release splits that
+span into `Truckin'` + `Other One Jam` + `Spanish Jam` summing to 29:25, so it is
+reading the same music differently rather than holding less of it.
+
+Every other `Seastones` in `data/shows` was checked at the same time and none is
+affected: 19740918 comes from `30 Trips Around the Sun`, which is `complete`, and
+19741016–19741020 are legacy reconstructions with no release source at all. The
+rule bites ahead rather than behind — five staged partials (19740804/05/06 from
+_Dick's Picks 31_, 19740910/11 from _Dick's Picks 7_) carry a blank `Seastones`
+that must be filled from the tape, not the release.
+
+### A release naming jams the tapes don't — 1974-06-26
+
+_Dick's Picks 12_ names two things neither soundboard separates, and Jason took
+the release on both (2026-08-13):
+
+- **`Mind Left Body Jam` (1:39)** between `China Cat Sunflower` and
+  `I Know You Rider`. Worth flagging against the 1973-02-26 entry below, which
+  rejected an interposed track in that same transition on a 59-0 corpus
+  precedent: there the claim came from **one taper** against every other source,
+  here it comes from the **official release**.
+- **`Other One Jam` (3:06)** where the oleynick tape says `The Other One` (4:00).
+  This added `Other One Jam` to `data/songs.json` — a deliberate canon entry, and
+  a distinct colour from `The Other One`, which is the point: a jam on the theme
+  is not the song.
+
+The suite on 6/26 came from a third source again. Miller carries it as one 16:43
+block; the oleynick tape splits it 1:18 / 4:24 / 10:59, summing to 16:41 — two
+seconds off Miller. So the split is taken from oleynick rather than placed by
+ear, the only three stripes on that show not from Miller or the release. On 6/28
+no such trouble: _Dick's Picks 12_ prints the split itself (Prelude 1:11, Part 1
+4:16, Let It Grow 9:08, against its own 14:35 umbrella) plus a 27:54 `Jam` that
+the staged skeleton had dropped entirely, because the umbrella title
+`Weather Report Suite` is not in the canon.
+
+### A transition jam that gets no stripe — 1973-02-26
+
+The two soundboards for this date disagree by exactly one track. `sbd.kaplan`
+(2004) breaks out a **0:42 `Jam`** between `China Cat Sunflower` and
+`I Know You Rider`; `sbd.roman.revision` (2025) folds it into China Cat. No
+Miller transfer exists for the date, and _Dick's Picks 28_ carries neither song,
+so nothing but the tapes could settle it.
+
+The corpus settled it instead: it holds **59** `China Cat Sunflower` →
+`I Know You Rider` pairs and **not one** with anything between them. A 42-second
+stripe here would be the sole exception in a transition the band played the same
+way for twenty years. Jason's call, 2026-08-13: take the revision, no `Jam`
+stripe, 25 songs.
+
+Choosing the revision also decided the other blanks, per the one-tape rule below
+— which matters, because the two transfers disagree by 1:41 on `El Paso`
+(4:15 against 5:56) and by 0:56 on `Big Railroad Blues`.
+
+### Which tape a staged partial is built from
+
+Three rules, in this order of precedence (Jason, 2026-08-13).
+
+**1. Charlie Miller's transfer wins.** Not merely as a tie-break — outright.
+`findRecordings` had always sorted his transfers first, but `bestRecording` then
+re-picked on raw score and overruled it, which is how 1973-12-19 came to be
+staged from a 26-track patched transfer instead of Miller's 24. The patched one
+ran **4:35 long** through the Other One passage, where Miller agreed with
+_Dick's Picks 1_ to within 12 seconds, and it had also broken out a `Bass Solo`
+and 3:00 of stage announcement to inflate its count.
+
+**2. Among Miller's own copies, the most recent.** He re-transfers, and the
+later pass is the better one. 1973-12-19 has two — `sbd.miller.113503` (2011)
+and `sbd.miller.97361` (2009) — and the 2011 copy is the one that squares with
+the release. `findRecordings` now requests `addeddate` and orders his items
+newest first.
+
+**Recognising him at all took two passes.** `isMiller` originally read only the
+`transferer` metadata field, and that field is sometimes **empty**:
+`gd78-05-11.sbd.miller.16333.sbeok.shnf` names him in the identifier alone, so
+one of his soundboards was silently classified as somebody else's. The test now
+falls back to `[.-]miller[.-]` in the identifier — narrow on purpose, matching the
+etree convention and the collaborations (`eaton-miller`, `gans.eaton.miller`,
+`dalton.miller.clugston`) without matching a word that merely contains the
+letters. Widening it revealed exactly one previously-invisible Miller on an
+already-authored date, 1973-12-02's `s2.sbd.miller` — and the completeness guard
+correctly refused it, since it is a **set-two-only** tape scoring 9 against the
+fullest candidate's 23. No authored show changed.
+
+**Rank is still not completeness**, so rule 1 is conditional. On 1974-08-05 the
+only Miller item is a one-track `jam-segment` excerpt sitting beside three
+complete 25-track soundboards; taking it would stage a show of one song. Miller
+therefore wins only when his tape reaches `MILLER_MIN_SHARE` (0.8) of the
+fullest candidate's usable track count — 24/26 clears it, 1/25 does not.
+
+**3. Blanks are filled from whichever tape the skeleton was built from**, so a
+show carries one consistent reading of where songs begin rather than a mix.
+Released timings still win where the release carries the song, which is the only
+place a show mixes readings at all.
+
+Rule 3 is last, and only decides what rules 1 and 2 leave open. Where Miller has
+nothing, the scorer's pick stands: 1973-11-30 uses `mtx.dusborne` over
+`sbd.vernon` despite vernon being a pure soundboard, because dusborne tracks
+finer — it splits `Bertha` from `Promised Land` where vernon runs them together
+as one 9:35 track.
+
+### An `{{ordered list}}` written inline — 1971-08-06
+
+_Road Trips Volume 1 Number 3_ reported **zero** tracks for its Hollywood
+Palladium bonus block while plainly listing five. The article writes
+`{{ordered list}}` both ways in the same page: an item per line for its 7/31 and
+8/4 blocks, and **inline** for 8/6, with the whole list on one line —
+
+```
+| start = 1|"Bertha" (Garcia, Hunter) – 7:04|"Mr. Charlie" (McKernan, Hunter) – 3:57|…
+```
+
+— and the reader only knew the per-line form. `parseTrackLine`
+(`generator/import.ts`) now returns 0..n tracks per line, taking the inline form
+when a line holds two or more quoted segments; a genuine single row has exactly
+one, and the leading `start = 1` parameter carries no quote and drops out.
+
+A second bug surfaced underneath the first: splitting the line on `|` tore
+`"[[Brokedown Palace (song)|Brokedown Palace]]"` into a titleless half and a
+quoteless one and **lost the track with no warning** — four of five came through.
+`splitTopLevelPipes` now ignores separators inside `[[…]]` and `{{…}}`.
+
+`--audit` covers 159 shows across 52 releases with no already-imported show
+changed.
+
+### Timings mixed from three sources — 1971-08-06
+
+Two eligible releases carry 8/6 and neither carries it whole: _Dick's Picks
+Volume 35_ has it as bonus tracks (7 songs) and _Road Trips Volume 1 Number 3_ as
+a bonus disc (5 songs), together 12 of the 20 played. The remaining 8 come from
+`gd1971-08-06.sbd.miller.96541.sbeok.flac16`.
+
+The standing convention held — the release wins where it carries a song — but
+this is the case that shows what the convention costs. _Dick's Picks 35_ agrees
+with Miller to within seconds, while _Road Trips 1:3_ disagrees by up to **1:53**
+and not in a consistent direction: `Bertha` 7:04 against Miller's 8:57,
+`Mr. Charlie` 3:57 against 5:13, `Cumberland Blues` 5:50 against 7:08 — yet
+`Hard to Handle` is _longer_ on Road Trips, 8:20 against 7:48. So it isn't a
+uniform trim, and the finished show mixes two readings of where songs begin.
+Jason's call, 2026-08-13: keep the released timings anyway.
+
+The show takes the tag of its **chosen** source only, so it carries `Dick's
+Picks` and not `Road Trips` — DP 35 is `complete` and a series volume where Road
+Trips 1:3 is `unknown`. All three sources are named in `source`.
+
+This closes _Dick's Picks Volume 35_: 1971-08-07 and 1971-08-06 in
+`data/shows/1971/`, and 1971-08-24 in `data/unknown-setlists/`.
+
+### Timings mixed from two sources — 1971-10-31
+
+_Dick's Picks Volume 2_ is a single CD holding the second set only, so it carries
+6 of the night's 21 songs. The rest come from the archive.org soundboard
+`gd1971-10-31.142426.sbd.gans.eaton.miller.flac1644` — as definitive as an
+unofficial transfer gets: David Gans hosted the syndicated _Grateful Dead Hour_
+and was loaned vault tapes for it, and Rob Eaton recovered a major batch of Betty
+Boards and returned them to the vault.
+
+Where both sources carry a song the **release wins**, which is the standing
+convention. They nearly agree anyway — `Dark Star`, `Sugar Magnolia` and
+`St. Stephen` are identical to the second; `Not Fade Away` 7:25 vs the board's
+7:28, `Goin' Down the Road Feeling Bad` 10:38 vs 10:35, and the `Not Fade Away`
+reprise 3:19 vs 3:31. Net effect of preferring the release across those six: the
+show is 12 seconds shorter than a pure-board reading. Both sources are named in
+`source`, pipe-separated.

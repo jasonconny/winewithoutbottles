@@ -1,5 +1,5 @@
 import type { LoaderFunctionArgs, RouteObject } from 'react-router-dom';
-import type { ShowDetail } from '@/wwob';
+import { isShowId, type ShowDetail } from '@/wwob';
 import { allShowsGallery, allSubGalleries } from '@/galleries';
 import AppChrome from './components/AppChrome';
 import Home from './routes/Home';
@@ -13,12 +13,13 @@ import NotFound from './routes/NotFound';
 // public/shows/<id>.json — it's intentionally NOT in the bundled index, so the
 // bundle stays small as the show count grows.
 //
-// Show ids are compact dates (19720827) and live at the root (`/:id`), so
-// this route matches ANY single path segment. Anything not id-shaped, and any
+// Show ids are compact dates (19720827), with a two-digit ordinal on the dates
+// that carry two shows (1970021301), and live at the root (`/:id`), so this
+// route matches ANY single path segment. Anything not id-shaped, and any
 // id-shaped segment with no show behind it, throws a 404 Response that the
 // route's errorElement renders as the global NotFound page.
 async function showLoader({ params }: LoaderFunctionArgs): Promise<ShowDetail> {
-  if (!/^\d{8}$/.test(params.id ?? '')) {
+  if (!isShowId(params.id ?? '')) {
     throw new Response('Not Found', { status: 404 });
   }
   const res = await fetch(`/shows/${params.id}.json`);

@@ -1,0 +1,104 @@
+{
+  "id": "19851101",
+  "date": "1985-11-01",
+  "venue": "Richmond Coliseum",
+  "city": "Richmond",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19851101.svg",
+  "songCount": 22,
+  "durationSeconds": 9028,
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 453
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 514
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 667
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 686
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 267
+    },
+    {
+      "title": "She Belongs to Me",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Gloria",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 254
+    }
+  ]
+}

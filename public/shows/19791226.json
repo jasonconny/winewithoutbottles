@@ -1,0 +1,116 @@
+{
+  "id": "19791226",
+  "date": "1979-12-26",
+  "venue": "Oakland Auditorium Arena",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19791226.svg",
+  "songCount": 25,
+  "durationSeconds": 10566,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 404
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 179
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 359
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 320
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 851
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 361
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 603
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 712
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 832
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 174
+    }
+  ]
+}

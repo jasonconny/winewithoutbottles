@@ -1,0 +1,30 @@
+{
+  "id": "19740909",
+  "date": "1974-09-09",
+  "venue": "Alexandra Palace",
+  "city": "London",
+  "country": "England",
+  "tags": ["Wall of Sound", "Dick's Picks"],
+  "source": "Dick's Picks Volume 7 | archive.org:gd1974-09-09.135655.sbd.new.patched.miller.flac16",
+  "songs": [
+    { "title": "Bertha", "duration": "5:56" },
+    { "title": "Promised Land", "duration": "4:09" },
+    { "title": "It Must Have Been the Roses", "duration": "6:25" },
+    { "title": "Jack Straw", "duration": "7:04" },
+    { "title": "Scarlet Begonias", "duration": "9:29" },
+    { "title": "Mexicali Blues", "duration": "3:36" },
+    { "title": "Row Jimmy", "duration": "8:21" },
+    { "title": "Playing in the Band", "duration": "23:03" },
+    { "title": "Deal", "duration": "4:58" },
+    { "title": "El Paso", "duration": "4:10" },
+    { "title": "Ship Of Fools", "duration": "6:02" },
+    { "title": "Tennessee Jed", "duration": "8:22" },
+    { "title": "Truckin'", "duration": "10:31" },
+    { "title": "Jam", "duration": "5:56" },
+    { "title": "Wharf Rat", "duration": "11:13" },
+    { "title": "Uncle John's Band", "duration": "6:25" },
+    { "title": "Johnny B. Goode", "duration": "4:04" },
+    { "title": "U.S. Blues", "duration": "5:18" },
+    { "title": "One More Saturday Night", "duration": "4:43" }
+  ]
+}

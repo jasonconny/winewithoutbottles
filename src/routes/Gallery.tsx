@@ -2,7 +2,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import type { GalleryDef } from '@/galleries';
 import { PAGE_GROUND } from '@/theme';
 import { usePageMeta } from '@/hooks/usePageMeta';
-import { formatShowDate } from '@/date';
+import { formatShowDate, sittingLabel } from '@/date';
 import './Gallery.scss';
 
 /**
@@ -38,7 +38,14 @@ export default function Gallery() {
             >
               <img
                 src={show.svg}
-                alt={`${formatShowDate(show.date)} — ${show.venue}, ${show.city}`}
+                // The sitting is part of the name here, not decoration: two
+                // rows for one night would otherwise read identically in the
+                // accessibility tree.
+                alt={
+                  `${formatShowDate(show.date)}` +
+                  `${show.sitting ? `, ${sittingLabel(show.sitting)}` : ''}` +
+                  ` — ${show.venue}, ${show.city}`
+                }
                 loading="lazy"
               />
             </Link>

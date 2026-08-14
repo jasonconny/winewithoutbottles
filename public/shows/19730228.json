@@ -1,0 +1,96 @@
+{
+  "id": "19730228",
+  "date": "1973-02-28",
+  "venue": "Salt Palace",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19730228.svg",
+  "songCount": 20,
+  "durationSeconds": 9205,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 203
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 243
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 318
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 282
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 726
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 288
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 440
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 212
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 722
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 907
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1022
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 760
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 551
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 185
+    }
+  ]
+}

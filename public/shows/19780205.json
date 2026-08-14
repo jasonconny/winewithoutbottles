@@ -1,0 +1,92 @@
+{
+  "id": "19780205",
+  "date": "1978-02-05",
+  "venue": "UNI-Dome",
+  "city": "Cedar Falls",
+  "state": "IA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19780205.svg",
+  "songCount": 19,
+  "durationSeconds": 8832,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 385
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 233
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 682
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 766
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 1023
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 117
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 542
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 538
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 515
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 383
+    }
+  ]
+}

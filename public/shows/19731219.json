@@ -1,0 +1,120 @@
+{
+  "id": "19731219",
+  "date": "1973-12-19",
+  "venue": "Curtis Hixon Hall",
+  "city": "Tampa",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19731219.svg",
+  "songCount": 26,
+  "durationSeconds": 12030,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 514
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 853
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1271
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 88
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 566
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 648
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Nobody's Fault But Mine",
+      "durationSeconds": 353
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 991
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 440
+    }
+  ]
+}

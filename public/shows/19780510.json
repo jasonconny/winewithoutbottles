@@ -1,0 +1,96 @@
+{
+  "id": "19780510",
+  "date": "1978-05-10",
+  "venue": "Veteran's Memorial Coliseum",
+  "city": "New Haven",
+  "state": "CT",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19780510.svg",
+  "songCount": 20,
+  "durationSeconds": 10113,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 411
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 180
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 580
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 380
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 724
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1160
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 552
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 573
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 345
+    }
+  ]
+}

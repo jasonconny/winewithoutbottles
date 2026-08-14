@@ -1,0 +1,125 @@
+{
+  "id": "19720921",
+  "date": "1972-09-21",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19720921.svg",
+  "songCount": 27,
+  "durationSeconds": 13774,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 230
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 820
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 306
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 328
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1007
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 858
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 711
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 2228
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 730
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 217
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 211
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 296
+    }
+  ]
+}

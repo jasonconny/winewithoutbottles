@@ -44,7 +44,7 @@ import { fileURLToPath } from 'node:url';
 import type { ShowFile } from '../src/wwob/index.ts';
 import { formatDuration, parseDuration } from '../src/wwob/index.ts';
 import type { Recording } from './archive.ts';
-import { findRecording, findRecordings, recordingTracks } from './archive.ts';
+import { findRecordings, isMiller, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
 
@@ -55,6 +55,13 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
  * Each costs a metadata request; six covers every date in the corpus so far.
  */
 const MAX_CANDIDATES = 6;
+
+/**
+ * How complete a Charlie Miller transfer must be, as a share of the fullest
+ * candidate, to be preferred over it. See `bestRecording` — this is what lets
+ * Miller win a near-tie without letting a Miller *excerpt* win at all.
+ */
+const MILLER_MIN_SHARE = 0.8;
 
 interface Release {
   page: string | null;
@@ -217,7 +224,11 @@ function parseTrack(line: string): ParsedTrack | null {
   // (`<li value= 5>`); 30 Trips uses the quoted form, and missing any variant
   // drops the track silently.
   const text = stripMarkup(line)
-    .replace(/^[#|]\s*(<li value=\s*"?\d+"?>)?\s*/, '')
+    .replace(/^[#|]\s*/, '')
+    // Split from the list-marker strip above so a bare `<li>` opening the line
+    // is handled too, not only `# <li value=N>`. Raw `<ol>`/`<li>` markup is
+    // what Dick's Picks 36 uses instead of a wikitext list.
+    .replace(/^<li[^>]*>\s*/, '')
     .replace(/<\/li>\s*$/, '');
   // The title is not always flush left: a line can open with a set label
   // (`''Encore:'' "Terrapin Station"`), a nested-list bullet for a suite
@@ -262,6 +273,94 @@ function parseTrack(line: string): ParsedTrack | null {
 }
 
 /**
+ * Split on the `|` separators that belong to the list, ignoring those inside
+ * `[[wikilinks]]` and `{{templates}}`.
+ *
+ * A plain `split('|')` looks fine until a piped link turns up mid-list:
+ * `"[[Brokedown Palace (song)|Brokedown Palace]]" (Garcia, Hunter) – 5:39`
+ * tears into a titleless half and a quoteless one, and the track vanishes with
+ * no warning — four of Road Trips 1:3's five Hollywood Palladium tracks came
+ * through and the fifth simply didn't.
+ */
+function splitTopLevelPipes(line: string): string[] {
+  const parts: string[] = [];
+  let depth = 0;
+  let start = 0;
+  for (let index = 0; index < line.length; index++) {
+    if (line.startsWith('[[', index) || line.startsWith('{{', index)) {
+      depth++;
+      index++;
+    } else if (line.startsWith(']]', index) || line.startsWith('}}', index)) {
+      if (depth > 0) depth--;
+      index++;
+    } else if (line[index] === '|' && depth === 0) {
+      parts.push(line.slice(start, index));
+      start = index + 1;
+    }
+  }
+  parts.push(line.slice(start));
+  return parts;
+}
+
+/**
+ * The track rows on one wikitext line — normally zero or one, but sometimes
+ * several.
+ *
+ * `{{ordered list}}` is usually written an item per line, and those come
+ * through as `|"Title" … – m:ss` rows. It can equally be written **inline**,
+ * with the whole list on a single line:
+ *
+ *     {{ordered list
+ *     | start = 1|"Bertha" (Garcia, Hunter) – 7:04|"Mr. Charlie" (…) – 3:57|…
+ *     }}
+ *
+ * Road Trips 1:3 does both in the same article — one item per line for its
+ * 7/31 and 8/4 bonus blocks, inline for the 8/6 one — so a reader that only
+ * knows the row form silently loses the five Hollywood Palladium tracks and
+ * reports the date as carrying nothing at all.
+ *
+ * Two or more quoted segments on a line is the tell; a genuine single row has
+ * exactly one, and the `start = 1` parameter that leads the inline form has no
+ * quote and drops out on its own.
+ */
+function parseTrackLine(line: string): ParsedTrack[] {
+  const quoted = splitTopLevelPipes(line).filter((segment) =>
+    /^\s*"/.test(segment),
+  );
+  if (quoted.length > 1) {
+    return quoted.flatMap((segment) => {
+      const track = parseTrack(segment);
+      return track ? [track] : [];
+    });
+  }
+  // Track rows come in four markups: `#` lists, `|"Title"` rows inside an
+  // {{ordered list}}, raw HTML `<li>` inside an `<ol>` — Dick's Picks 36 uses
+  // that, which is why it parsed as zero tracks while plainly being a single,
+  // fully-listed show — and indented bullets.
+  //
+  // The bullet form is Dick's Picks 13's: its two hidden bonus tracks sit under
+  // `:''Hidden tracks recorded November 1, 1979:''` as `::*"Title" … – 18:30`.
+  //
+  // Two guards, both learned by getting it wrong. A `*` is **required** — a bare
+  // `::"Title"` indent is not enough, because Europe '72 writes one for its
+  // `Happy Birthday to You` insert and accepting it added a 28th track to an
+  // already-authored 5/7/72. And a **duration** is required, because plain `*`
+  // bullets also carry personnel lists and the `==Recording dates==` prose,
+  // which `parseTrack`'s scan-from-the-first-quote would mint songs out of.
+  const bullet = /^:*\*+\s*"/.test(line) && /[–—-]\s*\d{1,3}:\d{2}/.test(line);
+  if (
+    !bullet &&
+    !line.startsWith('#') &&
+    !/^\|\s*"/.test(line) &&
+    !/^<li[ >]/.test(line)
+  ) {
+    return [];
+  }
+  const track = parseTrack(line);
+  return track ? [track] : [];
+}
+
+/**
  * Split a release's track listing into per-show buckets.
  *
  * Walks the article top to bottom keeping a "current date", flipped by the same
@@ -278,10 +377,275 @@ function parseTrack(line: string): ParsedTrack | null {
 /** Sentinel for a heading naming a date the release index doesn't list. */
 const UNKNOWN_DATE = '\u0000unknown';
 
+/** Disc headings spell the number out (`;Disc one`) as often as not. */
+const DISC_WORDS = [
+  'one',
+  'two',
+  'three',
+  'four',
+  'five',
+  'six',
+  'seven',
+  'eight',
+  'nine',
+  'ten',
+];
+
+/** `Disc one` / `'''Disc 2'''` / `;Discs 1 & 2` → the disc number it opens. */
+function discHeadingNumber(line: string): number | null {
+  const match = line
+    .replace(/^[;:*#]+\s*/, '')
+    .replace(/^'+|'+$/g, '')
+    .replace(/^=+|=+$/g, '')
+    .trim()
+    .match(/^discs?\s+(\d+|[a-z]+)\b/i);
+  if (!match) return null;
+  const token = match[1].toLowerCase();
+  if (/^\d+$/.test(token)) return Number(token);
+  const word = DISC_WORDS.indexOf(token);
+  return word === -1 ? null : word + 1;
+}
+
+/**
+ * Read a `==Recording dates==` section that attributes tracks to nights by
+ * **disc and track number** rather than by sectioning the listing itself.
+ *
+ * Some releases cannot be bucketed by heading at all, because a single disc
+ * spans two nights. Dick's Picks 26 lists two discs and then says, in prose:
+ *
+ *     *April 26, 1969 – Disc 1 tracks 1–9
+ *     *April 27, 1969 – Disc 1 tracks 10–12, Disc 2
+ *
+ * No heading rule can split disc one there, and MusicBrainz can't help either —
+ * its per-medium titles name a night, and here one medium holds two. So this
+ * section becomes the authority whenever it is present and fully readable.
+ *
+ * Returns `disc:trackNumber` → date, or null when the section is absent or
+ * anything in it fails to resolve. **Null on any doubt is deliberate**: a
+ * half-read mapping would attribute some tracks and silently orphan the rest,
+ * a worse failure than the heading walk's. Rocking the Cradle writes its
+ * bullets date-*last* and references an unnumbered "Bonus disc" and a DVD, so
+ * it bails here and is no worse off than before.
+ */
+function discTrackDates(
+  wikitext: string,
+  release: Release,
+): Map<string, string> | null {
+  const section = wikitext.match(
+    /==\s*Recording dates\s*==([\s\S]*?)(?:\n==[^=]|$)/i,
+  );
+  if (!section) return null;
+  const all = [...release.dates, ...release.bonusDates].sort();
+  const span = all.length ? { first: all[0], last: all[all.length - 1] } : null;
+  const known = new Set(all);
+
+  const out = new Map<string, string>();
+  for (const raw of section[1].split('\n')) {
+    const line = raw.trim();
+    if (!line.startsWith('*')) continue;
+    // Parentheticals are asides about material issued elsewhere ("an additional
+    // track from this date was released on Fallout from the Phil Zone") and
+    // would otherwise contribute stray numbers.
+    const body = line.replace(/^\*+\s*/, '').replace(/\([^)]*\)/g, '');
+
+    // The date heads the bullet in every shape handled here; reading it from
+    // the whole line would let a date in a trailing aside win.
+    const head = body.split(/[–—:-]/)[0];
+    const date = longDate(head) ?? monthDayIn(head, span);
+    if (!date || !known.has(date)) return null;
+
+    // Everything after the date is disc clauses. Each `disc N` opens a clause
+    // running to the next one, so a track spec belongs to the disc preceding
+    // it: "Disc 1 tracks 3–4 & 9–11, disc 2 tracks 1–4".
+    const rest = body.slice(head.length);
+    const clauses = [...rest.matchAll(/discs?\s+([\d\s&,]*\d)/gi)];
+    if (clauses.length === 0) return null;
+    for (const [index, clause] of clauses.entries()) {
+      const discs = [...clause[1].matchAll(/\d+/g)].map((m) => Number(m[0]));
+      const tail = rest.slice(
+        clause.index + clause[0].length,
+        index + 1 < clauses.length ? clauses[index + 1].index : undefined,
+      );
+      const spec = tail.match(/^\s*:?\s*tracks?\s*:?\s*([\d\s,&–—-]+)/i);
+      if (!spec) {
+        // No track spec — the whole disc belongs to this date ("Discs 1 & 2").
+        for (const disc of discs) out.set(`${disc}:*`, date);
+        continue;
+      }
+      // Per-track and multi-disc can't combine on one clause: splitting the
+      // numbers across discs would need each disc's length, which the section
+      // never states.
+      if (discs.length > 1) return null;
+      for (const part of spec[1].split(/[,&]/)) {
+        const text = part.trim();
+        if (!text) continue;
+        const range = text.match(/^(\d+)\s*[–—-]\s*(\d+)$/);
+        const single = text.match(/^(\d+)$/);
+        if (range) {
+          for (let n = Number(range[1]); n <= Number(range[2]); n++) {
+            out.set(`${discs[0]}:${n}`, date);
+          }
+        } else if (single) {
+          out.set(`${discs[0]}:${single[1]}`, date);
+        } else {
+          return null;
+        }
+      }
+    }
+  }
+  if (out.size === 0) return null;
+  // Every date the release claims has to turn up, or the section describes only
+  // part of the record and the heading walk is the better reader.
+  const covered = new Set(out.values());
+  if (release.dates.some((date) => !covered.has(date))) return null;
+  return out;
+}
+
+/**
+ * Bucket by disc and track number using the mapping above — walking the listing
+ * counting tracks within each disc, which is what the prose section refers to.
+ */
+function tracksByDiscTrack(
+  wikitext: string,
+  mapping: Map<string, string>,
+): { byDate: Map<string, ParsedTrack[]>; orphans: number } {
+  const byDate = new Map<string, ParsedTrack[]>();
+  let orphans = 0;
+  let disc = 0;
+  let position = 0;
+  for (const line of wikitext.split('\n')) {
+    const opened = discHeadingNumber(line);
+    if (opened !== null) {
+      disc = opened;
+      position = 0;
+      continue;
+    }
+    for (const track of parseTrackLine(line)) {
+      position++;
+      const date =
+        mapping.get(`${disc}:${position}`) ?? mapping.get(`${disc}:*`);
+      if (!date) {
+        orphans++;
+        continue;
+      }
+      byDate.set(date, [...(byDate.get(date) ?? []), track]);
+    }
+  }
+  return { byDate, orphans };
+}
+
+/** Every `{{track listing}}` block, brace-balanced so nested templates survive. */
+function trackListingBlocks(wikitext: string): string[] {
+  const blocks: string[] = [];
+  const opener = /\{\{\s*track listing/gi;
+  let match: RegExpExecArray | null;
+  while ((match = opener.exec(wikitext))) {
+    let depth = 0;
+    let index = match.index;
+    for (; index < wikitext.length; index++) {
+      if (wikitext.startsWith('{{', index)) {
+        depth++;
+        index++;
+      } else if (wikitext.startsWith('}}', index)) {
+        depth--;
+        index++;
+        if (depth === 0) {
+          index++;
+          break;
+        }
+      }
+    }
+    blocks.push(wikitext.slice(match.index, index));
+    opener.lastIndex = index;
+  }
+  return blocks;
+}
+
+/**
+ * Read a `{{track listing}}` template, which carries its tracks as numbered
+ * parameters (`title1=`, `length1=`) rather than as list rows.
+ *
+ * Nothing in the line-based readers can see this at all — Dick's Picks 18 came
+ * back with zero tracks for both its nights while listing 26. The template is
+ * standard Wikipedia furniture, and four eligible releases use it with dates
+ * attached, so it earns a reader of its own.
+ *
+ * Dates come from two places, both of which DP 18 uses at once:
+ *
+ * - an **`extra_column = Recording date`** with a per-track `extraN`, which is
+ *   how its disc one attributes a sequence recombined from three nights;
+ * - a **`headline`** naming one, as in `Disc 2 (all tracks recorded on
+ *   February 3)`, which covers every track in that block.
+ *
+ * Per-track wins where present. A track resolving to neither is orphaned rather
+ * than handed to a neighbour, since a template block has no "show in progress"
+ * to fall back on.
+ */
+function tracksByTrackListing(
+  wikitext: string,
+  release: Release,
+): { byDate: Map<string, ParsedTrack[]>; orphans: number } | null {
+  const blocks = trackListingBlocks(wikitext);
+  if (!blocks.length) return null;
+  const all = [...release.dates, ...release.bonusDates].sort();
+  const span = all.length ? { first: all[0], last: all[all.length - 1] } : null;
+  const known = new Set(all);
+
+  const byDate = new Map<string, ParsedTrack[]>();
+  let orphans = 0;
+  let seen = 0;
+  for (const block of blocks) {
+    const params = new Map<string, string>();
+    // Strip the outer braces so the splitter sees the parameters at top level;
+    // it already ignores pipes inside `[[…]]` and nested `{{…}}`.
+    for (const part of splitTopLevelPipes(block.slice(2, -2))) {
+      const equals = part.indexOf('=');
+      if (equals < 0) continue;
+      params.set(
+        part.slice(0, equals).trim().toLowerCase(),
+        part.slice(equals + 1).trim(),
+      );
+    }
+    const headline = params.get('headline') ?? '';
+    const headlineDate = longDate(headline) ?? monthDayIn(headline, span);
+    const dated = /recording date/i.test(params.get('extra_column') ?? '');
+
+    for (let n = 1; params.has(`title${n}`); n++) {
+      seen++;
+      const title = cleanWikiTitle(stripMarkup(params.get(`title${n}`) ?? ''));
+      if (!title) continue;
+      const length = (params.get(`length${n}`) ?? '').match(/\d{1,3}:\d{2}/);
+      const extra = dated ? (params.get(`extra${n}`) ?? '') : '';
+      const date =
+        (extra ? (longDate(extra) ?? monthDayIn(extra, span)) : null) ??
+        headlineDate;
+      if (!date || !known.has(date)) {
+        orphans++;
+        continue;
+      }
+      const track: ParsedTrack = { title, duration: length ? length[0] : null };
+      byDate.set(date, [...(byDate.get(date) ?? []), track]);
+    }
+  }
+  // Nothing resolved means the template carries no date information the index
+  // recognises; let the heading walk try instead of reporting an empty release.
+  return seen && byDate.size ? { byDate, orphans } : null;
+}
+
 function tracksByDate(
   wikitext: string,
   release: Release,
 ): { byDate: Map<string, ParsedTrack[]>; orphans: number } {
+  // A disc+track mapping outranks the heading walk: it's only present when the
+  // article states the attribution outright, and it's the only reader that can
+  // split one disc across two nights.
+  const mapping = discTrackDates(wikitext, release);
+  if (mapping) return tracksByDiscTrack(wikitext, mapping);
+  // Likewise a {{track listing}} template: its tracks are parameters, not rows,
+  // so the line walk below cannot see them at all.
+  const templated = tracksByTrackListing(wikitext, release);
+  if (templated) return templated;
+
   // The window for resolving year-less headings has to cover bonus dates too,
   // or a "June 12 – First set:" heading on a 6/9 release won't resolve, will
   // read as undated, and will hand its tracks to the show in progress.
@@ -295,11 +659,41 @@ function tracksByDate(
     release.dates.length === 1 ? release.dates[0] : null;
   let current = main;
   let orphans = 0;
+  // How deep the heading that last set `current` sits — see `headingLevel`.
+  let currentLevel = 0;
+
+  /**
+   * Rank a heading, smaller being more senior: `==Section==` outranks
+   * `===Subsection===`, which outranks `'''Disc 1'''`, which outranks
+   * `:''First set:''`.
+   *
+   * This is what tells a *subordinate* undated heading from a *sibling* one,
+   * and the two must behave differently. Dick's Picks 28 heads each night with
+   * a section (`===February 26, 1973 – Pershing…===`) and then opens discs
+   * beneath it, so `'''Disc 1'''` is inside the February 26 block and its
+   * tracks belong to that date. Dave's Picks 50 does the opposite: a `:''May 4
+   * bonus''` subheading sits *inside* a disc, and the `'''Disc 3'''` that
+   * follows leaves it behind. Treating every undated heading as a return to
+   * `main` gets the second right and the first catastrophically wrong — 2/28
+   * came back with both nights, 38 tracks.
+   */
+  const headingLevel = (line: string): number => {
+    const equals = line.match(/^(=+)/);
+    if (equals) return equals[1].length;
+    if (/^'''/.test(line)) return 10;
+    const colons = line.match(/^(:*)''/);
+    if (colons) return 20 + colons[1].length;
+    return 30;
+  };
 
   const headingDate = (line: string): string | null => {
     const heading =
       line.match(/^=+(.*?)=+\s*$/) ??
-      line.match(/^:+''(.+?)''/) ??
+      // The indent colons are optional: Dick's Picks 30 writes its set headings
+      // flush left (`''March 25 – first set:''`), and requiring a colon made
+      // them invisible — the eight bonus-date tracks of disc one then fell to
+      // the show in progress and 3/28 came back as a 36-track night.
+      line.match(/^:*''(.+?)''/) ??
       line.match(/^'''(.+?)'''/);
     if (!heading) return null;
     const inner = heading[1];
@@ -318,11 +712,13 @@ function tracksByDate(
 
   for (const line of wikitext.split('\n')) {
     const isHeading =
-      /^=+.*=+\s*$/.test(line) || /^:+''/.test(line) || /^'''/.test(line);
+      /^=+.*=+\s*$/.test(line) || /^:*''/.test(line) || /^'''/.test(line);
     if (isHeading) {
+      const level = headingLevel(line);
       const flipped = headingDate(line);
       if (flipped) {
         current = flipped === UNKNOWN_DATE ? null : flipped;
+        currentLevel = level;
         // Only a date the release actually *contains* becomes the new main
         // show; a bonus date is a detour.
         if (release.dates.includes(flipped)) main = flipped;
@@ -341,24 +737,28 @@ function tracksByDate(
         // "Bonus tracks:" — is still bonus. Orphan it rather than letting the
         // undated rule below hand nine extra tracks to the show.
         current = null;
+        currentLevel = level;
+      } else if (level > currentLevel) {
+        // Subordinate to whatever set `current` — a disc inside a dated
+        // section, a "second set, continued" inside a disc — so it stays with
+        // it. Only reached when the dated heading outranks this one.
       } else {
-        // An undated heading — "Disc 3", "Second set, continued:" — belongs to
-        // the show in progress. Without this, a bonus block mid-listing
-        // silently swallows every track after it: Dave's Picks 50 filed its
-        // whole third disc under a May 4 bonus heading.
+        // A sibling or more senior undated heading — "Disc 3" after a set-level
+        // bonus block — belongs to the show in progress. Without this, a bonus
+        // block mid-listing silently swallows every track after it: Dave's
+        // Picks 50 filed its whole third disc under a May 4 bonus heading.
         current = main;
+        currentLevel = level;
       }
       continue;
     }
-    // Track rows are `#` lists, or `|"Title"` rows inside an {{ordered list}}.
-    if (!line.startsWith('#') && !/^\|\s*"/.test(line)) continue;
-    const track = parseTrack(line);
-    if (!track) continue;
-    if (!current) {
-      orphans++;
-      continue;
+    for (const track of parseTrackLine(line)) {
+      if (!current) {
+        orphans++;
+        continue;
+      }
+      byDate.set(current, [...(byDate.get(current) ?? []), track]);
     }
-    byDate.set(current, [...(byDate.get(current) ?? []), track]);
   }
   return { byDate, orphans };
 }
@@ -732,7 +1132,7 @@ for (const source of sources) {
   const { byDate, orphans } = tracksByDate(wikitext, bucketing);
   if (orphans) {
     console.log(
-      `  ! ${orphans} track(s) before the first dated heading — ignored`,
+      `  ! ${orphans} track(s) under no date the release claims — ignored`,
     );
   }
   const filled = await fillUntimed(byDate.get(date) ?? [], source, date);
@@ -832,6 +1232,81 @@ function mergePartial(
   return { songs, updated, unmatched };
 }
 
+interface ScoredRecording {
+  recording: Recording;
+  tracks: ParsedTrack[];
+  /** Tracks whose title the registry recognises — see `bestRecording`. */
+  usable: number;
+}
+
+/**
+ * The best archive.org tape for a date, with its tracks.
+ *
+ * Opens up to `MAX_CANDIDATES` and keeps the one with the most *recognisable*
+ * songs, because tapes of one night differ enormously — 1972-09-16 has a
+ * 25-track soundboard and an 8-track one.
+ *
+ * Two reasons it can't just take the best-ranked tape, both observed:
+ *
+ * 1. **Rank is not completeness.** `findRecordings` prefers Charlie Miller
+ *    transfers, and on 1974-08-05 the only Miller item is a *one-track*
+ *    `jam-segment` excerpt, which outranked three complete 25-track
+ *    soundboards. Same at 1976-09-25 and 1976-09-28. A gap report built on a
+ *    one-track tape says the release is missing the entire show.
+ * 2. **Raw track count is not usefulness.** The 31-track 4/27/71 reel titles
+ *    every track as a filename (`gd71-04-27 t01 Intro`), so on count alone it
+ *    beat four properly-titled 27-track tapes while recognising nothing.
+ *
+ * Scoring `tracks − unmapped` measures what the tape is actually worth for
+ * either purpose. Ranking order breaks ties, so a Miller transfer still wins an
+ * even match. Shared by `--gaps` and `--partial`: both are answering the same
+ * question — what was played that night — and only one of them used to get a
+ * trustworthy answer.
+ */
+async function bestRecording(date: string): Promise<{
+  recording: Recording;
+  tracks: ParsedTrack[];
+  scored: ScoredRecording[];
+} | null> {
+  const candidates = (await findRecordings(date)).slice(0, MAX_CANDIDATES);
+  if (!candidates.length) return null;
+  const scored: ScoredRecording[] = [];
+  for (const candidate of candidates) {
+    const tracks = applyTrackRules(
+      await recordingTracks(candidate.identifier),
+      date,
+    );
+    const { unknown } = canonicalise(tracks);
+    scored.push({
+      recording: candidate,
+      tracks,
+      usable: tracks.length - unknown.length,
+    });
+  }
+  const fullest = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
+  // Miller outranks the raw score. `findRecordings` already sorts his transfers
+  // first (newest first among them), but scoring alone would overrule that, and
+  // did: 1973-12-19 went to a 26-track patched transfer over Miller's 24, and
+  // the patched one turned out to run 4:35 long through the Other One passage
+  // where Miller agreed with Dick's Picks 1 to within 12 seconds.
+  //
+  // Not unconditionally, though — **rank is not completeness**. On 1974-08-05
+  // the only Miller item is a one-track `jam-segment` excerpt sitting beside
+  // three complete 25-track soundboards, and taking it would stage a show of
+  // one song. So Miller wins only when his tape is a serious attempt at the
+  // whole night, which `MILLER_MIN_SHARE` of the fullest candidate measures:
+  // 24/26 clears it easily, 1/25 does not.
+  const miller = scored.filter((item) => isMiller(item.recording));
+  const bestMiller = miller.length
+    ? miller.reduce((a, b) => (b.usable > a.usable ? b : a))
+    : null;
+  const best =
+    bestMiller && bestMiller.usable >= fullest.usable * MILLER_MIN_SHARE
+      ? bestMiller
+      : fullest;
+  return { recording: best.recording, tracks: best.tracks, scored };
+}
+
 /**
  * Report which songs a release leaves out, against the circulating soundboard.
  *
@@ -843,18 +1318,28 @@ function mergePartial(
  * reason `mergePartial` is: some releases resequence.
  */
 async function reportGaps(date: string, release: ParsedTrack[]) {
-  const recording = await findRecording(date);
-  if (!recording) {
+  const best = await bestRecording(date);
+  if (!best) {
     console.log(`\n  no archive.org recording catalogued for ${date}`);
     return;
   }
+  const { recording } = best;
   console.log(
     `\n  gaps vs archive.org: ${recording.identifier}` +
       `${recording.transferer ? ` (${recording.transferer})` : ''}`,
   );
-  const recorded = canonicalise(
-    applyTrackRules(await recordingTracks(recording.identifier), date),
-  );
+  if (best.scored.length > 1) {
+    console.log(
+      `    best of ${best.scored.length} tapes (recognised/total): ` +
+        best.scored
+          .map(
+            (s) =>
+              `${s.usable}/${s.tracks.length}${s.recording === recording ? '*' : ''}`,
+          )
+          .join(', '),
+    );
+  }
+  const recorded = canonicalise(best.tracks);
   const played = recorded.mapped;
   if (recorded.unknown.length) {
     // An unmapped title can't match the release, so it would be reported as a
@@ -917,41 +1402,15 @@ async function writePartial(
   date: string,
   release: ParsedTrack[],
 ) {
-  const candidates = (await findRecordings(date)).slice(0, MAX_CANDIDATES);
-  if (!candidates.length) {
+  const best = await bestRecording(date);
+  if (!best) {
     console.error(
       `\nno archive.org recording catalogued for ${date} — no skeleton to build.` +
         '\nThe release alone cannot say which songs it is missing.',
     );
     process.exit(1);
   }
-  // Score by *recognisable* songs, not raw track count. Tapes of one night
-  // differ enormously — 1972-09-16 has a 25-track soundboard and an 8-track one
-  // — so the fullest is usually right. But raw count alone picks badly: the
-  // 31-track 4/27/71 reel titles every track as a filename (`gd71-04-27 t01
-  // Intro`), which beat four properly-titled 27-track tapes while yielding a
-  // skeleton of nothing. Counting only titles the registry recognises measures
-  // what the skeleton is actually worth. Ranking order breaks ties, so a
-  // Charlie Miller transfer still wins an even match.
-  const scored: {
-    recording: Recording;
-    tracks: ParsedTrack[];
-    usable: number;
-  }[] = [];
-  for (const candidate of candidates) {
-    const tracks = applyTrackRules(
-      await recordingTracks(candidate.identifier),
-      date,
-    );
-    const { unknown } = canonicalise(tracks);
-    scored.push({
-      recording: candidate,
-      tracks,
-      usable: tracks.length - unknown.length,
-    });
-  }
-  const best = scored.reduce((a, b) => (b.usable > a.usable ? b : a));
-  const recording = best.recording;
+  const { recording, scored } = best;
   console.log(
     `\n  skeleton ← archive.org: ${recording.identifier}` +
       `${recording.transferer ? ` (${recording.transferer})` : ''}`,

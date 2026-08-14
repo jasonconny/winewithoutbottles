@@ -1,0 +1,109 @@
+{
+  "id": "19731130",
+  "date": "1973-11-30",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19731130.svg",
+  "songCount": 23,
+  "durationSeconds": 10771,
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 869
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 215
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 284
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 251
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1398
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 191
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 714
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 78
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Dark Star Jam",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1166
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 616
+    }
+  ]
+}

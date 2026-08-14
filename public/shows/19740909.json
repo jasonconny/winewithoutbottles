@@ -1,0 +1,92 @@
+{
+  "id": "19740909",
+  "date": "1974-09-09",
+  "venue": "Alexandra Palace",
+  "city": "London",
+  "country": "England",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740909.svg",
+  "songCount": 19,
+  "durationSeconds": 8385,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 249
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1383
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 298
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 673
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 244
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 318
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 283
+    }
+  ]
+}

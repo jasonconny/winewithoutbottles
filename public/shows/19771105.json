@@ -1,0 +1,92 @@
+{
+  "id": "19771105",
+  "date": "1977-11-05",
+  "venue": "Community War Memorial",
+  "city": "Rochester",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19771105.svg",
+  "songCount": 19,
+  "durationSeconds": 9434,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 728
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 144
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 882
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 523
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 673
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 720
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 135
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 743
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 654
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 304
+    }
+  ]
+}

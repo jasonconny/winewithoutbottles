@@ -1,0 +1,104 @@
+{
+  "id": "19740911",
+  "date": "1974-09-11",
+  "venue": "Alexandra Palace",
+  "city": "London",
+  "country": "England",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740911.svg",
+  "songCount": 22,
+  "durationSeconds": 12867,
+  "songs": [
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 657
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 314
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1410
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 1328
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 1196
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1239
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 663
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 730
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 486
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 330
+    }
+  ]
+}

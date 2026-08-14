@@ -1,0 +1,108 @@
+{
+  "id": "19760925",
+  "date": "1976-09-25",
+  "venue": "Capital Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19760925.svg",
+  "songCount": 23,
+  "durationSeconds": 9657,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 327
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 169
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 581
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 746
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 661
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 688
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 763
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 519
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 667
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 597
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 125
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 123
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 580
+    }
+  ]
+}

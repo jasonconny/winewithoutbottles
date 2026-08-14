@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { basename, join } from 'node:path';
-import { cleanTitle, isValidDuration } from '@/wwob';
+import { cleanTitle, isValidDuration, parseShowId } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
 import { releaseTag } from '../generator/release-tag';
@@ -12,10 +12,53 @@ import type { Completeness } from '../generator/release-tag';
 // generated manifest in sync with it.
 
 const DATA_DIR = 'data/shows';
-/** Show ids are compact dates (also the show's URL): 19720827. */
-const ID_RE = /^\d{8}$/;
 /** The `date` field stays ISO for display and sorting: 1972-08-27. */
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * The id ↔ date contract, in one place because three directories check it.
+ * An id is the date compacted (19720827), plus a two-digit ordinal on the dates
+ * that carry two shows (1970021301) — see src/wwob/showId.ts. `parseShowId`
+ * returns undefined for anything not id-shaped, so this covers both the shape
+ * and the derivation in one assertion.
+ */
+function expectIdMatchesDate(show: ShowFile, file: string): void {
+  expect(show.date).toMatch(DATE_RE);
+  expect(
+    parseShowId(show.id)?.date,
+    `${file}: id "${show.id}" is not "${show.date.replaceAll('-', '')}" with an optional two-digit ordinal`,
+  ).toBe(show.date);
+  expect(`${show.id}.json`).toBe(basename(file));
+}
+
+/** `sitting`, where authored, is one of the two performances of a night. */
+const SITTINGS = ['early', 'late'];
+
+/** Setlist titles that earn a show the `Dark Star` tag — see the guard below. */
+const DARK_STAR_TITLES = ['Dark Star', 'Dark Star Jam'];
+
+/**
+ * The `Playing Palindrome`: Playing in the Band opens a second-set sequence that
+ * turns around on Morning Dew and comes back out the way it went in. Must appear
+ * as five *consecutive* songs — the same five titles scattered through a setlist
+ * are not the thing.
+ */
+const PLAYING_PALINDROME = [
+  'Playing in the Band',
+  "Uncle John's Band",
+  'Morning Dew',
+  "Uncle John's Band",
+  'Playing in the Band',
+];
+
+function hasPlayingPalindrome(show: ShowFile): boolean {
+  const titles = show.songs.map((song) => song.title);
+  return titles.some((_, start) =>
+    PLAYING_PALINDROME.every(
+      (title, offset) => titles[start + offset] === title,
+    ),
+  );
+}
 
 /** Wall of Sound era: debut at the Cow Palace → last night at Winterland. */
 const WALL_OF_SOUND_FIRST = '1974-03-23';
@@ -57,13 +100,8 @@ describe('show data is well-formed', () => {
   it.each(files)('%s is valid', (file) => {
     const show = readShow(file);
 
-    // id present, well-formed, and matches its filename.
-    expect(show.id).toMatch(ID_RE);
-    expect(`${show.id}.json`).toBe(basename(file));
-
-    // required metadata; the id is the date, compacted.
-    expect(show.date).toMatch(DATE_RE);
-    expect(show.id).toBe(show.date.replaceAll('-', ''));
+    // id present, well-formed, derived from the date, matching its filename.
+    expectIdMatchesDate(show, file);
     expect(show.venue?.trim()).toBeTruthy();
 
     // non-empty setlist with valid songs.
@@ -81,6 +119,72 @@ describe('show data is well-formed', () => {
   it('has no duplicate ids', () => {
     const ids = files.map((f) => readShow(f).id);
     expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it.each(files)('%s declares a real sitting, if any', (file) => {
+    const { sitting } = readShow(file);
+    if (sitting === undefined) return;
+    expect(
+      SITTINGS,
+      `${file}: sitting "${sitting}" is not one of ${SITTINGS.join('/')}`,
+    ).toContain(sitting);
+  });
+
+  it('dates with two shows carry ordinals and sittings; lone dates carry neither', () => {
+    // The whole early/late contract, in one place, because every part of it is
+    // a statement about a *date* rather than about one file.
+    //
+    // The id's two-digit ordinal is only ever a collision-breaker: it exists so
+    // two shows on one night can have two URLs, and it means nothing else. The
+    // fact it breaks a tie on — which performance this was — lives in
+    // `sitting`, which is why a lone show can carry `sitting` with a plain
+    // 8-digit id (a date whose early tape is lost still has a knowable late
+    // show) but must never carry an ordinal with nothing to be ordinal to.
+    const byDate = new Map<string, ShowFile[]>();
+    for (const file of files) {
+      const show = readShow(file);
+      byDate.set(show.date, [...(byDate.get(show.date) ?? []), show]);
+    }
+
+    for (const [date, dateShows] of byDate) {
+      const ordinals = dateShows.map((show) => parseShowId(show.id)?.ordinal);
+
+      if (dateShows.length === 1) {
+        expect(
+          ordinals[0],
+          `${dateShows[0].id}: only show on ${date}, so it must not carry an ordinal`,
+        ).toBeUndefined();
+        continue;
+      }
+
+      // Contiguous 1..N, so the ids say how many shows the night had. A gap
+      // would read as a missing sibling that isn't coming.
+      expect(
+        [...ordinals].sort((a, b) => (a ?? 0) - (b ?? 0)),
+        `${date}: has ${dateShows.length} shows, so their ids must end 01..${String(dateShows.length).padStart(2, '0')}`,
+      ).toEqual(dateShows.map((_, index) => index + 1));
+
+      // Two performances is a thing you know about a night, not a thing you
+      // discover later — if the corpus has both, it knows which was which.
+      for (const show of dateShows) {
+        expect(
+          show.sitting,
+          `${show.id}: shares ${date} with another show, so it needs a sitting`,
+        ).toBeDefined();
+      }
+
+      // Ordinal order must agree with the order the night ran, or the gallery
+      // rows and the run listing put the late show first.
+      const byOrdinal = [...dateShows].sort(
+        (showA, showB) =>
+          (parseShowId(showA.id)?.ordinal ?? 0) -
+          (parseShowId(showB.id)?.ordinal ?? 0),
+      );
+      expect(
+        byOrdinal.map((show) => show.sitting),
+        `${date}: ordinals disagree with the sittings — early comes first`,
+      ).toEqual(SITTINGS.slice(0, dateShows.length));
+    }
   });
 });
 
@@ -122,14 +226,44 @@ describe('tags stay an editorial vocabulary', () => {
     //
     // Once per show, not once per performance: 9 shows play it twice (the
     // post-drums reprise) and still carry exactly one tag.
+    //
+    // `Dark Star Jam` counts too (Jason, 2026-08-13). The tag asks whether the
+    // band went to Dark Star that night, and on 1973-11-30 they went there
+    // without singing it — the jam is the thing, not a lesser version of it.
+    // Listed explicitly rather than matched on a `Dark Star` prefix, so a new
+    // variant fails here until it is admitted deliberately, the same friction
+    // data/songs.json applies to titles.
     const show = readShow(file);
-    const played = show.songs.some((song) => song.title === 'Dark Star');
+    const played = show.songs.some((song) =>
+      DARK_STAR_TITLES.includes(song.title),
+    );
     const tagged = (show.tags ?? []).includes('Dark Star');
     expect(
       tagged,
       played
         ? `${file}: plays Dark Star but is not tagged`
         : `${file}: tagged Dark Star but never played it`,
+    ).toBe(played);
+  });
+
+  it.each(files)('%s tags the Playing Palindrome iff it played one', (file) => {
+    // The third derivable-by-rule tag, and the first keyed on a *sequence*
+    // rather than a single song or a date. Playing in the Band opens, the set
+    // turns around on Morning Dew, and it comes back out through the same two
+    // songs in reverse — a shape the band reached only a handful of times, all
+    // of them 1973–74 (Jason, 2026-08-13).
+    //
+    // Pinned here for the same reason `Dark Star` is: the corpus doesn't hold
+    // every instance yet, and when the remaining ones are imported this test
+    // demands the tag rather than trusting anyone to remember it.
+    const show = readShow(file);
+    const played = hasPlayingPalindrome(show);
+    const tagged = (show.tags ?? []).includes('Playing Palindrome');
+    expect(
+      tagged,
+      played
+        ? `${file}: plays the Playing palindrome but is not tagged`
+        : `${file}: tagged Playing Palindrome but the sequence isn't in the setlist`,
     ).toBe(played);
   });
 
@@ -166,6 +300,7 @@ describe('tags stay an editorial vocabulary', () => {
       'Dark Star',
       'Final Show',
       'Live/Dead',
+      'Playing Palindrome',
       'Shows I Attended',
       'Sunshine Daydream',
       'Wall of Sound',
@@ -489,10 +624,7 @@ describe('staged partial shows are well-formed', () => {
     it.each(partialFiles)('%s is well-formed', (file) => {
       const show = readPartial(file);
 
-      expect(show.id).toMatch(ID_RE);
-      expect(`${show.id}.json`).toBe(basename(file));
-      expect(show.date).toMatch(DATE_RE);
-      expect(show.date.replaceAll('-', '')).toBe(show.id);
+      expectIdMatchesDate(show, file);
       expect(show.songs.length).toBeGreaterThan(0);
 
       for (const song of show.songs) {
@@ -511,6 +643,101 @@ describe('staged partial shows are well-formed', () => {
             isValidDuration(song.duration),
             `"${song.title}" has duration "${song.duration}" — use m:ss, or "" if still unknown`,
           ).toBe(true);
+      }
+    });
+  }
+});
+
+describe('shows with unknown setlists are well-formed', () => {
+  // `data/unknown-setlists/` is the other holding pen, and the distinction from
+  // `data/partial-shows/` is intent, not format: a staged partial is waiting
+  // for a timing somebody can still supply, while these are waiting for
+  // nothing. The tape doesn't circulate, the sources disagree about what was
+  // played, and no amount of listening will settle it — 19710824 survives only
+  // as whatever was salvageable from Keith Godchaux's houseboat tapes.
+  //
+  // They are held out of `data/shows/` because the art would otherwise assert a
+  // setlist the record doesn't support: stripes are a claim about what was
+  // played and in what order, and here that claim can't be made.
+  //
+  // Format guards only, with two differences from the staged-partial block. A
+  // `note` is required — a file whose whole reason for existing is doubt has to
+  // carry the reason — and every duration must be real, since what survives is
+  // released material with timings; a blank would mean the file is waiting for
+  // something, which is exactly what this directory is not for.
+  const UNKNOWN_DIR = 'data/unknown-setlists';
+  const unknownFiles = existsSync(UNKNOWN_DIR)
+    ? (readdirSync(UNKNOWN_DIR) as string[])
+        .filter((f) => f.endsWith('.json'))
+        .sort()
+    : [];
+  const readUnknown = (file: string) =>
+    JSON.parse(readFileSync(join(UNKNOWN_DIR, file), 'utf8')) as ShowFile;
+
+  const registry = JSON.parse(readFileSync('data/songs.json', 'utf8')) as {
+    songs: { title: string; aliases?: string[] }[];
+  };
+  const canonical = new Set(registry.songs.map((song) => song.title));
+  const aliases = new Set(registry.songs.flatMap((song) => song.aliases ?? []));
+
+  it('the directory is optional and flat', () => {
+    for (const file of unknownFiles) expect(file).not.toContain('/');
+  });
+
+  it('no id collides with a show that already exists, or with a staged partial', () => {
+    const real = new Set(dataFiles().map((f) => readShow(f).id));
+    const staged = new Set(
+      (existsSync('data/partial-shows')
+        ? (readdirSync('data/partial-shows') as string[])
+        : []
+      )
+        .filter((f) => f.endsWith('.json'))
+        .map(
+          (f) =>
+            (
+              JSON.parse(
+                readFileSync(join('data/partial-shows', f), 'utf8'),
+              ) as ShowFile
+            ).id,
+        ),
+    );
+    for (const file of unknownFiles) {
+      const id = readUnknown(file).id;
+      expect(
+        real.has(id),
+        `${file} duplicates ${id}, which is already in data/shows/`,
+      ).toBe(false);
+      expect(
+        staged.has(id),
+        `${file} duplicates ${id}, which is already staged in data/partial-shows/`,
+      ).toBe(false);
+    }
+  });
+
+  if (unknownFiles.length) {
+    it.each(unknownFiles)('%s is well-formed', (file) => {
+      const show = readUnknown(file);
+
+      expectIdMatchesDate(show, file);
+      expect(show.songs.length).toBeGreaterThan(0);
+      expect(
+        (show.note ?? '').length,
+        `${file}: needs a note saying what survived and why the setlist can't be known`,
+      ).toBeGreaterThan(0);
+
+      for (const song of show.songs) {
+        expect(
+          aliases.has(song.title),
+          `"${song.title}" is an alias; use the canonical title`,
+        ).toBe(false);
+        expect(
+          canonical.has(song.title),
+          `"${song.title}" is not in data/songs.json — add it deliberately or alias it`,
+        ).toBe(true);
+        expect(
+          isValidDuration(song.duration),
+          `"${song.title}" has duration "${song.duration}" — what survives is released material, so it is timed`,
+        ).toBe(true);
       }
     });
   }

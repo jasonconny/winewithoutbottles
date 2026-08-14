@@ -1,0 +1,84 @@
+{
+  "id": "19921216",
+  "date": "1992-12-16",
+  "venue": "Oakland Coliseum Arena",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Dick's Picks"],
+  "source": "Dick's Picks Volume 27",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "9:20"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:22"
+    },
+    {
+      "title": "The Same Thing",
+      "duration": "8:09"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "7:21"
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "9:18"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:10"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "13:05"
+    },
+    {
+      "title": "Shakedown Street",
+      "duration": "12:59"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:28"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:39"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "12:33"
+    },
+    {
+      "title": "Drums",
+      "duration": "14:41"
+    },
+    {
+      "title": "Space",
+      "duration": "10:56"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "8:56"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "6:38"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:43"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "8:30"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "5:38"
+    }
+  ]
+}

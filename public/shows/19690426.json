@@ -1,0 +1,120 @@
+{
+  "id": "19690426",
+  "date": "1969-04-26",
+  "venue": "Electric Theater",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19690426.svg",
+  "songCount": 26,
+  "durationSeconds": 10213,
+  "songs": [
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Mountains of the Moon",
+      "durationSeconds": 405
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 438
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 128
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 57
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 440
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 479
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 64
+    },
+    {
+      "title": "I Know It's a Sin",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "durationSeconds": 250
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Silver Threads and Golden Needles",
+      "durationSeconds": 218
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 482
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 2011
+    },
+    {
+      "title": "Viola Lee Blues",
+      "durationSeconds": 653
+    },
+    {
+      "title": "Caution Jam",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Viola Lee Blues",
+      "durationSeconds": 95
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 290
+    },
+    {
+      "title": "What's Become of the Baby",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 130
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 252
+    }
+  ]
+}

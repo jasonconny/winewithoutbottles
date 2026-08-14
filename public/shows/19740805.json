@@ -1,0 +1,125 @@
+{
+  "id": "19740805",
+  "date": "1974-08-05",
+  "venue": "Philadelphia Civic Center",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Wall of Sound",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19740805.svg",
+  "songCount": 27,
+  "durationSeconds": 11587,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 327
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 256
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 673
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 1052
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 510
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 721
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 792
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Other One Jam",
+      "durationSeconds": 150
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 576
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 298
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 327
+    }
+  ]
+}

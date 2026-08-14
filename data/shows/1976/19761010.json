@@ -1,0 +1,104 @@
+{
+  "id": "19761010",
+  "date": "1976-10-10",
+  "venue": "Oakland Coliseum Stadium",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 33",
+  "songs": [
+    {
+      "title": "Might As Well",
+      "duration": "6:34"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:17"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:10"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:46"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:18"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:53"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:40"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:32"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "8:34"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "14:40"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "7:54"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "4:19"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:47"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:39"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:58"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:10"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:50"
+    },
+    {
+      "title": "Space",
+      "duration": "4:48"
+    },
+    {
+      "title": "The Other One",
+      "duration": "9:25"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "12:02"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "5:50"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:13"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:04"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "19780511",
+  "date": "1978-05-11",
+  "venue": "Springfield Civic Center Arena",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19780511.svg",
+  "songCount": 22,
+  "durationSeconds": 10245,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 516
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 160
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 527
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 201
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 581
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 515
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 912
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1193
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 112
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 621
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Werewolves of London",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 255
+    }
+  ]
+}

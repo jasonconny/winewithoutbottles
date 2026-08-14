@@ -1,0 +1,49 @@
+{
+  "id": "1970021301",
+  "date": "1970-02-13",
+  "sitting": "early",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 4 | History of the Grateful Dead, Volume One (Bear's Choice) | archive.org:gd1970-02-13.176321.sbd.miller.flac1644",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:46"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "2:53"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "8:56"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:39"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "10:12"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "6:44"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "6:40"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "10:11"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "4:53"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "19691108",
+  "date": "1969-11-08",
+  "venue": "Fillmore Auditorium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Dick's Picks"],
+  "source": "Dick's Picks Volume 16",
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "13:33"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "4:51"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "8:24"
+    },
+    {
+      "title": "Easy Wind",
+      "duration": "9:02"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "3:45"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:40"
+    },
+    {
+      "title": "High Time",
+      "duration": "7:48"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:10"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "9:17"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "4:19"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "14:09"
+    },
+    {
+      "title": "The Other One",
+      "duration": "12:02"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "1:00"
+    },
+    {
+      "title": "Uncle John's Band Jam",
+      "duration": "2:33"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "3:05"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "7:44"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "14:01"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "17:28"
+    },
+    {
+      "title": "The Main Ten",
+      "duration": "3:10"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "9:02"
+    },
+    {
+      "title": "Feedback",
+      "duration": "7:57"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "3:28"
+    }
+  ]
+}

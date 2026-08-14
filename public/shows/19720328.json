@@ -1,0 +1,124 @@
+{
+  "id": "19720328",
+  "date": "1972-03-28",
+  "venue": "Academy of Music",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19720328.svg",
+  "songCount": 27,
+  "durationSeconds": 11627,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 589
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 408
+    },
+    {
+      "title": "You Win Again",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 249
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 325
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 305
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 836
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 456
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "durationSeconds": 538
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 415
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1696
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 563
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 215
+    },
+    {
+      "title": "Sidewalks of New York",
+      "durationSeconds": 70
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 283
+    }
+  ]
+}

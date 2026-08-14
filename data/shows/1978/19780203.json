@@ -1,0 +1,31 @@
+{
+  "id": "19780203",
+  "date": "1978-02-03",
+  "venue": "Dane County Coliseum",
+  "city": "Madison",
+  "state": "WI",
+  "country": "USA",
+  "tags": ["Dick's Picks"],
+  "source": "Dick's Picks Volume 18 | archive.org:gd1978-02-03.139370.sbd.miller.flac1644",
+  "songs": [
+    { "title": "Cold Rain and Snow", "duration": "6:17" },
+    { "title": "Mexicali Blues", "duration": "3:28" },
+    { "title": "Big River", "duration": "6:06" },
+    { "title": "They Love Each Other", "duration": "7:42" },
+    { "title": "Looks Like Rain", "duration": "7:59" },
+    { "title": "Loser", "duration": "7:46" },
+    { "title": "Passenger", "duration": "4:54" },
+    { "title": "Brown-Eyed Women", "duration": "5:34" },
+    { "title": "El Paso", "duration": "4:26" },
+    { "title": "Peggy-O", "duration": "7:04" },
+    { "title": "The Music Never Stopped", "duration": "8:06" },
+    { "title": "Good Lovin'", "duration": "6:09" },
+    { "title": "Ship Of Fools", "duration": "7:35" },
+    { "title": "Estimated Prophet", "duration": "12:16" },
+    { "title": "Eyes Of The World", "duration": "14:38" },
+    { "title": "Playing in the Band", "duration": "24:35" },
+    { "title": "The Wheel", "duration": "5:44" },
+    { "title": "Playing in the Band", "duration": "9:02" },
+    { "title": "Johnny B. Goode", "duration": "4:38" }
+  ]
+}

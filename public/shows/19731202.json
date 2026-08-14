@@ -1,0 +1,108 @@
+{
+  "id": "19731202",
+  "date": "1973-12-02",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19731202.svg",
+  "songCount": 23,
+  "durationSeconds": 11175,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 220
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 291
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 201
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 484
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 269
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 587
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 87
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1233
+    },
+    {
+      "title": "Mind Left Body Jam",
+      "durationSeconds": 435
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 627
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 814
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 619
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 871
+    }
+  ]
+}

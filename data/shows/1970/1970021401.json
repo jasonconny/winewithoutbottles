@@ -1,0 +1,33 @@
+{
+  "id": "1970021401",
+  "date": "1970-02-14",
+  "sitting": "early",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dark Star", "Dick's Picks"],
+  "source": "Dick's Picks Volume 4 | History of the Grateful Dead, Volume One (Bear's Choice) | archive.org:gd1970-02-14.sbd.miller.97644.flac16",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:34"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "23:37"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "6:42"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "8:53"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "24:06"
+    }
+  ]
+}

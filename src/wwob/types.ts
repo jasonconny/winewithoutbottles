@@ -19,12 +19,27 @@ export interface Stripe {
   x: number;
 }
 
+/**
+ * Which performance of a night the band played twice, clearing the house
+ * between them — a 1970–71 practice. Absent on the single-show dates, which is
+ * nearly all of them.
+ */
+export type Sitting = 'early' | 'late';
+
 /** Show metadata shared by the on-disk, parsed, and manifest shapes. */
 export interface ShowMeta {
   /** Stable id, e.g. "1972-08-27". */
   id: string;
   /** ISO date, "YYYY-MM-DD". */
   date: string;
+  /**
+   * Early or late show, on the nights there were two. Free-standing, and
+   * deliberately not encoded in the id: a date whose early tape is lost still
+   * has a knowable *late* show, and it keeps a plain 8-digit id. When a date
+   * does carry both, the id's two-digit ordinal is what separates the URLs —
+   * see src/wwob/showId.ts.
+   */
+  sitting?: Sitting;
   venue: string;
   city: string;
   state?: string;
@@ -53,6 +68,14 @@ export interface ShowFile extends ShowMeta {
    * reaches `ShowSummary`, the bundled index, or the UI.
    */
   source?: string;
+  /**
+   * Why this file is held out of `data/shows/`. Only `data/unknown-setlists/`
+   * uses it: those shows have no knowable setlist (the tape doesn't circulate
+   * and the sources disagree), so the note records what survived and why the
+   * rest can't be recovered. Like `source`, it never reaches `ShowSummary` or
+   * the UI — `toSummary` in generator/generate.ts builds its fields explicitly.
+   */
+  note?: string;
   songs: { title: string; duration: string }[];
 }
 

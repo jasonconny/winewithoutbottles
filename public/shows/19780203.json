@@ -1,0 +1,92 @@
+{
+  "id": "19780203",
+  "date": "1978-02-03",
+  "venue": "Dane County Coliseum",
+  "city": "Madison",
+  "state": "WI",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19780203.svg",
+  "songCount": 19,
+  "durationSeconds": 9239,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 366
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 334
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 424
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 736
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 878
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1475
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 542
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 278
+    }
+  ]
+}
