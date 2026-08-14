@@ -1,97 +1,104 @@
 {
   "id": "19780511",
   "date": "1978-05-11",
-  "venue": "",
-  "city": "",
-  "source": "Dick's Picks Volume 25 | archive.org:gd78-05-11.sbd.miller.16333.sbeok.shnf",
+  "venue": "Springfield Civic Center Arena",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19780511.svg",
+  "songCount": 22,
+  "durationSeconds": 10245,
   "songs": [
     {
       "title": "Cold Rain and Snow",
-      "duration": "7:03"
+      "durationSeconds": 423
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:31"
+      "durationSeconds": 211
     },
     {
       "title": "Friend Of The Devil",
-      "duration": "8:36"
+      "durationSeconds": 516
     },
     {
       "title": "Looks Like Rain",
-      "duration": "9:13"
+      "durationSeconds": 553
     },
     {
       "title": "Loser",
-      "duration": "7:48"
+      "durationSeconds": 468
     },
     {
       "title": "Mexicali Blues",
-      "duration": ""
+      "durationSeconds": 221
     },
     {
       "title": "Mama Tried",
-      "duration": ""
+      "durationSeconds": 160
     },
     {
       "title": "Tennessee Jed",
-      "duration": "8:47"
+      "durationSeconds": 527
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "5:47"
+      "durationSeconds": 347
     },
     {
       "title": "Peggy-O",
-      "duration": ""
+      "durationSeconds": 437
     },
     {
       "title": "Lazy Lightnin'",
-      "duration": "3:21"
+      "durationSeconds": 201
     },
     {
       "title": "Supplication",
-      "duration": "6:31"
+      "durationSeconds": 391
     },
     {
       "title": "Scarlet Begonias",
-      "duration": "9:41"
+      "durationSeconds": 581
     },
     {
       "title": "Fire on the Mountain",
-      "duration": "8:35"
+      "durationSeconds": 515
     },
     {
       "title": "Dancing in the Street",
-      "duration": "15:12"
+      "durationSeconds": 912
     },
     {
       "title": "Drums",
-      "duration": "19:53"
+      "durationSeconds": 1193
     },
     {
       "title": "Space",
-      "duration": ""
+      "durationSeconds": 112
     },
     {
       "title": "Not Fade Away",
-      "duration": "10:21"
+      "durationSeconds": 621
     },
     {
       "title": "Stella Blue",
-      "duration": "8:56"
+      "durationSeconds": 536
     },
     {
       "title": "Around And Around",
-      "duration": "9:15"
+      "durationSeconds": 555
     },
     {
       "title": "Werewolves of London",
-      "duration": "8:30"
+      "durationSeconds": 510
     },
     {
       "title": "Johnny B. Goode",
-      "duration": "4:15"
+      "durationSeconds": 255
     }
   ]
 }

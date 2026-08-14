@@ -1789,6 +1789,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10219
   },
   {
+    "id": "19780510",
+    "date": "1978-05-10",
+    "venue": "Veteran's Memorial Coliseum",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780510.svg",
+    "songCount": 20,
+    "durationSeconds": 10113
+  },
+  {
+    "id": "19780511",
+    "date": "1978-05-11",
+    "venue": "Springfield Civic Center Arena",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19780511.svg",
+    "songCount": 22,
+    "durationSeconds": 10245
+  },
+  {
     "id": "19780513",
     "date": "1978-05-13",
     "venue": "Spectrum",

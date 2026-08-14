@@ -700,6 +700,18 @@ and `sbd.miller.97361` (2009) — and the 2011 copy is the one that squares with
 the release. `findRecordings` now requests `addeddate` and orders his items
 newest first.
 
+**Recognising him at all took two passes.** `isMiller` originally read only the
+`transferer` metadata field, and that field is sometimes **empty**:
+`gd78-05-11.sbd.miller.16333.sbeok.shnf` names him in the identifier alone, so
+one of his soundboards was silently classified as somebody else's. The test now
+falls back to `[.-]miller[.-]` in the identifier — narrow on purpose, matching the
+etree convention and the collaborations (`eaton-miller`, `gans.eaton.miller`,
+`dalton.miller.clugston`) without matching a word that merely contains the
+letters. Widening it revealed exactly one previously-invisible Miller on an
+already-authored date, 1973-12-02's `s2.sbd.miller` — and the completeness guard
+correctly refused it, since it is a **set-two-only** tape scoring 9 against the
+fullest candidate's 23. No authored show changed.
+
 **Rank is still not completeness**, so rule 1 is conditional. On 1974-08-05 the
 only Miller item is a one-track `jam-segment` excerpt sitting beside three
 complete 25-track soundboards; taking it would stage a show of one song. Miller

@@ -34,9 +34,23 @@ interface SearchDoc {
   addeddate?: string | string[];
 }
 
-/** Charlie Miller's transfers; `transferer` carries his name verbatim. */
+/**
+ * Charlie Miller's transfers.
+ *
+ * `transferer` carries his name verbatim when it is filled in — but it is not
+ * always filled in. `gd78-05-11.sbd.miller.16333.sbeok.shnf` has an **empty**
+ * transferer field and names him only in the identifier, so a transferer-only
+ * test silently classified one of his soundboards as somebody else's and the
+ * Miller preference in `bestRecording` could not see it.
+ *
+ * The identifier fallback is deliberately narrow: `.miller.` as a dotted segment,
+ * which is the etree naming convention. That matches `sbd.miller.16333` and the
+ * collaborations (`eaton-miller`, `dalton.miller.clugston`) without matching a
+ * band member or a venue that happens to contain the letters.
+ */
 export const isMiller = (item: Recording): boolean =>
-  /charlie miller/i.test(item.transferer);
+  /charlie miller/i.test(item.transferer) ||
+  /[.-]miller[.-]/i.test(item.identifier);
 
 /** archive.org returns some fields as either a string or an array of them. */
 const first = (value: string | string[] | undefined): string =>
