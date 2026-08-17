@@ -1,0 +1,137 @@
+{
+  "id": "19730328",
+  "date": "1973-03-28",
+  "venue": "Springfield Civic Center",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19730328.svg",
+  "songCount": 30,
+  "durationSeconds": 12614,
+  "songs": [
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Wave That Flag",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 205
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 297
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 363
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 521
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 313
+    },
+    {
+      "title": "You Ain't Woman Enough",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 456
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 534
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 203
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 189
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1906
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 771
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 927
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 231
+    }
+  ]
+}

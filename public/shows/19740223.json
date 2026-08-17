@@ -1,0 +1,136 @@
+{
+  "id": "19740223",
+  "date": "1974-02-23",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19740223.svg",
+  "songCount": 30,
+  "durationSeconds": 12578,
+  "songs": [
+    {
+      "title": "Around And Around",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 224
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 703
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 187
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 81
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 269
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 780
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 224
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 256
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 203
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 858
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 209
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1244
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 882
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 451
+    }
+  ]
+}

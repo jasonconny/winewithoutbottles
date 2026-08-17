@@ -1,0 +1,141 @@
+{
+  "id": "19730324",
+  "date": "1973-03-24",
+  "venue": "The Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19730324.svg",
+  "songCount": 31,
+  "durationSeconds": 13695,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 220
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 225
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 316
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Wave That Flag",
+      "durationSeconds": 379
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1163
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 202
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 485
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 192
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 832
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 1350
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 235
+    }
+  ]
+}

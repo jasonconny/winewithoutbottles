@@ -518,6 +518,12 @@
       "title": "Let It Grow"
     },
     {
+      "title": "Let It Rock"
+    },
+    {
+      "title": "Let Me Sing Your Blues Away"
+    },
+    {
       "title": "Let the Good Times Roll",
       "aliases": ["Let The Good Times Roll"]
     },
@@ -988,7 +994,8 @@
       "aliases": ["Weather Report Suite Part One"]
     },
     {
-      "title": "Weather Report Suite Prelude"
+      "title": "Weather Report Suite Prelude",
+      "aliases": ["Weather Report Suite: Prelude"]
     },
     {
       "title": "Werewolves of London"
@@ -1018,6 +1025,9 @@
     {
       "title": "Yellow Dog Story",
       "aliases": ["The Yellow Dog Story"]
+    },
+    {
+      "title": "You Ain't Woman Enough"
     },
     {
       "title": "You Don't Have to Ask"
@@ -1057,6 +1067,7 @@
     "Tuning intro",
     "Tuning Rap",
     "tuning/banter",
-    "Weir messing around"
+    "Weir messing around",
+    "Wolfman Jack introduces the band"
   ]
 }

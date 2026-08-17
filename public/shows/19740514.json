@@ -1,0 +1,118 @@
+{
+  "id": "19740514",
+  "date": "1974-05-14",
+  "venue": "Harry Adams Field House",
+  "city": "Missoula",
+  "state": "MT",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks",
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740514.svg",
+  "songCount": 25,
+  "durationSeconds": 10942,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 441
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 318
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1249
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 348
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 86
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1599
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 598
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 290
+    }
+  ]
+}

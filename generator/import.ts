@@ -319,7 +319,19 @@ function parseTrack(line: string): ParsedTrack | null {
     // The whole line, since there is no closing quote to measure from.
     after = text;
   }
-  const timed = after.match(/[–—-]\s*(\d{1,3}:\d{2})/);
+  // The dash form first, because it is what nearly every article uses and
+  // because a line can carry both: Dave's Picks 30 writes
+  // `"Beat It on Down the Line" – 3:17 (listed as 3:08 on CD)`, where the
+  // parenthesised number is a correction *about* the release, not the duration.
+  //
+  // The bare parenthesised form is Dave's Picks 34's, which times its Weather
+  // Report Suite as `# "Weather Report Suite" (16:31)` and nothing else that
+  // way. Unmatched, that one track read as untimed, and since the importer
+  // refuses any show with an untimed track — correctly, stripe widths being the
+  // durations — the whole 6/23/74 show was unsourceable.
+  const timed =
+    after.match(/[–—-]\s*(\d{1,3}:\d{2})/) ??
+    after.match(/\(\s*(\d{1,3}:\d{2})\s*\)/);
   // A title with no time is still a real track: several articles list whole
   // discs untimed. Keep it so the caller can say so, rather than silently
   // shortening the show.

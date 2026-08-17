@@ -1,0 +1,125 @@
+{
+  "id": "19730908",
+  "date": "1973-09-08",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 38",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:21"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:16"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "8:03"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:39"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:09"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:15"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:49"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:27"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:51"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:19"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:33"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "9:08"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "15:23"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:28"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "5:13"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:57"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:02"
+    },
+    {
+      "title": "Let Me Sing Your Blues Away",
+      "duration": "4:10"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "8:23"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:19"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:51"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "14:55"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "11:46"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "9:03"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "7:55"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "4:17"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:56"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:06"
+    }
+  ],
+  "note": "Dave's Picks Volume 38 lists the Weather Report Suite as a single 15:00 track and the corpus keeps it as three stripes, so the split is by ear. No tape settles it: gd73-09-08.sbd.wulf.183.sbefail.shnf divides only two ways, Weather Report Suite 5:54 then Let It Grow 8:17, leaving the Prelude and Part 1 merged. Jason's split, 2026-08-17: 1:19 / 4:33 / 9:08, summing exactly to the release."
+}

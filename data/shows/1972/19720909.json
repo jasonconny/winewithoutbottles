@@ -1,0 +1,108 @@
+{
+  "id": "19720909",
+  "date": "1972-09-09",
+  "venue": "Hollywood Palladium",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 46",
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "3:55"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:10"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:46"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:56"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:54"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:57"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:04"
+    },
+    {
+      "title": "Deal",
+      "duration": "4:50"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "19:15"
+    },
+    {
+      "title": "Loser",
+      "duration": "7:15"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:07"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "7:39"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:13"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "4:35"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "4:53"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "7:40"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:39"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "7:13"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "11:14"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "14:00"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:38"
+    },
+    {
+      "title": "The Other One",
+      "duration": "34:46"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:20"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:44"
+    }
+  ]
+}

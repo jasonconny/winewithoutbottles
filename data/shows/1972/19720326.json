@@ -1,0 +1,112 @@
+{
+  "id": "19720326",
+  "date": "1972-03-26",
+  "venue": "Academy of Music",
+  "city": "New York City",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 14",
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "5:51"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:27"
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "duration": "3:19"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:24"
+    },
+    {
+      "title": "You Win Again",
+      "duration": "4:50"
+    },
+    {
+      "title": "Mr. Charlie",
+      "duration": "4:12"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "4:57"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:54"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:58"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "4:36"
+    },
+    {
+      "title": "Big Boss Man",
+      "duration": "5:10"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "12:16"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:19"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "17:15"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "18:19"
+    },
+    {
+      "title": "Drums",
+      "duration": "3:49"
+    },
+    {
+      "title": "The Other One",
+      "duration": "23:35"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:12"
+    },
+    {
+      "title": "The Other One",
+      "duration": "5:29"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "11:08"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "7:40"
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "duration": "8:23"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "5:31"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:00"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "2:52"
+    }
+  ]
+}

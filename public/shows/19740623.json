@@ -1,0 +1,122 @@
+{
+  "id": "19740623",
+  "date": "1974-06-23",
+  "venue": "Jai-Alai Fronton",
+  "city": "Miami",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks",
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740623.svg",
+  "songCount": 26,
+  "durationSeconds": 10804,
+  "songs": [
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 469
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Let It Rock",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 409
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 280
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 100
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 633
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 585
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Dark Star Jam",
+      "durationSeconds": 1057
+    },
+    {
+      "title": "Spanish Jam",
+      "durationSeconds": 262
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 530
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 473
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 408
+    }
+  ]
+}

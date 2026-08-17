@@ -1,0 +1,125 @@
+{
+  "id": "19740224",
+  "date": "1974-02-24",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks"],
+  "source": "Dave's Picks Volume 13 | archive.org:gd1974-02-24.sbd.marmar.13961.sbeok.flac16",
+  "songs": [
+    {
+      "title": "U.S. Blues",
+      "duration": "6:22"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:45"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:26"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "4:04"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:19"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:07"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "9:54"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:07"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:52"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:44"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "18:27"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:57"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:38"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:25"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:40"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:22"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "5:05"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "9:07"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:03"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "6:08"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:33"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "29:08"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "13:54"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "8:54"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "4:49"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "7:23"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "4:29"
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "duration": "6:32"
+    }
+  ],
+  "note": "The Weather Report Suite is three stripes here, as everywhere in the corpus, but Dave's Picks Volume 13 lists it as one 15:34 track. gd1974-02-24.sbd.marmar.13961.sbeok.flac16 splits it three ways and its parts sum to exactly that 15:34 — but it labels them Prelude 5:05 and Part I 1:22, which is backwards against all thirteen other shows in the corpus, where the Prelude runs 1:11–1:35 and Part 1 runs 4:10–5:02. Jason's call, 2026-08-17: the tape's numbers are right and its two labels are transposed, so the Prelude takes 1:22 and Part 1 takes 5:05."
+}
