@@ -1,0 +1,72 @@
+{
+  "id": "19700202",
+  "date": "1970-02-02",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks"],
+  "source": "Dave's Picks Volume 6",
+  "songs": [
+    {
+      "title": "Casey Jones",
+      "duration": "4:31"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:03"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "5:39"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:32"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:49"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:14"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "22:00"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "5:11"
+    },
+    {
+      "title": "Mason's Children",
+      "duration": "5:29"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "5:09"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "6:37"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "14:06"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "1:20"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "3:38"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "3:07"
+    }
+  ]
+}

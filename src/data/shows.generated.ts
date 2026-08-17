@@ -213,6 +213,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 5522
   },
   {
+    "id": "19691102",
+    "date": "1969-11-02",
+    "venue": "Family Dog at the Great Highway",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691102.svg",
+    "songCount": 13,
+    "durationSeconds": 7088
+  },
+  {
     "id": "19691108",
     "date": "1969-11-08",
     "venue": "Fillmore Auditorium",
@@ -226,6 +241,96 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19691108.svg",
     "songCount": 22,
     "durationSeconds": 9928
+  },
+  {
+    "id": "19691212",
+    "date": "1969-12-12",
+    "venue": "Thelma",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691212.svg",
+    "songCount": 24,
+    "durationSeconds": 11618
+  },
+  {
+    "id": "19691220",
+    "date": "1969-12-20",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691220.svg",
+    "songCount": 12,
+    "durationSeconds": 7679
+  },
+  {
+    "id": "19691226",
+    "date": "1969-12-26",
+    "venue": "McFarlin Memorial Auditorium",
+    "city": "University Park",
+    "state": "TX",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691226.svg",
+    "songCount": 17,
+    "durationSeconds": 7378
+  },
+  {
+    "id": "1970010201",
+    "date": "1970-01-02",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/1970010201.svg",
+    "songCount": 8,
+    "durationSeconds": 3699
+  },
+  {
+    "id": "1970010202",
+    "date": "1970-01-02",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/1970010202.svg",
+    "songCount": 13,
+    "durationSeconds": 7494
+  },
+  {
+    "id": "19700202",
+    "date": "1970-02-02",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19700202.svg",
+    "songCount": 15,
+    "durationSeconds": 6025
   },
   {
     "id": "1970021301",
@@ -377,6 +482,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8646
   },
   {
+    "id": "19710413",
+    "date": "1971-04-13",
+    "venue": "Scranton Catholic Youth Center",
+    "city": "",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19710413.svg",
+    "songCount": 18,
+    "durationSeconds": 7020
+  },
+  {
     "id": "19710731",
     "date": "1971-07-31",
     "venue": "Yale Bowl",
@@ -435,6 +554,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11355
   },
   {
+    "id": "19711022",
+    "date": "1971-10-22",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711022.svg",
+    "songCount": 21,
+    "durationSeconds": 8789
+  },
+  {
     "id": "19711026",
     "date": "1971-10-26",
     "venue": "Palestra",
@@ -477,6 +610,46 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19711115.svg",
     "songCount": 25,
     "durationSeconds": 9101
+  },
+  {
+    "id": "19711117",
+    "date": "1971-11-17",
+    "venue": "Albuquerque Civic Auditorium",
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711117.svg",
+    "songCount": 26,
+    "durationSeconds": 9253
+  },
+  {
+    "id": "19711120",
+    "date": "1971-11-20",
+    "venue": "Pauley Pavilion",
+    "city": "",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711120.svg",
+    "songCount": 23,
+    "durationSeconds": 9011
+  },
+  {
+    "id": "19711207",
+    "date": "1971-12-07",
+    "venue": "Felt Forum",
+    "city": "New York City",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711207.svg",
+    "songCount": 26,
+    "durationSeconds": 9223
   },
   {
     "id": "19720328",

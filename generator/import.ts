@@ -46,7 +46,61 @@ import { formatDuration, parseDuration } from '../src/wwob/index.ts';
 import type { Recording } from './archive.ts';
 import { findRecordings, isMiller, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
+import type { VenueGuess } from './venue.ts';
+import { reconcileVenue, venueFromInfobox } from './venue.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
+
+/**
+ * Every venue the corpus already holds, for `reconcileVenue` to match against.
+ * Read lazily and once: it walks `data/shows/` and only the draft paths need it.
+ */
+function knownVenues(): VenueGuess[] {
+  const dataDir = join(root, 'data/shows');
+  const out: VenueGuess[] = [];
+  for (const year of readdirSync(dataDir)) {
+    for (const file of readdirSync(join(dataDir, year))) {
+      const show = JSON.parse(
+        readFileSync(join(dataDir, year, file), 'utf8'),
+      ) as ShowFile & { state?: string; country?: string };
+      if (show.venue)
+        out.push({
+          venue: show.venue,
+          city: show.city,
+          state: show.state,
+          country: show.country,
+        });
+    }
+  }
+  return out;
+}
+
+/**
+ * Fill in a drafted show's venue fields, or leave them blank and say why.
+ *
+ * The importer left `venue: ''` for a human for good reason — a guessed venue
+ * is worse than an empty one, and 19771007 proved it, authored as San Antonio
+ * off a lede that listed four states when the tape said Albuquerque. Reading
+ * the article's own infobox is not a guess, so this fills what it finds and
+ * prints it for checking.
+ */
+function draftVenue(guess: VenueGuess | null): Partial<ShowFile> {
+  if (!guess) {
+    console.log('  venue/city are blank — fill them in');
+    return { venue: '', city: '' };
+  }
+  const settled = reconcileVenue(guess, knownVenues());
+  const where = [settled.city, settled.state].filter(Boolean).join(' ');
+  console.log(
+    `  venue from the article infobox: ${settled.venue}${where ? `, ${where}` : ''} — verify`,
+  );
+  if (!settled.city) console.log('  ! no city in the infobox — fill it in');
+  return {
+    venue: settled.venue,
+    city: settled.city ?? '',
+    ...(settled.state ? { state: settled.state } : {}),
+    ...(settled.country ? { country: settled.country } : {}),
+  };
+}
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -1204,6 +1258,17 @@ const merging =
   SHOW_OVERRIDES[date]?.keepAuthored === true;
 
 const collected: ParsedTrack[] = [];
+/**
+ * The venue read off the first source that can safely name one.
+ *
+ * **Single-date releases only.** A volume covering several nights may cover
+ * several rooms, and its infobox says so in one undifferentiated field: Dave's
+ * Picks 43 packs `Family Dog{{break}}[[McFarlin Auditorium]]` into one line for
+ * two different dates, and taking the first would put half its shows in the
+ * wrong city. Those stay blank for a human, which is where every show started
+ * before this.
+ */
+let venueHint: VenueGuess | null = null;
 for (const source of sources) {
   console.log(`${date} ← ${source.name} (${source.completeness})`);
   if (source.completeness !== 'complete') console.log(`  ! ${source.note}`);
@@ -1216,6 +1281,8 @@ for (const source of sources) {
     console.error(`  could not fetch "${source.page}"`);
     process.exit(1);
   }
+  if (!venueHint && source.dates.length === 1)
+    venueHint = venueFromInfobox(wikitext);
   // A partial target is deliberately *not* in the release's `dates` — that is
   // what records it as unsourceable — but the parser buckets on those dates, so
   // without this its tracks orphan and the skeleton comes back empty. Inject
@@ -1563,13 +1630,12 @@ async function writePartial(
   const out: ShowFile = {
     id,
     date,
-    venue: '',
-    city: '',
+    ...draftVenue(venueHint),
     // Both origins, in the documented pipe-separated form: the timings that do
     // exist came from the release, the setlist and order from the soundboard.
     source: `${sources.map((r) => r.name).join(' | ')} | archive.org:${recording.identifier}`,
     songs,
-  };
+  } as ShowFile;
   const dir = join(root, 'data/partial-shows');
   mkdirSync(dir, { recursive: true });
   const target = join(dir, `${id}.json`);
@@ -1644,11 +1710,10 @@ if (exists) {
   const draft: ShowFile = {
     id,
     date,
-    venue: '',
-    city: '',
+    ...draftVenue(venueHint),
     source: sources.map((release) => release.name).join(' | '),
     songs: requireTimed(mapped),
-  };
+  } as ShowFile;
   if (!write) {
     console.log(`\n${serialiseShow(draft, false)}`);
     console.log('  (draft only — pass --write to create the file)');
@@ -1656,7 +1721,7 @@ if (exists) {
   }
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, serialiseShow(draft, false));
-  console.log(
-    `\n✓ wrote ${path.replace(`${root}/`, '')} — venue/city are blank, fill them in`,
-  );
+  // `draftVenue` has already said whether it filled the venue or left it blank,
+  // so this no longer claims one way or the other.
+  console.log(`\n✓ wrote ${path.replace(`${root}/`, '')}`);
 }

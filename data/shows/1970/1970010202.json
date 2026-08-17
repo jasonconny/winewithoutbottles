@@ -1,0 +1,66 @@
+{
+  "id": "1970010202",
+  "date": "1970-01-02",
+  "sitting": "late",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks"],
+  "source": "Dave's Picks Volume 30",
+  "note": "The late of the two shows the Dead played this night. Dave's Picks Volume 30 splits this night across three discs — disc one is the early show and the last of it, disc two opens the late show, and disc three is headed \"January 2, 1970 late show, continued\". The five January 3 tracks between them are a bonus date and get no stripe here.",
+  "songs": [
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:24"
+    },
+    {
+      "title": "High Time",
+      "duration": "7:22"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:43"
+    },
+    {
+      "title": "Easy Wind",
+      "duration": "7:49"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:47"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "4:12"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:24"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "4:33"
+    },
+    {
+      "title": "Monkey and the Engineer",
+      "duration": "1:54"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "32:12"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "9:16"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "10:28"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "22:50"
+    }
+  ]
+}

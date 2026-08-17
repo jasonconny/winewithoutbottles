@@ -1,0 +1,64 @@
+{
+  "id": "19700123",
+  "date": "1970-01-23",
+  "venue": "Honolulu Civic Auditorium",
+  "city": "Honolulu",
+  "state": "HI",
+  "country": "USA",
+  "source": "Dave's Picks Volume 19",
+  "note": "Casey Jones runs 1:22 because the tape cut out mid-song, and nothing can extend it. Dave's Picks Volume 19 is the only release of this night, and the only two recordings catalogued anywhere on archive.org for the date — gd70-01-23.sbd.goodbear.88.sbeok.shnf and gd70-01-23.sbd.fixed.connor.18153.sbeok.shnf, both soundboards of the same lineage — do not contain the song at all; both run Mama Tried straight into Dire Wolf. So 1:22 is all that survives of it, and no audience tape exists to fill the gap.\n\nEvery other duration here is sound, which is what makes this a judgement rather than an obvious call: the setlist is known and thirteen of the fourteen stripes would be right. Jason's call, 2026-08-17, is that one width known to be wrong is enough to keep the show off the wall — a stripe is a claim about how long a song was, and this one would be a claim about where a tape stopped.",
+  "songs": [
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:35"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:11"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "8:36"
+    },
+    {
+      "title": "Yellow Dog Story",
+      "duration": "3:14"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "5:41"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:10"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "1:22"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:27"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "10:00"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "21:57"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "18:45"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "5:02"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "38:09"
+    }
+  ]
+}
