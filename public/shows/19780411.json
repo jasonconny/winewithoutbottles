@@ -1,0 +1,96 @@
+{
+  "id": "19780411",
+  "date": "1978-04-11",
+  "venue": "Fox Theatre",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780411.svg",
+  "songCount": 20,
+  "durationSeconds": 9823,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 192
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 350
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 762
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 642
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 707
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1254
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 138
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 623
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 639
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 257
+    }
+  ]
+}

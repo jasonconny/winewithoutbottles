@@ -1,0 +1,105 @@
+{
+  "id": "19770608",
+  "date": "1977-06-08",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19770608.svg",
+  "songCount": 23,
+  "durationSeconds": 11478,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 1006
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 634
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 232
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 347
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1160
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 245
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 872
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 676
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 824
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 473
+    }
+  ]
+}

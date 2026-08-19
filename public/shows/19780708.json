@@ -1,0 +1,104 @@
+{
+  "id": "19780708",
+  "date": "1978-07-08",
+  "venue": "Red Rocks Amphitheatre",
+  "city": "Morrison",
+  "state": "CO",
+  "country": "USA",
+  "tags": [
+    "July 1978"
+  ],
+  "svg": "/shows/19780708.svg",
+  "songCount": 22,
+  "durationSeconds": 10209,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 247
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 265
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 436
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 514
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 788
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 634
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 629
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 639
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 571
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 648
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Werewolves of London",
+      "durationSeconds": 404
+    }
+  ]
+}

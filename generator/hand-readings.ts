@@ -113,6 +113,12 @@ export const HAND_RESOLVED: Record<
     note: string;
   }
 > = {
+  'The Closing of Winterland': {
+    dates: ['1978-12-31'],
+    bonusDates: ['1970-12-31', '1971-12-31', '1972-12-31', '1977-12-31'],
+    completeness: 'complete',
+    note: 'article: the complete 12/31/78 concert, plus a bonus disc titled "New Year\'s Eves at Winterland" drawn from four earlier New Year\'s Eves at the venue — one track from 1970, two from 1971, one from 1972 and five from 1977. Each names its own date inline rather than under a heading, so the nine orphan on import and the four dates went unrecorded until this entry',
+  },
   // Dick's Picks, migrated out of data/releases.json (2026-08-14). These
   // readings were hand-edited straight into the JSON, where a --draft would
   // silently revert them: twelve had been reviewed and upgraded to complete

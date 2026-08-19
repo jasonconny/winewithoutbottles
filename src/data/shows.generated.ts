@@ -2747,6 +2747,39 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10400
   },
   {
+    "id": "19770607",
+    "date": "1977-06-07",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19770607.svg",
+    "songCount": 21,
+    "durationSeconds": 11105
+  },
+  {
+    "id": "19770608",
+    "date": "1977-06-08",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19770608.svg",
+    "songCount": 23,
+    "durationSeconds": 11478
+  },
+  {
+    "id": "19770609",
+    "date": "1977-06-09",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19770609.svg",
+    "songCount": 22,
+    "durationSeconds": 9929
+  },
+  {
     "id": "19770903",
     "date": "1977-09-03",
     "venue": "Raceway Park",
@@ -2971,6 +3004,104 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8832
   },
   {
+    "id": "19780406",
+    "date": "1978-04-06",
+    "venue": "Curtis Hixon Hall",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780406.svg",
+    "songCount": 19,
+    "durationSeconds": 8943
+  },
+  {
+    "id": "19780407",
+    "date": "1978-04-07",
+    "venue": "Hollywood Sportatorium",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780407.svg",
+    "songCount": 20,
+    "durationSeconds": 9562
+  },
+  {
+    "id": "19780408",
+    "date": "1978-04-08",
+    "venue": "Veterans Memorial Coliseum",
+    "city": "Jacksonville",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780408.svg",
+    "songCount": 19,
+    "durationSeconds": 9743
+  },
+  {
+    "id": "19780410",
+    "date": "1978-04-10",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780410.svg",
+    "songCount": 19,
+    "durationSeconds": 9822
+  },
+  {
+    "id": "19780411",
+    "date": "1978-04-11",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780411.svg",
+    "songCount": 20,
+    "durationSeconds": 9823
+  },
+  {
+    "id": "19780412",
+    "date": "1978-04-12",
+    "venue": "Cameron Indoor Stadium",
+    "city": "Durham",
+    "state": "NC",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780412.svg",
+    "songCount": 21,
+    "durationSeconds": 10457
+  },
+  {
+    "id": "19780414",
+    "date": "1978-04-14",
+    "venue": "Cassell Coliseum",
+    "city": "Blacksburg",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780414.svg",
+    "songCount": 19,
+    "durationSeconds": 9337
+  },
+  {
     "id": "19780415",
     "date": "1978-04-15",
     "venue": "College of William & Mary",
@@ -2983,6 +3114,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19780415.svg",
     "songCount": 17,
     "durationSeconds": 8627
+  },
+  {
+    "id": "19780416",
+    "date": "1978-04-16",
+    "venue": "Huntington Civic Center",
+    "city": "Huntington",
+    "state": "WV",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780416.svg",
+    "songCount": 19,
+    "durationSeconds": 9047
   },
   {
     "id": "19780422",
@@ -3069,6 +3214,76 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10303
   },
   {
+    "id": "19780701",
+    "date": "1978-07-01",
+    "venue": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780701.svg",
+    "songCount": 16,
+    "durationSeconds": 6994
+  },
+  {
+    "id": "19780703",
+    "date": "1978-07-03",
+    "venue": "St. Paul Civic Center Arena",
+    "city": "St. Paul",
+    "state": "MN",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780703.svg",
+    "songCount": 18,
+    "durationSeconds": 8516
+  },
+  {
+    "id": "19780705",
+    "date": "1978-07-05",
+    "venue": "Omaha Civic Auditorium",
+    "city": "Omaha",
+    "state": "NE",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780705.svg",
+    "songCount": 21,
+    "durationSeconds": 9302
+  },
+  {
+    "id": "19780707",
+    "date": "1978-07-07",
+    "venue": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780707.svg",
+    "songCount": 22,
+    "durationSeconds": 9748
+  },
+  {
+    "id": "19780708",
+    "date": "1978-07-08",
+    "venue": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780708.svg",
+    "songCount": 22,
+    "durationSeconds": 10209
+  },
+  {
     "id": "19781021",
     "date": "1978-10-21",
     "venue": "Winterland",
@@ -3095,6 +3310,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19781022.svg",
     "songCount": 17,
     "durationSeconds": 9872
+  },
+  {
+    "id": "19781231",
+    "date": "1978-12-31",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19781231.svg",
+    "songCount": 27,
+    "durationSeconds": 15029
   },
   {
     "id": "19790107",

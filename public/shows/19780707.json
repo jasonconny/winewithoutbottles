@@ -1,0 +1,104 @@
+{
+  "id": "19780707",
+  "date": "1978-07-07",
+  "venue": "Red Rocks Amphitheatre",
+  "city": "Morrison",
+  "state": "CO",
+  "country": "USA",
+  "tags": [
+    "July 1978"
+  ],
+  "svg": "/shows/19780707.svg",
+  "songCount": 22,
+  "durationSeconds": 9748,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 180
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 516
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 551
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 550
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 493
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 618
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 664
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 629
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 524
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 256
+    }
+  ]
+}

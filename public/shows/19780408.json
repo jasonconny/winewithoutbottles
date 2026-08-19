@@ -1,0 +1,92 @@
+{
+  "id": "19780408",
+  "date": "1978-04-08",
+  "venue": "Veterans Memorial Coliseum",
+  "city": "Jacksonville",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780408.svg",
+  "songCount": 19,
+  "durationSeconds": 9743,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 419
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 398
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 306
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 696
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 739
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 707
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 734
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 896
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 692
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 337
+    }
+  ]
+}

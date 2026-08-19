@@ -1790,10 +1790,10 @@
       "series": null,
       "eligible": true,
       "tag": null,
-      "dates": ["1978-12-31"],
-      "bonusDates": [],
+      "bonusDates": ["1970-12-31", "1971-12-31", "1972-12-31", "1977-12-31"],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "dates": ["1978-12-31"],
+      "note": "article: the complete 12/31/78 concert, plus a bonus disc titled \"New Year's Eves at Winterland\" drawn from four earlier New Year's Eves at the venue — one track from 1970, two from 1971, one from 1972 and five from 1977. Each names its own date inline rather than under a heading, so the nine orphan on import and the four dates went unrecorded until this entry; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {

@@ -1,0 +1,92 @@
+{
+  "id": "19780410",
+  "date": "1978-04-10",
+  "venue": "Fox Theatre",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780410.svg",
+  "songCount": 19,
+  "durationSeconds": 9822,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 359
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 273
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 482
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 724
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 929
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 985
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 710
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 498
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 370
+    }
+  ]
+}

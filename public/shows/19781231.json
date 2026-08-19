@@ -1,0 +1,124 @@
+{
+  "id": "19781231",
+  "date": "1978-12-31",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star"
+  ],
+  "svg": "/shows/19781231.svg",
+  "songCount": 27,
+  "durationSeconds": 15029,
+  "songs": [
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 715
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 905
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 191
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 648
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 483
+    },
+    {
+      "title": "From the Heart of Me",
+      "durationSeconds": 229
+    },
+    {
+      "title": "Sunshine Daydream",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 575
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 679
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 743
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 786
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1163
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 1174
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 713
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 69
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 668
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 837
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 434
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 253
+    }
+  ]
+}

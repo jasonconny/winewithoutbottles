@@ -1,0 +1,97 @@
+{
+  "id": "19770607",
+  "date": "1977-06-07",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19770607.svg",
+  "songCount": 21,
+  "durationSeconds": 11105,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 565
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 613
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 522
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 528
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 887
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 181
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 651
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 795
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 715
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 367
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "19780416",
+  "date": "1978-04-16",
+  "venue": "Huntington Civic Center",
+  "city": "Huntington",
+  "state": "WV",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780416.svg",
+  "songCount": 19,
+  "durationSeconds": 9047,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 173
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 456
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 599
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 567
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 865
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 272
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 726
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 623
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 335
+    }
+  ]
+}

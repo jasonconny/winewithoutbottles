@@ -1,0 +1,80 @@
+{
+  "id": "19780701",
+  "date": "1978-07-01",
+  "venue": "Arrowhead Stadium",
+  "city": "Kansas City",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "July 1978"
+  ],
+  "svg": "/shows/19780701.svg",
+  "songCount": 16,
+  "durationSeconds": 6994,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 176
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 661
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 665
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 601
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 505
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 255
+    }
+  ]
+}
