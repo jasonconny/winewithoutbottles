@@ -1,0 +1,64 @@
+{
+  "id": "19691102",
+  "date": "1969-11-02",
+  "venue": "Family Dog at the Great Highway",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks"],
+  "source": "Dave's Picks Volume 43",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:19"
+    },
+    {
+      "title": "In the Midnight Hour",
+      "duration": "8:23"
+    },
+    {
+      "title": "Seasons of My Heart",
+      "duration": "4:32"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:55"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "4:51"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "9:23"
+    },
+    {
+      "title": "Big Boss Man",
+      "duration": "6:59"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "4:39"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "9:06"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "30:32"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "9:43"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "8:59"
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "duration": "11:47"
+    }
+  ]
+}

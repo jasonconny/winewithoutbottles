@@ -46,7 +46,61 @@ import { formatDuration, parseDuration } from '../src/wwob/index.ts';
 import type { Recording } from './archive.ts';
 import { findRecordings, isMiller, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
+import type { VenueGuess } from './venue.ts';
+import { reconcileVenue, venueFromInfobox } from './venue.ts';
 import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
+
+/**
+ * Every venue the corpus already holds, for `reconcileVenue` to match against.
+ * Read lazily and once: it walks `data/shows/` and only the draft paths need it.
+ */
+function knownVenues(): VenueGuess[] {
+  const dataDir = join(root, 'data/shows');
+  const out: VenueGuess[] = [];
+  for (const year of readdirSync(dataDir)) {
+    for (const file of readdirSync(join(dataDir, year))) {
+      const show = JSON.parse(
+        readFileSync(join(dataDir, year, file), 'utf8'),
+      ) as ShowFile & { state?: string; country?: string };
+      if (show.venue)
+        out.push({
+          venue: show.venue,
+          city: show.city,
+          state: show.state,
+          country: show.country,
+        });
+    }
+  }
+  return out;
+}
+
+/**
+ * Fill in a drafted show's venue fields, or leave them blank and say why.
+ *
+ * The importer left `venue: ''` for a human for good reason — a guessed venue
+ * is worse than an empty one, and 19771007 proved it, authored as San Antonio
+ * off a lede that listed four states when the tape said Albuquerque. Reading
+ * the article's own infobox is not a guess, so this fills what it finds and
+ * prints it for checking.
+ */
+function draftVenue(guess: VenueGuess | null): Partial<ShowFile> {
+  if (!guess) {
+    console.log('  venue/city are blank — fill them in');
+    return { venue: '', city: '' };
+  }
+  const settled = reconcileVenue(guess, knownVenues());
+  const where = [settled.city, settled.state].filter(Boolean).join(' ');
+  console.log(
+    `  venue from the article infobox: ${settled.venue}${where ? `, ${where}` : ''} — verify`,
+  );
+  if (!settled.city) console.log('  ! no city in the infobox — fill it in');
+  return {
+    venue: settled.venue,
+    city: settled.city ?? '',
+    ...(settled.state ? { state: settled.state } : {}),
+    ...(settled.country ? { country: settled.country } : {}),
+  };
+}
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -265,7 +319,19 @@ function parseTrack(line: string): ParsedTrack | null {
     // The whole line, since there is no closing quote to measure from.
     after = text;
   }
-  const timed = after.match(/[–—-]\s*(\d{1,3}:\d{2})/);
+  // The dash form first, because it is what nearly every article uses and
+  // because a line can carry both: Dave's Picks 30 writes
+  // `"Beat It on Down the Line" – 3:17 (listed as 3:08 on CD)`, where the
+  // parenthesised number is a correction *about* the release, not the duration.
+  //
+  // The bare parenthesised form is Dave's Picks 34's, which times its Weather
+  // Report Suite as `# "Weather Report Suite" (16:31)` and nothing else that
+  // way. Unmatched, that one track read as untimed, and since the importer
+  // refuses any show with an untimed track — correctly, stripe widths being the
+  // durations — the whole 6/23/74 show was unsourceable.
+  const timed =
+    after.match(/[–—-]\s*(\d{1,3}:\d{2})/) ??
+    after.match(/\(\s*(\d{1,3}:\d{2})\s*\)/);
   // A title with no time is still a real track: several articles list whole
   // discs untimed. Keep it so the caller can say so, rather than silently
   // shortening the show.
@@ -884,6 +950,27 @@ const SHOW_OVERRIDES: Record<
     note: string;
   }
 > = {
+  '1971-12-06': {
+    keepAuthored: true,
+    note: "Dave's Picks 22 is built around 12/7/71 and gives this night its third disc — the second set and encore — then a 2017 bonus disc of first-set selections, so the release lists the night second set first. The authored order is the performance order, from gd1971-12-06.sbd.miller.108425.flac16, which also supplies the three songs the release omits",
+  },
+  '1971-12-14': {
+    keepAuthored: true,
+    note: "Dave's Picks 26 is built around 11/17/71 and spreads this night across two discs of selections, so its listing order is not the performance order. The authored order follows gd1971-12-14.sbd.cantor-orf.133.shnf, which also supplies the one song the release lacks",
+  },
+  '1978-04-15': {
+    drop: [
+      { position: 18, title: 'Sugaree' },
+      { position: 19, title: 'Tennessee Jed' },
+      { position: 20, title: 'Scarlet Begonias' },
+      { position: 21, title: 'Dancing in the Street' },
+      { position: 22, title: 'Rhythm Devils' },
+      { position: 23, title: 'Samson and Delilah' },
+      { position: 24, title: 'Terrapin Station' },
+      { position: 25, title: 'Around and Around' },
+    ],
+    note: "Dave's Picks 37 heads its April 18 bonus block `:''Bonus tracks – April 18, 1978:''` and then opens `'''Disc 3'''` with no date at all — but that whole disc is still April 18, as the article's own DeadBase note confirms, marking each of its songs \"Included in Dave's Picks Volume 37\". The depth rule reads a more senior undated heading as a return to the main show, which is right for Dave's Picks 50's May 4 bonus and wrong here; the markup carries nothing that tells the two apart, so the eight tracks are dropped by position instead",
+  },
   '1988-04-01': {
     keepAuthored: true,
     note: "Road Trips 4:2 fills out disc one with the April 1 encore, so `Brokedown Palace` sits at track 9 of 19, between the first set and a disc of second-set music. It closed the night. Same disc-sequencing artefact as 1969-05-23, and the same fix — Jason's call, 2026-08-14",
@@ -1204,6 +1291,17 @@ const merging =
   SHOW_OVERRIDES[date]?.keepAuthored === true;
 
 const collected: ParsedTrack[] = [];
+/**
+ * The venue read off the first source that can safely name one.
+ *
+ * **Single-date releases only.** A volume covering several nights may cover
+ * several rooms, and its infobox says so in one undifferentiated field: Dave's
+ * Picks 43 packs `Family Dog{{break}}[[McFarlin Auditorium]]` into one line for
+ * two different dates, and taking the first would put half its shows in the
+ * wrong city. Those stay blank for a human, which is where every show started
+ * before this.
+ */
+let venueHint: VenueGuess | null = null;
 for (const source of sources) {
   console.log(`${date} ← ${source.name} (${source.completeness})`);
   if (source.completeness !== 'complete') console.log(`  ! ${source.note}`);
@@ -1216,6 +1314,13 @@ for (const source of sources) {
     console.error(`  could not fetch "${source.page}"`);
     process.exit(1);
   }
+  // …and only when the date being imported *is* that single date. An infobox's
+  // first address belongs to the release's principal night, so importing a
+  // bonus date off the same release would take the wrong room: 12/14/71 came
+  // back as Albuquerque Civic Auditorium, which is where Dave's Picks 26's
+  // 11/17 show was played, not the Ann Arbor bonus.
+  if (!venueHint && source.dates.length === 1 && source.dates[0] === date)
+    venueHint = venueFromInfobox(wikitext);
   // A partial target is deliberately *not* in the release's `dates` — that is
   // what records it as unsourceable — but the parser buckets on those dates, so
   // without this its tracks orphan and the skeleton comes back empty. Inject
@@ -1563,13 +1668,12 @@ async function writePartial(
   const out: ShowFile = {
     id,
     date,
-    venue: '',
-    city: '',
+    ...draftVenue(venueHint),
     // Both origins, in the documented pipe-separated form: the timings that do
     // exist came from the release, the setlist and order from the soundboard.
     source: `${sources.map((r) => r.name).join(' | ')} | archive.org:${recording.identifier}`,
     songs,
-  };
+  } as ShowFile;
   const dir = join(root, 'data/partial-shows');
   mkdirSync(dir, { recursive: true });
   const target = join(dir, `${id}.json`);
@@ -1644,11 +1748,10 @@ if (exists) {
   const draft: ShowFile = {
     id,
     date,
-    venue: '',
-    city: '',
+    ...draftVenue(venueHint),
     source: sources.map((release) => release.name).join(' | '),
     songs: requireTimed(mapped),
-  };
+  } as ShowFile;
   if (!write) {
     console.log(`\n${serialiseShow(draft, false)}`);
     console.log('  (draft only — pass --write to create the file)');
@@ -1656,7 +1759,7 @@ if (exists) {
   }
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, serialiseShow(draft, false));
-  console.log(
-    `\n✓ wrote ${path.replace(`${root}/`, '')} — venue/city are blank, fill them in`,
-  );
+  // `draftVenue` has already said whether it filled the venue or left it blank,
+  // so this no longer claims one way or the other.
+  console.log(`\n✓ wrote ${path.replace(`${root}/`, '')}`);
 }

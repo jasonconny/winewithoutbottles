@@ -1,0 +1,125 @@
+{
+  "id": "19731218",
+  "date": "1973-12-18",
+  "venue": "Curtis Hixon Hall",
+  "city": "Tampa",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19731218.svg",
+  "songCount": 27,
+  "durationSeconds": 11546,
+  "songs": [
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 464
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 355
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 312
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 535
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 117
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1317
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 121
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 845
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 631
+    }
+  ]
+}

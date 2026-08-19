@@ -190,6 +190,75 @@ export const HAND_RESOLVED: Record<
     note: "principal date from the discography; article: \"the entire concert, except for one song \u2014 Cold Rain and Snow, which was played between Good Lovin' and It's a Man's Man's Man's World\" (the show takes that one timing from the DP 8 outtake on archive.org); the article also notes the first two verses of St. Stephen are missing from the tape",
   },
 
+  // Dave's Picks, the nine volumes whose articles never stated completeness
+  // (2026-08-17). Every one of them turns out to be complete — the series has
+  // no partial volumes — but `unknown` is the absence of a reading, and
+  // `chooseSource` treats it as *replacing* rather than merging, so importing
+  // one that was secretly short would have written a fragment as a whole night.
+  // Five are a song or two shy of what the tapes show, which the Winterland
+  // 1973 precedent already covers: a release missing songs whose timings can be
+  // recovered still sources a whole show.
+  "Dave's Picks Volume 22": {
+    dates: ['1971-12-07'],
+    bonusDates: ['1971-12-06'],
+    completeness: 'complete',
+    note: 'article: "the complete concert recorded at the Felt Forum in New York City on December 7, 1971. It also includes the second set and the encore recorded at the same venue the previous night" — the discography\'s date text gave 12/6, which is the bonus night, and taking it as the show bucketed both nights into one 48-track date',
+  },
+  "Dave's Picks Volume 19": {
+    dates: [],
+    bonusDates: ['1970-01-23', '1970-01-24'],
+    completeness: 'complete',
+    note: 'article: the complete 1/23/70 Honolulu concert plus 1/24 bonus tracks — but its Casey Jones is 1:22, cut off by the tape, and neither soundboard catalogued for the date carries the song at all, so the night cannot be drawn and is held in data/unknown-setlists/',
+  },
+  "Dave's Picks Volume 2": {
+    completeness: 'complete',
+    note: 'article: "the complete July 31, 1974 concert, except for \'Seastones\'"; against the soundboard it is also missing Let It Grow, and 19740731 restores both from gd1974-07-31.sbd.miller.32353.sbeok.flac16',
+  },
+  "Dave's Picks Volume 6": {
+    dates: ['1969-12-20', '1970-02-02'],
+    bonusDates: ['1969-12-21'],
+    completeness: 'complete',
+    note: 'article: "two complete concerts: one from December 20, 1969, at the Fillmore Auditorium in San Francisco and the second from February 2, 1970, at the Fox Theatre in St. Louis". The discography\'s date text also gave 12/21/69, but that night is the 2013 bonus disc — eleven tracks, and the article prints DeadBase\'s full setlist beside them to show what it leaves out',
+  },
+  "Dave's Picks Volume 12": {
+    dates: ['1977-11-04'],
+    bonusDates: ['1977-11-02'],
+    completeness: 'complete',
+    note: 'article: "the complete concert recorded on November 4, 1977 at Colgate University", plus "over 75 minutes of bonus tracks recorded on November 2, 1977" at Seneca College Field House, Toronto — ten songs the discography\'s date text does not mention, which orphaned on import until this entry named the date',
+  },
+  "Dave's Picks Volume 14": {
+    completeness: 'complete',
+    note: "the article claims nothing either way, but the release's 25 tracks are exactly the 25 the fullest soundboard plays, so it carries the whole night",
+  },
+  "Dave's Picks Volume 30": {
+    completeness: 'complete',
+    note: 'article: "the complete early and late shows recorded on January 2, 1970 at the Fillmore East", plus five songs from the following night; the two sittings are authored as 1970010201 and 1970010202',
+  },
+  "Dave's Picks Volume 33": {
+    completeness: 'complete',
+    note: 'article: "the complete show recorded on October 29, 1977 at Evans Field House"',
+  },
+  "Dave's Picks Volume 40": {
+    completeness: 'complete',
+    note: 'the article claims nothing either way; against the soundboards 7/18 is whole bar a Drums the release lists as Jam, and 7/19 is missing only U.S. Blues, which 19900719 restores from the tape',
+  },
+  "Dave's Picks Volume 43": {
+    completeness: 'complete',
+    note: 'the article claims nothing either way; both nights match their soundboards once title variants are aliased, except the 12/26 Cold Rain and Snow, which the article for Volume 44 says was held over to that release for lack of space — so 19691226 takes it from there',
+  },
+  "Dave's Picks Volume 46": {
+    completeness: 'complete',
+    note: 'article: "the complete show recorded on September 9, 1972, at the Hollywood Palladium"',
+  },
+  "Dave's Picks Volume 57": {
+    completeness: 'complete',
+    note: 'article: "the complete show recorded at the Uptown Theatre in Chicago on February 1, 1978", plus the previous night\'s first-set closer and most of its second set',
+  },
+  "Dave's Picks Volume 58": {
+    completeness: 'complete',
+    note: "the article claims nothing either way, but the release's 25 tracks are exactly the 25 the fullest soundboard plays, so it carries the whole night",
+  },
+
   // Road Trips, the partial half. Every volume below holds pieces of its nights
   // rather than whole ones, so each date leaves `dates` and is staged in
   // data/partial-shows/ instead — that absence is what records it as

@@ -1,0 +1,84 @@
+{
+  "id": "19870327",
+  "date": "1987-03-27",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 36",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "5:09"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:32"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "7:34"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:21"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:44"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:25"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:04"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:27"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:24"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "8:07"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:19"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "10:39"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "8:28"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:08"
+    },
+    {
+      "title": "Space",
+      "duration": "7:07"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:19"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "11:24"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:47"
+    }
+  ]
+}

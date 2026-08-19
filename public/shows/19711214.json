@@ -1,0 +1,124 @@
+{
+  "id": "19711214",
+  "date": "1971-12-14",
+  "venue": "Hill Auditorium",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19711214.svg",
+  "songCount": 27,
+  "durationSeconds": 9865,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 247
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 443
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 272
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Run Rudolph Run",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 115
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 218
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1112
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 440
+    },
+    {
+      "title": "You Win Again",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 167
+    }
+  ]
+}

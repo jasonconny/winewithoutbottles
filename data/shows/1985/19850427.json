@@ -1,0 +1,100 @@
+{
+  "id": "19850427",
+  "date": "1985-04-27",
+  "venue": "Frost Amphitheater",
+  "city": "Stanford",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 49",
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "duration": "6:30"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:18"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:21"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:51"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "4:49"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:37"
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "duration": "4:59"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:46"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "7:12"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:24"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "9:17"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "5:09"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:47"
+    },
+    {
+      "title": "Drums",
+      "duration": "12:24"
+    },
+    {
+      "title": "Space",
+      "duration": "5:52"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:02"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "5:52"
+    },
+    {
+      "title": "The Other One",
+      "duration": "5:55"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "8:19"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:38"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:11"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "4:19"
+    }
+  ]
+}

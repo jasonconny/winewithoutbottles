@@ -1,0 +1,96 @@
+{
+  "id": "19900623",
+  "date": "1990-06-23",
+  "venue": "Autzen Stadium",
+  "city": "Eugene",
+  "state": "OR",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 44",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "9:06"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "8:38"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "2:22"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:41"
+    },
+    {
+      "title": "Far From Me",
+      "duration": "5:30"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:43"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "7:05"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:20"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "5:06"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "15:35"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:54"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:23"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:56"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:21"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "2:21"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:24"
+    },
+    {
+      "title": "Space",
+      "duration": "9:47"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:46"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:25"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "12:06"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "6:13"
+    }
+  ]
+}

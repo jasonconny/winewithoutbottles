@@ -1,0 +1,116 @@
+{
+  "id": "19791209",
+  "date": "1979-12-09",
+  "venue": "Kiel Auditorium",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19791209.svg",
+  "songCount": 25,
+  "durationSeconds": 10973,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 753
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 862
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 485
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 245
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 881
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 703
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 227
+    }
+  ]
+}

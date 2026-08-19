@@ -1,0 +1,116 @@
+{
+  "id": "19720326",
+  "date": "1972-03-26",
+  "venue": "Academy of Music",
+  "city": "New York City",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19720326.svg",
+  "songCount": 25,
+  "durationSeconds": 11546,
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "durationSeconds": 199
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 384
+    },
+    {
+      "title": "You Win Again",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 736
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 259
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1035
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 1099
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 229
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1415
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 192
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 460
+    },
+    {
+      "title": "The Stranger (Two Souls in Communion)",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 172
+    }
+  ]
+}

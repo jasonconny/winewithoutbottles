@@ -1,0 +1,117 @@
+{
+  "id": "19740623",
+  "date": "1974-06-23",
+  "venue": "Jai-Alai Fronton",
+  "city": "Miami",
+  "state": "FL",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks", "Wall of Sound"],
+  "source": "Dave's Picks Volume 34",
+  "note": "Dave's Picks Volume 34 times the Weather Report Suite as \"(16:31)\", in parentheses rather than after a dash — a form no other article uses, and one the importer did not read until this batch, so the track came back untimed and the whole show was unsourceable. The release names Prelude, Part I and Part II (Let It Grow) as sub-items but gives them no times. Jason's split, 2026-08-17: 1:40 / 4:18 / 10:33, summing exactly to the release.",
+  "songs": [
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:30"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "9:20"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "7:49"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:45"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "8:03"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:53"
+    },
+    {
+      "title": "Let It Rock",
+      "duration": "3:39"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:49"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:40"
+    },
+    {
+      "title": "To Lay Me Down",
+      "duration": "8:02"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:40"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:18"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "10:33"
+    },
+    {
+      "title": "China Doll",
+      "duration": "5:43"
+    },
+    {
+      "title": "Seastones",
+      "duration": "9:45"
+    },
+    {
+      "title": "Jam",
+      "duration": "4:04"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "6:14"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:19"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:22"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:06"
+    },
+    {
+      "title": "Dark Star Jam",
+      "duration": "17:37"
+    },
+    {
+      "title": "Spanish Jam",
+      "duration": "4:22"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "8:50"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:53"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "6:00"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "6:48"
+    }
+  ]
+}

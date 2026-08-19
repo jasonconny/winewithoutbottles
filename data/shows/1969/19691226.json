@@ -1,0 +1,81 @@
+{
+  "id": "19691226",
+  "date": "1969-12-26",
+  "venue": "McFarlin Memorial Auditorium",
+  "city": "University Park",
+  "state": "TX",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks"],
+  "source": "Dave's Picks Volume 43 | Dave's Picks Volume 44",
+  "note": "Cold Rain and Snow comes from Dave's Picks Volume 44, not Volume 43. Volume 43 carries this night but omitted it \"due to lack of space\", as its own article says, and names the slot: \"the third song of the second set\". Volume 44 issued it as a bonus track three volumes later, at 5:14. So the show is stitched from two volumes of the same series, and both are named in `source`.",
+  "songs": [
+    {
+      "title": "Monkey and the Engineer",
+      "duration": "2:41"
+    },
+    {
+      "title": "Little Sadie",
+      "duration": "3:57"
+    },
+    {
+      "title": "Long Black Limousine",
+      "duration": "6:09"
+    },
+    {
+      "title": "I've Been All Around This World",
+      "duration": "5:03"
+    },
+    {
+      "title": "Gathering Flowers for the Master's Bouquet",
+      "duration": "3:10"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "11:05"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "6:32"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "5:12"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "4:54"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:14"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:55"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:26"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:04"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "4:14"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "24:52"
+    },
+    {
+      "title": "New Speedway Boogie",
+      "duration": "5:36"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "14:54"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "19791203",
+  "date": "1979-12-03",
+  "venue": "Uptown Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 31",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "7:05"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:35"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:48"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:26"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:44"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "8:58"
+    },
+    {
+      "title": "Jack-A-Roe",
+      "duration": "5:39"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:16"
+    },
+    {
+      "title": "Supplication",
+      "duration": "5:25"
+    },
+    {
+      "title": "Althea",
+      "duration": "11:33"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:17"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:42"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "15:28"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:45"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "14:11"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "11:20"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:02"
+    },
+    {
+      "title": "Space",
+      "duration": "2:27"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "7:06"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:11"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "11:05"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:33"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:49"
+    }
+  ]
+}

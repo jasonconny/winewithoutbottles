@@ -1,0 +1,92 @@
+{
+  "id": "19840420",
+  "date": "1984-04-20",
+  "venue": "Philadelphia Civic Center",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19840420.svg",
+  "songCount": 19,
+  "durationSeconds": 9660,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 329
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 420
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 924
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 830
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 896
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 663
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 647
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 278
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1970010201",
+  "date": "1970-01-02",
+  "sitting": "early",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 30",
+  "note": "The early of the two shows the Dead played this night. Dave's Picks Volume 30 splits this night across three discs — disc one is the early show and the last of it, disc two opens the late show, and disc three is headed \"January 2, 1970 late show, continued\". The five January 3 tracks between them are a bonus date and get no stripe here.",
+  "songs": [
+    {
+      "title": "Mason's Children",
+      "duration": "6:12"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "4:28"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "12:21"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:29"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "5:02"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:42"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "18:19"
+    },
+    {
+      "title": "Cosmic Charlie",
+      "duration": "7:06"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "19720825",
+  "date": "1972-08-25",
+  "venue": "Berkeley Community Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 24",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:46"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:19"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "10:16"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:26"
+    },
+    {
+      "title": "Loser",
+      "duration": "8:29"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:56"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:12"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:01"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "4:10"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:37"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:25"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "16:48"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:40"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "16:02"
+    },
+    {
+      "title": "The Other One",
+      "duration": "28:03"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:03"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:46"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "7:57"
+    }
+  ]
+}

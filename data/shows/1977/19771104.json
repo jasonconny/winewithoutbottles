@@ -1,0 +1,92 @@
+{
+  "id": "19771104",
+  "date": "1977-11-04",
+  "venue": "Colgate University",
+  "city": "Hamilton",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 12",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "7:50"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:26"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:56"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:02"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:42"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "4:19"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "5:38"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "6:45"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "13:43"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:21"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:03"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "13:03"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "13:11"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:18"
+    },
+    {
+      "title": "The Other One",
+      "duration": "4:25"
+    },
+    {
+      "title": "Drums",
+      "duration": "3:35"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "10:47"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "11:45"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "7:01"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:44"
+    }
+  ]
+}

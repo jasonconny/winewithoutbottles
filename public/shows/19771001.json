@@ -1,0 +1,100 @@
+{
+  "id": "19771001",
+  "date": "1977-10-01",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19771001.svg",
+  "songCount": 21,
+  "durationSeconds": 9160,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 266
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 249
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 245
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 234
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 509
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 569
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 323
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 717
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 641
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 641
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 538
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 505
+    }
+  ]
+}

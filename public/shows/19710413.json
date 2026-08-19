@@ -1,0 +1,88 @@
+{
+  "id": "19710413",
+  "date": "1971-04-13",
+  "venue": "Scranton Catholic Youth Center",
+  "city": "",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19710413.svg",
+  "songCount": 18,
+  "durationSeconds": 7020,
+  "songs": [
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1135
+    },
+    {
+      "title": "I Second That Emotion",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 161
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 391
+    }
+  ]
+}

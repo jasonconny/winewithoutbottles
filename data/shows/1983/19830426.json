@@ -1,0 +1,96 @@
+{
+  "id": "19830426",
+  "date": "1983-04-26",
+  "venue": "The Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 39",
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "duration": "14:19"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "8:18"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "8:52"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:18"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "5:41"
+    },
+    {
+      "title": "Maybe You Know",
+      "duration": "5:15"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "7:37"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "5:36"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:27"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:31"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "4:26"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "4:36"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "9:42"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "6:54"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:14"
+    },
+    {
+      "title": "Space",
+      "duration": "12:30"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:35"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:30"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:41"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "8:54"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:04"
+    }
+  ]
+}

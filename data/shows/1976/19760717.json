@@ -1,0 +1,96 @@
+{
+  "id": "19760717",
+  "date": "1976-07-17",
+  "venue": "Orpheum Theatre",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 18",
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "4:37"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "9:42"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:04"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:03"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "4:58"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "9:14"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:23"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "11:30"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:24"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:41"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "16:00"
+    },
+    {
+      "title": "Drums",
+      "duration": "1:39"
+    },
+    {
+      "title": "The Other One",
+      "duration": "5:46"
+    },
+    {
+      "title": "Space",
+      "duration": "10:00"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "7:37"
+    },
+    {
+      "title": "Jam",
+      "duration": "7:21"
+    },
+    {
+      "title": "The Other One",
+      "duration": "3:36"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "7:10"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "6:12"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "7:16"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "14:26"
+    }
+  ]
+}

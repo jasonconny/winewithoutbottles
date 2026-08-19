@@ -1,0 +1,113 @@
+{
+  "id": "19740719",
+  "date": "1974-07-19",
+  "venue": "Selland Arena",
+  "city": "Fresno",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks",
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740719.svg",
+  "songCount": 24,
+  "durationSeconds": 11841,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 532
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1754
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 913
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 191
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 328
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 895
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 89
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 992
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 393
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 321
+    }
+  ]
+}

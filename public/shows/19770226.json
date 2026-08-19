@@ -1,0 +1,100 @@
+{
+  "id": "19770226",
+  "date": "1977-02-26",
+  "venue": "Swing Auditorium",
+  "city": "San Bernardino",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19770226.svg",
+  "songCount": 21,
+  "durationSeconds": 10180,
+  "songs": [
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 745
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 327
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 826
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 552
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 817
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 729
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 470
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 377
+    }
+  ]
+}

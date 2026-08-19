@@ -1,0 +1,92 @@
+{
+  "id": "19771002",
+  "date": "1977-10-02",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19771002.svg",
+  "songCount": 19,
+  "durationSeconds": 8803,
+  "songs": [
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 346
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 762
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 749
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 368
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 640
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 651
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 550
+    }
+  ]
+}

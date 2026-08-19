@@ -1,0 +1,49 @@
+{
+  "id": "1970010201",
+  "date": "1970-01-02",
+  "sitting": "early",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/1970010201.svg",
+  "songCount": 8,
+  "durationSeconds": 3699,
+  "songs": [
+    {
+      "title": "Mason's Children",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 741
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 149
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 342
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 1099
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 426
+    }
+  ]
+}

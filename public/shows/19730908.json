@@ -1,0 +1,128 @@
+{
+  "id": "19730908",
+  "date": "1973-09-08",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19730908.svg",
+  "songCount": 28,
+  "durationSeconds": 11854,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 196
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 219
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 591
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 79
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 923
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Let Me Sing Your Blues Away",
+      "durationSeconds": 250
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 503
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 379
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 291
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 895
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 706
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 543
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 257
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 476
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 306
+    }
+  ]
+}

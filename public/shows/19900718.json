@@ -1,0 +1,96 @@
+{
+  "id": "19900718",
+  "date": "1990-07-18",
+  "venue": "Deer Creek Music Center",
+  "city": "Noblesville",
+  "state": "IN",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19900718.svg",
+  "songCount": 20,
+  "durationSeconds": 9248,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 256
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 574
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 398
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 501
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 454
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 927
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 502
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 761
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 382
+    }
+  ]
+}

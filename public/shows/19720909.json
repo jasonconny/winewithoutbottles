@@ -1,0 +1,112 @@
+{
+  "id": "19720909",
+  "date": "1972-09-09",
+  "venue": "Hollywood Palladium",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19720909.svg",
+  "songCount": 24,
+  "durationSeconds": 12163,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 716
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1155
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 247
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 459
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 519
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 433
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 674
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 840
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 158
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 2086
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 440
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 284
+    }
+  ]
+}

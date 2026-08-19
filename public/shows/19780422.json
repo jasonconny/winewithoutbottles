@@ -1,0 +1,92 @@
+{
+  "id": "19780422",
+  "date": "1978-04-22",
+  "venue": "Municipal Auditorium",
+  "city": "Nashville",
+  "state": "TN",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19780422.svg",
+  "songCount": 19,
+  "durationSeconds": 9851,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 496
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 402
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 756
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 745
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 849
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 680
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 726
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 607
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 312
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "19771001",
+  "date": "1977-10-01",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 45",
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "4:26"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:50"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:09"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:05"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:59"
+    },
+    {
+      "title": "Deal",
+      "duration": "6:27"
+    },
+    {
+      "title": "Passenger",
+      "duration": "3:54"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:29"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "5:28"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "9:29"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:11"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:33"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "5:23"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "8:19"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "9:48"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "11:57"
+    },
+    {
+      "title": "Dancing in the Street",
+      "duration": "10:41"
+    },
+    {
+      "title": "Drums",
+      "duration": "4:28"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "10:41"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "8:58"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:25"
+    }
+  ]
+}

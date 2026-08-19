@@ -1,0 +1,88 @@
+{
+  "id": "19771002",
+  "date": "1977-10-02",
+  "venue": "Paramount Theatre",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 45",
+  "songs": [
+    {
+      "title": "Casey Jones",
+      "duration": "10:32"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:04"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "4:31"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:46"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:34"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "5:29"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:42"
+    },
+    {
+      "title": "Deal",
+      "duration": "6:57"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:45"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:48"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "9:37"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "12:29"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "6:08"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:17"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "10:40"
+    },
+    {
+      "title": "The Other One",
+      "duration": "5:30"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:51"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:10"
+    }
+  ]
+}

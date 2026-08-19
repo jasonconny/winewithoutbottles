@@ -1,0 +1,108 @@
+{
+  "id": "19691212",
+  "date": "1969-12-12",
+  "venue": "Thelma",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 10",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "5:53"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "4:05"
+    },
+    {
+      "title": "Easy Wind",
+      "duration": "9:33"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "7:39"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "12:19"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "5:43"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:19"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:55"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "31:57"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "4:40"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "4:55"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:37"
+    },
+    {
+      "title": "High Time",
+      "duration": "7:34"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:51"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:18"
+    },
+    {
+      "title": "I'm a King Bee",
+      "duration": "7:44"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:39"
+    },
+    {
+      "title": "He Was a Friend of Mine",
+      "duration": "4:13"
+    },
+    {
+      "title": "Alligator",
+      "duration": "4:08"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:00"
+    },
+    {
+      "title": "Alligator",
+      "duration": "9:15"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "22:43"
+    },
+    {
+      "title": "Feedback",
+      "duration": "7:11"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "3:27"
+    }
+  ]
+}

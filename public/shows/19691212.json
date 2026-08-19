@@ -1,0 +1,112 @@
+{
+  "id": "19691212",
+  "date": "1969-12-12",
+  "venue": "Thelma",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19691212.svg",
+  "songCount": 24,
+  "durationSeconds": 11618,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 245
+    },
+    {
+      "title": "Easy Wind",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 739
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 343
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 319
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1917
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 157
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 378
+    },
+    {
+      "title": "I'm a King Bee",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 519
+    },
+    {
+      "title": "He Was a Friend of Mine",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Alligator",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Alligator",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 1363
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 431
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 207
+    }
+  ]
+}

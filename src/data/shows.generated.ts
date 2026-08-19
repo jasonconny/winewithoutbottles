@@ -213,6 +213,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 5522
   },
   {
+    "id": "19691102",
+    "date": "1969-11-02",
+    "venue": "Family Dog at the Great Highway",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691102.svg",
+    "songCount": 13,
+    "durationSeconds": 7088
+  },
+  {
     "id": "19691108",
     "date": "1969-11-08",
     "venue": "Fillmore Auditorium",
@@ -226,6 +241,96 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19691108.svg",
     "songCount": 22,
     "durationSeconds": 9928
+  },
+  {
+    "id": "19691212",
+    "date": "1969-12-12",
+    "venue": "Thelma",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691212.svg",
+    "songCount": 24,
+    "durationSeconds": 11618
+  },
+  {
+    "id": "19691220",
+    "date": "1969-12-20",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691220.svg",
+    "songCount": 12,
+    "durationSeconds": 7679
+  },
+  {
+    "id": "19691226",
+    "date": "1969-12-26",
+    "venue": "McFarlin Memorial Auditorium",
+    "city": "University Park",
+    "state": "TX",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19691226.svg",
+    "songCount": 17,
+    "durationSeconds": 7378
+  },
+  {
+    "id": "1970010201",
+    "date": "1970-01-02",
+    "sitting": "early",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/1970010201.svg",
+    "songCount": 8,
+    "durationSeconds": 3699
+  },
+  {
+    "id": "1970010202",
+    "date": "1970-01-02",
+    "sitting": "late",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/1970010202.svg",
+    "songCount": 13,
+    "durationSeconds": 7494
+  },
+  {
+    "id": "19700202",
+    "date": "1970-02-02",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19700202.svg",
+    "songCount": 15,
+    "durationSeconds": 6025
   },
   {
     "id": "1970021301",
@@ -377,6 +482,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8646
   },
   {
+    "id": "19710413",
+    "date": "1971-04-13",
+    "venue": "Scranton Catholic Youth Center",
+    "city": "",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19710413.svg",
+    "songCount": 18,
+    "durationSeconds": 7020
+  },
+  {
     "id": "19710731",
     "date": "1971-07-31",
     "venue": "Yale Bowl",
@@ -435,6 +554,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11355
   },
   {
+    "id": "19711022",
+    "date": "1971-10-22",
+    "venue": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711022.svg",
+    "songCount": 21,
+    "durationSeconds": 8789
+  },
+  {
     "id": "19711026",
     "date": "1971-10-26",
     "venue": "Palestra",
@@ -477,6 +610,88 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19711115.svg",
     "songCount": 25,
     "durationSeconds": 9101
+  },
+  {
+    "id": "19711117",
+    "date": "1971-11-17",
+    "venue": "Albuquerque Civic Auditorium",
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711117.svg",
+    "songCount": 26,
+    "durationSeconds": 9253
+  },
+  {
+    "id": "19711120",
+    "date": "1971-11-20",
+    "venue": "Pauley Pavilion",
+    "city": "",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711120.svg",
+    "songCount": 23,
+    "durationSeconds": 9011
+  },
+  {
+    "id": "19711206",
+    "date": "1971-12-06",
+    "venue": "Felt Forum",
+    "city": "New York City",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711206.svg",
+    "songCount": 25,
+    "durationSeconds": 9240
+  },
+  {
+    "id": "19711207",
+    "date": "1971-12-07",
+    "venue": "Felt Forum",
+    "city": "New York City",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711207.svg",
+    "songCount": 26,
+    "durationSeconds": 9223
+  },
+  {
+    "id": "19711214",
+    "date": "1971-12-14",
+    "venue": "Hill Auditorium",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711214.svg",
+    "songCount": 27,
+    "durationSeconds": 9865
+  },
+  {
+    "id": "19720326",
+    "date": "1972-03-26",
+    "venue": "Academy of Music",
+    "city": "New York City",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19720326.svg",
+    "songCount": 25,
+    "durationSeconds": 11546
   },
   {
     "id": "19720328",
@@ -768,6 +983,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 13354
   },
   {
+    "id": "19720825",
+    "date": "1972-08-25",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19720825.svg",
+    "songCount": 18,
+    "durationSeconds": 9896
+  },
+  {
     "id": "19720827",
     "date": "1972-08-27",
     "venue": "Old Renaissance Faire Grounds",
@@ -782,6 +1011,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19720827.svg",
     "songCount": 20,
     "durationSeconds": 10319
+  },
+  {
+    "id": "19720909",
+    "date": "1972-09-09",
+    "venue": "Hollywood Palladium",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19720909.svg",
+    "songCount": 24,
+    "durationSeconds": 12163
   },
   {
     "id": "19720917",
@@ -843,6 +1086,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11805
   },
   {
+    "id": "19721117",
+    "date": "1972-11-17",
+    "venue": "Century II Convention Center",
+    "city": "Wichita",
+    "state": "KS",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19721117.svg",
+    "songCount": 25,
+    "durationSeconds": 10157
+  },
+  {
     "id": "19730226",
     "date": "1973-02-26",
     "venue": "Pershing Municipal Auditorium",
@@ -887,6 +1144,78 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11794
   },
   {
+    "id": "19730324",
+    "date": "1973-03-24",
+    "venue": "The Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19730324.svg",
+    "songCount": 31,
+    "durationSeconds": 13695
+  },
+  {
+    "id": "19730326",
+    "date": "1973-03-26",
+    "venue": "Baltimore Civic Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19730326.svg",
+    "songCount": 32,
+    "durationSeconds": 13878
+  },
+  {
+    "id": "19730328",
+    "date": "1973-03-28",
+    "venue": "Springfield Civic Center",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19730328.svg",
+    "songCount": 30,
+    "durationSeconds": 12614
+  },
+  {
+    "id": "19730402",
+    "date": "1973-04-02",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19730402.svg",
+    "songCount": 34,
+    "durationSeconds": 13019
+  },
+  {
+    "id": "19730908",
+    "date": "1973-09-08",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19730908.svg",
+    "songCount": 28,
+    "durationSeconds": 11854
+  },
+  {
     "id": "19731019",
     "date": "1973-10-19",
     "venue": "Fairgrounds Arena",
@@ -914,6 +1243,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19731114.svg",
     "songCount": 26,
     "durationSeconds": 11328
+  },
+  {
+    "id": "19731117",
+    "date": "1973-11-17",
+    "venue": "Pauley Pavilion",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks",
+      "Playing Palindrome"
+    ],
+    "svg": "/shows/19731117.svg",
+    "songCount": 25,
+    "durationSeconds": 11282
   },
   {
     "id": "19731121",
@@ -959,6 +1303,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11175
   },
   {
+    "id": "19731218",
+    "date": "1973-12-18",
+    "venue": "Curtis Hixon Hall",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19731218.svg",
+    "songCount": 27,
+    "durationSeconds": 11546
+  },
+  {
     "id": "19731219",
     "date": "1973-12-19",
     "venue": "Curtis Hixon Hall",
@@ -971,6 +1330,35 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19731219.svg",
     "songCount": 26,
     "durationSeconds": 12030
+  },
+  {
+    "id": "19740223",
+    "date": "1974-02-23",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19740223.svg",
+    "songCount": 30,
+    "durationSeconds": 12578
+  },
+  {
+    "id": "19740224",
+    "date": "1974-02-24",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19740224.svg",
+    "songCount": 28,
+    "durationSeconds": 12794
   },
   {
     "id": "19740323",
@@ -987,6 +1375,22 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19740323.svg",
     "songCount": 32,
     "durationSeconds": 12419
+  },
+  {
+    "id": "19740514",
+    "date": "1974-05-14",
+    "venue": "Harry Adams Field House",
+    "city": "Missoula",
+    "state": "MT",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740514.svg",
+    "songCount": 25,
+    "durationSeconds": 10942
   },
   {
     "id": "19740616",
@@ -1019,6 +1423,22 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10460
   },
   {
+    "id": "19740623",
+    "date": "1974-06-23",
+    "venue": "Jai-Alai Fronton",
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740623.svg",
+    "songCount": 26,
+    "durationSeconds": 10804
+  },
+  {
     "id": "19740626",
     "date": "1974-06-26",
     "venue": "Providence Civic Center",
@@ -1047,6 +1467,36 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19740628.svg",
     "songCount": 28,
     "durationSeconds": 12484
+  },
+  {
+    "id": "19740719",
+    "date": "1974-07-19",
+    "venue": "Selland Arena",
+    "city": "Fresno",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740719.svg",
+    "songCount": 24,
+    "durationSeconds": 11841
+  },
+  {
+    "id": "19740731",
+    "date": "1974-07-31",
+    "venue": "Dillon Stadium",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740731.svg",
+    "songCount": 33,
+    "durationSeconds": 14275
   },
   {
     "id": "19740804",
@@ -1493,6 +1943,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9180
   },
   {
+    "id": "19760717",
+    "date": "1976-07-17",
+    "venue": "Orpheum Theatre",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19760717.svg",
+    "songCount": 21,
+    "durationSeconds": 9219
+  },
+  {
+    "id": "19760924",
+    "date": "1976-09-24",
+    "venue": "College of William & Mary",
+    "city": "Williamsburg",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19760924.svg",
+    "songCount": 24,
+    "durationSeconds": 9684
+  },
+  {
     "id": "19760925",
     "date": "1976-09-25",
     "venue": "Capital Centre",
@@ -1519,6 +1997,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19760928.svg",
     "songCount": 22,
     "durationSeconds": 9462
+  },
+  {
+    "id": "19761002",
+    "date": "1976-10-02",
+    "venue": "Riverfront Coliseum",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19761002.svg",
+    "songCount": 22,
+    "durationSeconds": 9689
   },
   {
     "id": "19761003",
@@ -1561,6 +2053,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19761010.svg",
     "songCount": 23,
     "durationSeconds": 9503
+  },
+  {
+    "id": "19770226",
+    "date": "1977-02-26",
+    "venue": "Swing Auditorium",
+    "city": "San Bernardino",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19770226.svg",
+    "songCount": 21,
+    "durationSeconds": 10180
   },
   {
     "id": "19770320",
@@ -1954,6 +2460,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10562
   },
   {
+    "id": "19771001",
+    "date": "1977-10-01",
+    "venue": "Paramount Theatre",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771001.svg",
+    "songCount": 21,
+    "durationSeconds": 9160
+  },
+  {
+    "id": "19771002",
+    "date": "1977-10-02",
+    "venue": "Paramount Theatre",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771002.svg",
+    "songCount": 19,
+    "durationSeconds": 8803
+  },
+  {
     "id": "19771011",
     "date": "1977-10-11",
     "venue": "Lloyd Noble Center",
@@ -1996,6 +2530,48 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9313
   },
   {
+    "id": "19771029",
+    "date": "1977-10-29",
+    "venue": "Chick Evans Field House",
+    "city": "DeKalb",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771029.svg",
+    "songCount": 21,
+    "durationSeconds": 10557
+  },
+  {
+    "id": "19771102",
+    "date": "1977-11-02",
+    "venue": "Seneca College Field House",
+    "city": "Toronto",
+    "country": "CAN",
+    "tags": [
+      "Dave's Picks",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19771102.svg",
+    "songCount": 21,
+    "durationSeconds": 8961
+  },
+  {
+    "id": "19771104",
+    "date": "1977-11-04",
+    "venue": "Colgate University",
+    "city": "Hamilton",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771104.svg",
+    "songCount": 20,
+    "durationSeconds": 9394
+  },
+  {
     "id": "19771105",
     "date": "1977-11-05",
     "venue": "Community War Memorial",
@@ -2010,6 +2586,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9434
   },
   {
+    "id": "19771106",
+    "date": "1977-11-06",
+    "venue": "Broome County Arena",
+    "city": "Binghamton",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771106.svg",
+    "songCount": 23,
+    "durationSeconds": 9969
+  },
+  {
     "id": "19771229",
     "date": "1977-12-29",
     "venue": "Winterland",
@@ -2022,6 +2612,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19771229.svg",
     "songCount": 23,
     "durationSeconds": 10219
+  },
+  {
+    "id": "19780122",
+    "date": "1978-01-22",
+    "venue": "McArthur Court",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780122.svg",
+    "songCount": 21,
+    "durationSeconds": 10071
+  },
+  {
+    "id": "19780201",
+    "date": "1978-02-01",
+    "venue": "Uptown Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780201.svg",
+    "songCount": 18,
+    "durationSeconds": 8442
   },
   {
     "id": "19780203",
@@ -2050,6 +2668,48 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19780205.svg",
     "songCount": 19,
     "durationSeconds": 8832
+  },
+  {
+    "id": "19780415",
+    "date": "1978-04-15",
+    "venue": "College of William & Mary",
+    "city": "Williamsburg",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780415.svg",
+    "songCount": 17,
+    "durationSeconds": 8627
+  },
+  {
+    "id": "19780422",
+    "date": "1978-04-22",
+    "venue": "Municipal Auditorium",
+    "city": "Nashville",
+    "state": "TN",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780422.svg",
+    "songCount": 19,
+    "durationSeconds": 9851
+  },
+  {
+    "id": "19780424",
+    "date": "1978-04-24",
+    "venue": "Horton Fieldhouse",
+    "city": "Normal",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780424.svg",
+    "songCount": 20,
+    "durationSeconds": 10160
   },
   {
     "id": "19780510",
@@ -2247,6 +2907,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8762
   },
   {
+    "id": "19791203",
+    "date": "1979-12-03",
+    "venue": "Uptown Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19791203.svg",
+    "songCount": 23,
+    "durationSeconds": 11065
+  },
+  {
+    "id": "19791209",
+    "date": "1979-12-09",
+    "venue": "Kiel Auditorium",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19791209.svg",
+    "songCount": 25,
+    "durationSeconds": 10973
+  },
+  {
     "id": "19791226",
     "date": "1979-12-26",
     "venue": "Oakland Auditorium Arena",
@@ -2359,6 +3047,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8600
   },
   {
+    "id": "19801130",
+    "date": "1980-11-30",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19801130.svg",
+    "songCount": 24,
+    "durationSeconds": 11274
+  },
+  {
     "id": "19810309",
     "date": "1981-03-09",
     "venue": "Madison Square Garden",
@@ -2401,6 +3103,32 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9656
   },
   {
+    "id": "19810320",
+    "date": "1981-03-20",
+    "venue": "Rainbow Theatre",
+    "city": "London",
+    "country": "ENG",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19810320.svg",
+    "songCount": 22,
+    "durationSeconds": 9473
+  },
+  {
+    "id": "19810321",
+    "date": "1981-03-21",
+    "venue": "Rainbow Theatre",
+    "city": "London",
+    "country": "ENG",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19810321.svg",
+    "songCount": 21,
+    "durationSeconds": 9531
+  },
+  {
     "id": "19810501",
     "date": "1981-05-01",
     "venue": "Hampton Coliseum",
@@ -2441,6 +3169,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19810516.svg",
     "songCount": 24,
     "durationSeconds": 10518
+  },
+  {
+    "id": "19811209",
+    "date": "1981-12-09",
+    "venue": "CU Events Center",
+    "city": "Boulder",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19811209.svg",
+    "songCount": 24,
+    "durationSeconds": 10970
   },
   {
     "id": "19820406",
@@ -2513,6 +3255,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10278
   },
   {
+    "id": "19830426",
+    "date": "1983-04-26",
+    "venue": "The Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19830426.svg",
+    "songCount": 21,
+    "durationSeconds": 10080
+  },
+  {
     "id": "19830820",
     "date": "1983-08-20",
     "venue": "Frost Amphitheater",
@@ -2525,6 +3281,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19830820.svg",
     "songCount": 20,
     "durationSeconds": 10405
+  },
+  {
+    "id": "19830902",
+    "date": "1983-09-02",
+    "venue": "Boise State University Pavilion",
+    "city": "Boise",
+    "state": "ID",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19830902.svg",
+    "songCount": 23,
+    "durationSeconds": 10926
+  },
+  {
+    "id": "19830911",
+    "date": "1983-09-11",
+    "venue": "The Downs at Santa Fe",
+    "city": "Santa Fe",
+    "state": "NM",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19830911.svg",
+    "songCount": 23,
+    "durationSeconds": 10308
   },
   {
     "id": "19831011",
@@ -2583,6 +3367,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10453
   },
   {
+    "id": "19840420",
+    "date": "1984-04-20",
+    "venue": "Philadelphia Civic Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19840420.svg",
+    "songCount": 19,
+    "durationSeconds": 9660
+  },
+  {
     "id": "19840713",
     "date": "1984-07-13",
     "venue": "Greek Theatre",
@@ -2610,6 +3408,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19841012.svg",
     "songCount": 18,
     "durationSeconds": 8522
+  },
+  {
+    "id": "19850427",
+    "date": "1985-04-27",
+    "venue": "Frost Amphitheater",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19850427.svg",
+    "songCount": 22,
+    "durationSeconds": 8792
+  },
+  {
+    "id": "19850428",
+    "date": "1985-04-28",
+    "venue": "Frost Amphitheater",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19850428.svg",
+    "songCount": 19,
+    "durationSeconds": 8356
   },
   {
     "id": "19850624",
@@ -2666,6 +3492,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19860503.svg",
     "songCount": 17,
     "durationSeconds": 7709
+  },
+  {
+    "id": "19870326",
+    "date": "1987-03-26",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19870326.svg",
+    "songCount": 20,
+    "durationSeconds": 8692
+  },
+  {
+    "id": "19870327",
+    "date": "1987-03-27",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19870327.svg",
+    "songCount": 18,
+    "durationSeconds": 7858
   },
   {
     "id": "19870915",
@@ -3357,6 +4211,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9467
   },
   {
+    "id": "19900623",
+    "date": "1990-06-23",
+    "venue": "Autzen Stadium",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19900623.svg",
+    "songCount": 21,
+    "durationSeconds": 9822
+  },
+  {
     "id": "19900716",
     "date": "1990-07-16",
     "venue": "Rich Stadium",
@@ -3369,6 +4237,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19900716.svg",
     "songCount": 24,
     "durationSeconds": 10628
+  },
+  {
+    "id": "19900718",
+    "date": "1990-07-18",
+    "venue": "Deer Creek Music Center",
+    "city": "Noblesville",
+    "state": "IN",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19900718.svg",
+    "songCount": 20,
+    "durationSeconds": 9248
+  },
+  {
+    "id": "19900719",
+    "date": "1990-07-19",
+    "venue": "Deer Creek Music Center",
+    "city": "Noblesville",
+    "state": "IN",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19900719.svg",
+    "songCount": 18,
+    "durationSeconds": 9650
   },
   {
     "id": "19900914",
@@ -3726,6 +4622,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910925.svg",
     "songCount": 22,
     "durationSeconds": 9774
+  },
+  {
+    "id": "19910926",
+    "date": "1991-09-26",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19910926.svg",
+    "songCount": 19,
+    "durationSeconds": 8824
   },
   {
     "id": "19920320",

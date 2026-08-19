@@ -1,0 +1,108 @@
+{
+  "id": "19791203",
+  "date": "1979-12-03",
+  "venue": "Uptown Theatre",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19791203.svg",
+  "songCount": 23,
+  "durationSeconds": 11065,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 348
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 464
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 538
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 196
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 693
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 702
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 928
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 851
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 680
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 147
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 665
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 289
+    }
+  ]
+}

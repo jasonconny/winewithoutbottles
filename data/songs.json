@@ -301,6 +301,9 @@
       "title": "Gangster of Love"
     },
     {
+      "title": "Gathering Flowers for the Master's Bouquet"
+    },
+    {
       "title": "Gimme Some Lovin'",
       "aliases": ["Gimme Some Lovin"]
     },
@@ -314,7 +317,8 @@
         "Goin' Down The Road Feelin' Bad",
         "Goin' Down The Road Feeling Bad",
         "Going Down The Road",
-        "Going Down The Road Feeling Bad"
+        "Going Down The Road Feeling Bad",
+        "Going Down the Road Feelin' Bad"
       ]
     },
     {
@@ -514,6 +518,12 @@
       "title": "Let It Grow"
     },
     {
+      "title": "Let It Rock"
+    },
+    {
+      "title": "Let Me Sing Your Blues Away"
+    },
+    {
       "title": "Let the Good Times Roll",
       "aliases": ["Let The Good Times Roll"]
     },
@@ -561,6 +571,9 @@
       "title": "Mason's Children"
     },
     {
+      "title": "Maybe You Know"
+    },
+    {
       "title": "Me and Bobby McGee",
       "aliases": ["Bobby McGee", "Me And Bobby McGee"]
     },
@@ -593,7 +606,7 @@
     },
     {
       "title": "Monkey and the Engineer",
-      "aliases": ["Monkey And The Engineer"]
+      "aliases": ["Monkey And The Engineer", "The Monkey and the Engineer"]
     },
     {
       "title": "Morning Dew",
@@ -725,6 +738,10 @@
       "title": "Row Jimmy"
     },
     {
+      "title": "Run Rudolph Run",
+      "aliases": ["Run, Rudolf, Run"]
+    },
+    {
       "title": "Saint of Circumstance"
     },
     {
@@ -743,6 +760,9 @@
     },
     {
       "title": "Searchin'"
+    },
+    {
+      "title": "Seasons of My Heart"
     },
     {
       "title": "Seastones",
@@ -910,6 +930,9 @@
       "title": "Tomorrow Never Knows"
     },
     {
+      "title": "Tons of Steel"
+    },
+    {
       "title": "Touch of Grey",
       "aliases": ["Touch Of Grey"]
     },
@@ -978,7 +1001,8 @@
       "aliases": ["Weather Report Suite Part One"]
     },
     {
-      "title": "Weather Report Suite Prelude"
+      "title": "Weather Report Suite Prelude",
+      "aliases": ["Weather Report Suite: Prelude"]
     },
     {
       "title": "Werewolves of London"
@@ -1008,6 +1032,9 @@
     {
       "title": "Yellow Dog Story",
       "aliases": ["The Yellow Dog Story"]
+    },
+    {
+      "title": "You Ain't Woman Enough"
     },
     {
       "title": "You Don't Have to Ask"
@@ -1047,6 +1074,7 @@
     "Tuning intro",
     "Tuning Rap",
     "tuning/banter",
-    "Weir messing around"
+    "Weir messing around",
+    "Wolfman Jack introduces the band"
   ]
 }

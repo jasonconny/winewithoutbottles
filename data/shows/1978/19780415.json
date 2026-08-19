@@ -1,0 +1,80 @@
+{
+  "id": "19780415",
+  "date": "1978-04-15",
+  "venue": "College of William & Mary",
+  "city": "Williamsburg",
+  "state": "VA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 37",
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "10:43"
+    },
+    {
+      "title": "Passenger",
+      "duration": "4:52"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "7:04"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:53"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:30"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "14:32"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:15"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:01"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:04"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:39"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "4:12"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "14:25"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:40"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "13:30"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:47"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:41"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:59"
+    }
+  ]
+}

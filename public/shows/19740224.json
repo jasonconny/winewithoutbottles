@@ -1,0 +1,129 @@
+{
+  "id": "19740224",
+  "date": "1974-02-24",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19740224.svg",
+  "songCount": 28,
+  "durationSeconds": 12794,
+  "songs": [
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 307
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 594
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 367
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1107
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 417
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 82
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1748
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 834
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 269
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 392
+    }
+  ]
+}

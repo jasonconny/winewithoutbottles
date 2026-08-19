@@ -1,0 +1,103 @@
+{
+  "id": "19810320",
+  "date": "1981-03-20",
+  "venue": "Rainbow Theatre",
+  "city": "London",
+  "country": "ENG",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19810320.svg",
+  "songCount": 22,
+  "durationSeconds": 9473,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 567
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 150
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 495
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 637
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 637
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 408
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 747
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 151
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 145
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 247
+    }
+  ]
+}

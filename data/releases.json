@@ -235,8 +235,8 @@
       "tag": "Dave's Picks",
       "dates": ["1969-11-02", "1969-12-26"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "the article claims nothing either way; both nights match their soundboards once title variants are aliased, except the 12/26 Cold Rain and Snow, which the article for Volume 44 says was held over to that release for lack of space — so 19691226 takes it from there; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -272,10 +272,10 @@
       "series": "Dave's Picks",
       "eligible": true,
       "tag": "Dave's Picks",
-      "dates": ["1969-12-20", "1969-12-21", "1970-02-02"],
-      "bonusDates": [],
+      "bonusDates": ["1969-12-21"],
       "completeness": "complete",
-      "note": "dates from subheading; article says \"complete concerts\"",
+      "dates": ["1969-12-20", "1970-02-02"],
+      "note": "article: \"two complete concerts: one from December 20, 1969, at the Fillmore Auditorium in San Francisco and the second from February 2, 1970, at the Fox Theatre in St. Louis\". The discography's date text also gave 12/21/69, but that night is the 2013 bonus disc — eleven tracks, and the article prints DeadBase's full setlist beside them to show what it leaves out; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -287,21 +287,8 @@
       "tag": "Dave's Picks",
       "dates": ["1970-01-02"],
       "bonusDates": ["1970-01-03"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
-      "musicbrainzReleaseId": null
-    },
-    {
-      "page": "Dave's Picks Volume 19",
-      "name": "Dave's Picks Volume 19",
-      "kind": "series",
-      "series": "Dave's Picks",
-      "eligible": true,
-      "tag": "Dave's Picks",
-      "dates": ["1970-01-23"],
-      "bonusDates": ["1970-01-24"],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "note": "article: \"the complete early and late shows recorded on January 2, 1970 at the Fillmore East\", plus five songs from the following night; the two sittings are authored as 1970010201 and 1970010202; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -530,10 +517,10 @@
       "series": "Dave's Picks",
       "eligible": true,
       "tag": "Dave's Picks",
-      "dates": ["1971-12-06"],
-      "bonusDates": [],
+      "bonusDates": ["1971-12-06"],
       "completeness": "complete",
-      "note": "dates from subheading; article says \"complete concerts\"",
+      "dates": ["1971-12-07"],
+      "note": "article: \"the complete concert recorded at the Felt Forum in New York City on December 7, 1971. It also includes the second set and the encore recorded at the same venue the previous night\" — the discography's date text gave 12/6, which is the bonus night, and taking it as the show bucketed both nights into one 48-track date; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -579,8 +566,8 @@
       "tag": "Dave's Picks",
       "dates": ["1972-03-26"],
       "bonusDates": ["1972-03-21", "1972-03-27"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "the article claims nothing either way, but the release's 25 tracks are exactly the 25 the fullest soundboard plays, so it carries the whole night; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -732,8 +719,8 @@
       "tag": "Dave's Picks",
       "dates": ["1972-09-09"],
       "bonusDates": ["1972-09-03", "1972-09-19"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "article: \"the complete show recorded on September 9, 1972, at the Hollywood Palladium\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1024,8 +1011,8 @@
       "tag": "Dave's Picks",
       "dates": ["1973-12-18"],
       "bonusDates": ["1973-12-12"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "the article claims nothing either way, but the release's 25 tracks are exactly the 25 the fullest soundboard plays, so it carries the whole night; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1167,8 +1154,8 @@
       "tag": "Dave's Picks",
       "dates": ["1974-07-31"],
       "bonusDates": ["1974-07-29"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "article: \"the complete July 31, 1974 concert, except for 'Seastones'\"; against the soundboard it is also missing Let It Grow, and 19740731 restores both from gd1974-07-31.sbd.miller.32353.sbeok.flac16; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1569,8 +1556,8 @@
       "tag": "Dave's Picks",
       "dates": ["1977-10-29"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "article: \"the complete show recorded on October 29, 1977 at Evans Field House\"; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1580,10 +1567,10 @@
       "series": "Dave's Picks",
       "eligible": true,
       "tag": "Dave's Picks",
-      "dates": ["1977-11-04"],
-      "bonusDates": [],
+      "bonusDates": ["1977-11-02"],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "dates": ["1977-11-04"],
+      "note": "article: \"the complete concert recorded on November 4, 1977 at Colgate University\", plus \"over 75 minutes of bonus tracks recorded on November 2, 1977\" at Seneca College Field House, Toronto — ten songs the discography's date text does not mention, which orphaned on import until this entry named the date; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -1647,8 +1634,8 @@
       "tag": "Dave's Picks",
       "dates": ["1978-02-01"],
       "bonusDates": ["1978-01-31"],
-      "completeness": "unknown",
-      "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "article: \"the complete show recorded at the Uptown Theatre in Chicago on February 1, 1978\", plus the previous night's first-set closer and most of its second set; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2453,8 +2440,8 @@
       "tag": "Dave's Picks",
       "dates": ["1990-07-18", "1990-07-19"],
       "bonusDates": [],
-      "completeness": "unknown",
-      "note": "dates from subheading; completeness not stated — confirm by hand",
+      "completeness": "complete",
+      "note": "the article claims nothing either way; against the soundboards 7/18 is whole bar a Drums the release lists as Jam, and 7/19 is missing only U.S. Blues, which 19900719 restores from the tape; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2663,6 +2650,19 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "not a source: unlinked in the discography — classify by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Dave's Picks Volume 19",
+      "name": "Dave's Picks Volume 19",
+      "kind": "series",
+      "series": "Dave's Picks",
+      "eligible": true,
+      "tag": "Dave's Picks",
+      "bonusDates": ["1970-01-23", "1970-01-24"],
+      "completeness": "complete",
+      "dates": [],
+      "note": "article: the complete 1/23/70 Honolulu concert plus 1/24 bonus tracks — but its Casey Jones is 1:22, cut off by the tape, and neither soundboard catalogued for the date carries the song at all, so the night cannot be drawn and is held in data/unknown-setlists/; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {

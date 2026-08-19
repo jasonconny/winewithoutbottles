@@ -1,0 +1,60 @@
+{
+  "id": "19691220",
+  "date": "1969-12-20",
+  "venue": "Fillmore Auditorium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star", "Dave's Picks"],
+  "source": "Dave's Picks Volume 6",
+  "songs": [
+    {
+      "title": "Dark Star",
+      "duration": "20:38"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "10:40"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "11:32"
+    },
+    {
+      "title": "New Speedway Boogie",
+      "duration": "8:27"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "35:15"
+    },
+    {
+      "title": "Mason's Children",
+      "duration": "7:19"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:31"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:07"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:16"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:30"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "5:11"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:33"
+    }
+  ]
+}
