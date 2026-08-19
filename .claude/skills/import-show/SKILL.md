@@ -23,6 +23,44 @@ Then **pause for Jason to spot-check the authored JSON before generating** on a
 batch. Unknown song titles stop the run: they are named on stdout and must be
 added to the canon deliberately (below), never auto-added.
 
+**Writing a show file by hand? Match its existing layout.** The corpus is
+authored two ways — most files put each song across four lines, 25 keep
+`{ "title": …, "duration": … }` on one — and **Prettier will not reconcile them**,
+because it preserves whether the source had a newline after `{`. Rewriting a file
+in the other style turns a one-line timing fix into a whole-file diff. This has
+bitten twice, once for 1333 spurious insertions and once for a 50-show batch that
+came out ~4000 changed lines instead of 443 and had to be redone.
+`serialiseShow(show, compact)` in `generator/import.ts` handles it via
+`isCompact(raw)` (`/\{ "title":/`); for a one-off edit prefer line-level string
+replacement over parse-and-restringify, and remember that a naive
+`json.dump(…, indent=2)` silently produces the expanded style.
+
+## A single new release, as it appears
+
+Bulk importing is done — every officially-released show that can be built exists.
+Additions from here are **one release at a time**, as Rhino announces them, and
+that shape has its own failure modes. In order:
+
+1. `npm run releases` first. It verifies the index against Wikipedia and exits
+   non-zero on drift; a new release shows up as drift.
+2. `tsx generator/releases.ts --draft --only "<name>"` to add just that entry,
+   then `npx prettier --write data/releases.json`.
+3. **Check `| released =` in the article before anything else.** Wikipedia
+   catalogues a release when it is _announced_, so the index cheerfully carries
+   records that do not exist yet — eligible, `completeness: complete`, a full date
+   list, and **no durations anywhere**. The importer then refuses the whole thing,
+   which reads exactly like a parser bug. If it is unreleased, record a note-only
+   `HAND_RESOLVED` entry (every field but `note` is optional) and stop.
+4. **Check the article exists at all.** Eight discography entries have no
+   Wikipedia page, so nothing can ever be parsed from them; they live in
+   `HAND_CLASSIFIED` (below) as `eligible: false`.
+5. Then the usual loop. Expect the date to be one the corpus already holds — most
+   new releases are single-show reissues of a night already sourced from a box,
+   and `chooseSource` will keep preferring the box.
+
+`data/UNBUILT-DATES.md` lists every date the corpus still lacks and why, and a
+test keeps it in sync; check there before concluding a new release adds anything.
+
 After any change to the importer's parsing, re-run `--audit`: it sweeps every
 corpus show that resolves to a source, and an already-applied show must come
 back **+0:00 with no track-count change**. That sweep is what catches a parser
@@ -113,6 +151,17 @@ already gets right — that freezes them and turns "verify against Wikipedia" in
 > `--draft` writes raw `JSON.stringify`, but the committed file is
 > Prettier-formatted. Run `npx prettier --write data/releases.json` after, or a
 > one-release change shows up as a ~1000-line diff.
+
+**`HAND_CLASSIFIED` in `generator/hand-readings.ts` is the third hand map**, beside
+`HAND_RESOLVED` and `HAND_SHORTENED`. A title listed in the discography's date
+section but linked from no classification table gives `verdict()` nothing to judge
+it by, so it lands as `unlinked in the discography — classify by hand` — honest
+once, an unresolved TODO forever after. The eight that existed were read in
+August 2026 and all proved ineligible for the same reason: **no Wikipedia article,
+so no track listing to source from**. Seven were also redundant reissues, and each
+note names the box that already covers the date. Anything landing in that branch
+now is new and wants reading; put the verdict in the map rather than leaving it to
+reappear.
 
 Eligibility comes from Wikipedia's own sectioning (contemporary live albums,
 compilations, unauthorized releases and album box sets can't source a show) plus
@@ -265,6 +314,22 @@ hides a song the registry already knows). Unmapped titles are named on stdout
 and left out, so adding them to the canon stays deliberate; add or alias, then
 re-run for a complete skeleton.
 
+**Some releases attribute tracks somewhere other than the listing, and the
+importer cannot follow.** Three shapes seen so far: a per-track **extra column**
+(`|extra_column = Recording date`, as _Ladies and Gentlemen…_ uses — this one the
+importer _does_ read), and a separate **`==Recording dates==` section** naming disc
+and track numbers, which it does not. That section appears with the date last
+(_Rocking the Cradle_: `*Disc 1 tracks 1 & 6 …: September 15, 1978`) and with the
+date first (_Go to Nassau_: `*May 15, 1980: Disc 1 tracks 1-2 & 5-8, …`), so a
+parser for it would have to read both orders. Until one exists those shows are
+authored by hand and `--audit` reports them as `unparsed` — which is why the
+expected audit line carries a non-zero unparsed count rather than zero.
+
+**A date range is not a show list, and neither is a `recorded` field.** _Ladies
+and Gentlemen…_ carried five dates for months because its infobox reads
+`recorded = April 25, 1971 - April 29, 1971`; the per-track column names only four
+nights, and the 26th appears nowhere on the release.
+
 **Which tape is chosen is itself load-bearing, and took two tries.**
 archive.org's search sets no sort, so the old "first soundboard, Charlie
 Miller's if he did one" pick was _not reproducible_ — two runs minutes apart
@@ -281,6 +346,25 @@ matches filename, id doesn't collide with a real show, titles canonical (aliases
 rejected), durations either `""` or valid `m:ss` — because completeness is the
 whole point of the directory, and the show-data guards catch that the moment a
 file is promoted.
+
+**The scorer can prefer an edited tape, and `MILLER_MIN_SHARE` will not catch
+it.** Ranking is `tracks - unmapped`, so a transfer that indexes five tuning
+ditties as separate tracks outscores a complete one that groups them. On
+1969-11-07 that put Kaplan's _spliced_ tape above Charlie Miller's uncut one by a
+single point, and the staged skeleton came out three songs short of the night. The
+guard against a Miller _fragment_ losing does not also guard a complete Miller
+losing to a padded rival.
+
+**So read the candidates' notes, not just their track counts.** Taper notes
+routinely say outright that a tape is edited — Kaplan's says "There are splices
+before and after Mama Tried, Next Time, and Good Lovin, and songs are probably
+missing in these gaps" — and often cite DeadBase for exactly what is missing and
+where it went. Two tapes disagreeing about a _setlist_ usually means one is
+incomplete, not that the sources conflict.
+
+**And a description is not a track list.** The 2020 Miller/Bear transfer of
+1972-07-21 lists `Promised Land` as the set-one opener in its description; the
+audio starts mid-song and the first track is literally `//Sug//aree`.
 
 ## Nights the band played twice (early/late)
 
@@ -323,6 +407,34 @@ Volume 35_ calls it one of two complete shows; per JerryBase the tape came from
 Keith Godchaux's houseboat and only the salvageable part was released, DeadBase
 50 lists mostly the same songs in a different order, and archive.org catalogues
 no tape for the date at all. See `data/CORRECTIONS.md`.
+
+## Bonus tracks (`data/BONUS-TRACKS.md`)
+
+Dates the corpus holds no show for, carried by a release only as **bonus
+tracks** — 49 dates / 302 tracks. This is where a fractured, one-release-at-a-time
+future actually pays out, so two rules matter more than the list:
+
+**A large count is a night the release nearly carries, not a pile of scraps.**
+The two biggest rows were 22 and 26 tracks and both were within a few songs of
+complete; both are now shows.
+
+**A date can be complete across releases while incomplete on every one of them**,
+and no single row can show that, because each row names what one release holds.
+19771102 sat as 7 tracks from _Dick's Picks 34_; _Dave's Picks 12_ carried ten
+more behind a different show, and a soundboard supplied the last four — 21 songs,
+complete, from two bonus blocks and a tape. **So re-derive a date's carriers
+across the whole index, never the volume that first surfaced it.**
+
+**A themed bonus disc hides dates the parser cannot bucket.** _The Closing of
+Winterland_'s "New Year's Eves at Winterland" and _Live at the Cow Palace_'s
+"Spirit of '76" each name their dates _inline on the track line_, so those dates
+go unrecorded entirely — seven were found that way. A release with a themed bonus
+disc is worth opening by hand even when the index shows no `bonusDates`.
+
+Assembly is by hand: bonus blocks are often headed by **venue rather than date**
+(`:''Seneca College Field House bonus tracks:''`), so their tracks orphan on
+import and no `--release` will bucket them. That orphaning is correct — handing
+them to the release's main date is what once made 19780415 a 25-track show.
 
 ## Release tags (`generator/release-tag.ts`)
 
