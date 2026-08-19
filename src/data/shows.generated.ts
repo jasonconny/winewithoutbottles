@@ -251,6 +251,50 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 5522
   },
   {
+    "id": "19690605",
+    "date": "1969-06-05",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride",
+      "Dark Star"
+    ],
+    "svg": "/shows/19690605.svg",
+    "songCount": 16,
+    "durationSeconds": 8605
+  },
+  {
+    "id": "19690607",
+    "date": "1969-06-07",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride",
+      "Dark Star"
+    ],
+    "svg": "/shows/19690607.svg",
+    "songCount": 11,
+    "durationSeconds": 5776
+  },
+  {
+    "id": "19690608",
+    "date": "1969-06-08",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19690608.svg",
+    "songCount": 12,
+    "durationSeconds": 6972
+  },
+  {
     "id": "19691102",
     "date": "1969-11-02",
     "venue": "Family Dog at the Great Highway",
@@ -264,6 +308,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19691102.svg",
     "songCount": 13,
     "durationSeconds": 7088
+  },
+  {
+    "id": "19691107",
+    "date": "1969-11-07",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks",
+      "Dark Star"
+    ],
+    "svg": "/shows/19691107.svg",
+    "songCount": 15,
+    "durationSeconds": 8164
   },
   {
     "id": "19691108",
@@ -543,6 +602,70 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19710413.svg",
     "songCount": 18,
     "durationSeconds": 7020
+  },
+  {
+    "id": "19710425",
+    "date": "1971-04-25",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19710425.svg",
+    "songCount": 25,
+    "durationSeconds": 9700
+  },
+  {
+    "id": "19710427",
+    "date": "1971-04-27",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19710427.svg",
+    "songCount": 27,
+    "durationSeconds": 10957
+  },
+  {
+    "id": "19710428",
+    "date": "1971-04-28",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19710428.svg",
+    "songCount": 24,
+    "durationSeconds": 11591
+  },
+  {
+    "id": "19710429",
+    "date": "1971-04-29",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19710429.svg",
+    "songCount": 31,
+    "durationSeconds": 11205
+  },
+  {
+    "id": "19710530",
+    "date": "1971-05-30",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19710530.svg",
+    "songCount": 21,
+    "durationSeconds": 8214
   },
   {
     "id": "19710731",
@@ -1102,6 +1225,35 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19720909.svg",
     "songCount": 24,
     "durationSeconds": 12163
+  },
+  {
+    "id": "19720915",
+    "date": "1972-09-15",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19720915.svg",
+    "songCount": 23,
+    "durationSeconds": 10826
+  },
+  {
+    "id": "19720916",
+    "date": "1972-09-16",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride",
+      "Dark Star"
+    ],
+    "svg": "/shows/19720916.svg",
+    "songCount": 25,
+    "durationSeconds": 11025
   },
   {
     "id": "19720917",
@@ -3355,6 +3507,26 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10209
   },
   {
+    "id": "19780915",
+    "date": "1978-09-15",
+    "venue": "Gizah Sound and Light Theater",
+    "city": "Giza",
+    "country": "EGY",
+    "svg": "/shows/19780915.svg",
+    "songCount": 16,
+    "durationSeconds": 8750
+  },
+  {
+    "id": "19780916",
+    "date": "1978-09-16",
+    "venue": "Gizah Sound and Light Theater",
+    "city": "Giza",
+    "country": "EGY",
+    "svg": "/shows/19780916.svg",
+    "songCount": 22,
+    "durationSeconds": 11404
+  },
+  {
     "id": "19781021",
     "date": "1978-10-21",
     "venue": "Winterland",
@@ -3417,6 +3589,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19790108.svg",
     "songCount": 21,
     "durationSeconds": 10138
+  },
+  {
+    "id": "19790504",
+    "date": "1979-05-04",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "svg": "/shows/19790504.svg",
+    "songCount": 22,
+    "durationSeconds": 9957
   },
   {
     "id": "19790812",
@@ -3590,6 +3773,28 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19800507.svg",
     "songCount": 20,
     "durationSeconds": 8819
+  },
+  {
+    "id": "19800515",
+    "date": "1980-05-15",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19800515.svg",
+    "songCount": 22,
+    "durationSeconds": 8927
+  },
+  {
+    "id": "19800516",
+    "date": "1980-05-16",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19800516.svg",
+    "songCount": 23,
+    "durationSeconds": 9596
   },
   {
     "id": "19800823",

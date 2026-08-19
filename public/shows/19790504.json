@@ -1,0 +1,101 @@
+{
+  "id": "19790504",
+  "date": "1979-05-04",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "svg": "/shows/19790504.svg",
+  "songCount": 22,
+  "durationSeconds": 9957,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 642
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 816
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 158
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 459
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 336
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 801
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 621
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 639
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 440
+    }
+  ]
+}

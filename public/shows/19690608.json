@@ -1,57 +1,64 @@
 {
   "id": "19690608",
   "date": "1969-06-08",
-  "venue": "",
-  "city": "",
-  "source": "Enjoying the Ride | archive.org:gd69-06-08.sbd.cotsman.19285.sbeok.shnf",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19690608.svg",
+  "songCount": 12,
+  "durationSeconds": 6972,
   "songs": [
     {
       "title": "Dancing in the Street",
-      "duration": "12:57"
+      "durationSeconds": 777
     },
     {
       "title": "He Was a Friend of Mine",
-      "duration": "12:15"
+      "durationSeconds": 735
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "4:22"
+      "durationSeconds": 262
     },
     {
       "title": "New Potato Caboose",
-      "duration": "13:50"
+      "durationSeconds": 830
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:17"
+      "durationSeconds": 197
     },
     {
       "title": "Turn On Your Love Light",
-      "duration": ""
+      "durationSeconds": 2087
     },
     {
       "title": "The Things I Used To Do",
-      "duration": ""
+      "durationSeconds": 467
     },
     {
       "title": "Who's Lovin' You Tonight",
-      "duration": ""
+      "durationSeconds": 313
     },
     {
       "title": "Cryptical Envelopment",
-      "duration": "2:30"
+      "durationSeconds": 150
     },
     {
       "title": "Drums",
-      "duration": "0:58"
+      "durationSeconds": 58
     },
     {
       "title": "The Other One",
-      "duration": "11:04"
+      "durationSeconds": 664
     },
     {
       "title": "Cosmic Charlie",
-      "duration": "7:12"
+      "durationSeconds": 432
     }
   ]
 }

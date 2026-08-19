@@ -1,53 +1,61 @@
 {
   "id": "19690607",
   "date": "1969-06-07",
-  "venue": "",
-  "city": "",
-  "source": "Enjoying the Ride | archive.org:gd69-06-07.sbd.kaplan.9074.sbeok.shnf",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride",
+    "Dark Star"
+  ],
+  "svg": "/shows/19690607.svg",
+  "songCount": 11,
+  "durationSeconds": 5776,
   "songs": [
     {
       "title": "Dire Wolf",
-      "duration": "4:30"
+      "durationSeconds": 270
     },
     {
       "title": "Dupree's Diamond Blues",
-      "duration": "4:36"
+      "durationSeconds": 276
     },
     {
       "title": "Mountains of the Moon",
-      "duration": "5:44"
+      "durationSeconds": 344
     },
     {
       "title": "Dark Star",
-      "duration": "21:07"
+      "durationSeconds": 1267
     },
     {
       "title": "St. Stephen",
-      "duration": ""
+      "durationSeconds": 400
     },
     {
       "title": "The Eleven",
-      "duration": ""
+      "durationSeconds": 896
     },
     {
       "title": "Sitting on Top of the World",
-      "duration": ""
+      "durationSeconds": 205
     },
     {
       "title": "Cold Rain and Snow",
-      "duration": ""
+      "durationSeconds": 169
     },
     {
       "title": "Doin' That Rag",
-      "duration": ""
+      "durationSeconds": 481
     },
     {
       "title": "Me and My Uncle",
-      "duration": ""
+      "durationSeconds": 211
     },
     {
       "title": "Turn On Your Love Light",
-      "duration": ""
+      "durationSeconds": 1257
     }
   ]
 }

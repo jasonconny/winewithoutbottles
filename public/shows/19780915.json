@@ -1,0 +1,76 @@
+{
+  "id": "19780915",
+  "date": "1978-09-15",
+  "venue": "Gizah Sound and Light Theater",
+  "city": "Giza",
+  "country": "EGY",
+  "svg": "/shows/19780915.svg",
+  "songCount": 16,
+  "durationSeconds": 8750,
+  "songs": [
+    {
+      "title": "Ollin Arageed",
+      "durationSeconds": 1080
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 162
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 504
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 720
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 806
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 780
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 695
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 642
+    }
+  ]
+}

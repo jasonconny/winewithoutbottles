@@ -1,0 +1,96 @@
+{
+  "id": "19710530",
+  "date": "1971-05-30",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "note": "The release holds \"most of the second set ... as well as the encore\" — 10 songs. The other 11, the whole first set plus the China Cat Sunflower > I Know You Rider the release skips, come from gd71-05-30.aud.miller.31968.sbeok.flacf. The soundboard catalogued for this date carries only the second set, so the audience tape is what makes the night drawable, and the two sources complete each other in both directions: the tape has no Big Boss Man at all, and its Johnny B. Goode is a 17-second fragment where the tape cuts, so both take the release's timing.",
+  "source": "Winterland: May 30th 1971 | archive.org:gd71-05-30.aud.miller.31968.sbeok.flacf",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "5:45"
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "duration": "5:49"
+    },
+    {
+      "title": "Ain't It Crazy (The Rub)",
+      "duration": "4:11"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:23"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "4:54"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "3:47"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "9:36"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "2:59"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "14:36"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:22"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:03"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "7:09"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "5:38"
+    },
+    {
+      "title": "Big Boss Man",
+      "duration": "6:01"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:33"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:47"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:28"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "15:32"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "6:46"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "5:26"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:09"
+    }
+  ]
+}

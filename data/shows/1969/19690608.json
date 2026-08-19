@@ -1,0 +1,61 @@
+{
+  "id": "19690608",
+  "date": "1969-06-08",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Enjoying the Ride"],
+  "note": "Staged as a partial and now finished. Enjoying the Ride supplies 9 timings; Turn On Your Love Light, The Things I Used To Do and Who's Lovin' You Tonight come from gd69-06-08.sbd.cotsman.19285.sbeok.shnf. The tape's Tuning is excluded as notASong.",
+  "source": "Enjoying the Ride | archive.org:gd69-06-08.sbd.cotsman.19285.sbeok.shnf",
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "duration": "12:57"
+    },
+    {
+      "title": "He Was a Friend of Mine",
+      "duration": "12:15"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:22"
+    },
+    {
+      "title": "New Potato Caboose",
+      "duration": "13:50"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:17"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "34:47"
+    },
+    {
+      "title": "The Things I Used To Do",
+      "duration": "7:47"
+    },
+    {
+      "title": "Who's Lovin' You Tonight",
+      "duration": "5:13"
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "duration": "2:30"
+    },
+    {
+      "title": "Drums",
+      "duration": "0:58"
+    },
+    {
+      "title": "The Other One",
+      "duration": "11:04"
+    },
+    {
+      "title": "Cosmic Charlie",
+      "duration": "7:12"
+    }
+  ]
+}

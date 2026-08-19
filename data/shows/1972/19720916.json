@@ -1,0 +1,113 @@
+{
+  "id": "19720916",
+  "date": "1972-09-16",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": ["Enjoying the Ride", "Dark Star"],
+  "note": "Staged as a partial and now finished. Enjoying the Ride supplies 3 timings (Morning Dew, Dark Star, Brokedown Palace) and gd72-09-16.sbd.cotsman.9247.sbeok.shnf 21. The 25th is the Not Fade Away reprise, and it needed a third source: the sandwich runs Not Fade Away > Goin' Down the Road Feeling Bad > Not Fade Away, but four of the five circulating transfers index only the first Not Fade Away and end the show at One More Saturday Night. Only gd1972-09-16.matrix.sb20.chappell.77442.flac16 breaks the reprise out, at 3:02 — so the skeleton's extra track was right and the fullest soundboard was the incomplete one.",
+  "source": "Enjoying the Ride | archive.org:gd72-09-16.sbd.cotsman.9247.sbeok.shnf | archive.org:gd1972-09-16.matrix.sb20.chappell.77442.flac16",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:06"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:29"
+    },
+    {
+      "title": "Deal",
+      "duration": "4:47"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "6:15"
+    },
+    {
+      "title": "You Win Again",
+      "duration": "3:58"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:13"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "10:22"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:42"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:39"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:13"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "4:15"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "19:58"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "11:35"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "5:23"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "13:03"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:52"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "4:03"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "26:58"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:30"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:08"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:38"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:34"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "7:13"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:02"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:49"
+    }
+  ]
+}

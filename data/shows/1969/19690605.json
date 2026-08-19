@@ -1,8 +1,12 @@
 {
   "id": "19690605",
   "date": "1969-06-05",
-  "venue": "",
-  "city": "",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Enjoying the Ride", "Dark Star"],
+  "note": "Staged as a partial and now finished. Enjoying the Ride supplies 13 timings; the closing St. Stephen > The Eleven > Turn On Your Love Light come from gd1969-06-05.sbd.barbella.6017.shnf.",
   "source": "Enjoying the Ride | archive.org:gd1969-06-05.sbd.barbella.6017.shnf",
   "songs": [
     {
@@ -59,15 +63,15 @@
     },
     {
       "title": "St. Stephen",
-      "duration": ""
+      "duration": "5:54"
     },
     {
       "title": "The Eleven",
-      "duration": ""
+      "duration": "12:57"
     },
     {
       "title": "Turn On Your Love Light",
-      "duration": ""
+      "duration": "26:57"
     }
   ]
 }

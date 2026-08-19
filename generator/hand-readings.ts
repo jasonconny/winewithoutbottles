@@ -185,7 +185,7 @@ export const HAND_RESOLVED: Record<
   },
   'The Warfield, San Francisco, California, October 9 & 10, 1980': {
     completeness: 'partial',
-    note: 'article: "It contains the two sets of acoustic music performed by the Dead on October 9 and 10, 1980" — the acoustic sets only. Both nights also played electric sets, so neither date is whole here',
+    note: 'article: "It contains the two sets of acoustic music performed by the Dead on October 9 and 10, 1980" \u2014 the acoustic sets only. Both nights also played electric sets, so neither date is whole here. DEFERRED by Jason 2026-08-19, and not merely for being partial: these are two of the 1980 15th-anniversary residencies \u2014 the Warfield (San Francisco), Radio City Music Hall (New York) and two nights in New Orleans \u2014 and most or all of that material was multi-tracked for Reckoning and Dead Set. Jason\'s read is that remarkably little of those runs has ever been issued, which suggests a box being held back. If one appears, it likely supersedes this release for every one of those dates, so assembling these nights by hand now risks doing the work twice',
   },
   'Rocking the Cradle: Egypt 1978': {
     completeness: 'partial',
@@ -506,15 +506,9 @@ export const HAND_RESOLVED: Record<
     note: 'article: 2/3 Madison and 2/5 Cedar Falls, plus two songs from 2/4 Milwaukee; disc 1 recombines all three',
   },
   'Ladies and Gentlemen... the Grateful Dead': {
-    dates: [
-      '1971-04-25',
-      '1971-04-26',
-      '1971-04-27',
-      '1971-04-28',
-      '1971-04-29',
-    ],
+    dates: ['1971-04-25', '1971-04-27', '1971-04-28', '1971-04-29'],
     completeness: 'partial',
-    note: 'article: recorded at the April 25–29, 1971 Fillmore East shows — four CDs across five nights',
+    note: 'a four-CD set from the Fillmore East run. The infobox\'s "April 25, 1971 - April 29, 1971" is a date *range*, not a show list, and taking it as one put 1971-04-26 here for months: the listing carries a per-track "Recording date" column, and across all 42 tracks it names only April 25 (10), 27 (3), 28 (14) and 29 (15). **The 26th appears nowhere on the release.** Partial on every night it does cover \u2014 8, 3, 14 and 15 songs against nights of 23, 27, 25 and 31',
   },
   'Go to Nassau': {
     dates: ['1980-05-15', '1980-05-16'],

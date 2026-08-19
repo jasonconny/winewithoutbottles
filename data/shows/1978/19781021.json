@@ -10,7 +10,7 @@
   "note": "Opens with Ollin Arrageed because these were the homecoming shows after the band's Egypt trip, and Hamza el Din — who had played with them at the Great Pyramid a month earlier — was a guest, leading the tar into the band. The long opening slot is expected here, not a tracking error.\n\nThe tape carries two further pieces the tapers label only Hamza el Din Song #1 and #2; those are deliberately out of data/songs.json and so get no stripe, per Jason 2026-08-14, while the one named piece does. Eight of these timings come from gd1978-10-21.sbd.miller.89721.sbeok.flac16, the rest from Road Trips 1:4, whose disc one covers this night.",
   "songs": [
     {
-      "title": "Ollin Arrageed",
+      "title": "Ollin Arageed",
       "duration": "18:33"
     },
     {

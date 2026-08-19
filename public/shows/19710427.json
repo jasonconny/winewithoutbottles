@@ -1,117 +1,124 @@
 {
   "id": "19710427",
   "date": "1971-04-27",
-  "venue": "",
-  "city": "",
-  "source": "Enjoying the Ride | archive.org:gd1971-04-27.sbd.miller.106550.flac16",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19710427.svg",
+  "songCount": 27,
+  "durationSeconds": 10957,
   "songs": [
     {
       "title": "Truckin'",
-      "duration": "8:55"
+      "durationSeconds": 535
     },
     {
       "title": "Mama Tried",
-      "duration": "3:05"
+      "durationSeconds": 185
     },
     {
       "title": "Bertha",
-      "duration": "6:28"
+      "durationSeconds": 388
     },
     {
       "title": "Next Time You See Me",
-      "duration": "4:17"
+      "durationSeconds": 257
     },
     {
       "title": "Cumberland Blues",
-      "duration": "4:26"
+      "durationSeconds": 266
     },
     {
       "title": "Me and Bobby McGee",
-      "duration": "6:21"
+      "durationSeconds": 381
     },
     {
       "title": "Loser",
-      "duration": "7:19"
+      "durationSeconds": 439
     },
     {
       "title": "Hard to Handle",
-      "duration": "9:28"
+      "durationSeconds": 568
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "4:39"
+      "durationSeconds": 279
     },
     {
       "title": "I Know You Rider",
-      "duration": "5:57"
+      "durationSeconds": 357
     },
     {
       "title": "Casey Jones",
-      "duration": "6:21"
+      "durationSeconds": 385
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "6:40"
+      "durationSeconds": 400
     },
     {
       "title": "Deal",
-      "duration": "5:12"
+      "durationSeconds": 312
     },
     {
       "title": "Me and My Uncle",
-      "duration": "3:37"
+      "durationSeconds": 217
     },
     {
       "title": "Bird Song",
-      "duration": "8:34"
+      "durationSeconds": 514
     },
     {
       "title": "Playing in the Band",
-      "duration": "5:15"
+      "durationSeconds": 315
     },
     {
       "title": "Dire Wolf",
-      "duration": "3:47"
+      "durationSeconds": 227
     },
     {
       "title": "Searchin'",
-      "duration": ""
+      "durationSeconds": 449
     },
     {
       "title": "Riot In Cell Block #9",
-      "duration": ""
+      "durationSeconds": 469
     },
     {
       "title": "Good Vibrations",
-      "duration": ""
+      "durationSeconds": 342
     },
     {
       "title": "I Get Around",
-      "duration": ""
+      "durationSeconds": 148
     },
     {
       "title": "Help Me Rhonda",
-      "duration": ""
+      "durationSeconds": 431
     },
     {
       "title": "Okie From Muskogee",
-      "duration": ""
+      "durationSeconds": 233
     },
     {
       "title": "Johnny B. Goode",
-      "duration": ""
+      "durationSeconds": 501
     },
     {
       "title": "Sing Me Back Home",
-      "duration": ""
+      "durationSeconds": 655
     },
     {
       "title": "Uncle John's Band",
-      "duration": ""
+      "durationSeconds": 366
     },
     {
       "title": "Turn On Your Love Light",
-      "duration": ""
+      "durationSeconds": 1338
     }
   ]
 }

@@ -1,0 +1,97 @@
+{
+  "id": "19710530",
+  "date": "1971-05-30",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19710530.svg",
+  "songCount": 21,
+  "durationSeconds": 8214,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Ain't It Crazy (The Rub)",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 179
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 876
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 322
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 932
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 249
+    }
+  ]
+}

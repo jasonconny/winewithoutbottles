@@ -1,0 +1,57 @@
+{
+  "id": "19690607",
+  "date": "1969-06-07",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Enjoying the Ride", "Dark Star"],
+  "note": "Staged as a partial and now finished. Enjoying the Ride supplies 4 timings; the other 7 come from gd69-06-07.sbd.kaplan.9074.sbeok.shnf, which spells St. Stephen \"Saint Stephen\". The release and the tape read the shared tracks quite differently — Dire Wolf 4:30 against 2:29 — so the four release timings and the seven tape ones are not directly comparable.",
+  "source": "Enjoying the Ride | archive.org:gd69-06-07.sbd.kaplan.9074.sbeok.shnf",
+  "songs": [
+    {
+      "title": "Dire Wolf",
+      "duration": "4:30"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "4:36"
+    },
+    {
+      "title": "Mountains of the Moon",
+      "duration": "5:44"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "21:07"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "6:40"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "14:56"
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "duration": "3:25"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "2:49"
+    },
+    {
+      "title": "Doin' That Rag",
+      "duration": "8:01"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:31"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "20:57"
+    }
+  ]
+}

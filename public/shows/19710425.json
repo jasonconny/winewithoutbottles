@@ -1,0 +1,116 @@
+{
+  "id": "19710425",
+  "date": "1971-04-25",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19710425.svg",
+  "songCount": 25,
+  "durationSeconds": 9700,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Ain't It Crazy (The Rub)",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 233
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 292
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 648
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 215
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 348
+    },
+    {
+      "title": "I Second That Emotion",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 148
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 900
+    },
+    {
+      "title": "Sing Me Back Home",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 416
+    }
+  ]
+}
