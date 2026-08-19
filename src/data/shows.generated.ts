@@ -251,6 +251,50 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 5522
   },
   {
+    "id": "19690605",
+    "date": "1969-06-05",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride",
+      "Dark Star"
+    ],
+    "svg": "/shows/19690605.svg",
+    "songCount": 16,
+    "durationSeconds": 8605
+  },
+  {
+    "id": "19690607",
+    "date": "1969-06-07",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride",
+      "Dark Star"
+    ],
+    "svg": "/shows/19690607.svg",
+    "songCount": 11,
+    "durationSeconds": 5776
+  },
+  {
+    "id": "19690608",
+    "date": "1969-06-08",
+    "venue": "Fillmore West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19690608.svg",
+    "songCount": 12,
+    "durationSeconds": 6972
+  },
+  {
     "id": "19691102",
     "date": "1969-11-02",
     "venue": "Family Dog at the Great Highway",
@@ -596,6 +640,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19710429.svg",
     "songCount": 31,
     "durationSeconds": 11205
+  },
+  {
+    "id": "19710530",
+    "date": "1971-05-30",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19710530.svg",
+    "songCount": 21,
+    "durationSeconds": 8214
   },
   {
     "id": "19710731",
@@ -1155,6 +1210,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19720909.svg",
     "songCount": 24,
     "durationSeconds": 12163
+  },
+  {
+    "id": "19720915",
+    "date": "1972-09-15",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19720915.svg",
+    "songCount": 23,
+    "durationSeconds": 10826
   },
   {
     "id": "19720917",
@@ -3490,6 +3559,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19790108.svg",
     "songCount": 21,
     "durationSeconds": 10138
+  },
+  {
+    "id": "19790504",
+    "date": "1979-05-04",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "svg": "/shows/19790504.svg",
+    "songCount": 22,
+    "durationSeconds": 9957
   },
   {
     "id": "19790812",

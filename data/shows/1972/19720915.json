@@ -1,8 +1,12 @@
 {
   "id": "19720915",
   "date": "1972-09-15",
-  "venue": "",
-  "city": "",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": ["Enjoying the Ride"],
+  "note": "Staged as a partial and now finished. Enjoying the Ride supplies 21 timings; the closing Sugar Magnolia and One More Saturday Night come from gd1972-09-15.133998.sbd.miller.flac16.",
   "source": "Enjoying the Ride | archive.org:gd1972-09-15.133998.sbd.miller.flac16",
   "songs": [
     {
@@ -91,11 +95,11 @@
     },
     {
       "title": "Sugar Magnolia",
-      "duration": ""
+      "duration": "8:55"
     },
     {
       "title": "One More Saturday Night",
-      "duration": ""
+      "duration": "4:54"
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "id": "19690605",
+  "date": "1969-06-05",
+  "venue": "Fillmore West",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride",
+    "Dark Star"
+  ],
+  "svg": "/shows/19690605.svg",
+  "songCount": 16,
+  "durationSeconds": 8605,
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 601
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 414
+    },
+    {
+      "title": "He Was a Friend of Mine",
+      "durationSeconds": 658
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Cosmic Charlie",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 131
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 86
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 743
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1259
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 354
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 777
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1617
+    }
+  ]
+}

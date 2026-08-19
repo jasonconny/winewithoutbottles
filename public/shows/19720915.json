@@ -1,0 +1,108 @@
+{
+  "id": "19720915",
+  "date": "1972-09-15",
+  "venue": "Boston Music Hall",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Enjoying the Ride"
+  ],
+  "svg": "/shows/19720915.svg",
+  "songCount": 23,
+  "durationSeconds": 10826,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 356
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 512
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 486
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1063
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 384
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 788
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 232
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 752
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 229
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 686
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 73
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1245
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 535
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 294
+    }
+  ]
+}
