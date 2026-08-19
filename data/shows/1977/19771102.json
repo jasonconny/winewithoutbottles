@@ -1,0 +1,96 @@
+{
+  "id": "19771102",
+  "date": "1977-11-02",
+  "venue": "Seneca College Field House",
+  "city": "Toronto",
+  "country": "CAN",
+  "tags": ["Dave's Picks", "Dick's Picks"],
+  "source": "Dave's Picks Volume 12 | Dick's Picks Volume 34 | archive.org:gd77-11-02.sbd.samaritano.14743.sbeok.shnf",
+  "note": "Built from three sources, none of which holds the night alone. No release covers 11/2/77 as a show: Dave's Picks 12 carries ten of its songs as bonus tracks behind the 11/4 Colgate concert, and Dick's Picks 34 carries seven more behind 11/5. Dave's Picks 12's article prints the full DeadBase setlist and marks which release holds each song — [A] for its own ten, [B] for Dick's Picks 34's seven — which is what makes the assembly checkable rather than a guess.\n\nThat leaves four songs on no release at all: Samson and Delilah, Ship of Fools, Good Lovin' and Sunrise, the middle of the second set. They take their timings from gd77-11-02.sbd.samaritano.14743.sbeok.shnf, which carries the whole night and confirms the running order. Twenty-one songs, complete.\n\nThe importer cannot do this on its own. The bonus block in Dave's Picks 12 is headed \":''Seneca College Field House bonus tracks:''\" — a venue, not a date — so the ten tracks orphan rather than resolving to 11/2, which is correct behaviour and also why this show had to be assembled by hand.",
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "4:54"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:28"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:05"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:22"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:10"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:30"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:41"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:31"
+    },
+    {
+      "title": "Supplication",
+      "duration": "5:19"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:35"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:10"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "6:35"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:44"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "4:25"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:28"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "7:33"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:08"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "7:23"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "8:20"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:46"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "10:14"
+    }
+  ]
+}

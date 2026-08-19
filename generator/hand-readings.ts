@@ -220,6 +220,12 @@ export const HAND_RESOLVED: Record<
     completeness: 'complete',
     note: 'article: "two complete concerts: one from December 20, 1969, at the Fillmore Auditorium in San Francisco and the second from February 2, 1970, at the Fox Theatre in St. Louis". The discography\'s date text also gave 12/21/69, but that night is the 2013 bonus disc — eleven tracks, and the article prints DeadBase\'s full setlist beside them to show what it leaves out',
   },
+  "Dave's Picks Volume 12": {
+    dates: ['1977-11-04'],
+    bonusDates: ['1977-11-02'],
+    completeness: 'complete',
+    note: 'article: "the complete concert recorded on November 4, 1977 at Colgate University", plus "over 75 minutes of bonus tracks recorded on November 2, 1977" at Seneca College Field House, Toronto — ten songs the discography\'s date text does not mention, which orphaned on import until this entry named the date',
+  },
   "Dave's Picks Volume 14": {
     completeness: 'complete',
     note: "the article claims nothing either way, but the release's 25 tracks are exactly the 25 the fullest soundboard plays, so it carries the whole night",

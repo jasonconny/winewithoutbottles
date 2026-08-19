@@ -29,10 +29,23 @@ disc, and 1971-12-14 had 26 across two discs of Dave's Picks 26 — near enough
 complete that a soundboard finished them, three songs and one song respectively.
 Both are gone from this table.
 
-That is the warning worth carrying: a large count here is not a big pile of
-scraps, it is a night the release nearly carries. Check the biggest rows against
-a tape before treating them as gaps. The rows above run from 2 tracks to 15, and
-the ones at the top of that range are the candidates.
+**1977-11-02 left for a different reason**, and it is the more interesting one.
+It sat here as 7 tracks from _Dick's Picks 34_ with a note that more was on a
+Dave's Picks "not yet indexed". There was: _Dave's Picks Volume 12_ carries ten
+more as bonus tracks behind its 11/4 Colgate show. Seventeen of the night's
+twenty-one songs across two releases, the last four from a soundboard — a
+complete show out of two bonus blocks and a tape, and now in the corpus.
+
+Neither release could be resolved to it automatically. Volume 12's block is
+headed `:''Seneca College Field House bonus tracks:''`, naming the venue and not
+the date, so those ten orphan on import. The index knows the date now, but the
+assembly was by hand.
+
+Two warnings worth carrying, then. **A large count here is not a pile of scraps,
+it is a night a release nearly carries** — the rows above run from 2 tracks to
+15, and the top of that range is where to look. And **a date can be complete
+across releases while incomplete on every one of them**, which no single row in
+this table can show.
 
 | Date       | Tracks | Source volume                                                           |
 | ---------- | -----: | ----------------------------------------------------------------------- |
@@ -62,7 +75,6 @@ the ones at the top of that range are the candidates.
 | 1974-07-29 |      8 | Dave's Picks Volume 2                                                   |
 | 1976-07-16 |     15 | Dave's Picks Volume 18                                                  |
 | 1977-02-27 |      3 | Dave's Picks Volume 29                                                  |
-| 1977-11-02 |      7 | Dick's Picks Volume 34 — _more on a Dave's Picks, not yet indexed_      |
 | 1977-12-30 |      4 | Dick's Picks Volume 10                                                  |
 | 1978-01-31 |     10 | Dave's Picks Volume 57                                                  |
 | 1978-02-04 |      2 | Dick's Picks Volume 18                                                  |

@@ -2544,6 +2544,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10557
   },
   {
+    "id": "19771102",
+    "date": "1977-11-02",
+    "venue": "Seneca College Field House",
+    "city": "Toronto",
+    "country": "CAN",
+    "tags": [
+      "Dave's Picks",
+      "Dick's Picks"
+    ],
+    "svg": "/shows/19771102.svg",
+    "songCount": 21,
+    "durationSeconds": 8961
+  },
+  {
     "id": "19771104",
     "date": "1977-11-04",
     "venue": "Colgate University",

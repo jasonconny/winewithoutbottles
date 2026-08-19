@@ -1,0 +1,100 @@
+{
+  "id": "19771102",
+  "date": "1977-11-02",
+  "venue": "Seneca College Field House",
+  "city": "Toronto",
+  "country": "CAN",
+  "tags": [
+    "Dave's Picks",
+    "Dick's Picks"
+  ],
+  "svg": "/shows/19771102.svg",
+  "songCount": 21,
+  "durationSeconds": 8961,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 294
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 185
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 521
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 668
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 614
+    }
+  ]
+}
