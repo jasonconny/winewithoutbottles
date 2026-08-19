@@ -1,0 +1,60 @@
+{
+  "id": "19680824",
+  "date": "1968-08-24",
+  "venue": "Shrine Auditorium",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star"],
+  "source": "Two from the Vault",
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "15:59"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "11:20"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "4:40"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "14:27"
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "duration": "8:23"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "15:40"
+    },
+    {
+      "title": "New Potato Caboose",
+      "duration": "14:16"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "17:13"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "7:13"
+    },
+    {
+      "title": "Alligator",
+      "duration": "18:43"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "11:30"
+    },
+    {
+      "title": "Feedback",
+      "duration": "4:01"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "19900616",
+  "date": "1990-06-16",
+  "venue": "Shoreline Amphitheatre",
+  "city": "Mountain View",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19900616.svg",
+  "songCount": 20,
+  "durationSeconds": 9865,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 606
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 155
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 381
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 444
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 323
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 639
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 344
+    },
+    {
+      "title": "We Can Run",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 787
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 920
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 916
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 709
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 252
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 597
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 457
+    }
+  ]
+}

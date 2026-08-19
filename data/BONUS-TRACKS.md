@@ -78,6 +78,7 @@ this table can show.
 | 1974-06-22 |      6 | Dave's Picks Volume 34                                                  |
 | 1974-07-29 |      8 | Dave's Picks Volume 2                                                   |
 | 1976-07-16 |     15 | Dave's Picks Volume 18                                                  |
+| 1976-09-30 |      1 | Live at the Cow Palace                                                  |
 | 1977-02-27 |      3 | Dave's Picks Volume 29                                                  |
 | 1977-12-30 |      4 | Dick's Picks Volume 10                                                  |
 | 1977-12-31 |      5 | The Closing of Winterland                                               |
@@ -94,29 +95,6 @@ this table can show.
 | 1983-04-25 |      6 | Dave's Picks Volume 39                                                  |
 | 1983-09-10 |      3 | Dave's Picks Volume 52                                                  |
 | 1984-04-19 |      7 | Dave's Picks Volume 35                                                  |
+| 1990-07-12 |      3 | View from the Vault II                                                  |
 | 1991-03-31 |      2 | Dick's Picks Volume 17                                                  |
 | 1992-12-17 |      4 | Dick's Picks Volume 27                                                  |
-
-Counts are tracks the importer resolves to that date, so they follow the release
-index: `tsx generator/import.ts <id> --release "<name>"` reproduces any row.
-
-Two notes on where the counts come from:
-
-- **`bonusDates`, not `dates`.** A bonus date is deliberately kept out of a
-  release's `dates` list, which is what records it as unable to source the show.
-  `chooseSource` filters on `dates`, so these never resolve automatically —
-  every row above needs `--release` naming the volume explicitly.
-- **Not every `bonusDates` entry belongs on this list.** The field now carries
-  two kinds of date, and only one of them is bonus tracks. Several Road Trips
-  volumes hold a night substantially but not wholly — a disc each of two
-  Winterland shows, say — and those dates sit in `bonusDates` too, because
-  taking them out of the index entirely shrank the release's date **span** and
-  made its own per-night headings unresolvable, so material leaked between
-  shows. Those dates are staged in `data/partial-shows/` and are excluded here:
-  they are a work list with a skeleton, not a handful of orphan tracks. The test
-  is where the date lives, not which field names it. Of the twenty-six dates in
-  Road Trips `bonusDates`, eight are bonus tracks and appear above; sixteen are
-  staged partials; two are already in the corpus.
-- **1979-11-01 needed a parser fix to count at all.** _Dick's Picks 13_ writes
-  its two hidden bonus tracks as indented bullets (`::*"Title" … – 18:30`), a
-  markup the reader didn't accept. See `data/CORRECTIONS.md`.

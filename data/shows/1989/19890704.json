@@ -1,0 +1,96 @@
+{
+  "id": "19890704",
+  "date": "1989-07-04",
+  "venue": "Rich Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "country": "USA",
+  "source": "Truckin' Up to Buffalo",
+  "note": "Playing in the Band Reprise sits in the second set with no Playing in the Band before it, on this night or on the release. Per Jason it closes the version played the previous night — the Dead's preceding show was 1989-07-02 at Sullivan Stadium, Foxborough, which the corpus does not hold, so nothing here can confirm it. The order is verbatim from Truckin' Up to Buffalo and matches the soundboard.",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "7:57"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:36"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:45"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:57"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:50"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "6:09"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "6:01"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:11"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:53"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:30"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "8:47"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "8:13"
+    },
+    {
+      "title": "Playing in the Band Reprise",
+      "duration": "3:30"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:18"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:00"
+    },
+    {
+      "title": "Space",
+      "duration": "7:28"
+    },
+    {
+      "title": "I Will Take You Home",
+      "duration": "3:53"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "duration": "5:52"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "11:10"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "10:08"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "6:03"
+    }
+  ]
+}

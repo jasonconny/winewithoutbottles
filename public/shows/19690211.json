@@ -1,0 +1,84 @@
+{
+  "id": "19690211",
+  "date": "1969-02-11",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dark Star"
+  ],
+  "svg": "/shows/19690211.svg",
+  "songCount": 17,
+  "durationSeconds": 7502,
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 115
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Doin' That Rag",
+      "durationSeconds": 328
+    },
+    {
+      "title": "I'm a King Bee",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1027
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Mountains of the Moon",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 749
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 470
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 163
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 806
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 243
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 545
+    }
+  ]
+}

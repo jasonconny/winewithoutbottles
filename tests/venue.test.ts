@@ -145,6 +145,35 @@ describe('venueFromInfobox', () => {
     });
   });
 
+  it('splits a parenthesised city carrying no comma', () => {
+    // Two from the Vault, verbatim. Nothing here separates venue from city but
+    // the bracket, so before it was handled the field stayed one segment and
+    // the trailing ")" was simply trimmed off the end.
+    expect(
+      venueFromInfobox(box(' [[Shrine Auditorium]] ([[Los Angeles]])')),
+    ).toEqual({ venue: 'Shrine Auditorium', city: 'Los Angeles' });
+  });
+
+  it('splits on the word "in" when it joins two links', () => {
+    // One from the Vault, verbatim.
+    expect(
+      venueFromInfobox(
+        box(' [[Great American Music Hall]] in [[San Francisco, California]]'),
+      ),
+    ).toEqual({
+      venue: 'Great American Music Hall',
+      city: 'San Francisco',
+      state: 'CA',
+      country: 'USA',
+    });
+  });
+
+  it('leaves an unlinked "in" inside a venue name alone', () => {
+    expect(venueFromInfobox(box(' The Music Hall in the Park'))).toEqual({
+      venue: 'The Music Hall in the Park',
+    });
+  });
+
   it('cannot tell a second venue from a city when neither has a state', () => {
     // Volume 43's shape: two rooms, no city or state on either, and nothing in
     // the text marks which is which — so `McFarlin Auditorium` lands in the

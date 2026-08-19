@@ -1,0 +1,101 @@
+{
+  "id": "19761231",
+  "date": "1976-12-31",
+  "venue": "Cow Palace",
+  "city": "Daly City",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19761231.svg",
+  "songCount": 22,
+  "durationSeconds": 11283,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 181
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1388
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 746
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 808
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 715
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 664
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 911
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 498
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 206
+    }
+  ]
+}

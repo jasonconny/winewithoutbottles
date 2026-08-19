@@ -56,6 +56,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7116
   },
   {
+    "id": "19680824",
+    "date": "1968-08-24",
+    "venue": "Shrine Auditorium",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19680824.svg",
+    "songCount": 12,
+    "durationSeconds": 8605
+  },
+  {
     "id": "19681020",
     "date": "1968-10-20",
     "venue": "Greek Theatre",
@@ -69,6 +83,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19681020.svg",
     "songCount": 7,
     "durationSeconds": 3911
+  },
+  {
+    "id": "19690211",
+    "date": "1969-02-11",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19690211.svg",
+    "songCount": 17,
+    "durationSeconds": 7502
   },
   {
     "id": "19690222",
@@ -462,6 +490,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/1970051502.svg",
     "songCount": 24,
     "durationSeconds": 10083
+  },
+  {
+    "id": "19710219",
+    "date": "1971-02-19",
+    "venue": "Capitol Theatre",
+    "city": "Port Chester",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19710219.svg",
+    "songCount": 19,
+    "durationSeconds": 8469
   },
   {
     "id": "19710224",
@@ -1988,6 +2027,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 13795
   },
   {
+    "id": "19750813",
+    "date": "1975-08-13",
+    "venue": "Great American Music Hall",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19750813.svg",
+    "songCount": 18,
+    "durationSeconds": 7265
+  },
+  {
     "id": "19750928",
     "date": "1975-09-28",
     "venue": "Golden Gate Park",
@@ -2364,6 +2414,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19761010.svg",
     "songCount": 23,
     "durationSeconds": 9503
+  },
+  {
+    "id": "19761231",
+    "date": "1976-12-31",
+    "venue": "Cow Palace",
+    "city": "Daly City",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19761231.svg",
+    "songCount": 22,
+    "durationSeconds": 11283
   },
   {
     "id": "19770226",
@@ -4320,6 +4381,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8684
   },
   {
+    "id": "19890704",
+    "date": "1989-07-04",
+    "venue": "Rich Stadium",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19890704.svg",
+    "songCount": 21,
+    "durationSeconds": 9431
+  },
+  {
     "id": "19890707",
     "date": "1989-07-07",
     "venue": "John F. Kennedy Stadium",
@@ -4832,6 +4904,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9467
   },
   {
+    "id": "19900616",
+    "date": "1990-06-16",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19900616.svg",
+    "songCount": 20,
+    "durationSeconds": 9865
+  },
+  {
     "id": "19900623",
     "date": "1990-06-23",
     "venue": "Autzen Stadium",
@@ -4844,6 +4927,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19900623.svg",
     "songCount": 21,
     "durationSeconds": 9822
+  },
+  {
+    "id": "19900708",
+    "date": "1990-07-08",
+    "venue": "Three Rivers Stadium",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19900708.svg",
+    "songCount": 22,
+    "durationSeconds": 10689
   },
   {
     "id": "19900716",
@@ -5112,6 +5206,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910512.svg",
     "songCount": 19,
     "durationSeconds": 9981
+  },
+  {
+    "id": "19910614",
+    "date": "1991-06-14",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19910614.svg",
+    "songCount": 19,
+    "durationSeconds": 9847
   },
   {
     "id": "19910616",
