@@ -1,0 +1,104 @@
+{
+  "id": "19830911",
+  "date": "1983-09-11",
+  "venue": "The Downs at Santa Fe",
+  "city": "Santa Fe",
+  "state": "NM",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 52",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "5:22"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:34"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:43"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "5:48"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "9:48"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:03"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "5:41"
+    },
+    {
+      "title": "Althea",
+      "duration": "7:18"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "8:08"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "4:37"
+    },
+    {
+      "title": "Help On The Way",
+      "duration": "3:50"
+    },
+    {
+      "title": "Slipknot!",
+      "duration": "7:25"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "9:42"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "14:56"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "10:52"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:08"
+    },
+    {
+      "title": "Space",
+      "duration": "8:06"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:42"
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "duration": "10:51"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:09"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:42"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "11:02"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:21"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "19850428",
+  "date": "1985-04-28",
+  "venue": "Frost Amphitheater",
+  "city": "Stanford",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 49",
+  "songs": [
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "5:24"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "7:36"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "8:07"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:09"
+    },
+    {
+      "title": "Tons of Steel",
+      "duration": "4:26"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:34"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:34"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:26"
+    },
+    {
+      "title": "She Belongs to Me",
+      "duration": "6:23"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:56"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "8:06"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:02"
+    },
+    {
+      "title": "China Doll",
+      "duration": "9:59"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:41"
+    },
+    {
+      "title": "Space",
+      "duration": "10:25"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "3:48"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:41"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:13"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "5:46"
+    }
+  ]
+}

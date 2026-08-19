@@ -1,0 +1,104 @@
+{
+  "id": "19850427",
+  "date": "1985-04-27",
+  "venue": "Frost Amphitheater",
+  "city": "Stanford",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19850427.svg",
+  "songCount": 22,
+  "durationSeconds": 8792,
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 291
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 346
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 352
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 352
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 218
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 259
+    }
+  ]
+}

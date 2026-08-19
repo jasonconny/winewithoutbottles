@@ -1,0 +1,89 @@
+{
+  "id": "19840420",
+  "date": "1984-04-20",
+  "venue": "Philadelphia Civic Center",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 35",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "10:02"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "7:56"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:55"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:26"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "10:04"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:29"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "7:00"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:52"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "15:24"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "13:50"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "14:56"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "8:12"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:03"
+    },
+    {
+      "title": "Space",
+      "duration": "10:47"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "6:30"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:32"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:41"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:43"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "4:38"
+    }
+  ],
+  "note": "Space is one stripe of 10:47, not the two the release lists. Dave's Picks Volume 35 splits it across a disc boundary and says so in its own track names — \"Space\", part 1 closes disc two at 3:32 and \"Space\", part 2 opens disc three at 7:15. That is a CD index, not a second Space: nothing was played between them. Jason's call, 2026-08-18."
+}

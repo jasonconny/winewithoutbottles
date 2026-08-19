@@ -1,0 +1,112 @@
+{
+  "id": "19801130",
+  "date": "1980-11-30",
+  "venue": "Fox Theatre",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19801130.svg",
+  "songCount": 24,
+  "durationSeconds": 11274,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 179
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 355
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 704
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 650
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 953
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 685
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 263
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 409
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 241
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 466
+    }
+  ]
+}

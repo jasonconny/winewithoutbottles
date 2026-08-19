@@ -2865,6 +2865,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8762
   },
   {
+    "id": "19791203",
+    "date": "1979-12-03",
+    "venue": "Uptown Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19791203.svg",
+    "songCount": 23,
+    "durationSeconds": 11065
+  },
+  {
+    "id": "19791209",
+    "date": "1979-12-09",
+    "venue": "Kiel Auditorium",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19791209.svg",
+    "songCount": 25,
+    "durationSeconds": 10973
+  },
+  {
     "id": "19791226",
     "date": "1979-12-26",
     "venue": "Oakland Auditorium Arena",
@@ -2977,6 +3005,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8600
   },
   {
+    "id": "19801130",
+    "date": "1980-11-30",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19801130.svg",
+    "songCount": 24,
+    "durationSeconds": 11274
+  },
+  {
     "id": "19810309",
     "date": "1981-03-09",
     "venue": "Madison Square Garden",
@@ -3019,6 +3061,32 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9656
   },
   {
+    "id": "19810320",
+    "date": "1981-03-20",
+    "venue": "Rainbow Theatre",
+    "city": "London",
+    "country": "ENG",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19810320.svg",
+    "songCount": 22,
+    "durationSeconds": 9473
+  },
+  {
+    "id": "19810321",
+    "date": "1981-03-21",
+    "venue": "Rainbow Theatre",
+    "city": "London",
+    "country": "ENG",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19810321.svg",
+    "songCount": 21,
+    "durationSeconds": 9531
+  },
+  {
     "id": "19810501",
     "date": "1981-05-01",
     "venue": "Hampton Coliseum",
@@ -3059,6 +3127,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19810516.svg",
     "songCount": 24,
     "durationSeconds": 10518
+  },
+  {
+    "id": "19811209",
+    "date": "1981-12-09",
+    "venue": "CU Events Center",
+    "city": "Boulder",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19811209.svg",
+    "songCount": 24,
+    "durationSeconds": 10970
   },
   {
     "id": "19820406",
@@ -3131,6 +3213,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10278
   },
   {
+    "id": "19830426",
+    "date": "1983-04-26",
+    "venue": "The Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19830426.svg",
+    "songCount": 21,
+    "durationSeconds": 10080
+  },
+  {
     "id": "19830820",
     "date": "1983-08-20",
     "venue": "Frost Amphitheater",
@@ -3143,6 +3239,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19830820.svg",
     "songCount": 20,
     "durationSeconds": 10405
+  },
+  {
+    "id": "19830902",
+    "date": "1983-09-02",
+    "venue": "Boise State University Pavilion",
+    "city": "Boise",
+    "state": "ID",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19830902.svg",
+    "songCount": 23,
+    "durationSeconds": 10926
+  },
+  {
+    "id": "19830911",
+    "date": "1983-09-11",
+    "venue": "The Downs at Santa Fe",
+    "city": "Santa Fe",
+    "state": "NM",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19830911.svg",
+    "songCount": 23,
+    "durationSeconds": 10308
   },
   {
     "id": "19831011",
@@ -3201,6 +3325,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10453
   },
   {
+    "id": "19840420",
+    "date": "1984-04-20",
+    "venue": "Philadelphia Civic Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19840420.svg",
+    "songCount": 19,
+    "durationSeconds": 9660
+  },
+  {
     "id": "19840713",
     "date": "1984-07-13",
     "venue": "Greek Theatre",
@@ -3228,6 +3366,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19841012.svg",
     "songCount": 18,
     "durationSeconds": 8522
+  },
+  {
+    "id": "19850427",
+    "date": "1985-04-27",
+    "venue": "Frost Amphitheater",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19850427.svg",
+    "songCount": 22,
+    "durationSeconds": 8792
+  },
+  {
+    "id": "19850428",
+    "date": "1985-04-28",
+    "venue": "Frost Amphitheater",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19850428.svg",
+    "songCount": 19,
+    "durationSeconds": 8356
   },
   {
     "id": "19850624",

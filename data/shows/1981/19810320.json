@@ -1,0 +1,99 @@
+{
+  "id": "19810320",
+  "date": "1981-03-20",
+  "venue": "Rainbow Theatre",
+  "city": "London",
+  "country": "ENG",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 56",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "7:31"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:27"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "7:36"
+    },
+    {
+      "title": "Althea",
+      "duration": "8:47"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:30"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "4:54"
+    },
+    {
+      "title": "Loser",
+      "duration": "8:15"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "7:14"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:18"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:59"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:23"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "10:37"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:37"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:05"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:48"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "12:27"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:31"
+    },
+    {
+      "title": "Space",
+      "duration": "2:25"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:33"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:23"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "4:26"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:07"
+    }
+  ]
+}

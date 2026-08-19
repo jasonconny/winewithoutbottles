@@ -1,0 +1,108 @@
+{
+  "id": "19801130",
+  "date": "1980-11-30",
+  "venue": "Fox Theatre",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 8",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "9:19"
+    },
+    {
+      "title": "Loser",
+      "duration": "8:17"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:14"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:55"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "9:33"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "9:22"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "2:59"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:55"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "7:13"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:34"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:31"
+    },
+    {
+      "title": "Deal",
+      "duration": "8:03"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:44"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:50"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:40"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "8:49"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "15:53"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:25"
+    },
+    {
+      "title": "Space",
+      "duration": "4:23"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "6:49"
+    },
+    {
+      "title": "China Doll",
+      "duration": "6:50"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "4:01"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:49"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "7:46"
+    }
+  ]
+}

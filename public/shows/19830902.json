@@ -1,0 +1,108 @@
+{
+  "id": "19830902",
+  "date": "1983-09-02",
+  "venue": "Boise State University Pavilion",
+  "city": "Boise",
+  "state": "ID",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19830902.svg",
+  "songCount": 23,
+  "durationSeconds": 10926,
+  "songs": [
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 347
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 163
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 350
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 651
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 593
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 852
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 773
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 730
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 202
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 606
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 469
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 557
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 445
+    }
+  ]
+}

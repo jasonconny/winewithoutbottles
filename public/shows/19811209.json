@@ -1,0 +1,112 @@
+{
+  "id": "19811209",
+  "date": "1981-12-09",
+  "venue": "CU Events Center",
+  "city": "Boulder",
+  "state": "CO",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19811209.svg",
+  "songCount": 24,
+  "durationSeconds": 10970,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 528
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 541
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 190
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 491
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 361
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 627
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 631
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 893
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 577
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 571
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 220
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 563
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 299
+    },
+    {
+      "title": "(I Can't Get No) Satisfaction",
+      "durationSeconds": 391
+    }
+  ]
+}
