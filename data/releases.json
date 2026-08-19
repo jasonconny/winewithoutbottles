@@ -64,10 +64,10 @@
       "series": null,
       "eligible": true,
       "tag": null,
-      "dates": ["1966-07-29"],
       "bonusDates": ["1966-07-30"],
       "completeness": "complete",
-      "note": "principal date from the discography; article says \"complete concert\"",
+      "dates": ["1966-07-29"],
+      "note": "article: \"the complete concert recorded at the PNE Garden Auditorium ... on July 29, 1966. It also includes four songs recorded at the same venue on the following day\" — Sides A-C are the show, Side D the 1966-07-30 bonus. A vinyl-only release: the track listing carries no durations at all, so 19660729 takes the article's setlist and MusicBrainz's timings (release f1ea8bd0-b5a0-4a2c-a32b-49147a0e9e45), whose first 13 tracks are Sides A-C in order; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
@@ -2133,7 +2133,7 @@
       ],
       "bonusDates": [],
       "completeness": "complete",
-      "note": "dates from bullet; article says \"complete concerts\"",
+      "note": "article: an upcoming box set, scheduled for release on September 18, 2026 — dates and completeness are right, but the track listing carries no timings at all, so no show here can be sourced until the release is out; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {

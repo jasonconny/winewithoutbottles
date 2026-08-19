@@ -1,0 +1,88 @@
+{
+  "id": "19890713",
+  "date": "1989-07-13",
+  "venue": "Robert F. Kennedy Stadium",
+  "city": "Washington",
+  "state": "DC",
+  "country": "USA",
+  "tags": [
+    "RFK 1989"
+  ],
+  "svg": "/shows/19890713.svg",
+  "songCount": 18,
+  "durationSeconds": 9997,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 511
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 596
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 567
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 755
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 642
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 787
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 524
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 317
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 663
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 504
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 368
+    }
+  ]
+}

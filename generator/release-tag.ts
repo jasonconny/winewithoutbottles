@@ -14,6 +14,14 @@ export type Completeness = 'complete' | 'partial' | 'unknown';
  */
 const HAND_SHORTENED: Record<string, string> = {
   'Robert F. Kennedy Stadium, Washington, D.C., July 12 & 13, 1989': 'RFK 1989',
+  // NO entry for 'Giants Stadium 1987, 1989, 1991', deliberately. Shortening it
+  // to the bare venue was tried and reverted: the corpus holds six Giants
+  // Stadium shows and the box carries five, so a tag spelled exactly like the
+  // venue claims to be the venue index and silently omits 19930606.
+  // `tests/data-validity.test.ts` rejects a tag its show's venue contains,
+  // which is what caught it. The years are the whole point of the name here —
+  // three separate stands across five years, which no run or venue gallery
+  // groups — so the release name stands unshortened.
 };
 
 /**

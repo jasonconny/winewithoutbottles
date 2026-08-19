@@ -1,0 +1,89 @@
+{
+  "id": "19890707",
+  "date": "1989-07-07",
+  "venue": "John F. Kennedy Stadium",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "svg": "/shows/19890707.svg",
+  "songCount": 19,
+  "durationSeconds": 10498,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 557
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 762
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 748
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 598
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 822
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 609
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 521
+    }
+  ]
+}

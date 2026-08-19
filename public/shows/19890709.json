@@ -1,0 +1,92 @@
+{
+  "id": "19890709",
+  "date": "1989-07-09",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Giants Stadium 1987, 1989, 1991"
+  ],
+  "svg": "/shows/19890709.svg",
+  "songCount": 19,
+  "durationSeconds": 9522,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 811
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 349
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 702
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 418
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Built to Last",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 655
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 606
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 818
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 353
+    }
+  ]
+}

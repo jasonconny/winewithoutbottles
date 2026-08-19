@@ -113,6 +113,22 @@ export const HAND_RESOLVED: Record<
     note: string;
   }
 > = {
+  // Not yet released. The article is a pre-release announcement: it lists all
+  // 145 tracks across the seven shows, and not one duration — Rhino issues
+  // those with the record on 2026-09-18. Nothing here is wrong, so the entry
+  // pins no field; it exists so the next pass knows the importer's refusal is
+  // the untimed-track guard working, not a parser bug. Import after release.
+  // The article has the date split but no timings; MusicBrainz has the timings
+  // but no date split. Neither alone can build the show — see data/CORRECTIONS.md.
+  'July 29 1966, P.N.E. Garden Aud., Vancouver Canada': {
+    dates: ['1966-07-29'],
+    bonusDates: ['1966-07-30'],
+    completeness: 'complete',
+    note: 'article: "the complete concert recorded at the PNE Garden Auditorium ... on July 29, 1966. It also includes four songs recorded at the same venue on the following day" — Sides A-C are the show, Side D the 1966-07-30 bonus. A vinyl-only release: the track listing carries no durations at all, so 19660729 takes the article\'s setlist and MusicBrainz\'s timings (release f1ea8bd0-b5a0-4a2c-a32b-49147a0e9e45), whose first 13 tracks are Sides A-C in order',
+  },
+  'Summer Magic 1985': {
+    note: 'article: an upcoming box set, scheduled for release on September 18, 2026 — dates and completeness are right, but the track listing carries no timings at all, so no show here can be sourced until the release is out',
+  },
   'The Closing of Winterland': {
     dates: ['1978-12-31'],
     bonusDates: ['1970-12-31', '1971-12-31', '1972-12-31', '1977-12-31'],

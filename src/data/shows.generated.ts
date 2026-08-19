@@ -17,6 +17,16 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 5495
   },
   {
+    "id": "19660729",
+    "date": "1966-07-29",
+    "venue": "P.N.E. Garden Auditorium",
+    "city": "Vancouver",
+    "country": "CAN",
+    "svg": "/shows/19660729.svg",
+    "songCount": 13,
+    "durationSeconds": 3716
+  },
+  {
     "id": "19671110",
     "date": "1967-11-10",
     "venue": "Shrine Exposition Hall",
@@ -4052,6 +4062,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7858
   },
   {
+    "id": "19870712",
+    "date": "1987-07-12",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19870712.svg",
+    "songCount": 18,
+    "durationSeconds": 7339
+  },
+  {
     "id": "19870915",
     "date": "1987-09-15",
     "venue": "Madison Square Garden",
@@ -4294,6 +4318,73 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19890403.svg",
     "songCount": 21,
     "durationSeconds": 8684
+  },
+  {
+    "id": "19890707",
+    "date": "1989-07-07",
+    "venue": "John F. Kennedy Stadium",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19890707.svg",
+    "songCount": 19,
+    "durationSeconds": 10498
+  },
+  {
+    "id": "19890709",
+    "date": "1989-07-09",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19890709.svg",
+    "songCount": 19,
+    "durationSeconds": 9522
+  },
+  {
+    "id": "19890710",
+    "date": "1989-07-10",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19890710.svg",
+    "songCount": 19,
+    "durationSeconds": 9851
+  },
+  {
+    "id": "19890712",
+    "date": "1989-07-12",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "RFK 1989"
+    ],
+    "svg": "/shows/19890712.svg",
+    "songCount": 20,
+    "durationSeconds": 9476
+  },
+  {
+    "id": "19890713",
+    "date": "1989-07-13",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "RFK 1989"
+    ],
+    "svg": "/shows/19890713.svg",
+    "songCount": 18,
+    "durationSeconds": 9997
   },
   {
     "id": "19890715",
@@ -5021,6 +5112,35 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910512.svg",
     "songCount": 19,
     "durationSeconds": 9981
+  },
+  {
+    "id": "19910616",
+    "date": "1991-06-16",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19910616.svg",
+    "songCount": 18,
+    "durationSeconds": 9582
+  },
+  {
+    "id": "19910617",
+    "date": "1991-06-17",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991",
+      "Dark Star"
+    ],
+    "svg": "/shows/19910617.svg",
+    "songCount": 22,
+    "durationSeconds": 9812
   },
   {
     "id": "19910620",

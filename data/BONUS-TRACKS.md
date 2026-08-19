@@ -49,6 +49,7 @@ this table can show.
 
 | Date       | Tracks | Source volume                                                           |
 | ---------- | -----: | ----------------------------------------------------------------------- |
+| 1966-07-30 |      4 | July 29 1966, P.N.E. Garden Aud., Vancouver Canada                      |
 | 1969-12-11 |      6 | Dave's Picks Volume 10                                                  |
 | 1969-12-21 |     11 | Dave's Picks Volume 6                                                   |
 | 1970-01-03 |     15 | Dave's Picks Volume 30                                                  |

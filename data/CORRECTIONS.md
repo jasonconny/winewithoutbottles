@@ -1173,6 +1173,58 @@ split, which is the form the corpus keeps. So the rule is: **drop an untimed
 sub-item, keep a timed one**. `--audit` is byte-identical across the change apart
 from 2/14/68 becoming sourceable.
 
+### A night the release deliberately halves — 1987-07-12
+
+_Giants Stadium 1987, 1989, 1991_ holds the Dead's two sets from 7/12/87 and
+states in the article's own words that Bob Dylan's third set, played with the
+Dead backing him, "is not included". That is thirteen songs, and because the
+encore came after Dylan's set it takes `Touch of Grey` and
+`Knockin' on Heaven's Door` with it — so the authored show ends on
+`Not Fade Away` and runs 122:19 against ~160 for every other show in its batch.
+
+The show is authored as the Dead's own sets, with a `note` recording the
+absence. It is **not** marked partial: the release is complete for what it set
+out to document, and no published source times the third set at all.
+
+Five more nights on that tour have the same shape, two of them already in the
+release index — see `data/DYLAN-AND-THE-DEAD.md`, which also records what
+including the Dylan sets would take.
+
+### A show the article can't time and MusicBrainz can — 1966-07-29
+
+_July 29 1966, P.N.E. Garden Aud., Vancouver Canada_ is a vinyl-only Record Store
+Day release, and its Wikipedia track listing gives titles, sides and composers
+but **not one duration**. The importer therefore refuses it outright, which is
+the untimed-track guard doing its job — stripe widths _are_ durations, so there
+is nothing to guess with.
+
+MusicBrainz has the release in full
+(`f1ea8bd0-b5a0-4a2c-a32b-49147a0e9e45`), with every timing. The importer's
+MusicBrainz fallback still cannot use it, and the reason is worth recording
+because it looks like a bug and is not: that path attributes tracks by **medium
+title**, and these two media are titled `12" Vinyl 1` and `12" Vinyl 2`. They
+name a disc, not a night — and this release needs a night named, because the
+article says it holds "the complete concert recorded ... on July 29, 1966. It
+also includes four songs recorded at the same venue on the following day."
+Taking the media whole would file four 7/30/66 songs inside the 7/29 show.
+
+So the two sources were combined by hand, each supplying what only it has: the
+**article gives the date split** (Sides A–C are the show, Side D the bonus), and
+**MusicBrainz gives the timings**. They agree track-for-track in order — Vinyl 1
+is Sides A and B, Vinyl 2's first three tracks are Side C — so the show is the
+first 13 MusicBrainz tracks, totalling 61:56.
+
+**`--audit` reports 19660729 as untimed against its release and always will**,
+like the two Spectrum shows below. Side D's four songs are recorded in
+`data/BONUS-TRACKS.md` as 1966-07-30; they had never been indexed, because the
+release's own bonus heading names no date the parser could bucket to.
+
+Two titles entered `data/songs.json` for this show: `Standing on the Corner`, a
+1966 original the band stopped playing (the Rolling Stone piece on this release
+calls it their last live performance of it), and `Stealin'`, the Gus Cannon jug
+tune. Both are era-appropriate one-offs of exactly the kind the canon's long tail
+is for.
+
 ### Two shows no published source can time — 1979-11-05 and 1979-11-06
 
 Both _Road Trips Full Show_ releases were download-only. Their Wikipedia listings

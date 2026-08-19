@@ -1,0 +1,92 @@
+{
+  "id": "19890710",
+  "date": "1989-07-10",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Giants Stadium 1987, 1989, 1991"
+  ],
+  "svg": "/shows/19890710.svg",
+  "songCount": 19,
+  "durationSeconds": 9851,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 290
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 508
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 661
+    },
+    {
+      "title": "Just a Little Light",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 774
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1215
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 481
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 643
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 630
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 478
+    }
+  ]
+}

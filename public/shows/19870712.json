@@ -1,0 +1,88 @@
+{
+  "id": "19870712",
+  "date": "1987-07-12",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Giants Stadium 1987, 1989, 1991"
+  ],
+  "svg": "/shows/19870712.svg",
+  "songCount": 18,
+  "durationSeconds": 7339,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 385
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Tons of Steel",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 415
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 295
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 234
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 202
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 551
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 548
+    }
+  ]
+}
