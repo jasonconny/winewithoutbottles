@@ -1269,3 +1269,19 @@ Contrast _Dave's Picks Volume 57_, which is immune because it dates every block:
 its disc two is headed "February 1, 1978 - second set, continued" and its disc
 three "Bonus tracks – January 31, 1978". A release that keeps saying which night
 it is on cannot be misread. 4/15/78 is 17 songs.
+
+### Five songs the tape has and the show didn't — 1977-11-04
+
+`--gaps` reports 11/4/77 as 25 played against 20 released, which is the usual
+signature of a release trimming an encore. It isn't one. Per DeadBase and
+JerryBase, checked by Jason 2026-08-18, **none of the five was played that
+night**: `Sleigh Ride > Stay > Rip It Up`, `Blue Suede Shoes`, `Peggy-O`,
+`Cumberland Blues`, `Thirty Days`. _Dave's Picks Volume 12_ is right to call it
+the complete concert, and the corpus keeps its 20 songs.
+
+Worth having on record because the gap looks so much like a real one, and
+because three of those titles are not in the canon — restoring them would have
+minted new songs for a performance that never happened. archive.org is
+crowd-sourced and a tape can carry a soundcheck, another act's set, or simply
+somebody else's night under this date. **The gap report is a question, not a
+finding**; the setlist databases answer it.
