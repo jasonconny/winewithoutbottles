@@ -1,0 +1,88 @@
+{
+  "id": "19900719",
+  "date": "1990-07-19",
+  "venue": "Deer Creek Music Center",
+  "city": "Noblesville",
+  "state": "IN",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19900719.svg",
+  "songCount": 18,
+  "durationSeconds": 9650,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 402
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 654
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 582
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 764
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 773
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 335
+    }
+  ]
+}

@@ -3452,6 +3452,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7709
   },
   {
+    "id": "19870326",
+    "date": "1987-03-26",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19870326.svg",
+    "songCount": 20,
+    "durationSeconds": 8692
+  },
+  {
+    "id": "19870327",
+    "date": "1987-03-27",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19870327.svg",
+    "songCount": 18,
+    "durationSeconds": 7858
+  },
+  {
     "id": "19870915",
     "date": "1987-09-15",
     "venue": "Madison Square Garden",
@@ -4141,6 +4169,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9467
   },
   {
+    "id": "19900623",
+    "date": "1990-06-23",
+    "venue": "Autzen Stadium",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19900623.svg",
+    "songCount": 21,
+    "durationSeconds": 9822
+  },
+  {
     "id": "19900716",
     "date": "1990-07-16",
     "venue": "Rich Stadium",
@@ -4153,6 +4195,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19900716.svg",
     "songCount": 24,
     "durationSeconds": 10628
+  },
+  {
+    "id": "19900718",
+    "date": "1990-07-18",
+    "venue": "Deer Creek Music Center",
+    "city": "Noblesville",
+    "state": "IN",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19900718.svg",
+    "songCount": 20,
+    "durationSeconds": 9248
+  },
+  {
+    "id": "19900719",
+    "date": "1990-07-19",
+    "venue": "Deer Creek Music Center",
+    "city": "Noblesville",
+    "state": "IN",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19900719.svg",
+    "songCount": 18,
+    "durationSeconds": 9650
   },
   {
     "id": "19900914",
@@ -4510,6 +4580,21 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910925.svg",
     "songCount": 22,
     "durationSeconds": 9774
+  },
+  {
+    "id": "19910926",
+    "date": "1991-09-26",
+    "venue": "Boston Garden",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19910926.svg",
+    "songCount": 19,
+    "durationSeconds": 8824
   },
   {
     "id": "19920320",

@@ -1,0 +1,93 @@
+{
+  "id": "19910926",
+  "date": "1991-09-26",
+  "venue": "Boston Garden",
+  "city": "Boston",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19910926.svg",
+  "songCount": 19,
+  "durationSeconds": 8824,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 989
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 764
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 750
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 499
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 379
+    },
+    {
+      "title": "Attics of My Life",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 321
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 184
+    }
+  ]
+}

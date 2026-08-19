@@ -1,0 +1,96 @@
+{
+  "id": "19870326",
+  "date": "1987-03-26",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19870326.svg",
+  "songCount": 20,
+  "durationSeconds": 8692,
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 417
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 689
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 289
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 634
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 270
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 364
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 506
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 805
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 522
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 461
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 566
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 228
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Quinn the Eskimo (The Mighty Quinn)",
+      "durationSeconds": 268
+    }
+  ]
+}

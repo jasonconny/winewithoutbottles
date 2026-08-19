@@ -1,0 +1,100 @@
+{
+  "id": "19900623",
+  "date": "1990-06-23",
+  "venue": "Autzen Stadium",
+  "city": "Eugene",
+  "state": "OR",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19900623.svg",
+  "songCount": 21,
+  "durationSeconds": 9822,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 546
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 142
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 330
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 935
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 656
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 141
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 587
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 346
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 726
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 373
+    }
+  ]
+}
