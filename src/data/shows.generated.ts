@@ -640,6 +640,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9011
   },
   {
+    "id": "19711206",
+    "date": "1971-12-06",
+    "venue": "Felt Forum",
+    "city": "New York City",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711206.svg",
+    "songCount": 25,
+    "durationSeconds": 9240
+  },
+  {
     "id": "19711207",
     "date": "1971-12-07",
     "venue": "Felt Forum",
@@ -650,6 +664,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19711207.svg",
     "songCount": 26,
     "durationSeconds": 9223
+  },
+  {
+    "id": "19711214",
+    "date": "1971-12-14",
+    "venue": "Hill Auditorium",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19711214.svg",
+    "songCount": 27,
+    "durationSeconds": 9865
   },
   {
     "id": "19720326",

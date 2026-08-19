@@ -1,0 +1,116 @@
+{
+  "id": "19711206",
+  "date": "1971-12-06",
+  "venue": "Felt Forum",
+  "city": "New York City",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19711206.svg",
+  "songCount": 25,
+  "durationSeconds": 9240,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 597
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 314
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 296
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Run Rudolph Run",
+      "durationSeconds": 251
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 578
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 196
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 117
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 137
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 360
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 830
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 704
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 373
+    }
+  ]
+}

@@ -23,11 +23,16 @@ direction: those dates were invisible until the volumes carrying them were read.
 Dave's Picks alone accounts for 27 new dates and the bulk of the tracks, because
 nearly every volume carries a second night as filler.
 
-Two of the largest are not really "a handful of songs" at all. 1971-12-06 has 22
-tracks across Dave's Picks 22's third disc and its 2017 bonus disc, and
-1971-12-14 has 26 across two discs of Dave's Picks 26 — both closer to whole
-nights than to bonus material, and both worth checking against a tape before
-being written off as unsourceable.
+**Two of these turned out to be whole shows, and are now in the corpus.**
+1971-12-06 had 22 tracks across Dave's Picks 22's third disc and its 2017 bonus
+disc, and 1971-12-14 had 26 across two discs of Dave's Picks 26 — near enough
+complete that a soundboard finished them, three songs and one song respectively.
+Both are gone from this table.
+
+That is the warning worth carrying: a large count here is not a big pile of
+scraps, it is a night the release nearly carries. Check the biggest rows against
+a tape before treating them as gaps. The rows above run from 2 tracks to 15, and
+the ones at the top of that range are the candidates.
 
 | Date       | Tracks | Source volume                                                           |
 | ---------- | -----: | ----------------------------------------------------------------------- |
@@ -41,8 +46,6 @@ being written off as unsourceable.
 | 1971-08-04 |      3 | Road Trips Volume 1 Number 3                                            |
 | 1971-10-21 |     10 | Dave's Picks Volume 3                                                   |
 | 1971-11-14 |     10 | Road Trips Volume 3 Number 2                                            |
-| 1971-12-06 |     22 | Dave's Picks Volume 22                                                  |
-| 1971-12-14 |     26 | Dave's Picks Volume 26                                                  |
 | 1972-03-21 |      4 | Dave's Picks Volume 14                                                  |
 | 1972-03-25 |      8 | Dick's Picks Volume 30                                                  |
 | 1972-03-27 |      6 | Dick's Picks Volume 30 (1) + Dave's Picks Volume 14 (5)                 |

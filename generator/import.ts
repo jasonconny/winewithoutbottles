@@ -950,6 +950,14 @@ const SHOW_OVERRIDES: Record<
     note: string;
   }
 > = {
+  '1971-12-06': {
+    keepAuthored: true,
+    note: "Dave's Picks 22 is built around 12/7/71 and gives this night its third disc — the second set and encore — then a 2017 bonus disc of first-set selections, so the release lists the night second set first. The authored order is the performance order, from gd1971-12-06.sbd.miller.108425.flac16, which also supplies the three songs the release omits",
+  },
+  '1971-12-14': {
+    keepAuthored: true,
+    note: "Dave's Picks 26 is built around 11/17/71 and spreads this night across two discs of selections, so its listing order is not the performance order. The authored order follows gd1971-12-14.sbd.cantor-orf.133.shnf, which also supplies the one song the release lacks",
+  },
   '1978-04-15': {
     drop: [
       { position: 18, title: 'Sugaree' },
@@ -1306,7 +1314,12 @@ for (const source of sources) {
     console.error(`  could not fetch "${source.page}"`);
     process.exit(1);
   }
-  if (!venueHint && source.dates.length === 1)
+  // …and only when the date being imported *is* that single date. An infobox's
+  // first address belongs to the release's principal night, so importing a
+  // bonus date off the same release would take the wrong room: 12/14/71 came
+  // back as Albuquerque Civic Auditorium, which is where Dave's Picks 26's
+  // 11/17 show was played, not the Ann Arbor bonus.
+  if (!venueHint && source.dates.length === 1 && source.dates[0] === date)
     venueHint = venueFromInfobox(wikitext);
   // A partial target is deliberately *not* in the release's `dates` — that is
   // what records it as unsourceable — but the parser buckets on those dates, so
