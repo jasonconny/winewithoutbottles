@@ -4,8 +4,9 @@
  * Split out of `releases.ts` so `import.ts` (and tests) can use it: importing
  * `releases.ts` would run that file's top-level fetch as a side effect.
  */
+import { fetchRetry } from './http.ts';
+
 const API = 'https://en.wikipedia.org/w/api.php';
-const UA = 'wine-without-bottles/1.0 (https://winewithoutbottles.com)';
 
 export const MONTHS = [
   'January',
@@ -31,7 +32,9 @@ export async function api(params: Record<string, string>): Promise<unknown> {
   })) {
     url.searchParams.set(k, v);
   }
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  const res = await fetchRetry(url.toString(), {
+    label: `wikipedia ${url.pathname}`,
+  });
   if (!res.ok) throw new Error(`${url.pathname}: HTTP ${res.status}`);
   return res.json();
 }
