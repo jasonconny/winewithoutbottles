@@ -1,6 +1,6 @@
 ---
 name: import-show
-description: Add or retime a Wine Without Bottles show from an official release — the importer, the song-title canon, the release index, staged partials, and release tags. Use when adding or retiming shows, running `npm run releases`, staging a partial show, or editing data/songs.json, data/releases.json, or data/partial-shows/.
+description: Add or retime a Wine Without Bottles show from an official release — the importer, the song-title canon, the release index, staged partials, bonus tracks and release tags. Use when adding or retiming a show, indexing a newly announced release, running `npm run releases`, staging a partial show, deciding whether a date can be built at all, or editing data/songs.json, data/releases.json, data/partial-shows/, data/unknown-setlists/, data/BONUS-TRACKS.md or data/UNBUILT-DATES.md.
 ---
 
 Adding a show means sourcing its setlist and timings from the official release
@@ -65,6 +65,58 @@ After any change to the importer's parsing, re-run `--audit`: it sweeps every
 corpus show that resolves to a source, and an already-applied show must come
 back **+0:00 with no track-count change**. That sweep is what catches a parser
 change that quietly re-buckets somebody else's show.
+
+## When something looks wrong
+
+**Suspect the parser before the source.** Across four import batches in 2026,
+_every_ anomaly that looked like a defective release turned out to be a bug in
+`generator/import.ts` — `<li value="7">` with a quoted attribute, a set label
+before the title, an unquoted title, an unterminated quote, `{{ordered list}}`
+rows, `{{'"}}` punctuation templates, a disambiguator splitting a title in half,
+flush-left set headings, undated headings resurrecting a finished show. A
+"missing" song is far likelier to be one line the parser skipped than a box
+billed as complete concerts genuinely omitting it, and framing it as a source
+problem sends the investigation the wrong way. Fetch the raw wikitext for that
+show's section and read the track lines _before_ theorising.
+
+**A track-count match is not a correctness check.** 19750813 imported with the
+right number of tracks and the right total duration, and two stripes were the
+wrong colour — the combined-row rule had taken `"Eyes of the World" / "Drums"` as
+`Drums`. Only reading the titles against the article caught it. The `+0:00`
+invariant proves arithmetic, not identity.
+
+**But the sources are genuinely noisy too**, and the tell is that a source-side
+explanation survives a careful look at the raw input. Wikipedia is hand-entered
+per article, so conventions differ volume to volume and the prose can simply be
+wrong. archive.org is crowd-sourced, so every uploader brings their own naming —
+abbreviations, footnote markers, filename-style titles, duplicated derivatives,
+and sometimes **another artist's set on the same tape** (the NRPS set on
+19700502 inflated that show's "played" count by 13 songs, four of which are
+canonical Dead titles and so matched silently).
+
+**And a gap report is a question, not a finding.** 11/4/77's tape carries five
+songs DeadBase and JerryBase both say were never played; three aren't in the
+canon, so "restoring" them would have minted songs for a performance that never
+happened.
+
+## Where the tooling stops
+
+**Jason is the authority on the catalogue** — what a release contains, what
+counts as a song, how a medley splits, whether a guest set belongs to the show.
+Surface the evidence and ask; do not encode a guess and move on. He offers
+testable hypotheses and wants the real answer rather than agreement, so
+disagreeing with evidence is useful and quietly accommodating him is not.
+
+This is not deference for its own sake: several of these calls are unresolvable
+from the data alone. Two tapes can disagree about a setlist; a release can split
+a track where the music did not; a canon addition changes a stripe's colour
+permanently. **Batch cadence exists for this** — author the data, then pause for
+his spot-check _before_ `npm run generate`, and pause again for the commit. That
+pause has caught a real error in every batch it has been used on.
+
+Don't over-build against source noise either. The registry (`aliases`,
+`notASong`) absorbs naming variance cheaply; trying to auto-detect something like
+a support act's set is where the tooling should stop and his knowledge starts.
 
 ## Song-title canon (`data/songs.json`)
 
