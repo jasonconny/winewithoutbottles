@@ -177,6 +177,19 @@ unsourceable show (below), and `--release "<name>"` overrides the choice and
 **is repeatable** for shows issued complete only across several releases. It
 never writes without `--write`.
 
+**All three fetch through `generator/http.ts`.** `fetchRetry` is the only place
+the generator touches the network, and it retries **two** failure modes, not one:
+a retryable status (429/5xx by default; MusicBrainz's 503 means "slow down") and
+a rejected `fetch`. The second is the one that matters — a dropped socket
+surfaces as `TypeError: fetch failed` wrapping `ECONNRESET` or
+`SocketError: other side closed`, never as a status code, so status-only handling
+misses it entirely. It cost a whole `--audit` run in August 2026: the sweep read
+all 319 shows, printed every row, then died summarising one MusicBrainz lookup
+while MusicBrainz answered curl fine either side of it. `--audit` now also
+isolates each show, so a lookup that still fails after its retries costs one row
+(reported as `!! lookup failed`, and the run exits non-zero) rather than the
+sweep. `tests/http.test.ts` fakes the network to pin all of this.
+
 **Three sources, each for what it alone can do.** _Wikipedia_ is preferred: its
 track listings carry `m:ss` durations (the exact form the corpus stores —
 MusicBrainz's millisecond precision would be discarded) plus the per-show

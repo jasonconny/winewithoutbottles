@@ -15,10 +15,10 @@
  * box set costs two requests, not two per show.
  */
 import { formatDuration } from '../src/wwob/index.ts';
+import { fetchRetry } from './http.ts';
 import { longDate, monthDayIn, slashDate } from './wiki.ts';
 
 const API = 'https://musicbrainz.org/ws/2';
-const UA = 'wine-without-bottles/1.0 (https://winewithoutbottles.com)';
 
 /** MusicBrainz asks for one request per second from unauthenticated clients. */
 const RATE_LIMIT_MS = 1100;
@@ -29,19 +29,22 @@ let lastCall = 0;
  *
  * MusicBrainz answers 503 when it decides you're going too fast — not an error
  * so much as "wait" — and 429 outright. Both are expected during a batch
- * import, so back off and retry rather than failing the run.
+ * import, so back off and retry rather than failing the run. `fetchRetry` also
+ * covers the case this function used to miss entirely: `fetch` rejecting on a
+ * dropped socket, which is not a status code and once killed a whole audit.
+ *
+ * The rate limiting stays here rather than in `fetchRetry` because it is
+ * MusicBrainz's rule, not a general one.
  */
-async function mb(path: string, attempt = 0): Promise<unknown> {
+async function mb(path: string): Promise<unknown> {
   const wait = RATE_LIMIT_MS - (Date.now() - lastCall);
   if (wait > 0) await new Promise((resolve) => setTimeout(resolve, wait));
   lastCall = Date.now();
-  const res = await fetch(`${API}/${path}`, { headers: { 'User-Agent': UA } });
-  if ((res.status === 503 || res.status === 429) && attempt < 4) {
-    const backoff = RATE_LIMIT_MS * 2 ** (attempt + 1);
-    console.log(`  musicbrainz ${res.status}; retrying in ${backoff}ms`);
-    await new Promise((resolve) => setTimeout(resolve, backoff));
-    return mb(path, attempt + 1);
-  }
+  const res = await fetchRetry(`${API}/${path}`, {
+    label: `musicbrainz ${path}`,
+    baseDelayMs: RATE_LIMIT_MS * 2,
+    retryStatus: (status) => status === 503 || status === 429,
+  });
   if (!res.ok) throw new Error(`musicbrainz ${path}: HTTP ${res.status}`);
   return res.json();
 }

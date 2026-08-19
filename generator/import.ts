@@ -1195,77 +1195,97 @@ async function audit() {
   let failed = 0;
   let untimedShows = 0;
   let recovered = 0;
+  // A show whose lookup threw rather than resolving. Counted apart from
+  // `failed` because the two mean opposite things: `failed` is a release that
+  // genuinely yields no tracks for the date, which is a fact about the data,
+  // while this is the network having a bad second, which is a fact about today.
+  let errored = 0;
   console.log('show       tracks      total   source');
   for (const { show, source } of jobs) {
-    const wikitext = text.get(source.page!);
-    if (!wikitext) {
-      console.log(`${show.id}   — could not fetch ${source.page}`);
-      failed++;
-      continue;
-    }
-    const { byDate } = tracksByDate(wikitext, source);
-    const filled = await fillUntimed(
-      byDate.get(show.date) ?? [],
-      source,
-      show.date,
-    );
-    if (!filled.tracks.length) {
-      console.log(`${show.id}   !! no tracks matched — ${source.name}`);
-      failed++;
-      continue;
-    }
-    const { mapped, unknown } = canonicalise(filled.tracks);
-    for (const title of unknown) unknownTitles.add(title);
-    if (filled.source === 'musicbrainz') recovered++;
-    const untimed = mapped.filter((track) => !track.duration).length;
-    if (untimed) {
-      console.log(
-        `${show.id}   ${String(mapped.length).padStart(2)}      untimed   ${source.name.slice(0, 40)} (${untimed}/${mapped.length} without a time)`,
+    try {
+      const wikitext = text.get(source.page!);
+      if (!wikitext) {
+        console.log(`${show.id}   — could not fetch ${source.page}`);
+        failed++;
+        continue;
+      }
+      const { byDate } = tracksByDate(wikitext, source);
+      const filled = await fillUntimed(
+        byDate.get(show.date) ?? [],
+        source,
+        show.date,
       );
-      untimedShows++;
-      continue;
-    }
-    const before = show.songs.reduce(
-      (a, s) => a + parseDuration(s.duration),
-      0,
-    );
-    // A partial source — or a show whose override keeps authored tracks —
-    // merges into the setlist rather than replacing it, so report what the
-    // merge would actually do. Counting a release's 8 excerpted tracks against
-    // an 18-song night reads as a catastrophic loss that never happens.
-    if (
-      source.completeness === 'partial' ||
-      SHOW_OVERRIDES[show.date]?.keepAuthored
-    ) {
-      const merged = mergePartial(show.songs, mapped);
-      const after = merged.songs.reduce(
+      if (!filled.tracks.length) {
+        console.log(`${show.id}   !! no tracks matched — ${source.name}`);
+        failed++;
+        continue;
+      }
+      const { mapped, unknown } = canonicalise(filled.tracks);
+      for (const title of unknown) unknownTitles.add(title);
+      if (filled.source === 'musicbrainz') recovered++;
+      const untimed = mapped.filter((track) => !track.duration).length;
+      if (untimed) {
+        console.log(
+          `${show.id}   ${String(mapped.length).padStart(2)}      untimed   ${source.name.slice(0, 40)} (${untimed}/${mapped.length} without a time)`,
+        );
+        untimedShows++;
+        continue;
+      }
+      const before = show.songs.reduce(
         (a, s) => a + parseDuration(s.duration),
         0,
       );
+      // A partial source — or a show whose override keeps authored tracks —
+      // merges into the setlist rather than replacing it, so report what the
+      // merge would actually do. Counting a release's 8 excerpted tracks against
+      // an 18-song night reads as a catastrophic loss that never happens.
+      if (
+        source.completeness === 'partial' ||
+        SHOW_OVERRIDES[show.date]?.keepAuthored
+      ) {
+        const merged = mergePartial(show.songs, mapped);
+        const after = merged.songs.reduce(
+          (a, s) => a + parseDuration(s.duration),
+          0,
+        );
+        console.log(
+          `${show.id}   ${String(show.songs.length).padStart(2)} merge ${fmt(after - before).padStart(8)}   ` +
+            `${source.name.slice(0, 30)} (${merged.updated} updated` +
+            `${merged.unmatched.length ? `, ${merged.unmatched.length} unmatched` : ''})`,
+        );
+        continue;
+      }
+      const after = mapped.reduce((a, s) => a + parseDuration(s.duration!), 0);
+      const counts =
+        show.songs.length === mapped.length
+          ? `${String(mapped.length).padStart(2)}     `
+          : `${String(show.songs.length).padStart(2)}→${String(mapped.length).padEnd(3)} !`;
       console.log(
-        `${show.id}   ${String(show.songs.length).padStart(2)} merge ${fmt(after - before).padStart(8)}   ` +
-          `${source.name.slice(0, 30)} (${merged.updated} updated` +
-          `${merged.unmatched.length ? `, ${merged.unmatched.length} unmatched` : ''})`,
+        `${show.id}   ${counts}  ${fmt(after - before).padStart(7)}   ${source.name.slice(0, 40)}`,
       );
-      continue;
+    } catch (error) {
+      // The sweep's whole value is that it covers every show, so one bad
+      // lookup must cost one row rather than the run. Before this, a single
+      // dropped MusicBrainz socket discarded all 319 rows after printing them.
+      console.log(
+        `${show.id}   !! lookup failed — ${source.name.slice(0, 30)}: ` +
+          `${error instanceof Error ? error.message : String(error)}`,
+      );
+      errored++;
     }
-    const after = mapped.reduce((a, s) => a + parseDuration(s.duration!), 0);
-    const counts =
-      show.songs.length === mapped.length
-        ? `${String(mapped.length).padStart(2)}     `
-        : `${String(show.songs.length).padStart(2)}→${String(mapped.length).padEnd(3)} !`;
-    console.log(
-      `${show.id}   ${counts}  ${fmt(after - before).padStart(7)}   ${source.name.slice(0, 40)}`,
-    );
   }
   if (unknownTitles.size) {
     console.log(`\n${unknownTitles.size} title(s) not in data/songs.json:`);
     for (const title of [...unknownTitles].sort()) console.log(`   ${title}`);
   }
   console.log(
-    `\n${jobs.length - failed - untimedShows} timed (${recovered} via MusicBrainz), ` +
-      `${untimedShows} untimed, ${failed} unparsed`,
+    `\n${jobs.length - failed - untimedShows - errored} timed (${recovered} via MusicBrainz), ` +
+      `${untimedShows} untimed, ${failed} unparsed` +
+      (errored ? `, ${errored} not checked (lookup failed)` : ''),
   );
+  // A run that could not check every show is not a clean run, and CI should not
+  // read one as a pass.
+  if (errored) process.exitCode = 1;
 }
 
 const args = process.argv.slice(2);

@@ -16,8 +16,7 @@
  * that's a real filter rather than a guess at the filename.
  */
 import { formatDuration } from '../src/wwob/index.ts';
-
-const UA = 'wine-without-bottles/1.0 (https://winewithoutbottles.com)';
+import { fetchRetry } from './http.ts';
 
 export interface Recording {
   identifier: string;
@@ -88,7 +87,7 @@ export async function findRecordings(date: string): Promise<Recording[]> {
   }
   url.searchParams.set('rows', '50');
   url.searchParams.set('output', 'json');
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  const res = await fetchRetry(url.toString(), { label: 'archive.org search' });
   if (!res.ok) throw new Error(`archive.org search: HTTP ${res.status}`);
   const body = (await res.json()) as { response?: { docs?: SearchDoc[] } };
   return rank(
@@ -149,8 +148,8 @@ function parseLength(value: string): number | null {
 export async function recordingTracks(
   identifier: string,
 ): Promise<{ title: string; duration: string }[]> {
-  const res = await fetch(`https://archive.org/metadata/${identifier}`, {
-    headers: { 'User-Agent': UA },
+  const res = await fetchRetry(`https://archive.org/metadata/${identifier}`, {
+    label: `archive.org metadata ${identifier}`,
   });
   if (!res.ok) throw new Error(`archive.org metadata: HTTP ${res.status}`);
   const body = (await res.json()) as {
