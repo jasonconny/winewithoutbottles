@@ -1,9 +1,13 @@
 {
   "id": "19710425",
   "date": "1971-04-25",
-  "venue": "",
-  "city": "",
-  "source": "Enjoying the Ride | archive.org:gd1971-04-25.sbd.miller.95625.sbeok.flac16",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Enjoying the Ride"],
+  "note": "Every timing is official, from two releases. Enjoying the Ride supplies 15 and Ladies and Gentlemen the other 10, including the seven this show had been waiting on as a staged partial since April. The order is the soundboard's. Ladies and Gentlemen also splits the second-set Good Lovin' into Good Lovin' > Drums > Good Lovin' (2:28 / 5:40 / 15:00) where Enjoying the Ride and the tape carry one 24:23 track; the release's own segmentation is followed, so the Drums gets a stripe.",
+  "source": "Enjoying the Ride | Ladies and Gentlemen... the Grateful Dead",
   "songs": [
     {
       "title": "Truckin'",
@@ -39,11 +43,11 @@
     },
     {
       "title": "China Cat Sunflower",
-      "duration": ""
+      "duration": "4:52"
     },
     {
       "title": "I Know You Rider",
-      "duration": ""
+      "duration": "6:07"
     },
     {
       "title": "Casey Jones",
@@ -55,11 +59,11 @@
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": ""
+      "duration": "3:35"
     },
     {
       "title": "Next Time You See Me",
-      "duration": ""
+      "duration": "4:23"
     },
     {
       "title": "Bertha",
@@ -67,19 +71,27 @@
     },
     {
       "title": "Sugar Magnolia",
-      "duration": ""
+      "duration": "5:48"
     },
     {
       "title": "I Second That Emotion",
-      "duration": ""
+      "duration": "5:22"
     },
     {
       "title": "Good Lovin'",
-      "duration": "24:23"
+      "duration": "2:28"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:40"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "15:00"
     },
     {
       "title": "Sing Me Back Home",
-      "duration": ""
+      "duration": "10:03"
     },
     {
       "title": "Not Fade Away",

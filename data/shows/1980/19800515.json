@@ -1,0 +1,100 @@
+{
+  "id": "19800515",
+  "date": "1980-05-15",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "note": "Go to Nassau holds \"half of the songs played on the final two nights\" and resequences them as one concert, so its listing order is not performance order and its listing alone cannot say which night a track came from — a separate \"Recording dates\" section does, in a shape the importer cannot bucket, so this show is authored by hand. The 14 timings the release attributes to this date are its own. The order and the remaining 8 timings are from gd1980-05-15.sbd.cantor.miller.93426.sbeok.flac16.",
+  "source": "Go to Nassau | archive.org:gd1980-05-15.sbd.cantor.miller.93426.sbeok.flac16",
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "6:34"
+    },
+    {
+      "title": "Franklin's Tower",
+      "duration": "11:58"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "4:51"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:34"
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "duration": "3:44"
+    },
+    {
+      "title": "Supplication",
+      "duration": "6:41"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "7:32"
+    },
+    {
+      "title": "Far From Me",
+      "duration": "4:02"
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "8:51"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:14"
+    },
+    {
+      "title": "Althea",
+      "duration": "8:28"
+    },
+    {
+      "title": "Lost Sailor",
+      "duration": "6:11"
+    },
+    {
+      "title": "Saint of Circumstance",
+      "duration": "6:06"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:27"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:03"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "8:25"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:26"
+    },
+    {
+      "title": "Space",
+      "duration": "2:46"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "4:52"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:49"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:23"
+    },
+    {
+      "title": "Alabama Getaway",
+      "duration": "4:50"
+    }
+  ]
+}

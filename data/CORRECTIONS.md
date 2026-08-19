@@ -1173,6 +1173,48 @@ split, which is the form the corpus keeps. So the rule is: **drop an untimed
 sub-item, keep a timed one**. `--audit` is byte-identical across the change apart
 from 2/14/68 becoming sourceable.
 
+### Two shows the importer cannot re-derive — 1978-09-15 and 1978-09-16
+
+`--audit` reports **2 unparsed** for these, where the corpus has always run at
+zero. That is expected and permanent, not a regression, and the reason is worth
+recording because the same shape appears on more than one release.
+
+_Rocking the Cradle: Egypt 1978_ lists its tracks **by disc**, and states which
+night each came from in a separate `==Recording dates==` section:
+
+```
+*Disc 1 tracks 1 & 6; Bonus disc tracks 5–8: September 15, 1978
+*Disc 1 tracks 2–5, 7–9; Disc 2: tracks 1–9; Bonus disc tracks 1–4: September 16, 1978
+```
+
+Nothing in the track listing itself names a date, so the importer buckets no
+track to either night and both shows are authored by hand. _Go to Nassau_ uses
+the same section with the date written first
+(`*May 15, 1980: Disc 1 tracks 1–2 & 5–8, …`), so a parser for this would have to
+read both orders. Teaching it that shape would retire the two unparsed rows;
+until then, the rows are the record that these two files are hand-built.
+
+**Both nights also take timings the release cannot give.** On 9/16 the release
+marks `Ollin Arageed`, `Drums` and `Space` as _edited versions_ and `Bertha` as an
+_excerpt_, so their printed durations are not what was played, and `Sunrise` and
+`One More Saturday Night` are on no official release at all. Bertha and One More
+Saturday Night come from the ORF soundboard; Ollin Arageed, Sunrise, Drums and
+Space from `gd1978-09-16.aud.tobin.patched.95292.flac16`, the only source that
+carries Sunrise and the only one that splits Drums from Space. **That split is
+corroborated exactly** — its 7:23 + 9:52 matches the ORF soundboard's combined
+`Drums>` of 17:15 — but the same audience tape runs long at the edges elsewhere
+(Row Jimmy 13:20 against the release's 11:46), so those four widths are the least
+certain on the show.
+
+### A date range is not a show list, again — 1971-04-26
+
+_Ladies and Gentlemen... the Grateful Dead_ carried five dates in
+`data/releases.json` for months. Its infobox reads
+`recorded = April 25, 1971 – April 29, 1971`, and the 26th was inferred from that
+range. The listing itself has a per-track **Recording date** column, and across
+all 42 tracks it names only April 25 (10), 27 (3), 28 (14) and 29 (15) —
+**the 26th appears nowhere on the release**. Dropped from `dates`.
+
 ### When the last title is the wrong one — 1975-08-13
 
 A track carrying two titles and one duration takes the **last** of them: _Dick's

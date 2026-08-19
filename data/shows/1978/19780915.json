@@ -1,0 +1,75 @@
+{
+  "id": "19780915",
+  "date": "1978-09-15",
+  "venue": "Gizah Sound and Light Theater",
+  "city": "Giza",
+  "country": "EGY",
+  "note": "The release is excerpts, and its listing is organised by disc rather than by night — a separate \"Recording dates\" section attributes tracks to 9/15 or 9/16, a shape the importer cannot bucket, so this show is authored by hand. Setlist and order are the article's own complete set list for the date. Six timings are the release's (Stagger Lee, Jack Straw, Estimated Prophet, Eyes Of The World, Terrapin Station, Sugar Magnolia); the other ten come from gd1978-09-15.sbd.miller.87782.flac16, which carries the whole night. The tape's Introduction and Hamza El Din's own solo set are excluded — the latter is a guest's performance, not the Dead's.",
+  "source": "Rocking the Cradle: Egypt 1978 | archive.org:gd1978-09-15.sbd.miller.87782.flac16",
+  "songs": [
+    {
+      "title": "Ollin Arageed",
+      "duration": "18:00"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:22"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:36"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "2:42"
+    },
+    {
+      "title": "Big River",
+      "duration": "7:12"
+    },
+    {
+      "title": "Loser",
+      "duration": "8:24"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "6:35"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "7:30"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "6:44"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "9:19"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "12:00"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "13:26"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:00"
+    },
+    {
+      "title": "Space",
+      "duration": "4:43"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:35"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:42"
+    }
+  ]
+}

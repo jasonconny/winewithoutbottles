@@ -1,0 +1,105 @@
+{
+  "id": "19800516",
+  "date": "1980-05-16",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "svg": "/shows/19800516.svg",
+  "songCount": 23,
+  "durationSeconds": 9596,
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 257
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 187
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 702
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 469
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 492
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 316
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 241
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 369
+    }
+  ]
+}

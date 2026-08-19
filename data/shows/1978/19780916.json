@@ -1,0 +1,99 @@
+{
+  "id": "19780916",
+  "date": "1978-09-16",
+  "venue": "Gizah Sound and Light Theater",
+  "city": "Giza",
+  "country": "EGY",
+  "note": "The release is excerpts and lists tracks by disc, attributing them in a separate \"Recording dates\" section the importer cannot bucket, so this show is authored by hand from the article's own complete set list. Sixteen timings are the release's. Six are not, and each for a stated reason: the release marks Ollin Arageed, Drums and Space as edited versions and Bertha as an excerpt, so their printed durations are not what was played; Sunrise and One More Saturday Night are on no official release at all. Bertha (7:31) and One More Saturday Night (5:12) come from gd78-09-16.sbd.orf.2319.sbeok.shnf. Ollin Arageed, Sunrise, Drums and Space come from gd1978-09-16.aud.tobin.patched.95292.flac16, the only source carrying Sunrise and the only one splitting Drums from Space — and its split is corroborated exactly, 7:23 + 9:52 matching the ORF soundboard's combined Drums> of 17:15. That audience tape runs long at the edges elsewhere (Row Jimmy 13:20 against the release's 11:46), so those four widths are the least certain on this show.",
+  "source": "Rocking the Cradle: Egypt 1978 | archive.org:gd78-09-16.sbd.orf.2319.sbeok.shnf | archive.org:gd1978-09-16.aud.tobin.patched.95292.flac16",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "7:31"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:55"
+    },
+    {
+      "title": "Candyman",
+      "duration": "7:29"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:52"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "11:46"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:58"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:51"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "6:26"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:04"
+    },
+    {
+      "title": "Ollin Arageed",
+      "duration": "16:43"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "14:06"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "7:03"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:45"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "7:40"
+    },
+    {
+      "title": "Sunrise",
+      "duration": "4:03"
+    },
+    {
+      "title": "Shakedown Street",
+      "duration": "15:31"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:23"
+    },
+    {
+      "title": "Space",
+      "duration": "9:52"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "10:14"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:19"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:21"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:12"
+    }
+  ]
+}

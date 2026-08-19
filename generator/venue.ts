@@ -103,6 +103,7 @@ const COUNTRIES: Record<string, string> = {
   holland: 'HOL',
   sweden: 'SWE',
   luxembourg: 'LUX',
+  egypt: 'EGY',
 };
 
 /**

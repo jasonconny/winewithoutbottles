@@ -1,0 +1,100 @@
+{
+  "id": "19780916",
+  "date": "1978-09-16",
+  "venue": "Gizah Sound and Light Theater",
+  "city": "Giza",
+  "country": "EGY",
+  "svg": "/shows/19780916.svg",
+  "songCount": 22,
+  "durationSeconds": 11404,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 451
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 706
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 471
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Ollin Arageed",
+      "durationSeconds": 1003
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 846
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 423
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 345
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 460
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 243
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 931
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 592
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 501
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 312
+    }
+  ]
+}

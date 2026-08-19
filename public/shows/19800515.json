@@ -1,0 +1,101 @@
+{
+  "id": "19800515",
+  "date": "1980-05-15",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "svg": "/shows/19800515.svg",
+  "songCount": 22,
+  "durationSeconds": 8927,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 394
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 718
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 291
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 224
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 242
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 747
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 505
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 166
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 290
+    }
+  ]
+}

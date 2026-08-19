@@ -545,6 +545,59 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7020
   },
   {
+    "id": "19710425",
+    "date": "1971-04-25",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19710425.svg",
+    "songCount": 25,
+    "durationSeconds": 9700
+  },
+  {
+    "id": "19710427",
+    "date": "1971-04-27",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride"
+    ],
+    "svg": "/shows/19710427.svg",
+    "songCount": 27,
+    "durationSeconds": 10957
+  },
+  {
+    "id": "19710428",
+    "date": "1971-04-28",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19710428.svg",
+    "songCount": 24,
+    "durationSeconds": 11591
+  },
+  {
+    "id": "19710429",
+    "date": "1971-04-29",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19710429.svg",
+    "songCount": 31,
+    "durationSeconds": 11205
+  },
+  {
     "id": "19710731",
     "date": "1971-07-31",
     "venue": "Yale Bowl",
@@ -3355,6 +3408,26 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10209
   },
   {
+    "id": "19780915",
+    "date": "1978-09-15",
+    "venue": "Gizah Sound and Light Theater",
+    "city": "Giza",
+    "country": "EGY",
+    "svg": "/shows/19780915.svg",
+    "songCount": 16,
+    "durationSeconds": 8750
+  },
+  {
+    "id": "19780916",
+    "date": "1978-09-16",
+    "venue": "Gizah Sound and Light Theater",
+    "city": "Giza",
+    "country": "EGY",
+    "svg": "/shows/19780916.svg",
+    "songCount": 22,
+    "durationSeconds": 11404
+  },
+  {
     "id": "19781021",
     "date": "1978-10-21",
     "venue": "Winterland",
@@ -3590,6 +3663,28 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19800507.svg",
     "songCount": 20,
     "durationSeconds": 8819
+  },
+  {
+    "id": "19800515",
+    "date": "1980-05-15",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19800515.svg",
+    "songCount": 22,
+    "durationSeconds": 8927
+  },
+  {
+    "id": "19800516",
+    "date": "1980-05-16",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19800516.svg",
+    "songCount": 23,
+    "durationSeconds": 9596
   },
   {
     "id": "19800823",
