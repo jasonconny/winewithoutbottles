@@ -712,6 +712,28 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7727
   },
   {
+    "id": "19710814",
+    "date": "1971-08-14",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19710814.svg",
+    "songCount": 23,
+    "durationSeconds": 8835
+  },
+  {
+    "id": "19710815",
+    "date": "1971-08-15",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19710815.svg",
+    "songCount": 20,
+    "durationSeconds": 7671
+  },
+  {
     "id": "19710823",
     "date": "1971-08-23",
     "venue": "Auditorium Theatre",

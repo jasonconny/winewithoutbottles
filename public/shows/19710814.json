@@ -1,0 +1,105 @@
+{
+  "id": "19710814",
+  "date": "1971-08-14",
+  "venue": "Berkeley Community Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19710814.svg",
+  "songCount": 23,
+  "durationSeconds": 8835,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 245
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 397
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 226
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 181
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 537
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 222
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 972
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 166
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "drops": [
+    {
+      "date": "1971-08-14",
+      "venue": "Berkeley Community Theater, Berkeley, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; the app spells the room \"Theater\", the corpus \"Theatre\""
+    },
+    {
+      "date": "1971-08-15",
+      "venue": "Berkeley Community Theater, Berkeley, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; the app spells the room \"Theater\", the corpus \"Theatre\""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "19710815",
+  "date": "1971-08-15",
+  "venue": "Berkeley Community Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19710815.svg",
+  "songCount": 20,
+  "durationSeconds": 7671,
+  "songs": [
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 201
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 335
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 358
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 194
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 695
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 195
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 637
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1024
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 237
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 219
+    }
+  ]
+}

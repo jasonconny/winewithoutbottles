@@ -1476,3 +1476,47 @@ minted new songs for a performance that never happened. archive.org is
 crowd-sourced and a tape can carry a soundcheck, another act's set, or simply
 somebody else's night under this date. **The gap report is a question, not a
 finding**; the setlist databases answer it.
+
+### The first shows read off a screen — 1971-08-14 and 1971-08-15
+
+Berkeley Community Theatre, two nights, and the first two shows in the corpus
+that came from neither a release nor a tape. They exist only in the PlayDead
+app, which shows a track list with a duration per track and no way to export it,
+so they were transcribed from screenshots. The mechanics live in the
+`import-dead-drop` skill; what belongs here is the four judgement calls that
+transcription forced, because every one of them is invisible in the finished
+data.
+
+**`Happy Birthday`, 1:09, closing 8/14 — recorded as `notASong`.** Jason's call.
+The app indexes it as a numbered track like any other, so this is a deliberate
+departure from the source rather than a reading of it. The precedent is the
+28-second `Funiculì, Funiculà` tease: the question is not whether the band
+played it but whether it is a performance the setlist databases count. That is
+why 8/14 has 23 stripes and the app lists 24.
+
+**The room is spelled two ways.** The app says `Berkeley Community Theater`, the
+corpus `Berkeley Community Theatre` — the spelling already carried by
+1972-08-25, which came from _Dave's Picks Volume 24_. The corpus spelling wins,
+for the ordinary reason: two spellings are two venues, and the venue gallery
+would split. The app's spelling is preserved in `data/dead-drops.json` so this
+is visible rather than merely overwritten. This is `reconcileVenue`'s job done
+by hand, since no importer runs on this path.
+
+**`Goin' Down the Road Feeli…` is truncated by the app**, which clips a long
+title to the column width and gives no way to see the rest. Resolved against
+`data/songs.json`, where exactly one title matches the visible prefix. Safe
+here, and worth remembering that it is only safe because the canon is closed —
+a truncation with two candidates would have to be resolved by playing the track.
+
+**One alias gap, found rather than caused.** The app writes `Me & Bobby McGee`,
+and `Me and Bobby McGee` carried `Bobby McGee` and `Me And Bobby McGee` but not
+the ampersand — while `Me and My Uncle` had carried `Me & My Uncle` all along.
+An inconsistency in the canon that no previous source had happened to probe.
+Added as an alias, not as a song.
+
+Nothing about these two nights is checkable after the fact. The screenshots are
+gitignored working files, the app has no permalink, and there is no article to
+re-parse — so unlike every other show in the corpus, `tsx generator/import.ts
+19710814` will never confirm or contradict this. The seam overlap between
+captures was the check, and it agreed on 18 of the 43 rows across the two shows.
+**Read that as weaker evidence than a green `--audit`, because it is.**
