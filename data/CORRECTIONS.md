@@ -1173,6 +1173,56 @@ split, which is the form the corpus keeps. So the rule is: **drop an untimed
 sub-item, keep a timed one**. `--audit` is byte-identical across the change apart
 from 2/14/68 becoming sourceable.
 
+### Three San Francisco venues that must not be merged
+
+`Fillmore Auditorium`, `Fillmore West` and `Carousel Ballroom` are **three
+different rooms**, and the corpus keeps them apart deliberately (Jason,
+2026-08-19). The Carousel Ballroom is the room that later became the Fillmore
+West; the Fillmore Auditorium is a different building altogether and the band
+played both. The names are similar enough, and the reconciler forgiving enough
+about case and punctuation, that a future pass could reasonably think one of them
+is a spelling variant of another. It is not.
+
+| venue                 | shows | range                   |
+| --------------------- | ----: | ----------------------- |
+| `Fillmore Auditorium` |     4 | 1966-07-03 … 1969-12-20 |
+| `Fillmore West`       |     7 | 1969-02-27 … 1969-06-08 |
+| `Carousel Ballroom`   |     1 | 1968-02-14              |
+
+(`Fillmore East` is New York and never in question.) `reconcileVenue` will not
+fold these into each other on its own — it matches case and punctuation only —
+but venue galleries key on the string, so merging any two would silently join
+galleries that describe different places.
+
+### The four tapes that never actually disagreed — 1969-11-07
+
+Staged 2026-08-13 and held back because four archive.org transfers appeared to
+disagree about the **setlist**, which would make choosing one a claim about what
+the band played. Reading the tapes' own notes dissolved it.
+
+Kaplan's: _"The tape in circulation was edited ... There are splices before and
+after Mama Tried, Next Time, and Good Lovin, and songs are probably missing in
+these gaps."_ Both Kaplan's and Cotsman's notes then cite DeadBase for exactly the
+songs they lack and where they went — Hard To Handle and Casey Jones after Morning
+Dew, Me & My Uncle and Cold Rain & Snow after Mama Tried, High Time after Next
+Time You See Me. That is precisely what
+`gd1969-11-07.sbd.miller.119628.flac16` contains, in that order, and Miller's
+notes say _"There are no pauses, cuts or edits between songs."_
+
+So the short tapes are **incomplete, not contradictory**, and the staging
+scorer's choice of Kaplan over Miller — by one point, on `tracks − unmapped` —
+was wrong on the merits: Kaplan scored higher only because it indexes five
+tuning ditties as separate tracks. Miller supplies 14 timings and _Dick's
+Picks 16_, which carries this night only as a bonus track, supplies Turn On Your
+Love Light.
+
+**Two structures are kept whole on purpose.** Good Lovin' runs
+`Good Lovin' > Drums > Good Lovin'` and the suite runs
+`Cryptical > Drums > The Other One > Cryptical`. Miller indexes each as a single
+track, and the only tape that splits them is the spliced one — so taking its
+boundaries would import an edited tape's seams into a complete tape's show. The
+suite is stored as `That's It for the Other One` under the existing fold rule.
+
 ### Two shows the importer cannot re-derive — 1978-09-15 and 1978-09-16
 
 `--audit` reports **2 unparsed** for these, where the corpus has always run at

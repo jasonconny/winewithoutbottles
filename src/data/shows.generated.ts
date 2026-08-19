@@ -310,6 +310,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7088
   },
   {
+    "id": "19691107",
+    "date": "1969-11-07",
+    "venue": "Fillmore Auditorium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dick's Picks",
+      "Dark Star"
+    ],
+    "svg": "/shows/19691107.svg",
+    "songCount": 15,
+    "durationSeconds": 8164
+  },
+  {
     "id": "19691108",
     "date": "1969-11-08",
     "venue": "Fillmore Auditorium",

@@ -1,0 +1,77 @@
+{
+  "id": "19691107",
+  "date": "1969-11-07",
+  "venue": "Fillmore Auditorium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dick's Picks",
+    "Dark Star"
+  ],
+  "svg": "/shows/19691107.svg",
+  "songCount": 15,
+  "durationSeconds": 8164,
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 724
+    },
+    {
+      "title": "Hard to Handle",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 279
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 763
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 288
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1109
+    },
+    {
+      "title": "Uncle John's Band Jam",
+      "durationSeconds": 107
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 994
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1529
+    }
+  ]
+}

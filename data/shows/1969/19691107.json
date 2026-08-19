@@ -1,0 +1,73 @@
+{
+  "id": "19691107",
+  "date": "1969-11-07",
+  "venue": "Fillmore Auditorium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dick's Picks", "Dark Star"],
+  "note": "Held back since 2026-08-13 because four circulating tapes appeared to disagree about the setlist itself. They do not. Kaplan's and Cotsman's own notes both say the tape they carry is edited — Kaplan: \"The tape in circulation was edited ... There are splices before and after Mama Tried, Next Time, and Good Lovin, and songs are probably missing in these gaps\" — and both then cite DeadBase for exactly the songs they lack and where they went: Hard To Handle and Casey Jones after Morning Dew, Me & My Uncle and Cold Rain & Snow after Mama Tried, High Time after Next Time You See Me. That is precisely what gd1969-11-07.sbd.miller.119628.flac16 has, in that order, and Miller's notes say \"There are no pauses, cuts or edits between songs\". So the shorter tapes are incomplete, not contradictory, and the staging scorer's choice of Kaplan over Miller by one point was wrong on the merits. Miller supplies 14 timings; Dick's Picks 16 carries this night only as a bonus track and supplies Turn On Your Love Light (25:29). The Star Spangled Banner, Merry-Go-Round Brokedown, Spring Song and Take Me Out To The Ballgame are tuning before Cold Rain and Snow, grouped by Miller as one Tuning Ditties and excluded as notASong. Good Lovin' runs Good Lovin' > Drums > Good Lovin' and the Other One suite runs Cryptical > Drums > The Other One > Cryptical; Miller indexes each as one track and the only tape that splits them is the spliced one, so both are kept whole — the suite as That's It for the Other One, per the corpus fold rule.",
+  "source": "Dick's Picks Volume 16 | archive.org:gd1969-11-07.sbd.miller.119628.flac16",
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "duration": "12:04"
+    },
+    {
+      "title": "Hard to Handle",
+      "duration": "7:02"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "4:58"
+    },
+    {
+      "title": "Mama Tried",
+      "duration": "3:04"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "5:03"
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:12"
+    },
+    {
+      "title": "Next Time You See Me",
+      "duration": "4:39"
+    },
+    {
+      "title": "High Time",
+      "duration": "8:39"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "12:43"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "4:48"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "4:33"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "18:29"
+    },
+    {
+      "title": "Uncle John's Band Jam",
+      "duration": "1:47"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "16:34"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "25:29"
+    }
+  ]
+}
