@@ -1,0 +1,140 @@
+{
+  "id": "19730526",
+  "date": "1973-05-26",
+  "venue": "Kezar Stadium",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Here Comes Sunshine 1973"
+  ],
+  "svg": "/shows/19730526.svg",
+  "songCount": 31,
+  "durationSeconds": 13860,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 473
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 454
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1024
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 686
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 430
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 221
+    },
+    {
+      "title": "You Ain't Woman Enough",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 327
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 457
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 359
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 188
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 852
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 545
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1052
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 821
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 551
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 424
+    }
+  ]
+}

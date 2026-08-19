@@ -1,0 +1,113 @@
+{
+  "id": "19740521",
+  "date": "1974-05-21",
+  "venue": "Hec Edmundson Pavilion",
+  "city": "Seattle",
+  "state": "WA",
+  "country": "USA",
+  "tags": ["Pacific Northwest '73–'74", "Wall of Sound"],
+  "source": "Pacific Northwest '73–'74: The Complete Recordings | archive.org:gd74-05-21.lee.weiner.gdADT.10150.sbeok.shnf",
+  "songs": [
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:25"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:20"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:47"
+    },
+    {
+      "title": "Deal",
+      "duration": "4:55"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:59"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:45"
+    },
+    {
+      "title": "The Race Is On",
+      "duration": "3:34"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "5:55"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:56"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:25"
+    },
+    {
+      "title": "Money Money",
+      "duration": "5:01"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "6:18"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:20"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "5:05"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "10:57"
+    },
+    {
+      "title": "China Doll",
+      "duration": "5:48"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "46:59"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:47"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:24"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:40"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "5:25"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "13:52"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "9:45"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:03"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:08"
+    }
+  ],
+  "note": "The release lists the Weather Report Suite as a single 17:22 track; the corpus keeps it as three stripes, and \"Weather Report Suite\" is deliberately absent from data/songs.json. gd74-05-21.lee.weiner.gdADT.10150.sbeok.shnf divides it three ways at 1:20 / 5:05 / 10:54, which comes to 3 seconds short of the release; the difference is carried on Let It Grow, which is where Jason has put it in every previous split. Jason's call, 2026-08-18."
+}

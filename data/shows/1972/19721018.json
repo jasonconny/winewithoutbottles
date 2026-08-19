@@ -1,0 +1,108 @@
+{
+  "id": "19721018",
+  "date": "1972-10-18",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": ["Dark Star", "Listen to the River"],
+  "source": "Listen to the River: St. Louis '71 '72 '73",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "6:53"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "4:04"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "4:00"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:52"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:25"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:26"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "13:06"
+    },
+    {
+      "title": "Big River",
+      "duration": "4:53"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:49"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:16"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "5:07"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:03"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "6:05"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:07"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "16:16"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:46"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "28:28"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "11:06"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "5:31"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:13"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:59"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:59"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:38"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "7:09"
+    }
+  ]
+}

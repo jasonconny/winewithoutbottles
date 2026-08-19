@@ -1,0 +1,125 @@
+{
+  "id": "19730624",
+  "date": "1973-06-24",
+  "venue": "Portland Memorial Coliseum",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Pacific Northwest '73–'74"
+  ],
+  "svg": "/shows/19730624.svg",
+  "songCount": 27,
+  "durationSeconds": 11347,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 223
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 233
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 260
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 444
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 207
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 210
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 407
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 524
+    },
+    {
+      "title": "You Ain't Woman Enough",
+      "durationSeconds": 222
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1666
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 940
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 580
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 316
+    }
+  ]
+}

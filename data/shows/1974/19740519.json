@@ -1,0 +1,141 @@
+{
+  "id": "19740519",
+  "date": "1974-05-19",
+  "venue": "Portland Memorial Coliseum",
+  "city": "Portland",
+  "state": "OR",
+  "country": "USA",
+  "tags": ["Pacific Northwest '73–'74", "Wall of Sound"],
+  "source": "Pacific Northwest '73–'74: The Complete Recordings | archive.org:gd74-05-19.sbd.clugston.6957.sbeok.shnf",
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "8:14"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:58"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "3:57"
+    },
+    {
+      "title": "Black-Throated Wind",
+      "duration": "7:08"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "5:12"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:47"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:27"
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "duration": "6:02"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:31"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:23"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "5:28"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:35"
+    },
+    {
+      "title": "Loose Lucy",
+      "duration": "5:07"
+    },
+    {
+      "title": "Money Money",
+      "duration": "4:27"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "8:34"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:40"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:37"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:08"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "6:10"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "6:36"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:26"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:30"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "12:02"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "10:49"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:36"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "8:11"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "9:15"
+    },
+    {
+      "title": "Jam",
+      "duration": "9:58"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "6:58"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:59"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:36"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:37"
+    }
+  ],
+  "note": "The release lists the Weather Report Suite as a single 17:58 track; the corpus keeps it as three stripes, and \"Weather Report Suite\" is deliberately absent from data/songs.json. gd74-05-19.sbd.clugston.6957.sbeok.shnf divides it three ways at 1:26 / 4:30 / 11:53, which comes to 9 seconds short of the release; the difference is carried on Let It Grow, which is where Jason has put it in every previous split. Jason's call, 2026-08-18."
+}

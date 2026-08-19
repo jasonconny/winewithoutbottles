@@ -1,0 +1,100 @@
+{
+  "id": "19711209",
+  "date": "1971-12-09",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Listen to the River"
+  ],
+  "svg": "/shows/19711209.svg",
+  "songCount": 21,
+  "durationSeconds": 7729,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 767
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Mr. Charlie",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 234
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 448
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Run Rudolph Run",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 362
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 279
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 287
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 239
+    }
+  ]
+}

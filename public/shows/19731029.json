@@ -1,0 +1,116 @@
+{
+  "id": "19731029",
+  "date": "1973-10-29",
+  "venue": "Kiel Auditorium",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Listen to the River"
+  ],
+  "svg": "/shows/19731029.svg",
+  "songCount": 25,
+  "durationSeconds": 11361,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 230
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 245
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 237
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 498
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 576
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 918
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 197
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 344
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 1086
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 145
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1333
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 674
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 415
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "19731109",
+  "date": "1973-11-09",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Winterland 1973"
+  ],
+  "svg": "/shows/19731109.svg",
+  "songCount": 27,
+  "durationSeconds": 11251,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 201
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 359
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 224
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 543
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 237
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 455
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1253
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 712
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 224
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 84
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 592
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1003
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 265
+    }
+  ]
+}

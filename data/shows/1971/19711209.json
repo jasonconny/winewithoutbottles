@@ -1,0 +1,96 @@
+{
+  "id": "19711209",
+  "date": "1971-12-09",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": ["Listen to the River"],
+  "source": "Listen to the River: St. Louis '71 '72 '73",
+  "songs": [
+    {
+      "title": "Truckin'",
+      "duration": "12:47"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "4:53"
+    },
+    {
+      "title": "Mr. Charlie",
+      "duration": "4:13"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:20"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "7:52"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:54"
+    },
+    {
+      "title": "It Hurts Me Too",
+      "duration": "6:25"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "7:28"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:13"
+    },
+    {
+      "title": "Run Rudolph Run",
+      "duration": "3:56"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "9:29"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "6:37"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "6:02"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:39"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:05"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:33"
+    },
+    {
+      "title": "Big Boss Man",
+      "duration": "5:39"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "7:29"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "4:47"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "6:29"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:59"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "19730610",
+  "date": "1973-06-10",
+  "venue": "Robert F. Kennedy Stadium",
+  "city": "Washington",
+  "state": "DC",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Here Comes Sunshine 1973"
+  ],
+  "svg": "/shows/19730610.svg",
+  "songCount": 31,
+  "durationSeconds": 16875,
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 715
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Wave That Flag",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 312
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 323
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 576
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 728
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1081
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1326
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 654
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 376
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1597
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 874
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 591
+    },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "durationSeconds": 492
+    },
+    {
+      "title": "That's All Right",
+      "durationSeconds": 772
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 687
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 636
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 213
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 198
+    }
+  ]
+}

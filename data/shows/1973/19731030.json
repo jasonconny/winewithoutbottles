@@ -1,0 +1,108 @@
+{
+  "id": "19731030",
+  "date": "1973-10-30",
+  "venue": "Kiel Auditorium",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": ["Dark Star", "Listen to the River"],
+  "source": "Listen to the River: St. Louis '71 '72 '73",
+  "songs": [
+    {
+      "title": "Here Comes Sunshine",
+      "duration": "12:30"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:28"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:52"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:03"
+    },
+    {
+      "title": "Deal",
+      "duration": "5:16"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:42"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "6:01"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:54"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:18"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:08"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "8:57"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:09"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "20:26"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "8:38"
+    },
+    {
+      "title": "Big River",
+      "duration": "4:57"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "8:33"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:39"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:19"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "27:57"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:52"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "17:37"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:24"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "4:56"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "9:31"
+    }
+  ]
+}

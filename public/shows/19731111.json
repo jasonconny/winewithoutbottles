@@ -1,0 +1,117 @@
+{
+  "id": "19731111",
+  "date": "1973-11-11",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Winterland 1973"
+  ],
+  "svg": "/shows/19731111.svg",
+  "songCount": 25,
+  "durationSeconds": 11719,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 467
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 508
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 356
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 567
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 78
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 553
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 2141
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 816
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 619
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 236
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "durationSeconds": 191
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "19730609",
+  "date": "1973-06-09",
+  "venue": "Robert F. Kennedy Stadium",
+  "city": "Washington",
+  "state": "DC",
+  "country": "USA",
+  "tags": [
+    "Here Comes Sunshine 1973"
+  ],
+  "svg": "/shows/19730609.svg",
+  "songCount": 26,
+  "durationSeconds": 11895,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 432
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 526
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 228
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 342
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 472
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 374
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 860
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1363
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 688
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 509
+    }
+  ]
+}

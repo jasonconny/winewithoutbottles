@@ -1,0 +1,140 @@
+{
+  "id": "19721017",
+  "date": "1972-10-17",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Listen to the River"
+  ],
+  "svg": "/shows/19721017.svg",
+  "songCount": 31,
+  "durationSeconds": 13243,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 249
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 899
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 313
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 426
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1405
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 223
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 607
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 530
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 630
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 258
+    }
+  ]
+}

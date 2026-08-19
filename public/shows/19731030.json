@@ -1,0 +1,113 @@
+{
+  "id": "19731030",
+  "date": "1973-10-30",
+  "venue": "Kiel Auditorium",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Listen to the River"
+  ],
+  "svg": "/shows/19731030.svg",
+  "songCount": 24,
+  "durationSeconds": 12187,
+  "songs": [
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 750
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 222
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 361
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 618
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 308
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 537
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1226
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 279
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1677
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 1057
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 84
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 571
+    }
+  ]
+}

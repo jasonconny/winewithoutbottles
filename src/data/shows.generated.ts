@@ -514,7 +514,7 @@ export const shows: ShowSummary[] = [
     "id": "19710806",
     "date": "1971-08-06",
     "venue": "Hollywood Palladium",
-    "city": "Hollywood",
+    "city": "Los Angeles",
     "state": "CA",
     "country": "USA",
     "tags": [
@@ -629,7 +629,7 @@ export const shows: ShowSummary[] = [
     "id": "19711120",
     "date": "1971-11-20",
     "venue": "Pauley Pavilion",
-    "city": "",
+    "city": "Los Angeles",
     "state": "CA",
     "country": "USA",
     "tags": [
@@ -643,7 +643,7 @@ export const shows: ShowSummary[] = [
     "id": "19711206",
     "date": "1971-12-06",
     "venue": "Felt Forum",
-    "city": "New York City",
+    "city": "New York",
     "state": "NY",
     "country": "USA",
     "tags": [
@@ -657,13 +657,41 @@ export const shows: ShowSummary[] = [
     "id": "19711207",
     "date": "1971-12-07",
     "venue": "Felt Forum",
-    "city": "New York City",
+    "city": "New York",
     "tags": [
       "Dave's Picks"
     ],
     "svg": "/shows/19711207.svg",
     "songCount": 26,
     "durationSeconds": 9223
+  },
+  {
+    "id": "19711209",
+    "date": "1971-12-09",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19711209.svg",
+    "songCount": 21,
+    "durationSeconds": 7729
+  },
+  {
+    "id": "19711210",
+    "date": "1971-12-10",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19711210.svg",
+    "songCount": 28,
+    "durationSeconds": 11021
   },
   {
     "id": "19711214",
@@ -683,7 +711,7 @@ export const shows: ShowSummary[] = [
     "id": "19720326",
     "date": "1972-03-26",
     "venue": "Academy of Music",
-    "city": "New York City",
+    "city": "New York",
     "state": "NY",
     "country": "USA",
     "tags": [
@@ -1086,6 +1114,49 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11805
   },
   {
+    "id": "19721017",
+    "date": "1972-10-17",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19721017.svg",
+    "songCount": 31,
+    "durationSeconds": 13243
+  },
+  {
+    "id": "19721018",
+    "date": "1972-10-18",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Listen to the River"
+    ],
+    "svg": "/shows/19721018.svg",
+    "songCount": 24,
+    "durationSeconds": 10271
+  },
+  {
+    "id": "19721019",
+    "date": "1972-10-19",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19721019.svg",
+    "songCount": 29,
+    "durationSeconds": 11189
+  },
+  {
     "id": "19721117",
     "date": "1972-11-17",
     "venue": "Century II Convention Center",
@@ -1202,6 +1273,119 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 13019
   },
   {
+    "id": "19730513",
+    "date": "1973-05-13",
+    "venue": "Iowa State Fairgrounds",
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730513.svg",
+    "songCount": 32,
+    "durationSeconds": 15652
+  },
+  {
+    "id": "19730520",
+    "date": "1973-05-20",
+    "venue": "Campus Stadium",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730520.svg",
+    "songCount": 31,
+    "durationSeconds": 12915
+  },
+  {
+    "id": "19730526",
+    "date": "1973-05-26",
+    "venue": "Kezar Stadium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730526.svg",
+    "songCount": 31,
+    "durationSeconds": 13860
+  },
+  {
+    "id": "19730609",
+    "date": "1973-06-09",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730609.svg",
+    "songCount": 26,
+    "durationSeconds": 11895
+  },
+  {
+    "id": "19730610",
+    "date": "1973-06-10",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730610.svg",
+    "songCount": 31,
+    "durationSeconds": 16875
+  },
+  {
+    "id": "19730622",
+    "date": "1973-06-22",
+    "venue": "P.N.E. Coliseum",
+    "city": "Vancouver",
+    "country": "CAN",
+    "tags": [
+      "Pacific Northwest '73–'74"
+    ],
+    "svg": "/shows/19730622.svg",
+    "songCount": 30,
+    "durationSeconds": 14721
+  },
+  {
+    "id": "19730624",
+    "date": "1973-06-24",
+    "venue": "Portland Memorial Coliseum",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Pacific Northwest '73–'74"
+    ],
+    "svg": "/shows/19730624.svg",
+    "songCount": 27,
+    "durationSeconds": 11347
+  },
+  {
+    "id": "19730626",
+    "date": "1973-06-26",
+    "venue": "Seattle Center Arena",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "tags": [
+      "Pacific Northwest '73–'74"
+    ],
+    "svg": "/shows/19730626.svg",
+    "songCount": 30,
+    "durationSeconds": 12672
+  },
+  {
     "id": "19730908",
     "date": "1973-09-08",
     "venue": "Nassau Coliseum",
@@ -1229,6 +1413,79 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19731019.svg",
     "songCount": 23,
     "durationSeconds": 11334
+  },
+  {
+    "id": "19731029",
+    "date": "1973-10-29",
+    "venue": "Kiel Auditorium",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19731029.svg",
+    "songCount": 25,
+    "durationSeconds": 11361
+  },
+  {
+    "id": "19731030",
+    "date": "1973-10-30",
+    "venue": "Kiel Auditorium",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Listen to the River"
+    ],
+    "svg": "/shows/19731030.svg",
+    "songCount": 24,
+    "durationSeconds": 12187
+  },
+  {
+    "id": "19731109",
+    "date": "1973-11-09",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Winterland 1973"
+    ],
+    "svg": "/shows/19731109.svg",
+    "songCount": 27,
+    "durationSeconds": 11251
+  },
+  {
+    "id": "19731110",
+    "date": "1973-11-10",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Playing Palindrome",
+      "Winterland 1973"
+    ],
+    "svg": "/shows/19731110.svg",
+    "songCount": 26,
+    "durationSeconds": 11245
+  },
+  {
+    "id": "19731111",
+    "date": "1973-11-11",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Winterland 1973"
+    ],
+    "svg": "/shows/19731111.svg",
+    "songCount": 25,
+    "durationSeconds": 11719
   },
   {
     "id": "19731114",
@@ -1391,6 +1648,50 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19740514.svg",
     "songCount": 25,
     "durationSeconds": 10942
+  },
+  {
+    "id": "19740517",
+    "date": "1974-05-17",
+    "venue": "P.N.E. Coliseum",
+    "city": "Vancouver",
+    "country": "CAN",
+    "tags": [
+      "Pacific Northwest '73–'74",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740517.svg",
+    "songCount": 26,
+    "durationSeconds": 10651
+  },
+  {
+    "id": "19740519",
+    "date": "1974-05-19",
+    "venue": "Portland Memorial Coliseum",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Pacific Northwest '73–'74",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740519.svg",
+    "songCount": 32,
+    "durationSeconds": 12178
+  },
+  {
+    "id": "19740521",
+    "date": "1974-05-21",
+    "venue": "Hec Edmundson Pavilion",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "tags": [
+      "Pacific Northwest '73–'74",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740521.svg",
+    "songCount": 25,
+    "durationSeconds": 11733
   },
   {
     "id": "19740616",
@@ -2714,7 +3015,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19780510",
     "date": "1978-05-10",
-    "venue": "Veteran's Memorial Coliseum",
+    "venue": "Veterans Memorial Coliseum",
     "city": "New Haven",
     "state": "CT",
     "country": "USA",

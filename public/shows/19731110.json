@@ -1,0 +1,121 @@
+{
+  "id": "19731110",
+  "date": "1973-11-10",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Playing Palindrome",
+    "Winterland 1973"
+  ],
+  "svg": "/shows/19731110.svg",
+  "songCount": 26,
+  "durationSeconds": 11245,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 519
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 231
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 531
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 88
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 718
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 719
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 110
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 312
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 639
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 425
+    }
+  ]
+}
