@@ -8,103 +8,103 @@
   "tour": "June 1976 Comeback",
   "svg": "/shows/19760603.svg",
   "songCount": 24,
-  "durationSeconds": 10320,
+  "durationSeconds": 10756,
   "songs": [
     {
       "title": "Might As Well",
-      "durationSeconds": 307
+      "durationSeconds": 323
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 263
+      "durationSeconds": 272
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 619
+      "durationSeconds": 601
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 453
+      "durationSeconds": 485
     },
     {
       "title": "They Love Each Other",
-      "durationSeconds": 425
+      "durationSeconds": 447
     },
     {
       "title": "Lazy Lightnin'",
-      "durationSeconds": 173
+      "durationSeconds": 178
     },
     {
       "title": "Supplication",
-      "durationSeconds": 234
-    },
-    {
-      "title": "Candyman",
-      "durationSeconds": 418
-    },
-    {
-      "title": "The Music Never Stopped",
       "durationSeconds": 316
     },
     {
+      "title": "Candyman",
+      "durationSeconds": 431
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 364
+    },
+    {
       "title": "Scarlet Begonias",
-      "durationSeconds": 614
+      "durationSeconds": 655
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 748
+      "durationSeconds": 751
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 340
+      "durationSeconds": 367
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 691
+      "durationSeconds": 670
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 777
+      "durationSeconds": 756
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 407
+      "durationSeconds": 394
     },
     {
       "title": "Drums",
-      "durationSeconds": 35
+      "durationSeconds": 32
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 389
+      "durationSeconds": 470
     },
     {
       "title": "It Must Have Been the Roses",
-      "durationSeconds": 410
+      "durationSeconds": 439
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 392
+      "durationSeconds": 404
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 301
+      "durationSeconds": 313
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 784
+      "durationSeconds": 751
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 664
+      "durationSeconds": 731
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 299
+      "durationSeconds": 313
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 261
+      "durationSeconds": 293
     }
   ]
 }

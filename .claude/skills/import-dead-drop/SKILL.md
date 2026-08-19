@@ -63,14 +63,44 @@ about ten thereafter, so a normal show is four or five captures.
 3. **Case differs freely** — `Turn on Your Love Light` vs the canonical
    `Turn On Your Love Light`. Harmless; `cleanTitle` uppercases.
 
-### And one thing it does to venues
+### The venue line is the weakest thing on the screen
 
-The app's spelling is not the corpus's. `Berkeley Community Theater` in the app
-is `Berkeley Community Theatre` in the data, and the corpus spelling wins — two
-spellings are two venues and the gallery splits. No importer runs on this path,
-so this is `reconcileVenue`'s job done by hand: **check the venue against
-`data/shows/` before authoring**, and record the app's spelling in the drop
-entry so the difference stays visible.
+**Take the setlist and the timings from a drop. Do not take the venue.** The
+setlist is the band's own record; the venue string is a label applied later, and
+it has been wrong in both available ways:
+
+- **Wrong spelling.** `Berkeley Community Theater` in the app is
+  `Berkeley Community Theatre` in the data. Two spellings are two venues and the
+  gallery splits, so the corpus spelling wins.
+- **Wrong building.** The app gives 1979-12-30 as `Oakland Coliseum`; the night
+  is an Oakland Auditorium show, mid-run between two Auditorium nights. Left
+  alone it would have invented a one-night trip across town and cut a derived
+  4-show run down to 3.
+
+**And check the era.** One room can be several names over time: the Oakland
+convention center was billed `Oakland Auditorium` through 1984 and
+`Henry J. Kaiser Convention Center` from 1985, and the corpus files shows under
+whichever name was current. A release sleeve printed decades later often uses the
+modern or the marketing name — `Dick's Picks 5` says `Oakland Auditorium Arena`
+for a 1979 night — and **the app agreeing with that sleeve is not corroboration**,
+since both are drawing on the same later archive rather than on how the show was
+billed. JerryBase and DeadBase are the check, and Jason is the lookup.
+
+**When the corpus has no precedent, the app is not the fallback.** This is the
+easy mistake, and it was made: 1986-04-12 is the corpus's first show at Irvine,
+so there was no established spelling to defer to and the app's `Irvine Meadows`
+was taken as-is on the reasoning that lengthening it would be inventing. Wrong
+question. The rule is not "defer to the corpus and otherwise trust the app" — the
+app's venue field is simply weak evidence, and where the corpus is silent the
+answer comes from JerryBase, which gives `Irvine Meadows Amphitheatre`. **A new
+venue is a question for Jason, not a default.** It is also the moment it matters
+most: the first spelling becomes the one every later show at that room has to
+match, and the gallery slug with it.
+
+So: **check the venue against `data/shows/` before authoring**, ask when the
+corpus disagrees with itself, ask again when the corpus says nothing at all, and
+record the app's own string in the drop entry so the difference stays visible
+instead of being silently overwritten.
 
 ## Capturing the screenshots
 
@@ -116,6 +146,35 @@ differently-split Drums/Space, per-taper naming — which is the entire reason
 would throw false alarms constantly, and a check that cries wolf is a check
 nobody reads. It also cannot verify a single duration. Keep it for a specific
 doubt — a blurry capture, an ambiguous seam — where `--gaps` already reaches it.
+
+## When the app merges what the corpus splits
+
+The app indexes a `Song` → `Drums` → `Song` sandwich as **one track**, where the
+corpus carries three. The corpus is right and the app is not wrong: a track
+listing is an index, not a claim about where the music ends — the same rule that
+governs release track groupings.
+
+So **the split stays and the app supplies the total**, which leaves the seams to
+be timed by ear from the app's own scrubber. That is Jason's job, not a guess.
+
+**Never apportion the remainder between the two song halves.** It is tempting —
+the arithmetic works and the result looks sourced — but it invents a boundary
+nothing stated, and it has already been shown to invent the _wrong_ one. On
+1976-06-04 the legacy `Drums` was exactly `1:00`, the only round number in a
+28-song setlist, so it looked like a placeholder holding the missing minute.
+Measured, it is `1:03`; the minute was in the two `Playing` halves. A plausible
+apportionment would have put a whole minute in the wrong stripe.
+
+Hold the untimed group at whatever it already had, name it in the drop's `note`,
+and finish the show when the timings arrive. A half-retimed show is fine and
+recoverable; a silently invented one is neither.
+
+**Reconciling the timings to the total** has one defensible shape, because
+hand-timing off a scrubber rounds and three reads will not sum exactly (the
+first batch was out by 5s, 1s and 3s). The two seams are **measurements**; the
+closing part is **arithmetic** — its start is the seam that was heard, its end is
+pinned by the app. So the rounding goes on the closing part and nowhere else.
+Check the sum before generating; nothing downstream will.
 
 ## `data/dead-drops.json`
 

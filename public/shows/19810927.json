@@ -1,0 +1,105 @@
+{
+  "id": "19810927",
+  "date": "1981-09-27",
+  "venue": "Capital Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "svg": "/shows/19810927.svg",
+  "songCount": 23,
+  "durationSeconds": 9052,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Alabama Getaway",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 504
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 186
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 319
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 439
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 413
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 315
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 711
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 207
+    },
+    {
+      "title": "Spanish Jam",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 566
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 498
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 439
+    }
+  ]
+}

@@ -4,104 +4,105 @@
   "venue": "Paramount Theatre",
   "city": "Portland",
   "state": "OR",
-  "tour": "June 1976 Comeback",
   "country": "USA",
+  "tour": "June 1976 Comeback",
+  "source": "dead-drop:19760603",
   "songs": [
     {
       "title": "Might As Well",
-      "duration": "5:07"
+      "duration": "5:23"
     },
     {
       "title": "Cassidy",
-      "duration": "4:23"
+      "duration": "4:32"
     },
     {
       "title": "Row Jimmy",
-      "duration": "10:19"
+      "duration": "10:01"
     },
     {
       "title": "Looks Like Rain",
-      "duration": "7:33"
+      "duration": "8:05"
     },
     {
       "title": "They Love Each Other",
-      "duration": "7:05"
+      "duration": "7:27"
     },
     {
       "title": "Lazy Lightnin'",
-      "duration": "2:53"
+      "duration": "2:58"
     },
     {
       "title": "Supplication",
-      "duration": "3:54"
-    },
-    {
-      "title": "Candyman",
-      "duration": "6:58"
-    },
-    {
-      "title": "The Music Never Stopped",
       "duration": "5:16"
     },
     {
+      "title": "Candyman",
+      "duration": "7:11"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "6:04"
+    },
+    {
       "title": "Scarlet Begonias",
-      "duration": "10:14"
+      "duration": "10:55"
     },
     {
       "title": "Dancing in the Street",
-      "duration": "12:28"
+      "duration": "12:31"
     },
     {
       "title": "Samson And Delilah",
-      "duration": "5:40"
+      "duration": "6:07"
     },
     {
       "title": "Crazy Fingers",
-      "duration": "11:31"
+      "duration": "11:10"
     },
     {
       "title": "Wharf Rat",
-      "duration": "12:57"
+      "duration": "12:36"
     },
     {
       "title": "Let It Grow",
-      "duration": "6:47"
+      "duration": "6:34"
     },
     {
       "title": "Drums",
-      "duration": "0:35"
+      "duration": "0:32"
     },
     {
       "title": "Let It Grow",
-      "duration": "6:29"
+      "duration": "7:50"
     },
     {
       "title": "It Must Have Been the Roses",
-      "duration": "6:50"
+      "duration": "7:19"
     },
     {
       "title": "Around And Around",
-      "duration": "6:32"
+      "duration": "6:44"
     },
     {
       "title": "Help On The Way",
-      "duration": "5:01"
+      "duration": "5:13"
     },
     {
       "title": "Slipknot!",
-      "duration": "13:04"
+      "duration": "12:31"
     },
     {
       "title": "Franklin's Tower",
-      "duration": "11:04"
+      "duration": "12:11"
     },
     {
       "title": "One More Saturday Night",
-      "duration": "4:59"
+      "duration": "5:13"
     },
     {
       "title": "The Wheel",
-      "duration": "4:21"
+      "duration": "4:53"
     }
   ]
 }

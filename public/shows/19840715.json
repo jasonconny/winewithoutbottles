@@ -1,0 +1,93 @@
+{
+  "id": "19840715",
+  "date": "1984-07-15",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19840715.svg",
+  "songCount": 20,
+  "durationSeconds": 9260,
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 767
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 396
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Why Don't We Do It in the Road?",
+      "durationSeconds": 270
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 339
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 303
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 601
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 674
+    },
+    {
+      "title": "Don't Need Love",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 412
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 354
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 585
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 254
+    }
+  ]
+}

@@ -13,6 +13,76 @@
       "transfer": "Reel, 24 bit/192 kHz, N.R. No",
       "capturedOn": "2026-08-19",
       "note": "read from the PlayDead app; the app spells the room \"Theater\", the corpus \"Theatre\""
+    },
+    {
+      "date": "1974-07-27",
+      "venue": "Roanoke Civic Center, Roanoke, VA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; inside the Wall of Sound date range, so the show carries that tag"
+    },
+    {
+      "date": "1976-06-03",
+      "venue": "Paramount Theatre, Portland, OR",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order matched the legacy art exactly. The app merges the Let It Grow sandwich the corpus splits three ways (app total 14:56); Jason timed the seams by ear and the three durations sum to it exactly"
+    },
+    {
+      "date": "1976-06-04",
+      "venue": "Paramount Theatre, Portland, OR",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order matched the legacy art exactly. The app merges the Playing (13:37) and Let It Grow (10:37) sandwiches the corpus splits three ways; Jason timed the seams by ear and both groups sum to their app totals exactly"
+    },
+    {
+      "date": "1979-08-14",
+      "venue": "McNichols Sports Arena, Denver, CO",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1979-12-27",
+      "venue": "Oakland Auditorium Arena, Oakland, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app. Its venue field is NOT authoritative: the app spells the room \"Oakland Auditorium Arena\", but the contemporaneous billing was \"Oakland Auditorium\" (the corpus spelling, and JerryBase's) — see data/CORRECTIONS.md"
+    },
+    {
+      "date": "1979-12-30",
+      "venue": "Oakland Coliseum, Oakland, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app, whose venue field says \"Oakland Coliseum\" — wrong, per DeadBase/JerryBase via Jason. The night belongs to the Oakland Auditorium New Year's run. Only 3 captures and the end-of-list bar sat behind the now-playing bar, so the tail after Brokedown Palace is unconfirmed; Jason accepted 19 tracks"
+    },
+    {
+      "date": "1981-09-27",
+      "venue": "Capital Centre, Landover, MD",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; venue spelling agrees with the corpus (Capital Centre, for the Capital Beltway)"
+    },
+    {
+      "date": "1984-07-15",
+      "venue": "Greek Theatre, University of California, Berkeley, CA",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; the corpus spells the room bare Greek Theatre, so the app's longer form was not used"
+    },
+    {
+      "date": "1986-04-01",
+      "venue": "Providence Civic Center, Providence, RI",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1986-04-12",
+      "venue": "Irvine Meadows, Irvine, CA",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app, which shortens the room to \"Irvine Meadows\"; JerryBase gives Irvine Meadows Amphitheatre and that is what the corpus uses (Jason, 2026-08-19)"
     }
   ]
 }

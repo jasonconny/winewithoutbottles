@@ -1,0 +1,100 @@
+{
+  "id": "19740727",
+  "date": "1974-07-27",
+  "venue": "Roanoke Civic Center",
+  "city": "Roanoke",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740727.svg",
+  "songCount": 21,
+  "durationSeconds": 9392,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 315
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 440
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1491
+    },
+    {
+      "title": "Seastones",
+      "durationSeconds": 823
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 571
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 173
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 310
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 596
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 211
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 235
+    }
+  ]
+}

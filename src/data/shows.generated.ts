@@ -2008,6 +2008,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11841
   },
   {
+    "id": "19740727",
+    "date": "1974-07-27",
+    "venue": "Roanoke Civic Center",
+    "city": "Roanoke",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740727.svg",
+    "songCount": 21,
+    "durationSeconds": 9392
+  },
+  {
     "id": "19740731",
     "date": "1974-07-31",
     "venue": "Dillon Stadium",
@@ -2235,7 +2249,7 @@ export const shows: ShowSummary[] = [
     "tour": "June 1976 Comeback",
     "svg": "/shows/19760603.svg",
     "songCount": 24,
-    "durationSeconds": 10320
+    "durationSeconds": 10756
   },
   {
     "id": "19760604",
@@ -2247,7 +2261,7 @@ export const shows: ShowSummary[] = [
     "tour": "June 1976 Comeback",
     "svg": "/shows/19760604.svg",
     "songCount": 28,
-    "durationSeconds": 9671
+    "durationSeconds": 10915
   },
   {
     "id": "19760609",
@@ -3638,6 +3652,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10362
   },
   {
+    "id": "19790814",
+    "date": "1979-08-14",
+    "venue": "McNichols Sports Arena",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "svg": "/shows/19790814.svg",
+    "songCount": 21,
+    "durationSeconds": 9435
+  },
+  {
     "id": "19790904",
     "date": "1979-09-04",
     "venue": "Madison Square Garden",
@@ -3743,7 +3768,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19791226",
     "date": "1979-12-26",
-    "venue": "Oakland Auditorium Arena",
+    "venue": "Oakland Auditorium",
     "city": "Oakland",
     "state": "CA",
     "country": "USA",
@@ -3753,6 +3778,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19791226.svg",
     "songCount": 25,
     "durationSeconds": 10566
+  },
+  {
+    "id": "19791227",
+    "date": "1979-12-27",
+    "venue": "Oakland Auditorium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19791227.svg",
+    "songCount": 20,
+    "durationSeconds": 8195
   },
   {
     "id": "19791228",
@@ -3767,6 +3803,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19791228.svg",
     "songCount": 19,
     "durationSeconds": 9148
+  },
+  {
+    "id": "19791230",
+    "date": "1979-12-30",
+    "venue": "Oakland Auditorium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19791230.svg",
+    "songCount": 19,
+    "durationSeconds": 8000
   },
   {
     "id": "19800506",
@@ -3999,6 +4046,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10518
   },
   {
+    "id": "19810927",
+    "date": "1981-09-27",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "svg": "/shows/19810927.svg",
+    "songCount": 23,
+    "durationSeconds": 9052
+  },
+  {
     "id": "19811209",
     "date": "1981-12-09",
     "venue": "CU Events Center",
@@ -4224,6 +4282,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9261
   },
   {
+    "id": "19840715",
+    "date": "1984-07-15",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19840715.svg",
+    "songCount": 20,
+    "durationSeconds": 9260
+  },
+  {
     "id": "19841012",
     "date": "1984-10-12",
     "venue": "Augusta Civic Center",
@@ -4306,6 +4375,28 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19851121.svg",
     "songCount": 20,
     "durationSeconds": 7991
+  },
+  {
+    "id": "19860401",
+    "date": "1986-04-01",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "svg": "/shows/19860401.svg",
+    "songCount": 17,
+    "durationSeconds": 8306
+  },
+  {
+    "id": "19860412",
+    "date": "1986-04-12",
+    "venue": "Irvine Meadows Amphitheatre",
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19860412.svg",
+    "songCount": 19,
+    "durationSeconds": 8336
   },
   {
     "id": "19860503",

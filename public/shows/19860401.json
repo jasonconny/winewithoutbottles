@@ -1,0 +1,81 @@
+{
+  "id": "19860401",
+  "date": "1986-04-01",
+  "venue": "Providence Civic Center",
+  "city": "Providence",
+  "state": "RI",
+  "country": "USA",
+  "svg": "/shows/19860401.svg",
+  "songCount": 17,
+  "durationSeconds": 8306,
+  "songs": [
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 312
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 439
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 849
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 778
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 770
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 555
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 297
+    }
+  ]
+}

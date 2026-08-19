@@ -1,0 +1,89 @@
+{
+  "id": "19791230",
+  "date": "1979-12-30",
+  "venue": "Oakland Auditorium",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19791230.svg",
+  "songCount": 19,
+  "durationSeconds": 8000,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 511
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 605
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 587
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 796
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 252
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 322
+    }
+  ]
+}

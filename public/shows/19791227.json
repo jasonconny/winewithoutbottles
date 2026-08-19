@@ -1,0 +1,93 @@
+{
+  "id": "19791227",
+  "date": "1979-12-27",
+  "venue": "Oakland Auditorium",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19791227.svg",
+  "songCount": 20,
+  "durationSeconds": 8195,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 401
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 442
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 315
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 387
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 707
+    },
+    {
+      "title": "Lost Sailor",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 802
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 147
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 514
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 296
+    }
+  ]
+}

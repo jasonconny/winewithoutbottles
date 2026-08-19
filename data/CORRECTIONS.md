@@ -1520,3 +1520,103 @@ re-parse — so unlike every other show in the corpus, `tsx generator/import.ts
 19710814` will never confirm or contradict this. The seam overlap between
 captures was the check, and it agreed on 18 of the 43 rows across the two shows.
 **Read that as weaker evidence than a green `--audit`, because it is.**
+
+### What a DeadDrop says about the 2013 timings — 1976-06-03 and 06-04
+
+The first two legacy shows a DeadDrop retimed — consecutive nights at the
+Paramount — and between them they establish one thing and demolish another.
+
+**Both setlists matched exactly.** 24 songs on 6/3, 28 on 6/4, same order, no
+substitutions, nothing added or missing. Two entirely independent sources —
+Jason's 2013 art and the band's own app — agreeing completely on what was
+played, twice. That is the strongest confirmation the legacy reconstructions
+have ever had, and it is worth stating because the opposite result was possible.
+
+**The durations do not carry a systematic offset, and the first show made it look
+like they did.** On 6/4 every one of the 22 comparable tracks was longer in the
+app, from +0:20 to +1:48, clustering near +0:45, with `Lazy Lightnin'` matching
+to the second. That pattern invited an obvious reading — 2013 measured song-only,
+the app measures track boundaries with the applause and segue — and an obvious
+consequence: that the legacy art is internally consistent but on a different
+_scale_ from every sourced show in the corpus. It was written up here as a
+hypothesis to re-test.
+
+**6/3 refuted it the same day.** Seventeen tracks longer, but **four shorter** —
+`Row Jimmy` −0:18, `Crazy Fingers` −0:21, `Wharf Rat` −0:21, `Slipknot!` −0:33.
+Across both nights: 43 comparable tracks, 38 longer, 4 shorter, 1 exact. So there
+is a real and strong positive bias, but no fixed offset and no scale factor —
+which means the 2013 timings are **per-track approximate**, not uniformly
+displaced. Nothing can be derived from them arithmetically; a legacy show has to
+be retimed track by track from a source, which is what this pipeline does.
+
+Recorded at length because the wrong version of this was written down first, and
+a single show is exactly enough evidence to produce a confident wrong answer.
+
+**The app merges sandwiches the corpus splits** — two on 6/4
+(`Playing in the Band` → `Drums` → `Playing in the Band`, and the same shape
+around `Let It Grow`), one on 6/3 (`Let It Grow`). This is the familiar rule from
+the other direction — a release's track grouping is a CD index, not where the
+music ends — so the split stays and the app supplies the totals.
+
+The arithmetic is what makes that safe. `Let It Grow`: 6:42 + 0:57 + 2:59 =
+10:38 against the app's 10:37, **one second apart**, which is about as close as
+two independent readings of the same tape ever come. `Playing in the Band`:
+9:35 + 1:00 + 2:02 = 12:37 against 13:37, exactly **sixty seconds** apart — and
+the 1:00 is the only round number in a 28-song setlist, which reads like a
+placeholder rather than a measurement.
+
+6/3's single sandwich is +1:05 over its legacy sum (13:51 against 14:56), in
+line with the rest of that show.
+
+Rather than guess which value absorbed the difference, **Jason split all three
+Drums by ear**, the same way One From the Vault (1975-08-13) was handled — the
+app's total as the constraint, the seams as the measurement. Both nights are now
+complete, and all three groups sum to their app totals to the second.
+
+Refusing to apportion was the right call, because the guess would have been
+wrong. The `1:00` Drums on 6/4 looked like a placeholder — the only round number
+in a 28-song setlist — and the obvious hypothesis was that it absorbed the
+missing minute. **It didn't: measured, it is 1:03.** The minute was in the two
+`Playing` halves instead (9:35 → 9:53 and 2:02 → 2:41). 6/3's reprise moved
+furthest of all, 6:29 → 7:50, while 6/4's `Let It Grow` barely moved — which is
+what its one-second agreement had already predicted.
+
+Reconciling a hand-timed split to a stated total has one defensible shape, and
+it is worth stating because it will recur: **the two seams are measurements and
+the closing part is arithmetic.** Its start is the seam Jason heard and its end
+is pinned by the app, so the few seconds of rounding go there and nowhere else.
+The three corrections were +5s, +1s and −3s, all on the closing reprise.
+
+### The app's venue field is not authoritative — Oakland, December 1979
+
+A DeadDrop's setlist and timings are the band's own; **its venue line is not the
+same kind of fact**, and this run proved it twice in one batch.
+
+The room is one building under three names. Wikipedia: the Dead played the
+convention center 57 times between 1967 and 1989, and "their first 23 concerts
+at the convention center were billed at 'Oakland Auditorium'", with the venue
+becoming the **Henry J. Kaiser Convention Center** from 1985. The corpus already
+had that second half right — 1985-11-21 is filed under the Kaiser name — so only
+the 1979 spelling was ever in doubt.
+
+**First error: normalising to the release's spelling.** The corpus held
+1979-12-26 as `Oakland Auditorium Arena` (from _Dick's Picks 5_) and 1979-12-28
+as `Oakland Auditorium` (from _Road Trips 3:1_) — one run, two spellings, which
+matters because `buildRuns` groups on the venue string and would have split the
+stand in two. The app agreed with Dick's Picks, so two sources against one
+pointed at `Oakland Auditorium Arena`. **That reasoning was wrong**: a sleeve
+printed decades later and an app built from the same archive are not two
+independent witnesses to how a 1979 show was billed, and JerryBase uses the bare
+name. All four December 1979 shows are now `Oakland Auditorium`.
+
+**Second error: trusting the field about the building at all.** The app gives
+1979-12-30 as `Oakland Coliseum` — a different complex across town, mid-run
+between two Auditorium nights. Per DeadBase and JerryBase (Jason) the night
+belongs to the Auditorium run. Had it stood, the corpus would have carried a
+one-night trip to a venue the band did not play, and the derived run would have
+been 3 shows instead of 4.
+
+The general rule, now in the `import-dead-drop` skill: **take the setlist and the
+timings from a drop; take the venue from the corpus, and check the era.** The
+app's venue string belongs in `data/dead-drops.json` as a record of what was
+read, never straight into a show.
