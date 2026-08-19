@@ -316,6 +316,8 @@ reason — and every duration must be a real `m:ss`, since what survives is
 released material with timings. A blank would mean the file is waiting for
 something, which is exactly what this directory is not for.
 
+**`data/UNBUILT-DATES.md` lists every date the corpus still lacks** — these, plus the release dates that were never staged — and, unlike the per-file notes, records how many recordings archive.org held and when somebody last looked. Check it before re-surveying; `tests/data-validity.test.ts` keeps it in sync in both directions.
+
 The founding case is `19710824` (Auditorium Theatre, Chicago). _Dick's Picks
 Volume 35_ calls it one of two complete shows; per JerryBase the tape came from
 Keith Godchaux's houseboat and only the salvageable part was released, DeadBase

@@ -835,3 +835,109 @@ describe('shows with unknown setlists are well-formed', () => {
     });
   }
 });
+
+describe('data/UNBUILT-DATES.md accounts for every date the corpus lacks', () => {
+  // The file explains *why* each remaining date is unbuilt, and the four reasons
+  // are not interchangeable: nothing circulates, a tape exists but falls short,
+  // it is buildable and deliberately deferred, or the record is not out yet.
+  // "Absent from data/shows/" reads identically in all four cases.
+  //
+  // A prose file describing data will drift from it silently, and this one has
+  // an unusually good chance of doing so — a date leaves the list by being
+  // *built*, which is exactly the moment nobody is thinking about the list. So
+  // the guard runs in both directions: nothing unbuilt may go unlisted, and
+  // nothing listed may already be built.
+  //
+  // The tape counts and checked-on dates in that file are deliberately NOT
+  // guarded. Nothing local can verify what archive.org holds, and a test that
+  // pretended otherwise would be asserting its own fixture.
+  const DOC = 'data/UNBUILT-DATES.md';
+  const doc = readFileSync(DOC, 'utf8');
+  // Rows are `| 1968-02-23 | …`, but section D lists a run of dates on one line
+  // (`1985-06-14, 06-15, …`), so scan for full dates and for the `MM-DD` short
+  // form that follows one, rather than parsing the table.
+  //
+  // Only table rows count, not prose. Scanning the whole file looked fine and
+  // was not: deleting 1972-11-18's row left the guard green, because the date is
+  // also mentioned in a paragraph below the table. A date being *discussed* is
+  // not the same as its being accounted for, and the mutation test caught it.
+  const listed = new Set<string>();
+  for (const line of doc.split('\n')) {
+    if (!line.trimStart().startsWith('|')) continue;
+    for (const match of line.matchAll(/(\d{4})-(\d{2})-(\d{2})/g)) {
+      // The Checked and Due columns are dates too. The band's last show was in
+      // 1995, so anything this century is a stamp about the file rather than a
+      // date in the corpus, and letting one through would mean the guard was
+      // quietly asserting something it does not mean.
+      if (Number(match[1]) >= 2000) continue;
+      listed.add(match[0]);
+      // Section D packs a run onto one row (`1985-06-14, 06-15, …`); a short
+      // form continues the year of the full date preceding it.
+      const rest = line.slice(match.index! + match[0].length);
+      for (const short of rest.matchAll(
+        /(?<![\d-])(\d{2})-(\d{2})(?![\d-])/g,
+      )) {
+        listed.add(`${match[1]}-${short[0]}`);
+      }
+    }
+  }
+
+  const built = new Set(dataFiles().map((file) => readShow(file).date));
+  const unbuilt = new Set<string>();
+  for (const release of releases) {
+    if (!release.eligible) continue;
+    for (const date of release.dates) if (!built.has(date)) unbuilt.add(date);
+  }
+  const UNKNOWN_SETLIST_DIR = 'data/unknown-setlists';
+  if (existsSync(UNKNOWN_SETLIST_DIR)) {
+    for (const file of readdirSync(UNKNOWN_SETLIST_DIR) as string[]) {
+      if (!file.endsWith('.json')) continue;
+      unbuilt.add(
+        (
+          JSON.parse(
+            readFileSync(join(UNKNOWN_SETLIST_DIR, file), 'utf8'),
+          ) as ShowFile
+        ).date,
+      );
+    }
+  }
+
+  it('lists every eligible-release date the corpus does not hold', () => {
+    const missing = [...unbuilt].filter((date) => !listed.has(date)).sort();
+    expect(
+      missing,
+      `${DOC} does not account for: ${missing.join(', ')}`,
+    ).toEqual([]);
+  });
+
+  it('lists every show held in data/unknown-setlists/', () => {
+    // Covered by the assertion above, which folds both sources into `unbuilt`;
+    // stated separately so a failure names the pen the date came from.
+    const pen = existsSync(UNKNOWN_SETLIST_DIR)
+      ? (readdirSync(UNKNOWN_SETLIST_DIR) as string[])
+          .filter((file) => file.endsWith('.json'))
+          .map(
+            (file) =>
+              (
+                JSON.parse(
+                  readFileSync(join(UNKNOWN_SETLIST_DIR, file), 'utf8'),
+                ) as ShowFile
+              ).date,
+          )
+      : [];
+    const missing = pen.filter((date) => !listed.has(date)).sort();
+    expect(missing, `${DOC} omits held shows: ${missing.join(', ')}`).toEqual(
+      [],
+    );
+  });
+
+  it('names no date the corpus already holds', () => {
+    // The self-cleaning half: build one of these and its row has to go, or the
+    // file goes on describing a problem that was solved.
+    const stale = [...listed].filter((date) => built.has(date)).sort();
+    expect(
+      stale,
+      `${DOC} still lists dates that are now shows: ${stale.join(', ')}`,
+    ).toEqual([]);
+  });
+});
