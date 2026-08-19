@@ -123,11 +123,23 @@ function segments(field: string): string[] {
     // `{{small|(…)}}` wraps a city in some articles; keep the inside.
     .replace(/\{\{\s*small\s*\|/gi, '')
     .replace(/\{\{\s*break\s*\}\}/gi, ',')
+    // One from the Vault joins the two halves with a word rather than a mark:
+    // "[[Great American Music Hall]] in [[San Francisco, California]]". Only
+    // rewritten when it sits *between two wikilinks*, so a venue that simply
+    // contains the word (a "Music Hall in the Park") is left alone.
+    .replace(/\]\]\s+in\s+\[\[/g, ']],[[')
     .replace(/<br\s*\/?>/gi, ',')
     // Piped link → display text; plain link → its own text.
     .replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, '$1')
     .replace(/\[\[([^\]]*)\]\]/g, '$1')
     .replace(/[{}]/g, '')
+    // A parenthesised trailer is a separator in its own right: Two from the
+    // Vault writes "[[Shrine Auditorium]] ([[Los Angeles]])" with no comma
+    // anywhere, so without this the whole field stays one segment and the
+    // closing bracket is merely trimmed — yielding the venue
+    // "Shrine Auditorium (Los Angeles" and no city at all.
+    .replace(/\s*\(/g, ',')
+    .replace(/\)/g, '')
     .replace(/''+/g, '');
   return flat
     .split(',')

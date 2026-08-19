@@ -59,6 +59,13 @@ export async function articles(titles: string[]): Promise<Map<string, string>> {
       rvprop: 'content',
       rvslots: 'main',
       titles: batch.join('|'),
+      // Follow redirects, or a title that merely differs in case from the real
+      // article silently yields its 64-byte "#REDIRECT" stub instead of the
+      // release. `One From the Vault` is linked that way from one of the
+      // discography's two tables, and read as an article with no track listing,
+      // no prose and no completeness claim — a release that looks unreadable
+      // rather than misdirected.
+      redirects: '1',
     })) as {
       query: {
         pages: {
@@ -67,12 +74,16 @@ export async function articles(titles: string[]): Promise<Map<string, string>> {
           revisions?: { slots: { main: { content: string } } }[];
         }[];
         normalized?: { from: string; to: string }[];
+        redirects?: { from: string; to: string }[];
       };
     };
-    // The API normalises titles (underscores, first-letter case), so map the
-    // response back onto the titles we asked for.
+    // The API normalises titles (underscores, first-letter case) and then
+    // resolves redirects, so undo both, in that order, to map the response back
+    // onto the titles we asked for.
     const alias = new Map<string, string>();
     for (const n of data.query.normalized ?? []) alias.set(n.to, n.from);
+    for (const r of data.query.redirects ?? [])
+      alias.set(r.to, alias.get(r.from) ?? r.from);
     for (const page of data.query.pages) {
       if (page.missing || !page.revisions) continue;
       const asked = alias.get(page.title) ?? page.title;

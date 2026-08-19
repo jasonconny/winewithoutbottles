@@ -1,0 +1,101 @@
+{
+  "id": "19900708",
+  "date": "1990-07-08",
+  "venue": "Three Rivers Stadium",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "country": "USA",
+  "svg": "/shows/19900708.svg",
+  "songCount": 22,
+  "durationSeconds": 10689,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 309
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 710
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 152
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 735
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 914
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 700
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 896
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 286
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 544
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 427
+    }
+  ]
+}

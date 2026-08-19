@@ -1,0 +1,96 @@
+{
+  "id": "19780407",
+  "date": "1978-04-07",
+  "venue": "Hollywood Sportatorium",
+  "city": "Pembroke Pines",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780407.svg",
+  "songCount": 20,
+  "durationSeconds": 9562,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 732
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 158
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 233
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 637
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 492
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 594
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 687
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 660
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 624
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 252
+    }
+  ]
+}

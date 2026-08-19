@@ -1,0 +1,85 @@
+{
+  "id": "19870712",
+  "date": "1987-07-12",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": ["Giants Stadium 1987, 1989, 1991"],
+  "source": "Giants Stadium 1987, 1989, 1991",
+  "note": "The Dead's own two sets. Bob Dylan then played a third set with the band backing him, and Giants Stadium 1987, 1989, 1991 states outright that \"this music is not included\" — thirteen Dylan songs, plus the night's encore of Touch of Grey and Knockin' on Heaven's Door, which therefore falls outside the release too. So this show ends on Not Fade Away and runs ~40 minutes shorter than the batch's others. No published source times the third set. See data/DYLAN-AND-THE-DEAD.md.",
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:25"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "8:11"
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "duration": "4:24"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:46"
+    },
+    {
+      "title": "Tons of Steel",
+      "duration": "6:24"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:55"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "4:55"
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "duration": "5:07"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:54"
+    },
+    {
+      "title": "Bertha",
+      "duration": "7:01"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:08"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "9:12"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:14"
+    },
+    {
+      "title": "Space",
+      "duration": "3:22"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:28"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "7:34"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:11"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "9:08"
+    }
+  ]
+}

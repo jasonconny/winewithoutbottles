@@ -1,0 +1,92 @@
+{
+  "id": "19780406",
+  "date": "1978-04-06",
+  "venue": "Curtis Hixon Hall",
+  "city": "Tampa",
+  "state": "FL",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780406.svg",
+  "songCount": 19,
+  "durationSeconds": 8943,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 188
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 209
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 559
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 385
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 770
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 750
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 441
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 975
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 688
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 510
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 357
+    }
+  ]
+}

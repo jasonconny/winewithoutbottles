@@ -1,0 +1,137 @@
+{
+  "id": "19730610",
+  "date": "1973-06-10",
+  "venue": "Robert F. Kennedy Stadium",
+  "city": "Washington",
+  "state": "DC",
+  "country": "USA",
+  "tags": ["Dark Star", "Here Comes Sunshine 1973"],
+  "source": "Here Comes Sunshine 1973",
+  "note": "A three-set show, and the longest in the corpus at 4:41 — the second RFK night, with members of the Allman Brothers Band joining for the third set. That is what the tail of this setlist is: It Takes a Lot to Laugh, It Takes a Train to Cry, That's All Right at 12:52 and the Not Fade Away > Goin' Down the Road > Drums > Not Fade Away run are the jam, not the Dead's usual close. Jason, 2026-08-18.",
+  "songs": [
+    {
+      "title": "Morning Dew",
+      "duration": "11:55"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:41"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:59"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:30"
+    },
+    {
+      "title": "Wave That Flag",
+      "duration": "6:14"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "8:03"
+    },
+    {
+      "title": "Box of Rain",
+      "duration": "5:12"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "5:23"
+    },
+    {
+      "title": "The Race Is On",
+      "duration": "3:34"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "9:36"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:34"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "12:08"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "18:01"
+    },
+    {
+      "title": "Eyes Of The World",
+      "duration": "22:06"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:14"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:17"
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "duration": "10:54"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "6:16"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "26:37"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "14:34"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:04"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:53"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:51"
+    },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "duration": "8:12"
+    },
+    {
+      "title": "That's All Right",
+      "duration": "12:52"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:49"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "11:27"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "10:36"
+    },
+    {
+      "title": "Drums",
+      "duration": "5:52"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "3:33"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "3:18"
+    }
+  ]
+}

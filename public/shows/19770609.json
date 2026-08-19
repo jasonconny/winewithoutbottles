@@ -1,0 +1,101 @@
+{
+  "id": "19770609",
+  "date": "1977-06-09",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19770609.svg",
+  "songCount": 22,
+  "durationSeconds": 9929,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 687
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 366
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 460
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 464
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 540
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 1049
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 696
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 330
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 262
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 51
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 670
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 565
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 368
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 318
+    }
+  ]
+}

@@ -201,6 +201,15 @@ function chooseSource(date: string): Release | null {
  * tags, and typographic apostrophes. All of it has to go, because the colour
  * algorithm hashes the title's words — a stray credit would repaint the stripe.
  */
+/**
+ * Titles that can only ever be the tail of a combined track, never its name.
+ *
+ * The combined-row rule takes the *last* title, because the earlier one is
+ * normally an opening movement ("Lady with a Fan" / "Terrapin Station"). These
+ * invert that: they are what the track runs into, not what it is.
+ */
+const TRACK_TAIL_TITLES = new Set(['Drums', 'Space']);
+
 function cleanWikiTitle(raw: string): string {
   return (
     raw
@@ -264,6 +273,15 @@ interface ParsedTrack {
 function unquotedTitle(text: string): string {
   return (
     text
+      // Resolve wikilinks *before* splitting on the first bracket, or a link
+      // whose target is disambiguated cuts the title in half: Live at the
+      // Fillmore East 2-11-69 writes
+      // `#Introduction by [[Bill Graham (promoter)|Bill Graham]] – 1:19`, and
+      // splitting first stops at "(promoter)" to yield the title
+      // `Introduction by [[Bill Graham`. Only the bracket that starts the
+      // songwriter credits should end the title.
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
+      .replace(/\[\[([^\]]+)\]\]/g, '$1')
       .split(/\s*\(/)[0]
       .split(/\s+[–—-]\s+/)[0]
       // A stray quote can sit on either end when the pair is unbalanced.
@@ -306,6 +324,16 @@ function parseTrack(line: string): ParsedTrack | null {
     const quoted = from.match(/^(?:"[^"]+"\s*[/>→]\s*)*"([^"]+)"/);
     if (!quoted) return null;
     title = cleanWikiTitle(quoted[1]);
+    // …unless the last title is Drums or Space, which are the *tail* of a
+    // track rather than what it is. One from the Vault lists
+    // `"Eyes of the World" / "Drums" – 14:32`, and taking the last put a
+    // 14:32 Drums stripe on the wall where an Eyes of the World belongs — a
+    // completely different colour, since the title is what colours a stripe.
+    // The named song is the first one here; the appendage never is.
+    if (TRACK_TAIL_TITLES.has(title)) {
+      const first = from.match(/^"([^"]+)"/);
+      if (first) title = cleanWikiTitle(first[1]);
+    }
     after = from.slice(quoted[0].length);
   } else {
     // No usable quote pair — Europe '72 prints

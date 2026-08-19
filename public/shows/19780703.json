@@ -1,0 +1,88 @@
+{
+  "id": "19780703",
+  "date": "1978-07-03",
+  "venue": "St. Paul Civic Center Arena",
+  "city": "St. Paul",
+  "state": "MN",
+  "country": "USA",
+  "tags": [
+    "July 1978"
+  ],
+  "svg": "/shows/19780703.svg",
+  "songCount": 18,
+  "durationSeconds": 8516,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 373
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 812
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 670
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 651
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Werewolves of London",
+      "durationSeconds": 432
+    }
+  ]
+}

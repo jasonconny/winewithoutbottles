@@ -113,6 +113,104 @@ export const HAND_RESOLVED: Record<
     note: string;
   }
 > = {
+  // Not yet released. The article is a pre-release announcement: it lists all
+  // 145 tracks across the seven shows, and not one duration — Rhino issues
+  // those with the record on 2026-09-18. Nothing here is wrong, so the entry
+  // pins no field; it exists so the next pass knows the importer's refusal is
+  // the untimed-track guard working, not a parser bug. Import after release.
+  // The article has the date split but no timings; MusicBrainz has the timings
+  // but no date split. Neither alone can build the show — see data/CORRECTIONS.md.
+  'July 29 1966, P.N.E. Garden Aud., Vancouver Canada': {
+    dates: ['1966-07-29'],
+    bonusDates: ['1966-07-30'],
+    completeness: 'complete',
+    note: 'article: "the complete concert recorded at the PNE Garden Auditorium ... on July 29, 1966. It also includes four songs recorded at the same venue on the following day" — Sides A-C are the show, Side D the 1966-07-30 bonus. A vinyl-only release: the track listing carries no durations at all, so 19660729 takes the article\'s setlist and MusicBrainz\'s timings (release f1ea8bd0-b5a0-4a2c-a32b-49147a0e9e45), whose first 13 tracks are Sides A-C in order',
+  },
+  // Batch 4 triage (2026-08-18): the non-series releases whose completeness the
+  // parser could not read. Each was settled from the article's own prose, or —
+  // where the prose says nothing — from the release's track list against an
+  // archive.org soundboard via `--gaps`.
+  'Family Dog at the Great Highway, San Francisco, CA 4/18/70': {
+    completeness: 'partial',
+    note: "the article claims nothing and archive.org catalogues no tape for the date, but the release is 17 tracks / 72:39 ending in six Pigpen blues (Katie Mae, Ain't It Crazy, Roberta, Bring Me My Shotgun, The Mighty Flood, Black Snake) and credits John Dawson and David Nelson — the acoustic set, not the night. Jason confirms acoustic only",
+  },
+  'Two from the Vault': {
+    completeness: 'complete',
+    note: 'the article claims nothing and archive.org catalogues no tape for 1968-08-24, so this rests on Jason\'s reading: 15 tracks / 109:11 is a whole 1968 night. The release spells one title "Good Morning, Little Schoolgirl", which is an alias in data/songs.json rather than a second song',
+  },
+  'Three from the Vault': {
+    completeness: 'complete',
+    note: 'article: "contains the complete show recorded on February 19, 1971 at the Capitol Theatre in Port Chester, New York". The tape agrees once two teases are set aside: against gd1971-02-19.151881.soundboard.ramrod.miller.flac1644 the release covers 19 of 21, and the two it appears to lack are The Merry-Go-Round Broke Down (0:38) and Spring Song (0:29), which the release issues as the single track Two Ditties. All three are notASong, beside the existing \'merry-go-round and beer-barrel tunings\'',
+  },
+  "Truckin' Up to Buffalo": {
+    completeness: 'complete',
+    note: "the article claims nothing. Against gd1989-07-04.140237.UltraMatrix.sbd.cm.miller.flac1644 the release covers 20 of 21, and the 21st is the tape's Playing In The Band Reprise — which the release does carry, as 'Playing in the Band (reprise)'. A registry miss, not a gap; the title is now canonical",
+  },
+  'Live at Hampton Coliseum': {
+    completeness: 'partial',
+    note: "the article claims nothing beyond it being a two-disc vinyl LP in a limited edition of 7,900. Against gd1979-05-04.177538.nak700.glassberg.menke.miller.clugston.flac2496 it carries 13 of the night's 22 songs, missing nine including Franklin's Tower, Drums and Space \u2014 four LP sides cannot hold a 1979 show",
+  },
+  'Live at the Fillmore East 2-11-69': {
+    completeness: 'complete',
+    note: "the article claims nothing and archive.org catalogues no tape for 1969-02-11; 18 tracks / 2:01:14 is a whole night, per Jason. Its first track is 'Introduction by Bill Graham', now notASong beside 'Wolfman Jack introduces the band'",
+  },
+  'One From the Vault': {
+    completeness: 'complete',
+    note: 'article: "It was the first complete concert recording released commercially by the band." The index links this release under a capitalisation that redirects (One From the Vault -> One from the Vault), so until generator/wiki.ts followed redirects the article read as a 64-byte stub with no track listing and no claim at all',
+  },
+  'View from the Vault': {
+    completeness: 'complete',
+    note: "the article claims nothing, but the release's 21 tracks match every song on gd1990-07-08.141863.UltraMatrix.sbd.cm.miller.flac1644 — 21 played, 21 released",
+  },
+  'View from the Vault II': {
+    bonusDates: ['1990-07-12'],
+    completeness: 'complete',
+    note: "the article claims nothing, but the release covers all 19 songs on gd1991-06-14.149642.sbd.cm.miller.flac16. Three further tracks sit under \":''July 12, 1990 – second set:''\" and are bonus material, not part of the 6/14/91 show",
+  },
+  'View from the Vault III': {
+    completeness: 'complete',
+    note: 'article: "It contains the June 16, 1990 show at the Shoreline Amphitheatre"; the tape agrees, 19 played and 19 released',
+  },
+  'View from the Vault IV': {
+    completeness: 'partial',
+    note: 'article: "This volume contains selections from two consecutive shows in California — July 24, 1987, at Oakland Stadium, and July 26, 1987 at Anaheim Stadium." Selections, so neither night can be sourced whole. Both are Bob Dylan and the Grateful Dead 1987 tour dates and carry that tour\'s separate problem too — see data/DYLAN-AND-THE-DEAD.md',
+  },
+  'Houston, Texas 11-18-1972': {
+    completeness: 'partial',
+    note: 'article: "includes most of the second set of the concert" — one set, incompletely, so it can gap-fill but never source the night',
+  },
+  'Winterland: May 30th 1971': {
+    completeness: 'partial',
+    note: 'article: "The album includes most of the second set from that concert, as well as the encore"',
+  },
+  'The Warfield, San Francisco, California, October 9 & 10, 1980': {
+    completeness: 'partial',
+    note: 'article: "It contains the two sets of acoustic music performed by the Dead on October 9 and 10, 1980" — the acoustic sets only. Both nights also played electric sets, so neither date is whole here',
+  },
+  'Rocking the Cradle: Egypt 1978': {
+    completeness: 'partial',
+    note: 'article: of the three Giza concerts, "The final two, September 15 & 16, 1978, are excerpted for the album" — excerpts, not shows',
+  },
+  'Live at the Cow Palace': {
+    bonusDates: ['1976-06-09', '1976-09-24', '1976-09-30', '1976-10-02'],
+    completeness: 'complete',
+    note: 'the article makes no completeness claim, but the release is the fullest source for the night. Its bonus disc, "Spirit of \'76", holds eight tracks from four other 1976 nights, each named inline on its own track line and so invisible to the parser: Boston Music Hall 6/9 (2), College of William & Mary 9/24 (3), Mershon Auditorium 9/30 (1) and Riverfront Coliseum 10/2 (2). On the main discs the night is whole: gd1976-12-31.fm.hollister.15114.shnf titles one track "Wharf Rat > Drums" (13:30) where the release has Wharf Rat alone (13:28) \u2014 the same music, the short post-Wharf-Rat drums folded in rather than missing; the release\'s separate Drums (3:04) is the later one, split out of what the Warner pre-FM tape leaves inside Slipknot!. The release also carries the second encore (Uncle John\'s Band, And We Bid You Goodnight) that the Hollister tape stops before',
+  },
+  // Also unreleased, and easy to miss because the index reads it as complete:
+  // it is the same 6/30/85 recording as the box, issued separately on the same
+  // day. See the 'Summer Magic 1985' entry below.
+  'Merriweather 6/30/85': {
+    note: 'article: "It contains the complete concert recorded at Merriweather Post Pavilion ... on June 30, 1985. It is scheduled to be released on September 18, 2026" — complete, but not yet out, and its track listing carries no timings',
+  },
+  'Summer Magic 1985': {
+    note: 'article: an upcoming box set, scheduled for release on September 18, 2026 — dates and completeness are right, but the track listing carries no timings at all, so no show here can be sourced until the release is out',
+  },
+  'The Closing of Winterland': {
+    dates: ['1978-12-31'],
+    bonusDates: ['1970-12-31', '1971-12-31', '1972-12-31', '1977-12-31'],
+    completeness: 'complete',
+    note: 'article: the complete 12/31/78 concert, plus a bonus disc titled "New Year\'s Eves at Winterland" drawn from four earlier New Year\'s Eves at the venue — one track from 1970, two from 1971, one from 1972 and five from 1977. Each names its own date inline rather than under a heading, so the nine orphan on import and the four dates went unrecorded until this entry',
+  },
   // Dick's Picks, migrated out of data/releases.json (2026-08-14). These
   // readings were hand-edited straight into the JSON, where a --draft would
   // silently revert them: twelve had been reviewed and upgraded to complete

@@ -1,0 +1,100 @@
+{
+  "id": "19780705",
+  "date": "1978-07-05",
+  "venue": "Omaha Civic Auditorium",
+  "city": "Omaha",
+  "state": "NE",
+  "country": "USA",
+  "tags": [
+    "July 1978"
+  ],
+  "svg": "/shows/19780705.svg",
+  "songCount": 21,
+  "durationSeconds": 9302,
+  "songs": [
+    {
+      "title": "Sugaree",
+      "durationSeconds": 591
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 208
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 479
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 229
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 207
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 428
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 762
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 743
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 253
+    }
+  ]
+}

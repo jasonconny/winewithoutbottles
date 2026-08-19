@@ -17,6 +17,16 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 5495
   },
   {
+    "id": "19660729",
+    "date": "1966-07-29",
+    "venue": "P.N.E. Garden Auditorium",
+    "city": "Vancouver",
+    "country": "CAN",
+    "svg": "/shows/19660729.svg",
+    "songCount": 13,
+    "durationSeconds": 3716
+  },
+  {
     "id": "19671110",
     "date": "1967-11-10",
     "venue": "Shrine Exposition Hall",
@@ -46,6 +56,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7116
   },
   {
+    "id": "19680824",
+    "date": "1968-08-24",
+    "venue": "Shrine Auditorium",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19680824.svg",
+    "songCount": 12,
+    "durationSeconds": 8605
+  },
+  {
     "id": "19681020",
     "date": "1968-10-20",
     "venue": "Greek Theatre",
@@ -59,6 +83,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19681020.svg",
     "songCount": 7,
     "durationSeconds": 3911
+  },
+  {
+    "id": "19690211",
+    "date": "1969-02-11",
+    "venue": "Fillmore East",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19690211.svg",
+    "songCount": 17,
+    "durationSeconds": 7502
   },
   {
     "id": "19690222",
@@ -454,6 +492,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10083
   },
   {
+    "id": "19710219",
+    "date": "1971-02-19",
+    "venue": "Capitol Theatre",
+    "city": "Port Chester",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19710219.svg",
+    "songCount": 19,
+    "durationSeconds": 8469
+  },
+  {
     "id": "19710224",
     "date": "1971-02-24",
     "venue": "Capitol Theatre",
@@ -514,7 +563,7 @@ export const shows: ShowSummary[] = [
     "id": "19710806",
     "date": "1971-08-06",
     "venue": "Hollywood Palladium",
-    "city": "Hollywood",
+    "city": "Los Angeles",
     "state": "CA",
     "country": "USA",
     "tags": [
@@ -629,7 +678,7 @@ export const shows: ShowSummary[] = [
     "id": "19711120",
     "date": "1971-11-20",
     "venue": "Pauley Pavilion",
-    "city": "",
+    "city": "Los Angeles",
     "state": "CA",
     "country": "USA",
     "tags": [
@@ -643,7 +692,7 @@ export const shows: ShowSummary[] = [
     "id": "19711206",
     "date": "1971-12-06",
     "venue": "Felt Forum",
-    "city": "New York City",
+    "city": "New York",
     "state": "NY",
     "country": "USA",
     "tags": [
@@ -657,13 +706,41 @@ export const shows: ShowSummary[] = [
     "id": "19711207",
     "date": "1971-12-07",
     "venue": "Felt Forum",
-    "city": "New York City",
+    "city": "New York",
     "tags": [
       "Dave's Picks"
     ],
     "svg": "/shows/19711207.svg",
     "songCount": 26,
     "durationSeconds": 9223
+  },
+  {
+    "id": "19711209",
+    "date": "1971-12-09",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19711209.svg",
+    "songCount": 21,
+    "durationSeconds": 7729
+  },
+  {
+    "id": "19711210",
+    "date": "1971-12-10",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19711210.svg",
+    "songCount": 28,
+    "durationSeconds": 11021
   },
   {
     "id": "19711214",
@@ -683,7 +760,7 @@ export const shows: ShowSummary[] = [
     "id": "19720326",
     "date": "1972-03-26",
     "venue": "Academy of Music",
-    "city": "New York City",
+    "city": "New York",
     "state": "NY",
     "country": "USA",
     "tags": [
@@ -1086,6 +1163,49 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11805
   },
   {
+    "id": "19721017",
+    "date": "1972-10-17",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19721017.svg",
+    "songCount": 31,
+    "durationSeconds": 13243
+  },
+  {
+    "id": "19721018",
+    "date": "1972-10-18",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Listen to the River"
+    ],
+    "svg": "/shows/19721018.svg",
+    "songCount": 24,
+    "durationSeconds": 10271
+  },
+  {
+    "id": "19721019",
+    "date": "1972-10-19",
+    "venue": "Fox Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19721019.svg",
+    "songCount": 29,
+    "durationSeconds": 11189
+  },
+  {
     "id": "19721117",
     "date": "1972-11-17",
     "venue": "Century II Convention Center",
@@ -1202,6 +1322,119 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 13019
   },
   {
+    "id": "19730513",
+    "date": "1973-05-13",
+    "venue": "Iowa State Fairgrounds",
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730513.svg",
+    "songCount": 32,
+    "durationSeconds": 15652
+  },
+  {
+    "id": "19730520",
+    "date": "1973-05-20",
+    "venue": "Campus Stadium",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730520.svg",
+    "songCount": 31,
+    "durationSeconds": 12915
+  },
+  {
+    "id": "19730526",
+    "date": "1973-05-26",
+    "venue": "Kezar Stadium",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730526.svg",
+    "songCount": 31,
+    "durationSeconds": 13860
+  },
+  {
+    "id": "19730609",
+    "date": "1973-06-09",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730609.svg",
+    "songCount": 26,
+    "durationSeconds": 11895
+  },
+  {
+    "id": "19730610",
+    "date": "1973-06-10",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Here Comes Sunshine 1973"
+    ],
+    "svg": "/shows/19730610.svg",
+    "songCount": 31,
+    "durationSeconds": 16875
+  },
+  {
+    "id": "19730622",
+    "date": "1973-06-22",
+    "venue": "P.N.E. Coliseum",
+    "city": "Vancouver",
+    "country": "CAN",
+    "tags": [
+      "Pacific Northwest '73–'74"
+    ],
+    "svg": "/shows/19730622.svg",
+    "songCount": 30,
+    "durationSeconds": 14721
+  },
+  {
+    "id": "19730624",
+    "date": "1973-06-24",
+    "venue": "Portland Memorial Coliseum",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Pacific Northwest '73–'74"
+    ],
+    "svg": "/shows/19730624.svg",
+    "songCount": 27,
+    "durationSeconds": 11347
+  },
+  {
+    "id": "19730626",
+    "date": "1973-06-26",
+    "venue": "Seattle Center Arena",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "tags": [
+      "Pacific Northwest '73–'74"
+    ],
+    "svg": "/shows/19730626.svg",
+    "songCount": 30,
+    "durationSeconds": 12672
+  },
+  {
     "id": "19730908",
     "date": "1973-09-08",
     "venue": "Nassau Coliseum",
@@ -1229,6 +1462,79 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19731019.svg",
     "songCount": 23,
     "durationSeconds": 11334
+  },
+  {
+    "id": "19731029",
+    "date": "1973-10-29",
+    "venue": "Kiel Auditorium",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Listen to the River"
+    ],
+    "svg": "/shows/19731029.svg",
+    "songCount": 25,
+    "durationSeconds": 11361
+  },
+  {
+    "id": "19731030",
+    "date": "1973-10-30",
+    "venue": "Kiel Auditorium",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Listen to the River"
+    ],
+    "svg": "/shows/19731030.svg",
+    "songCount": 24,
+    "durationSeconds": 12187
+  },
+  {
+    "id": "19731109",
+    "date": "1973-11-09",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Winterland 1973"
+    ],
+    "svg": "/shows/19731109.svg",
+    "songCount": 27,
+    "durationSeconds": 11251
+  },
+  {
+    "id": "19731110",
+    "date": "1973-11-10",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Playing Palindrome",
+      "Winterland 1973"
+    ],
+    "svg": "/shows/19731110.svg",
+    "songCount": 26,
+    "durationSeconds": 11245
+  },
+  {
+    "id": "19731111",
+    "date": "1973-11-11",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Winterland 1973"
+    ],
+    "svg": "/shows/19731111.svg",
+    "songCount": 25,
+    "durationSeconds": 11719
   },
   {
     "id": "19731114",
@@ -1391,6 +1697,50 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19740514.svg",
     "songCount": 25,
     "durationSeconds": 10942
+  },
+  {
+    "id": "19740517",
+    "date": "1974-05-17",
+    "venue": "P.N.E. Coliseum",
+    "city": "Vancouver",
+    "country": "CAN",
+    "tags": [
+      "Pacific Northwest '73–'74",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740517.svg",
+    "songCount": 26,
+    "durationSeconds": 10651
+  },
+  {
+    "id": "19740519",
+    "date": "1974-05-19",
+    "venue": "Portland Memorial Coliseum",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Pacific Northwest '73–'74",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740519.svg",
+    "songCount": 32,
+    "durationSeconds": 12178
+  },
+  {
+    "id": "19740521",
+    "date": "1974-05-21",
+    "venue": "Hec Edmundson Pavilion",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "tags": [
+      "Pacific Northwest '73–'74",
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740521.svg",
+    "songCount": 25,
+    "durationSeconds": 11733
   },
   {
     "id": "19740616",
@@ -1675,6 +2025,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19741020.svg",
     "songCount": 28,
     "durationSeconds": 13795
+  },
+  {
+    "id": "19750813",
+    "date": "1975-08-13",
+    "venue": "Great American Music Hall",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19750813.svg",
+    "songCount": 18,
+    "durationSeconds": 7265
   },
   {
     "id": "19750928",
@@ -2053,6 +2414,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19761010.svg",
     "songCount": 23,
     "durationSeconds": 9503
+  },
+  {
+    "id": "19761231",
+    "date": "1976-12-31",
+    "venue": "Cow Palace",
+    "city": "Daly City",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19761231.svg",
+    "songCount": 22,
+    "durationSeconds": 11283
   },
   {
     "id": "19770226",
@@ -2446,6 +2818,39 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10400
   },
   {
+    "id": "19770607",
+    "date": "1977-06-07",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19770607.svg",
+    "songCount": 21,
+    "durationSeconds": 11105
+  },
+  {
+    "id": "19770608",
+    "date": "1977-06-08",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19770608.svg",
+    "songCount": 23,
+    "durationSeconds": 11478
+  },
+  {
+    "id": "19770609",
+    "date": "1977-06-09",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19770609.svg",
+    "songCount": 22,
+    "durationSeconds": 9929
+  },
+  {
     "id": "19770903",
     "date": "1977-09-03",
     "venue": "Raceway Park",
@@ -2670,6 +3075,104 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8832
   },
   {
+    "id": "19780406",
+    "date": "1978-04-06",
+    "venue": "Curtis Hixon Hall",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780406.svg",
+    "songCount": 19,
+    "durationSeconds": 8943
+  },
+  {
+    "id": "19780407",
+    "date": "1978-04-07",
+    "venue": "Hollywood Sportatorium",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780407.svg",
+    "songCount": 20,
+    "durationSeconds": 9562
+  },
+  {
+    "id": "19780408",
+    "date": "1978-04-08",
+    "venue": "Veterans Memorial Coliseum",
+    "city": "Jacksonville",
+    "state": "FL",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780408.svg",
+    "songCount": 19,
+    "durationSeconds": 9743
+  },
+  {
+    "id": "19780410",
+    "date": "1978-04-10",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780410.svg",
+    "songCount": 19,
+    "durationSeconds": 9822
+  },
+  {
+    "id": "19780411",
+    "date": "1978-04-11",
+    "venue": "Fox Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780411.svg",
+    "songCount": 20,
+    "durationSeconds": 9823
+  },
+  {
+    "id": "19780412",
+    "date": "1978-04-12",
+    "venue": "Cameron Indoor Stadium",
+    "city": "Durham",
+    "state": "NC",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780412.svg",
+    "songCount": 21,
+    "durationSeconds": 10457
+  },
+  {
+    "id": "19780414",
+    "date": "1978-04-14",
+    "venue": "Cassell Coliseum",
+    "city": "Blacksburg",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780414.svg",
+    "songCount": 19,
+    "durationSeconds": 9337
+  },
+  {
     "id": "19780415",
     "date": "1978-04-15",
     "venue": "College of William & Mary",
@@ -2682,6 +3185,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19780415.svg",
     "songCount": 17,
     "durationSeconds": 8627
+  },
+  {
+    "id": "19780416",
+    "date": "1978-04-16",
+    "venue": "Huntington Civic Center",
+    "city": "Huntington",
+    "state": "WV",
+    "country": "USA",
+    "tags": [
+      "Friend of the Devils"
+    ],
+    "svg": "/shows/19780416.svg",
+    "songCount": 19,
+    "durationSeconds": 9047
   },
   {
     "id": "19780422",
@@ -2714,7 +3231,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19780510",
     "date": "1978-05-10",
-    "venue": "Veteran's Memorial Coliseum",
+    "venue": "Veterans Memorial Coliseum",
     "city": "New Haven",
     "state": "CT",
     "country": "USA",
@@ -2768,6 +3285,76 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10303
   },
   {
+    "id": "19780701",
+    "date": "1978-07-01",
+    "venue": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780701.svg",
+    "songCount": 16,
+    "durationSeconds": 6994
+  },
+  {
+    "id": "19780703",
+    "date": "1978-07-03",
+    "venue": "St. Paul Civic Center Arena",
+    "city": "St. Paul",
+    "state": "MN",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780703.svg",
+    "songCount": 18,
+    "durationSeconds": 8516
+  },
+  {
+    "id": "19780705",
+    "date": "1978-07-05",
+    "venue": "Omaha Civic Auditorium",
+    "city": "Omaha",
+    "state": "NE",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780705.svg",
+    "songCount": 21,
+    "durationSeconds": 9302
+  },
+  {
+    "id": "19780707",
+    "date": "1978-07-07",
+    "venue": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780707.svg",
+    "songCount": 22,
+    "durationSeconds": 9748
+  },
+  {
+    "id": "19780708",
+    "date": "1978-07-08",
+    "venue": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "country": "USA",
+    "tags": [
+      "July 1978"
+    ],
+    "svg": "/shows/19780708.svg",
+    "songCount": 22,
+    "durationSeconds": 10209
+  },
+  {
     "id": "19781021",
     "date": "1978-10-21",
     "venue": "Winterland",
@@ -2794,6 +3381,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19781022.svg",
     "songCount": 17,
     "durationSeconds": 9872
+  },
+  {
+    "id": "19781231",
+    "date": "1978-12-31",
+    "venue": "Winterland",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19781231.svg",
+    "songCount": 27,
+    "durationSeconds": 15029
   },
   {
     "id": "19790107",
@@ -3522,6 +4123,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7858
   },
   {
+    "id": "19870712",
+    "date": "1987-07-12",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19870712.svg",
+    "songCount": 18,
+    "durationSeconds": 7339
+  },
+  {
     "id": "19870915",
     "date": "1987-09-15",
     "venue": "Madison Square Garden",
@@ -3764,6 +4379,84 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19890403.svg",
     "songCount": 21,
     "durationSeconds": 8684
+  },
+  {
+    "id": "19890704",
+    "date": "1989-07-04",
+    "venue": "Rich Stadium",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19890704.svg",
+    "songCount": 21,
+    "durationSeconds": 9431
+  },
+  {
+    "id": "19890707",
+    "date": "1989-07-07",
+    "venue": "John F. Kennedy Stadium",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19890707.svg",
+    "songCount": 19,
+    "durationSeconds": 10498
+  },
+  {
+    "id": "19890709",
+    "date": "1989-07-09",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19890709.svg",
+    "songCount": 19,
+    "durationSeconds": 9522
+  },
+  {
+    "id": "19890710",
+    "date": "1989-07-10",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19890710.svg",
+    "songCount": 19,
+    "durationSeconds": 9851
+  },
+  {
+    "id": "19890712",
+    "date": "1989-07-12",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "RFK 1989"
+    ],
+    "svg": "/shows/19890712.svg",
+    "songCount": 20,
+    "durationSeconds": 9476
+  },
+  {
+    "id": "19890713",
+    "date": "1989-07-13",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "RFK 1989"
+    ],
+    "svg": "/shows/19890713.svg",
+    "songCount": 18,
+    "durationSeconds": 9997
   },
   {
     "id": "19890715",
@@ -4211,6 +4904,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9467
   },
   {
+    "id": "19900616",
+    "date": "1990-06-16",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19900616.svg",
+    "songCount": 20,
+    "durationSeconds": 9865
+  },
+  {
     "id": "19900623",
     "date": "1990-06-23",
     "venue": "Autzen Stadium",
@@ -4223,6 +4927,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19900623.svg",
     "songCount": 21,
     "durationSeconds": 9822
+  },
+  {
+    "id": "19900708",
+    "date": "1990-07-08",
+    "venue": "Three Rivers Stadium",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19900708.svg",
+    "songCount": 22,
+    "durationSeconds": 10689
   },
   {
     "id": "19900716",
@@ -4491,6 +5206,49 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19910512.svg",
     "songCount": 19,
     "durationSeconds": 9981
+  },
+  {
+    "id": "19910614",
+    "date": "1991-06-14",
+    "venue": "Robert F. Kennedy Stadium",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19910614.svg",
+    "songCount": 19,
+    "durationSeconds": 9847
+  },
+  {
+    "id": "19910616",
+    "date": "1991-06-16",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991"
+    ],
+    "svg": "/shows/19910616.svg",
+    "songCount": 18,
+    "durationSeconds": 9582
+  },
+  {
+    "id": "19910617",
+    "date": "1991-06-17",
+    "venue": "Giants Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "tags": [
+      "Giants Stadium 1987, 1989, 1991",
+      "Dark Star"
+    ],
+    "svg": "/shows/19910617.svg",
+    "songCount": 22,
+    "durationSeconds": 9812
   },
   {
     "id": "19910620",

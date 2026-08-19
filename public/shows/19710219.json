@@ -1,0 +1,89 @@
+{
+  "id": "19710219",
+  "date": "1971-02-19",
+  "venue": "Capitol Theatre",
+  "city": "Port Chester",
+  "state": "NY",
+  "country": "USA",
+  "svg": "/shows/19710219.svg",
+  "songCount": 19,
+  "durationSeconds": 8469,
+  "songs": [
+    {
+      "title": "Truckin'",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 298
+    },
+    {
+      "title": "It Hurts Me Too",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Dark Hollow",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 882
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 204
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Easy Wind",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 262
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 969
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 1123
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 300
+    }
+  ]
+}

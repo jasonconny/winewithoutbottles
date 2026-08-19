@@ -3,6 +3,7 @@ import { basename, join } from 'node:path';
 import { cleanTitle, isValidDuration, parseShowId } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
+import { buildRuns } from '@/galleries';
 import { releaseTag } from '../generator/release-tag';
 import type { Completeness } from '../generator/release-tag';
 
@@ -91,38 +92,51 @@ function readShow(file: string): ShowFile {
 }
 
 /**
- * Does this release's date set match some tour's exactly?
+ * Does this release's date set exactly match a grouping the galleries already
+ * derive — a tour, or a run?
  *
  * Such a release grants no show tag: its index page would list precisely the
- * shows the tour gallery already lists, so the tag is a duplicate rather than a
- * grouping. Europe '72 is the case in the data — all 22 shows of the Europe
- * 1972 tour and nothing besides.
+ * shows that gallery already lists, so the tag is a duplicate rather than a
+ * grouping.
  *
- * Derived from the corpus rather than hard-coded, so it keeps up as tours and
- * releases change: a release growing a date beyond its tour, or a tour gaining
- * a show the release lacks, stops being an exact cover and the tag starts
- * being required.
+ * **Tours** were the first case: Europe '72 covers all 22 shows of the Europe
+ * 1972 tour and nothing besides. **Runs** are the second, and they arrived by
+ * collision rather than by reasoning — `Winterland June 1977: The Complete
+ * Recordings` holds 6/7, 6/8 and 6/9/77, which are also a run at one venue on
+ * consecutive nights, so the derived run and the release tag were both named
+ * `Winterland June 1977` and both slugified to `winterland-june-1977`. The
+ * registry's duplicate-slug guard threw, which is how it surfaced.
+ *
+ * Derived from the corpus rather than hard-coded, so it keeps up: a release
+ * growing a date beyond its run, or a run gaining a show the release lacks,
+ * stops being an exact cover and the tag starts being required.
  */
-function coversExactlyOneTour(dates: string[]): boolean {
+function coversExactlyOneGrouping(dates: string[]): boolean {
   if (!dates.length) return false;
+  const shows = dataFiles().map(
+    (file) => readShow(file) as { tour?: string; date: string; id: string },
+  );
+  const groups: Set<string>[] = [];
   const byTour = new Map<string, Set<string>>();
-  for (const file of dataFiles()) {
-    const show = readShow(file) as { tour?: string; date: string };
+  for (const show of shows) {
     if (!show.tour) continue;
     byTour.set(
       show.tour,
       (byTour.get(show.tour) ?? new Set<string>()).add(show.date),
     );
   }
+  groups.push(...byTour.values());
+  // Runs come from the same function the galleries use, so the two can't drift.
+  for (const run of buildRuns(
+    shows.map((show) => ({ ...show, durationSeconds: 0 })) as never,
+  ))
+    groups.push(new Set(run.shows.map((show) => show.date)));
+
   const set = new Set(dates);
-  for (const tourDates of byTour.values()) {
-    if (
-      tourDates.size === set.size &&
-      [...tourDates].every((date) => set.has(date))
-    )
-      return true;
-  }
-  return false;
+  return groups.some(
+    (group) =>
+      group.size === set.size && [...group].every((date) => set.has(date)),
+  );
 }
 
 describe('show data is well-formed', () => {
@@ -610,7 +624,7 @@ describe('official-release index is well-formed', () => {
         // duplicate the tour gallery. Europe '72 is the case — all 22 shows of
         // the Europe 1972 tour and nothing else — and those shows deliberately
         // carry no `Europe '72` tag.
-        if (coversExactlyOneTour(release.dates)) continue;
+        if (coversExactlyOneGrouping(release.dates)) continue;
         expect(
           tags.has(tag),
           `${file}: sourced from "${part}", which grants the tag "${tag}", but the show does not carry it`,

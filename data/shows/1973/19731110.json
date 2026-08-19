@@ -1,0 +1,117 @@
+{
+  "id": "19731110",
+  "date": "1973-11-10",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Playing Palindrome", "Winterland 1973"],
+  "source": "Winterland 1973: The Complete Recordings",
+  "songs": [
+    {
+      "title": "Bertha",
+      "duration": "7:11"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "5:15"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:40"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:50"
+    },
+    {
+      "title": "Deal",
+      "duration": "4:40"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "3:42"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:39"
+    },
+    {
+      "title": "El Paso",
+      "duration": "4:54"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:12"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:51"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "8:51"
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "duration": "1:28"
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "duration": "5:00"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "11:58"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "11:59"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:39"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "12:24"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "1:50"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "7:38"
+    },
+    {
+      "title": "Big River",
+      "duration": "5:12"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:19"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "12:18"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:43"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:39"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "5:28"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "7:05"
+    }
+  ],
+  "note": "The release lists the Weather Report Suite as a single 18:26 track and the corpus keeps it as three stripes. No tape settles this one — gd73-11-10.sbd.unknown.3290.sbeok.shnf carries one undivided 14:57 track, three and a half minutes short of the release. Split by ear by Jason, 2026-08-18, with the remainder carried on Let It Grow so the three parts sum to the release's 18:26 exactly — the same place he has put it every other time."
+}

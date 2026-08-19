@@ -1,0 +1,136 @@
+{
+  "id": "19730626",
+  "date": "1973-06-26",
+  "venue": "Seattle Center Arena",
+  "city": "Seattle",
+  "state": "WA",
+  "country": "USA",
+  "tags": [
+    "Pacific Northwest '73–'74"
+  ],
+  "svg": "/shows/19730626.svg",
+  "songCount": 30,
+  "durationSeconds": 12672,
+  "songs": [
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 248
+    },
+    {
+      "title": "You Ain't Woman Enough",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 546
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 214
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 488
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 208
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 949
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 207
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 346
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 718
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 191
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 839
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 655
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 393
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "durationSeconds": 325
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1086
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 236
+    }
+  ]
+}

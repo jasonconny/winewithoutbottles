@@ -1,0 +1,85 @@
+{
+  "id": "19750813",
+  "date": "1975-08-13",
+  "venue": "Great American Music Hall",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19750813.svg",
+  "songCount": 18,
+  "durationSeconds": 7265,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 418
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 329
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 730
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 142
+    },
+    {
+      "title": "King Solomon's Marbles",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 359
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 234
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Sage and Spirit",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 433
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Blues for Allah",
+      "durationSeconds": 1261
+    }
+  ]
+}

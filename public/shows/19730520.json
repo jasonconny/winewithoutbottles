@@ -1,0 +1,140 @@
+{
+  "id": "19730520",
+  "date": "1973-05-20",
+  "venue": "Campus Stadium",
+  "city": "Santa Barbara",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Here Comes Sunshine 1973"
+  ],
+  "svg": "/shows/19730520.svg",
+  "songCount": 31,
+  "durationSeconds": 12915,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 374
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 487
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 183
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 477
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 195
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 1169
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 217
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 254
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 420
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 676
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 637
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 732
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 614
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 241
+    }
+  ]
+}

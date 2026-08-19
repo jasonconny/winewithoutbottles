@@ -1,0 +1,64 @@
+{
+  "id": "19660729",
+  "date": "1966-07-29",
+  "venue": "P.N.E. Garden Auditorium",
+  "city": "Vancouver",
+  "country": "CAN",
+  "svg": "/shows/19660729.svg",
+  "songCount": 13,
+  "durationSeconds": 3716,
+  "songs": [
+    {
+      "title": "Standing on the Corner",
+      "durationSeconds": 203
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 194
+    },
+    {
+      "title": "Next Time You See Me",
+      "durationSeconds": 217
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "durationSeconds": 227
+    },
+    {
+      "title": "You Don't Have to Ask",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 256
+    },
+    {
+      "title": "Stealin'",
+      "durationSeconds": 217
+    },
+    {
+      "title": "Cardboard Cowboy",
+      "durationSeconds": 176
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 323
+    },
+    {
+      "title": "Cream Puff War",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Viola Lee Blues",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 167
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "durationSeconds": 347
+    }
+  ]
+}

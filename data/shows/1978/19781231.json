@@ -1,0 +1,120 @@
+{
+  "id": "19781231",
+  "date": "1978-12-31",
+  "venue": "Winterland",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "source": "The Closing of Winterland",
+  "songs": [
+    {
+      "title": "Sugar Magnolia",
+      "duration": "7:21"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "11:55"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "15:05"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:11"
+    },
+    {
+      "title": "Big River",
+      "duration": "7:05"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "10:48"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "8:23"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "8:03"
+    },
+    {
+      "title": "From the Heart of Me",
+      "duration": "3:49"
+    },
+    {
+      "title": "Sunshine Daydream",
+      "duration": "3:15"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "9:17"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "9:35"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "11:19"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:23"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "13:06"
+    },
+    {
+      "title": "Drums",
+      "duration": "19:23"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "19:34"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "9:19"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "11:53"
+    },
+    {
+      "title": "The Other One",
+      "duration": "4:55"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "1:09"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "11:08"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "7:52"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "13:57"
+    },
+    {
+      "title": "Casey Jones",
+      "duration": "5:17"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "7:14"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "4:13"
+    }
+  ],
+  "tags": ["Dark Star"]
+}

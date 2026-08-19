@@ -124,6 +124,11 @@ const NOT_CONCERTS = new Set([
   // The 4-CD highlights sampler, NOT the 80-CD box of complete shows it is
   // named after. Conflating the two would silently drop 30 full concerts.
   '30 Trips Around the Sun: The Definitive Live Story 1965–1995',
+  // A graphic novel about the band's early days, with a 4-track, 38-minute
+  // bonus CD. It is shelved with the live releases because of that disc, and
+  // the disc resolves to 1968-08-21 — but four tracks are not a concert, and
+  // the release is not even primarily a record.
+  'Grateful Dead Origins',
   // Studio outtake series, not concerts.
   "Workingman's Dead: The Angel's Share",
   "American Beauty: The Angel's Share",

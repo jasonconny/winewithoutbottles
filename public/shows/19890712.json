@@ -1,0 +1,96 @@
+{
+  "id": "19890712",
+  "date": "1989-07-12",
+  "venue": "Robert F. Kennedy Stadium",
+  "city": "Washington",
+  "state": "DC",
+  "country": "USA",
+  "tags": [
+    "RFK 1989"
+  ],
+  "svg": "/shows/19890712.svg",
+  "songCount": 20,
+  "durationSeconds": 9476,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 416
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 608
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 309
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 648
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 580
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 645
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 612
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 544
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 392
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "19680824",
+  "date": "1968-08-24",
+  "venue": "Shrine Auditorium",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star"
+  ],
+  "svg": "/shows/19680824.svg",
+  "songCount": 12,
+  "durationSeconds": 8605,
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "durationSeconds": 959
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 680
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 280
+    },
+    {
+      "title": "The Eleven",
+      "durationSeconds": 867
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "durationSeconds": 503
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 940
+    },
+    {
+      "title": "New Potato Caboose",
+      "durationSeconds": 856
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 1033
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 433
+    },
+    {
+      "title": "Alligator",
+      "durationSeconds": 1123
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Feedback",
+      "durationSeconds": 241
+    }
+  ]
+}

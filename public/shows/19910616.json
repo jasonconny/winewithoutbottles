@@ -1,0 +1,88 @@
+{
+  "id": "19910616",
+  "date": "1991-06-16",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Giants Stadium 1987, 1989, 1991"
+  ],
+  "svg": "/shows/19910616.svg",
+  "songCount": 18,
+  "durationSeconds": 9582,
+  "songs": [
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 763
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 512
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 425
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 827
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 695
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 637
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 374
+    }
+  ]
+}

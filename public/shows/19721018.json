@@ -1,0 +1,113 @@
+{
+  "id": "19721018",
+  "date": "1972-10-18",
+  "venue": "Fox Theatre",
+  "city": "St. Louis",
+  "state": "MO",
+  "country": "USA",
+  "tags": [
+    "Dark Star",
+    "Listen to the River"
+  ],
+  "svg": "/shows/19721018.svg",
+  "songCount": 24,
+  "durationSeconds": 10271,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 244
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 240
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 232
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 206
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 786
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 409
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 307
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 303
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 365
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 976
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 166
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 1708
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 666
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 239
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 419
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Casey Jones",
+      "durationSeconds": 429
+    }
+  ]
+}

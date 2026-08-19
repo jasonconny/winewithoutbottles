@@ -1,0 +1,100 @@
+{
+  "id": "19780412",
+  "date": "1978-04-12",
+  "venue": "Cameron Indoor Stadium",
+  "city": "Durham",
+  "state": "NC",
+  "country": "USA",
+  "tags": [
+    "Friend of the Devils"
+  ],
+  "svg": "/shows/19780412.svg",
+  "songCount": 21,
+  "durationSeconds": 10457,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 149
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 243
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 650
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 343
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 419
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 535
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 722
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 741
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1554
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 500
+    }
+  ]
+}

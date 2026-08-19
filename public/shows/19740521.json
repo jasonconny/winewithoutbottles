@@ -1,0 +1,117 @@
+{
+  "id": "19740521",
+  "date": "1974-05-21",
+  "venue": "Hec Edmundson Pavilion",
+  "city": "Seattle",
+  "state": "WA",
+  "country": "USA",
+  "tags": [
+    "Pacific Northwest '73–'74",
+    "Wall of Sound"
+  ],
+  "svg": "/shows/19740521.svg",
+  "songCount": 25,
+  "durationSeconds": 11733,
+  "songs": [
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 205
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 239
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 345
+    },
+    {
+      "title": "The Race Is On",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 355
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 565
+    },
+    {
+      "title": "Money Money",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 378
+    },
+    {
+      "title": "Weather Report Suite Prelude",
+      "durationSeconds": 80
+    },
+    {
+      "title": "Weather Report Suite Part 1",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 657
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 2819
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 832
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 585
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 248
+    }
+  ]
+}

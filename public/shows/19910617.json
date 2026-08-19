@@ -1,0 +1,105 @@
+{
+  "id": "19910617",
+  "date": "1991-06-17",
+  "venue": "Giants Stadium",
+  "city": "East Rutherford",
+  "state": "NJ",
+  "country": "USA",
+  "tags": [
+    "Giants Stadium 1987, 1989, 1991",
+    "Dark Star"
+  ],
+  "svg": "/shows/19910617.svg",
+  "songCount": 22,
+  "durationSeconds": 9812,
+  "songs": [
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 926
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 92
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 655
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 74
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 415
+    },
+    {
+      "title": "New Speedway Boogie",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 55
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 678
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 750
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 527
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 653
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 380
+    }
+  ]
+}

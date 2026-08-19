@@ -1,0 +1,97 @@
+{
+  "id": "19890704",
+  "date": "1989-07-04",
+  "venue": "Rich Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "country": "USA",
+  "svg": "/shows/19890704.svg",
+  "songCount": 21,
+  "durationSeconds": 9431,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 477
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 276
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 650
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 369
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 493
+    },
+    {
+      "title": "Playing in the Band Reprise",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 738
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 540
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 448
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 233
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 670
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 608
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 363
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "19690211",
+  "date": "1969-02-11",
+  "venue": "Fillmore East",
+  "city": "New York",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dark Star"],
+  "source": "Live at the Fillmore East 2-11-69",
+  "songs": [
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "duration": "9:19"
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "duration": "1:55"
+    },
+    {
+      "title": "The Other One",
+      "duration": "6:01"
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "duration": "6:58"
+    },
+    {
+      "title": "Doin' That Rag",
+      "duration": "5:28"
+    },
+    {
+      "title": "I'm a King Bee",
+      "duration": "5:19"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "17:07"
+    },
+    {
+      "title": "Hey Jude",
+      "duration": "8:23"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "3:57"
+    },
+    {
+      "title": "Mountains of the Moon",
+      "duration": "4:50"
+    },
+    {
+      "title": "Dark Star",
+      "duration": "12:29"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "7:50"
+    },
+    {
+      "title": "The Eleven",
+      "duration": "6:09"
+    },
+    {
+      "title": "Drums",
+      "duration": "2:43"
+    },
+    {
+      "title": "Caution (Do Not Stop on Tracks)",
+      "duration": "13:26"
+    },
+    {
+      "title": "Feedback",
+      "duration": "4:03"
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "duration": "9:05"
+    }
+  ]
+}
