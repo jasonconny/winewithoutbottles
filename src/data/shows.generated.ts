@@ -1226,6 +1226,21 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10826
   },
   {
+    "id": "19720916",
+    "date": "1972-09-16",
+    "venue": "Boston Music Hall",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Enjoying the Ride",
+      "Dark Star"
+    ],
+    "svg": "/shows/19720916.svg",
+    "songCount": 25,
+    "durationSeconds": 11025
+  },
+  {
     "id": "19720917",
     "date": "1972-09-17",
     "venue": "Baltimore Civic Center",
