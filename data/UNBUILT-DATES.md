@@ -1,7 +1,7 @@
 # Unbuilt dates
 
 Every officially-released show that **can** be built now exists.
-`data/partial-shows/` is empty. These are the 21 dates that remain, and they are
+`data/partial-shows/` is empty. These are the 45 dates that remain, and they are
 unbuilt for four quite different reasons — which is the whole point of this
 file, because "not in the corpus" reads the same in all four cases and means
 something different in each.
@@ -69,20 +69,68 @@ Only their durations are missing, and a single fuller transfer would finish it.
 
 **1972-11-18 also sits in neither pen**, like 1970-04-18.
 
-## C. Buildable today, deferred by choice
+## C. The 1980 15th-anniversary residencies
 
-| Date       | Release      | Tapes | Checked    |
-| ---------- | ------------ | ----: | ---------- |
-| 1980-10-09 | The Warfield |     8 | 2026-08-19 |
-| 1980-10-10 | The Warfield |    11 | 2026-08-19 |
+Twenty-six nights across three venues, **none of which the corpus holds** and
+only four of which have a dedicated release. They are deferred as a family on
+Jason's judgement (2026-08-19): these runs were largely multi-tracked — they are
+what _Reckoning_ and _Dead Set_ were built from — and remain conspicuously
+under-released, which suggests a box being kept back. Rhino issuing 10/4 & 10/6
+and 10/9 & 10/10 as two separate Record Store Day titles is the drip-feed you
+would expect ahead of one. If a box appears it would supersede both, so building
+these now risks doing the work twice.
 
-**Nothing is blocking these.** The release holds both nights' acoustic sets and
-the tapes are plentiful; they are held on Jason's judgement (2026-08-19) that
-these 15th-anniversary residencies — the Warfield, Radio City Music Hall and two
-New Orleans nights, most or all multi-tracked for _Reckoning_ and _Dead Set_ —
-are conspicuously under-released, which suggests a box being kept back. If one
-appears it would likely supersede this release for both dates, so building them
-now risks doing the work twice. Reasoning lives on the release's entry in
+**This is the one section that lists nights no release covers, and that is
+deliberate rather than a precedent.** It is here because it is a coherent family
+being deferred whole, and because the four released nights make no sense read
+apart from the twenty-two that surround them. It is _not_ a licence to list
+unreleased shows generally — the band played some two thousand concerts, and
+almost none of them belong in this file.
+
+The itinerary is derived from archive.org tape coverage over 1980-09-25 to
+1980-10-31, the exact window both _Dead Set_ and _Reckoning_ give as their
+recording span. That makes it a strong proxy rather than an itinerary: a night
+nobody taped would be invisible here. The gaps read like ordinary dark days
+(9/28, 10/5, 10/8, 10/12, 10/15–17, 10/20–21, 10/24, 10/28).
+
+The **Dead Set** column marks the twelve nights that album drew tracks from —
+evidence the multitracks exist, not that the night is available.
+
+| Date       | Venue                           | Release, if any                     | Dead Set |
+| ---------- | ------------------------------- | ----------------------------------- | -------- |
+| 1980-09-25 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-09-26 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-09-27 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-09-29 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-09-30 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-10-01 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-10-02 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-10-03 | Warfield Theatre, San Francisco | —                                   | yes      |
+| 1980-10-04 | Warfield Theatre, San Francisco | The Warfield … October 4 & 6, 1980  | yes      |
+| 1980-10-06 | Warfield Theatre, San Francisco | The Warfield … October 4 & 6, 1980  | —        |
+| 1980-10-07 | Warfield Theatre, San Francisco | —                                   | yes      |
+| 1980-10-09 | Warfield Theatre, San Francisco | The Warfield … October 9 & 10, 1980 | yes      |
+| 1980-10-10 | Warfield Theatre, San Francisco | The Warfield … October 9 & 10, 1980 | yes      |
+| 1980-10-11 | Warfield Theatre, San Francisco | —                                   | yes      |
+| 1980-10-13 | Warfield Theatre, San Francisco | —                                   | yes      |
+| 1980-10-14 | Warfield Theatre, San Francisco | —                                   | —        |
+| 1980-10-18 | The Warehouse, New Orleans      | —                                   | —        |
+| 1980-10-19 | The Warehouse, New Orleans      | —                                   | —        |
+| 1980-10-22 | Radio City Music Hall, New York | —                                   | —        |
+| 1980-10-23 | Radio City Music Hall, New York | —                                   | —        |
+| 1980-10-25 | Radio City Music Hall, New York | —                                   | yes      |
+| 1980-10-26 | Radio City Music Hall, New York | —                                   | yes      |
+| 1980-10-27 | Radio City Music Hall, New York | —                                   | yes      |
+| 1980-10-29 | Radio City Music Hall, New York | —                                   | yes      |
+| 1980-10-30 | Radio City Music Hall, New York | —                                   | —        |
+| 1980-10-31 | Radio City Music Hall, New York | —                                   | yes      |
+
+The 4 & 6 October release is a December 2025 Record Store Day title with no
+Wikipedia article, so it is `eligible: false` in `data/releases.json` and carries
+no dates of its own — which is exactly why these two nights were invisible to
+this file until now. The 9 & 10 October release is `partial`: it holds both
+nights' **acoustic sets only**, and both nights also played electric.
+Reasoning for the deferral lives on that entry in
 `generator/hand-readings.ts`.
 
 ## D. Not yet released

@@ -104,6 +104,53 @@ export const byFirstDate = (a: Sortable, b: Sortable) =>
  * `--draft` looks for when it checks that it is not about to discard somebody's
  * judgement; see the guard at the bottom of this file.
  */
+/**
+ * Releases the discography lists but classifies nowhere, judged by hand.
+ *
+ * A title in the date section that is linked from no classification table gives
+ * `verdict()` nothing to work with, so it lands as
+ * "unlinked in the discography — classify by hand" — an honest note the first
+ * time and an unresolved TODO every time after. These are that list, read.
+ *
+ * All eight share one disqualifying fact: **no Wikipedia article**, so there is
+ * no track listing anywhere for a setlist to come from. Seven are also
+ * redundant — single-show reissues of a night already sourced from the box that
+ * carries it — and each note names that box, so the entry records not just that
+ * it cannot source a show but that nothing is lost by it.
+ *
+ * The eighth, the 4 & 6 October 1980 Warfield set, is **not** redundant: it is a
+ * December 2025 Record Store Day release covering two dates the corpus does not
+ * hold. Ineligible entries stay inert, so those dates cannot live here — they
+ * are recorded in `data/UNBUILT-DATES.md` with the rest of the 1980
+ * 15th-anniversary run.
+ */
+export const HAND_CLASSIFIED: Record<string, { why: string }> = {
+  'Beacon Theatre, New York, NY 6/14/76': {
+    why: 'no Wikipedia article, so no track listing to source from; 1976-06-14 is already sourced from June 1976',
+  },
+  'Boston Garden, Boston, MA 5/7/77': {
+    why: 'no Wikipedia article, so no track listing to source from; 1977-05-07 is already sourced from May 1977: Get Shown the Light',
+  },
+  'Fillmore West 1969: March 1st': {
+    why: 'no Wikipedia article, so no track listing to source from; 1969-03-01 is already sourced from Fillmore West 1969: The Complete Recordings',
+  },
+  'Fillmore West 1969: March 2nd': {
+    why: 'no Wikipedia article, so no track listing to source from; 1969-03-02 is already sourced from Fillmore West 1969: The Complete Recordings',
+  },
+  'Light into Ashes': {
+    why: "no Wikipedia article, so no track listing to source from; it is the Fox Theatre, St. Louis 10/18/72 show, already sourced from Listen to the River: St. Louis '71 '72 '73",
+  },
+  'Memorial Auditorium, Buffalo, NY 5/9/77': {
+    why: 'no Wikipedia article, so no track listing to source from; 1977-05-09 is already sourced from May 1977: Get Shown the Light',
+  },
+  'The Warfield, San Francisco, California, October 4 & 6, 1980': {
+    why: 'no Wikipedia article, so no track listing to source from — but unlike the others it is not redundant: this December 2025 Record Store Day release covers 1980-10-04 and 1980-10-06, which the corpus does not hold. Both are recorded in data/UNBUILT-DATES.md with the rest of the 1980 15th-anniversary run',
+  },
+  'Veterans Memorial Coliseum, New Haven, CT 5/5/77': {
+    why: 'no Wikipedia article, so no track listing to source from; 1977-05-05 is already sourced from May 1977: Get Shown the Light',
+  },
+};
+
 export const HAND_RESOLVED: Record<
   string,
   {
@@ -185,7 +232,7 @@ export const HAND_RESOLVED: Record<
   },
   'The Warfield, San Francisco, California, October 9 & 10, 1980': {
     completeness: 'partial',
-    note: 'article: "It contains the two sets of acoustic music performed by the Dead on October 9 and 10, 1980" \u2014 the acoustic sets only. Both nights also played electric sets, so neither date is whole here. DEFERRED by Jason 2026-08-19, and not merely for being partial: these are two of the 1980 15th-anniversary residencies \u2014 the Warfield (San Francisco), Radio City Music Hall (New York) and two nights in New Orleans \u2014 and most or all of that material was multi-tracked for Reckoning and Dead Set. Jason\'s read is that remarkably little of those runs has ever been issued, which suggests a box being held back. If one appears, it likely supersedes this release for every one of those dates, so assembling these nights by hand now risks doing the work twice',
+    note: 'article: "It contains the two sets of acoustic music performed by the Dead on October 9 and 10, 1980" \u2014 the acoustic sets only. Both nights also played electric, so neither date is whole here. DEFERRED by Jason 2026-08-19 along with the whole 1980 15th-anniversary run: 26 nights across the Warfield (9/25-10/14), the Warehouse in New Orleans (10/18-19) and Radio City Music Hall (10/22-31), largely multi-tracked and the source of Reckoning and Dead Set. Only four of the 26 have a dedicated release \u2014 these two, and 10/4 & 10/6 on a separate December 2025 Record Store Day title that has no Wikipedia article and so sits ineligible. Two RSD singles out of a 26-night run is the drip-feed you would expect ahead of a box, which is the reason to wait: a box would supersede both releases. The full run is listed in data/UNBUILT-DATES.md',
   },
   'Rocking the Cradle: Egypt 1978': {
     completeness: 'partial',
