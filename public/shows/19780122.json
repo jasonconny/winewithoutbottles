@@ -1,0 +1,100 @@
+{
+  "id": "19780122",
+  "date": "1978-01-22",
+  "venue": "McArthur Court",
+  "city": "Eugene",
+  "state": "OR",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19780122.svg",
+  "songCount": 21,
+  "durationSeconds": 10071,
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 443
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 637
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 471
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 1017
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 232
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 849
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 537
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 353
+    }
+  ]
+}

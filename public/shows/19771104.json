@@ -1,0 +1,96 @@
+{
+  "id": "19771104",
+  "date": "1977-11-04",
+  "venue": "Colgate University",
+  "city": "Hamilton",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19771104.svg",
+  "songCount": 20,
+  "durationSeconds": 9394,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 386
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 356
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 302
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 259
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 823
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 441
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 783
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 791
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 678
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 215
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 647
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 705
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 284
+    }
+  ]
+}

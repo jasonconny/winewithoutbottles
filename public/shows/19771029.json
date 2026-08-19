@@ -1,0 +1,100 @@
+{
+  "id": "19771029",
+  "date": "1977-10-29",
+  "venue": "Chick Evans Field House",
+  "city": "DeKalb",
+  "state": "IL",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19771029.svg",
+  "songCount": 21,
+  "durationSeconds": 10557,
+  "songs": [
+    {
+      "title": "Might As Well",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 470
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 288
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 490
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 326
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 761
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 571
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 682
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 790
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 434
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 672
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 742
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 606
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 323
+    }
+  ]
+}

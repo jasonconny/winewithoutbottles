@@ -1,0 +1,104 @@
+{
+  "id": "19761002",
+  "date": "1976-10-02",
+  "venue": "Riverfront Coliseum",
+  "city": "Cincinnati",
+  "state": "OH",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19761002.svg",
+  "songCount": 22,
+  "durationSeconds": 9689,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 289
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 421
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 602
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 262
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 550
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 768
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 366
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 468
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 638
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 166
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 685
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 136
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 548
+    }
+  ]
+}

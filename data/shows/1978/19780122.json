@@ -1,0 +1,96 @@
+{
+  "id": "19780122",
+  "date": "1978-01-22",
+  "venue": "McArthur Court",
+  "city": "Eugene",
+  "state": "OR",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 23",
+  "songs": [
+    {
+      "title": "New Minglewood Blues",
+      "duration": "6:20"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:35"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:08"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "7:23"
+    },
+    {
+      "title": "El Paso",
+      "duration": "5:21"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "9:06"
+    },
+    {
+      "title": "Jack Straw",
+      "duration": "6:08"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "10:37"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:08"
+    },
+    {
+      "title": "Bertha",
+      "duration": "6:52"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "6:26"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:33"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:48"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:08"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:51"
+    },
+    {
+      "title": "The Other One",
+      "duration": "16:57"
+    },
+    {
+      "title": "Space",
+      "duration": "3:52"
+    },
+    {
+      "title": "St. Stephen",
+      "duration": "7:39"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "14:09"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "8:57"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:53"
+    }
+  ]
+}

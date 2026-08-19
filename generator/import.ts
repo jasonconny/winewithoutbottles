@@ -950,6 +950,19 @@ const SHOW_OVERRIDES: Record<
     note: string;
   }
 > = {
+  '1978-04-15': {
+    drop: [
+      { position: 18, title: 'Sugaree' },
+      { position: 19, title: 'Tennessee Jed' },
+      { position: 20, title: 'Scarlet Begonias' },
+      { position: 21, title: 'Dancing in the Street' },
+      { position: 22, title: 'Rhythm Devils' },
+      { position: 23, title: 'Samson and Delilah' },
+      { position: 24, title: 'Terrapin Station' },
+      { position: 25, title: 'Around and Around' },
+    ],
+    note: "Dave's Picks 37 heads its April 18 bonus block `:''Bonus tracks – April 18, 1978:''` and then opens `'''Disc 3'''` with no date at all — but that whole disc is still April 18, as the article's own DeadBase note confirms, marking each of its songs \"Included in Dave's Picks Volume 37\". The depth rule reads a more senior undated heading as a return to the main show, which is right for Dave's Picks 50's May 4 bonus and wrong here; the markup carries nothing that tells the two apart, so the eight tracks are dropped by position instead",
+  },
   '1988-04-01': {
     keepAuthored: true,
     note: "Road Trips 4:2 fills out disc one with the April 1 encore, so `Brokedown Palace` sits at track 9 of 19, between the first set and a disc of second-set music. It closed the night. Same disc-sequencing artefact as 1969-05-23, and the same fix — Jason's call, 2026-08-14",

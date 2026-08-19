@@ -1915,6 +1915,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9180
   },
   {
+    "id": "19760717",
+    "date": "1976-07-17",
+    "venue": "Orpheum Theatre",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19760717.svg",
+    "songCount": 21,
+    "durationSeconds": 9219
+  },
+  {
+    "id": "19760924",
+    "date": "1976-09-24",
+    "venue": "College of William & Mary",
+    "city": "Williamsburg",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19760924.svg",
+    "songCount": 24,
+    "durationSeconds": 9684
+  },
+  {
     "id": "19760925",
     "date": "1976-09-25",
     "venue": "Capital Centre",
@@ -1941,6 +1969,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19760928.svg",
     "songCount": 22,
     "durationSeconds": 9462
+  },
+  {
+    "id": "19761002",
+    "date": "1976-10-02",
+    "venue": "Riverfront Coliseum",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19761002.svg",
+    "songCount": 22,
+    "durationSeconds": 9689
   },
   {
     "id": "19761003",
@@ -1983,6 +2025,20 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19761010.svg",
     "songCount": 23,
     "durationSeconds": 9503
+  },
+  {
+    "id": "19770226",
+    "date": "1977-02-26",
+    "venue": "Swing Auditorium",
+    "city": "San Bernardino",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19770226.svg",
+    "songCount": 21,
+    "durationSeconds": 10180
   },
   {
     "id": "19770320",
@@ -2376,6 +2432,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10562
   },
   {
+    "id": "19771001",
+    "date": "1977-10-01",
+    "venue": "Paramount Theatre",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771001.svg",
+    "songCount": 21,
+    "durationSeconds": 9160
+  },
+  {
+    "id": "19771002",
+    "date": "1977-10-02",
+    "venue": "Paramount Theatre",
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771002.svg",
+    "songCount": 19,
+    "durationSeconds": 8803
+  },
+  {
     "id": "19771011",
     "date": "1977-10-11",
     "venue": "Lloyd Noble Center",
@@ -2418,6 +2502,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9313
   },
   {
+    "id": "19771029",
+    "date": "1977-10-29",
+    "venue": "Chick Evans Field House",
+    "city": "DeKalb",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771029.svg",
+    "songCount": 21,
+    "durationSeconds": 10557
+  },
+  {
+    "id": "19771104",
+    "date": "1977-11-04",
+    "venue": "Colgate University",
+    "city": "Hamilton",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771104.svg",
+    "songCount": 20,
+    "durationSeconds": 9394
+  },
+  {
     "id": "19771105",
     "date": "1977-11-05",
     "venue": "Community War Memorial",
@@ -2432,6 +2544,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9434
   },
   {
+    "id": "19771106",
+    "date": "1977-11-06",
+    "venue": "Broome County Arena",
+    "city": "Binghamton",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19771106.svg",
+    "songCount": 23,
+    "durationSeconds": 9969
+  },
+  {
     "id": "19771229",
     "date": "1977-12-29",
     "venue": "Winterland",
@@ -2444,6 +2570,34 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19771229.svg",
     "songCount": 23,
     "durationSeconds": 10219
+  },
+  {
+    "id": "19780122",
+    "date": "1978-01-22",
+    "venue": "McArthur Court",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780122.svg",
+    "songCount": 21,
+    "durationSeconds": 10071
+  },
+  {
+    "id": "19780201",
+    "date": "1978-02-01",
+    "venue": "Uptown Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780201.svg",
+    "songCount": 18,
+    "durationSeconds": 8442
   },
   {
     "id": "19780203",
@@ -2472,6 +2626,48 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19780205.svg",
     "songCount": 19,
     "durationSeconds": 8832
+  },
+  {
+    "id": "19780415",
+    "date": "1978-04-15",
+    "venue": "College of William & Mary",
+    "city": "Williamsburg",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780415.svg",
+    "songCount": 17,
+    "durationSeconds": 8627
+  },
+  {
+    "id": "19780422",
+    "date": "1978-04-22",
+    "venue": "Municipal Auditorium",
+    "city": "Nashville",
+    "state": "TN",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780422.svg",
+    "songCount": 19,
+    "durationSeconds": 9851
+  },
+  {
+    "id": "19780424",
+    "date": "1978-04-24",
+    "venue": "Horton Fieldhouse",
+    "city": "Normal",
+    "state": "IL",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19780424.svg",
+    "songCount": 20,
+    "durationSeconds": 10160
   },
   {
     "id": "19780510",

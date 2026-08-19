@@ -1,0 +1,112 @@
+{
+  "id": "19760924",
+  "date": "1976-09-24",
+  "venue": "College of William & Mary",
+  "city": "Williamsburg",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19760924.svg",
+  "songCount": 24,
+  "durationSeconds": 9684,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 588
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 713
+    },
+    {
+      "title": "Supplication",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 486
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 270
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 492
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 455
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 414
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 356
+    }
+  ]
+}

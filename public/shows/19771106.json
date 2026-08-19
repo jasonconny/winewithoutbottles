@@ -1,0 +1,108 @@
+{
+  "id": "19771106",
+  "date": "1977-11-06",
+  "venue": "Broome County Arena",
+  "city": "Binghamton",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19771106.svg",
+  "songCount": 23,
+  "durationSeconds": 9969,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 742
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 564
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 199
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 578
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 334
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 318
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Sunrise",
+      "durationSeconds": 285
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 646
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 429
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 168
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 669
+    },
+    {
+      "title": "St. Stephen",
+      "durationSeconds": 64
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 692
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 309
+    }
+  ]
+}

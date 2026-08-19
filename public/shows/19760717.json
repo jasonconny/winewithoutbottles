@@ -1,0 +1,100 @@
+{
+  "id": "19760717",
+  "date": "1976-07-17",
+  "venue": "Orpheum Theatre",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19760717.svg",
+  "songCount": 21,
+  "durationSeconds": 9219,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 184
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 303
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 298
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 960
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 99
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 441
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 216
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 430
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 372
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 866
+    }
+  ]
+}

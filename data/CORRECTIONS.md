@@ -1247,3 +1247,25 @@ the venue had been guessed from the lede's list of states — "New Mexico,
 Oklahoma, Texas, and Louisiana" — landing on Texas. The tape's own metadata
 settled it. Worth remembering that a release naming venues per track names them
 only for the tracks in that table.
+
+### An undated disc that continues the bonus — 1978-04-15
+
+_Dave's Picks Volume 37_ heads its bonus block `:''Bonus tracks – April 18,
+1978:''`, gives it two tracks, and then opens `'''Disc 3'''` with no date at all.
+That whole disc is still April 18. The article's own DeadBase note proves it,
+printing the 4/18 setlist and marking each of those eight songs "Included in
+_Dave's Picks Volume 37_" — so 4/15/78 came back as a 25-track, 3:43 show with
+`Around and Around` and `Drums` appearing twice, which is what Jason caught.
+
+**The markup cannot tell this case from its opposite.** The heading-depth rule
+reads a more senior undated heading as a return to the show in progress, and
+that is _correct_ for Dave's Picks 50, where a `:''May 4 bonus''` subheading sits
+inside a disc and the following `'''Disc 3'''` leaves it behind. Volume 37 has
+the identical shape and the opposite meaning. Nothing in the wikitext separates
+them, so the eight tracks are dropped by position in `SHOW_OVERRIDES` rather
+than by a parser rule that would break the other case.
+
+Contrast _Dave's Picks Volume 57_, which is immune because it dates every block:
+its disc two is headed "February 1, 1978 - second set, continued" and its disc
+three "Bonus tracks – January 31, 1978". A release that keeps saying which night
+it is on cannot be misread. 4/15/78 is 17 songs.

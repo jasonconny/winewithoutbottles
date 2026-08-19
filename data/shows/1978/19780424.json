@@ -1,0 +1,92 @@
+{
+  "id": "19780424",
+  "date": "1978-04-24",
+  "venue": "Horton Fieldhouse",
+  "city": "Normal",
+  "state": "IL",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 7",
+  "songs": [
+    {
+      "title": "Promised Land",
+      "duration": "5:14"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:07"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:10"
+    },
+    {
+      "title": "Big River",
+      "duration": "6:21"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:33"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "5:38"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:57"
+    },
+    {
+      "title": "Passenger",
+      "duration": "5:45"
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "duration": "8:07"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "8:51"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:55"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "11:08"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "7:06"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "10:51"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:53"
+    },
+    {
+      "title": "Space",
+      "duration": "6:41"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "11:19"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "11:47"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "9:11"
+    },
+    {
+      "title": "Werewolves of London",
+      "duration": "7:46"
+    }
+  ]
+}
