@@ -53,6 +53,7 @@ import {
   COMPLETENESS_BY_HAND,
   CONFIRMABLE,
   CONFIRMED,
+  HAND_CLASSIFIED,
   HAND_RESOLVED,
   HAND_SERIES,
   stripPending,
@@ -369,11 +370,18 @@ async function build(only: string | null): Promise<Release[]> {
     if (NOT_CONCERTS.has(name)) {
       return { eligible: false, why: 'compilation / highlights collection' };
     }
+    // Read by hand, because no table classifies them. Checked before the
+    // `placement` lookup below, which is the only thing that would otherwise
+    // reach these — and only to say it cannot judge them.
+    const classified = HAND_CLASSIFIED[name];
+    if (classified) return { eligible: false, why: classified.why };
     const section = placement.get(name.toLowerCase());
     if (!section) {
       // Listed in the date section but linked nowhere else, so there is no
       // table to classify it from. Not a rejection on merit — several are real
-      // single-show digital releases with no Wikipedia article at all.
+      // single-show digital releases with no Wikipedia article at all. Anything
+      // still landing here is new since the last pass and wants reading; put
+      // the verdict in HAND_CLASSIFIED rather than leaving it to reappear.
       return {
         eligible: false,
         why: 'unlinked in the discography — classify by hand',
