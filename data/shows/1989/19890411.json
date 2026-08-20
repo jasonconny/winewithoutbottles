@@ -1,0 +1,33 @@
+{
+  "id": "19890411",
+  "date": "1989-04-11",
+  "venue": "Rosemont Horizon",
+  "city": "Rosemont",
+  "state": "IL",
+  "country": "USA",
+  "source": "dead-drop:19890411",
+  "songs": [
+    { "title": "Shakedown Street", "duration": "14:00" },
+    { "title": "Little Red Rooster", "duration": "9:29" },
+    { "title": "Friend Of The Devil", "duration": "8:49" },
+    { "title": "Victim or the Crime", "duration": "7:43" },
+    { "title": "Built to Last", "duration": "5:28" },
+    { "title": "We Can Run", "duration": "4:33" },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "9:25"
+    },
+    { "title": "Deal", "duration": "9:14" },
+    { "title": "Samson And Delilah", "duration": "7:55" },
+    { "title": "Crazy Fingers", "duration": "8:05" },
+    { "title": "Playing in the Band", "duration": "8:46" },
+    { "title": "Terrapin Station", "duration": "12:52" },
+    { "title": "Drums", "duration": "9:37" },
+    { "title": "Space", "duration": "6:59" },
+    { "title": "Gimme Some Lovin'", "duration": "5:25" },
+    { "title": "Standing on the Moon", "duration": "6:51" },
+    { "title": "Throwing Stones", "duration": "10:01" },
+    { "title": "Not Fade Away", "duration": "10:48" },
+    { "title": "U.S. Blues", "duration": "5:37" }
+  ]
+}

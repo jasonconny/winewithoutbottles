@@ -1,0 +1,93 @@
+{
+  "id": "19890412",
+  "date": "1989-04-12",
+  "venue": "Rosemont Horizon",
+  "city": "Rosemont",
+  "state": "IL",
+  "country": "USA",
+  "svg": "/shows/19890412.svg",
+  "songCount": 20,
+  "durationSeconds": 8645,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 651
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 493
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 383
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 750
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 141
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 38
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 881
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 538
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 529
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 235
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 394
+    }
+  ]
+}

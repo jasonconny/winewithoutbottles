@@ -4798,6 +4798,116 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8684
   },
   {
+    "id": "19890405",
+    "date": "1989-04-05",
+    "venue": "Crisler Arena",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "USA",
+    "svg": "/shows/19890405.svg",
+    "songCount": 19,
+    "durationSeconds": 9504
+  },
+  {
+    "id": "19890406",
+    "date": "1989-04-06",
+    "venue": "Crisler Arena",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "USA",
+    "svg": "/shows/19890406.svg",
+    "songCount": 21,
+    "durationSeconds": 9460
+  },
+  {
+    "id": "19890408",
+    "date": "1989-04-08",
+    "venue": "Riverfront Coliseum",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "svg": "/shows/19890408.svg",
+    "songCount": 21,
+    "durationSeconds": 8393
+  },
+  {
+    "id": "19890409",
+    "date": "1989-04-09",
+    "venue": "Freedom Hall",
+    "city": "Louisville",
+    "state": "KY",
+    "country": "USA",
+    "svg": "/shows/19890409.svg",
+    "songCount": 20,
+    "durationSeconds": 9301
+  },
+  {
+    "id": "19890411",
+    "date": "1989-04-11",
+    "venue": "Rosemont Horizon",
+    "city": "Rosemont",
+    "state": "IL",
+    "country": "USA",
+    "svg": "/shows/19890411.svg",
+    "songCount": 19,
+    "durationSeconds": 9697
+  },
+  {
+    "id": "19890412",
+    "date": "1989-04-12",
+    "venue": "Rosemont Horizon",
+    "city": "Rosemont",
+    "state": "IL",
+    "country": "USA",
+    "svg": "/shows/19890412.svg",
+    "songCount": 20,
+    "durationSeconds": 8645
+  },
+  {
+    "id": "19890413",
+    "date": "1989-04-13",
+    "venue": "Rosemont Horizon",
+    "city": "Rosemont",
+    "state": "IL",
+    "country": "USA",
+    "svg": "/shows/19890413.svg",
+    "songCount": 19,
+    "durationSeconds": 7834
+  },
+  {
+    "id": "19890415",
+    "date": "1989-04-15",
+    "venue": "MECCA",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "USA",
+    "svg": "/shows/19890415.svg",
+    "songCount": 18,
+    "durationSeconds": 8371
+  },
+  {
+    "id": "19890416",
+    "date": "1989-04-16",
+    "venue": "MECCA",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "USA",
+    "svg": "/shows/19890416.svg",
+    "songCount": 18,
+    "durationSeconds": 8065
+  },
+  {
+    "id": "19890417",
+    "date": "1989-04-17",
+    "venue": "Met Center",
+    "city": "Bloomington",
+    "state": "MN",
+    "country": "USA",
+    "svg": "/shows/19890417.svg",
+    "songCount": 19,
+    "durationSeconds": 8558
+  },
+  {
     "id": "19890704",
     "date": "1989-07-04",
     "venue": "Rich Stadium",

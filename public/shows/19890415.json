@@ -1,0 +1,85 @@
+{
+  "id": "19890415",
+  "date": "1989-04-15",
+  "venue": "MECCA",
+  "city": "Milwaukee",
+  "state": "WI",
+  "country": "USA",
+  "svg": "/shows/19890415.svg",
+  "songCount": 18,
+  "durationSeconds": 8371,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 394
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 579
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 295
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 378
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 772
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 505
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 246
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 382
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 901
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 324
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "19890406",
+  "date": "1989-04-06",
+  "venue": "Crisler Arena",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "country": "USA",
+  "source": "dead-drop:19890406",
+  "songs": [
+    { "title": "Touch of Grey", "duration": "6:32" },
+    { "title": "Little Red Rooster", "duration": "9:42" },
+    { "title": "Brown-Eyed Women", "duration": "5:28" },
+    { "title": "Mama Tried", "duration": "2:35" },
+    { "title": "Mexicali Blues", "duration": "5:22" },
+    { "title": "Althea", "duration": "6:58" },
+    { "title": "When I Paint My Masterpiece", "duration": "5:41" },
+    { "title": "Bird Song", "duration": "13:16" },
+    { "title": "Promised Land", "duration": "4:41" },
+    { "title": "Scarlet Begonias", "duration": "10:10" },
+    { "title": "Fire on the Mountain", "duration": "12:57" },
+    { "title": "Playing in the Band", "duration": "12:55" },
+    { "title": "Built to Last", "duration": "7:11" },
+    { "title": "Drums", "duration": "10:18" },
+    { "title": "Space", "duration": "6:46" },
+    { "title": "I Will Take You Home", "duration": "4:06" },
+    { "title": "The Other One", "duration": "7:43" },
+    { "title": "Wharf Rat", "duration": "9:47" },
+    { "title": "Around And Around", "duration": "4:00" },
+    { "title": "Playing in the Band", "duration": "5:48" },
+    { "title": "Brokedown Palace", "duration": "5:44" }
+  ]
+}

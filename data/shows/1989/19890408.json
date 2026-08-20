@@ -1,0 +1,32 @@
+{
+  "id": "19890408",
+  "date": "1989-04-08",
+  "venue": "Riverfront Coliseum",
+  "city": "Cincinnati",
+  "state": "OH",
+  "country": "USA",
+  "source": "dead-drop:19890408",
+  "songs": [
+    { "title": "Let the Good Times Roll", "duration": "4:03" },
+    { "title": "Wang Dang Doodle", "duration": "6:58" },
+    { "title": "West L.A. Fadeaway", "duration": "8:14" },
+    { "title": "Blow Away", "duration": "9:35" },
+    { "title": "Queen Jane Approximately", "duration": "6:35" },
+    { "title": "Loser", "duration": "7:55" },
+    { "title": "Cassidy", "duration": "6:56" },
+    { "title": "Don't Ease Me In", "duration": "3:38" },
+    { "title": "China Cat Sunflower", "duration": "6:32" },
+    { "title": "I Know You Rider", "duration": "5:42" },
+    { "title": "Looks Like Rain", "duration": "9:07" },
+    { "title": "Eyes Of The World", "duration": "11:12" },
+    { "title": "Drums", "duration": "9:54" },
+    { "title": "Space", "duration": "6:49" },
+    { "title": "The Wheel", "duration": "4:43" },
+    { "title": "Dear Mr. Fantasy", "duration": "5:51" },
+    { "title": "Hey Jude", "duration": "1:46" },
+    { "title": "I Need a Miracle", "duration": "4:10" },
+    { "title": "Black Peter", "duration": "8:16" },
+    { "title": "One More Saturday Night", "duration": "6:30" },
+    { "title": "Box of Rain", "duration": "5:27" }
+  ]
+}

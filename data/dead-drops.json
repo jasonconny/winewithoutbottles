@@ -223,6 +223,76 @@
       "transfer": "DAT, 24 bit/96 kHz, N.R. No",
       "capturedOn": "2026-08-20",
       "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1989-04-05",
+      "venue": "Crisler Center, Ann Arbor, MI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app, whose venue field is the modern name: the room was renamed Crisler Center in 2012 and was billed Crisler Arena in 1989, which is what the show uses (Jason, 2026-08-20). First Crisler show in the corpus, so there was no precedent to defer to — see data/CORRECTIONS.md"
+    },
+    {
+      "date": "1989-04-06",
+      "venue": "Crisler Center, Ann Arbor, MI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the show uses the era name Crisler Arena. Set Two closes with a second Playing in the Band (5:48), which the app spells plainly rather than as a reprise, and the show follows it"
+    },
+    {
+      "date": "1989-04-08",
+      "venue": "Riverfront Coliseum, Cincinnati, OH",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from 1976-10-02 exactly"
+    },
+    {
+      "date": "1989-04-09",
+      "venue": "Freedom Hall, Louisville, KY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from 1974-06-18. The app spells the Set Two opener \"Louie Louie\", the canon \"Louie, Louie\" — same song, as on the 1988-04-05 drop"
+    },
+    {
+      "date": "1989-04-11",
+      "venue": "Rosemont Horizon, Rosemont, IL",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; first Rosemont show in the corpus. The app's name is era-correct — the room became Allstate Arena in 1999 — and was taken (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1989-04-12",
+      "venue": "Rosemont Horizon, Rosemont, IL",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; Set Two brackets Spoonful with two Smokestack Lightnin' rows (2:21 and 0:38), so the setlist carries the song twice. The app's spelling is the canon's Smokestack Lightning alias"
+    },
+    {
+      "date": "1989-04-13",
+      "venue": "Rosemont Horizon, Rosemont, IL",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; Set One holds It's All Over Now and the encore It's All Over Now, Baby Blue — two different songs, which is what the canon's sharesPrefixWith on the latter exists to keep apart"
+    },
+    {
+      "date": "1989-04-15",
+      "venue": "The MECCA, Milwaukee, WI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; first Milwaukee show in the corpus. The room is spelled bare MECCA — the acronym already ends in Arena (Milwaukee Exposition, Convention Center and Arena), so MECCA Arena would be redundant (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1989-04-16",
+      "venue": "The MECCA, Milwaukee, WI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the show spells the room bare MECCA, as on 1989-04-15"
+    },
+    {
+      "date": "1989-04-17",
+      "venue": "Met Center, Minneapolis, MN",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app, whose city is not authoritative: the Met Center stood in Bloomington, MN, and the show files it there (Jason, 2026-08-20). The corpus's one prior Minneapolis show, the Labor Temple in 1969, really is in Minneapolis"
     }
   ]
 }

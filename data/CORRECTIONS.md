@@ -1771,3 +1771,40 @@ wrong. Worth checking that sum before assuming either.
 Not every night got longer. 1988-09-23 came in **2:29 shorter** than the legacy
 art, so the one-way drift seen in the 1987 MSG batch is not a rule about the 2013
 timings in general.
+
+### A venue named after the wrong decade — Crisler, April 1989
+
+The app gives 1989-04-05 and 04-06 as `Crisler Center`. That building was
+`Crisler Arena` from 1970 until a 2012 renaming, so the app's field is the
+modern name for a 1989 night — the same failure as `Oakland Auditorium Arena`,
+and the one the era check exists to catch.
+
+What made it worth asking rather than assuming: the corpus holds no prior
+Crisler show, so there was no established spelling to defer to. Ann Arbor
+appears once, as `Hill Auditorium` (1971-12-14), which says nothing about this
+room. The rule the Irvine entry above settled applies — where the corpus is
+silent the app is not the fallback — so both nights are `Crisler Arena`
+(Jason, 2026-08-20).
+
+`Rosemont Horizon` (1989-04-11) is the same shape of question with the opposite
+answer: also new to the corpus, but the app's name is the one the room carried
+in 1989 (it became Allstate Arena in 1999), so it was taken as printed.
+
+### Two more venues the corpus had never held — Milwaukee and Bloomington, April 1989
+
+`MECCA` (1989-04-15, 04-16) is the rare case where the app's string was too
+_long_ rather than too short in spirit: the app prints `The MECCA`, and the
+obvious "correction" would have been `MECCA Arena` to match how the corpus names
+other rooms. It is an acronym — Milwaukee Exposition, Convention Center and
+Arena — so `MECCA Arena` says Arena twice, the PIN-number mistake. Bare `MECCA`
+(Jason, 2026-08-20).
+
+`Met Center` (1989-04-17) is the first drop where the **city**, not the venue
+name, was the wrong part. The app says Minneapolis; the building stood in
+Bloomington. That matters here more than it looks: the corpus already holds a
+genuine Minneapolis show (Labor Temple, 1969-04-27), so taking the app's line
+would have filed two different cities' rooms under one city name. Bloomington,
+MN.
+
+Worth generalising from: the venue _line_ is one weak field, not one weak name.
+Check the city too.

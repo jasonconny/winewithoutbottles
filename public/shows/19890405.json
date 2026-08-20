@@ -1,0 +1,89 @@
+{
+  "id": "19890405",
+  "date": "1989-04-05",
+  "venue": "Crisler Arena",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "country": "USA",
+  "svg": "/shows/19890405.svg",
+  "songCount": 19,
+  "durationSeconds": 9504,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 570
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 307
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 350
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 699
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 336
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 361
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 528
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 572
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 584
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 812
+    },
+    {
+      "title": "Quinn the Eskimo (The Mighty Quinn)",
+      "durationSeconds": 293
+    }
+  ]
+}
