@@ -5,30 +5,31 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19880923",
   "songs": [
     {
       "title": "Let the Good Times Roll",
-      "duration": "4:37"
+      "duration": "4:48"
     },
     {
       "title": "Hell in a Bucket",
-      "duration": "7:43"
+      "duration": "6:57"
     },
     {
       "title": "Cold Rain and Snow",
-      "duration": "6:22"
+      "duration": "6:29"
     },
     {
       "title": "Walkin' Blues",
-      "duration": "8:27"
+      "duration": "7:04"
     },
     {
       "title": "Loser",
-      "duration": "7:33"
+      "duration": "7:13"
     },
     {
       "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
-      "duration": "9:52"
+      "duration": "9:33"
     },
     {
       "title": "Dupree's Diamond Blues",
@@ -36,51 +37,51 @@
     },
     {
       "title": "Promised Land",
-      "duration": "4:20"
+      "duration": "4:32"
     },
     {
       "title": "Samson And Delilah",
-      "duration": "7:45"
+      "duration": "8:04"
     },
     {
       "title": "Ship Of Fools",
-      "duration": "7:51"
+      "duration": "8:44"
     },
     {
       "title": "Victim or the Crime",
-      "duration": "5:44"
+      "duration": "4:56"
     },
     {
       "title": "Foolish Heart",
-      "duration": "11:11"
+      "duration": "11:16"
     },
     {
       "title": "Drums",
-      "duration": "9:05"
+      "duration": "8:59"
     },
     {
       "title": "Space",
-      "duration": "5:34"
+      "duration": "6:27"
     },
     {
       "title": "I Will Take You Home",
-      "duration": "3:53"
+      "duration": "4:02"
     },
     {
       "title": "The Other One",
-      "duration": "7:55"
+      "duration": "8:00"
     },
     {
       "title": "Stella Blue",
-      "duration": "7:13"
+      "duration": "7:16"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "11:11"
+      "duration": "9:30"
     },
     {
       "title": "U.S. Blues",
-      "duration": "5:36"
+      "duration": "5:33"
     }
   ]
 }

@@ -1714,9 +1714,60 @@ the derived runs actually had 15 internal gaps. Five had appeared silently as
 shows were imported — Fillmore West June 1969, Fillmore East April 1971, Academy
 of Music March 1972, Oakland Auditorium December 1979, Greek Theatre July 1984 —
 and this batch added a sixth, Greek Theatre July 1988 (1988-07-16, between the
-two Berkeley drops).
+two Berkeley drops) — which Jason confirmed the same day was a real show, the
+middle night of a three-night stand, so it is now only the second row in the
+**confirmed incomplete** table. It waits on a future DeadDrop.
 
 The table is now regenerated in full. None of them are claims that a show is
 missing; they still need Jason and a source, one at a time. But a candidate list
 that silently stops listing candidates is worse than no list, so **regenerate it
 in the same pass as the import**, not when someone remembers.
+
+It also needed a place to put an answer. Jason ruled 1988-09-17 and 1988-09-21
+scheduled off-nights, which makes the nine-show MSG stand complete — but the
+unverified table has only two exits, promotion to _confirmed incomplete_ or
+deletion, and deleting a settled row means the next regeneration re-derives it
+and the same question gets asked again. So the file now has a third table,
+**Confirmed complete**, and the regeneration instruction says to subtract both
+settled tables from the walk. A derived candidate list cannot tell an unexamined
+gap from an answered one; only a written answer can.
+
+### Where the 2013 art named a different song — 1988-09-16
+
+The September 1988 MSG drops retime eight sourceless legacy shows, and seven of
+them matched the 2013 art perfectly: same songs, same order, same count. The
+eighth disagreed on exactly one title. Set One position five, after
+`Me & My Uncle`, is `Big River` in the legacy art and `Mexicali Blues` in the
+app — **both at 5:14**.
+
+The matching duration is what makes it interesting: it is the same audio, indexed
+under two names, not a lost or gained row. It is also, on its own, weak evidence
+either way — the two are interchangeable Weir cowboy tunes in the same slot, and
+9/20 that same run has a `Big River` both sources agree on.
+
+Jason's call (2026-08-20): the app wins. The rule from the Oakland batch cuts
+both ways — a drop's **venue** field is weak because it was applied later, but its
+**setlist** is the band's own record, while the 2013 art was hand-entered from a
+source no longer known. Where the two disagree about what was played, the drop is
+the better witness.
+
+### The 2013 Drums/Space timings were not reliable — September 1988 MSG
+
+Retiming the eight-show stand moved the corpus by +22:46 in total, which is the
+expected direction. What is worth recording is **where** it moved.
+
+On 1988-09-14 the legacy art has `Drums 3:30` + `Space 5:40` — 9:10 for the pair,
+against the drop's `9:02` + `7:15`, or 16:17. Seven minutes is not a boundary
+being drawn in a different place; the 2013 timings were simply wrong through that
+stretch. On 1988-09-20 the same region has `Drums 3:14` + `Space 16:58` against
+`11:17` + `8:04`: the pair totals agree within 51 seconds, so **that** one is the
+ordinary boundary disagreement (the `He's Gone`/`Truckin'` pattern), just an
+unusually large one.
+
+Two different failures that look alike in a per-track diff. The pair total tells
+them apart: agree, and the boundary moved; disagree by minutes, and a timing was
+wrong. Worth checking that sum before assuming either.
+
+Not every night got longer. 1988-09-23 came in **2:29 shorter** than the legacy
+art, so the one-way drift seen in the 1987 MSG batch is not a rule about the 2013
+timings in general.

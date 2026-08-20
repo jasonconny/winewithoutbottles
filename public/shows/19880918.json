@@ -7,79 +7,79 @@
   "country": "USA",
   "svg": "/shows/19880918.svg",
   "songCount": 18,
-  "durationSeconds": 8030,
+  "durationSeconds": 8208,
   "songs": [
     {
       "title": "Feel Like a Stranger",
-      "durationSeconds": 473
+      "durationSeconds": 496
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 536
+      "durationSeconds": 545
     },
     {
       "title": "Never Trust a Woman",
-      "durationSeconds": 487
+      "durationSeconds": 454
     },
     {
       "title": "Big Railroad Blues",
-      "durationSeconds": 379
+      "durationSeconds": 312
     },
     {
       "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
-      "durationSeconds": 555
+      "durationSeconds": 615
     },
     {
       "title": "Stagger Lee",
-      "durationSeconds": 368
+      "durationSeconds": 376
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 273
+      "durationSeconds": 292
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 200
+      "durationSeconds": 211
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 392
+      "durationSeconds": 404
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 631
+      "durationSeconds": 646
     },
     {
       "title": "Man Smart Woman Smarter",
-      "durationSeconds": 439
+      "durationSeconds": 451
     },
     {
       "title": "Drums",
-      "durationSeconds": 692
+      "durationSeconds": 702
     },
     {
       "title": "Space",
-      "durationSeconds": 354
+      "durationSeconds": 491
     },
     {
       "title": "The Other One",
-      "durationSeconds": 374
+      "durationSeconds": 283
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 526
+      "durationSeconds": 535
     },
     {
       "title": "Throwing Stones",
-      "durationSeconds": 612
+      "durationSeconds": 635
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 369
+      "durationSeconds": 380
     },
     {
       "title": "Black Muddy River",
-      "durationSeconds": 370
+      "durationSeconds": 380
     }
   ]
 }

@@ -167,6 +167,62 @@
       "transfer": "DAT, 24 bit/96 kHz, N.R. No",
       "capturedOn": "2026-08-20",
       "note": "read from the PlayDead app; the encore carries Blackbird (2:37), added to the canon as a song (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1988-09-14",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. The legacy Drums (3:30) + Space (5:40) totalled 9:10 against the drop's 16:17 — not a boundary shift, so the 2013 timings were simply wrong through that stretch"
+    },
+    {
+      "date": "1988-09-15",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly, including the Playing in the Band > Uncle John's Band > Playing in the Band sandwich"
+    },
+    {
+      "date": "1988-09-16",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order and count matched, but the app names the fifth Set One track Mexicali Blues where the 2013 art said Big River — both at 5:14. The drop's title was taken (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1988-09-18",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly, including the Not Fade Away that opens Set Two and returns to close it"
+    },
+    {
+      "date": "1988-09-19",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. The app shortens the encore to Quinn the Eskimo; the canon's full title is used"
+    },
+    {
+      "date": "1988-09-20",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. The legacy Drums (3:14) + Space (16:58) split is nothing like the drop's 11:17 + 8:04, though the totals are within 51 seconds"
+    },
+    {
+      "date": "1988-09-22",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1988-09-23",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
     }
   ]
 }

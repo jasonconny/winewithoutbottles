@@ -7,43 +7,43 @@
   "country": "USA",
   "svg": "/shows/19880920.svg",
   "songCount": 18,
-  "durationSeconds": 8043,
+  "durationSeconds": 8117,
   "songs": [
     {
       "title": "Jack Straw",
-      "durationSeconds": 380
+      "durationSeconds": 430
     },
     {
       "title": "Althea",
-      "durationSeconds": 426
+      "durationSeconds": 451
     },
     {
       "title": "Mama Tried",
-      "durationSeconds": 167
+      "durationSeconds": 164
     },
     {
       "title": "Big River",
-      "durationSeconds": 341
+      "durationSeconds": 365
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 408
+      "durationSeconds": 393
     },
     {
       "title": "When I Paint My Masterpiece",
-      "durationSeconds": 262
+      "durationSeconds": 321
     },
     {
       "title": "Louie, Louie",
-      "durationSeconds": 530
+      "durationSeconds": 473
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 482
+      "durationSeconds": 489
     },
     {
       "title": "Bertha",
-      "durationSeconds": 454
+      "durationSeconds": 452
     },
     {
       "title": "Cumberland Blues",
@@ -51,35 +51,35 @@
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 580
+      "durationSeconds": 575
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 702
+      "durationSeconds": 697
     },
     {
       "title": "Drums",
-      "durationSeconds": 194
+      "durationSeconds": 677
     },
     {
       "title": "Space",
-      "durationSeconds": 1018
+      "durationSeconds": 484
     },
     {
       "title": "Truckin'",
-      "durationSeconds": 424
+      "durationSeconds": 493
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 390
+      "durationSeconds": 387
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 636
+      "durationSeconds": 692
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 340
+      "durationSeconds": 265
     }
   ]
 }

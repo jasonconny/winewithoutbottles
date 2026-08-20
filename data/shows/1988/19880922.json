@@ -5,86 +5,87 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19880922",
   "songs": [
     {
       "title": "Shakedown Street",
-      "duration": "12:15"
+      "duration": "13:18"
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "7:07"
+      "duration": "8:51"
     },
     {
       "title": "Candyman",
-      "duration": "6:24"
+      "duration": "7:16"
     },
     {
       "title": "Beat It On Down The Line",
-      "duration": "3:11"
+      "duration": "3:17"
     },
     {
       "title": "Greatest Story Ever Told",
-      "duration": "4:08"
+      "duration": "5:14"
     },
     {
       "title": "To Lay Me Down",
-      "duration": "8:30"
+      "duration": "9:13"
     },
     {
       "title": "Cassidy",
-      "duration": "6:14"
+      "duration": "6:24"
     },
     {
       "title": "Deal",
-      "duration": "7:09"
+      "duration": "7:35"
     },
     {
       "title": "China Cat Sunflower",
-      "duration": "6:09"
+      "duration": "6:54"
     },
     {
       "title": "I Know You Rider",
-      "duration": "5:42"
+      "duration": "6:58"
     },
     {
       "title": "Just Like Tom Thumb's Blues",
-      "duration": "5:04"
+      "duration": "5:26"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "10:31"
+      "duration": "10:51"
     },
     {
       "title": "Eyes Of The World",
-      "duration": "7:53"
+      "duration": "8:03"
     },
     {
       "title": "Drums",
-      "duration": "7:23"
+      "duration": "6:48"
     },
     {
       "title": "Space",
-      "duration": "9:27"
+      "duration": "10:26"
     },
     {
       "title": "I Need a Miracle",
-      "duration": "3:29"
+      "duration": "3:40"
     },
     {
       "title": "Dear Mr. Fantasy",
-      "duration": "4:18"
+      "duration": "4:49"
     },
     {
       "title": "Hey Jude",
-      "duration": "2:22"
+      "duration": "2:03"
     },
     {
       "title": "Turn On Your Love Light",
-      "duration": "7:39"
+      "duration": "8:56"
     },
     {
       "title": "Brokedown Palace",
-      "duration": "4:54"
+      "duration": "5:29"
     }
   ]
 }

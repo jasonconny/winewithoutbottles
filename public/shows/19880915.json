@@ -7,79 +7,79 @@
   "country": "USA",
   "svg": "/shows/19880915.svg",
   "songCount": 18,
-  "durationSeconds": 7797,
+  "durationSeconds": 7955,
   "songs": [
     {
       "title": "Hell in a Bucket",
-      "durationSeconds": 362
+      "durationSeconds": 414
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 683
+      "durationSeconds": 706
     },
     {
       "title": "Desolation Row",
-      "durationSeconds": 645
+      "durationSeconds": 671
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 546
+      "durationSeconds": 596
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 381
+      "durationSeconds": 385
     },
     {
       "title": "Deal",
-      "durationSeconds": 497
+      "durationSeconds": 501
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 479
+      "durationSeconds": 504
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 512
+      "durationSeconds": 515
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 399
+      "durationSeconds": 393
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 545
+      "durationSeconds": 489
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 157
+      "durationSeconds": 215
     },
     {
       "title": "Drums",
-      "durationSeconds": 484
+      "durationSeconds": 473
     },
     {
       "title": "Space",
-      "durationSeconds": 335
+      "durationSeconds": 365
     },
     {
       "title": "I Will Take You Home",
-      "durationSeconds": 226
+      "durationSeconds": 233
     },
     {
       "title": "All Along the Watchtower",
-      "durationSeconds": 313
+      "durationSeconds": 314
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "durationSeconds": 356
+      "durationSeconds": 359
     },
     {
       "title": "Turn On Your Love Light",
-      "durationSeconds": 536
+      "durationSeconds": 483
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 341
+      "durationSeconds": 339
     }
   ]
 }

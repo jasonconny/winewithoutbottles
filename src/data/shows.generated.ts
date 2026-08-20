@@ -4679,7 +4679,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880914.svg",
     "songCount": 20,
-    "durationSeconds": 8356
+    "durationSeconds": 8674
   },
   {
     "id": "19880915",
@@ -4690,7 +4690,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880915.svg",
     "songCount": 18,
-    "durationSeconds": 7797
+    "durationSeconds": 7955
   },
   {
     "id": "19880916",
@@ -4701,7 +4701,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880916.svg",
     "songCount": 20,
-    "durationSeconds": 8928
+    "durationSeconds": 8965
   },
   {
     "id": "19880918",
@@ -4712,7 +4712,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880918.svg",
     "songCount": 18,
-    "durationSeconds": 8030
+    "durationSeconds": 8208
   },
   {
     "id": "19880919",
@@ -4723,7 +4723,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880919.svg",
     "songCount": 19,
-    "durationSeconds": 7988
+    "durationSeconds": 8036
   },
   {
     "id": "19880920",
@@ -4734,7 +4734,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880920.svg",
     "songCount": 18,
-    "durationSeconds": 8043
+    "durationSeconds": 8117
   },
   {
     "id": "19880922",
@@ -4745,7 +4745,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880922.svg",
     "songCount": 20,
-    "durationSeconds": 7789
+    "durationSeconds": 8491
   },
   {
     "id": "19880923",
@@ -4756,7 +4756,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880923.svg",
     "songCount": 19,
-    "durationSeconds": 8257
+    "durationSeconds": 8108
   },
   {
     "id": "19880924",

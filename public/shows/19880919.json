@@ -7,31 +7,31 @@
   "country": "USA",
   "svg": "/shows/19880919.svg",
   "songCount": 19,
-  "durationSeconds": 7988,
+  "durationSeconds": 8036,
   "songs": [
     {
       "title": "Touch of Grey",
-      "durationSeconds": 445
+      "durationSeconds": 411
     },
     {
       "title": "Little Red Rooster",
-      "durationSeconds": 686
+      "durationSeconds": 677
     },
     {
       "title": "Dire Wolf",
-      "durationSeconds": 232
+      "durationSeconds": 229
     },
     {
       "title": "Far From Me",
-      "durationSeconds": 371
+      "durationSeconds": 337
     },
     {
       "title": "Queen Jane Approximately",
-      "durationSeconds": 382
+      "durationSeconds": 378
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 498
+      "durationSeconds": 511
     },
     {
       "title": "Let It Grow",
@@ -39,31 +39,31 @@
     },
     {
       "title": "Victim or the Crime",
-      "durationSeconds": 354
+      "durationSeconds": 391
     },
     {
       "title": "Foolish Heart",
-      "durationSeconds": 684
+      "durationSeconds": 677
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 449
+      "durationSeconds": 429
     },
     {
       "title": "China Doll",
-      "durationSeconds": 371
+      "durationSeconds": 381
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 214
+      "durationSeconds": 215
     },
     {
       "title": "Drums",
-      "durationSeconds": 552
+      "durationSeconds": 547
     },
     {
       "title": "Space",
-      "durationSeconds": 288
+      "durationSeconds": 327
     },
     {
       "title": "The Wheel",
@@ -71,19 +71,19 @@
     },
     {
       "title": "Black Peter",
-      "durationSeconds": 487
+      "durationSeconds": 483
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 229
+      "durationSeconds": 227
     },
     {
       "title": "Good Lovin'",
-      "durationSeconds": 438
+      "durationSeconds": 500
     },
     {
       "title": "Quinn the Eskimo (The Mighty Quinn)",
-      "durationSeconds": 280
+      "durationSeconds": 288
     }
   ]
 }
