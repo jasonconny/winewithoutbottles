@@ -5792,6 +5792,67 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9887
   },
   {
+    "id": "19910812",
+    "date": "1991-08-12",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19910812.svg",
+    "songCount": 18,
+    "durationSeconds": 8931
+  },
+  {
+    "id": "19910813",
+    "date": "1991-08-13",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19910813.svg",
+    "songCount": 16,
+    "durationSeconds": 9488
+  },
+  {
+    "id": "19910816",
+    "date": "1991-08-16",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19910816.svg",
+    "songCount": 17,
+    "durationSeconds": 9159
+  },
+  {
+    "id": "19910817",
+    "date": "1991-08-17",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19910817.svg",
+    "songCount": 18,
+    "durationSeconds": 8875
+  },
+  {
+    "id": "19910818",
+    "date": "1991-08-18",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19910818.svg",
+    "songCount": 20,
+    "durationSeconds": 9462
+  },
+  {
     "id": "19910908",
     "date": "1991-09-08",
     "venue": "Madison Square Garden",
@@ -5924,6 +5985,28 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8824
   },
   {
+    "id": "19920302",
+    "date": "1992-03-02",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "svg": "/shows/19920302.svg",
+    "songCount": 17,
+    "durationSeconds": 8928
+  },
+  {
+    "id": "19920303",
+    "date": "1992-03-03",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "svg": "/shows/19920303.svg",
+    "songCount": 17,
+    "durationSeconds": 8672
+  },
+  {
     "id": "19920320",
     "date": "1992-03-20",
     "venue": "Copps Coliseum",
@@ -5995,6 +6078,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19930327.svg",
     "songCount": 20,
     "durationSeconds": 9024
+  },
+  {
+    "id": "19930329",
+    "date": "1993-03-29",
+    "venue": "Knickerbocker Arena",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19930329.svg",
+    "songCount": 19,
+    "durationSeconds": 9171
   },
   {
     "id": "19930526",

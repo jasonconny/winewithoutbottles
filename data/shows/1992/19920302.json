@@ -1,0 +1,28 @@
+{
+  "id": "19920302",
+  "date": "1992-03-02",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "source": "dead-drop:19920302",
+  "songs": [
+    { "title": "Cold Rain and Snow", "duration": "7:14" },
+    { "title": "Little Red Rooster", "duration": "8:39" },
+    { "title": "Brown-Eyed Women", "duration": "6:24" },
+    { "title": "It's All Over Now", "duration": "7:30" },
+    { "title": "Loser", "duration": "7:17" },
+    { "title": "When I Paint My Masterpiece", "duration": "5:20" },
+    { "title": "Deal", "duration": "7:50" },
+    { "title": "China Cat Sunflower", "duration": "7:21" },
+    { "title": "I Know You Rider", "duration": "7:36" },
+    { "title": "Man Smart Woman Smarter", "duration": "6:59" },
+    { "title": "Terrapin Station", "duration": "17:19" },
+    { "title": "Drums", "duration": "14:02" },
+    { "title": "Space", "duration": "10:23" },
+    { "title": "The Other One", "duration": "7:07" },
+    { "title": "Stella Blue", "duration": "9:21" },
+    { "title": "Around And Around", "duration": "10:45" },
+    { "title": "Knockin' on Heaven's Door", "duration": "7:41" }
+  ]
+}

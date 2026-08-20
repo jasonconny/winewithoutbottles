@@ -1,0 +1,89 @@
+{
+  "id": "19930329",
+  "date": "1993-03-29",
+  "venue": "Knickerbocker Arena",
+  "city": "Albany",
+  "state": "NY",
+  "country": "USA",
+  "svg": "/shows/19930329.svg",
+  "songCount": 19,
+  "durationSeconds": 9171,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 268
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Lazy River Road",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 272
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "durationSeconds": 467
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 506
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 338
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 595
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 747
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 563
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Liberty",
+      "durationSeconds": 388
+    }
+  ]
+}

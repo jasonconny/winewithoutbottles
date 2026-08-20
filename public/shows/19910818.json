@@ -1,0 +1,93 @@
+{
+  "id": "19910818",
+  "date": "1991-08-18",
+  "venue": "Shoreline Amphitheatre",
+  "city": "Mountain View",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19910818.svg",
+  "songCount": 20,
+  "durationSeconds": 9462,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 330
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 297
+    },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 303
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 492
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 290
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 521
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1015
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 618
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 510
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 527
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 381
+    }
+  ]
+}

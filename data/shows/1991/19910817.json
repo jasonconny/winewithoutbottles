@@ -1,0 +1,30 @@
+{
+  "id": "19910817",
+  "date": "1991-08-17",
+  "venue": "Shoreline Amphitheatre",
+  "city": "Mountain View",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dark Star"],
+  "source": "dead-drop:19910817",
+  "songs": [
+    { "title": "Help On The Way", "duration": "5:45" },
+    { "title": "Slipknot!", "duration": "5:17" },
+    { "title": "Franklin's Tower", "duration": "9:47" },
+    { "title": "Wang Dang Doodle", "duration": "6:41" },
+    { "title": "Brown-Eyed Women", "duration": "6:06" },
+    { "title": "Queen Jane Approximately", "duration": "6:44" },
+    { "title": "Tennessee Jed", "duration": "7:14" },
+    { "title": "The Music Never Stopped", "duration": "8:10" },
+    { "title": "Man Smart Woman Smarter", "duration": "7:03" },
+    { "title": "Ship Of Fools", "duration": "7:26" },
+    { "title": "Smokestack Lightning", "duration": "8:03" },
+    { "title": "He's Gone", "duration": "18:17" },
+    { "title": "Drums", "duration": "14:56" },
+    { "title": "Space", "duration": "10:28" },
+    { "title": "Dark Star", "duration": "1:08" },
+    { "title": "Morning Dew", "duration": "11:44" },
+    { "title": "One More Saturday Night", "duration": "6:13" },
+    { "title": "It's All Over Now, Baby Blue", "duration": "6:53" }
+  ]
+}

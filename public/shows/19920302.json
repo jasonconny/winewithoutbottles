@@ -1,0 +1,81 @@
+{
+  "id": "19920302",
+  "date": "1992-03-02",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "svg": "/shows/19920302.svg",
+  "songCount": 17,
+  "durationSeconds": 8928,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 519
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 384
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 437
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 470
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 441
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 1039
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 842
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 623
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 561
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 645
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 461
+    }
+  ]
+}

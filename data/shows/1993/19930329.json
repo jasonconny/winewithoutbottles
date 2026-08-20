@@ -1,0 +1,30 @@
+{
+  "id": "19930329",
+  "date": "1993-03-29",
+  "venue": "Knickerbocker Arena",
+  "city": "Albany",
+  "state": "NY",
+  "country": "USA",
+  "source": "dead-drop:19930329",
+  "songs": [
+    { "title": "Let the Good Times Roll", "duration": "4:28" },
+    { "title": "Feel Like a Stranger", "duration": "8:20" },
+    { "title": "Loser", "duration": "7:06" },
+    { "title": "Little Red Rooster", "duration": "8:43" },
+    { "title": "Ramble On Rose", "duration": "6:59" },
+    { "title": "Black-Throated Wind", "duration": "6:53" },
+    { "title": "Lazy River Road", "duration": "7:36" },
+    { "title": "Johnny B. Goode", "duration": "4:32" },
+    { "title": "Here Comes Sunshine", "duration": "7:47" },
+    { "title": "Looks Like Rain", "duration": "8:26" },
+    { "title": "Box of Rain", "duration": "5:38" },
+    { "title": "He's Gone", "duration": "9:55" },
+    { "title": "Drums", "duration": "12:17" },
+    { "title": "Space", "duration": "12:27" },
+    { "title": "The Last Time", "duration": "6:28" },
+    { "title": "Wharf Rat", "duration": "10:04" },
+    { "title": "Throwing Stones", "duration": "9:23" },
+    { "title": "Not Fade Away", "duration": "9:21" },
+    { "title": "Liberty", "duration": "6:28" }
+  ]
+}

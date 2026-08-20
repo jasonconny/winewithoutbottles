@@ -1,0 +1,84 @@
+{
+  "id": "19910816",
+  "date": "1991-08-16",
+  "venue": "Shoreline Amphitheatre",
+  "city": "Mountain View",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star"
+  ],
+  "svg": "/shows/19910816.svg",
+  "songCount": 17,
+  "durationSeconds": 9159,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 453
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 457
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 434
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 729
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 597
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 745
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 868
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 533
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 318
+    }
+  ]
+}

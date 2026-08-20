@@ -1,0 +1,28 @@
+{
+  "id": "19920303",
+  "date": "1992-03-03",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "source": "dead-drop:19920303",
+  "songs": [
+    { "title": "Hell in a Bucket", "duration": "7:20" },
+    { "title": "Sugaree", "duration": "11:06" },
+    { "title": "Walkin' Blues", "duration": "6:20" },
+    { "title": "Candyman", "duration": "6:57" },
+    { "title": "Queen Jane Approximately", "duration": "6:56" },
+    { "title": "Tennessee Jed", "duration": "8:17" },
+    { "title": "Corrina", "duration": "9:51" },
+    { "title": "Iko Iko", "duration": "10:59" },
+    { "title": "Playing in the Band", "duration": "8:33" },
+    { "title": "Uncle John's Band", "duration": "8:18" },
+    { "title": "Wave to the Wind", "duration": "8:04" },
+    { "title": "Drums", "duration": "12:03" },
+    { "title": "Space", "duration": "8:34" },
+    { "title": "China Doll", "duration": "7:05" },
+    { "title": "Throwing Stones", "duration": "9:42" },
+    { "title": "Turn On Your Love Light", "duration": "8:32" },
+    { "title": "Brokedown Palace", "duration": "5:55" }
+  ]
+}

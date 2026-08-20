@@ -1,0 +1,88 @@
+{
+  "id": "19910817",
+  "date": "1991-08-17",
+  "venue": "Shoreline Amphitheatre",
+  "city": "Mountain View",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dark Star"
+  ],
+  "svg": "/shows/19910817.svg",
+  "songCount": 18,
+  "durationSeconds": 8875,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 345
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 317
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 587
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 404
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 434
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 490
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 483
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 1097
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 896
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Dark Star",
+      "durationSeconds": 68
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 704
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 373
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 413
+    }
+  ]
+}
