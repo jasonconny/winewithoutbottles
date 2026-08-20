@@ -5,66 +5,67 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19870919",
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "duration": "7:46"
+      "duration": "8:24"
     },
     {
       "title": "It's All Over Now",
-      "duration": "9:06"
+      "duration": "9:43"
     },
     {
       "title": "High Time",
-      "duration": "7:24"
+      "duration": "8:22"
     },
     {
       "title": "Mexicali Blues",
-      "duration": "4:38"
-    },
-    {
-      "title": "Big River",
-      "duration": "5:32"
-    },
-    {
-      "title": "When Push Comes to Shove",
       "duration": "4:40"
     },
     {
+      "title": "Big River",
+      "duration": "6:23"
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "duration": "5:30"
+    },
+    {
       "title": "Box of Rain",
-      "duration": "5:02"
+      "duration": "5:05"
     },
     {
       "title": "Don't Ease Me In",
-      "duration": "3:24"
+      "duration": "3:42"
     },
     {
       "title": "Crazy Fingers",
-      "duration": "8:12"
+      "duration": "8:31"
     },
     {
       "title": "Uncle John's Band",
-      "duration": "8:56"
+      "duration": "8:58"
     },
     {
       "title": "Playing in the Band",
-      "duration": "15:33"
+      "duration": "15:38"
     },
     {
       "title": "Drums",
-      "duration": "9:15"
+      "duration": "9:09"
     },
     {
       "title": "Space",
-      "duration": "3:59"
+      "duration": "3:46"
     },
     {
       "title": "I Need a Miracle",
-      "duration": "3:32"
+      "duration": "3:45"
     },
     {
       "title": "Maggie's Farm",
-      "duration": "6:54"
+      "duration": "7:02"
     },
     {
       "title": "Black Peter",
@@ -72,15 +73,15 @@
     },
     {
       "title": "Around And Around",
-      "duration": "3:49"
+      "duration": "3:50"
     },
     {
       "title": "Turn On Your Love Light",
-      "duration": "5:55"
+      "duration": "6:29"
     },
     {
       "title": "Black Muddy River",
-      "duration": "6:24"
+      "duration": "6:49"
     }
   ]
 }

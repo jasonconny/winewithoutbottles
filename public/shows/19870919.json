@@ -7,67 +7,67 @@
   "country": "USA",
   "svg": "/shows/19870919.svg",
   "songCount": 19,
-  "durationSeconds": 7725,
+  "durationSeconds": 8070,
   "songs": [
     {
       "title": "Mississippi Half-Step Uptown Toodeloo",
-      "durationSeconds": 466
+      "durationSeconds": 504
     },
     {
       "title": "It's All Over Now",
-      "durationSeconds": 546
+      "durationSeconds": 583
     },
     {
       "title": "High Time",
-      "durationSeconds": 444
+      "durationSeconds": 502
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 278
-    },
-    {
-      "title": "Big River",
-      "durationSeconds": 332
-    },
-    {
-      "title": "When Push Comes to Shove",
       "durationSeconds": 280
     },
     {
+      "title": "Big River",
+      "durationSeconds": 383
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "durationSeconds": 330
+    },
+    {
       "title": "Box of Rain",
-      "durationSeconds": 302
+      "durationSeconds": 305
     },
     {
       "title": "Don't Ease Me In",
-      "durationSeconds": 204
+      "durationSeconds": 222
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 492
+      "durationSeconds": 511
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 536
+      "durationSeconds": 538
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 933
+      "durationSeconds": 938
     },
     {
       "title": "Drums",
-      "durationSeconds": 555
+      "durationSeconds": 549
     },
     {
       "title": "Space",
-      "durationSeconds": 239
+      "durationSeconds": 226
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 212
+      "durationSeconds": 225
     },
     {
       "title": "Maggie's Farm",
-      "durationSeconds": 414
+      "durationSeconds": 422
     },
     {
       "title": "Black Peter",
@@ -75,15 +75,15 @@
     },
     {
       "title": "Around And Around",
-      "durationSeconds": 229
+      "durationSeconds": 230
     },
     {
       "title": "Turn On Your Love Light",
-      "durationSeconds": 355
+      "durationSeconds": 389
     },
     {
       "title": "Black Muddy River",
-      "durationSeconds": 384
+      "durationSeconds": 409
     }
   ]
 }

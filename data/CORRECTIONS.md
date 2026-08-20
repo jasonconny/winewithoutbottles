@@ -1620,3 +1620,64 @@ The general rule, now in the `import-dead-drop` skill: **take the setlist and th
 timings from a drop; take the venue from the corpus, and check the era.** The
 app's venue string belongs in `data/dead-drops.json` as a record of what was
 read, never straight into a show.
+
+### A venue the corpus spelled two ways — the Spectrum, Philadelphia
+
+The September 1987 drops are the first Philadelphia shows read off a screen, and
+they surfaced a split that predates them: of eleven Spectrum shows already in the
+corpus, nine were filed as `Spectrum` and two — 1973-03-24 and 1983-04-26 — as
+`The Spectrum`. The app says `The Spectrum`.
+
+Two spellings are two venues to every derived gallery, so the split was not
+cosmetic. `VENUE_MIN_SHOWS` is 10 and neither spelling reached it, which is why
+nothing had gone visibly wrong: the room simply had no gallery, and the bug was
+invisible precisely because it was suppressing the page that would have shown it.
+
+Jason chose the bare `Spectrum` (2026-08-20) and the two stragglers were
+corrected to match. With 1987-09-22 and 1987-09-23 added, the venue reaches 13
+shows and `/spectrum` now exists, along with three derived runs
+(`Spectrum November 1979`, `Spectrum September 1987`, `Spectrum October 1989`).
+
+The app's `The Spectrum` is recorded in `data/dead-drops.json`, per the rule from
+the Oakland batch: the drop's venue string is a record of what was read, not an
+input to the show.
+
+### What a DeadDrop says about the 1987 MSG timings — 1987-09-15, 09-19 and 09-20
+
+Three of the five September 1987 drops retime sourceless 2013 legacy shows, and
+all three matched the legacy art's setlist **exactly** — same songs, same order,
+same count. Only the durations moved, and they moved one way: the drops are
+longer by 13:49, 5:45 and 10:37 respectively, with only one or two tracks shorter
+on each night and those by ten seconds or less. Whatever the 2013 timings were
+read from cut tighter than the official track boundaries do.
+
+One apparent outlier is not one. On 1987-09-20 the legacy art has
+`Drums 9:45 / Space 8:40 / The Other One 4:50`; the drop has
+`9:53 / 5:09 / 8:26` — Space down 3:31 and The Other One up 3:36. Those are the
+same music: `Space + The Other One` is 13:30 in the legacy timings and 13:35 in
+the drop, five seconds apart. The boundary moved, not the reading. It is the
+`He's Gone`/`Truckin'` pattern again — where a transition gets indexed is an
+editorial call, and two sources will place it differently without either being
+wrong.
+
+One row was read and then discarded: 1987-09-15 carries a `Beer Barrel Polka`
+tease (2:20) between `When Push Comes to Shove` and `Me & My Uncle`. The app
+indexes it as a numbered track; the canon already lists it under `notASong`, and
+the 2013 art already omitted it, so the show stays at 20 songs and the drop's 21
+rows reconcile without a decision.
+
+### A theme song, indexed as a track — 1987-09-22
+
+The Spectrum drop for 1987-09-22 lists `The Addams Family Theme` at 0:44 between
+`Ramble On Rose` and `Cassidy`. Forty-four seconds is snippet length, and the
+canon already handles that class the same way — `Beer Barrel Polka`,
+`Funiculì Funiculà` and `The Merry-Go-Round Broke Down` are all `notASong`.
+
+Jason's call (2026-08-20): `notASong`. Admitting it would have minted a permanent
+colour for a tease, which is exactly the friction `data/songs.json` exists to
+apply.
+
+Kept, by contrast, on 1987-09-23: `La Bamba` at 0:57, bracketed by two separate
+`Good Lovin'` rows. That one is already in the canon as a song, so the setlist
+simply carries `Good Lovin'` twice — the sandwich the app indexed is the sandwich
+the corpus stores.

@@ -1,0 +1,97 @@
+{
+  "id": "19870923",
+  "date": "1987-09-23",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "svg": "/shows/19870923.svg",
+  "songCount": 21,
+  "durationSeconds": 8454,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 552
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Tons of Steel",
+      "durationSeconds": 311
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 643
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 319
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 558
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 767
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 376
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 307
+    },
+    {
+      "title": "La Bamba",
+      "durationSeconds": 57
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 253
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 356
+    }
+  ]
+}

@@ -1440,7 +1440,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19730324",
     "date": "1973-03-24",
-    "venue": "The Spectrum",
+    "venue": "Spectrum",
     "city": "Philadelphia",
     "state": "PA",
     "country": "USA",
@@ -4143,7 +4143,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19830426",
     "date": "1983-04-26",
-    "venue": "The Spectrum",
+    "venue": "Spectrum",
     "city": "Philadelphia",
     "state": "PA",
     "country": "USA",
@@ -4463,7 +4463,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19870915.svg",
     "songCount": 20,
-    "durationSeconds": 7838
+    "durationSeconds": 8667
   },
   {
     "id": "19870916",
@@ -4502,7 +4502,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19870919.svg",
     "songCount": 19,
-    "durationSeconds": 7725
+    "durationSeconds": 8070
   },
   {
     "id": "19870920",
@@ -4513,7 +4513,29 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19870920.svg",
     "songCount": 20,
-    "durationSeconds": 8082
+    "durationSeconds": 8719
+  },
+  {
+    "id": "19870922",
+    "date": "1987-09-22",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19870922.svg",
+    "songCount": 20,
+    "durationSeconds": 8672
+  },
+  {
+    "id": "19870923",
+    "date": "1987-09-23",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19870923.svg",
+    "songCount": 21,
+    "durationSeconds": 8454
   },
   {
     "id": "19880327",

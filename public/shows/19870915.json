@@ -7,87 +7,87 @@
   "country": "USA",
   "svg": "/shows/19870915.svg",
   "songCount": 20,
-  "durationSeconds": 7838,
+  "durationSeconds": 8667,
   "songs": [
     {
       "title": "Hey Pocky Way",
-      "durationSeconds": 274
+      "durationSeconds": 322
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 396
+      "durationSeconds": 501
     },
     {
       "title": "When Push Comes to Shove",
-      "durationSeconds": 265
+      "durationSeconds": 329
     },
     {
       "title": "Me and My Uncle",
-      "durationSeconds": 168
+      "durationSeconds": 181
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 264
+      "durationSeconds": 327
     },
     {
       "title": "Row Jimmy",
-      "durationSeconds": 497
+      "durationSeconds": 550
     },
     {
       "title": "Queen Jane Approximately",
-      "durationSeconds": 294
+      "durationSeconds": 349
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 478
+      "durationSeconds": 507
     },
     {
       "title": "The Music Never Stopped",
-      "durationSeconds": 451
+      "durationSeconds": 499
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 318
+      "durationSeconds": 339
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 337
+      "durationSeconds": 436
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 674
+      "durationSeconds": 682
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 552
+      "durationSeconds": 553
     },
     {
       "title": "Drums",
-      "durationSeconds": 408
+      "durationSeconds": 487
     },
     {
       "title": "Space",
-      "durationSeconds": 453
+      "durationSeconds": 455
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 277
+      "durationSeconds": 267
     },
     {
       "title": "Gimme Some Lovin'",
-      "durationSeconds": 290
+      "durationSeconds": 302
     },
     {
       "title": "Black Peter",
-      "durationSeconds": 496
+      "durationSeconds": 519
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 532
+      "durationSeconds": 592
     },
     {
       "title": "It's All Over Now, Baby Blue",
-      "durationSeconds": 414
+      "durationSeconds": 470
     }
   ]
 }

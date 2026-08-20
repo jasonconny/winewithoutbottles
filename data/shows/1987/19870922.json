@@ -1,0 +1,91 @@
+{
+  "id": "19870922",
+  "date": "1987-09-22",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "source": "dead-drop:19870922",
+  "songs": [
+    {
+      "title": "Hey Pocky Way",
+      "duration": "6:10"
+    },
+    {
+      "title": "Althea",
+      "duration": "7:26"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:45"
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "duration": "5:57"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "4:37"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "7:00"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:24"
+    },
+    {
+      "title": "Deal",
+      "duration": "7:34"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "6:45"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:21"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "6:42"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:20"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:33"
+    },
+    {
+      "title": "Drums",
+      "duration": "7:52"
+    },
+    {
+      "title": "Space",
+      "duration": "7:40"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:08"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "6:42"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:38"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "9:21"
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "duration": "7:37"
+    }
+  ]
+}
