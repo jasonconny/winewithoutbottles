@@ -1,0 +1,85 @@
+{
+  "id": "19880403",
+  "date": "1988-04-03",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "svg": "/shows/19880403.svg",
+  "songCount": 18,
+  "durationSeconds": 7564,
+  "songs": [
+    {
+      "title": "Promised Land",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 222
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 456
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 523
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 598
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 416
+    }
+  ]
+}

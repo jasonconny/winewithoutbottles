@@ -1681,3 +1681,42 @@ Kept, by contrast, on 1987-09-23: `La Bamba` at 0:57, bracketed by two separate
 `Good Lovin'` rows. That one is already in the canon as a song, so the setlist
 simply carries `Good Lovin'` twice — the sandwich the app indexed is the sandwich
 the corpus stores.
+
+### A comma that hid a song already in the canon — 1988-04-05
+
+The Hartford drop lists `Louie Louie` in Set Two. Checking it against the canon
+by exact string reported it missing, and it was nearly admitted as a new title.
+The canon already holds it as **`Louie, Louie`**, with the comma.
+
+Worth recording because the two spellings are the same colour — `cleanTitle`
+strips punctuation, so `Louie Louie` and `Louie, Louie` clean identically and the
+stripe would have been right either way. What would have been wrong is the canon:
+two entries for one song, and the closed-canon check silently weakened for every
+future drop that lists it. **A title the app spells without punctuation is not
+evidence the canon lacks it** — check the cleaned form, not the raw string.
+
+### Two Hartford/Worcester venue readings — April 1988
+
+Neither needed Jason. `Hartford Civic Center` matches the corpus's seven existing
+shows exactly, and the three new nights take the venue to ten, crossing
+`VENUE_MIN_SHOWS` — so `/hartford-civic-center` is a new gallery.
+
+Worcester was the ordinary case the Spectrum was not: the app shortens the room
+to `The Centrum`, and the corpus holds exactly one prior show there (1983-10-21)
+spelled `Worcester Centrum`. One unambiguous precedent, no self-disagreement, so
+the corpus spelling wins with no question to ask.
+
+### The run-gap candidate list had gone stale
+
+`data/INCOMPLETE-RUNS.md` tells you to regenerate its unverified table after
+adding shows, and that had not been done for a while: the table held 9 rows while
+the derived runs actually had 15 internal gaps. Five had appeared silently as
+shows were imported — Fillmore West June 1969, Fillmore East April 1971, Academy
+of Music March 1972, Oakland Auditorium December 1979, Greek Theatre July 1984 —
+and this batch added a sixth, Greek Theatre July 1988 (1988-07-16, between the
+two Berkeley drops).
+
+The table is now regenerated in full. None of them are claims that a show is
+missing; they still need Jason and a source, one at a time. But a candidate list
+that silently stops listing candidates is worse than no list, so **regenerate it
+in the same pass as the import**, not when someone remembers.

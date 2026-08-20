@@ -1,0 +1,93 @@
+{
+  "id": "19880715",
+  "date": "1988-07-15",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19880715.svg",
+  "songCount": 20,
+  "durationSeconds": 9467,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 833
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 442
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 221
+    },
+    {
+      "title": "Never Trust a Woman",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 747
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 752
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 432
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 261
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 321
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 763
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 359
+    }
+  ]
+}

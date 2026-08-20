@@ -118,6 +118,55 @@
       "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
       "capturedOn": "2026-08-20",
       "note": "read from the PlayDead app; the app says \"The Spectrum\", the corpus spells the room bare \"Spectrum\". Good Lovin' brackets a La Bamba tease, so the setlist carries Good Lovin' twice"
+    },
+    {
+      "date": "1988-04-03",
+      "venue": "Hartford Civic Center, Hartford, CT",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; first drops on a DAT transfer rather than reel or cassette. Only 3 captures, so the seams are 1-2 rows rather than the usual 2-3"
+    },
+    {
+      "date": "1988-04-04",
+      "venue": "Hartford Civic Center, Hartford, CT",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1988-04-05",
+      "venue": "Hartford Civic Center, Hartford, CT",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app spells the Set Two track \"Louie Louie\", the canon \"Louie, Louie\" — same song, corpus spelling used"
+    },
+    {
+      "date": "1988-04-08",
+      "venue": "The Centrum, Worcester, MA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app, which shortens the room to \"The Centrum\"; the corpus spells it \"Worcester Centrum\" (19831021) and that is what the show uses. Only 3 captures and the first seam overlaps by a single row"
+    },
+    {
+      "date": "1988-04-09",
+      "venue": "The Centrum, Worcester, MA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app says \"The Centrum\", the corpus \"Worcester Centrum\""
+    },
+    {
+      "date": "1988-07-15",
+      "venue": "Greek Theatre, University of California, Berkeley, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the corpus spells the room bare Greek Theatre, as with the 1984 drop"
+    },
+    {
+      "date": "1988-07-17",
+      "venue": "Greek Theatre, University of California, Berkeley, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the encore carries Blackbird (2:37), added to the canon as a song (Jason, 2026-08-20)"
     }
   ]
 }

@@ -1,0 +1,77 @@
+{
+  "id": "19880408",
+  "date": "1988-04-08",
+  "venue": "Worcester Centrum",
+  "city": "Worcester",
+  "state": "MA",
+  "country": "USA",
+  "svg": "/shows/19880408.svg",
+  "songCount": 16,
+  "durationSeconds": 6833,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 385
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 658
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 333
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 155
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 443
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 411
+    }
+  ]
+}

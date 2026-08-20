@@ -40,8 +40,14 @@ band played that night moves a row up.
 
 | Run                                  | Gap date(s)            |
 | ------------------------------------ | ---------------------- |
+| Fillmore West June 1969              | 1969-06-06             |
+| Fillmore East April 1971             | 1971-04-26             |
+| Academy of Music March 1972          | 1972-03-27             |
 | The Palladium April 1977             | 1977-05-02             |
+| Oakland Auditorium December 1979     | 1979-12-29             |
+| Greek Theatre July 1984              | 1984-07-14             |
 | Madison Square Garden September 1987 | 1987-09-17             |
+| Greek Theatre July 1988              | 1988-07-16             |
 | Madison Square Garden September 1988 | 1988-09-17, 1988-09-21 |
 | Brendan Byrne Arena October 1989     | 1989-10-13             |
 | Madison Square Garden September 1990 | 1990-09-17             |

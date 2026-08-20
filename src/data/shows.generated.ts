@@ -4580,6 +4580,61 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8463
   },
   {
+    "id": "19880403",
+    "date": "1988-04-03",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "svg": "/shows/19880403.svg",
+    "songCount": 18,
+    "durationSeconds": 7564
+  },
+  {
+    "id": "19880404",
+    "date": "1988-04-04",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "svg": "/shows/19880404.svg",
+    "songCount": 20,
+    "durationSeconds": 7796
+  },
+  {
+    "id": "19880405",
+    "date": "1988-04-05",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "svg": "/shows/19880405.svg",
+    "songCount": 20,
+    "durationSeconds": 8549
+  },
+  {
+    "id": "19880408",
+    "date": "1988-04-08",
+    "venue": "Worcester Centrum",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "svg": "/shows/19880408.svg",
+    "songCount": 16,
+    "durationSeconds": 6833
+  },
+  {
+    "id": "19880409",
+    "date": "1988-04-09",
+    "venue": "Worcester Centrum",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "svg": "/shows/19880409.svg",
+    "songCount": 22,
+    "durationSeconds": 8297
+  },
+  {
     "id": "19880703",
     "date": "1988-07-03",
     "venue": "Oxford Plains Speedway",
@@ -4592,6 +4647,28 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19880703.svg",
     "songCount": 19,
     "durationSeconds": 8659
+  },
+  {
+    "id": "19880715",
+    "date": "1988-07-15",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19880715.svg",
+    "songCount": 20,
+    "durationSeconds": 9467
+  },
+  {
+    "id": "19880717",
+    "date": "1988-07-17",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19880717.svg",
+    "songCount": 21,
+    "durationSeconds": 9117
   },
   {
     "id": "19880914",
