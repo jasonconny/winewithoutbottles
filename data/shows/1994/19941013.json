@@ -5,18 +5,19 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19941013",
   "songs": [
     {
       "title": "Touch of Grey",
-      "duration": "7:11"
+      "duration": "7:37"
     },
     {
       "title": "Wang Dang Doodle",
-      "duration": "6:31"
+      "duration": "6:33"
     },
     {
       "title": "Loser",
-      "duration": "8:22"
+      "duration": "8:25"
     },
     {
       "title": "Mama Tried",
@@ -24,11 +25,11 @@
     },
     {
       "title": "Mexicali Blues",
-      "duration": "6:30"
+      "duration": "6:44"
     },
     {
       "title": "Dupree's Diamond Blues",
-      "duration": "6:16"
+      "duration": "6:15"
     },
     {
       "title": "When I Paint My Masterpiece",
@@ -36,51 +37,47 @@
     },
     {
       "title": "Loose Lucy",
-      "duration": "9:32"
+      "duration": "9:36"
     },
     {
       "title": "Let It Grow",
-      "duration": "12:46"
+      "duration": "12:55"
     },
     {
       "title": "Foolish Heart",
-      "duration": "10:57"
+      "duration": "11:14"
     },
     {
       "title": "Playing in the Band",
-      "duration": "10:55"
+      "duration": "11:06"
     },
     {
       "title": "Uncle John's Band",
-      "duration": "12:06"
-    },
-    {
-      "title": "Jam",
-      "duration": "5:59"
+      "duration": "17:51"
     },
     {
       "title": "Drums",
-      "duration": "14:42"
+      "duration": "13:54"
     },
     {
       "title": "Space",
-      "duration": "12:34"
+      "duration": "14:48"
     },
     {
       "title": "The Other One",
-      "duration": "10:24"
+      "duration": "7:44"
     },
     {
       "title": "Wharf Rat",
-      "duration": "11:39"
+      "duration": "11:20"
     },
     {
       "title": "Johnny B. Goode",
-      "duration": "6:48"
+      "duration": "6:10"
     },
     {
       "title": "It's All Over Now, Baby Blue",
-      "duration": "7:27"
+      "duration": "7:23"
     }
   ]
 }

@@ -6,84 +6,80 @@
   "state": "NY",
   "country": "USA",
   "svg": "/shows/19941014.svg",
-  "songCount": 19,
-  "durationSeconds": 9989,
+  "songCount": 18,
+  "durationSeconds": 9953,
   "songs": [
     {
       "title": "Jack Straw",
-      "durationSeconds": 366
+      "durationSeconds": 397
     },
     {
       "title": "West L.A. Fadeaway",
-      "durationSeconds": 518
+      "durationSeconds": 496
     },
     {
       "title": "Queen Jane Approximately",
-      "durationSeconds": 377
+      "durationSeconds": 383
     },
     {
       "title": "Lazy River Road",
-      "durationSeconds": 435
+      "durationSeconds": 417
     },
     {
       "title": "El Paso",
-      "durationSeconds": 393
+      "durationSeconds": 374
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 553
+      "durationSeconds": 520
     },
     {
       "title": "Box of Rain",
-      "durationSeconds": 317
+      "durationSeconds": 320
     },
     {
       "title": "Scarlet Begonias",
-      "durationSeconds": 678
+      "durationSeconds": 690
     },
     {
       "title": "Fire on the Mountain",
-      "durationSeconds": 1282
+      "durationSeconds": 1261
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 500
+      "durationSeconds": 520
     },
     {
       "title": "Samba in the Rain",
-      "durationSeconds": 424
+      "durationSeconds": 434
     },
     {
       "title": "Corrina",
-      "durationSeconds": 516
-    },
-    {
-      "title": "Jam",
-      "durationSeconds": 514
+      "durationSeconds": 1030
     },
     {
       "title": "Drums",
-      "durationSeconds": 646
+      "durationSeconds": 734
     },
     {
       "title": "Space",
-      "durationSeconds": 1059
+      "durationSeconds": 955
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 325
+      "durationSeconds": 328
     },
     {
       "title": "Attics of My Life",
-      "durationSeconds": 324
+      "durationSeconds": 328
     },
     {
       "title": "Turn On Your Love Light",
-      "durationSeconds": 388
+      "durationSeconds": 382
     },
     {
       "title": "Liberty",
-      "durationSeconds": 374
+      "durationSeconds": 384
     }
   ]
 }

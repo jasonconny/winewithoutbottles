@@ -5,30 +5,31 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19941018",
   "songs": [
     {
       "title": "Help On The Way",
-      "duration": "4:02"
+      "duration": "4:12"
     },
     {
       "title": "Slipknot!",
-      "duration": "5:39"
+      "duration": "5:57"
     },
     {
       "title": "Franklin's Tower",
-      "duration": "13:19"
+      "duration": "13:12"
     },
     {
       "title": "The Same Thing",
-      "duration": "7:11"
+      "duration": "7:10"
     },
     {
       "title": "Althea",
-      "duration": "9:57"
+      "duration": "9:56"
     },
     {
       "title": "Cassidy",
-      "duration": "6:55"
+      "duration": "6:11"
     },
     {
       "title": "Childhood's End",
@@ -36,11 +37,11 @@
     },
     {
       "title": "Don't Ease Me In",
-      "duration": "3:07"
+      "duration": "3:12"
     },
     {
       "title": "Iko Iko",
-      "duration": "11:22"
+      "duration": "11:25"
     },
     {
       "title": "Samba in the Rain",
@@ -48,11 +49,11 @@
     },
     {
       "title": "He's Gone",
-      "duration": "9:51"
+      "duration": "9:53"
     },
     {
       "title": "Smokestack Lightning",
-      "duration": "3:37"
+      "duration": "3:33"
     },
     {
       "title": "Truckin'",
@@ -60,15 +61,15 @@
     },
     {
       "title": "Drums",
-      "duration": "8:40"
+      "duration": "11:39"
     },
     {
       "title": "Space",
-      "duration": "17:32"
+      "duration": "14:47"
     },
     {
       "title": "Days Between",
-      "duration": "13:05"
+      "duration": "12:56"
     },
     {
       "title": "Throwing Stones",
@@ -76,11 +77,11 @@
     },
     {
       "title": "Not Fade Away",
-      "duration": "7:32"
+      "duration": "8:29"
     },
     {
       "title": "U.S. Blues",
-      "duration": "4:50"
+      "duration": "5:02"
     }
   ]
 }

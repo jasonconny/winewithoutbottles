@@ -5,74 +5,75 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19941017",
   "songs": [
     {
       "title": "In the Midnight Hour",
-      "duration": "5:40"
+      "duration": "6:16"
     },
     {
       "title": "Peggy-O",
-      "duration": "6:49"
+      "duration": "6:31"
     },
     {
       "title": "New Minglewood Blues",
-      "duration": "8:01"
+      "duration": "7:47"
     },
     {
       "title": "Tennessee Jed",
-      "duration": "8:27"
+      "duration": "8:09"
     },
     {
       "title": "Eternity",
-      "duration": "10:20"
+      "duration": "9:36"
     },
     {
       "title": "Friend Of The Devil",
-      "duration": "7:41"
+      "duration": "7:40"
     },
     {
       "title": "Promised Land",
-      "duration": "4:44"
+      "duration": "5:03"
     },
     {
       "title": "Eyes Of The World",
-      "duration": "25:11"
+      "duration": "25:34"
     },
     {
       "title": "Man Smart Woman Smarter",
-      "duration": "7:21"
+      "duration": "7:16"
     },
     {
       "title": "Crazy Fingers",
-      "duration": "7:18"
+      "duration": "7:20"
     },
     {
       "title": "Estimated Prophet",
-      "duration": "13:14"
+      "duration": "13:00"
     },
     {
       "title": "Drums",
-      "duration": "8:23"
+      "duration": "14:45"
     },
     {
       "title": "Space",
-      "duration": "23:05"
+      "duration": "14:33"
     },
     {
       "title": "The Wheel",
-      "duration": "3:30"
+      "duration": "5:57"
     },
     {
       "title": "All Along the Watchtower",
-      "duration": "6:45"
+      "duration": "6:51"
     },
     {
       "title": "Morning Dew",
-      "duration": "11:51"
+      "duration": "13:08"
     },
     {
       "title": "Rainy Day Women #12 and 35",
-      "duration": "7:21"
+      "duration": "5:00"
     }
   ]
 }

@@ -1808,3 +1808,35 @@ MN.
 
 Worth generalising from: the venue _line_ is one weak field, not one weak name.
 Check the city too.
+
+### When the app merges a Jam, follow it — October 1994 MSG
+
+The app indexes a song and the Jam that follows it as one track twice in this
+run, where the 2013 art carries two rows. Both nights now follow the app, so
+each show is **18 songs where the legacy art had 19** (Jason, 2026-08-20).
+
+The two cases arrived with very different evidence, which is why this is worth
+recording rather than just doing.
+
+On **1994-10-14** the art has `Corrina 8:36` + `Jam 8:34` and the drop's merged
+row reads `17:10` — the split's sum **to the second**. On **1994-10-13** the same
+shape gives `Uncle John's Band 12:06` + `Jam 5:59`, a pair total of 18:05
+against the drop's `17:51`: 14 seconds over, with no measured seam to put them
+on.
+
+So the sum test tells you whether the 2013 boundary is corroborated — and on the
+14th it emphatically is — but that turns out not to be the question. **A Jam is
+not a song the way `Drums` and `Space` are.** Where the corpus splits a sandwich
+the split names two things that were actually played and can be pointed at; a
+trailing Jam names the tail of the thing before it, and drawing a stripe
+boundary through it asserts an edit that the only measured source doesn't make.
+The app's single row is the whole performance, and that is what the art should
+show.
+
+This is deliberately **not** the rule for `Song > Drums > Song`, where the corpus
+keeps its three rows and the app supplies the total. The difference is that
+`Drums` is its own event with its own name; a Jam is the same music continuing.
+
+Also worth recording from this run: 1994-10-17's `Drums 8:23` + `Space 23:05`
+(31:28) against the drop's `14:45` + `14:33` (29:18). Both the boundary and the
+pair total are off, the September 1988 pattern again.

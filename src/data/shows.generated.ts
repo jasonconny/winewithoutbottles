@@ -6251,8 +6251,8 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "svg": "/shows/19941013.svg",
-    "songCount": 19,
-    "durationSeconds": 10128
+    "songCount": 18,
+    "durationSeconds": 10064
   },
   {
     "id": "19941014",
@@ -6262,8 +6262,8 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "svg": "/shows/19941014.svg",
-    "songCount": 19,
-    "durationSeconds": 9989
+    "songCount": 18,
+    "durationSeconds": 9953
   },
   {
     "id": "19941015",
@@ -6274,7 +6274,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941015.svg",
     "songCount": 18,
-    "durationSeconds": 9175
+    "durationSeconds": 9214
   },
   {
     "id": "19941017",
@@ -6285,7 +6285,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941017.svg",
     "songCount": 17,
-    "durationSeconds": 9941
+    "durationSeconds": 9866
   },
   {
     "id": "19941018",
@@ -6296,7 +6296,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941018.svg",
     "songCount": 19,
-    "durationSeconds": 9453
+    "durationSeconds": 9508
   },
   {
     "id": "19941019",
@@ -6307,7 +6307,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941019.svg",
     "songCount": 17,
-    "durationSeconds": 9643
+    "durationSeconds": 9426
   },
   {
     "id": "19950221",
@@ -6322,6 +6322,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19950221.svg",
     "songCount": 18,
     "durationSeconds": 8419
+  },
+  {
+    "id": "19950329",
+    "date": "1995-03-29",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "svg": "/shows/19950329.svg",
+    "songCount": 20,
+    "durationSeconds": 10330
   },
   {
     "id": "19950709",

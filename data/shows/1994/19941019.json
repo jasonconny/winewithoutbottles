@@ -5,18 +5,19 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19941019",
   "songs": [
     {
       "title": "Feel Like a Stranger",
-      "duration": "11:04"
+      "duration": "10:59"
     },
     {
       "title": "Bertha",
-      "duration": "9:22"
+      "duration": "9:25"
     },
     {
       "title": "Spoonful",
-      "duration": "5:22"
+      "duration": "5:24"
     },
     {
       "title": "Jack-A-Roe",
@@ -28,51 +29,51 @@
     },
     {
       "title": "If the Shoe Fits",
-      "duration": "6:23"
+      "duration": "6:22"
     },
     {
       "title": "Bird Song",
-      "duration": "15:17"
+      "duration": "15:29"
     },
     {
       "title": "Samson And Delilah",
-      "duration": "9:16"
+      "duration": "7:47"
     },
     {
       "title": "So Many Roads",
-      "duration": "8:07"
+      "duration": "7:47"
     },
     {
       "title": "Saint of Circumstance",
-      "duration": "7:06"
+      "duration": "7:07"
     },
     {
       "title": "Terrapin Station",
-      "duration": "19:12"
+      "duration": "19:04"
     },
     {
       "title": "Drums",
-      "duration": "10:15"
+      "duration": "9:34"
     },
     {
       "title": "Space",
-      "duration": "14:10"
+      "duration": "13:41"
     },
     {
       "title": "Way to Go Home",
-      "duration": "6:54"
+      "duration": "7:14"
     },
     {
       "title": "Stella Blue",
-      "duration": "9:38"
+      "duration": "9:12"
     },
     {
       "title": "Sugar Magnolia",
-      "duration": "10:07"
+      "duration": "9:28"
     },
     {
       "title": "Brokedown Palace",
-      "duration": "5:02"
+      "duration": "5:05"
     }
   ]
 }

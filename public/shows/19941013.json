@@ -6,20 +6,20 @@
   "state": "NY",
   "country": "USA",
   "svg": "/shows/19941013.svg",
-  "songCount": 19,
-  "durationSeconds": 10128,
+  "songCount": 18,
+  "durationSeconds": 10064,
   "songs": [
     {
       "title": "Touch of Grey",
-      "durationSeconds": 431
+      "durationSeconds": 457
     },
     {
       "title": "Wang Dang Doodle",
-      "durationSeconds": 391
+      "durationSeconds": 393
     },
     {
       "title": "Loser",
-      "durationSeconds": 502
+      "durationSeconds": 505
     },
     {
       "title": "Mama Tried",
@@ -27,11 +27,11 @@
     },
     {
       "title": "Mexicali Blues",
-      "durationSeconds": 390
+      "durationSeconds": 404
     },
     {
       "title": "Dupree's Diamond Blues",
-      "durationSeconds": 376
+      "durationSeconds": 375
     },
     {
       "title": "When I Paint My Masterpiece",
@@ -39,51 +39,47 @@
     },
     {
       "title": "Loose Lucy",
-      "durationSeconds": 572
+      "durationSeconds": 576
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 766
+      "durationSeconds": 775
     },
     {
       "title": "Foolish Heart",
-      "durationSeconds": 657
+      "durationSeconds": 674
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 655
+      "durationSeconds": 666
     },
     {
       "title": "Uncle John's Band",
-      "durationSeconds": 726
-    },
-    {
-      "title": "Jam",
-      "durationSeconds": 359
+      "durationSeconds": 1071
     },
     {
       "title": "Drums",
-      "durationSeconds": 882
+      "durationSeconds": 834
     },
     {
       "title": "Space",
-      "durationSeconds": 754
+      "durationSeconds": 888
     },
     {
       "title": "The Other One",
-      "durationSeconds": 624
+      "durationSeconds": 464
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 699
+      "durationSeconds": 680
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 408
+      "durationSeconds": 370
     },
     {
       "title": "It's All Over Now, Baby Blue",
-      "durationSeconds": 447
+      "durationSeconds": 443
     }
   ]
 }

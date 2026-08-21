@@ -349,6 +349,55 @@
       "transfer": "DAT, 24 bit/96 kHz, N.R. No",
       "capturedOn": "2026-08-20",
       "note": "read from the PlayDead app; the venue matches the corpus spelling from the four existing Knickerbocker shows. The encore Liberty and the Set Two The Last Time both sit at 6:28 — read twice across the seam, not a duplicated row"
+    },
+    {
+      "date": "1994-10-13",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order matched, but the app indexes Uncle John's Band and the Jam after it as one 17:51 track where the 2013 art split them 12:06 + 5:59, a pair total of 18:05 — 14 seconds over, with no measured seam. The show takes the app's single row (Jason, 2026-08-20) and is 18 songs rather than 19, as on 1994-10-14"
+    },
+    {
+      "date": "1994-10-14",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order matched, and the app indexes Corrina and the Jam after it as one 17:10 track where the 2013 art split them 8:36 + 8:34 — a pair total agreeing with the drop to the second. The show follows the app's single row anyway, as on 1994-10-13 (Jason, 2026-08-20), so it is 18 songs rather than 19"
+    },
+    {
+      "date": "1994-10-15",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1994-10-17",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order and count matched. The legacy Drums (8:23) + Space (23:05) totalled 31:28 against the drop's 14:45 + 14:33, or 29:18 — the boundary sits in a very different place, and the pair totals differ by 2:10"
+    },
+    {
+      "date": "1994-10-18",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly, Smokestack Lightning included — the app spells it Lightnin', the canon's alias"
+    },
+    {
+      "date": "1994-10-19",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. Set Two opens Samson and Delilah (7:47) then So Many Roads (7:47) — two equal readings side by side, not a duplicated row"
+    },
+    {
+      "date": "1995-03-29",
+      "venue": "The Omni, Atlanta, GA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; a new show, not a retime, and the corpus's first 1995-03-29. Set Two carries a 6:04 Matilda between Corrina and Drums, added to the canon as a song (Jason, 2026-08-20)"
     }
   ]
 }

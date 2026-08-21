@@ -1,0 +1,31 @@
+{
+  "id": "19950329",
+  "date": "1995-03-29",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "source": "dead-drop:19950329",
+  "songs": [
+    { "title": "Jack Straw", "duration": "7:15" },
+    { "title": "Row Jimmy", "duration": "11:13" },
+    { "title": "Walkin' Blues", "duration": "6:17" },
+    { "title": "Jack-A-Roe", "duration": "5:42" },
+    { "title": "Mama Tried", "duration": "2:37" },
+    { "title": "Mexicali Blues", "duration": "7:27" },
+    { "title": "Brown-Eyed Women", "duration": "5:53" },
+    { "title": "Cassidy", "duration": "7:18" },
+    { "title": "Unbroken Chain", "duration": "7:43" },
+    { "title": "Help On The Way", "duration": "4:13" },
+    { "title": "Slipknot!", "duration": "7:02" },
+    { "title": "Franklin's Tower", "duration": "17:39" },
+    { "title": "Corrina", "duration": "12:38" },
+    { "title": "Matilda", "duration": "6:04" },
+    { "title": "Drums", "duration": "13:45" },
+    { "title": "Space", "duration": "18:25" },
+    { "title": "I Need a Miracle", "duration": "5:20" },
+    { "title": "Standing on the Moon", "duration": "10:03" },
+    { "title": "Not Fade Away", "duration": "10:05" },
+    { "title": "U.S. Blues", "duration": "5:31" }
+  ]
+}
