@@ -5,6 +5,9 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19870920.svg",
   "songCount": 20,
   "durationSeconds": 8719,

@@ -5,6 +5,9 @@
   "city": "Berkeley",
   "state": "CA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19710814.svg",
   "songCount": 23,
   "durationSeconds": 8835,

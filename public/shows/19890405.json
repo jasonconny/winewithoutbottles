@@ -5,6 +5,9 @@
   "city": "Ann Arbor",
   "state": "MI",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19890405.svg",
   "songCount": 19,
   "durationSeconds": 9504,

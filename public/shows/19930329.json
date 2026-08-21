@@ -5,6 +5,9 @@
   "city": "Albany",
   "state": "NY",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19930329.svg",
   "songCount": 19,
   "durationSeconds": 9171,

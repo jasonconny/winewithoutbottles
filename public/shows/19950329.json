@@ -5,6 +5,9 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19950329.svg",
   "songCount": 20,
   "durationSeconds": 10330,

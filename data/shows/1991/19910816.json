@@ -5,7 +5,7 @@
   "city": "Mountain View",
   "state": "CA",
   "country": "USA",
-  "tags": ["Dark Star"],
+  "tags": ["Dark Star", "Dead Drops"],
   "source": "dead-drop:19910816",
   "songs": [
     { "title": "Jack Straw", "duration": "6:53" },

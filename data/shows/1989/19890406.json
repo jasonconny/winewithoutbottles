@@ -5,6 +5,7 @@
   "city": "Ann Arbor",
   "state": "MI",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890406",
   "songs": [
     { "title": "Touch of Grey", "duration": "6:32" },

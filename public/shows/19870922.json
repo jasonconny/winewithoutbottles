@@ -5,6 +5,9 @@
   "city": "Philadelphia",
   "state": "PA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19870922.svg",
   "songCount": 20,
   "durationSeconds": 8672,

@@ -337,6 +337,33 @@ describe('tags stay an editorial vocabulary', () => {
     ).toBe(inEra);
   });
 
+  it.each(files)('%s tags Dead Drops iff a drop is its source', (file) => {
+    // The fourth derivable-by-rule tag, and the only one keyed on provenance
+    // rather than on the music. It exists because `source` is deliberately
+    // invisible to the UI, so without a tag there is no way to see the drops
+    // as a body of work — and because the PlayDead app never names the weekly
+    // drop, the app itself is the only grouping available (see the
+    // `import-dead-drop` skill for why `data/dead-drops.json` is keyed on the
+    // date instead).
+    //
+    // Spelled as the app spells it, two words, per Jason 2026-08-20.
+    //
+    // Unlike the other three this tag is unbounded — the app publishes 2–3 new
+    // drops a week — so it will keep growing past every other index page. That
+    // was the argument against it and Jason took it anyway; deriving it here
+    // means at least it can never drift from `source` in either direction as
+    // the count climbs.
+    const show = readShow(file);
+    const isDrop = (show.source ?? '').startsWith(DEAD_DROP_PREFIX);
+    const tagged = (show.tags ?? []).includes('Dead Drops');
+    expect(
+      tagged,
+      isDrop
+        ? `${file}: sourced from a DeadDrop but is not tagged Dead Drops`
+        : `${file}: tagged Dead Drops but its source is not a "${DEAD_DROP_PREFIX}" reference`,
+    ).toBe(isDrop);
+  });
+
   it('uses only known tags', () => {
     // An allow-list, not a shape check: tags are headed for index pages, so a
     // typo would quietly mint a phantom index.
@@ -348,6 +375,7 @@ describe('tags stay an editorial vocabulary', () => {
     // release grants still fails.
     const EDITORIAL_TAGS = [
       'Dark Star',
+      'Dead Drops',
       'Final Show',
       'Live/Dead',
       'Playing Palindrome',

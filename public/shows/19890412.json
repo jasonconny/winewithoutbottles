@@ -5,6 +5,9 @@
   "city": "Rosemont",
   "state": "IL",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19890412.svg",
   "songCount": 20,
   "durationSeconds": 8645,

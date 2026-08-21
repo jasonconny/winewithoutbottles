@@ -5,6 +5,9 @@
   "city": "Sacramento",
   "state": "CA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19910813.svg",
   "songCount": 16,
   "durationSeconds": 9488,

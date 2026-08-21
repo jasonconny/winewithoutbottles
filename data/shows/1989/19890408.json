@@ -5,6 +5,7 @@
   "city": "Cincinnati",
   "state": "OH",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890408",
   "songs": [
     { "title": "Let the Good Times Roll", "duration": "4:03" },

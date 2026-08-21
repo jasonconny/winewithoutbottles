@@ -5,6 +5,7 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19941015",
   "songs": [
     {

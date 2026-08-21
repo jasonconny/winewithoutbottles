@@ -5,6 +5,7 @@
   "city": "Oakland",
   "state": "CA",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19791227",
   "songs": [
     {

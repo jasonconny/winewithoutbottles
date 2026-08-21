@@ -5,6 +5,9 @@
   "city": "Louisville",
   "state": "KY",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19890409.svg",
   "songCount": 20,
   "durationSeconds": 9301,

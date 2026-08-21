@@ -5,6 +5,7 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19920302",
   "songs": [
     { "title": "Cold Rain and Snow", "duration": "7:14" },

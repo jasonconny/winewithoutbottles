@@ -5,6 +5,7 @@
   "city": "Albany",
   "state": "NY",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19930329",
   "songs": [
     { "title": "Let the Good Times Roll", "duration": "4:28" },

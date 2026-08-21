@@ -5,6 +5,9 @@
   "city": "Irvine",
   "state": "CA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19860412.svg",
   "songCount": 19,
   "durationSeconds": 8336,
