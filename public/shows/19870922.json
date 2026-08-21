@@ -1,0 +1,93 @@
+{
+  "id": "19870922",
+  "date": "1987-09-22",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "svg": "/shows/19870922.svg",
+  "songCount": 20,
+  "durationSeconds": 8672,
+  "songs": [
+    {
+      "title": "Hey Pocky Way",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 525
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "durationSeconds": 357
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 277
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 420
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 384
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 405
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 321
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 460
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 561
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 457
+    }
+  ]
+}

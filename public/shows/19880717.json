@@ -1,0 +1,97 @@
+{
+  "id": "19880717",
+  "date": "1988-07-17",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19880717.svg",
+  "songCount": 21,
+  "durationSeconds": 9117,
+  "songs": [
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 511
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 170
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 791
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 362
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 507
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 371
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Believe It or Not",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Blackbird",
+      "durationSeconds": 157
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 335
+    }
+  ]
+}

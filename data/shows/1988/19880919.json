@@ -5,30 +5,31 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19880919",
   "songs": [
     {
       "title": "Touch of Grey",
-      "duration": "7:25"
+      "duration": "6:51"
     },
     {
       "title": "Little Red Rooster",
-      "duration": "11:26"
+      "duration": "11:17"
     },
     {
       "title": "Dire Wolf",
-      "duration": "3:52"
+      "duration": "3:49"
     },
     {
       "title": "Far From Me",
-      "duration": "6:11"
+      "duration": "5:37"
     },
     {
       "title": "Queen Jane Approximately",
-      "duration": "6:22"
+      "duration": "6:18"
     },
     {
       "title": "Tennessee Jed",
-      "duration": "8:18"
+      "duration": "8:31"
     },
     {
       "title": "Let It Grow",
@@ -36,31 +37,31 @@
     },
     {
       "title": "Victim or the Crime",
-      "duration": "5:54"
+      "duration": "6:31"
     },
     {
       "title": "Foolish Heart",
-      "duration": "11:24"
+      "duration": "11:17"
     },
     {
       "title": "Playing in the Band",
-      "duration": "7:29"
+      "duration": "7:09"
     },
     {
       "title": "China Doll",
-      "duration": "6:11"
+      "duration": "6:21"
     },
     {
       "title": "Playing in the Band",
-      "duration": "3:34"
+      "duration": "3:35"
     },
     {
       "title": "Drums",
-      "duration": "9:12"
+      "duration": "9:07"
     },
     {
       "title": "Space",
-      "duration": "4:48"
+      "duration": "5:27"
     },
     {
       "title": "The Wheel",
@@ -68,19 +69,19 @@
     },
     {
       "title": "Black Peter",
-      "duration": "8:07"
+      "duration": "8:03"
     },
     {
       "title": "Around And Around",
-      "duration": "3:49"
+      "duration": "3:47"
     },
     {
       "title": "Good Lovin'",
-      "duration": "7:18"
+      "duration": "8:20"
     },
     {
       "title": "Quinn the Eskimo (The Mighty Quinn)",
-      "duration": "4:40"
+      "duration": "4:48"
     }
   ]
 }

@@ -1476,3 +1476,367 @@ minted new songs for a performance that never happened. archive.org is
 crowd-sourced and a tape can carry a soundcheck, another act's set, or simply
 somebody else's night under this date. **The gap report is a question, not a
 finding**; the setlist databases answer it.
+
+### The first shows read off a screen — 1971-08-14 and 1971-08-15
+
+Berkeley Community Theatre, two nights, and the first two shows in the corpus
+that came from neither a release nor a tape. They exist only in the PlayDead
+app, which shows a track list with a duration per track and no way to export it,
+so they were transcribed from screenshots. The mechanics live in the
+`import-dead-drop` skill; what belongs here is the four judgement calls that
+transcription forced, because every one of them is invisible in the finished
+data.
+
+**`Happy Birthday`, 1:09, closing 8/14 — recorded as `notASong`.** Jason's call.
+The app indexes it as a numbered track like any other, so this is a deliberate
+departure from the source rather than a reading of it. The precedent is the
+28-second `Funiculì, Funiculà` tease: the question is not whether the band
+played it but whether it is a performance the setlist databases count. That is
+why 8/14 has 23 stripes and the app lists 24.
+
+**The room is spelled two ways.** The app says `Berkeley Community Theater`, the
+corpus `Berkeley Community Theatre` — the spelling already carried by
+1972-08-25, which came from _Dave's Picks Volume 24_. The corpus spelling wins,
+for the ordinary reason: two spellings are two venues, and the venue gallery
+would split. The app's spelling is preserved in `data/dead-drops.json` so this
+is visible rather than merely overwritten. This is `reconcileVenue`'s job done
+by hand, since no importer runs on this path.
+
+**`Goin' Down the Road Feeli…` is truncated by the app**, which clips a long
+title to the column width and gives no way to see the rest. Resolved against
+`data/songs.json`, where exactly one title matches the visible prefix. Safe
+here, and worth remembering that it is only safe because the canon is closed —
+a truncation with two candidates would have to be resolved by playing the track.
+
+**One alias gap, found rather than caused.** The app writes `Me & Bobby McGee`,
+and `Me and Bobby McGee` carried `Bobby McGee` and `Me And Bobby McGee` but not
+the ampersand — while `Me and My Uncle` had carried `Me & My Uncle` all along.
+An inconsistency in the canon that no previous source had happened to probe.
+Added as an alias, not as a song.
+
+Nothing about these two nights is checkable after the fact. The screenshots are
+gitignored working files, the app has no permalink, and there is no article to
+re-parse — so unlike every other show in the corpus, `tsx generator/import.ts
+19710814` will never confirm or contradict this. The seam overlap between
+captures was the check, and it agreed on 18 of the 43 rows across the two shows.
+**Read that as weaker evidence than a green `--audit`, because it is.**
+
+### What a DeadDrop says about the 2013 timings — 1976-06-03 and 06-04
+
+The first two legacy shows a DeadDrop retimed — consecutive nights at the
+Paramount — and between them they establish one thing and demolish another.
+
+**Both setlists matched exactly.** 24 songs on 6/3, 28 on 6/4, same order, no
+substitutions, nothing added or missing. Two entirely independent sources —
+Jason's 2013 art and the band's own app — agreeing completely on what was
+played, twice. That is the strongest confirmation the legacy reconstructions
+have ever had, and it is worth stating because the opposite result was possible.
+
+**The durations do not carry a systematic offset, and the first show made it look
+like they did.** On 6/4 every one of the 22 comparable tracks was longer in the
+app, from +0:20 to +1:48, clustering near +0:45, with `Lazy Lightnin'` matching
+to the second. That pattern invited an obvious reading — 2013 measured song-only,
+the app measures track boundaries with the applause and segue — and an obvious
+consequence: that the legacy art is internally consistent but on a different
+_scale_ from every sourced show in the corpus. It was written up here as a
+hypothesis to re-test.
+
+**6/3 refuted it the same day.** Seventeen tracks longer, but **four shorter** —
+`Row Jimmy` −0:18, `Crazy Fingers` −0:21, `Wharf Rat` −0:21, `Slipknot!` −0:33.
+Across both nights: 43 comparable tracks, 38 longer, 4 shorter, 1 exact. So there
+is a real and strong positive bias, but no fixed offset and no scale factor —
+which means the 2013 timings are **per-track approximate**, not uniformly
+displaced. Nothing can be derived from them arithmetically; a legacy show has to
+be retimed track by track from a source, which is what this pipeline does.
+
+Recorded at length because the wrong version of this was written down first, and
+a single show is exactly enough evidence to produce a confident wrong answer.
+
+**The app merges sandwiches the corpus splits** — two on 6/4
+(`Playing in the Band` → `Drums` → `Playing in the Band`, and the same shape
+around `Let It Grow`), one on 6/3 (`Let It Grow`). This is the familiar rule from
+the other direction — a release's track grouping is a CD index, not where the
+music ends — so the split stays and the app supplies the totals.
+
+The arithmetic is what makes that safe. `Let It Grow`: 6:42 + 0:57 + 2:59 =
+10:38 against the app's 10:37, **one second apart**, which is about as close as
+two independent readings of the same tape ever come. `Playing in the Band`:
+9:35 + 1:00 + 2:02 = 12:37 against 13:37, exactly **sixty seconds** apart — and
+the 1:00 is the only round number in a 28-song setlist, which reads like a
+placeholder rather than a measurement.
+
+6/3's single sandwich is +1:05 over its legacy sum (13:51 against 14:56), in
+line with the rest of that show.
+
+Rather than guess which value absorbed the difference, **Jason split all three
+Drums by ear**, the same way One From the Vault (1975-08-13) was handled — the
+app's total as the constraint, the seams as the measurement. Both nights are now
+complete, and all three groups sum to their app totals to the second.
+
+Refusing to apportion was the right call, because the guess would have been
+wrong. The `1:00` Drums on 6/4 looked like a placeholder — the only round number
+in a 28-song setlist — and the obvious hypothesis was that it absorbed the
+missing minute. **It didn't: measured, it is 1:03.** The minute was in the two
+`Playing` halves instead (9:35 → 9:53 and 2:02 → 2:41). 6/3's reprise moved
+furthest of all, 6:29 → 7:50, while 6/4's `Let It Grow` barely moved — which is
+what its one-second agreement had already predicted.
+
+Reconciling a hand-timed split to a stated total has one defensible shape, and
+it is worth stating because it will recur: **the two seams are measurements and
+the closing part is arithmetic.** Its start is the seam Jason heard and its end
+is pinned by the app, so the few seconds of rounding go there and nowhere else.
+The three corrections were +5s, +1s and −3s, all on the closing reprise.
+
+### The app's venue field is not authoritative — Oakland, December 1979
+
+A DeadDrop's setlist and timings are the band's own; **its venue line is not the
+same kind of fact**, and this run proved it twice in one batch.
+
+The room is one building under three names. Wikipedia: the Dead played the
+convention center 57 times between 1967 and 1989, and "their first 23 concerts
+at the convention center were billed at 'Oakland Auditorium'", with the venue
+becoming the **Henry J. Kaiser Convention Center** from 1985. The corpus already
+had that second half right — 1985-11-21 is filed under the Kaiser name — so only
+the 1979 spelling was ever in doubt.
+
+**First error: normalising to the release's spelling.** The corpus held
+1979-12-26 as `Oakland Auditorium Arena` (from _Dick's Picks 5_) and 1979-12-28
+as `Oakland Auditorium` (from _Road Trips 3:1_) — one run, two spellings, which
+matters because `buildRuns` groups on the venue string and would have split the
+stand in two. The app agreed with Dick's Picks, so two sources against one
+pointed at `Oakland Auditorium Arena`. **That reasoning was wrong**: a sleeve
+printed decades later and an app built from the same archive are not two
+independent witnesses to how a 1979 show was billed, and JerryBase uses the bare
+name. All four December 1979 shows are now `Oakland Auditorium`.
+
+**Second error: trusting the field about the building at all.** The app gives
+1979-12-30 as `Oakland Coliseum` — a different complex across town, mid-run
+between two Auditorium nights. Per DeadBase and JerryBase (Jason) the night
+belongs to the Auditorium run. Had it stood, the corpus would have carried a
+one-night trip to a venue the band did not play, and the derived run would have
+been 3 shows instead of 4.
+
+The general rule, now in the `import-dead-drop` skill: **take the setlist and the
+timings from a drop; take the venue from the corpus, and check the era.** The
+app's venue string belongs in `data/dead-drops.json` as a record of what was
+read, never straight into a show.
+
+### A venue the corpus spelled two ways — the Spectrum, Philadelphia
+
+The September 1987 drops are the first Philadelphia shows read off a screen, and
+they surfaced a split that predates them: of eleven Spectrum shows already in the
+corpus, nine were filed as `Spectrum` and two — 1973-03-24 and 1983-04-26 — as
+`The Spectrum`. The app says `The Spectrum`.
+
+Two spellings are two venues to every derived gallery, so the split was not
+cosmetic. `VENUE_MIN_SHOWS` is 10 and neither spelling reached it, which is why
+nothing had gone visibly wrong: the room simply had no gallery, and the bug was
+invisible precisely because it was suppressing the page that would have shown it.
+
+Jason chose the bare `Spectrum` (2026-08-20) and the two stragglers were
+corrected to match. With 1987-09-22 and 1987-09-23 added, the venue reaches 13
+shows and `/spectrum` now exists, along with three derived runs
+(`Spectrum November 1979`, `Spectrum September 1987`, `Spectrum October 1989`).
+
+The app's `The Spectrum` is recorded in `data/dead-drops.json`, per the rule from
+the Oakland batch: the drop's venue string is a record of what was read, not an
+input to the show.
+
+### What a DeadDrop says about the 1987 MSG timings — 1987-09-15, 09-19 and 09-20
+
+Three of the five September 1987 drops retime sourceless 2013 legacy shows, and
+all three matched the legacy art's setlist **exactly** — same songs, same order,
+same count. Only the durations moved, and they moved one way: the drops are
+longer by 13:49, 5:45 and 10:37 respectively, with only one or two tracks shorter
+on each night and those by ten seconds or less. Whatever the 2013 timings were
+read from cut tighter than the official track boundaries do.
+
+One apparent outlier is not one. On 1987-09-20 the legacy art has
+`Drums 9:45 / Space 8:40 / The Other One 4:50`; the drop has
+`9:53 / 5:09 / 8:26` — Space down 3:31 and The Other One up 3:36. Those are the
+same music: `Space + The Other One` is 13:30 in the legacy timings and 13:35 in
+the drop, five seconds apart. The boundary moved, not the reading. It is the
+`He's Gone`/`Truckin'` pattern again — where a transition gets indexed is an
+editorial call, and two sources will place it differently without either being
+wrong.
+
+One row was read and then discarded: 1987-09-15 carries a `Beer Barrel Polka`
+tease (2:20) between `When Push Comes to Shove` and `Me & My Uncle`. The app
+indexes it as a numbered track; the canon already lists it under `notASong`, and
+the 2013 art already omitted it, so the show stays at 20 songs and the drop's 21
+rows reconcile without a decision.
+
+### A theme song, indexed as a track — 1987-09-22
+
+The Spectrum drop for 1987-09-22 lists `The Addams Family Theme` at 0:44 between
+`Ramble On Rose` and `Cassidy`. Forty-four seconds is snippet length, and the
+canon already handles that class the same way — `Beer Barrel Polka`,
+`Funiculì Funiculà` and `The Merry-Go-Round Broke Down` are all `notASong`.
+
+Jason's call (2026-08-20): `notASong`. Admitting it would have minted a permanent
+colour for a tease, which is exactly the friction `data/songs.json` exists to
+apply.
+
+Kept, by contrast, on 1987-09-23: `La Bamba` at 0:57, bracketed by two separate
+`Good Lovin'` rows. That one is already in the canon as a song, so the setlist
+simply carries `Good Lovin'` twice — the sandwich the app indexed is the sandwich
+the corpus stores.
+
+### A comma that hid a song already in the canon — 1988-04-05
+
+The Hartford drop lists `Louie Louie` in Set Two. Checking it against the canon
+by exact string reported it missing, and it was nearly admitted as a new title.
+The canon already holds it as **`Louie, Louie`**, with the comma.
+
+Worth recording because the two spellings are the same colour — `cleanTitle`
+strips punctuation, so `Louie Louie` and `Louie, Louie` clean identically and the
+stripe would have been right either way. What would have been wrong is the canon:
+two entries for one song, and the closed-canon check silently weakened for every
+future drop that lists it. **A title the app spells without punctuation is not
+evidence the canon lacks it** — check the cleaned form, not the raw string.
+
+### Two Hartford/Worcester venue readings — April 1988
+
+Neither needed Jason. `Hartford Civic Center` matches the corpus's seven existing
+shows exactly, and the three new nights take the venue to ten, crossing
+`VENUE_MIN_SHOWS` — so `/hartford-civic-center` is a new gallery.
+
+Worcester was the ordinary case the Spectrum was not: the app shortens the room
+to `The Centrum`, and the corpus holds exactly one prior show there (1983-10-21)
+spelled `Worcester Centrum`. One unambiguous precedent, no self-disagreement, so
+the corpus spelling wins with no question to ask.
+
+### The run-gap candidate list had gone stale
+
+`data/INCOMPLETE-RUNS.md` tells you to regenerate its unverified table after
+adding shows, and that had not been done for a while: the table held 9 rows while
+the derived runs actually had 15 internal gaps. Five had appeared silently as
+shows were imported — Fillmore West June 1969, Fillmore East April 1971, Academy
+of Music March 1972, Oakland Auditorium December 1979, Greek Theatre July 1984 —
+and this batch added a sixth, Greek Theatre July 1988 (1988-07-16, between the
+two Berkeley drops) — which Jason confirmed the same day was a real show, the
+middle night of a three-night stand, so it is now only the second row in the
+**confirmed incomplete** table. It waits on a future DeadDrop.
+
+The table is now regenerated in full. None of them are claims that a show is
+missing; they still need Jason and a source, one at a time. But a candidate list
+that silently stops listing candidates is worse than no list, so **regenerate it
+in the same pass as the import**, not when someone remembers.
+
+It also needed a place to put an answer. Jason ruled 1988-09-17 and 1988-09-21
+scheduled off-nights, which makes the nine-show MSG stand complete — but the
+unverified table has only two exits, promotion to _confirmed incomplete_ or
+deletion, and deleting a settled row means the next regeneration re-derives it
+and the same question gets asked again. So the file now has a third table,
+**Confirmed complete**, and the regeneration instruction says to subtract both
+settled tables from the walk. A derived candidate list cannot tell an unexamined
+gap from an answered one; only a written answer can.
+
+### Where the 2013 art named a different song — 1988-09-16
+
+The September 1988 MSG drops retime eight sourceless legacy shows, and seven of
+them matched the 2013 art perfectly: same songs, same order, same count. The
+eighth disagreed on exactly one title. Set One position five, after
+`Me & My Uncle`, is `Big River` in the legacy art and `Mexicali Blues` in the
+app — **both at 5:14**.
+
+The matching duration is what makes it interesting: it is the same audio, indexed
+under two names, not a lost or gained row. It is also, on its own, weak evidence
+either way — the two are interchangeable Weir cowboy tunes in the same slot, and
+9/20 that same run has a `Big River` both sources agree on.
+
+Jason's call (2026-08-20): the app wins. The rule from the Oakland batch cuts
+both ways — a drop's **venue** field is weak because it was applied later, but its
+**setlist** is the band's own record, while the 2013 art was hand-entered from a
+source no longer known. Where the two disagree about what was played, the drop is
+the better witness.
+
+### The 2013 Drums/Space timings were not reliable — September 1988 MSG
+
+Retiming the eight-show stand moved the corpus by +22:46 in total, which is the
+expected direction. What is worth recording is **where** it moved.
+
+On 1988-09-14 the legacy art has `Drums 3:30` + `Space 5:40` — 9:10 for the pair,
+against the drop's `9:02` + `7:15`, or 16:17. Seven minutes is not a boundary
+being drawn in a different place; the 2013 timings were simply wrong through that
+stretch. On 1988-09-20 the same region has `Drums 3:14` + `Space 16:58` against
+`11:17` + `8:04`: the pair totals agree within 51 seconds, so **that** one is the
+ordinary boundary disagreement (the `He's Gone`/`Truckin'` pattern), just an
+unusually large one.
+
+Two different failures that look alike in a per-track diff. The pair total tells
+them apart: agree, and the boundary moved; disagree by minutes, and a timing was
+wrong. Worth checking that sum before assuming either.
+
+Not every night got longer. 1988-09-23 came in **2:29 shorter** than the legacy
+art, so the one-way drift seen in the 1987 MSG batch is not a rule about the 2013
+timings in general.
+
+### A venue named after the wrong decade — Crisler, April 1989
+
+The app gives 1989-04-05 and 04-06 as `Crisler Center`. That building was
+`Crisler Arena` from 1970 until a 2012 renaming, so the app's field is the
+modern name for a 1989 night — the same failure as `Oakland Auditorium Arena`,
+and the one the era check exists to catch.
+
+What made it worth asking rather than assuming: the corpus holds no prior
+Crisler show, so there was no established spelling to defer to. Ann Arbor
+appears once, as `Hill Auditorium` (1971-12-14), which says nothing about this
+room. The rule the Irvine entry above settled applies — where the corpus is
+silent the app is not the fallback — so both nights are `Crisler Arena`
+(Jason, 2026-08-20).
+
+`Rosemont Horizon` (1989-04-11) is the same shape of question with the opposite
+answer: also new to the corpus, but the app's name is the one the room carried
+in 1989 (it became Allstate Arena in 1999), so it was taken as printed.
+
+### Two more venues the corpus had never held — Milwaukee and Bloomington, April 1989
+
+`MECCA` (1989-04-15, 04-16) is the rare case where the app's string was too
+_long_ rather than too short in spirit: the app prints `The MECCA`, and the
+obvious "correction" would have been `MECCA Arena` to match how the corpus names
+other rooms. It is an acronym — Milwaukee Exposition, Convention Center and
+Arena — so `MECCA Arena` says Arena twice, the PIN-number mistake. Bare `MECCA`
+(Jason, 2026-08-20).
+
+`Met Center` (1989-04-17) is the first drop where the **city**, not the venue
+name, was the wrong part. The app says Minneapolis; the building stood in
+Bloomington. That matters here more than it looks: the corpus already holds a
+genuine Minneapolis show (Labor Temple, 1969-04-27), so taking the app's line
+would have filed two different cities' rooms under one city name. Bloomington,
+MN.
+
+Worth generalising from: the venue _line_ is one weak field, not one weak name.
+Check the city too.
+
+### When the app merges a Jam, follow it — October 1994 MSG
+
+The app indexes a song and the Jam that follows it as one track twice in this
+run, where the 2013 art carries two rows. Both nights now follow the app, so
+each show is **18 songs where the legacy art had 19** (Jason, 2026-08-20).
+
+The two cases arrived with very different evidence, which is why this is worth
+recording rather than just doing.
+
+On **1994-10-14** the art has `Corrina 8:36` + `Jam 8:34` and the drop's merged
+row reads `17:10` — the split's sum **to the second**. On **1994-10-13** the same
+shape gives `Uncle John's Band 12:06` + `Jam 5:59`, a pair total of 18:05
+against the drop's `17:51`: 14 seconds over, with no measured seam to put them
+on.
+
+So the sum test tells you whether the 2013 boundary is corroborated — and on the
+14th it emphatically is — but that turns out not to be the question. **A Jam is
+not a song the way `Drums` and `Space` are.** Where the corpus splits a sandwich
+the split names two things that were actually played and can be pointed at; a
+trailing Jam names the tail of the thing before it, and drawing a stripe
+boundary through it asserts an edit that the only measured source doesn't make.
+The app's single row is the whole performance, and that is what the art should
+show.
+
+This is deliberately **not** the rule for `Song > Drums > Song`, where the corpus
+keeps its three rows and the app supplies the total. The difference is that
+`Drums` is its own event with its own name; a Jam is the same music continuing.
+
+Also worth recording from this run: 1994-10-17's `Drums 8:23` + `Space 23:05`
+(31:28) against the drop's `14:45` + `14:33` (29:18). Both the boundary and the
+pair total are off, the September 1988 pattern again.

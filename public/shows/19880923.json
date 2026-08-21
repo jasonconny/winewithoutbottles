@@ -7,31 +7,31 @@
   "country": "USA",
   "svg": "/shows/19880923.svg",
   "songCount": 19,
-  "durationSeconds": 8257,
+  "durationSeconds": 8108,
   "songs": [
     {
       "title": "Let the Good Times Roll",
-      "durationSeconds": 277
+      "durationSeconds": 288
     },
     {
       "title": "Hell in a Bucket",
-      "durationSeconds": 463
+      "durationSeconds": 417
     },
     {
       "title": "Cold Rain and Snow",
-      "durationSeconds": 382
+      "durationSeconds": 389
     },
     {
       "title": "Walkin' Blues",
-      "durationSeconds": 507
+      "durationSeconds": 424
     },
     {
       "title": "Loser",
-      "durationSeconds": 453
+      "durationSeconds": 433
     },
     {
       "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
-      "durationSeconds": 592
+      "durationSeconds": 573
     },
     {
       "title": "Dupree's Diamond Blues",
@@ -39,51 +39,51 @@
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 260
+      "durationSeconds": 272
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 465
+      "durationSeconds": 484
     },
     {
       "title": "Ship Of Fools",
-      "durationSeconds": 471
+      "durationSeconds": 524
     },
     {
       "title": "Victim or the Crime",
-      "durationSeconds": 344
+      "durationSeconds": 296
     },
     {
       "title": "Foolish Heart",
-      "durationSeconds": 671
+      "durationSeconds": 676
     },
     {
       "title": "Drums",
-      "durationSeconds": 545
+      "durationSeconds": 539
     },
     {
       "title": "Space",
-      "durationSeconds": 334
+      "durationSeconds": 387
     },
     {
       "title": "I Will Take You Home",
-      "durationSeconds": 233
+      "durationSeconds": 242
     },
     {
       "title": "The Other One",
-      "durationSeconds": 475
+      "durationSeconds": 480
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 433
+      "durationSeconds": 436
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 671
+      "durationSeconds": 570
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 336
+      "durationSeconds": 333
     }
   ]
 }

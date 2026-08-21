@@ -1,0 +1,31 @@
+{
+  "id": "19890412",
+  "date": "1989-04-12",
+  "venue": "Rosemont Horizon",
+  "city": "Rosemont",
+  "state": "IL",
+  "country": "USA",
+  "source": "dead-drop:19890412",
+  "songs": [
+    { "title": "Jack Straw", "duration": "5:58" },
+    { "title": "Row Jimmy", "duration": "10:51" },
+    { "title": "New Minglewood Blues", "duration": "7:27" },
+    { "title": "Tennessee Jed", "duration": "8:13" },
+    { "title": "When I Paint My Masterpiece", "duration": "6:23" },
+    { "title": "Cumberland Blues", "duration": "5:20" },
+    { "title": "Let It Grow", "duration": "12:30" },
+    { "title": "Touch of Grey", "duration": "7:20" },
+    { "title": "Truckin'", "duration": "6:56" },
+    { "title": "Smokestack Lightning", "duration": "2:21" },
+    { "title": "Spoonful", "duration": "4:08" },
+    { "title": "Smokestack Lightning", "duration": "0:38" },
+    { "title": "He's Gone", "duration": "14:41" },
+    { "title": "Drums", "duration": "8:58" },
+    { "title": "Space", "duration": "8:49" },
+    { "title": "I Will Take You Home", "duration": "3:55" },
+    { "title": "All Along the Watchtower", "duration": "5:22" },
+    { "title": "Wharf Rat", "duration": "9:43" },
+    { "title": "Turn On Your Love Light", "duration": "7:58" },
+    { "title": "Black Muddy River", "duration": "6:34" }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "19920303",
+  "date": "1992-03-03",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "svg": "/shows/19920303.svg",
+  "songCount": 17,
+  "durationSeconds": 8672,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 666
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 497
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 591
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 659
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Wave to the Wind",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 723
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 514
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 355
+    }
+  ]
+}

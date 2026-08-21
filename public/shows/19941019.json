@@ -7,19 +7,19 @@
   "country": "USA",
   "svg": "/shows/19941019.svg",
   "songCount": 17,
-  "durationSeconds": 9643,
+  "durationSeconds": 9426,
   "songs": [
     {
       "title": "Feel Like a Stranger",
-      "durationSeconds": 664
+      "durationSeconds": 659
     },
     {
       "title": "Bertha",
-      "durationSeconds": 562
+      "durationSeconds": 565
     },
     {
       "title": "Spoonful",
-      "durationSeconds": 322
+      "durationSeconds": 324
     },
     {
       "title": "Jack-A-Roe",
@@ -31,51 +31,51 @@
     },
     {
       "title": "If the Shoe Fits",
-      "durationSeconds": 383
+      "durationSeconds": 382
     },
     {
       "title": "Bird Song",
-      "durationSeconds": 917
+      "durationSeconds": 929
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 556
+      "durationSeconds": 467
     },
     {
       "title": "So Many Roads",
-      "durationSeconds": 487
+      "durationSeconds": 467
     },
     {
       "title": "Saint of Circumstance",
-      "durationSeconds": 426
+      "durationSeconds": 427
     },
     {
       "title": "Terrapin Station",
-      "durationSeconds": 1152
+      "durationSeconds": 1144
     },
     {
       "title": "Drums",
-      "durationSeconds": 615
+      "durationSeconds": 574
     },
     {
       "title": "Space",
-      "durationSeconds": 850
+      "durationSeconds": 821
     },
     {
       "title": "Way to Go Home",
-      "durationSeconds": 414
+      "durationSeconds": 434
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 578
+      "durationSeconds": 552
     },
     {
       "title": "Sugar Magnolia",
-      "durationSeconds": 607
+      "durationSeconds": 568
     },
     {
       "title": "Brokedown Palace",
-      "durationSeconds": 302
+      "durationSeconds": 305
     }
   ]
 }

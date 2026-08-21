@@ -21,9 +21,10 @@ source says the stand was longer.
 
 ## Confirmed incomplete
 
-| Run                                                                 | Have                   | Missing    | Note                                                                                                       |
-| ------------------------------------------------------------------- | ---------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| [Boston Music Hall November 1973](/boston-music-hall-november-1973) | 1973-11-30, 1973-12-02 | 1973-12-01 | A third show of the stand. _Dick's Picks Volume 14_ carries only the two outer nights (Jason, 2026-08-13). |
+| Run                                                                 | Have                   | Missing    | Note                                                                                                                        |
+| ------------------------------------------------------------------- | ---------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [Boston Music Hall November 1973](/boston-music-hall-november-1973) | 1973-11-30, 1973-12-02 | 1973-12-01 | A third show of the stand. _Dick's Picks Volume 14_ carries only the two outer nights (Jason, 2026-08-13).                  |
+| [Greek Theatre July 1988](/greek-theatre-july-1988)                 | 1988-07-15, 1988-07-17 | 1988-07-16 | The middle night of a three-night Greek stand. The band played it; the PlayDead app has not dropped it (Jason, 2026-08-20). |
 
 ## Gaps not yet verified
 
@@ -40,9 +41,13 @@ band played that night moves a row up.
 
 | Run                                  | Gap date(s)            |
 | ------------------------------------ | ---------------------- |
+| Fillmore West June 1969              | 1969-06-06             |
+| Fillmore East April 1971             | 1971-04-26             |
+| Academy of Music March 1972          | 1972-03-27             |
 | The Palladium April 1977             | 1977-05-02             |
+| Oakland Auditorium December 1979     | 1979-12-29             |
+| Greek Theatre July 1984              | 1984-07-14             |
 | Madison Square Garden September 1987 | 1987-09-17             |
-| Madison Square Garden September 1988 | 1988-09-17, 1988-09-21 |
 | Brendan Byrne Arena October 1989     | 1989-10-13             |
 | Madison Square Garden September 1990 | 1990-09-17             |
 | Madison Square Garden September 1991 | 1991-09-11, 1991-09-15 |
@@ -50,6 +55,21 @@ band played that night moves a row up.
 | Boston Garden October 1994           | 1994-10-02             |
 | Madison Square Garden October 1994   | 1994-10-16             |
 
+## Confirmed complete
+
+A gap that has been asked about and answered **dark day** belongs here, not
+gone. Removing the row without recording the answer would only mean the next
+regeneration re-derives it and someone asks Jason the same question again — the
+candidate list cannot tell a settled gap from an unexamined one, so this table
+is what remembers.
+
+| Run                                  | Dark day(s)            | Note                                                                                                   |
+| ------------------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------ |
+| Madison Square Garden September 1988 | 1988-09-17, 1988-09-21 | Both scheduled off-nights; the nine-show stand is complete as the corpus holds it (Jason, 2026-08-20). |
+
 To regenerate this candidate list after adding shows, walk `allSubGalleries`
 for `kind === 'run'` and report any run whose consecutive shows are more than
-one day apart.
+one day apart — then **subtract every run already settled in the two tables
+above**. The walk cannot distinguish a gap nobody has looked at from one Jason
+has already ruled a dark day, so without that subtraction it hands back settled
+questions as if they were open.

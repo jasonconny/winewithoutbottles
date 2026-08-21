@@ -712,6 +712,28 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7727
   },
   {
+    "id": "19710814",
+    "date": "1971-08-14",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19710814.svg",
+    "songCount": 23,
+    "durationSeconds": 8835
+  },
+  {
+    "id": "19710815",
+    "date": "1971-08-15",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19710815.svg",
+    "songCount": 20,
+    "durationSeconds": 7671
+  },
+  {
     "id": "19710823",
     "date": "1971-08-23",
     "venue": "Auditorium Theatre",
@@ -1418,7 +1440,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19730324",
     "date": "1973-03-24",
-    "venue": "The Spectrum",
+    "venue": "Spectrum",
     "city": "Philadelphia",
     "state": "PA",
     "country": "USA",
@@ -1986,6 +2008,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11841
   },
   {
+    "id": "19740727",
+    "date": "1974-07-27",
+    "venue": "Roanoke Civic Center",
+    "city": "Roanoke",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Wall of Sound"
+    ],
+    "svg": "/shows/19740727.svg",
+    "songCount": 21,
+    "durationSeconds": 9392
+  },
+  {
     "id": "19740731",
     "date": "1974-07-31",
     "venue": "Dillon Stadium",
@@ -2213,7 +2249,7 @@ export const shows: ShowSummary[] = [
     "tour": "June 1976 Comeback",
     "svg": "/shows/19760603.svg",
     "songCount": 24,
-    "durationSeconds": 10320
+    "durationSeconds": 10756
   },
   {
     "id": "19760604",
@@ -2225,7 +2261,7 @@ export const shows: ShowSummary[] = [
     "tour": "June 1976 Comeback",
     "svg": "/shows/19760604.svg",
     "songCount": 28,
-    "durationSeconds": 9671
+    "durationSeconds": 10915
   },
   {
     "id": "19760609",
@@ -3616,6 +3652,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10362
   },
   {
+    "id": "19790814",
+    "date": "1979-08-14",
+    "venue": "McNichols Sports Arena",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "svg": "/shows/19790814.svg",
+    "songCount": 21,
+    "durationSeconds": 9435
+  },
+  {
     "id": "19790904",
     "date": "1979-09-04",
     "venue": "Madison Square Garden",
@@ -3721,7 +3768,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19791226",
     "date": "1979-12-26",
-    "venue": "Oakland Auditorium Arena",
+    "venue": "Oakland Auditorium",
     "city": "Oakland",
     "state": "CA",
     "country": "USA",
@@ -3731,6 +3778,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19791226.svg",
     "songCount": 25,
     "durationSeconds": 10566
+  },
+  {
+    "id": "19791227",
+    "date": "1979-12-27",
+    "venue": "Oakland Auditorium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19791227.svg",
+    "songCount": 20,
+    "durationSeconds": 8195
   },
   {
     "id": "19791228",
@@ -3745,6 +3803,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19791228.svg",
     "songCount": 19,
     "durationSeconds": 9148
+  },
+  {
+    "id": "19791230",
+    "date": "1979-12-30",
+    "venue": "Oakland Auditorium",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19791230.svg",
+    "songCount": 19,
+    "durationSeconds": 8000
   },
   {
     "id": "19800506",
@@ -3977,6 +4046,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10518
   },
   {
+    "id": "19810927",
+    "date": "1981-09-27",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "svg": "/shows/19810927.svg",
+    "songCount": 23,
+    "durationSeconds": 9052
+  },
+  {
     "id": "19811209",
     "date": "1981-12-09",
     "venue": "CU Events Center",
@@ -4063,7 +4143,7 @@ export const shows: ShowSummary[] = [
   {
     "id": "19830426",
     "date": "1983-04-26",
-    "venue": "The Spectrum",
+    "venue": "Spectrum",
     "city": "Philadelphia",
     "state": "PA",
     "country": "USA",
@@ -4202,6 +4282,17 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9261
   },
   {
+    "id": "19840715",
+    "date": "1984-07-15",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19840715.svg",
+    "songCount": 20,
+    "durationSeconds": 9260
+  },
+  {
     "id": "19841012",
     "date": "1984-10-12",
     "venue": "Augusta Civic Center",
@@ -4286,6 +4377,28 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7991
   },
   {
+    "id": "19860401",
+    "date": "1986-04-01",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "svg": "/shows/19860401.svg",
+    "songCount": 17,
+    "durationSeconds": 8306
+  },
+  {
+    "id": "19860412",
+    "date": "1986-04-12",
+    "venue": "Irvine Meadows Amphitheatre",
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19860412.svg",
+    "songCount": 19,
+    "durationSeconds": 8336
+  },
+  {
     "id": "19860503",
     "date": "1986-05-03",
     "venue": "Cal Expo Amphitheatre",
@@ -4350,7 +4463,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19870915.svg",
     "songCount": 20,
-    "durationSeconds": 7838
+    "durationSeconds": 8667
   },
   {
     "id": "19870916",
@@ -4389,7 +4502,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19870919.svg",
     "songCount": 19,
-    "durationSeconds": 7725
+    "durationSeconds": 8070
   },
   {
     "id": "19870920",
@@ -4400,7 +4513,29 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19870920.svg",
     "songCount": 20,
-    "durationSeconds": 8082
+    "durationSeconds": 8719
+  },
+  {
+    "id": "19870922",
+    "date": "1987-09-22",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19870922.svg",
+    "songCount": 20,
+    "durationSeconds": 8672
+  },
+  {
+    "id": "19870923",
+    "date": "1987-09-23",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "svg": "/shows/19870923.svg",
+    "songCount": 21,
+    "durationSeconds": 8454
   },
   {
     "id": "19880327",
@@ -4445,6 +4580,61 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8463
   },
   {
+    "id": "19880403",
+    "date": "1988-04-03",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "svg": "/shows/19880403.svg",
+    "songCount": 18,
+    "durationSeconds": 7564
+  },
+  {
+    "id": "19880404",
+    "date": "1988-04-04",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "svg": "/shows/19880404.svg",
+    "songCount": 20,
+    "durationSeconds": 7796
+  },
+  {
+    "id": "19880405",
+    "date": "1988-04-05",
+    "venue": "Hartford Civic Center",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "svg": "/shows/19880405.svg",
+    "songCount": 20,
+    "durationSeconds": 8549
+  },
+  {
+    "id": "19880408",
+    "date": "1988-04-08",
+    "venue": "Worcester Centrum",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "svg": "/shows/19880408.svg",
+    "songCount": 16,
+    "durationSeconds": 6833
+  },
+  {
+    "id": "19880409",
+    "date": "1988-04-09",
+    "venue": "Worcester Centrum",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "svg": "/shows/19880409.svg",
+    "songCount": 22,
+    "durationSeconds": 8297
+  },
+  {
     "id": "19880703",
     "date": "1988-07-03",
     "venue": "Oxford Plains Speedway",
@@ -4459,6 +4649,28 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8659
   },
   {
+    "id": "19880715",
+    "date": "1988-07-15",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19880715.svg",
+    "songCount": 20,
+    "durationSeconds": 9467
+  },
+  {
+    "id": "19880717",
+    "date": "1988-07-17",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19880717.svg",
+    "songCount": 21,
+    "durationSeconds": 9117
+  },
+  {
     "id": "19880914",
     "date": "1988-09-14",
     "venue": "Madison Square Garden",
@@ -4467,7 +4679,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880914.svg",
     "songCount": 20,
-    "durationSeconds": 8356
+    "durationSeconds": 8674
   },
   {
     "id": "19880915",
@@ -4478,7 +4690,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880915.svg",
     "songCount": 18,
-    "durationSeconds": 7797
+    "durationSeconds": 7955
   },
   {
     "id": "19880916",
@@ -4489,7 +4701,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880916.svg",
     "songCount": 20,
-    "durationSeconds": 8928
+    "durationSeconds": 8965
   },
   {
     "id": "19880918",
@@ -4500,7 +4712,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880918.svg",
     "songCount": 18,
-    "durationSeconds": 8030
+    "durationSeconds": 8208
   },
   {
     "id": "19880919",
@@ -4511,7 +4723,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880919.svg",
     "songCount": 19,
-    "durationSeconds": 7988
+    "durationSeconds": 8036
   },
   {
     "id": "19880920",
@@ -4522,7 +4734,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880920.svg",
     "songCount": 18,
-    "durationSeconds": 8043
+    "durationSeconds": 8117
   },
   {
     "id": "19880922",
@@ -4533,7 +4745,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880922.svg",
     "songCount": 20,
-    "durationSeconds": 7789
+    "durationSeconds": 8491
   },
   {
     "id": "19880923",
@@ -4544,7 +4756,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19880923.svg",
     "songCount": 19,
-    "durationSeconds": 8257
+    "durationSeconds": 8108
   },
   {
     "id": "19880924",
@@ -4584,6 +4796,116 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19890403.svg",
     "songCount": 21,
     "durationSeconds": 8684
+  },
+  {
+    "id": "19890405",
+    "date": "1989-04-05",
+    "venue": "Crisler Arena",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "USA",
+    "svg": "/shows/19890405.svg",
+    "songCount": 19,
+    "durationSeconds": 9504
+  },
+  {
+    "id": "19890406",
+    "date": "1989-04-06",
+    "venue": "Crisler Arena",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "USA",
+    "svg": "/shows/19890406.svg",
+    "songCount": 21,
+    "durationSeconds": 9460
+  },
+  {
+    "id": "19890408",
+    "date": "1989-04-08",
+    "venue": "Riverfront Coliseum",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "svg": "/shows/19890408.svg",
+    "songCount": 21,
+    "durationSeconds": 8393
+  },
+  {
+    "id": "19890409",
+    "date": "1989-04-09",
+    "venue": "Freedom Hall",
+    "city": "Louisville",
+    "state": "KY",
+    "country": "USA",
+    "svg": "/shows/19890409.svg",
+    "songCount": 20,
+    "durationSeconds": 9301
+  },
+  {
+    "id": "19890411",
+    "date": "1989-04-11",
+    "venue": "Rosemont Horizon",
+    "city": "Rosemont",
+    "state": "IL",
+    "country": "USA",
+    "svg": "/shows/19890411.svg",
+    "songCount": 19,
+    "durationSeconds": 9697
+  },
+  {
+    "id": "19890412",
+    "date": "1989-04-12",
+    "venue": "Rosemont Horizon",
+    "city": "Rosemont",
+    "state": "IL",
+    "country": "USA",
+    "svg": "/shows/19890412.svg",
+    "songCount": 20,
+    "durationSeconds": 8645
+  },
+  {
+    "id": "19890413",
+    "date": "1989-04-13",
+    "venue": "Rosemont Horizon",
+    "city": "Rosemont",
+    "state": "IL",
+    "country": "USA",
+    "svg": "/shows/19890413.svg",
+    "songCount": 19,
+    "durationSeconds": 7834
+  },
+  {
+    "id": "19890415",
+    "date": "1989-04-15",
+    "venue": "MECCA",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "USA",
+    "svg": "/shows/19890415.svg",
+    "songCount": 18,
+    "durationSeconds": 8371
+  },
+  {
+    "id": "19890416",
+    "date": "1989-04-16",
+    "venue": "MECCA",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "USA",
+    "svg": "/shows/19890416.svg",
+    "songCount": 18,
+    "durationSeconds": 8065
+  },
+  {
+    "id": "19890417",
+    "date": "1989-04-17",
+    "venue": "Met Center",
+    "city": "Bloomington",
+    "state": "MN",
+    "country": "USA",
+    "svg": "/shows/19890417.svg",
+    "songCount": 19,
+    "durationSeconds": 8558
   },
   {
     "id": "19890704",
@@ -5470,6 +5792,67 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 9887
   },
   {
+    "id": "19910812",
+    "date": "1991-08-12",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19910812.svg",
+    "songCount": 18,
+    "durationSeconds": 8931
+  },
+  {
+    "id": "19910813",
+    "date": "1991-08-13",
+    "venue": "Cal Expo Amphitheatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19910813.svg",
+    "songCount": 16,
+    "durationSeconds": 9488
+  },
+  {
+    "id": "19910816",
+    "date": "1991-08-16",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19910816.svg",
+    "songCount": 17,
+    "durationSeconds": 9159
+  },
+  {
+    "id": "19910817",
+    "date": "1991-08-17",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dark Star"
+    ],
+    "svg": "/shows/19910817.svg",
+    "songCount": 18,
+    "durationSeconds": 8875
+  },
+  {
+    "id": "19910818",
+    "date": "1991-08-18",
+    "venue": "Shoreline Amphitheatre",
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "svg": "/shows/19910818.svg",
+    "songCount": 20,
+    "durationSeconds": 9462
+  },
+  {
     "id": "19910908",
     "date": "1991-09-08",
     "venue": "Madison Square Garden",
@@ -5602,6 +5985,28 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8824
   },
   {
+    "id": "19920302",
+    "date": "1992-03-02",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "svg": "/shows/19920302.svg",
+    "songCount": 17,
+    "durationSeconds": 8928
+  },
+  {
+    "id": "19920303",
+    "date": "1992-03-03",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "svg": "/shows/19920303.svg",
+    "songCount": 17,
+    "durationSeconds": 8672
+  },
+  {
     "id": "19920320",
     "date": "1992-03-20",
     "venue": "Copps Coliseum",
@@ -5673,6 +6078,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19930327.svg",
     "songCount": 20,
     "durationSeconds": 9024
+  },
+  {
+    "id": "19930329",
+    "date": "1993-03-29",
+    "venue": "Knickerbocker Arena",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "svg": "/shows/19930329.svg",
+    "songCount": 19,
+    "durationSeconds": 9171
   },
   {
     "id": "19930526",
@@ -5835,8 +6251,8 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "svg": "/shows/19941013.svg",
-    "songCount": 19,
-    "durationSeconds": 10128
+    "songCount": 18,
+    "durationSeconds": 10064
   },
   {
     "id": "19941014",
@@ -5846,8 +6262,8 @@ export const shows: ShowSummary[] = [
     "state": "NY",
     "country": "USA",
     "svg": "/shows/19941014.svg",
-    "songCount": 19,
-    "durationSeconds": 9989
+    "songCount": 18,
+    "durationSeconds": 9953
   },
   {
     "id": "19941015",
@@ -5858,7 +6274,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941015.svg",
     "songCount": 18,
-    "durationSeconds": 9175
+    "durationSeconds": 9214
   },
   {
     "id": "19941017",
@@ -5869,7 +6285,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941017.svg",
     "songCount": 17,
-    "durationSeconds": 9941
+    "durationSeconds": 9866
   },
   {
     "id": "19941018",
@@ -5880,7 +6296,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941018.svg",
     "songCount": 19,
-    "durationSeconds": 9453
+    "durationSeconds": 9508
   },
   {
     "id": "19941019",
@@ -5891,7 +6307,7 @@ export const shows: ShowSummary[] = [
     "country": "USA",
     "svg": "/shows/19941019.svg",
     "songCount": 17,
-    "durationSeconds": 9643
+    "durationSeconds": 9426
   },
   {
     "id": "19950221",
@@ -5906,6 +6322,17 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19950221.svg",
     "songCount": 18,
     "durationSeconds": 8419
+  },
+  {
+    "id": "19950329",
+    "date": "1995-03-29",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "svg": "/shows/19950329.svg",
+    "songCount": 20,
+    "durationSeconds": 10330
   },
   {
     "id": "19950709",

@@ -1,0 +1,89 @@
+{
+  "id": "19860412",
+  "date": "1986-04-12",
+  "venue": "Irvine Meadows Amphitheatre",
+  "city": "Irvine",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19860412.svg",
+  "songCount": 19,
+  "durationSeconds": 8336,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 484
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 437
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 199
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 454
+    },
+    {
+      "title": "Willie and the Hand Jive",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 701
+    },
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 397
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 691
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 255
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 404
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 534
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Quinn the Eskimo (The Mighty Quinn)",
+      "durationSeconds": 274
+    }
+  ]
+}

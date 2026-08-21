@@ -1,0 +1,403 @@
+{
+  "drops": [
+    {
+      "date": "1971-08-14",
+      "venue": "Berkeley Community Theater, Berkeley, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; the app spells the room \"Theater\", the corpus \"Theatre\""
+    },
+    {
+      "date": "1971-08-15",
+      "venue": "Berkeley Community Theater, Berkeley, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; the app spells the room \"Theater\", the corpus \"Theatre\""
+    },
+    {
+      "date": "1974-07-27",
+      "venue": "Roanoke Civic Center, Roanoke, VA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; inside the Wall of Sound date range, so the show carries that tag"
+    },
+    {
+      "date": "1976-06-03",
+      "venue": "Paramount Theatre, Portland, OR",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order matched the legacy art exactly. The app merges the Let It Grow sandwich the corpus splits three ways (app total 14:56); Jason timed the seams by ear and the three durations sum to it exactly"
+    },
+    {
+      "date": "1976-06-04",
+      "venue": "Paramount Theatre, Portland, OR",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order matched the legacy art exactly. The app merges the Playing (13:37) and Let It Grow (10:37) sandwiches the corpus splits three ways; Jason timed the seams by ear and both groups sum to their app totals exactly"
+    },
+    {
+      "date": "1979-08-14",
+      "venue": "McNichols Sports Arena, Denver, CO",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1979-12-27",
+      "venue": "Oakland Auditorium Arena, Oakland, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app. Its venue field is NOT authoritative: the app spells the room \"Oakland Auditorium Arena\", but the contemporaneous billing was \"Oakland Auditorium\" (the corpus spelling, and JerryBase's) — see data/CORRECTIONS.md"
+    },
+    {
+      "date": "1979-12-30",
+      "venue": "Oakland Coliseum, Oakland, CA",
+      "transfer": "Reel, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app, whose venue field says \"Oakland Coliseum\" — wrong, per DeadBase/JerryBase via Jason. The night belongs to the Oakland Auditorium New Year's run. Only 3 captures and the end-of-list bar sat behind the now-playing bar, so the tail after Brokedown Palace is unconfirmed; Jason accepted 19 tracks"
+    },
+    {
+      "date": "1981-09-27",
+      "venue": "Capital Centre, Landover, MD",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; venue spelling agrees with the corpus (Capital Centre, for the Capital Beltway)"
+    },
+    {
+      "date": "1984-07-15",
+      "venue": "Greek Theatre, University of California, Berkeley, CA",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app; the corpus spells the room bare Greek Theatre, so the app's longer form was not used"
+    },
+    {
+      "date": "1986-04-01",
+      "venue": "Providence Civic Center, Providence, RI",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1986-04-12",
+      "venue": "Irvine Meadows, Irvine, CA",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-19",
+      "note": "read from the PlayDead app, which shortens the room to \"Irvine Meadows\"; JerryBase gives Irvine Meadows Amphitheatre and that is what the corpus uses (Jason, 2026-08-19)"
+    },
+    {
+      "date": "1987-09-15",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order matched the legacy art exactly. The app indexes a Beer Barrel Polka tease (2:20) between When Push Comes to Shove and Me & My Uncle; it is already in notASong, so the show stays at 20 songs"
+    },
+    {
+      "date": "1987-09-19",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1987-09-20",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1987-09-22",
+      "venue": "The Spectrum, Philadelphia, PA",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app says \"The Spectrum\", the corpus spells the room bare \"Spectrum\" (the two stragglers were corrected to match, Jason 2026-08-20). The app indexes an Addams Family Theme tease (0:44) after Ramble On Rose; recorded as notASong"
+    },
+    {
+      "date": "1987-09-23",
+      "venue": "The Spectrum, Philadelphia, PA",
+      "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app says \"The Spectrum\", the corpus spells the room bare \"Spectrum\". Good Lovin' brackets a La Bamba tease, so the setlist carries Good Lovin' twice"
+    },
+    {
+      "date": "1988-04-03",
+      "venue": "Hartford Civic Center, Hartford, CT",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; first drops on a DAT transfer rather than reel or cassette. Only 3 captures, so the seams are 1-2 rows rather than the usual 2-3"
+    },
+    {
+      "date": "1988-04-04",
+      "venue": "Hartford Civic Center, Hartford, CT",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1988-04-05",
+      "venue": "Hartford Civic Center, Hartford, CT",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app spells the Set Two track \"Louie Louie\", the canon \"Louie, Louie\" — same song, corpus spelling used"
+    },
+    {
+      "date": "1988-04-08",
+      "venue": "The Centrum, Worcester, MA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app, which shortens the room to \"The Centrum\"; the corpus spells it \"Worcester Centrum\" (19831021) and that is what the show uses. Only 3 captures and the first seam overlaps by a single row"
+    },
+    {
+      "date": "1988-04-09",
+      "venue": "The Centrum, Worcester, MA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app says \"The Centrum\", the corpus \"Worcester Centrum\""
+    },
+    {
+      "date": "1988-07-15",
+      "venue": "Greek Theatre, University of California, Berkeley, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the corpus spells the room bare Greek Theatre, as with the 1984 drop"
+    },
+    {
+      "date": "1988-07-17",
+      "venue": "Greek Theatre, University of California, Berkeley, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the encore carries Blackbird (2:37), added to the canon as a song (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1988-09-14",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. The legacy Drums (3:30) + Space (5:40) totalled 9:10 against the drop's 16:17 — not a boundary shift, so the 2013 timings were simply wrong through that stretch"
+    },
+    {
+      "date": "1988-09-15",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly, including the Playing in the Band > Uncle John's Band > Playing in the Band sandwich"
+    },
+    {
+      "date": "1988-09-16",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order and count matched, but the app names the fifth Set One track Mexicali Blues where the 2013 art said Big River — both at 5:14. The drop's title was taken (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1988-09-18",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly, including the Not Fade Away that opens Set Two and returns to close it"
+    },
+    {
+      "date": "1988-09-19",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. The app shortens the encore to Quinn the Eskimo; the canon's full title is used"
+    },
+    {
+      "date": "1988-09-20",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. The legacy Drums (3:14) + Space (16:58) split is nothing like the drop's 11:17 + 8:04, though the totals are within 51 seconds"
+    },
+    {
+      "date": "1988-09-22",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1988-09-23",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1989-04-05",
+      "venue": "Crisler Center, Ann Arbor, MI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app, whose venue field is the modern name: the room was renamed Crisler Center in 2012 and was billed Crisler Arena in 1989, which is what the show uses (Jason, 2026-08-20). First Crisler show in the corpus, so there was no precedent to defer to — see data/CORRECTIONS.md"
+    },
+    {
+      "date": "1989-04-06",
+      "venue": "Crisler Center, Ann Arbor, MI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the show uses the era name Crisler Arena. Set Two closes with a second Playing in the Band (5:48), which the app spells plainly rather than as a reprise, and the show follows it"
+    },
+    {
+      "date": "1989-04-08",
+      "venue": "Riverfront Coliseum, Cincinnati, OH",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from 1976-10-02 exactly"
+    },
+    {
+      "date": "1989-04-09",
+      "venue": "Freedom Hall, Louisville, KY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from 1974-06-18. The app spells the Set Two opener \"Louie Louie\", the canon \"Louie, Louie\" — same song, as on the 1988-04-05 drop"
+    },
+    {
+      "date": "1989-04-11",
+      "venue": "Rosemont Horizon, Rosemont, IL",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; first Rosemont show in the corpus. The app's name is era-correct — the room became Allstate Arena in 1999 — and was taken (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1989-04-12",
+      "venue": "Rosemont Horizon, Rosemont, IL",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; Set Two brackets Spoonful with two Smokestack Lightnin' rows (2:21 and 0:38), so the setlist carries the song twice. The app's spelling is the canon's Smokestack Lightning alias"
+    },
+    {
+      "date": "1989-04-13",
+      "venue": "Rosemont Horizon, Rosemont, IL",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; Set One holds It's All Over Now and the encore It's All Over Now, Baby Blue — two different songs, which is what the canon's sharesPrefixWith on the latter exists to keep apart"
+    },
+    {
+      "date": "1989-04-15",
+      "venue": "The MECCA, Milwaukee, WI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; first Milwaukee show in the corpus. The room is spelled bare MECCA — the acronym already ends in Arena (Milwaukee Exposition, Convention Center and Arena), so MECCA Arena would be redundant (Jason, 2026-08-20)"
+    },
+    {
+      "date": "1989-04-16",
+      "venue": "The MECCA, Milwaukee, WI",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the show spells the room bare MECCA, as on 1989-04-15"
+    },
+    {
+      "date": "1989-04-17",
+      "venue": "Met Center, Minneapolis, MN",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app, whose city is not authoritative: the Met Center stood in Bloomington, MN, and the show files it there (Jason, 2026-08-20). The corpus's one prior Minneapolis show, the Labor Temple in 1969, really is in Minneapolis"
+    },
+    {
+      "date": "1991-08-12",
+      "venue": "Cal Expo Amphitheatre, Sacramento, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from the three existing Cal Expo shows exactly"
+    },
+    {
+      "date": "1991-08-13",
+      "venue": "Cal Expo Amphitheatre, Sacramento, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; 16 tracks, the shortest drop so far — Set Two is 8 songs around a 19:52 Drums"
+    },
+    {
+      "date": "1991-08-16",
+      "venue": "Shoreline Amphitheatre, Mountain View, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; Set One holds a 9:57 Dark Star between Desolation Row and Promised Land, so the show carries the Dark Star tag"
+    },
+    {
+      "date": "1991-08-17",
+      "venue": "Shoreline Amphitheatre, Mountain View, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; a 1:08 Dark Star sits between Space and Morning Dew — brief, but the band went there, so the tag applies as on 1991-08-16"
+    },
+    {
+      "date": "1991-08-18",
+      "venue": "Shoreline Amphitheatre, Mountain View, CA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the app spells the room exactly as the corpus does"
+    },
+    {
+      "date": "1992-03-02",
+      "venue": "The Omni, Atlanta, GA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from the three existing Omni shows exactly, The included"
+    },
+    {
+      "date": "1992-03-03",
+      "venue": "The Omni, Atlanta, GA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; Set Two carries Wave to the Wind, a 1992-only song, and Set One closes on Corrina — both already in the canon"
+    },
+    {
+      "date": "1993-03-29",
+      "venue": "Knickerbocker Arena, Albany, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; the venue matches the corpus spelling from the four existing Knickerbocker shows. The encore Liberty and the Set Two The Last Time both sit at 6:28 — read twice across the seam, not a duplicated row"
+    },
+    {
+      "date": "1994-10-13",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order matched, but the app indexes Uncle John's Band and the Jam after it as one 17:51 track where the 2013 art split them 12:06 + 5:59, a pair total of 18:05 — 14 seconds over, with no measured seam. The show takes the app's single row (Jason, 2026-08-20) and is 18 songs rather than 19, as on 1994-10-14"
+    },
+    {
+      "date": "1994-10-14",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order matched, and the app indexes Corrina and the Jam after it as one 17:10 track where the 2013 art split them 8:36 + 8:34 — a pair total agreeing with the drop to the second. The show follows the app's single row anyway, as on 1994-10-13 (Jason, 2026-08-20), so it is 18 songs rather than 19"
+    },
+    {
+      "date": "1994-10-15",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly"
+    },
+    {
+      "date": "1994-10-17",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Order and count matched. The legacy Drums (8:23) + Space (23:05) totalled 31:28 against the drop's 14:45 + 14:33, or 29:18 — the boundary sits in a very different place, and the pair totals differ by 2:10"
+    },
+    {
+      "date": "1994-10-18",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly, Smokestack Lightning included — the app spells it Lightnin', the canon's alias"
+    },
+    {
+      "date": "1994-10-19",
+      "venue": "Madison Square Garden, New York, NY",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; retimes a sourceless 2013 legacy show. Setlist order and count matched the legacy art exactly. Set Two opens Samson and Delilah (7:47) then So Many Roads (7:47) — two equal readings side by side, not a duplicated row"
+    },
+    {
+      "date": "1995-03-29",
+      "venue": "The Omni, Atlanta, GA",
+      "transfer": "DAT, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-08-20",
+      "note": "read from the PlayDead app; a new show, not a retime, and the corpus's first 1995-03-29. Set Two carries a 6:04 Matilda between Corrina and Drums, added to the canon as a song (Jason, 2026-08-20)"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "19880405",
+  "date": "1988-04-05",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "svg": "/shows/19880405.svg",
+  "songCount": 20,
+  "durationSeconds": 8549,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 573
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 281
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 651
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 310
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Louie, Louie",
+      "durationSeconds": 248
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 466
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 414
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 517
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 488
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 215
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 479
+    }
+  ]
+}

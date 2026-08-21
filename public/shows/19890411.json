@@ -1,0 +1,89 @@
+{
+  "id": "19890411",
+  "date": "1989-04-11",
+  "venue": "Rosemont Horizon",
+  "city": "Rosemont",
+  "state": "IL",
+  "country": "USA",
+  "svg": "/shows/19890411.svg",
+  "songCount": 19,
+  "durationSeconds": 9697,
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 840
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Built to Last",
+      "durationSeconds": 328
+    },
+    {
+      "title": "We Can Run",
+      "durationSeconds": 273
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 565
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 526
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 772
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 325
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 601
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 648
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 337
+    }
+  ]
+}

@@ -7,87 +7,87 @@
   "country": "USA",
   "svg": "/shows/19880914.svg",
   "songCount": 20,
-  "durationSeconds": 8356,
+  "durationSeconds": 8674,
   "songs": [
     {
       "title": "Let the Good Times Roll",
-      "durationSeconds": 338
+      "durationSeconds": 272
     },
     {
       "title": "Alabama Getaway",
-      "durationSeconds": 318
+      "durationSeconds": 314
     },
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 329
+      "durationSeconds": 286
     },
     {
       "title": "Stagger Lee",
-      "durationSeconds": 324
+      "durationSeconds": 322
     },
     {
       "title": "Walkin' Blues",
-      "durationSeconds": 478
+      "durationSeconds": 430
     },
     {
       "title": "It Must Have Been the Roses",
-      "durationSeconds": 438
+      "durationSeconds": 359
     },
     {
       "title": "Queen Jane Approximately",
-      "durationSeconds": 374
+      "durationSeconds": 401
     },
     {
       "title": "Ramble On Rose",
-      "durationSeconds": 382
+      "durationSeconds": 405
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 736
+      "durationSeconds": 733
     },
     {
       "title": "Box of Rain",
-      "durationSeconds": 331
+      "durationSeconds": 350
     },
     {
       "title": "Victim or the Crime",
-      "durationSeconds": 312
+      "durationSeconds": 305
     },
     {
       "title": "Foolish Heart",
-      "durationSeconds": 612
+      "durationSeconds": 616
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 620
+      "durationSeconds": 610
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 592
+      "durationSeconds": 587
     },
     {
       "title": "Drums",
-      "durationSeconds": 210
+      "durationSeconds": 542
     },
     {
       "title": "Space",
-      "durationSeconds": 340
+      "durationSeconds": 435
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 237
+      "durationSeconds": 292
     },
     {
       "title": "Gimme Some Lovin'",
-      "durationSeconds": 281
+      "durationSeconds": 272
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 726
+      "durationSeconds": 743
     },
     {
       "title": "Black Muddy River",
-      "durationSeconds": 378
+      "durationSeconds": 400
     }
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "id": "19880405",
+  "date": "1988-04-05",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "source": "dead-drop:19880405",
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:58"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "9:33"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:36"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "4:41"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "7:54"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "10:51"
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "duration": "4:33"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "5:10"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "7:11"
+    },
+    {
+      "title": "Louie, Louie",
+      "duration": "4:08"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "6:40"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:46"
+    },
+    {
+      "title": "Smokestack Lightning",
+      "duration": "6:54"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:37"
+    },
+    {
+      "title": "Space",
+      "duration": "8:08"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "3:35"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "7:50"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:56"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "8:29"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "duration": "7:59"
+    }
+  ]
+}

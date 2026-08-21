@@ -1,0 +1,101 @@
+{
+  "id": "19880409",
+  "date": "1988-04-09",
+  "venue": "Worcester Centrum",
+  "city": "Worcester",
+  "state": "MA",
+  "country": "USA",
+  "svg": "/shows/19880409.svg",
+  "songCount": 22,
+  "durationSeconds": 8297,
+  "songs": [
+    {
+      "title": "Big Boss Man",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 412
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 162
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 470
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 413
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 410
+    },
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 671
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 370
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 436
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 351
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 200
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 337
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 131
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 634
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 452
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 324
+    }
+  ]
+}

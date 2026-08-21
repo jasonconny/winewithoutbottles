@@ -1,0 +1,77 @@
+{
+  "id": "19910813",
+  "date": "1991-08-13",
+  "venue": "Cal Expo Amphitheatre",
+  "city": "Sacramento",
+  "state": "CA",
+  "country": "USA",
+  "svg": "/shows/19910813.svg",
+  "songCount": 16,
+  "durationSeconds": 9488,
+  "songs": [
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 709
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 400
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 557
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 806
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 660
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 406
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 823
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 1192
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 408
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 597
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 694
+    },
+    {
+      "title": "Black Muddy River",
+      "durationSeconds": 380
+    }
+  ]
+}

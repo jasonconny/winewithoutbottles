@@ -1,0 +1,75 @@
+{
+  "id": "19880408",
+  "date": "1988-04-08",
+  "venue": "Worcester Centrum",
+  "city": "Worcester",
+  "state": "MA",
+  "country": "USA",
+  "source": "dead-drop:19880408",
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "6:25"
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "duration": "8:21"
+    },
+    {
+      "title": "Little Red Rooster",
+      "duration": "8:54"
+    },
+    {
+      "title": "Stagger Lee",
+      "duration": "5:49"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "6:15"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:52"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "10:58"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "5:33"
+    },
+    {
+      "title": "Crazy Fingers",
+      "duration": "7:42"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "9:16"
+    },
+    {
+      "title": "Drums",
+      "duration": "6:30"
+    },
+    {
+      "title": "Space",
+      "duration": "2:35"
+    },
+    {
+      "title": "The Other One",
+      "duration": "7:09"
+    },
+    {
+      "title": "Black Peter",
+      "duration": "7:20"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "7:23"
+    },
+    {
+      "title": "Black Muddy River",
+      "duration": "6:51"
+    }
+  ]
+}

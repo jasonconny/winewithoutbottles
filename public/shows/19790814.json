@@ -1,0 +1,97 @@
+{
+  "id": "19790814",
+  "date": "1979-08-14",
+  "venue": "McNichols Sports Arena",
+  "city": "Denver",
+  "state": "CO",
+  "country": "USA",
+  "svg": "/shows/19790814.svg",
+  "songCount": 21,
+  "durationSeconds": 9435,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 331
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 155
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 535
+    },
+    {
+      "title": "Easy to Love You",
+      "durationSeconds": 247
+    },
+    {
+      "title": "Passenger",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 448
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 459
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 284
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 419
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 722
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 756
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 779
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 606
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 511
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 291
+    }
+  ]
+}

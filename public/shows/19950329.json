@@ -1,0 +1,93 @@
+{
+  "id": "19950329",
+  "date": "1995-03-29",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "svg": "/shows/19950329.svg",
+  "songCount": 20,
+  "durationSeconds": 10330,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 673
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 157
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 353
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 438
+    },
+    {
+      "title": "Unbroken Chain",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 253
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 1059
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 758
+    },
+    {
+      "title": "Matilda",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 825
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1105
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Standing on the Moon",
+      "durationSeconds": 603
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 605
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 331
+    }
+  ]
+}

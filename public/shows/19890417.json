@@ -1,0 +1,89 @@
+{
+  "id": "19890417",
+  "date": "1989-04-17",
+  "venue": "Met Center",
+  "city": "Bloomington",
+  "state": "MN",
+  "country": "USA",
+  "svg": "/shows/19890417.svg",
+  "songCount": 19,
+  "durationSeconds": 8558,
+  "songs": [
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 464
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 478
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Built to Last",
+      "durationSeconds": 289
+    },
+    {
+      "title": "Victim or the Crime",
+      "durationSeconds": 371
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 676
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 264
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 656
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 476
+    }
+  ]
+}

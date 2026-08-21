@@ -7,43 +7,43 @@
   "country": "USA",
   "svg": "/shows/19941015.svg",
   "songCount": 18,
-  "durationSeconds": 9175,
+  "durationSeconds": 9214,
   "songs": [
     {
       "title": "Shakedown Street",
-      "durationSeconds": 971
+      "durationSeconds": 992
     },
     {
       "title": "Little Red Rooster",
-      "durationSeconds": 536
+      "durationSeconds": 477
     },
     {
       "title": "Stagger Lee",
-      "durationSeconds": 537
+      "durationSeconds": 520
     },
     {
       "title": "Black-Throated Wind",
-      "durationSeconds": 390
+      "durationSeconds": 393
     },
     {
       "title": "Just Like Tom Thumb's Blues",
-      "durationSeconds": 335
+      "durationSeconds": 344
     },
     {
       "title": "Candyman",
-      "durationSeconds": 403
+      "durationSeconds": 400
     },
     {
       "title": "Easy Answers",
-      "durationSeconds": 384
+      "durationSeconds": 388
     },
     {
       "title": "Deal",
-      "durationSeconds": 545
+      "durationSeconds": 550
     },
     {
       "title": "Here Comes Sunshine",
-      "durationSeconds": 378
+      "durationSeconds": 384
     },
     {
       "title": "Victim or the Crime",
@@ -51,35 +51,35 @@
     },
     {
       "title": "Way to Go Home",
-      "durationSeconds": 387
+      "durationSeconds": 388
     },
     {
       "title": "New Speedway Boogie",
-      "durationSeconds": 653
+      "durationSeconds": 650
     },
     {
       "title": "Drums",
-      "durationSeconds": 783
+      "durationSeconds": 782
     },
     {
       "title": "Space",
-      "durationSeconds": 717
+      "durationSeconds": 729
     },
     {
       "title": "The Last Time",
-      "durationSeconds": 401
+      "durationSeconds": 399
     },
     {
       "title": "Standing on the Moon",
-      "durationSeconds": 603
+      "durationSeconds": 601
     },
     {
       "title": "One More Saturday Night",
-      "durationSeconds": 307
+      "durationSeconds": 366
     },
     {
       "title": "I Want To Tell You",
-      "durationSeconds": 304
+      "durationSeconds": 310
     }
   ]
 }

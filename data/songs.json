@@ -79,6 +79,9 @@
       "aliases": ["Black Throated Wind"]
     },
     {
+      "title": "Blackbird"
+    },
+    {
       "title": "Blow Away"
     },
     {
@@ -578,11 +581,14 @@
       "title": "Mason's Children"
     },
     {
+      "title": "Matilda"
+    },
+    {
       "title": "Maybe You Know"
     },
     {
       "title": "Me and Bobby McGee",
-      "aliases": ["Bobby McGee", "Me And Bobby McGee"]
+      "aliases": ["Bobby McGee", "Me & Bobby McGee", "Me And Bobby McGee"]
     },
     {
       "title": "Me and My Uncle",
@@ -1065,6 +1071,12 @@
       "title": "Who's Lovin' You Tonight"
     },
     {
+      "title": "Why Don't We Do It in the Road?"
+    },
+    {
+      "title": "Willie and the Hand Jive"
+    },
+    {
       "title": "Yellow Dog Story",
       "aliases": ["The Yellow Dog Story"]
     },
@@ -1093,6 +1105,7 @@
     "Funiculì Funiculà",
     "Funiculì, Funiculà",
     "Got To Be Funk weirdness",
+    "Happy Birthday",
     "Intro",
     "Introduction",
     "Introduction by Bill Graham",
@@ -1110,6 +1123,7 @@
     "Take A Step Back",
     "tech problem",
     "Technical Difficulties",
+    "The Addams Family Theme",
     "The Merry-Go-Round Broke Down",
     "Tuning",
     "Tuning Ditties",

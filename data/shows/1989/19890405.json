@@ -1,0 +1,33 @@
+{
+  "id": "19890405",
+  "date": "1989-04-05",
+  "venue": "Crisler Arena",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "country": "USA",
+  "source": "dead-drop:19890405",
+  "songs": [
+    { "title": "Feel Like a Stranger", "duration": "9:44" },
+    { "title": "Franklin's Tower", "duration": "9:30" },
+    { "title": "New Minglewood Blues", "duration": "7:45" },
+    { "title": "Candyman", "duration": "6:56" },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "9:08"
+    },
+    { "title": "Far From Me", "duration": "5:07" },
+    { "title": "Dupree's Diamond Blues", "duration": "5:50" },
+    { "title": "Let It Grow", "duration": "11:39" },
+    { "title": "U.S. Blues", "duration": "5:36" },
+    { "title": "Samson And Delilah", "duration": "8:16" },
+    { "title": "Cumberland Blues", "duration": "6:01" },
+    { "title": "Man Smart Woman Smarter", "duration": "6:46" },
+    { "title": "Terrapin Station", "duration": "12:33" },
+    { "title": "Drums", "duration": "8:48" },
+    { "title": "Space", "duration": "9:32" },
+    { "title": "China Doll", "duration": "7:04" },
+    { "title": "Throwing Stones", "duration": "9:44" },
+    { "title": "Not Fade Away", "duration": "13:32" },
+    { "title": "Quinn the Eskimo (The Mighty Quinn)", "duration": "4:53" }
+  ]
+}

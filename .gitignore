@@ -40,3 +40,9 @@ ABOUT.md
 # transient working files dropped in per reconstruction batch. Jason keeps the
 # masters off-repo; don't commit them (or the .DS_Store macOS leaves behind).
 tests/fixtures/legacy/
+
+# PlayDead app screenshots are transcription inputs, not artifacts: bulky app UI
+# captures whose only product is the authored show JSON. Jason keeps them off
+# repo, same arrangement as the legacy SVG masters above. The reviewable record
+# of what they said is the public/shows/<id>.svg diff.
+data/dead-drops/

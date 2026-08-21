@@ -1,0 +1,97 @@
+{
+  "id": "19890406",
+  "date": "1989-04-06",
+  "venue": "Crisler Arena",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "country": "USA",
+  "svg": "/shows/19890406.svg",
+  "songCount": 21,
+  "durationSeconds": 9460,
+  "songs": [
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 582
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 328
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 155
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 418
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 341
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 796
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 281
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 610
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 777
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 775
+    },
+    {
+      "title": "Built to Last",
+      "durationSeconds": 431
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 618
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 406
+    },
+    {
+      "title": "I Will Take You Home",
+      "durationSeconds": 246
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 463
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 587
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 240
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 344
+    }
+  ]
+}

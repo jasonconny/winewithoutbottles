@@ -1,0 +1,91 @@
+{
+  "id": "19880404",
+  "date": "1988-04-04",
+  "venue": "Hartford Civic Center",
+  "city": "Hartford",
+  "state": "CT",
+  "country": "USA",
+  "source": "dead-drop:19880404",
+  "songs": [
+    {
+      "title": "Alabama Getaway",
+      "duration": "6:08"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:44"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "duration": "6:52"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:03"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "5:31"
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "duration": "5:06"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:18"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:48"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "6:31"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "10:01"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "6:30"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "13:00"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:40"
+    },
+    {
+      "title": "Space",
+      "duration": "4:27"
+    },
+    {
+      "title": "The Other One",
+      "duration": "8:22"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "8:45"
+    },
+    {
+      "title": "Good Lovin'",
+      "duration": "4:56"
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "duration": "5:08"
+    },
+    {
+      "title": "Hey Jude",
+      "duration": "2:41"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:25"
+    }
+  ]
+}

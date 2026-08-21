@@ -1,0 +1,91 @@
+{
+  "id": "19840715",
+  "date": "1984-07-15",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "source": "dead-drop:19840715",
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "duration": "8:16"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "12:47"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "8:26"
+    },
+    {
+      "title": "Cumberland Blues",
+      "duration": "6:36"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "4:51"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "8:02"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:54"
+    },
+    {
+      "title": "Why Don't We Do It in the Road?",
+      "duration": "4:30"
+    },
+    {
+      "title": "China Cat Sunflower",
+      "duration": "5:39"
+    },
+    {
+      "title": "I Know You Rider",
+      "duration": "5:03"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "10:01"
+    },
+    {
+      "title": "Uncle John's Band",
+      "duration": "11:14"
+    },
+    {
+      "title": "Don't Need Love",
+      "duration": "7:15"
+    },
+    {
+      "title": "Drums",
+      "duration": "12:18"
+    },
+    {
+      "title": "Space",
+      "duration": "6:52"
+    },
+    {
+      "title": "China Doll",
+      "duration": "5:54"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:37"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "9:45"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "6:06"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:14"
+    }
+  ]
+}

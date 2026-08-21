@@ -1,0 +1,85 @@
+{
+  "id": "19890416",
+  "date": "1989-04-16",
+  "venue": "MECCA",
+  "city": "Milwaukee",
+  "state": "WI",
+  "country": "USA",
+  "svg": "/shows/19890416.svg",
+  "songCount": 18,
+  "durationSeconds": 8065,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 393
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 429
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 335
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 158
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 299
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 720
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 624
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 486
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 491
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 457
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 367
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 572
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 335
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { cleanTitle, isValidDuration, parseShowId } from '@/wwob';
 import type { ShowFile } from '@/wwob';
 import { shows } from '@/data/shows.generated';
 import { buildRuns } from '@/galleries';
+import { DEAD_DROP_PREFIX, deadDropDates } from '../generator/dead-drops';
 import { releaseTag } from '../generator/release-tag';
 import type { Completeness } from '../generator/release-tag';
 
@@ -568,7 +569,8 @@ describe('official-release index is well-formed', () => {
     // something real: a release exactly as `data/releases.json` spells it
     // (several, pipe-separated, when a show was stitched from more than one —
     // pipe because release names contain commas),
-    // or an archive.org identifier for an unreleased show. A typo here would
+    // an archive.org identifier for an unreleased show, or a `dead-drop:` id
+    // for a show that exists only in the PlayDead app. A typo here would
     // quietly break the "should this be re-timed?" question the field exists to
     // answer, and nothing else would notice.
     const source = (readShow(file) as { source?: string }).source;
@@ -580,6 +582,17 @@ describe('official-release index is well-formed', () => {
           part.slice('archive.org:'.length).length,
           `${file}: empty archive.org identifier`,
         ).toBeGreaterThan(0);
+        continue;
+      }
+      if (part.startsWith(DEAD_DROP_PREFIX)) {
+        // Unlike `archive.org:`, this one resolves against a local file, so it
+        // is checked properly rather than merely for being non-empty: the id
+        // must be show-id-shaped *and* its date must be a drop we hold.
+        const drop = parseShowId(part.slice(DEAD_DROP_PREFIX.length))?.date;
+        expect(
+          drop !== undefined && deadDropDates.has(drop),
+          `${file}: source "${part}" names no drop in data/dead-drops.json`,
+        ).toBe(true);
         continue;
       }
       expect(

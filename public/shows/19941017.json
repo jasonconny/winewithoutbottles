@@ -7,75 +7,75 @@
   "country": "USA",
   "svg": "/shows/19941017.svg",
   "songCount": 17,
-  "durationSeconds": 9941,
+  "durationSeconds": 9866,
   "songs": [
     {
       "title": "In the Midnight Hour",
-      "durationSeconds": 340
+      "durationSeconds": 376
     },
     {
       "title": "Peggy-O",
-      "durationSeconds": 409
+      "durationSeconds": 391
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 481
+      "durationSeconds": 467
     },
     {
       "title": "Tennessee Jed",
-      "durationSeconds": 507
+      "durationSeconds": 489
     },
     {
       "title": "Eternity",
-      "durationSeconds": 620
+      "durationSeconds": 576
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 461
+      "durationSeconds": 460
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 284
+      "durationSeconds": 303
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 1511
+      "durationSeconds": 1534
     },
     {
       "title": "Man Smart Woman Smarter",
-      "durationSeconds": 441
+      "durationSeconds": 436
     },
     {
       "title": "Crazy Fingers",
-      "durationSeconds": 438
+      "durationSeconds": 440
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 794
+      "durationSeconds": 780
     },
     {
       "title": "Drums",
-      "durationSeconds": 503
+      "durationSeconds": 885
     },
     {
       "title": "Space",
-      "durationSeconds": 1385
+      "durationSeconds": 873
     },
     {
       "title": "The Wheel",
-      "durationSeconds": 210
+      "durationSeconds": 357
     },
     {
       "title": "All Along the Watchtower",
-      "durationSeconds": 405
+      "durationSeconds": 411
     },
     {
       "title": "Morning Dew",
-      "durationSeconds": 711
+      "durationSeconds": 788
     },
     {
       "title": "Rainy Day Women #12 and 35",
-      "durationSeconds": 441
+      "durationSeconds": 300
     }
   ]
 }

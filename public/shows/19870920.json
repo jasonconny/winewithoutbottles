@@ -7,87 +7,87 @@
   "country": "USA",
   "svg": "/shows/19870920.svg",
   "songCount": 20,
-  "durationSeconds": 8082,
+  "durationSeconds": 8719,
   "songs": [
     {
       "title": "Jack Straw",
-      "durationSeconds": 384
-    },
-    {
-      "title": "West L.A. Fadeaway",
-      "durationSeconds": 420
-    },
-    {
-      "title": "My Brother Esau",
-      "durationSeconds": 247
-    },
-    {
-      "title": "Far From Me",
-      "durationSeconds": 261
-    },
-    {
-      "title": "It Must Have Been the Roses",
-      "durationSeconds": 336
-    },
-    {
-      "title": "Desolation Row",
       "durationSeconds": 582
     },
     {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 456
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 282
+    },
+    {
+      "title": "Far From Me",
+      "durationSeconds": 288
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 616
+    },
+    {
       "title": "Might As Well",
-      "durationSeconds": 275
+      "durationSeconds": 280
     },
     {
       "title": "Promised Land",
-      "durationSeconds": 250
+      "durationSeconds": 273
     },
     {
       "title": "Hell in a Bucket",
-      "durationSeconds": 358
+      "durationSeconds": 391
     },
     {
       "title": "Iko Iko",
-      "durationSeconds": 377
+      "durationSeconds": 387
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 563
+      "durationSeconds": 582
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 611
+      "durationSeconds": 614
     },
     {
       "title": "Drums",
-      "durationSeconds": 585
+      "durationSeconds": 593
     },
     {
       "title": "Space",
-      "durationSeconds": 520
+      "durationSeconds": 309
     },
     {
       "title": "The Other One",
-      "durationSeconds": 290
+      "durationSeconds": 506
     },
     {
       "title": "Wharf Rat",
-      "durationSeconds": 484
+      "durationSeconds": 490
     },
     {
       "title": "Throwing Stones",
-      "durationSeconds": 539
+      "durationSeconds": 549
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 392
+      "durationSeconds": 460
     },
     {
       "title": "Touch of Grey",
-      "durationSeconds": 359
+      "durationSeconds": 367
     },
     {
       "title": "Brokedown Palace",
-      "durationSeconds": 249
+      "durationSeconds": 331
     }
   ]
 }

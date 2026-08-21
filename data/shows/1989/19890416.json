@@ -1,0 +1,29 @@
+{
+  "id": "19890416",
+  "date": "1989-04-16",
+  "venue": "MECCA",
+  "city": "Milwaukee",
+  "state": "WI",
+  "country": "USA",
+  "source": "dead-drop:19890416",
+  "songs": [
+    { "title": "Hell in a Bucket", "duration": "6:33" },
+    { "title": "They Love Each Other", "duration": "7:09" },
+    { "title": "Little Red Rooster", "duration": "8:52" },
+    { "title": "Stagger Lee", "duration": "5:35" },
+    { "title": "Mama Tried", "duration": "2:38" },
+    { "title": "Mexicali Blues", "duration": "4:59" },
+    { "title": "Bird Song", "duration": "12:00" },
+    { "title": "Scarlet Begonias", "duration": "8:59" },
+    { "title": "Fire on the Mountain", "duration": "10:24" },
+    { "title": "Saint of Circumstance", "duration": "6:03" },
+    { "title": "Truckin'", "duration": "8:06" },
+    { "title": "Drums", "duration": "8:11" },
+    { "title": "Space", "duration": "7:37" },
+    { "title": "The Other One", "duration": "6:07" },
+    { "title": "Stella Blue", "duration": "8:02" },
+    { "title": "Throwing Stones", "duration": "9:32" },
+    { "title": "Turn On Your Love Light", "duration": "8:03" },
+    { "title": "Box of Rain", "duration": "5:35" }
+  ]
+}

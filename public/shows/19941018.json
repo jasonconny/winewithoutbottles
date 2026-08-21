@@ -7,31 +7,31 @@
   "country": "USA",
   "svg": "/shows/19941018.svg",
   "songCount": 19,
-  "durationSeconds": 9453,
+  "durationSeconds": 9508,
   "songs": [
     {
       "title": "Help On The Way",
-      "durationSeconds": 242
+      "durationSeconds": 252
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 339
+      "durationSeconds": 357
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 799
+      "durationSeconds": 792
     },
     {
       "title": "The Same Thing",
-      "durationSeconds": 431
+      "durationSeconds": 430
     },
     {
       "title": "Althea",
-      "durationSeconds": 597
+      "durationSeconds": 596
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 415
+      "durationSeconds": 371
     },
     {
       "title": "Childhood's End",
@@ -39,11 +39,11 @@
     },
     {
       "title": "Don't Ease Me In",
-      "durationSeconds": 187
+      "durationSeconds": 192
     },
     {
       "title": "Iko Iko",
-      "durationSeconds": 682
+      "durationSeconds": 685
     },
     {
       "title": "Samba in the Rain",
@@ -51,11 +51,11 @@
     },
     {
       "title": "He's Gone",
-      "durationSeconds": 591
+      "durationSeconds": 593
     },
     {
       "title": "Smokestack Lightning",
-      "durationSeconds": 217
+      "durationSeconds": 213
     },
     {
       "title": "Truckin'",
@@ -63,15 +63,15 @@
     },
     {
       "title": "Drums",
-      "durationSeconds": 520
+      "durationSeconds": 699
     },
     {
       "title": "Space",
-      "durationSeconds": 1052
+      "durationSeconds": 887
     },
     {
       "title": "Days Between",
-      "durationSeconds": 785
+      "durationSeconds": 776
     },
     {
       "title": "Throwing Stones",
@@ -79,11 +79,11 @@
     },
     {
       "title": "Not Fade Away",
-      "durationSeconds": 452
+      "durationSeconds": 509
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 290
+      "durationSeconds": 302
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "id": "19890409",
+  "date": "1989-04-09",
+  "venue": "Freedom Hall",
+  "city": "Louisville",
+  "state": "KY",
+  "country": "USA",
+  "svg": "/shows/19890409.svg",
+  "songCount": 20,
+  "durationSeconds": 9301,
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 606
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 501
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 373
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 193
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 365
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 646
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 499
+    },
+    {
+      "title": "Louie, Louie",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 421
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 693
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 600
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 372
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 469
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 589
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 457
+    }
+  ]
+}

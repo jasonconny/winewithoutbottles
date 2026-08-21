@@ -5,42 +5,43 @@
   "city": "New York",
   "state": "NY",
   "country": "USA",
+  "source": "dead-drop:19880920",
   "songs": [
     {
       "title": "Jack Straw",
-      "duration": "6:20"
+      "duration": "7:10"
     },
     {
       "title": "Althea",
-      "duration": "7:06"
+      "duration": "7:31"
     },
     {
       "title": "Mama Tried",
-      "duration": "2:47"
+      "duration": "2:44"
     },
     {
       "title": "Big River",
-      "duration": "5:41"
+      "duration": "6:05"
     },
     {
       "title": "Peggy-O",
-      "duration": "6:48"
+      "duration": "6:33"
     },
     {
       "title": "When I Paint My Masterpiece",
-      "duration": "4:22"
+      "duration": "5:21"
     },
     {
       "title": "Louie, Louie",
-      "duration": "8:50"
+      "duration": "7:53"
     },
     {
       "title": "The Music Never Stopped",
-      "duration": "8:02"
+      "duration": "8:09"
     },
     {
       "title": "Bertha",
-      "duration": "7:34"
+      "duration": "7:32"
     },
     {
       "title": "Cumberland Blues",
@@ -48,35 +49,35 @@
     },
     {
       "title": "Looks Like Rain",
-      "duration": "9:40"
+      "duration": "9:35"
     },
     {
       "title": "Terrapin Station",
-      "duration": "11:42"
+      "duration": "11:37"
     },
     {
       "title": "Drums",
-      "duration": "3:14"
+      "duration": "11:17"
     },
     {
       "title": "Space",
-      "duration": "16:58"
+      "duration": "8:04"
     },
     {
       "title": "Truckin'",
-      "duration": "7:04"
+      "duration": "8:13"
     },
     {
       "title": "Goin' Down the Road Feeling Bad",
-      "duration": "6:30"
+      "duration": "6:27"
     },
     {
       "title": "Morning Dew",
-      "duration": "10:36"
+      "duration": "11:32"
     },
     {
       "title": "Johnny B. Goode",
-      "duration": "5:40"
+      "duration": "4:25"
     }
   ]
 }

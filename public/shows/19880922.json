@@ -7,87 +7,87 @@
   "country": "USA",
   "svg": "/shows/19880922.svg",
   "songCount": 20,
-  "durationSeconds": 7789,
+  "durationSeconds": 8491,
   "songs": [
     {
       "title": "Shakedown Street",
-      "durationSeconds": 735
+      "durationSeconds": 798
     },
     {
       "title": "New Minglewood Blues",
-      "durationSeconds": 427
+      "durationSeconds": 531
     },
     {
       "title": "Candyman",
-      "durationSeconds": 384
+      "durationSeconds": 436
     },
     {
       "title": "Beat It On Down The Line",
-      "durationSeconds": 191
+      "durationSeconds": 197
     },
     {
       "title": "Greatest Story Ever Told",
-      "durationSeconds": 248
+      "durationSeconds": 314
     },
     {
       "title": "To Lay Me Down",
-      "durationSeconds": 510
+      "durationSeconds": 553
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 374
+      "durationSeconds": 384
     },
     {
       "title": "Deal",
-      "durationSeconds": 429
+      "durationSeconds": 455
     },
     {
       "title": "China Cat Sunflower",
-      "durationSeconds": 369
+      "durationSeconds": 414
     },
     {
       "title": "I Know You Rider",
-      "durationSeconds": 342
+      "durationSeconds": 418
     },
     {
       "title": "Just Like Tom Thumb's Blues",
-      "durationSeconds": 304
+      "durationSeconds": 326
     },
     {
       "title": "Estimated Prophet",
-      "durationSeconds": 631
+      "durationSeconds": 651
     },
     {
       "title": "Eyes Of The World",
-      "durationSeconds": 473
+      "durationSeconds": 483
     },
     {
       "title": "Drums",
-      "durationSeconds": 443
+      "durationSeconds": 408
     },
     {
       "title": "Space",
-      "durationSeconds": 567
+      "durationSeconds": 626
     },
     {
       "title": "I Need a Miracle",
-      "durationSeconds": 209
+      "durationSeconds": 220
     },
     {
       "title": "Dear Mr. Fantasy",
-      "durationSeconds": 258
+      "durationSeconds": 289
     },
     {
       "title": "Hey Jude",
-      "durationSeconds": 142
+      "durationSeconds": 123
     },
     {
       "title": "Turn On Your Love Light",
-      "durationSeconds": 459
+      "durationSeconds": 536
     },
     {
       "title": "Brokedown Palace",
-      "durationSeconds": 294
+      "durationSeconds": 329
     }
   ]
 }

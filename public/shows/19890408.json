@@ -1,0 +1,97 @@
+{
+  "id": "19890408",
+  "date": "1989-04-08",
+  "venue": "Riverfront Coliseum",
+  "city": "Cincinnati",
+  "state": "OH",
+  "country": "USA",
+  "svg": "/shows/19890408.svg",
+  "songCount": 21,
+  "durationSeconds": 8393,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 243
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 418
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 494
+    },
+    {
+      "title": "Blow Away",
+      "durationSeconds": 575
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Loser",
+      "durationSeconds": 475
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 218
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 392
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 342
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 547
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 672
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 594
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 409
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 283
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 351
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 106
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 250
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 496
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 327
+    }
+  ]
+}

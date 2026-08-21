@@ -1,0 +1,30 @@
+{
+  "id": "19890417",
+  "date": "1989-04-17",
+  "venue": "Met Center",
+  "city": "Bloomington",
+  "state": "MN",
+  "country": "USA",
+  "source": "dead-drop:19890417",
+  "songs": [
+    { "title": "Iko Iko", "duration": "7:44" },
+    { "title": "New Minglewood Blues", "duration": "7:58" },
+    { "title": "Row Jimmy", "duration": "11:02" },
+    { "title": "Far From Me", "duration": "4:55" },
+    { "title": "Built to Last", "duration": "4:49" },
+    { "title": "Victim or the Crime", "duration": "6:11" },
+    { "title": "Bertha", "duration": "6:47" },
+    { "title": "Cold Rain and Snow", "duration": "6:30" },
+    { "title": "Samson And Delilah", "duration": "7:09" },
+    { "title": "Crazy Fingers", "duration": "7:50" },
+    { "title": "Estimated Prophet", "duration": "9:43" },
+    { "title": "Eyes Of The World", "duration": "8:45" },
+    { "title": "Drums", "duration": "5:48" },
+    { "title": "Space", "duration": "11:16" },
+    { "title": "The Wheel", "duration": "3:56" },
+    { "title": "Gimme Some Lovin'", "duration": "4:24" },
+    { "title": "Wharf Rat", "duration": "8:59" },
+    { "title": "Not Fade Away", "duration": "10:56" },
+    { "title": "Knockin' on Heaven's Door", "duration": "7:56" }
+  ]
+}

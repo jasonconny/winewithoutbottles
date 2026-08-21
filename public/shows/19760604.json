@@ -8,39 +8,39 @@
   "tour": "June 1976 Comeback",
   "svg": "/shows/19760604.svg",
   "songCount": 28,
-  "durationSeconds": 9671,
+  "durationSeconds": 10915,
   "songs": [
     {
       "title": "Promised Land",
-      "durationSeconds": 140
+      "durationSeconds": 243
     },
     {
       "title": "Friend Of The Devil",
-      "durationSeconds": 471
+      "durationSeconds": 579
     },
     {
       "title": "Mama Tried",
-      "durationSeconds": 164
+      "durationSeconds": 211
     },
     {
       "title": "Sugaree",
-      "durationSeconds": 509
+      "durationSeconds": 613
     },
     {
       "title": "Cassidy",
-      "durationSeconds": 261
+      "durationSeconds": 317
     },
     {
       "title": "Candyman",
-      "durationSeconds": 397
+      "durationSeconds": 435
     },
     {
       "title": "Big River",
-      "durationSeconds": 308
+      "durationSeconds": 352
     },
     {
       "title": "Brown-Eyed Women",
-      "durationSeconds": 280
+      "durationSeconds": 326
     },
     {
       "title": "Lazy Lightnin'",
@@ -48,51 +48,51 @@
     },
     {
       "title": "Supplication",
-      "durationSeconds": 219
+      "durationSeconds": 246
     },
     {
       "title": "Mission in the Rain",
-      "durationSeconds": 403
+      "durationSeconds": 440
     },
     {
       "title": "Looks Like Rain",
-      "durationSeconds": 391
+      "durationSeconds": 469
     },
     {
       "title": "Help On The Way",
-      "durationSeconds": 266
+      "durationSeconds": 302
     },
     {
       "title": "Slipknot!",
-      "durationSeconds": 659
+      "durationSeconds": 679
     },
     {
       "title": "Franklin's Tower",
-      "durationSeconds": 698
+      "durationSeconds": 762
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 575
+      "durationSeconds": 593
     },
     {
       "title": "Drums",
-      "durationSeconds": 60
+      "durationSeconds": 63
     },
     {
       "title": "Playing in the Band",
-      "durationSeconds": 122
+      "durationSeconds": 161
     },
     {
       "title": "Might As Well",
-      "durationSeconds": 321
+      "durationSeconds": 358
     },
     {
       "title": "Samson And Delilah",
-      "durationSeconds": 351
+      "durationSeconds": 400
     },
     {
       "title": "Cosmic Charlie",
-      "durationSeconds": 453
+      "durationSeconds": 511
     },
     {
       "title": "Let It Grow",
@@ -100,27 +100,27 @@
     },
     {
       "title": "Drums",
-      "durationSeconds": 57
+      "durationSeconds": 61
     },
     {
       "title": "Let It Grow",
-      "durationSeconds": 179
+      "durationSeconds": 174
     },
     {
       "title": "Stella Blue",
-      "durationSeconds": 584
+      "durationSeconds": 611
     },
     {
       "title": "Dancing in the Street",
-      "durationSeconds": 664
+      "durationSeconds": 697
     },
     {
       "title": "U.S. Blues",
-      "durationSeconds": 366
+      "durationSeconds": 460
     },
     {
       "title": "Johnny B. Goode",
-      "durationSeconds": 209
+      "durationSeconds": 288
     }
   ]
 }

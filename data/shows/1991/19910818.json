@@ -1,0 +1,34 @@
+{
+  "id": "19910818",
+  "date": "1991-08-18",
+  "venue": "Shoreline Amphitheatre",
+  "city": "Mountain View",
+  "state": "CA",
+  "country": "USA",
+  "source": "dead-drop:19910818",
+  "songs": [
+    { "title": "Hell in a Bucket", "duration": "8:22" },
+    { "title": "Jack-A-Roe", "duration": "5:30" },
+    { "title": "C.C. Rider", "duration": "4:57" },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "duration": "5:31"
+    },
+    { "title": "Beat It On Down The Line", "duration": "5:03" },
+    { "title": "West L.A. Fadeaway", "duration": "8:12" },
+    { "title": "When I Paint My Masterpiece", "duration": "5:24" },
+    { "title": "Stagger Lee", "duration": "6:29" },
+    { "title": "Johnny B. Goode", "duration": "4:50" },
+    { "title": "Deal", "duration": "9:32" },
+    { "title": "Samson And Delilah", "duration": "8:41" },
+    { "title": "Mississippi Half-Step Uptown Toodeloo", "duration": "9:04" },
+    { "title": "Feel Like a Stranger", "duration": "8:28" },
+    { "title": "Drums", "duration": "16:55" },
+    { "title": "Space", "duration": "10:18" },
+    { "title": "China Doll", "duration": "8:30" },
+    { "title": "Goin' Down the Road Feeling Bad", "duration": "6:17" },
+    { "title": "Throwing Stones", "duration": "8:47" },
+    { "title": "Not Fade Away", "duration": "10:31" },
+    { "title": "Brokedown Palace", "duration": "6:21" }
+  ]
+}

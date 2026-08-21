@@ -1,0 +1,89 @@
+{
+  "id": "19890413",
+  "date": "1989-04-13",
+  "venue": "Rosemont Horizon",
+  "city": "Rosemont",
+  "state": "IL",
+  "country": "USA",
+  "svg": "/shows/19890413.svg",
+  "songCount": 19,
+  "durationSeconds": 7834,
+  "songs": [
+    {
+      "title": "Iko Iko",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 374
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 524
+    },
+    {
+      "title": "To Lay Me Down",
+      "durationSeconds": 540
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 218
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 493
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 687
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 542
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 527
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 294
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 246
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Hey Jude",
+      "durationSeconds": 153
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 509
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 463
+    }
+  ]
+}

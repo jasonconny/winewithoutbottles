@@ -1,0 +1,91 @@
+{
+  "id": "19880715",
+  "date": "1988-07-15",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "source": "dead-drop:19880715",
+  "songs": [
+    {
+      "title": "Shakedown Street",
+      "duration": "13:53"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:43"
+    },
+    {
+      "title": "Friend Of The Devil",
+      "duration": "9:06"
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "duration": "7:22"
+    },
+    {
+      "title": "Dire Wolf",
+      "duration": "3:41"
+    },
+    {
+      "title": "Never Trust a Woman",
+      "duration": "6:28"
+    },
+    {
+      "title": "Cassidy",
+      "duration": "6:08"
+    },
+    {
+      "title": "Bertha",
+      "duration": "7:29"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "8:38"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "12:27"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "7:24"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "7:23"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "12:32"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:01"
+    },
+    {
+      "title": "Space",
+      "duration": "7:12"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "4:21"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "4:56"
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "duration": "5:21"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "12:43"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "5:59"
+    }
+  ]
+}
