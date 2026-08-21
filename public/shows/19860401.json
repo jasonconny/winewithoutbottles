@@ -5,6 +5,9 @@
   "city": "Providence",
   "state": "RI",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19860401.svg",
   "songCount": 17,
   "durationSeconds": 8306,

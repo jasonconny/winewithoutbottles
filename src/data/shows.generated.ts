@@ -718,6 +718,9 @@ export const shows: ShowSummary[] = [
     "city": "Berkeley",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19710814.svg",
     "songCount": 23,
     "durationSeconds": 8835
@@ -729,6 +732,9 @@ export const shows: ShowSummary[] = [
     "city": "Berkeley",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19710815.svg",
     "songCount": 20,
     "durationSeconds": 7671
@@ -2015,6 +2021,7 @@ export const shows: ShowSummary[] = [
     "state": "VA",
     "country": "USA",
     "tags": [
+      "Dead Drops",
       "Wall of Sound"
     ],
     "svg": "/shows/19740727.svg",
@@ -2247,6 +2254,9 @@ export const shows: ShowSummary[] = [
     "state": "OR",
     "country": "USA",
     "tour": "June 1976 Comeback",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19760603.svg",
     "songCount": 24,
     "durationSeconds": 10756
@@ -2259,6 +2269,9 @@ export const shows: ShowSummary[] = [
     "state": "OR",
     "country": "USA",
     "tour": "June 1976 Comeback",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19760604.svg",
     "songCount": 28,
     "durationSeconds": 10915
@@ -3658,6 +3671,9 @@ export const shows: ShowSummary[] = [
     "city": "Denver",
     "state": "CO",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19790814.svg",
     "songCount": 21,
     "durationSeconds": 9435
@@ -3786,6 +3802,9 @@ export const shows: ShowSummary[] = [
     "city": "Oakland",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19791227.svg",
     "songCount": 20,
     "durationSeconds": 8195
@@ -3811,6 +3830,9 @@ export const shows: ShowSummary[] = [
     "city": "Oakland",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19791230.svg",
     "songCount": 19,
     "durationSeconds": 8000
@@ -4052,6 +4074,9 @@ export const shows: ShowSummary[] = [
     "city": "Landover",
     "state": "MD",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19810927.svg",
     "songCount": 23,
     "durationSeconds": 9052
@@ -4288,6 +4313,9 @@ export const shows: ShowSummary[] = [
     "city": "Berkeley",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19840715.svg",
     "songCount": 20,
     "durationSeconds": 9260
@@ -4383,6 +4411,9 @@ export const shows: ShowSummary[] = [
     "city": "Providence",
     "state": "RI",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19860401.svg",
     "songCount": 17,
     "durationSeconds": 8306
@@ -4394,6 +4425,9 @@ export const shows: ShowSummary[] = [
     "city": "Irvine",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19860412.svg",
     "songCount": 19,
     "durationSeconds": 8336
@@ -4461,6 +4495,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19870915.svg",
     "songCount": 20,
     "durationSeconds": 8667
@@ -4500,6 +4537,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19870919.svg",
     "songCount": 19,
     "durationSeconds": 8070
@@ -4511,6 +4551,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19870920.svg",
     "songCount": 20,
     "durationSeconds": 8719
@@ -4522,6 +4565,9 @@ export const shows: ShowSummary[] = [
     "city": "Philadelphia",
     "state": "PA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19870922.svg",
     "songCount": 20,
     "durationSeconds": 8672
@@ -4533,6 +4579,9 @@ export const shows: ShowSummary[] = [
     "city": "Philadelphia",
     "state": "PA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19870923.svg",
     "songCount": 21,
     "durationSeconds": 8454
@@ -4586,6 +4635,9 @@ export const shows: ShowSummary[] = [
     "city": "Hartford",
     "state": "CT",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880403.svg",
     "songCount": 18,
     "durationSeconds": 7564
@@ -4597,6 +4649,9 @@ export const shows: ShowSummary[] = [
     "city": "Hartford",
     "state": "CT",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880404.svg",
     "songCount": 20,
     "durationSeconds": 7796
@@ -4608,6 +4663,9 @@ export const shows: ShowSummary[] = [
     "city": "Hartford",
     "state": "CT",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880405.svg",
     "songCount": 20,
     "durationSeconds": 8549
@@ -4619,6 +4677,9 @@ export const shows: ShowSummary[] = [
     "city": "Worcester",
     "state": "MA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880408.svg",
     "songCount": 16,
     "durationSeconds": 6833
@@ -4630,6 +4691,9 @@ export const shows: ShowSummary[] = [
     "city": "Worcester",
     "state": "MA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880409.svg",
     "songCount": 22,
     "durationSeconds": 8297
@@ -4655,6 +4719,9 @@ export const shows: ShowSummary[] = [
     "city": "Berkeley",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880715.svg",
     "songCount": 20,
     "durationSeconds": 9467
@@ -4666,6 +4733,9 @@ export const shows: ShowSummary[] = [
     "city": "Berkeley",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880717.svg",
     "songCount": 21,
     "durationSeconds": 9117
@@ -4677,6 +4747,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880914.svg",
     "songCount": 20,
     "durationSeconds": 8674
@@ -4688,6 +4761,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880915.svg",
     "songCount": 18,
     "durationSeconds": 7955
@@ -4699,6 +4775,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880916.svg",
     "songCount": 20,
     "durationSeconds": 8965
@@ -4710,6 +4789,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880918.svg",
     "songCount": 18,
     "durationSeconds": 8208
@@ -4721,6 +4803,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880919.svg",
     "songCount": 19,
     "durationSeconds": 8036
@@ -4732,6 +4817,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880920.svg",
     "songCount": 18,
     "durationSeconds": 8117
@@ -4743,6 +4831,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880922.svg",
     "songCount": 20,
     "durationSeconds": 8491
@@ -4754,6 +4845,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19880923.svg",
     "songCount": 19,
     "durationSeconds": 8108
@@ -4804,6 +4898,9 @@ export const shows: ShowSummary[] = [
     "city": "Ann Arbor",
     "state": "MI",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890405.svg",
     "songCount": 19,
     "durationSeconds": 9504
@@ -4815,6 +4912,9 @@ export const shows: ShowSummary[] = [
     "city": "Ann Arbor",
     "state": "MI",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890406.svg",
     "songCount": 21,
     "durationSeconds": 9460
@@ -4826,6 +4926,9 @@ export const shows: ShowSummary[] = [
     "city": "Cincinnati",
     "state": "OH",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890408.svg",
     "songCount": 21,
     "durationSeconds": 8393
@@ -4837,6 +4940,9 @@ export const shows: ShowSummary[] = [
     "city": "Louisville",
     "state": "KY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890409.svg",
     "songCount": 20,
     "durationSeconds": 9301
@@ -4848,6 +4954,9 @@ export const shows: ShowSummary[] = [
     "city": "Rosemont",
     "state": "IL",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890411.svg",
     "songCount": 19,
     "durationSeconds": 9697
@@ -4859,6 +4968,9 @@ export const shows: ShowSummary[] = [
     "city": "Rosemont",
     "state": "IL",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890412.svg",
     "songCount": 20,
     "durationSeconds": 8645
@@ -4870,6 +4982,9 @@ export const shows: ShowSummary[] = [
     "city": "Rosemont",
     "state": "IL",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890413.svg",
     "songCount": 19,
     "durationSeconds": 7834
@@ -4881,6 +4996,9 @@ export const shows: ShowSummary[] = [
     "city": "Milwaukee",
     "state": "WI",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890415.svg",
     "songCount": 18,
     "durationSeconds": 8371
@@ -4892,6 +5010,9 @@ export const shows: ShowSummary[] = [
     "city": "Milwaukee",
     "state": "WI",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890416.svg",
     "songCount": 18,
     "durationSeconds": 8065
@@ -4903,6 +5024,9 @@ export const shows: ShowSummary[] = [
     "city": "Bloomington",
     "state": "MN",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19890417.svg",
     "songCount": 19,
     "durationSeconds": 8558
@@ -5798,6 +5922,9 @@ export const shows: ShowSummary[] = [
     "city": "Sacramento",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19910812.svg",
     "songCount": 18,
     "durationSeconds": 8931
@@ -5809,6 +5936,9 @@ export const shows: ShowSummary[] = [
     "city": "Sacramento",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19910813.svg",
     "songCount": 16,
     "durationSeconds": 9488
@@ -5821,7 +5951,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tags": [
-      "Dark Star"
+      "Dark Star",
+      "Dead Drops"
     ],
     "svg": "/shows/19910816.svg",
     "songCount": 17,
@@ -5835,7 +5966,8 @@ export const shows: ShowSummary[] = [
     "state": "CA",
     "country": "USA",
     "tags": [
-      "Dark Star"
+      "Dark Star",
+      "Dead Drops"
     ],
     "svg": "/shows/19910817.svg",
     "songCount": 18,
@@ -5848,6 +5980,9 @@ export const shows: ShowSummary[] = [
     "city": "Mountain View",
     "state": "CA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19910818.svg",
     "songCount": 20,
     "durationSeconds": 9462
@@ -5991,6 +6126,9 @@ export const shows: ShowSummary[] = [
     "city": "Atlanta",
     "state": "GA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19920302.svg",
     "songCount": 17,
     "durationSeconds": 8928
@@ -6002,6 +6140,9 @@ export const shows: ShowSummary[] = [
     "city": "Atlanta",
     "state": "GA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19920303.svg",
     "songCount": 17,
     "durationSeconds": 8672
@@ -6086,6 +6227,9 @@ export const shows: ShowSummary[] = [
     "city": "Albany",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19930329.svg",
     "songCount": 19,
     "durationSeconds": 9171
@@ -6250,6 +6394,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19941013.svg",
     "songCount": 18,
     "durationSeconds": 10064
@@ -6261,6 +6408,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19941014.svg",
     "songCount": 18,
     "durationSeconds": 9953
@@ -6272,6 +6422,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19941015.svg",
     "songCount": 18,
     "durationSeconds": 9214
@@ -6283,6 +6436,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19941017.svg",
     "songCount": 17,
     "durationSeconds": 9866
@@ -6294,6 +6450,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19941018.svg",
     "songCount": 19,
     "durationSeconds": 9508
@@ -6305,6 +6464,9 @@ export const shows: ShowSummary[] = [
     "city": "New York",
     "state": "NY",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19941019.svg",
     "songCount": 17,
     "durationSeconds": 9426
@@ -6330,6 +6492,9 @@ export const shows: ShowSummary[] = [
     "city": "Atlanta",
     "state": "GA",
     "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
     "svg": "/shows/19950329.svg",
     "songCount": 20,
     "durationSeconds": 10330

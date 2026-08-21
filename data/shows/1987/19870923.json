@@ -5,6 +5,7 @@
   "city": "Philadelphia",
   "state": "PA",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19870923",
   "songs": [
     {

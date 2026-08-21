@@ -5,6 +5,9 @@
   "city": "Mountain View",
   "state": "CA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19910818.svg",
   "songCount": 20,
   "durationSeconds": 9462,

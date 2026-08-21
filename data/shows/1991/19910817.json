@@ -5,7 +5,7 @@
   "city": "Mountain View",
   "state": "CA",
   "country": "USA",
-  "tags": ["Dark Star"],
+  "tags": ["Dark Star", "Dead Drops"],
   "source": "dead-drop:19910817",
   "songs": [
     { "title": "Help On The Way", "duration": "5:45" },

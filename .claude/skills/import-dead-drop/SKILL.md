@@ -195,11 +195,29 @@ Fields are in `generator/dead-drops.ts`; all are required and all are guarded.
 `transfer` is the A/B panel verbatim, and it earns its place because a re-transfer
 would otherwise be invisible.
 
-A drop takes **no tag**. A per-drop tag would mint a weekly index holding one
-show; a single `DeadDrops` tag across all of them would be a real grouping but
-the release-tag rule cannot produce it, so it would have to be an editorial tag.
-Deferred until there are enough drops to see the shape — raise it, don't decide
-it.
+## Every drop carries the `Dead Drops` tag
+
+Settled 2026-08-20, after being deferred through the first 57 shows. **Two
+words, as the app spells it** — not the `DeadDrops` styling this skill uses in
+prose for the source itself.
+
+It is an **editorial** tag (hand-listed in `EDITORIAL_TAGS` in
+`tests/data-validity.test.ts`) but a **derived** one: a guard there pins it
+both ways against `source`, so a drop show without the tag fails, and a
+non-drop show with it fails. Author it and the tests confirm it; forget it and
+they tell you. Nothing to decide per show.
+
+Two things about it worth knowing, because they are unlike every other tag:
+
+- **It is keyed on provenance, not on the music.** `source` is deliberately
+  invisible to the UI, so without this tag there is no way to see the drops as
+  a body of work. The per-drop alternative is unavailable rather than merely
+  bad — the app never names the weekly drop, which is the same reason
+  `data/dead-drops.json` is keyed on the date.
+- **It is unbounded.** Every other tag is finite by construction — a box's date
+  list, a song, a date range, a five-song sequence. The app publishes 2–3 drops
+  a week, so `/dead-drops` will keep growing past every other index page. That
+  was the argument against it; Jason took the trade knowingly.
 
 ## The loop
 
@@ -209,7 +227,8 @@ it.
 # 2. check every title against data/songs.json BEFORE authoring
 # 3. check the venue spelling against data/shows/
 # 4. add the drop to data/dead-drops.json
-# 5. author data/shows/<year>/<id>.json — source: "dead-drop:<id>"
+# 5. author data/shows/<year>/<id>.json — source: "dead-drop:<id>",
+#    tags: ["Dead Drops"] (plus any editorial tag the show earns, sorted)
 npm run generate <id>
 npx vitest run
 npx prettier --write 'data/shows/**/*.json' data/dead-drops.json
@@ -219,6 +238,12 @@ Then **pause for Jason's spot-check before the next show.** The standing batch
 cadence applies, and it applies harder here: batches of about five, not by year.
 The error class is systematic — a habit of misreading a column, a wrong rule
 about section headings — so it wants catching on show two, not show thirty.
+
+In practice that cadence rarely binds any more. The founding backlog — 57 shows,
+everything the app carried, merged 2026-08-20 — is done, and what arrives now is
+the app's ongoing **2–3 drops a week**, so a batch is usually smaller than five
+anyway. Treat a fresh directory in `data/dead-drops/` as routine work, not as a
+new project.
 
 `--audit` will not cover these shows, and that is correct: it sweeps shows that
 resolve to a release, and a drop is not one. Confirm the counts are _unchanged_

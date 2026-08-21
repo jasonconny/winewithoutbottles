@@ -5,6 +5,9 @@
   "city": "Worcester",
   "state": "MA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19880408.svg",
   "songCount": 16,
   "durationSeconds": 6833,

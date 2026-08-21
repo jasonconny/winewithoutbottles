@@ -5,6 +5,9 @@
   "city": "Denver",
   "state": "CO",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19790814.svg",
   "songCount": 21,
   "durationSeconds": 9435,

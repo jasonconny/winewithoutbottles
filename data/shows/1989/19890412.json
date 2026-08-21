@@ -5,6 +5,7 @@
   "city": "Rosemont",
   "state": "IL",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890412",
   "songs": [
     { "title": "Jack Straw", "duration": "5:58" },

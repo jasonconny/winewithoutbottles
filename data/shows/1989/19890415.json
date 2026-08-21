@@ -5,6 +5,7 @@
   "city": "Milwaukee",
   "state": "WI",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890415",
   "songs": [
     { "title": "Mississippi Half-Step Uptown Toodeloo", "duration": "7:29" },

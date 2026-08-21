@@ -5,6 +5,7 @@
   "city": "Bloomington",
   "state": "MN",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890417",
   "songs": [
     { "title": "Iko Iko", "duration": "7:44" },

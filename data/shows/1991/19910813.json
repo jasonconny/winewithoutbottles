@@ -5,6 +5,7 @@
   "city": "Sacramento",
   "state": "CA",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19910813",
   "songs": [
     { "title": "Picasso Moon", "duration": "8:14" },

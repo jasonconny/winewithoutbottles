@@ -5,6 +5,9 @@
   "city": "Hartford",
   "state": "CT",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19880403.svg",
   "songCount": 18,
   "durationSeconds": 7564,

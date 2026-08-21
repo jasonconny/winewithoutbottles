@@ -5,6 +5,7 @@
   "city": "Atlanta",
   "state": "GA",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19950329",
   "songs": [
     { "title": "Jack Straw", "duration": "7:15" },

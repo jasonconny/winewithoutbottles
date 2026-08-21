@@ -5,6 +5,9 @@
   "city": "Milwaukee",
   "state": "WI",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19890416.svg",
   "songCount": 18,
   "durationSeconds": 8065,

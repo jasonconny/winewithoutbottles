@@ -5,6 +5,7 @@
   "city": "Providence",
   "state": "RI",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19860401",
   "songs": [
     {

@@ -5,6 +5,9 @@
   "city": "Cincinnati",
   "state": "OH",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19890408.svg",
   "songCount": 21,
   "durationSeconds": 8393,

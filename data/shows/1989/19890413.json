@@ -5,6 +5,7 @@
   "city": "Rosemont",
   "state": "IL",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890413",
   "songs": [
     { "title": "Iko Iko", "duration": "7:06" },

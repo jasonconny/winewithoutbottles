@@ -5,6 +5,7 @@
   "city": "Rosemont",
   "state": "IL",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19890411",
   "songs": [
     { "title": "Shakedown Street", "duration": "14:00" },

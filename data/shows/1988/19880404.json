@@ -5,6 +5,7 @@
   "city": "Hartford",
   "state": "CT",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19880404",
   "songs": [
     {

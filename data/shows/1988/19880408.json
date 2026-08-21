@@ -5,6 +5,7 @@
   "city": "Worcester",
   "state": "MA",
   "country": "USA",
+  "tags": ["Dead Drops"],
   "source": "dead-drop:19880408",
   "songs": [
     {

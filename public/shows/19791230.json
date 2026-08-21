@@ -5,6 +5,9 @@
   "city": "Oakland",
   "state": "CA",
   "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
   "svg": "/shows/19791230.svg",
   "songCount": 19,
   "durationSeconds": 8000,
