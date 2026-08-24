@@ -1,20 +1,21 @@
 import { useEffect, type CSSProperties } from 'react';
-import { shows } from '@/data/shows.generated';
 import { usePageMeta } from '@/hooks/usePageMeta';
+import { useRotatingArt } from '@/hooks/useRotatingArt';
 import { useUiState } from '@/hooks/useUiState';
 import './Home.scss';
-
-// Pick a striped piece once per page load (at module eval — not during render,
-// which must stay pure). A full reload picks a fresh one.
-const randomArt = shows[Math.floor(Math.random() * shows.length)]?.svg;
 
 /**
  * The homepage for winewithoutbottles.com: a random striped piece under the
  * brand logotype, plus the global chrome's nav (it's the AppChrome layout
  * route's index child, so the WWOB chip and drawer come for free).
+ *
+ * The piece isn't fixed for the life of the page load: useRotatingArt rerolls
+ * it every HOME_ROTATE_MS, alternating the two CSS layers Home.scss stacks so
+ * the new piece crossfades in. A full reload still picks a fresh opener.
  */
 export default function Home() {
   const { setSleepy } = useUiState();
+  const { layers, live } = useRotatingArt();
   usePageMeta('Wine Without Bottles', '#000000');
 
   // Like Show: this is an art page, so the chips fade after an idle beat and
@@ -25,12 +26,13 @@ export default function Home() {
     return () => setSleepy(false);
   }, [setSleepy]);
 
-  const style = randomArt
-    ? ({ '--home-art': `url(${randomArt})` } as CSSProperties)
-    : undefined;
+  const style = {
+    '--home-art-a': layers[0] && `url(${layers[0]})`,
+    '--home-art-b': layers[1] && `url(${layers[1]})`,
+  } as CSSProperties;
 
   return (
-    <main className="Home" style={style}>
+    <main className="Home" style={style} data-live-layer={live}>
       <header>
         {/*
           Brand logotype. Intentionally a faint, low-contrast watermark over the
