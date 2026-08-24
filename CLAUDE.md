@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Wine Without Bottles — a web-based art project by Jason Conny that translates Grateful Dead setlists into abstract striped SVGs (each stripe = a song; color derived from the title, width from duration). The site is one "vessel" for the work. Current surfaces: the homepage hero (`src/routes/Home.tsx` — a random striped piece under the brand logotype, with the global nav), the reader (galleries + show pages), and a hidden `/builder` easter-egg route that ports the original manual SVG generator. The core algorithm ("the machine") lives framework-free in `src/wwob/`.
+Wine Without Bottles — a web-based art project by Jason Conny that translates Grateful Dead setlists into abstract striped SVGs (each stripe = a song; color derived from the title, width from duration). The site is one "vessel" for the work. Current surfaces: the homepage hero (`src/routes/Home.tsx` — a random striped piece under the brand logotype, with the global nav; the piece rerolls every 15 minutes via `src/hooks/useRotatingArt.ts`, crossfading between two stacked CSS layers, and the clock pauses while the tab is hidden so the swap happens with someone watching), the reader (galleries + show pages), and a hidden `/builder` easter-egg route that ports the original manual SVG generator. The core algorithm ("the machine") lives framework-free in `src/wwob/`.
 
 ## Commands
 

@@ -1,8 +1,8 @@
 @use '../styles/breakpoints' as bp;
 
 // Slow retreat: after a long pause the ghosted logotype fades away entirely,
-// leaving the piece alone. It only comes back on a reload (which also rerolls
-// the art). Pairs with the chrome's own sleep, which fades the chips.
+// leaving the piece alone. It only comes back on a reload. Pairs with the
+// chrome's own sleep, which fades the chips.
 @keyframes watermark-retreat {
   to {
     opacity: 0;
@@ -18,20 +18,15 @@
   width: 100%;
   // Keeps the title off the screen edges on small phones.
   padding: 1.25rem;
+  // The layers below are absolutely positioned against this box; `isolate`
+  // gives them a stacking context of their own, so `z-index: -1` puts them
+  // behind the title without escaping to sit behind the page ground.
+  position: relative;
+  isolation: isolate;
 
-  // A random striped piece, chosen per page load (Home.tsx sets
-  // --home-art). One copy stretched to fill the viewport — the SVG's
-  // `preserveAspectRatio="none"` lets the (uniform vertical) stripes stretch
-  // without distortion. We deliberately do NOT tile with `repeat-y`: each
-  // piece is an extremely wide, ~thin strip, so a tiled copy is only a couple
-  // CSS px tall and its fractional height doesn't land on the device-pixel
-  // grid — leaving visible horizontal seam lines between repeats on hi-DPR
-  // phones. A single stretched copy looks identical (full-height bars), has no
-  // seams, and is far cheaper to paint.
+  // The ground the pieces sit on, and what shows through mid-crossfade if an
+  // incoming piece hasn't painted yet.
   background-color: #000;
-  background-image: var(--home-art, url('/shows/1972-08-27.svg'));
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 
   @include bp.respond-to('md') {
     padding: 2rem;
@@ -39,6 +34,47 @@
 
   @include bp.respond-to('lg') {
     padding: 3rem;
+  }
+
+  // Two stacked artwork layers. Home.tsx writes a piece into whichever one is
+  // dark and flips [data-live-layer], so the new piece fades up over the old
+  // one instead of cutting. Each layer is one copy stretched to fill the
+  // viewport — the SVG's `preserveAspectRatio="none"` lets the (uniform
+  // vertical) stripes stretch without distortion. We deliberately do NOT tile
+  // with `repeat-y`: each piece is an extremely wide, ~thin strip, so a tiled
+  // copy is only a couple CSS px tall and its fractional height doesn't land
+  // on the device-pixel grid — leaving visible horizontal seam lines between
+  // repeats on hi-DPR phones. A single stretched copy looks identical (full-
+  // height bars), has no seams, and is far cheaper to paint.
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+    transition: opacity 2s ease;
+
+    // Motion-sensitive users get the reroll as a straight cut.
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  // The fallback covers the (test/SSR) case where no piece was picked at all.
+  &::before {
+    background-image: var(--home-art-a, url('/shows/19720827.svg'));
+  }
+
+  &::after {
+    background-image: var(--home-art-b);
+  }
+
+  &[data-live-layer='0']::before,
+  &[data-live-layer='1']::after {
+    opacity: 1;
   }
 
   h1 {
@@ -59,6 +95,9 @@
     font-size: clamp(2.25rem, calc(1rem + 7vw), 8rem);
 
     // After 10s on the page the watermark fades out over 4s and stays gone.
+    // Deliberately bound to the page load, not to the piece: the retreat is
+    // the page settling once, so a 15-minute reroll arrives on a clear wall
+    // rather than flashing the logotype back every time.
     // Motion-sensitive users keep the resting watermark (no animation).
     @media (prefers-reduced-motion: no-preference) {
       animation: watermark-retreat 4s ease 10s forwards;
