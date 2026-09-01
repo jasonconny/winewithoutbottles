@@ -1,0 +1,80 @@
+{
+  "id": "19850309",
+  "date": "1985-03-09",
+  "venue": "Berkeley Community Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850309.svg",
+  "songCount": 16,
+  "durationSeconds": 7706,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 382
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 642
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 644
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 674
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 755
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 405
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 420
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 644
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 147
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 427
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 616
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 434
+    }
+  ]
+}

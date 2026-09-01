@@ -71,6 +71,34 @@
       "note": "read from the PlayDead app; the corpus spells the room bare Greek Theatre, so the app's longer form was not used"
     },
     {
+      "date": "1985-02-18",
+      "venue": "Henry J. Kaiser Convention Center, Oakland, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-09-01",
+      "note": "read from the PlayDead app; first drop in the corpus off a cassette rather than a reel"
+    },
+    {
+      "date": "1985-02-19",
+      "venue": "Henry J. Kaiser Convention Center, Oakland, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-09-01",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-02-20",
+      "venue": "Henry J. Kaiser Convention Center, Oakland, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-09-01",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-03-09",
+      "venue": "Berkeley, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-09-01",
+      "note": "read from the PlayDead app; the capture missed the venue line, so `venue` here is only the city the app printed — the room is the corpus's Berkeley Community Theatre, confirmed by Jason. Set two opens with a standalone China Cat Sunflower and no I Know You Rider row; taken as the app states it"
+    },
+    {
       "date": "1986-04-01",
       "venue": "Providence Civic Center, Providence, RI",
       "transfer": "Cassette, 24 bit/192 kHz, N.R. No",
