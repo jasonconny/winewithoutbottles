@@ -1,0 +1,76 @@
+{
+  "id": "19850219",
+  "date": "1985-02-19",
+  "venue": "Henry J. Kaiser Convention Center",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19850219",
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "duration": "5:55"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "6:58"
+    },
+    {
+      "title": "New Minglewood Blues",
+      "duration": "8:32"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:42"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "5:05"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:12"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "5:54"
+    },
+    {
+      "title": "Might As Well",
+      "duration": "4:41"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:41"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:20"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "9:10"
+    },
+    {
+      "title": "Drums",
+      "duration": "11:17"
+    },
+    {
+      "title": "Space",
+      "duration": "3:16"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:02"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "7:35"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:15"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "19850220",
+  "date": "1985-02-20",
+  "venue": "Henry J. Kaiser Convention Center",
+  "city": "Oakland",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850220.svg",
+  "songCount": 17,
+  "durationSeconds": 7890,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 402
+    },
+    {
+      "title": "Day Tripper",
+      "durationSeconds": 255
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 157
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 357
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 602
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 187
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 712
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 677
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 835
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 520
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 428
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 280
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 635
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 312
+    }
+  ]
+}

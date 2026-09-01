@@ -4335,6 +4335,62 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8522
   },
   {
+    "id": "19850218",
+    "date": "1985-02-18",
+    "venue": "Henry J. Kaiser Convention Center",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850218.svg",
+    "songCount": 20,
+    "durationSeconds": 8664
+  },
+  {
+    "id": "19850219",
+    "date": "1985-02-19",
+    "venue": "Henry J. Kaiser Convention Center",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850219.svg",
+    "songCount": 16,
+    "durationSeconds": 6995
+  },
+  {
+    "id": "19850220",
+    "date": "1985-02-20",
+    "venue": "Henry J. Kaiser Convention Center",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850220.svg",
+    "songCount": 17,
+    "durationSeconds": 7890
+  },
+  {
+    "id": "19850309",
+    "date": "1985-03-09",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850309.svg",
+    "songCount": 16,
+    "durationSeconds": 7706
+  },
+  {
     "id": "19850427",
     "date": "1985-04-27",
     "venue": "Frost Amphitheater",
