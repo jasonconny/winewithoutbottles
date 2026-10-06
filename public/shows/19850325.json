@@ -1,0 +1,92 @@
+{
+  "id": "19850325",
+  "date": "1985-03-25",
+  "venue": "Springfield Civic Center",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850325.svg",
+  "songCount": 19,
+  "durationSeconds": 9459,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Sugaree",
+      "durationSeconds": 680
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 508
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 748
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 532
+    },
+    {
+      "title": "It Must Have Been the Roses",
+      "durationSeconds": 320
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 667
+    },
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 275
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 684
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 753
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 652
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 569
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 505
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 263
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 368
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 348
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 522
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 268
+    }
+  ]
+}

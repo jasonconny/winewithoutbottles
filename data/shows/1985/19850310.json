@@ -1,0 +1,80 @@
+{
+  "id": "19850310",
+  "date": "1985-03-10",
+  "venue": "Berkeley Community Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19850310",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "8:53"
+    },
+    {
+      "title": "Peggy-O",
+      "duration": "6:53"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "8:28"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "11:02"
+    },
+    {
+      "title": "Hell in a Bucket",
+      "duration": "6:43"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "5:53"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "8:19"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:30"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "7:33"
+    },
+    {
+      "title": "Smokestack Lightning",
+      "duration": "13:25"
+    },
+    {
+      "title": "Drums",
+      "duration": "10:59"
+    },
+    {
+      "title": "Space",
+      "duration": "8:03"
+    },
+    {
+      "title": "Stella Blue",
+      "duration": "9:17"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "5:06"
+    },
+    {
+      "title": "Around And Around",
+      "duration": "3:52"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "duration": "4:36"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "4:32"
+    }
+  ]
+}

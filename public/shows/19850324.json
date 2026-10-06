@@ -1,0 +1,92 @@
+{
+  "id": "19850324",
+  "date": "1985-03-24",
+  "venue": "Springfield Civic Center",
+  "city": "Springfield",
+  "state": "MA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850324.svg",
+  "songCount": 19,
+  "durationSeconds": 8212,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 423
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 308
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 532
+    },
+    {
+      "title": "Me and My Uncle",
+      "durationSeconds": 188
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 295
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 468
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 473
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 574
+    },
+    {
+      "title": "Cumberland Blues",
+      "durationSeconds": 427
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 462
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 329
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 615
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 306
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 293
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 540
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 576
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 319
+    }
+  ]
+}

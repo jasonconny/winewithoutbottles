@@ -4391,6 +4391,146 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7706
   },
   {
+    "id": "19850310",
+    "date": "1985-03-10",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850310.svg",
+    "songCount": 17,
+    "durationSeconds": 8164
+  },
+  {
+    "id": "19850312",
+    "date": "1985-03-12",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850312.svg",
+    "songCount": 17,
+    "durationSeconds": 7766
+  },
+  {
+    "id": "19850313",
+    "date": "1985-03-13",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850313.svg",
+    "songCount": 18,
+    "durationSeconds": 8626
+  },
+  {
+    "id": "19850321",
+    "date": "1985-03-21",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850321.svg",
+    "songCount": 22,
+    "durationSeconds": 8371
+  },
+  {
+    "id": "19850322",
+    "date": "1985-03-22",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850322.svg",
+    "songCount": 20,
+    "durationSeconds": 9297
+  },
+  {
+    "id": "19850324",
+    "date": "1985-03-24",
+    "venue": "Springfield Civic Center",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850324.svg",
+    "songCount": 19,
+    "durationSeconds": 8212
+  },
+  {
+    "id": "19850325",
+    "date": "1985-03-25",
+    "venue": "Springfield Civic Center",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850325.svg",
+    "songCount": 19,
+    "durationSeconds": 9459
+  },
+  {
+    "id": "19850331",
+    "date": "1985-03-31",
+    "venue": "Cumberland County Civic Center",
+    "city": "Portland",
+    "state": "ME",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850331.svg",
+    "songCount": 19,
+    "durationSeconds": 7953
+  },
+  {
+    "id": "19850401",
+    "date": "1985-04-01",
+    "venue": "Cumberland County Civic Center",
+    "city": "Portland",
+    "state": "ME",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850401.svg",
+    "songCount": 19,
+    "durationSeconds": 8290
+  },
+  {
+    "id": "19850403",
+    "date": "1985-04-03",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850403.svg",
+    "songCount": 20,
+    "durationSeconds": 9890
+  },
+  {
     "id": "19850427",
     "date": "1985-04-27",
     "venue": "Frost Amphitheater",
