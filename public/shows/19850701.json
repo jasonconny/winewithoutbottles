@@ -1,0 +1,92 @@
+{
+  "id": "19850701",
+  "date": "1985-07-01",
+  "venue": "Merriweather Post Pavilion",
+  "city": "Columbia",
+  "state": "MD",
+  "country": "USA",
+  "tags": [
+    "Summer Magic 1985"
+  ],
+  "svg": "/shows/19850701.svg",
+  "songCount": 19,
+  "durationSeconds": 9486,
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 426
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 536
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 340
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 474
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 768
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 714
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 709
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 789
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 594
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "durationSeconds": 349
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 571
+    },
+    {
+      "title": "(I Can't Get No) Satisfaction",
+      "durationSeconds": 322
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 433
+    }
+  ]
+}

@@ -878,10 +878,10 @@ describe('shows with unknown setlists are well-formed', () => {
 });
 
 describe('data/UNBUILT-DATES.md accounts for every date the corpus lacks', () => {
-  // The file explains *why* each remaining date is unbuilt, and the four reasons
-  // are not interchangeable: nothing circulates, a tape exists but falls short,
-  // it is buildable and deliberately deferred, or the record is not out yet.
-  // "Absent from data/shows/" reads identically in all four cases.
+  // The file explains *why* each remaining date is unbuilt, and the reasons are
+  // not interchangeable: nothing circulates, a tape exists but falls short, it
+  // is buildable and deliberately deferred, or the record is not out yet.
+  // "Absent from data/shows/" reads identically in every case.
   //
   // A prose file describing data will drift from it silently, and this one has
   // an unusually good chance of doing so — a date leaves the list by being
@@ -894,8 +894,8 @@ describe('data/UNBUILT-DATES.md accounts for every date the corpus lacks', () =>
   // pretended otherwise would be asserting its own fixture.
   const DOC = 'data/UNBUILT-DATES.md';
   const doc = readFileSync(DOC, 'utf8');
-  // Rows are `| 1968-02-23 | …`, but section D lists a run of dates on one line
-  // (`1985-06-14, 06-15, …`), so scan for full dates and for the `MM-DD` short
+  // Rows are `| 1968-02-23 | …`, but a row may list a run of dates on one line
+  // (`1985-06-14, 06-15, …`, as Summer Magic 1985's did before release), so scan for full dates and for the `MM-DD` short
   // form that follows one, rather than parsing the table.
   //
   // Only table rows count, not prose. Scanning the whole file looked fine and
@@ -912,7 +912,7 @@ describe('data/UNBUILT-DATES.md accounts for every date the corpus lacks', () =>
       // quietly asserting something it does not mean.
       if (Number(match[1]) >= 2000) continue;
       listed.add(match[0]);
-      // Section D packs a run onto one row (`1985-06-14, 06-15, …`); a short
+      // A row may pack a run onto one line (`1985-06-14, 06-15, …`); a short
       // form continues the year of the full date preceding it.
       const rest = line.slice(match.index! + match[0].length);
       for (const short of rest.matchAll(

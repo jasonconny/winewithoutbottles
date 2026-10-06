@@ -128,6 +128,8 @@ interface Release {
   bonusDates: string[];
   completeness: 'complete' | 'partial' | 'unknown';
   note: string;
+  /** Pinned in MUSICBRAINZ_RELEASE where MusicBrainz's search is ambiguous. */
+  musicbrainzReleaseId: string | null;
 }
 
 interface SongEntry {
@@ -1091,7 +1093,11 @@ async function fillUntimed(
   if (tracks.length && tracks.every((track) => track.duration)) {
     return { tracks: applyTrackRules(tracks, date), source: 'wikipedia' };
   }
-  const byDate = await tracksByDateFromMusicBrainz(release.name, release.dates);
+  const byDate = await tracksByDateFromMusicBrainz(
+    release.name,
+    release.dates,
+    release.musicbrainzReleaseId,
+  );
   const fromMb = byDate.get(date);
   if (!fromMb?.length) {
     return { tracks: applyTrackRules(tracks, date), source: 'wikipedia' };

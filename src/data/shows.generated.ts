@@ -4419,6 +4419,48 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8356
   },
   {
+    "id": "19850614",
+    "date": "1985-06-14",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850614.svg",
+    "songCount": 20,
+    "durationSeconds": 8594
+  },
+  {
+    "id": "19850615",
+    "date": "1985-06-15",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850615.svg",
+    "songCount": 21,
+    "durationSeconds": 8491
+  },
+  {
+    "id": "19850616",
+    "date": "1985-06-16",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850616.svg",
+    "songCount": 20,
+    "durationSeconds": 8730
+  },
+  {
     "id": "19850624",
     "date": "1985-06-24",
     "venue": "Riverbend Music Center",
@@ -4431,6 +4473,62 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19850624.svg",
     "songCount": 22,
     "durationSeconds": 9010
+  },
+  {
+    "id": "19850627",
+    "date": "1985-06-27",
+    "venue": "Saratoga Performing Arts Center",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850627.svg",
+    "songCount": 22,
+    "durationSeconds": 9318
+  },
+  {
+    "id": "19850628",
+    "date": "1985-06-28",
+    "venue": "Hershey Park Stadium",
+    "city": "Hershey",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850628.svg",
+    "songCount": 20,
+    "durationSeconds": 8466
+  },
+  {
+    "id": "19850630",
+    "date": "1985-06-30",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850630.svg",
+    "songCount": 21,
+    "durationSeconds": 8955
+  },
+  {
+    "id": "19850701",
+    "date": "1985-07-01",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850701.svg",
+    "songCount": 19,
+    "durationSeconds": 9486
   },
   {
     "id": "19851101",

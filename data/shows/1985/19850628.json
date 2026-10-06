@@ -1,0 +1,92 @@
+{
+  "id": "19850628",
+  "date": "1985-06-28",
+  "venue": "Hershey Park Stadium",
+  "city": "Hershey",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Summer Magic 1985"],
+  "source": "Summer Magic 1985",
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "duration": "6:25"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "4:40"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:54"
+    },
+    {
+      "title": "I Ain't Superstitious",
+      "duration": "1:58"
+    },
+    {
+      "title": "Down in the Bottom",
+      "duration": "4:14"
+    },
+    {
+      "title": "I Ain't Superstitious",
+      "duration": "1:12"
+    },
+    {
+      "title": "Bird Song",
+      "duration": "7:01"
+    },
+    {
+      "title": "Comes a Time",
+      "duration": "6:36"
+    },
+    {
+      "title": "Deal",
+      "duration": "6:59"
+    },
+    {
+      "title": "The Music Never Stopped",
+      "duration": "10:01"
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "duration": "5:00"
+    },
+    {
+      "title": "Estimated Prophet",
+      "duration": "11:44"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "11:17"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:32"
+    },
+    {
+      "title": "Space",
+      "duration": "6:32"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "4:08"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "10:51"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:01"
+    },
+    {
+      "title": "Not Fade Away",
+      "duration": "8:30"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "4:31"
+    }
+  ]
+}

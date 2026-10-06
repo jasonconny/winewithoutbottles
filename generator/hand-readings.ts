@@ -151,6 +151,25 @@ export const HAND_CLASSIFIED: Record<string, { why: string }> = {
   },
 };
 
+/**
+ * The MusicBrainz release the importer falls back to, pinned by id so it skips
+ * the search. Needed where the search returns several pressings that tie on
+ * track count: its order is not stable between runs, so the pick flips and the
+ * timings move with it. Kept apart from HAND_RESOLVED because a pin says which
+ * pressing to read, not anything about the release's dates or completeness.
+ */
+export const MUSICBRAINZ_RELEASE: Record<string, string> = {
+  // A digital and an HDCD pressing, 129 tracks each, a second apart here and
+  // there. The authored timings came from the digital one; preferring the
+  // Official HDCD moved 19820920 and 19820921 by a second each.
+  "In and Out of the Garden: Madison Square Garden '81, '82, '83":
+    '956fe52e-81c2-439e-be46-1f01724081f3',
+  // Two entries, 142 tracks each. Only the Official one titles every medium;
+  // the other titles each night's first disc alone, so taking it silently
+  // drops every second set (19850614 came back as 10 tracks instead of 21).
+  'Summer Magic 1985': 'bc32f60e-f147-4901-9b17-42d7b42685bd',
+};
+
 export const HAND_RESOLVED: Record<
   string,
   {
@@ -160,11 +179,6 @@ export const HAND_RESOLVED: Record<
     note: string;
   }
 > = {
-  // Not yet released. The article is a pre-release announcement: it lists all
-  // 145 tracks across the seven shows, and not one duration — Rhino issues
-  // those with the record on 2026-09-18. Nothing here is wrong, so the entry
-  // pins no field; it exists so the next pass knows the importer's refusal is
-  // the untimed-track guard working, not a parser bug. Import after release.
   // The article has the date split but no timings; MusicBrainz has the timings
   // but no date split. Neither alone can build the show — see data/CORRECTIONS.md.
   'July 29 1966, P.N.E. Garden Aud., Vancouver Canada': {
@@ -243,14 +257,13 @@ export const HAND_RESOLVED: Record<
     completeness: 'complete',
     note: 'the article makes no completeness claim, but the release is the fullest source for the night. Its bonus disc, "Spirit of \'76", holds eight tracks from four other 1976 nights, each named inline on its own track line and so invisible to the parser: Boston Music Hall 6/9 (2), College of William & Mary 9/24 (3), Mershon Auditorium 9/30 (1) and Riverfront Coliseum 10/2 (2). On the main discs the night is whole: gd1976-12-31.fm.hollister.15114.shnf titles one track "Wharf Rat > Drums" (13:30) where the release has Wharf Rat alone (13:28) \u2014 the same music, the short post-Wharf-Rat drums folded in rather than missing; the release\'s separate Drums (3:04) is the later one, split out of what the Warner pre-FM tape leaves inside Slipknot!. The release also carries the second encore (Uncle John\'s Band, And We Bid You Goodnight) that the Hollister tape stops before',
   },
-  // Also unreleased, and easy to miss because the index reads it as complete:
-  // it is the same 6/30/85 recording as the box, issued separately on the same
-  // day. See the 'Summer Magic 1985' entry below.
+  // The same 6/30/85 recording as the box, issued separately on the same day.
+  // chooseSource prefers the box, so this one sources nothing on its own.
   'Merriweather 6/30/85': {
-    note: 'article: "It contains the complete concert recorded at Merriweather Post Pavilion ... on June 30, 1985. It is scheduled to be released on September 18, 2026" — complete, but not yet out, and its track listing carries no timings',
+    note: 'article: "It contains the complete concert recorded at Merriweather Post Pavilion ... on June 30, 1985" — released September 18, 2026, the same day and the same recording as the Summer Magic 1985 box, which sources the show',
   },
   'Summer Magic 1985': {
-    note: 'article: an upcoming box set, scheduled for release on September 18, 2026 — dates and completeness are right, but the track listing carries no timings at all, so no show here can be sourced until the release is out',
+    note: 'article: "seven complete concerts recorded from June 14 to July 1, 1985" — released September 18, 2026. The article\'s track listing still carries no timings, so all seven shows take their durations from MusicBrainz, whose mediums are titled with an ISO date ("1985-06-14: Greek Theatre, Berkeley, CA (Set 1)")',
   },
   'The Closing of Winterland': {
     dates: ['1978-12-31'],

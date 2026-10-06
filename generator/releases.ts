@@ -56,6 +56,7 @@ import {
   HAND_CLASSIFIED,
   HAND_RESOLVED,
   HAND_SERIES,
+  MUSICBRAINZ_RELEASE,
   stripPending,
 } from './hand-readings.ts';
 import { releaseTag } from './release-tag.ts';
@@ -544,7 +545,7 @@ async function build(only: string | null): Promise<Release[]> {
         allNames,
       ),
       ...resolved,
-      musicbrainzReleaseId: null,
+      musicbrainzReleaseId: MUSICBRAINZ_RELEASE[entry.name] ?? null,
     });
   }
   releases.sort(byFirstDate);

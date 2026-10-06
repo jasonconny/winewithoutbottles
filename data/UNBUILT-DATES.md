@@ -1,9 +1,9 @@
 # Unbuilt dates
 
 Every officially-released show that **can** be built now exists.
-`data/partial-shows/` is empty. These are the 45 dates that remain, and they are
-unbuilt for four quite different reasons — which is the whole point of this
-file, because "not in the corpus" reads the same in all four cases and means
+`data/partial-shows/` is empty. These are the 38 dates that remain, and they are
+unbuilt for three quite different reasons — which is the whole point of this
+file, because "not in the corpus" reads the same in all three cases and means
 something different in each.
 
 The detailed reasoning for each date stays where it already is: a `note` on the
@@ -132,19 +132,6 @@ this file until now. The 9 & 10 October release is `partial`: it holds both
 nights' **acoustic sets only**, and both nights also played electric.
 Reasoning for the deferral lives on that entry in
 `generator/hand-readings.ts`.
-
-## D. Not yet released
-
-| Dates                                                | Release           | Due        |
-| ---------------------------------------------------- | ----------------- | ---------- |
-| 1985-06-14, 06-15, 06-16, 06-27, 06-28, 06-30, 07-01 | Summer Magic 1985 | 2026-09-18 |
-
-The article already lists all 145 tracks and **not one duration**, so the
-importer refuses the whole box — correctly, and in a way that reads as a parser
-bug if you do not know why. `Merriweather 6/30/85` is the same 6/30 recording
-issued separately on the same day, so it adds no date but is the easier of the
-two to import by mistake, since it reads as a single complete date. Both carry
-notes in `generator/hand-readings.ts`.
 
 ## Keeping this honest
 

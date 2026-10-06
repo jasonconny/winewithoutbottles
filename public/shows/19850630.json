@@ -1,0 +1,100 @@
+{
+  "id": "19850630",
+  "date": "1985-06-30",
+  "venue": "Merriweather Post Pavilion",
+  "city": "Columbia",
+  "state": "MD",
+  "country": "USA",
+  "tags": [
+    "Summer Magic 1985"
+  ],
+  "svg": "/shows/19850630.svg",
+  "songCount": 21,
+  "durationSeconds": 8955,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 498
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 485
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 165
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 316
+    },
+    {
+      "title": "Keep On Growing",
+      "durationSeconds": 278
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 251
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 185
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 913
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 331
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 739
+    },
+    {
+      "title": "Cryptical Envelopment",
+      "durationSeconds": 114
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 822
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 471
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 544
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 227
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 551
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 308
+    }
+  ]
+}

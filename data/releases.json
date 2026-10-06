@@ -1938,7 +1938,7 @@
       "bonusDates": [],
       "completeness": "complete",
       "note": "dates from heading; article says \"complete concerts\"",
-      "musicbrainzReleaseId": null
+      "musicbrainzReleaseId": "956fe52e-81c2-439e-be46-1f01724081f3"
     },
     {
       "page": "Madison Square Garden, New York, NY 3/9/81",
@@ -2114,8 +2114,8 @@
       ],
       "bonusDates": [],
       "completeness": "complete",
-      "note": "article: an upcoming box set, scheduled for release on September 18, 2026 — dates and completeness are right, but the track listing carries no timings at all, so no show here can be sourced until the release is out; confirmed complete by hand",
-      "musicbrainzReleaseId": null
+      "note": "article: \"seven complete concerts recorded from June 14 to July 1, 1985\" — released September 18, 2026. The article's track listing still carries no timings, so all seven shows take their durations from MusicBrainz, whose mediums are titled with an ISO date (\"1985-06-14: Greek Theatre, Berkeley, CA (Set 1)\"); confirmed complete by hand",
+      "musicbrainzReleaseId": "bc32f60e-f147-4901-9b17-42d7b42685bd"
     },
     {
       "page": "Merriweather 6/30/85",
@@ -2127,7 +2127,7 @@
       "dates": ["1985-06-30"],
       "bonusDates": [],
       "completeness": "complete",
-      "note": "article: \"It contains the complete concert recorded at Merriweather Post Pavilion ... on June 30, 1985. It is scheduled to be released on September 18, 2026\" — complete, but not yet out, and its track listing carries no timings; confirmed complete by hand",
+      "note": "article: \"It contains the complete concert recorded at Merriweather Post Pavilion ... on June 30, 1985\" — released September 18, 2026, the same day and the same recording as the Summer Magic 1985 box, which sources the show; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
