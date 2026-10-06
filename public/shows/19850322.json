@@ -1,0 +1,96 @@
+{
+  "id": "19850322",
+  "date": "1985-03-22",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850322.svg",
+  "songCount": 20,
+  "durationSeconds": 9297,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 571
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 419
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Cassidy",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 328
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 694
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 440
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 559
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 994
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 481
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 563
+    },
+    {
+      "title": "Spanish Jam",
+      "durationSeconds": 166
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 448
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 301
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 702
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 357
+    }
+  ]
+}

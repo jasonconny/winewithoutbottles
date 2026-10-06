@@ -107,6 +107,12 @@ export function longDate(text: string): string | null {
   return month ? iso(+m[3], month, +m[2]) : null;
 }
 
+/** An ISO "1985-06-14" already in the text → itself. */
+export function isoDate(text: string): string | null {
+  const m = text.match(/\b(\d{4})-(\d{2})-(\d{2})\b/);
+  return m ? iso(+m[1], +m[2], +m[3]) : null;
+}
+
 /** "(4/7/1972)" or a bare "10/7/77" → ISO. Two-digit years are 19xx. */
 export function slashDate(text: string): string | null {
   const m = text.match(/\b(\d{1,2})\/(\d{1,2})\/(\d{2}|\d{4})\b/);

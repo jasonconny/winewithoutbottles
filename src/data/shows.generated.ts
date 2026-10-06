@@ -4391,6 +4391,146 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 7706
   },
   {
+    "id": "19850310",
+    "date": "1985-03-10",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850310.svg",
+    "songCount": 17,
+    "durationSeconds": 8164
+  },
+  {
+    "id": "19850312",
+    "date": "1985-03-12",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850312.svg",
+    "songCount": 17,
+    "durationSeconds": 7766
+  },
+  {
+    "id": "19850313",
+    "date": "1985-03-13",
+    "venue": "Berkeley Community Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850313.svg",
+    "songCount": 18,
+    "durationSeconds": 8626
+  },
+  {
+    "id": "19850321",
+    "date": "1985-03-21",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850321.svg",
+    "songCount": 22,
+    "durationSeconds": 8371
+  },
+  {
+    "id": "19850322",
+    "date": "1985-03-22",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850322.svg",
+    "songCount": 20,
+    "durationSeconds": 9297
+  },
+  {
+    "id": "19850324",
+    "date": "1985-03-24",
+    "venue": "Springfield Civic Center",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850324.svg",
+    "songCount": 19,
+    "durationSeconds": 8212
+  },
+  {
+    "id": "19850325",
+    "date": "1985-03-25",
+    "venue": "Springfield Civic Center",
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850325.svg",
+    "songCount": 19,
+    "durationSeconds": 9459
+  },
+  {
+    "id": "19850331",
+    "date": "1985-03-31",
+    "venue": "Cumberland County Civic Center",
+    "city": "Portland",
+    "state": "ME",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850331.svg",
+    "songCount": 19,
+    "durationSeconds": 7953
+  },
+  {
+    "id": "19850401",
+    "date": "1985-04-01",
+    "venue": "Cumberland County Civic Center",
+    "city": "Portland",
+    "state": "ME",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850401.svg",
+    "songCount": 19,
+    "durationSeconds": 8290
+  },
+  {
+    "id": "19850403",
+    "date": "1985-04-03",
+    "venue": "Providence Civic Center",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850403.svg",
+    "songCount": 20,
+    "durationSeconds": 9890
+  },
+  {
     "id": "19850427",
     "date": "1985-04-27",
     "venue": "Frost Amphitheater",
@@ -4419,6 +4559,48 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8356
   },
   {
+    "id": "19850614",
+    "date": "1985-06-14",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850614.svg",
+    "songCount": 20,
+    "durationSeconds": 8594
+  },
+  {
+    "id": "19850615",
+    "date": "1985-06-15",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850615.svg",
+    "songCount": 21,
+    "durationSeconds": 8491
+  },
+  {
+    "id": "19850616",
+    "date": "1985-06-16",
+    "venue": "Greek Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850616.svg",
+    "songCount": 20,
+    "durationSeconds": 8730
+  },
+  {
     "id": "19850624",
     "date": "1985-06-24",
     "venue": "Riverbend Music Center",
@@ -4431,6 +4613,62 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19850624.svg",
     "songCount": 22,
     "durationSeconds": 9010
+  },
+  {
+    "id": "19850627",
+    "date": "1985-06-27",
+    "venue": "Saratoga Performing Arts Center",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850627.svg",
+    "songCount": 22,
+    "durationSeconds": 9318
+  },
+  {
+    "id": "19850628",
+    "date": "1985-06-28",
+    "venue": "Hershey Park Stadium",
+    "city": "Hershey",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850628.svg",
+    "songCount": 20,
+    "durationSeconds": 8466
+  },
+  {
+    "id": "19850630",
+    "date": "1985-06-30",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850630.svg",
+    "songCount": 21,
+    "durationSeconds": 8955
+  },
+  {
+    "id": "19850701",
+    "date": "1985-07-01",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Summer Magic 1985"
+    ],
+    "svg": "/shows/19850701.svg",
+    "songCount": 19,
+    "durationSeconds": 9486
   },
   {
     "id": "19851101",

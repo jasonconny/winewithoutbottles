@@ -1,0 +1,92 @@
+{
+  "id": "19850403",
+  "date": "1985-04-03",
+  "venue": "Providence Civic Center",
+  "city": "Providence",
+  "state": "RI",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19850403",
+  "songs": [
+    {
+      "title": "Hell in a Bucket",
+      "duration": "7:16"
+    },
+    {
+      "title": "Sugaree",
+      "duration": "11:26"
+    },
+    {
+      "title": "Me and My Uncle",
+      "duration": "3:07"
+    },
+    {
+      "title": "Mexicali Blues",
+      "duration": "5:12"
+    },
+    {
+      "title": "Ramble On Rose",
+      "duration": "6:53"
+    },
+    {
+      "title": "Down in the Bottom",
+      "duration": "5:52"
+    },
+    {
+      "title": "I Ain't Superstitious",
+      "duration": "1:26"
+    },
+    {
+      "title": "Row Jimmy",
+      "duration": "11:37"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "14:31"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "13:06"
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "duration": "9:22"
+    },
+    {
+      "title": "Ship Of Fools",
+      "duration": "9:27"
+    },
+    {
+      "title": "Truckin'",
+      "duration": "6:16"
+    },
+    {
+      "title": "Spoonful",
+      "duration": "8:00"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:59"
+    },
+    {
+      "title": "Space",
+      "duration": "9:55"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "8:22"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "9:24"
+    },
+    {
+      "title": "Sugar Magnolia",
+      "duration": "10:20"
+    },
+    {
+      "title": "Keep Your Day Job",
+      "duration": "4:19"
+    }
+  ]
+}

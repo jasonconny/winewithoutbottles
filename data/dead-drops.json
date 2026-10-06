@@ -99,6 +99,76 @@
       "note": "read from the PlayDead app; the capture missed the venue line, so `venue` here is only the city the app printed — the room is the corpus's Berkeley Community Theatre, confirmed by Jason. Set two opens with a standalone China Cat Sunflower and no I Know You Rider row; taken as the app states it"
     },
     {
+      "date": "1985-03-10",
+      "venue": "Berkeley Community Theatre, Berkeley, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-03-12",
+      "venue": "Berkeley Community Theatre, Berkeley, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-03-13",
+      "venue": "Berkeley Community Theatre, Berkeley, CA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app; Ollin Arageed (6:31) sits between Drums and Space, and Franklin's Tower stands alone, as it routinely does in the 1980s"
+    },
+    {
+      "date": "1985-03-21",
+      "venue": "Hampton Coliseum, Hampton, VA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app; the app indexes I Ain't Superstitious > Down in the Bottom > I Ain't Superstitious as three rows, the same shape authored for 1985-06-28 from Jason's seams"
+    },
+    {
+      "date": "1985-03-22",
+      "venue": "Hampton Coliseum, Hampton, VA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app; set two opens with a standalone Scarlet Begonias and no Fire on the Mountain row, taken as the app states it"
+    },
+    {
+      "date": "1985-03-24",
+      "venue": "Springfield Civic Center, Springfield, MA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-03-25",
+      "venue": "Springfield Civic Center, Springfield, MA",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-03-31",
+      "venue": "Cumberland County Civic Center, Portland, ME",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app; the corpus's first show at this venue, spelled as the app gives it (Jason, 2026-10-06). The final capture duplicates the one before it"
+    },
+    {
+      "date": "1985-04-01",
+      "venue": "Cumberland County Civic Center, Portland, ME",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app"
+    },
+    {
+      "date": "1985-04-03",
+      "venue": "Providence Civic Center, Providence, RI",
+      "transfer": "Cassette, 24 bit/96 kHz, N.R. No",
+      "capturedOn": "2026-10-06",
+      "note": "read from the PlayDead app; the app indexes Down in the Bottom (5:52) then I Ain't Superstitious (1:26), with no opening Superstitious row. Taken as stated: the band opened the sequence with Down in the Bottom (Jason, 2026-10-06)"
+    },
+    {
       "date": "1986-04-01",
       "venue": "Providence Civic Center, Providence, RI",
       "transfer": "Cassette, 24 bit/192 kHz, N.R. No",

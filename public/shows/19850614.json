@@ -1,0 +1,96 @@
+{
+  "id": "19850614",
+  "date": "1985-06-14",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Summer Magic 1985"
+  ],
+  "svg": "/shows/19850614.svg",
+  "songCount": 20,
+  "durationSeconds": 8594,
+  "songs": [
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 465
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 478
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Peggy-O",
+      "durationSeconds": 399
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Keep On Growing",
+      "durationSeconds": 305
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 671
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 274
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 690
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 641
+    },
+    {
+      "title": "China Doll",
+      "durationSeconds": 418
+    },
+    {
+      "title": "Jam",
+      "durationSeconds": 149
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 576
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 389
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 258
+    },
+    {
+      "title": "Comes a Time",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 554
+    }
+  ]
+}

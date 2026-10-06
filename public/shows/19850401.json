@@ -1,0 +1,92 @@
+{
+  "id": "19850401",
+  "date": "1985-04-01",
+  "venue": "Cumberland County Civic Center",
+  "city": "Portland",
+  "state": "ME",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850401.svg",
+  "songCount": 19,
+  "durationSeconds": 8290,
+  "songs": [
+    {
+      "title": "Bertha",
+      "durationSeconds": 392
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 259
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 458
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 591
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 352
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 487
+    },
+    {
+      "title": "Might As Well",
+      "durationSeconds": 253
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 352
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 390
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 666
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 389
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 502
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 434
+    }
+  ]
+}

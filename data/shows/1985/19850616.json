@@ -1,0 +1,92 @@
+{
+  "id": "19850616",
+  "date": "1985-06-16",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": ["Summer Magic 1985"],
+  "source": "Summer Magic 1985",
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "duration": "4:52"
+    },
+    {
+      "title": "Bertha",
+      "duration": "5:55"
+    },
+    {
+      "title": "Walkin' Blues",
+      "duration": "6:56"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:36"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "4:52"
+    },
+    {
+      "title": "Big Railroad Blues",
+      "duration": "4:23"
+    },
+    {
+      "title": "Looks Like Rain",
+      "duration": "7:48"
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "duration": "6:35"
+    },
+    {
+      "title": "Promised Land",
+      "duration": "3:56"
+    },
+    {
+      "title": "Scarlet Begonias",
+      "duration": "12:09"
+    },
+    {
+      "title": "Fire on the Mountain",
+      "duration": "10:18"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:59"
+    },
+    {
+      "title": "That's It for the Other One",
+      "duration": "11:12"
+    },
+    {
+      "title": "Drums",
+      "duration": "9:22"
+    },
+    {
+      "title": "Space",
+      "duration": "7:42"
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "duration": "5:55"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "3:45"
+    },
+    {
+      "title": "Wharf Rat",
+      "duration": "9:37"
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "duration": "7:50"
+    },
+    {
+      "title": "Brokedown Palace",
+      "duration": "5:48"
+    }
+  ]
+}

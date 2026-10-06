@@ -1,0 +1,96 @@
+{
+  "id": "19850616",
+  "date": "1985-06-16",
+  "venue": "Greek Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Summer Magic 1985"
+  ],
+  "svg": "/shows/19850616.svg",
+  "songCount": 20,
+  "durationSeconds": 8730,
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 355
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 516
+    },
+    {
+      "title": "My Brother Esau",
+      "durationSeconds": 292
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 263
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 395
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 236
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 729
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 618
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 479
+    },
+    {
+      "title": "That's It for the Other One",
+      "durationSeconds": 672
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 562
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 462
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 355
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 577
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 470
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 348
+    }
+  ]
+}

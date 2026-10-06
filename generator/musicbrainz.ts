@@ -6,7 +6,8 @@
  * per-show sectioning with no durations at all. MusicBrainz carries a length
  * for every track on the physical release, and — usefully — titles each medium
  * with the night it holds ("Madison Square Garden, 3/9/1981, Set One",
- * "May 5, 1977: Veterans Memorial Coliseum • New Haven, CT"), so it can do the
+ * "May 5, 1977: Veterans Memorial Coliseum • New Haven, CT",
+ * "1985-06-14: Greek Theatre, Berkeley, CA (Set 1)"), so it can do the
  * per-show attribution itself rather than needing to be aligned against
  * Wikipedia's sequence.
  *
@@ -16,7 +17,7 @@
  */
 import { formatDuration } from '../src/wwob/index.ts';
 import { fetchRetry } from './http.ts';
-import { longDate, monthDayIn, slashDate } from './wiki.ts';
+import { isoDate, longDate, monthDayIn, slashDate } from './wiki.ts';
 
 const API = 'https://musicbrainz.org/ws/2';
 
@@ -85,20 +86,12 @@ const cache = new Map<
 >();
 
 /**
- * Tracks for a release, bucketed by the show date each medium belongs to.
+ * The release a name most likely refers to, or null if nothing scores well.
  *
- * Returns an empty map when the release can't be found, its mediums aren't
- * dated, or any track lacks a length — in every one of those cases the caller
- * should keep whatever it already had rather than accept a partial answer.
+ * Not stable when pressings tie: the search's own order decides, and it can
+ * change between runs. Where that matters, pin the id in MUSICBRAINZ_RELEASE.
  */
-export async function tracksByDateFromMusicBrainz(
-  releaseName: string,
-  knownDates: string[],
-): Promise<Map<string, { title: string; duration: string }[]>> {
-  const cached = cache.get(releaseName);
-  if (cached) return cached;
-
-  const empty = new Map<string, { title: string; duration: string }[]>();
+async function searchRelease(releaseName: string): Promise<string | null> {
   const query = encodeURIComponent(
     `release:"${releaseName}" AND artist:"Grateful Dead"`,
   );
@@ -111,13 +104,34 @@ export async function tracksByDateFromMusicBrainz(
   const best = (found.releases ?? [])
     .filter((release) => release.score >= 90)
     .sort((a, b) => b['track-count'] - a['track-count'])[0];
-  if (!best) {
+  return best?.id ?? null;
+}
+
+/**
+ * Tracks for a release, bucketed by the show date each medium belongs to.
+ *
+ * Returns an empty map when the release can't be found, its mediums aren't
+ * dated, or any track lacks a length — in every one of those cases the caller
+ * should keep whatever it already had rather than accept a partial answer.
+ * `pinnedId` skips the search for a release whose MusicBrainz entry is known.
+ */
+export async function tracksByDateFromMusicBrainz(
+  releaseName: string,
+  knownDates: string[],
+  pinnedId: string | null = null,
+): Promise<Map<string, { title: string; duration: string }[]>> {
+  const cached = cache.get(releaseName);
+  if (cached) return cached;
+
+  const empty = new Map<string, { title: string; duration: string }[]>();
+  const id = pinnedId ?? (await searchRelease(releaseName));
+  if (!id) {
     cache.set(releaseName, empty);
     return empty;
   }
 
   const detail = (await mb(
-    `release/${best.id}?inc=recordings&fmt=json`,
+    `release/${id}?inc=recordings&fmt=json`,
   )) as ReleaseDetail;
 
   const span = knownDates.length
@@ -129,6 +143,7 @@ export async function tracksByDateFromMusicBrainz(
   for (const medium of detail.media ?? []) {
     if (!medium.title || !medium.tracks?.length) continue;
     const date =
+      isoDate(medium.title) ??
       slashDate(medium.title) ??
       longDate(medium.title) ??
       monthDayIn(medium.title, span);

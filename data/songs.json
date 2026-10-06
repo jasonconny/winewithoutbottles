@@ -248,6 +248,9 @@
       "title": "Don't Need Love"
     },
     {
+      "title": "Down in the Bottom"
+    },
+    {
       "title": "Drums",
       "aliases": ["Drums with Brent", "Rhythm Devils"]
     },
@@ -401,6 +404,9 @@
       "title": "High Time"
     },
     {
+      "title": "I Ain't Superstitious"
+    },
+    {
       "title": "I Fought the Law"
     },
     {
@@ -506,6 +512,9 @@
     },
     {
       "title": "Katie Mae"
+    },
+    {
+      "title": "Keep On Growing"
     },
     {
       "title": "Keep Rolling By"
@@ -918,7 +927,10 @@
       "title": "That's All Right"
     },
     {
-      "title": "That's It for the Other One"
+      "title": "That's It for the Other One",
+      "aliases": [
+        "That's It For The Other One: i. Cryptical Envelopment / ii. The Other One / iii. Cryptical Envelopment"
+      ]
     },
     {
       "title": "The Ballad of Casey Jones",
@@ -1133,6 +1145,7 @@
     "The Merry-Go-Round Broke Down",
     "Tuning",
     "Tuning Ditties",
+    "Tuning Fun",
     "Tuning intro",
     "Tuning Rap",
     "tuning/banter",

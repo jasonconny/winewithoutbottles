@@ -1,0 +1,88 @@
+{
+  "id": "19850313",
+  "date": "1985-03-13",
+  "venue": "Berkeley Community Theatre",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850313.svg",
+  "songCount": 18,
+  "durationSeconds": 8626,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 417
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 524
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 158
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 314
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 552
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 534
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 502
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 539
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 678
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 702
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 446
+    },
+    {
+      "title": "Ollin Arageed",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 452
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 488
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 502
+    },
+    {
+      "title": "Brokedown Palace",
+      "durationSeconds": 331
+    }
+  ]
+}

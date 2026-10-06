@@ -1,0 +1,88 @@
+{
+  "id": "19850331",
+  "date": "1985-03-31",
+  "venue": "Cumberland County Civic Center",
+  "city": "Portland",
+  "state": "ME",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19850331",
+  "songs": [
+    {
+      "title": "The Music Never Stopped",
+      "duration": "9:49"
+    },
+    {
+      "title": "Candyman",
+      "duration": "6:13"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "8:45"
+    },
+    {
+      "title": "Loser",
+      "duration": "6:54"
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "duration": "3:30"
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "duration": "6:13"
+    },
+    {
+      "title": "It's All Over Now",
+      "duration": "7:29"
+    },
+    {
+      "title": "Don't Ease Me In",
+      "duration": "3:05"
+    },
+    {
+      "title": "Iko Iko",
+      "duration": "8:04"
+    },
+    {
+      "title": "Samson And Delilah",
+      "duration": "7:59"
+    },
+    {
+      "title": "He's Gone",
+      "duration": "12:55"
+    },
+    {
+      "title": "I Need a Miracle",
+      "duration": "5:29"
+    },
+    {
+      "title": "China Doll",
+      "duration": "7:40"
+    },
+    {
+      "title": "Drums",
+      "duration": "13:48"
+    },
+    {
+      "title": "Space",
+      "duration": "2:59"
+    },
+    {
+      "title": "The Wheel",
+      "duration": "5:33"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "6:35"
+    },
+    {
+      "title": "Day Tripper",
+      "duration": "4:30"
+    },
+    {
+      "title": "U.S. Blues",
+      "duration": "5:03"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "19850627",
+  "date": "1985-06-27",
+  "venue": "Saratoga Performing Arts Center",
+  "city": "Saratoga Springs",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Summer Magic 1985"
+  ],
+  "svg": "/shows/19850627.svg",
+  "songCount": 22,
+  "durationSeconds": 9318,
+  "songs": [
+    {
+      "title": "In the Midnight Hour",
+      "durationSeconds": 272
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 304
+    },
+    {
+      "title": "Little Red Rooster",
+      "durationSeconds": 554
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 395
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 319
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 528
+    },
+    {
+      "title": "Supplication Jam",
+      "durationSeconds": 275
+    },
+    {
+      "title": "High Time",
+      "durationSeconds": 489
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 435
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 220
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 631
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 546
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 265
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 416
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 691
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 513
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 401
+    },
+    {
+      "title": "Spoonful",
+      "durationSeconds": 271
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 286
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 476
+    }
+  ]
+}

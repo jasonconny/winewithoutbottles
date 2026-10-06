@@ -1840,3 +1840,40 @@ keeps its three rows and the app supplies the total. The difference is that
 Also worth recording from this run: 1994-10-17's `Drums 8:23` + `Space 23:05`
 (31:28) against the drop's `14:45` + `14:33` (29:18). Both the boundary and the
 pair total are off, the September 1988 pattern again.
+
+### Summer Magic 1985 — an untimed article, a pinned MusicBrainz release
+
+The box came out on 2026-09-18 and the article still carries no durations, so
+all seven shows take their timings from MusicBrainz. Three things went wrong on
+the way there, and each one is worth recording.
+
+- **The mediums are titled with ISO dates** (`1985-06-14: Greek Theatre,
+Berkeley, CA (Set 1)`), a form `generator/musicbrainz.ts` had never seen, so
+  every medium came back undated. `isoDate` in `generator/wiki.ts` now reads it.
+  It runs first, but it can only turn an undated medium into a dated one, and
+  `--audit` came back unchanged.
+- **MusicBrainz holds two entries with 142 tracks each, and its search returns
+  them in either order.** Only the Official one titles every medium. The other
+  titles each night's first disc alone, and its set-one timings are a second or
+  so off throughout. Two runs a few minutes apart picked different entries, and
+  19850614 came back as 21 tracks and then as 10. The release is now pinned in
+  `MUSICBRAINZ_RELEASE` (`generator/hand-readings.ts`), which the importer reads
+  ahead of its search. _In and Out of the Garden_ had the same tie (a digital
+  and an HDCD pressing, both 129 tracks, ±1s apart), so it is pinned too, to the
+  digital pressing its authored timings came from.
+- **Preferring the Official status in the search was tried and rejected.** It
+  moved 19820920 and 19820921 by a second each, because their authored timings
+  came from the non-Official digital pressing.
+
+Departures from the source's track listing (Jason, 2026-10-06):
+
+| Date       | Source                                                                                                   | Authored                                                                                | Why                                                                                                                                                                                      |
+| ---------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1985-06-14 | `Tuning Fun`                                                                                             | dropped (`notASong`)                                                                    | Tuning, with a joke for a title.                                                                                                                                                         |
+| 1985-06-16 | `That's It For The Other One: i. Cryptical Envelopment / ii. The Other One / iii. Cryptical Envelopment` | `That's It for the Other One` (11:12)                                                   | The suite, played unbroken as one track. Aliased onto the umbrella title under the existing fold rule.                                                                                   |
+| 1985-06-28 | `I Ain't Superstitious / Down in the Bottom` (7:24)                                                      | `I Ain't Superstitious` 1:58 / `Down in the Bottom` 4:14 / `I Ain't Superstitious` 1:12 | One track, three rows: Down in the Bottom starts at 1:58 and the band returns to Superstitious at 6:12, both seams timed by ear by Jason. The closing part is the remainder of the 7:24. |
+
+New to the canon: `Keep On Growing` (6/14, 6/30), `I Ain't Superstitious` and
+`Down in the Bottom` (6/28). The three new venues take Wikipedia's spellings,
+which Jason approved: Saratoga Performing Arts Center, Hershey Park Stadium and
+Merriweather Post Pavilion.
