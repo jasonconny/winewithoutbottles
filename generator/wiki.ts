@@ -259,3 +259,35 @@ export function infoboxRecorded(wikitext: string): string[] {
   }
   return [...dates].sort();
 }
+
+/**
+ * The part of an article that describes the article's own release.
+ *
+ * Wikipedia sometimes files a reissue as a section of the original's article
+ * rather than giving it one of its own. _Road Trips Volume 2 Number 2_ grew a
+ * `==Record Store Day release==` section for the 2026 4-LP of the same 2/14/68
+ * concert, with its own `{{Infobox album}}` and an untimed LP track listing.
+ * The section heading names no date, so the importer's heading walk read it as
+ * more of the show in progress: 19680214 came back as 29 tracks, its own 14
+ * plus 15 untimed duplicates, and was refused.
+ *
+ * A second infobox is what marks the start of another release, so everything
+ * from there on is cut — from the heading that introduces it, when only blank
+ * lines sit between the two, otherwise from the infobox itself. That is not
+ * specific to Record Store Day, and needs no list of release names.
+ *
+ * The cost: a release that exists *only* as a section of another article reads
+ * as empty. That is the safe failure — the importer refuses an empty release
+ * loudly, where reading the wrong section filed tracks under the wrong show.
+ */
+export function ownReleaseWikitext(wikitext: string): string {
+  const boxes = [...wikitext.matchAll(/\{\{\s*Infobox album/gi)];
+  if (boxes.length < 2) return wikitext;
+  const cut = boxes[1].index!;
+  const before = wikitext.slice(0, cut);
+  // The heading only counts when nothing but whitespace separates it from the
+  // infobox; `(?![\s\S])` pins the match to the end of `before`.
+  const heading = before.match(/^=+[^\n]*=+[ \t]*\n\s*(?![\s\S])/m);
+  if (heading) return before.slice(0, heading.index);
+  return before;
+}

@@ -48,7 +48,13 @@ import { findRecordings, isMiller, recordingTracks } from './archive.ts';
 import { tracksByDateFromMusicBrainz } from './musicbrainz.ts';
 import type { VenueGuess } from './venue.ts';
 import { reconcileVenue, venueFromInfobox } from './venue.ts';
-import { articles, longDate, monthDayIn, slashDate } from './wiki.ts';
+import {
+  articles,
+  longDate,
+  monthDayIn,
+  ownReleaseWikitext,
+  slashDate,
+} from './wiki.ts';
 
 /**
  * Every venue the corpus already holds, for `reconcileVenue` to match against.
@@ -769,9 +775,12 @@ function tracksByTrackListing(
 }
 
 function tracksByDate(
-  wikitext: string,
+  article: string,
   release: Release,
 ): { byDate: Map<string, ParsedTrack[]>; orphans: number } {
+  // Every reader below sees only this release's part of the article — a
+  // reissue filed as a later section brings a listing of its own.
+  const wikitext = ownReleaseWikitext(article);
   // A disc+track mapping outranks the heading walk: it's only present when the
   // article states the attribution outright, and it's the only reader that can
   // split one disc across two nights.
