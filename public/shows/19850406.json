@@ -1,0 +1,92 @@
+{
+  "id": "19850406",
+  "date": "1985-04-06",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850406.svg",
+  "songCount": 19,
+  "durationSeconds": 8375,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 542
+    },
+    {
+      "title": "They Love Each Other",
+      "durationSeconds": 434
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 492
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Mama Tried",
+      "durationSeconds": 170
+    },
+    {
+      "title": "Big River",
+      "durationSeconds": 347
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 232
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 196
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 393
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 327
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 641
+    },
+    {
+      "title": "Uncle John's Band",
+      "durationSeconds": 610
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 699
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 556
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 541
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 437
+    },
+    {
+      "title": "One More Saturday Night",
+      "durationSeconds": 291
+    }
+  ]
+}

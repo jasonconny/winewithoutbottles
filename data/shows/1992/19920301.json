@@ -1,0 +1,33 @@
+{
+  "id": "19920301",
+  "date": "1992-03-01",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920301",
+  "songs": [
+    { "title": "Jack Straw", "duration": "6:03" },
+    { "title": "Althea", "duration": "8:38" },
+    { "title": "Wang Dang Doodle", "duration": "7:25" },
+    { "title": "Row Jimmy", "duration": "10:25" },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "duration": "8:29"
+    },
+    { "title": "So Many Roads", "duration": "7:30" },
+    { "title": "Picasso Moon", "duration": "6:51" },
+    { "title": "Don't Ease Me In", "duration": "3:27" },
+    { "title": "Saint of Circumstance", "duration": "8:13" },
+    { "title": "Way to Go Home", "duration": "5:58" },
+    { "title": "Scarlet Begonias", "duration": "10:11" },
+    { "title": "Fire on the Mountain", "duration": "10:32" },
+    { "title": "Drums", "duration": "10:25" },
+    { "title": "Space", "duration": "7:56" },
+    { "title": "The Last Time", "duration": "5:38" },
+    { "title": "Black Peter", "duration": "9:05" },
+    { "title": "Sugar Magnolia", "duration": "11:08" },
+    { "title": "The Weight", "duration": "5:34" }
+  ]
+}

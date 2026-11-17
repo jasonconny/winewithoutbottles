@@ -1,0 +1,88 @@
+{
+  "id": "19850407",
+  "date": "1985-04-07",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19850407.svg",
+  "songCount": 18,
+  "durationSeconds": 8173,
+  "songs": [
+    {
+      "title": "Why Don't We Do It in the Road?",
+      "durationSeconds": 235
+    },
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 416
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 476
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 667
+    },
+    {
+      "title": "Dancing in the Street",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Deal",
+      "durationSeconds": 360
+    },
+    {
+      "title": "Shakedown Street",
+      "durationSeconds": 808
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 501
+    },
+    {
+      "title": "She Belongs to Me",
+      "durationSeconds": 364
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 453
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 616
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 589
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "durationSeconds": 326
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Smokestack Lightning",
+      "durationSeconds": 195
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 548
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 617
+    },
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 282
+    }
+  ]
+}

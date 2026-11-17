@@ -1,0 +1,84 @@
+{
+  "id": "19920316",
+  "date": "1992-03-16",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920316.svg",
+  "songCount": 17,
+  "durationSeconds": 9717,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 300
+    },
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 519
+    },
+    {
+      "title": "C.C. Rider",
+      "durationSeconds": 313
+    },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "durationSeconds": 332
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 415
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 525
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 817
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 593
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 702
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 744
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 509
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 1154
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 583
+    },
+    {
+      "title": "Morning Dew",
+      "durationSeconds": 767
+    },
+    {
+      "title": "Johnny B. Goode",
+      "durationSeconds": 323
+    }
+  ]
+}

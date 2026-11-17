@@ -1,0 +1,100 @@
+{
+  "id": "19920308",
+  "date": "1992-03-08",
+  "venue": "Capital Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920308.svg",
+  "songCount": 21,
+  "durationSeconds": 10544,
+  "songs": [
+    {
+      "title": "Let the Good Times Roll",
+      "durationSeconds": 294
+    },
+    {
+      "title": "Touch of Grey",
+      "durationSeconds": 451
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 586
+    },
+    {
+      "title": "Ramble On Rose",
+      "durationSeconds": 550
+    },
+    {
+      "title": "Black-Throated Wind",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Loose Lucy",
+      "durationSeconds": 483
+    },
+    {
+      "title": "Desolation Row",
+      "durationSeconds": 668
+    },
+    {
+      "title": "Big Railroad Blues",
+      "durationSeconds": 381
+    },
+    {
+      "title": "The Music Never Stopped",
+      "durationSeconds": 501
+    },
+    {
+      "title": "Samson And Delilah",
+      "durationSeconds": 482
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 396
+    },
+    {
+      "title": "Foolish Heart",
+      "durationSeconds": 500
+    },
+    {
+      "title": "Looks Like Rain",
+      "durationSeconds": 511
+    },
+    {
+      "title": "Wave to the Wind",
+      "durationSeconds": 578
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 749
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 732
+    },
+    {
+      "title": "All Along the Watchtower",
+      "durationSeconds": 357
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 425
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 533
+    },
+    {
+      "title": "Not Fade Away",
+      "durationSeconds": 628
+    },
+    {
+      "title": "Quinn the Eskimo (The Mighty Quinn)",
+      "durationSeconds": 289
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "19920311",
+  "date": "1992-03-11",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920311.svg",
+  "songCount": 18,
+  "durationSeconds": 8720,
+  "songs": [
+    {
+      "title": "Cold Rain and Snow",
+      "durationSeconds": 424
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 210
+    },
+    {
+      "title": "Queen Jane Approximately",
+      "durationSeconds": 422
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 450
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 412
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 461
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 407
+    },
+    {
+      "title": "China Cat Sunflower",
+      "durationSeconds": 403
+    },
+    {
+      "title": "I Know You Rider",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 449
+    },
+    {
+      "title": "Terrapin Station",
+      "durationSeconds": 937
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 737
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 651
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 366
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 560
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 621
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "durationSeconds": 396
+    }
+  ]
+}
