@@ -262,6 +262,16 @@ export const HAND_RESOLVED: Record<
   'Merriweather 6/30/85': {
     note: 'article: "It contains the complete concert recorded at Merriweather Post Pavilion ... on June 30, 1985" — released September 18, 2026, the same day and the same recording as the Summer Magic 1985 box, which sources the show',
   },
+  // A Record Store Day vinyl reissue of a Road Trips volume, catalogued as a
+  // section of that volume's article. chooseSource keeps the original.
+  'Carousel Ballroom, San Francisco, CA, 2/14/68': {
+    note: 'article (Road Trips Volume 2 Number 2, "Record Store Day release"): "the same concert appearing on Road Trips Volume 2 Number 2", a 4-LP set due November 27, 2026 with an untimed track listing. Road Trips Volume 2 Number 2 sources the show',
+  },
+  // Announced, not out: the article lists the show before Rhino issues the
+  // timings with the record, so the importer's refusal is the guard working.
+  "Dave's Picks Volume 61": {
+    note: 'article: "It contains the complete concert recorded on May 25, 1974" — announced October 2026 and scheduled for January 29, 2027, so the track listing carries no timings yet and 1974-05-25 cannot be imported until it is out',
+  },
   'Summer Magic 1985': {
     note: 'article: "seven complete concerts recorded from June 14 to July 1, 1985" — released September 18, 2026. The article\'s track listing still carries no timings, so all seven shows take their durations from MusicBrainz, whose mediums are titled with an ISO date ("1985-06-14: Greek Theatre, Berkeley, CA (Set 1)")',
   },

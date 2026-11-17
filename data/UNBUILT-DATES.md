@@ -1,7 +1,7 @@
 # Unbuilt dates
 
 Every officially-released show that **can** be built now exists.
-`data/partial-shows/` is empty. These are the 38 dates that remain, and they are
+`data/partial-shows/` is empty. These are the 39 dates that remain, and they are
 unbuilt for three quite different reasons — which is the whole point of this
 file, because "not in the corpus" reads the same in all three cases and means
 something different in each.
@@ -132,6 +132,16 @@ this file until now. The 9 & 10 October release is `partial`: it holds both
 nights' **acoustic sets only**, and both nights also played electric.
 Reasoning for the deferral lives on that entry in
 `generator/hand-readings.ts`.
+
+## D. Not yet released
+
+| Dates      | Release                | Due        |
+| ---------- | ---------------------- | ---------- |
+| 1974-05-25 | Dave's Picks Volume 61 | 2027-01-29 |
+
+Announced in October 2026; the article names the show (UCSB Campus Stadium, a
+Wall of Sound night) but its track listing carries no durations yet, so the
+importer refuses it. The note is in `generator/hand-readings.ts`.
 
 ## Keeping this honest
 

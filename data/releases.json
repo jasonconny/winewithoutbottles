@@ -84,6 +84,19 @@
       "musicbrainzReleaseId": null
     },
     {
+      "page": "Carousel Ballroom, San Francisco, CA, 2/14/68",
+      "name": "Carousel Ballroom, San Francisco, CA, 2/14/68",
+      "kind": "traditional",
+      "series": null,
+      "eligible": true,
+      "tag": null,
+      "dates": ["1968-02-14"],
+      "bonusDates": [],
+      "completeness": "complete",
+      "note": "article (Road Trips Volume 2 Number 2, \"Record Store Day release\"): \"the same concert appearing on Road Trips Volume 2 Number 2\", a 4-LP set due November 27, 2026 with an untimed track listing. Road Trips Volume 2 Number 2 sources the show; confirmed complete by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
       "page": "Road Trips Volume 2 Number 2",
       "name": "Road Trips Volume 2 Number 2",
       "kind": "series",
@@ -1085,6 +1098,19 @@
       "bonusDates": [],
       "completeness": "unknown",
       "note": "principal date from the discography; completeness not stated — confirm by hand",
+      "musicbrainzReleaseId": null
+    },
+    {
+      "page": "Dave's Picks Volume 61",
+      "name": "Dave's Picks Volume 61",
+      "kind": "series",
+      "series": "Dave's Picks",
+      "eligible": true,
+      "tag": "Dave's Picks",
+      "dates": ["1974-05-25"],
+      "bonusDates": [],
+      "completeness": "complete",
+      "note": "article: \"It contains the complete concert recorded on May 25, 1974\" — announced October 2026 and scheduled for January 29, 2027, so the track listing carries no timings yet and 1974-05-25 cannot be imported until it is out; confirmed complete by hand",
       "musicbrainzReleaseId": null
     },
     {
