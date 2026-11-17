@@ -1629,6 +1629,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11854
   },
   {
+    "id": "19730917",
+    "date": "1973-09-17",
+    "venue": "Onondaga County War Memorial",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19730917.svg",
+    "songCount": 23,
+    "durationSeconds": 9900
+  },
+  {
     "id": "19731019",
     "date": "1973-10-19",
     "venue": "Fairgrounds Arena",
