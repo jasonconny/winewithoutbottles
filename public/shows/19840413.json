@@ -1,0 +1,96 @@
+{
+  "id": "19840413",
+  "date": "1984-04-13",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Dave's Picks"
+  ],
+  "svg": "/shows/19840413.svg",
+  "songCount": 20,
+  "durationSeconds": 8573,
+  "songs": [
+    {
+      "title": "Keep Your Day Job",
+      "durationSeconds": 272
+    },
+    {
+      "title": "New Minglewood Blues",
+      "durationSeconds": 512
+    },
+    {
+      "title": "Dire Wolf",
+      "durationSeconds": 238
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 212
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "durationSeconds": 499
+    },
+    {
+      "title": "It's All Over Now",
+      "durationSeconds": 522
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 622
+    },
+    {
+      "title": "Hell in a Bucket",
+      "durationSeconds": 377
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 204
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 701
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 739
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 947
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 302
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 374
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 324
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 398
+    },
+    {
+      "title": "Goin' Down the Road Feeling Bad",
+      "durationSeconds": 313
+    },
+    {
+      "title": "Around And Around",
+      "durationSeconds": 225
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 472
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 320
+    }
+  ]
+}

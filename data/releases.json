@@ -2071,6 +2071,19 @@
       "musicbrainzReleaseId": null
     },
     {
+      "page": "Dave's Picks Volume 60",
+      "name": "Dave's Picks Volume 60",
+      "kind": "series",
+      "series": "Dave's Picks",
+      "eligible": true,
+      "tag": "Dave's Picks",
+      "dates": ["1984-04-13", "1984-04-14"],
+      "bonusDates": [],
+      "completeness": "complete",
+      "note": "dates from subheading; article says \"complete concerts\"",
+      "musicbrainzReleaseId": null
+    },
+    {
       "page": "Dave's Picks Volume 35",
       "name": "Dave's Picks Volume 35",
       "kind": "series",

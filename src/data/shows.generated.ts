@@ -4292,6 +4292,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10453
   },
   {
+    "id": "19840413",
+    "date": "1984-04-13",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19840413.svg",
+    "songCount": 20,
+    "durationSeconds": 8573
+  },
+  {
+    "id": "19840414",
+    "date": "1984-04-14",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19840414.svg",
+    "songCount": 17,
+    "durationSeconds": 8475
+  },
+  {
     "id": "19840420",
     "date": "1984-04-20",
     "venue": "Philadelphia Civic Center",
