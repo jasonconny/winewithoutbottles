@@ -1,0 +1,30 @@
+{
+  "id": "19920313",
+  "date": "1992-03-13",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920313",
+  "songs": [
+    { "title": "Mississippi Half-Step Uptown Toodeloo", "duration": "9:11" },
+    { "title": "The Same Thing", "duration": "8:48" },
+    { "title": "Brown-Eyed Women", "duration": "5:41" },
+    { "title": "El Paso", "duration": "6:20" },
+    { "title": "Candyman", "duration": "7:23" },
+    { "title": "When I Paint My Masterpiece", "duration": "5:39" },
+    { "title": "Bird Song", "duration": "13:20" },
+    { "title": "Way to Go Home", "duration": "7:24" },
+    { "title": "Crazy Fingers", "duration": "8:31" },
+    { "title": "Man Smart Woman Smarter", "duration": "7:49" },
+    { "title": "Wave to the Wind", "duration": "9:30" },
+    { "title": "Drums", "duration": "11:19" },
+    { "title": "Space", "duration": "9:11" },
+    { "title": "The Wheel", "duration": "4:26" },
+    { "title": "Wharf Rat", "duration": "9:53" },
+    { "title": "Throwing Stones", "duration": "9:09" },
+    { "title": "Turn On Your Love Light", "duration": "8:15" },
+    { "title": "Box of Rain", "duration": "5:39" }
+  ]
+}

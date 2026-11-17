@@ -1,0 +1,30 @@
+{
+  "id": "19920312",
+  "date": "1992-03-12",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920312",
+  "songs": [
+    { "title": "Greatest Story Ever Told", "duration": "4:51" },
+    { "title": "Bertha", "duration": "7:52" },
+    { "title": "Walkin' Blues", "duration": "6:27" },
+    { "title": "Stagger Lee", "duration": "7:45" },
+    { "title": "Beat It On Down The Line", "duration": "3:34" },
+    { "title": "Just Like Tom Thumb's Blues", "duration": "5:46" },
+    { "title": "Tennessee Jed", "duration": "7:52" },
+    { "title": "Promised Land", "duration": "4:56" },
+    { "title": "Saint of Circumstance", "duration": "7:48" },
+    { "title": "Ship Of Fools", "duration": "8:00" },
+    { "title": "Corrina", "duration": "11:02" },
+    { "title": "Playing in the Band", "duration": "7:51" },
+    { "title": "Drums", "duration": "10:09" },
+    { "title": "Space", "duration": "13:46" },
+    { "title": "The Other One", "duration": "8:23" },
+    { "title": "Stella Blue", "duration": "10:04" },
+    { "title": "Sugar Magnolia", "duration": "10:34" },
+    { "title": "It's All Over Now, Baby Blue", "duration": "7:04" }
+  ]
+}

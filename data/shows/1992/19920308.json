@@ -1,0 +1,33 @@
+{
+  "id": "19920308",
+  "date": "1992-03-08",
+  "venue": "Capital Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920308",
+  "songs": [
+    { "title": "Let the Good Times Roll", "duration": "4:54" },
+    { "title": "Touch of Grey", "duration": "7:31" },
+    { "title": "New Minglewood Blues", "duration": "9:46" },
+    { "title": "Ramble On Rose", "duration": "9:10" },
+    { "title": "Black-Throated Wind", "duration": "7:30" },
+    { "title": "Loose Lucy", "duration": "8:03" },
+    { "title": "Desolation Row", "duration": "11:08" },
+    { "title": "Big Railroad Blues", "duration": "6:21" },
+    { "title": "The Music Never Stopped", "duration": "8:21" },
+    { "title": "Samson And Delilah", "duration": "8:02" },
+    { "title": "Way to Go Home", "duration": "6:36" },
+    { "title": "Foolish Heart", "duration": "8:20" },
+    { "title": "Looks Like Rain", "duration": "8:31" },
+    { "title": "Wave to the Wind", "duration": "9:38" },
+    { "title": "Drums", "duration": "12:29" },
+    { "title": "Space", "duration": "12:12" },
+    { "title": "All Along the Watchtower", "duration": "5:57" },
+    { "title": "So Many Roads", "duration": "7:05" },
+    { "title": "Throwing Stones", "duration": "8:53" },
+    { "title": "Not Fade Away", "duration": "10:28" },
+    { "title": "Quinn the Eskimo (The Mighty Quinn)", "duration": "4:49" }
+  ]
+}

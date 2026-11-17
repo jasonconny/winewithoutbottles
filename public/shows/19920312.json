@@ -1,0 +1,88 @@
+{
+  "id": "19920312",
+  "date": "1992-03-12",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920312.svg",
+  "songCount": 18,
+  "durationSeconds": 8624,
+  "songs": [
+    {
+      "title": "Greatest Story Ever Told",
+      "durationSeconds": 291
+    },
+    {
+      "title": "Bertha",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Walkin' Blues",
+      "durationSeconds": 387
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 465
+    },
+    {
+      "title": "Beat It On Down The Line",
+      "durationSeconds": 214
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 346
+    },
+    {
+      "title": "Tennessee Jed",
+      "durationSeconds": 472
+    },
+    {
+      "title": "Promised Land",
+      "durationSeconds": 296
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 468
+    },
+    {
+      "title": "Ship Of Fools",
+      "durationSeconds": 480
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 662
+    },
+    {
+      "title": "Playing in the Band",
+      "durationSeconds": 471
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 609
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 826
+    },
+    {
+      "title": "The Other One",
+      "durationSeconds": 503
+    },
+    {
+      "title": "Stella Blue",
+      "durationSeconds": 604
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 634
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "durationSeconds": 424
+    }
+  ]
+}

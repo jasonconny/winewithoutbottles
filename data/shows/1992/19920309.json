@@ -1,0 +1,28 @@
+{
+  "id": "19920309",
+  "date": "1992-03-09",
+  "venue": "Capital Centre",
+  "city": "Landover",
+  "state": "MD",
+  "country": "USA",
+  "tags": ["Dark Star", "Dead Drops"],
+  "source": "dead-drop:19920309",
+  "songs": [
+    { "title": "Jack Straw", "duration": "7:04" },
+    { "title": "West L.A. Fadeaway", "duration": "8:26" },
+    { "title": "Me and My Uncle", "duration": "2:49" },
+    { "title": "Big River", "duration": "6:18" },
+    { "title": "Row Jimmy", "duration": "10:49" },
+    { "title": "Cassidy", "duration": "6:43" },
+    { "title": "Deal", "duration": "7:42" },
+    { "title": "Victim or the Crime", "duration": "7:21" },
+    { "title": "Iko Iko", "duration": "8:26" },
+    { "title": "Corrina", "duration": "13:42" },
+    { "title": "Dark Star", "duration": "11:12" },
+    { "title": "Drums", "duration": "12:36" },
+    { "title": "Space", "duration": "11:45" },
+    { "title": "I Need a Miracle", "duration": "4:41" },
+    { "title": "Morning Dew", "duration": "10:29" },
+    { "title": "(I Can't Get No) Satisfaction", "duration": "6:41" }
+  ]
+}

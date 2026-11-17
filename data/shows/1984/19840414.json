@@ -1,0 +1,80 @@
+{
+  "id": "19840414",
+  "date": "1984-04-14",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": ["Dave's Picks"],
+  "source": "Dave's Picks Volume 60",
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "duration": "9:00"
+    },
+    {
+      "title": "They Love Each Other",
+      "duration": "7:20"
+    },
+    {
+      "title": "C.C. Rider",
+      "duration": "9:12"
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "duration": "5:35"
+    },
+    {
+      "title": "My Brother Esau",
+      "duration": "5:34"
+    },
+    {
+      "title": "Tennessee Jed",
+      "duration": "8:13"
+    },
+    {
+      "title": "Let It Grow",
+      "duration": "13:03"
+    },
+    {
+      "title": "Touch of Grey",
+      "duration": "7:56"
+    },
+    {
+      "title": "Playing in the Band",
+      "duration": "8:08"
+    },
+    {
+      "title": "Terrapin Station",
+      "duration": "12:47"
+    },
+    {
+      "title": "Don't Need Love",
+      "duration": "5:19"
+    },
+    {
+      "title": "Drums",
+      "duration": "8:43"
+    },
+    {
+      "title": "Space",
+      "duration": "7:55"
+    },
+    {
+      "title": "Morning Dew",
+      "duration": "12:03"
+    },
+    {
+      "title": "Throwing Stones",
+      "duration": "8:42"
+    },
+    {
+      "title": "One More Saturday Night",
+      "duration": "4:25"
+    },
+    {
+      "title": "It's All Over Now, Baby Blue",
+      "duration": "7:20"
+    }
+  ]
+}

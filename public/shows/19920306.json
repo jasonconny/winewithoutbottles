@@ -1,0 +1,84 @@
+{
+  "id": "19920306",
+  "date": "1992-03-06",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920306.svg",
+  "songCount": 17,
+  "durationSeconds": 9279,
+  "songs": [
+    {
+      "title": "Feel Like a Stranger",
+      "durationSeconds": 665
+    },
+    {
+      "title": "Friend Of The Devil",
+      "durationSeconds": 609
+    },
+    {
+      "title": "Mexicali Blues",
+      "durationSeconds": 322
+    },
+    {
+      "title": "Maggie's Farm",
+      "durationSeconds": 498
+    },
+    {
+      "title": "Stagger Lee",
+      "durationSeconds": 447
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 408
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 802
+    },
+    {
+      "title": "New Speedway Boogie",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Truckin'",
+      "durationSeconds": 432
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 496
+    },
+    {
+      "title": "Corrina",
+      "durationSeconds": 580
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 729
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 806
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 407
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 669
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 624
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 378
+    }
+  ]
+}

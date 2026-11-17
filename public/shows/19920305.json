@@ -1,0 +1,88 @@
+{
+  "id": "19920305",
+  "date": "1992-03-05",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920305.svg",
+  "songCount": 18,
+  "durationSeconds": 9212,
+  "songs": [
+    {
+      "title": "Help On The Way",
+      "durationSeconds": 297
+    },
+    {
+      "title": "Slipknot!",
+      "durationSeconds": 388
+    },
+    {
+      "title": "Franklin's Tower",
+      "durationSeconds": 545
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 529
+    },
+    {
+      "title": "Jack-A-Roe",
+      "durationSeconds": 340
+    },
+    {
+      "title": "Just Like Tom Thumb's Blues",
+      "durationSeconds": 375
+    },
+    {
+      "title": "Let It Grow",
+      "durationSeconds": 731
+    },
+    {
+      "title": "Eyes Of The World",
+      "durationSeconds": 909
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 391
+    },
+    {
+      "title": "Estimated Prophet",
+      "durationSeconds": 779
+    },
+    {
+      "title": "He's Gone",
+      "durationSeconds": 623
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 661
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 598
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 408
+    },
+    {
+      "title": "I Need a Miracle",
+      "durationSeconds": 269
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 403
+    },
+    {
+      "title": "Good Lovin'",
+      "durationSeconds": 601
+    },
+    {
+      "title": "U.S. Blues",
+      "durationSeconds": 365
+    }
+  ]
+}

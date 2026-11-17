@@ -1,0 +1,88 @@
+{
+  "id": "19920313",
+  "date": "1992-03-13",
+  "venue": "Nassau Coliseum",
+  "city": "Uniondale",
+  "state": "NY",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920313.svg",
+  "songCount": 18,
+  "durationSeconds": 8848,
+  "songs": [
+    {
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "durationSeconds": 551
+    },
+    {
+      "title": "The Same Thing",
+      "durationSeconds": 528
+    },
+    {
+      "title": "Brown-Eyed Women",
+      "durationSeconds": 341
+    },
+    {
+      "title": "El Paso",
+      "durationSeconds": 380
+    },
+    {
+      "title": "Candyman",
+      "durationSeconds": 443
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "durationSeconds": 339
+    },
+    {
+      "title": "Bird Song",
+      "durationSeconds": 800
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 444
+    },
+    {
+      "title": "Crazy Fingers",
+      "durationSeconds": 511
+    },
+    {
+      "title": "Man Smart Woman Smarter",
+      "durationSeconds": 469
+    },
+    {
+      "title": "Wave to the Wind",
+      "durationSeconds": 570
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 679
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 551
+    },
+    {
+      "title": "The Wheel",
+      "durationSeconds": 266
+    },
+    {
+      "title": "Wharf Rat",
+      "durationSeconds": 593
+    },
+    {
+      "title": "Throwing Stones",
+      "durationSeconds": 549
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "durationSeconds": 495
+    },
+    {
+      "title": "Box of Rain",
+      "durationSeconds": 339
+    }
+  ]
+}

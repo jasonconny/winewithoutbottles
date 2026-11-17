@@ -1629,6 +1629,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 11854
   },
   {
+    "id": "19730917",
+    "date": "1973-09-17",
+    "venue": "Onondaga County War Memorial",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19730917.svg",
+    "songCount": 23,
+    "durationSeconds": 9900
+  },
+  {
     "id": "19731019",
     "date": "1973-10-19",
     "venue": "Fairgrounds Arena",
@@ -4278,6 +4292,34 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 10453
   },
   {
+    "id": "19840413",
+    "date": "1984-04-13",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19840413.svg",
+    "songCount": 20,
+    "durationSeconds": 8573
+  },
+  {
+    "id": "19840414",
+    "date": "1984-04-14",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dave's Picks"
+    ],
+    "svg": "/shows/19840414.svg",
+    "songCount": 17,
+    "durationSeconds": 8475
+  },
+  {
     "id": "19840420",
     "date": "1984-04-20",
     "venue": "Philadelphia Civic Center",
@@ -4529,6 +4571,48 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19850403.svg",
     "songCount": 20,
     "durationSeconds": 9890
+  },
+  {
+    "id": "19850406",
+    "date": "1985-04-06",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850406.svg",
+    "songCount": 19,
+    "durationSeconds": 8375
+  },
+  {
+    "id": "19850407",
+    "date": "1985-04-07",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850407.svg",
+    "songCount": 18,
+    "durationSeconds": 8173
+  },
+  {
+    "id": "19850408",
+    "date": "1985-04-08",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19850408.svg",
+    "songCount": 23,
+    "durationSeconds": 8497
   },
   {
     "id": "19850427",
@@ -6414,6 +6498,20 @@ export const shows: ShowSummary[] = [
     "durationSeconds": 8824
   },
   {
+    "id": "19920301",
+    "date": "1992-03-01",
+    "venue": "The Omni",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920301.svg",
+    "songCount": 18,
+    "durationSeconds": 8608
+  },
+  {
     "id": "19920302",
     "date": "1992-03-02",
     "venue": "The Omni",
@@ -6440,6 +6538,119 @@ export const shows: ShowSummary[] = [
     "svg": "/shows/19920303.svg",
     "songCount": 17,
     "durationSeconds": 8672
+  },
+  {
+    "id": "19920305",
+    "date": "1992-03-05",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920305.svg",
+    "songCount": 18,
+    "durationSeconds": 9212
+  },
+  {
+    "id": "19920306",
+    "date": "1992-03-06",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920306.svg",
+    "songCount": 17,
+    "durationSeconds": 9279
+  },
+  {
+    "id": "19920308",
+    "date": "1992-03-08",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920308.svg",
+    "songCount": 21,
+    "durationSeconds": 10544
+  },
+  {
+    "id": "19920309",
+    "date": "1992-03-09",
+    "venue": "Capital Centre",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA",
+    "tags": [
+      "Dark Star",
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920309.svg",
+    "songCount": 16,
+    "durationSeconds": 8204
+  },
+  {
+    "id": "19920311",
+    "date": "1992-03-11",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920311.svg",
+    "songCount": 18,
+    "durationSeconds": 8720
+  },
+  {
+    "id": "19920312",
+    "date": "1992-03-12",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920312.svg",
+    "songCount": 18,
+    "durationSeconds": 8624
+  },
+  {
+    "id": "19920313",
+    "date": "1992-03-13",
+    "venue": "Nassau Coliseum",
+    "city": "Uniondale",
+    "state": "NY",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920313.svg",
+    "songCount": 18,
+    "durationSeconds": 8848
+  },
+  {
+    "id": "19920316",
+    "date": "1992-03-16",
+    "venue": "Spectrum",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "tags": [
+      "Dead Drops"
+    ],
+    "svg": "/shows/19920316.svg",
+    "songCount": 17,
+    "durationSeconds": 9717
   },
   {
     "id": "19920320",

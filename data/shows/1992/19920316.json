@@ -1,0 +1,32 @@
+{
+  "id": "19920316",
+  "date": "1992-03-16",
+  "venue": "Spectrum",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920316",
+  "songs": [
+    { "title": "Let the Good Times Roll", "duration": "5:00" },
+    { "title": "Feel Like a Stranger", "duration": "8:16" },
+    { "title": "Friend Of The Devil", "duration": "8:39" },
+    { "title": "C.C. Rider", "duration": "5:13" },
+    {
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "duration": "5:32"
+    },
+    { "title": "Black-Throated Wind", "duration": "6:55" },
+    { "title": "Ramble On Rose", "duration": "8:45" },
+    { "title": "Let It Grow", "duration": "13:37" },
+    { "title": "Corrina", "duration": "9:53" },
+    { "title": "Scarlet Begonias", "duration": "11:42" },
+    { "title": "Fire on the Mountain", "duration": "10:25" },
+    { "title": "Estimated Prophet", "duration": "12:24" },
+    { "title": "Drums", "duration": "8:29" },
+    { "title": "Space", "duration": "19:14" },
+    { "title": "All Along the Watchtower", "duration": "9:43" },
+    { "title": "Morning Dew", "duration": "12:47" },
+    { "title": "Johnny B. Goode", "duration": "5:23" }
+  ]
+}

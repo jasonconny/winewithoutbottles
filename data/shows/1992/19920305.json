@@ -1,0 +1,30 @@
+{
+  "id": "19920305",
+  "date": "1992-03-05",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920305",
+  "songs": [
+    { "title": "Help On The Way", "duration": "4:57" },
+    { "title": "Slipknot!", "duration": "6:28" },
+    { "title": "Franklin's Tower", "duration": "9:05" },
+    { "title": "The Same Thing", "duration": "8:49" },
+    { "title": "Jack-A-Roe", "duration": "5:40" },
+    { "title": "Just Like Tom Thumb's Blues", "duration": "6:15" },
+    { "title": "Let It Grow", "duration": "12:11" },
+    { "title": "Eyes Of The World", "duration": "15:09" },
+    { "title": "Way to Go Home", "duration": "6:31" },
+    { "title": "Estimated Prophet", "duration": "12:59" },
+    { "title": "He's Gone", "duration": "10:23" },
+    { "title": "Drums", "duration": "11:01" },
+    { "title": "Space", "duration": "9:58" },
+    { "title": "The Wheel", "duration": "6:48" },
+    { "title": "I Need a Miracle", "duration": "4:29" },
+    { "title": "So Many Roads", "duration": "6:43" },
+    { "title": "Good Lovin'", "duration": "10:01" },
+    { "title": "U.S. Blues", "duration": "6:05" }
+  ]
+}

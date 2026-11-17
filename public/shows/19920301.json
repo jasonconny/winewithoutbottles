@@ -1,0 +1,88 @@
+{
+  "id": "19920301",
+  "date": "1992-03-01",
+  "venue": "The Omni",
+  "city": "Atlanta",
+  "state": "GA",
+  "country": "USA",
+  "tags": [
+    "Dead Drops"
+  ],
+  "svg": "/shows/19920301.svg",
+  "songCount": 18,
+  "durationSeconds": 8608,
+  "songs": [
+    {
+      "title": "Jack Straw",
+      "durationSeconds": 363
+    },
+    {
+      "title": "Althea",
+      "durationSeconds": 518
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "durationSeconds": 445
+    },
+    {
+      "title": "Row Jimmy",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "durationSeconds": 509
+    },
+    {
+      "title": "So Many Roads",
+      "durationSeconds": 450
+    },
+    {
+      "title": "Picasso Moon",
+      "durationSeconds": 411
+    },
+    {
+      "title": "Don't Ease Me In",
+      "durationSeconds": 207
+    },
+    {
+      "title": "Saint of Circumstance",
+      "durationSeconds": 493
+    },
+    {
+      "title": "Way to Go Home",
+      "durationSeconds": 358
+    },
+    {
+      "title": "Scarlet Begonias",
+      "durationSeconds": 611
+    },
+    {
+      "title": "Fire on the Mountain",
+      "durationSeconds": 632
+    },
+    {
+      "title": "Drums",
+      "durationSeconds": 625
+    },
+    {
+      "title": "Space",
+      "durationSeconds": 476
+    },
+    {
+      "title": "The Last Time",
+      "durationSeconds": 338
+    },
+    {
+      "title": "Black Peter",
+      "durationSeconds": 545
+    },
+    {
+      "title": "Sugar Magnolia",
+      "durationSeconds": 668
+    },
+    {
+      "title": "The Weight",
+      "durationSeconds": 334
+    }
+  ]
+}

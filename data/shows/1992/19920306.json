@@ -1,0 +1,29 @@
+{
+  "id": "19920306",
+  "date": "1992-03-06",
+  "venue": "Hampton Coliseum",
+  "city": "Hampton",
+  "state": "VA",
+  "country": "USA",
+  "tags": ["Dead Drops"],
+  "source": "dead-drop:19920306",
+  "songs": [
+    { "title": "Feel Like a Stranger", "duration": "11:05" },
+    { "title": "Friend Of The Devil", "duration": "10:09" },
+    { "title": "Mexicali Blues", "duration": "5:22" },
+    { "title": "Maggie's Farm", "duration": "8:18" },
+    { "title": "Stagger Lee", "duration": "7:27" },
+    { "title": "Picasso Moon", "duration": "6:48" },
+    { "title": "Bird Song", "duration": "13:22" },
+    { "title": "New Speedway Boogie", "duration": "6:47" },
+    { "title": "Truckin'", "duration": "7:12" },
+    { "title": "Crazy Fingers", "duration": "8:16" },
+    { "title": "Corrina", "duration": "9:40" },
+    { "title": "Drums", "duration": "12:09" },
+    { "title": "Space", "duration": "13:26" },
+    { "title": "The Last Time", "duration": "6:47" },
+    { "title": "Wharf Rat", "duration": "11:09" },
+    { "title": "Sugar Magnolia", "duration": "10:24" },
+    { "title": "The Weight", "duration": "6:18" }
+  ]
+}
